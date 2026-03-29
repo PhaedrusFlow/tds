@@ -1,5 +1,5 @@
-<!----------/phaedrusflow/tds/README.md ---------------->
-<!-- ----------TDS Professional Portfolio ----------------------->
+<!----------/phaedrusflow/tds/README.md ------------------>
+<!-- ----------TDS Professional Portfolio ---------------->
 <!-- Copyright (C) 2025 Qompass AI, All rights reserved -->
 <!-------------------------------------------------------->
 
@@ -7,7 +7,7 @@
 
 <h3> Field Services Technician </h3>
 
-![Repository Views](https://komarev.com/ghpvc/?username=qompassai-dotfiles)
+![Repository Views](https://komarev.com/ghpvc/?username=phaedrusflow-tds)
 
 <p align="center">
   <a href="https://tdstelecom.com">
@@ -108,9 +108,9 @@
 
 ## Total Internal Reflection — Why Light Stays in the Fiber
 
-$$
+```math
 \theta_c = \arcsin\!\left(\frac{n_2}{n_1}\right)
-$$
+```
 
 Where:
 
@@ -118,15 +118,17 @@ Where:
 * $n_1$ is the refractive index of the fiber core (~1.468 for silica)
 * $n_2$ is the refractive index of the cladding (~1.460 for silica cladding)
 
-When light strikes the core–cladding boundary at an angle greater than $\theta_c$, it reflects entirely back into the core with zero transmission loss into the cladding — the fundamental mechanism that makes fiber work.
+When light strikes the core–cladding boundary at an angle greater than $\theta_c$,
+it reflects entirely back into the core with zero transmission loss into the
+cladding — the fundamental mechanism that makes fiber work.
 
 ### Numerical Aperture
 
 The light-gathering capability of a fiber is described by its numerical aperture:
 
-$$
+```math
 \text{NA} = \sqrt{n_1^2 - n_2^2}
-$$
+```
 
 Where:
 
@@ -138,36 +140,43 @@ Where:
 
 Signal loss along a fiber span follows:
 
-$$
+```math
 P(L) = P_0 \cdot 10^{\left(\frac{-\alpha L}{10}\right)}
-$$
+```
 
 Where:
 
-* $P_0$ is the launch power (dBm) at the ONT or OLT
+* $P\_0$ is the launch power (dBm) at the ONT or OLT
 * $P(L)$ is the received power after distance $L$ (km)
-* $\alpha$ is the attenuation coefficient (dB/km) — ~0.35 dB/km at 1310nm, ~0.20 dB/km at 1550nm for SMF
-* For comparison, Cat5e copper attenuates at ~22 dB/100m at 100 MHz — roughly 100× worse per unit distance
+* $\alpha$ is the attenuation coefficient (dB/km) — ~0.35 dB/km at 1310nm,
+  ~0.20 dB/km at 1550nm for SMF
+* For comparison, Cat5e copper attenuates at ~22 dB/100m at 100 MHz —
+  roughly 100× worse per unit distance
 
 ### Shannon–Hartley — Maximum Theoretical Throughput
 
-$$
+```math
 C = B \log_2\!\left(1 + \frac{S}{N}\right)
-$$
+```
 
 Where:
 
 * $C$ is channel capacity (bits/second)
 * $B$ is bandwidth (Hz)
 * $S/N$ is the signal-to-noise ratio
-* Fiber's near-zero noise floor and multi-THz optical bandwidth give it a theoretical capacity orders of magnitude above copper
+* Fiber's near-zero noise floor and multi-THz optical bandwidth give it a
+  theoretical capacity orders of magnitude above copper
 
 ### XGS-PON — How TDS Delivers 10Gbps to Your Door
 
 * [XGS-PON ITU-T G.9807.1 Standard](https://www.itu.int/rec/T-REC-G.9807.1)
 * [Calix AXOS Platform](https://www.calix.com/solutions/fiber-broadband.html)
 
-The passive optical network (PON) architecture TDS uses requires no active electronics between the central office (CO) and the ONT at your premises — just glass and passive splitters. This eliminates the powered line cards, loading coils, and repeaters that copper DSL requires, reducing failure points and operating costs.
+The passive optical network (PON) architecture TDS uses requires no active
+electronics between the central office (CO) and the ONT at your premises —
+just glass and passive splitters. This eliminates the powered line cards,
+loading coils, and repeaters that copper DSL requires, reducing failure
+points and operating costs.
 
 ---
 
@@ -188,23 +197,3 @@ The passive optical network (PON) architecture TDS uses requires no active elect
 
 </details>
 
-### References
-
-<div id="footnotes">
-<p id="ref1"><strong>[1]</strong> <a href="https://www.itu.int/rec/T-REC-G.652">ITU-T G.652 — Characteristics of a single-mode optical fibre and cable</a></p>
-
-<p id="ref2"><strong>[2]</strong> <a href="https://www.itu.int/rec/T-REC-G.9807.1">ITU-T G.9807.1 — 10-Gigabit-capable symmetric passive optical network (XGS-PON)</a></p>
-
-<p id="ref3"><strong>[3]</strong> <a href="https://www.fcc.gov/secure-and-trusted-communications-networks">FCC Secure and Trusted Communications Networks Act</a></p>
-
-<p id="ref4"><strong>[4]</strong> <a href="https://broadbandusa.ntia.doc.gov/funding-programs/bead">NTIA BEAD Program — Broadband Equity, Access, and Deployment</a></p>
-
-<p id="ref5"><strong>[5]</strong> <a href="https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors/communications-sector">CISA Communications Sector Security</a></p>
-
-<p id="ref6"><strong>[6]</strong> <a href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1181/vote_118_1_00246.htm">Infrastructure Investment and Jobs Act — Broadband Provisions</a></p>
-
-<p id="ref7"><strong>[7]</strong> <a href="https://www.calix.com/solutions/fiber-broadband.html">Calix Fiber Broadband Platform</a></p>
-
-<p id="ref8"><strong>[8]</strong> <a href="https://therecord.media/salt-typhoon-china-telecom-hacking">Salt Typhoon: Chinese hackers accessed US telecom networks</a></p>
-</div>
-</details>
