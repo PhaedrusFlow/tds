@@ -1,0 +1,52 @@
+What NEC article covers telephone and data communications wiring?	Article 800 — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800
+What NEC article covers optical fiber cables?	Article 770 — https://up.codes/viewer/washington/nfpa-70-2020/chapter/7/special-conditions#770
+What NEC article covers coaxial cable (CATV)?	Article 820 — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#820
+What NEC article covers network-powered broadband systems?	Article 830 — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#830
+What does NEC 800-830 broadly cover?	Communications systems — telephone, fiber, coax, broadband — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems
+What is the minimum separation between communications cables and power conductors in a raceway?	They must not occupy the same raceway (NEC 800.133) — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_133
+What does NEC Article 90 cover?	Introduction — purpose, scope, and enforcement of the NEC — https://up.codes/viewer/washington/nfpa-70-2020/chapter/0/introduction#90
+What does NEC 100-110 cover?	Definitions and general requirements for all electrical installations — https://up.codes/viewer/washington/nfpa-70-2020/chapter/1/general#100
+What does NEC 250 cover?	Grounding and bonding — https://up.codes/viewer/washington/nfpa-70-2020/chapter/2/wiring-and-protection#250
+What is the purpose of bonding in a telecom system?	To equalize potential and protect against voltage surges between systems — https://up.codes/viewer/washington/nfpa-70-2020/chapter/2/wiring-and-protection#250
+What does NEC 300-398 cover?	Wiring methods and materials — https://up.codes/viewer/washington/nfpa-70-2020/chapter/3/wiring-methods-and-materials#300
+What does NEC 500-516 cover?	Hazardous locations — https://up.codes/viewer/washington/nfpa-70-2020/chapter/5/special-occupancies#500
+What does NEC 705-780 cover?	Special conditions — interconnected power production, energy storage, fire alarm, optical fiber, etc. — https://up.codes/viewer/washington/nfpa-70-2020/chapter/7/special-conditions#705
+What does NEC Article 760 cover?	Fire alarm systems — https://up.codes/viewer/washington/nfpa-70-2020/chapter/7/special-conditions#760
+What does NEC Article 725 cover?	Class 1, 2, and 3 remote-control, signaling, and power-limited circuits — https://up.codes/viewer/washington/nfpa-70-2020/chapter/7/special-conditions#725
+What does NEC Article 728 cover?	Fire-resistive cable systems — https://up.codes/viewer/washington/nfpa-70-2020/chapter/7/special-conditions#728
+What does NEC Article 780 cover?	Closed-loop and programmed power distribution — https://up.codes/viewer/washington/nfpa-70-2020/chapter/7/special-conditions#780
+What listing is required for communications cables entering a building?	Cables must be listed for their use and installation environment (plenum, riser, general) — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_110
+What is a plenum-rated cable?	A cable listed for use in air-handling spaces with low smoke/flame characteristics (CMP) — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_113
+What separates a riser-rated cable from a general-use cable?	Riser cable (CMR) is listed for vertical runs through floors; it must resist flame spread floor to floor — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_113
+What grounding electrode is required for the primary protector of a comm system?	Must connect to the building grounding electrode system (NEC 800.100) — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_100
+What is the purpose of a primary protector in a comm circuit?	Protects against overvoltage from lightning or contact with power lines — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_90
+Where must the primary protector for a comm system be located?	As close as practicable to where the cable enters the building — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_90
+What are the 4 cable types in NEC Article 800?	CMP (plenum), CMR (riser), CMG (general), CM (general), CMX (residential) — https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_113
+What does RCW 19.28 broadly govern?	Electricians and electrical installations in Washington State — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28
+What does RCW 19.28.430 govern?	Telecommunications administrator examination and certificate requirements — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28.430
+What does RCW 19.28.440 govern?	Examination requirements specific to telecommunications administrators — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28.440
+Who enforces RCW 19.28 in Washington?	Department of Labor & Industries (L&I) — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28
+Can a telecom administrator pull permits in Washington?	Yes — administrators are authorized to obtain permits for electrical/telecom work — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28.430
+What is required before performing telecom work under RCW 19.28?	A permit must be obtained from the local authority having jurisdiction — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28
+What is the role of a telecom administrator under RCW 19.28?	To supervise, manage, and be responsible for telecom electrical installations — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28.430
+Does RCW 19.28 apply to work done on utility company property?	No — it exempts work done by or for utilities on utility-owned property — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28
+What is the penalty for performing electrical work without a license in WA?	Misdemeanor; subject to fines and stop-work orders — https://app.leg.wa.gov/rcw/default.aspx?cite=19.28
+What does WAC 296-46B govern?	Washington State electrical installation rules (WA amendments to and enforcement of the NEC) — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B
+What edition of the NEC does WAC 296-46B currently reference?	2020 NEC — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B
+What is WAC 296-46B-920?	The specialty classifications section — defines what each license type can perform — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B-920
+What specialty work can a telecom administrator supervise?	Telecommunications wiring and equipment installation — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B-920
+What is required for a permit application under WAC 296-46B?	Applicant must be a licensed administrator or contractor; work scope must be described — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B
+What does WAC 296-46B require for inspections?	Work must be inspected and approved before being concealed or energized — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B
+Who performs electrical inspections in WA?	L&I inspectors or approved local inspectors (third-party inspection agencies) — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B
+What is a certificate of approval (COA) in WA?	The document issued after an inspection passes — required before energizing new work — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B
+What is the scope of a 09-Telecommunications specialty?	Installation of comm wiring, fiber, coax, phone systems, and related low-voltage telecom equipment — https://app.leg.wa.gov/wac/default.aspx?cite=296-46B-920
+What score do you need to pass the telecom admin exam?	70% on each section — https://lni.wa.gov/licensing-permits/electrical/electrical-licensing-exams-education/telecommunications-administrator
+How many questions are on the NEC & Theory section?	30 scored (plus up to 10 unscored experimental) — https://lni.wa.gov/licensing-permits/electrical/electrical-licensing-exams-education/telecommunications-administrator
+How many questions are on the WA Codes section?	17 — https://lni.wa.gov/licensing-permits/electrical/electrical-licensing-exams-education/telecommunications-administrator
+How long is the NEC & Theory section?	2 hours — https://lni.wa.gov/licensing-permits/electrical/electrical-licensing-exams-education/telecommunications-administrator
+How long is the WA Codes section?	1 hour — https://lni.wa.gov/licensing-permits/electrical/electrical-licensing-exams-education/telecommunications-administrator
+Is the telecom admin exam open book?	Yes — original copyrighted materials and printed RCW/WAC in a binder allowed — https://lni.wa.gov/licensing-permits/electrical/electrical-licensing-exams-education/telecommunications-administrator
+How long do you have to apply for your certificate after passing?	90 days from the last passing score — https://lni.wa.gov/licensing-permits/electrical/electrical-licensing-exams-education/telecommunications-administrator
+Does a telecom administrator candidate need L&I pre-approval to schedule the exam?	No — schedule directly with PSI using your SSN as the WLI_ID — https://test-takers.psiexams.com/walaborind
+How long do you have to pass all exam sections?	One year from first attempt — https://test-takers.psiexams.com/walaborind
+How long must you wait to retest after a failure?	14 days; after 3rd failure, 3 months — https://test-takers.psiexams.com/walaborind

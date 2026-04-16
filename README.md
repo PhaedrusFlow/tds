@@ -1,6 +1,5 @@
 <!----------/phaedrusflow/tds/README.md -------------------->
 <!-- ----------TDS Professional Portfolio ----------------->
-<!-- Copyright (C) 2025 Qompass AI, All rights reserved -->
 <!--------------------------------------------------------->
 
 <h2>Matt A. Porter</h2>
@@ -11,7 +10,7 @@
 <p align="center">
   <a href="https://tdstelecom.com">
     <img src="https://img.shields.io/badge/TDS_Telecom-Personal_Views_Only-005DAA?style=for-the-badge&logo=ethernet&logoColor=white"
-      alt="TDS Telecom - Personal Views Only">
+      alt="Personal Views are my own and do not Reflect the views of TDS">
   </a>
   <br>
   <a href="https://www.fcc.gov/consumers/guides/types-broadband-connections">
