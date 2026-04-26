@@ -119,6 +119,21 @@ Article 840 covers optical fiber-based broadband systems where power is supplied
 - 🔗 [ElectricalLicenseRenewal.com — NEC Content Library](https://www.electricallicenserenewal.com/Electrical-Continuing-Education-Courses/NEC-Content.php) — Free NEC article summaries in CE format
 - 🔗 [NFPA — Understanding NFPA 70 Overview](https://www.nfpa.org/education-and-research/electrical/understanding-nfpa-70-national-electrical-code) — Official NFPA intro guide
 
+
+</details>
+
+## 🔧 Practice Questions
+
+<details>
+<summary><strong>📋 Free Practice Questions/Tests</strong></summary>
+
+- 🔗  https://www.electricianexampracticetests.com/electrical-theory/ohms-law-test-questions/
+* https://thompsonlearningco.com/free-electrician-exam-practice-test-2020-nec/
+- 🔗 [EC&M Code Basics Library](https://www.ecmweb.com/national-electrical-code/code-basics) — Free NEC article explanations by EC&M magazine
+- 🔗 [ElectricalLicenseRenewal.com — NEC Content Library](https://www.electricallicenserenewal.com/Electrical-Continuing-Education-Courses/NEC-Content.php) — Free NEC article summaries in CE format
+- 🔗 [NFPA — Understanding NFPA 70 Overview](https://www.nfpa.org/education-and-research/electrical/understanding-nfpa-70-national-electrical-code) — Official NFPA intro guide
+
+
 </details>
 
 ---
