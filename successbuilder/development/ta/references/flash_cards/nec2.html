@@ -1,0 +1,2348 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Anki PDF Exporter:  (186 cards)</title>
+    <style>
+        body {
+            font-size: 10pt;
+            font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+        }
+        .cards-container {
+            column-count: 1;
+        }
+        .card > table {
+            width: 100%;
+        }
+        .card > table > tr > td {
+            vertical-align: top
+        }
+        td.question, td.answer {
+            word-break: break-all;
+            word-break: break-word;
+            hyphens: auto;
+        }
+        td.index {
+            font-size: 9pt;
+            width: 5%;
+            color: #888888;
+        }
+        td.question {
+            width: 18%;
+            font-weight: normal;
+        }
+        td.spacer {
+            width: 3%;
+        }
+        td.answer {
+            width: 100%;
+        }
+        .card {
+            page-break-inside: avoid;
+            page-break-after: auto;
+        }
+        img {
+            max-width: 35%;
+            max-height: 35vh;
+        }
+        hr {
+            color: #DADADA;
+            border-width: 1px;
+            height: 0px;
+            border-style: solid;
+        }
+        
+/* Cloze deletions */
+.cloze {
+  font-weight: bold;
+  color: blue;
+}
+
+/* Image occlusions */
+#io-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+#io-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3
+}
+
+#io-original {
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 2
+}
+
+#io-revl-btn {
+  display: none;
+}
+    </style>
+    <base href="file:///home/phaedrus/.local/share/Anki2/User%201/collection.media/">
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+    function unfixAll() {
+      for (const el of document.getElementsByTagName("*")){
+          var style = window.getComputedStyle(el);
+          if (style.position === "fixed") {
+            if (style.display === "none" || style.visibility === "hidden") return;
+            el.remove();
+          }
+      }
+    }
+    function removeInlineImgStyles(){
+        for(let elm of document.getElementsByTagName("img")){
+            elm.style.width = null;
+            elm.style.height = null;
+      }
+    }
+
+    window.addEventListener("load", unfixAll);
+    window.addEventListener("load", removeInlineImgStyles);
+    </script>
+</head>
+    
+<body>
+<div class="cards-container">
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">1.1</td>
+                    <td class="question"><span class="cloze" data-cloze="Article 800" data-ordinal="1">[...]</span> covers <span class="cloze-inactive" data-ordinal="2">telephone</span> and <span class="cloze-inactive" data-ordinal="3">data communications</span> wiring?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">Article 800</span> covers <span class="cloze-inactive" data-ordinal="2">telephone</span> and <span class="cloze-inactive" data-ordinal="3">data communications</span> wiring?<br/>— [NEC 800 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">1.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">Article 800</span> covers <span class="cloze" data-cloze="telephone" data-ordinal="2">[...]</span> and <span class="cloze-inactive" data-ordinal="3">data communications</span> wiring?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">Article 800</span> covers <span class="cloze" data-ordinal="2">telephone</span> and <span class="cloze-inactive" data-ordinal="3">data communications</span> wiring?<br/>— [NEC 800 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">1.3</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">Article 800</span> covers <span class="cloze-inactive" data-ordinal="2">telephone</span> and <span class="cloze" data-cloze="data communications" data-ordinal="3">[...]</span> wiring?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">Article 800</span> covers <span class="cloze-inactive" data-ordinal="2">telephone</span> and <span class="cloze" data-ordinal="3">data communications</span> wiring?<br/>— [NEC 800 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">2.1</td>
+                    <td class="question"><div style="text-align: center;">NEC Article <span class="cloze" data-cloze="770" data-ordinal="1">[...]</span> covers <span class="cloze-inactive" data-ordinal="2">optical fiber cables</span>**?</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">NEC Article <span class="cloze" data-ordinal="1">770</span> covers <span class="cloze-inactive" data-ordinal="2">optical fiber cables</span>**?</div><br/><div style="text-align: center;">— [NEC 770 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/7/special-conditions#770)</div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">2.2</td>
+                    <td class="question"><div style="text-align: center;">NEC Article <span class="cloze-inactive" data-ordinal="1">770</span> covers <span class="cloze" data-cloze="optical fiber cables" data-ordinal="2">[...]</span>**?</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">NEC Article <span class="cloze-inactive" data-ordinal="1">770</span> covers <span class="cloze" data-ordinal="2">optical fiber cables</span>**?</div><br/><div style="text-align: center;">— [NEC 770 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/7/special-conditions#770)</div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">3.1</td>
+                    <td class="question"><div style="text-align: center;">NEC article <span class="cloze" data-cloze="820" data-ordinal="1">[...]</span> covers **<span class="cloze-inactive" data-ordinal="2">coaxial cable (CATV)</span>**?</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">NEC article <span class="cloze" data-ordinal="1">820</span> covers **<span class="cloze-inactive" data-ordinal="2">coaxial cable (CATV)</span>**?</div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">3.2</td>
+                    <td class="question"><div style="text-align: center;">NEC article <span class="cloze-inactive" data-ordinal="1">820</span> covers **<span class="cloze" data-cloze="coaxial cable (CATV)" data-ordinal="2">[...]</span>**?</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">NEC article <span class="cloze-inactive" data-ordinal="1">820</span> covers **<span class="cloze" data-ordinal="2">coaxial cable (CATV)</span>**?</div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">4.1</td>
+                    <td class="question"><div style="text-align: center;">Article <span class="cloze" data-cloze="&amp;nbsp;830" data-ordinal="1">[...]</span> covers <span class="cloze-inactive" data-ordinal="2">network-powered broadband</span> systems?</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">Article <span class="cloze" data-ordinal="1"> 830</span> covers <span class="cloze-inactive" data-ordinal="2">network-powered broadband</span> systems?</div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">4.2</td>
+                    <td class="question"><div style="text-align: center;">Article <span class="cloze-inactive" data-ordinal="1"> 830</span> covers <span class="cloze" data-cloze="network-powered broadband" data-ordinal="2">[...]</span> systems?</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">Article <span class="cloze-inactive" data-ordinal="1"> 830</span> covers <span class="cloze" data-ordinal="2">network-powered broadband</span> systems?</div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">4.3</td>
+                    <td class="question"><div>No cloze ⁨3⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div>No cloze ⁨3⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">5.1</td>
+                    <td class="question">Article <span class="cloze" data-cloze="&amp;nbsp;840" data-ordinal="1">[...]</span> covers <span class="cloze-inactive" data-ordinal="2">premises-powered</span> broadband** (ONT/FTTH)?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Article <span class="cloze" data-ordinal="1"> 840</span> covers <span class="cloze-inactive" data-ordinal="2">premises-powered</span> broadband** (ONT/FTTH)?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">5.2</td>
+                    <td class="question">Article <span class="cloze-inactive" data-ordinal="1"> 840</span> covers <span class="cloze" data-cloze="premises-powered" data-ordinal="2">[...]</span> broadband** (ONT/FTTH)?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Article <span class="cloze-inactive" data-ordinal="1"> 840</span> covers <span class="cloze" data-ordinal="2">premises-powered</span> broadband** (ONT/FTTH)?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">6.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="5">NEC Article 90</span> covers <span class="cloze" data-cloze="Introduction" data-ordinal="1">[...]</span> — <span class="cloze-inactive" data-ordinal="2">purpose</span>, <span class="cloze-inactive" data-ordinal="3">scope</span>, and <span class="cloze-inactive" data-ordinal="4">enforcement</span> of the NEC</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="5">NEC Article 90</span> covers <span class="cloze" data-ordinal="1">Introduction</span> — <span class="cloze-inactive" data-ordinal="2">purpose</span>, <span class="cloze-inactive" data-ordinal="3">scope</span>, and <span class="cloze-inactive" data-ordinal="4">enforcement</span> of the NEC<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">6.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="5">NEC Article 90</span> covers <span class="cloze-inactive" data-ordinal="1">Introduction</span> — <span class="cloze" data-cloze="purpose" data-ordinal="2">[...]</span>, <span class="cloze-inactive" data-ordinal="3">scope</span>, and <span class="cloze-inactive" data-ordinal="4">enforcement</span> of the NEC</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="5">NEC Article 90</span> covers <span class="cloze-inactive" data-ordinal="1">Introduction</span> — <span class="cloze" data-ordinal="2">purpose</span>, <span class="cloze-inactive" data-ordinal="3">scope</span>, and <span class="cloze-inactive" data-ordinal="4">enforcement</span> of the NEC<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">6.3</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="5">NEC Article 90</span> covers <span class="cloze-inactive" data-ordinal="1">Introduction</span> — <span class="cloze-inactive" data-ordinal="2">purpose</span>, <span class="cloze" data-cloze="scope" data-ordinal="3">[...]</span>, and <span class="cloze-inactive" data-ordinal="4">enforcement</span> of the NEC</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="5">NEC Article 90</span> covers <span class="cloze-inactive" data-ordinal="1">Introduction</span> — <span class="cloze-inactive" data-ordinal="2">purpose</span>, <span class="cloze" data-ordinal="3">scope</span>, and <span class="cloze-inactive" data-ordinal="4">enforcement</span> of the NEC<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">6.4</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="5">NEC Article 90</span> covers <span class="cloze-inactive" data-ordinal="1">Introduction</span> — <span class="cloze-inactive" data-ordinal="2">purpose</span>, <span class="cloze-inactive" data-ordinal="3">scope</span>, and <span class="cloze" data-cloze="enforcement" data-ordinal="4">[...]</span> of the NEC</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="5">NEC Article 90</span> covers <span class="cloze-inactive" data-ordinal="1">Introduction</span> — <span class="cloze-inactive" data-ordinal="2">purpose</span>, <span class="cloze-inactive" data-ordinal="3">scope</span>, and <span class="cloze" data-ordinal="4">enforcement</span> of the NEC<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">6.5</td>
+                    <td class="question"><span class="cloze" data-cloze="NEC Article 90" data-ordinal="5">[...]</span> covers <span class="cloze-inactive" data-ordinal="1">Introduction</span> — <span class="cloze-inactive" data-ordinal="2">purpose</span>, <span class="cloze-inactive" data-ordinal="3">scope</span>, and <span class="cloze-inactive" data-ordinal="4">enforcement</span> of the NEC</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="5">NEC Article 90</span> covers <span class="cloze-inactive" data-ordinal="1">Introduction</span> — <span class="cloze-inactive" data-ordinal="2">purpose</span>, <span class="cloze-inactive" data-ordinal="3">scope</span>, and <span class="cloze-inactive" data-ordinal="4">enforcement</span> of the NEC<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">7.1</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="4">100–110</span> covers <span class="cloze" data-cloze="Definitions" data-ordinal="1">[...]</span> and <span class="cloze-inactive" data-ordinal="2">general requirements</span> for all <span class="cloze-inactive" data-ordinal="3">electrical</span> installations</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="4">100–110</span> covers <span class="cloze" data-ordinal="1">Definitions</span> and <span class="cloze-inactive" data-ordinal="2">general requirements</span> for all <span class="cloze-inactive" data-ordinal="3">electrical</span> installations<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">7.2</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="4">100–110</span> covers <span class="cloze-inactive" data-ordinal="1">Definitions</span> and <span class="cloze" data-cloze="general requirements" data-ordinal="2">[...]</span> for all <span class="cloze-inactive" data-ordinal="3">electrical</span> installations</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="4">100–110</span> covers <span class="cloze-inactive" data-ordinal="1">Definitions</span> and <span class="cloze" data-ordinal="2">general requirements</span> for all <span class="cloze-inactive" data-ordinal="3">electrical</span> installations<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">7.3</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="4">100–110</span> covers <span class="cloze-inactive" data-ordinal="1">Definitions</span> and <span class="cloze-inactive" data-ordinal="2">general requirements</span> for all <span class="cloze" data-cloze="electrical" data-ordinal="3">[...]</span> installations</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="4">100–110</span> covers <span class="cloze-inactive" data-ordinal="1">Definitions</span> and <span class="cloze-inactive" data-ordinal="2">general requirements</span> for all <span class="cloze" data-ordinal="3">electrical</span> installations<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">7.4</td>
+                    <td class="question">NEC <span class="cloze" data-cloze="100–110" data-ordinal="4">[...]</span> covers <span class="cloze-inactive" data-ordinal="1">Definitions</span> and <span class="cloze-inactive" data-ordinal="2">general requirements</span> for all <span class="cloze-inactive" data-ordinal="3">electrical</span> installations</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze" data-ordinal="4">100–110</span> covers <span class="cloze-inactive" data-ordinal="1">Definitions</span> and <span class="cloze-inactive" data-ordinal="2">general requirements</span> for all <span class="cloze-inactive" data-ordinal="3">electrical</span> installations<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">8.1</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="2">250</span> covers <span class="cloze" data-cloze="Grounding and bonding" data-ordinal="1">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="2">250</span> covers <span class="cloze" data-ordinal="1">Grounding and bonding</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">8.2</td>
+                    <td class="question">NEC <span class="cloze" data-cloze="250" data-ordinal="2">[...]</span> covers <span class="cloze-inactive" data-ordinal="1">Grounding and bonding</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze" data-ordinal="2">250</span> covers <span class="cloze-inactive" data-ordinal="1">Grounding and bonding</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">9.1</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="2">300–398</span> covers <span class="cloze" data-cloze="Wiring methods and materials" data-ordinal="1">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="2">300–398</span> covers <span class="cloze" data-ordinal="1">Wiring methods and materials</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">9.2</td>
+                    <td class="question">NEC <span class="cloze" data-cloze="300–398" data-ordinal="2">[...]</span> covers <span class="cloze-inactive" data-ordinal="1">Wiring methods and materials</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze" data-ordinal="2">300–398</span> covers <span class="cloze-inactive" data-ordinal="1">Wiring methods and materials</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">10.1</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="2">500–516</span> covers <span class="cloze" data-cloze="Hazardous locations" data-ordinal="1">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="2">500–516</span> covers <span class="cloze" data-ordinal="1">Hazardous locations</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">10.2</td>
+                    <td class="question">NEC <span class="cloze" data-cloze="500–516" data-ordinal="2">[...]</span> covers <span class="cloze-inactive" data-ordinal="1">Hazardous locations</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze" data-ordinal="2">500–516</span> covers <span class="cloze-inactive" data-ordinal="1">Hazardous locations</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">11.1</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="2">705–780</span> covers <span class="cloze" data-cloze="Special conditions" data-ordinal="1">[...]</span> — interconnected power production, <span class="cloze-inactive" data-ordinal="3">energy storage</span>, <span class="cloze-inactive" data-ordinal="4">fire alarm</span>, and <span class="cloze-inactive" data-ordinal="5">optical fiber</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="2">705–780</span> covers <span class="cloze" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze-inactive" data-ordinal="3">energy storage</span>, <span class="cloze-inactive" data-ordinal="4">fire alarm</span>, and <span class="cloze-inactive" data-ordinal="5">optical fiber</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">11.2</td>
+                    <td class="question">NEC <span class="cloze" data-cloze="705–780" data-ordinal="2">[...]</span> covers <span class="cloze-inactive" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze-inactive" data-ordinal="3">energy storage</span>, <span class="cloze-inactive" data-ordinal="4">fire alarm</span>, and <span class="cloze-inactive" data-ordinal="5">optical fiber</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze" data-ordinal="2">705–780</span> covers <span class="cloze-inactive" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze-inactive" data-ordinal="3">energy storage</span>, <span class="cloze-inactive" data-ordinal="4">fire alarm</span>, and <span class="cloze-inactive" data-ordinal="5">optical fiber</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">11.3</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="2">705–780</span> covers <span class="cloze-inactive" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze" data-cloze="energy storage" data-ordinal="3">[...]</span>, <span class="cloze-inactive" data-ordinal="4">fire alarm</span>, and <span class="cloze-inactive" data-ordinal="5">optical fiber</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="2">705–780</span> covers <span class="cloze-inactive" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze" data-ordinal="3">energy storage</span>, <span class="cloze-inactive" data-ordinal="4">fire alarm</span>, and <span class="cloze-inactive" data-ordinal="5">optical fiber</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">11.4</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="2">705–780</span> covers <span class="cloze-inactive" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze-inactive" data-ordinal="3">energy storage</span>, <span class="cloze" data-cloze="fire alarm" data-ordinal="4">[...]</span>, and <span class="cloze-inactive" data-ordinal="5">optical fiber</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="2">705–780</span> covers <span class="cloze-inactive" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze-inactive" data-ordinal="3">energy storage</span>, <span class="cloze" data-ordinal="4">fire alarm</span>, and <span class="cloze-inactive" data-ordinal="5">optical fiber</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">11.5</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="2">705–780</span> covers <span class="cloze-inactive" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze-inactive" data-ordinal="3">energy storage</span>, <span class="cloze-inactive" data-ordinal="4">fire alarm</span>, and <span class="cloze" data-cloze="optical fiber" data-ordinal="5">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="2">705–780</span> covers <span class="cloze-inactive" data-ordinal="1">Special conditions</span> — interconnected power production, <span class="cloze-inactive" data-ordinal="3">energy storage</span>, <span class="cloze-inactive" data-ordinal="4">fire alarm</span>, and <span class="cloze" data-ordinal="5">optical fiber</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">12.1</td>
+                    <td class="question">NEC Article <span class="cloze" data-cloze="760" data-ordinal="1">[...]</span> covers <span class="cloze-inactive" data-ordinal="2">Fire alarm systems</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC Article <span class="cloze" data-ordinal="1">760</span> covers <span class="cloze-inactive" data-ordinal="2">Fire alarm systems</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">12.2</td>
+                    <td class="question">NEC Article <span class="cloze-inactive" data-ordinal="1">760</span> covers <span class="cloze" data-cloze="Fire alarm systems" data-ordinal="2">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC Article <span class="cloze-inactive" data-ordinal="1">760</span> covers <span class="cloze" data-ordinal="2">Fire alarm systems</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">13.1</td>
+                    <td class="question"><div style="text-align: center;">NEC Article <span class="cloze-inactive" data-ordinal="3">725</span> covers <span class="cloze" data-cloze="Class 1, 2, and 3" data-ordinal="1">[...]</span> remote-control, signaling, and <span class="cloze-inactive" data-ordinal="2">power-limited</span> circuits </div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">NEC Article <span class="cloze-inactive" data-ordinal="3">725</span> covers <span class="cloze" data-ordinal="1">Class 1, 2, and 3</span> remote-control, signaling, and <span class="cloze-inactive" data-ordinal="2">power-limited</span> circuits </div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">13.2</td>
+                    <td class="question"><div style="text-align: center;">NEC Article <span class="cloze-inactive" data-ordinal="3">725</span> covers <span class="cloze-inactive" data-ordinal="1">Class 1, 2, and 3</span> remote-control, signaling, and <span class="cloze" data-cloze="power-limited" data-ordinal="2">[...]</span> circuits </div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">NEC Article <span class="cloze-inactive" data-ordinal="3">725</span> covers <span class="cloze-inactive" data-ordinal="1">Class 1, 2, and 3</span> remote-control, signaling, and <span class="cloze" data-ordinal="2">power-limited</span> circuits </div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">13.3</td>
+                    <td class="question"><div style="text-align: center;">NEC Article <span class="cloze" data-cloze="725" data-ordinal="3">[...]</span> covers <span class="cloze-inactive" data-ordinal="1">Class 1, 2, and 3</span> remote-control, signaling, and <span class="cloze-inactive" data-ordinal="2">power-limited</span> circuits </div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">NEC Article <span class="cloze" data-ordinal="3">725</span> covers <span class="cloze-inactive" data-ordinal="1">Class 1, 2, and 3</span> remote-control, signaling, and <span class="cloze-inactive" data-ordinal="2">power-limited</span> circuits </div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">14.1</td>
+                    <td class="question">Cables must be listed for their <span class="cloze" data-cloze="use and installation environment" data-ordinal="1">[...]</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Cables must be listed for their <span class="cloze" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?<br/> [NEC 800.110 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_110)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">14.2</td>
+                    <td class="question">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze" data-cloze="CMP" data-ordinal="2">[...]</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?<br/> [NEC 800.110 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_110)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">14.3</td>
+                    <td class="question">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze" data-cloze="plenum" data-ordinal="3">[...]</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?<br/> [NEC 800.110 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_110)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">14.4</td>
+                    <td class="question">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze" data-cloze="riser" data-ordinal="4">[...]</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?<br/> [NEC 800.110 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_110)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">14.5</td>
+                    <td class="question">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze" data-cloze="CMR" data-ordinal="5">[...]</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?<br/> [NEC 800.110 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_110)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">14.6</td>
+                    <td class="question">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze" data-cloze="general" data-ordinal="6">[...]</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze" data-ordinal="6">general</span> (<span class="cloze-inactive" data-ordinal="7">CM</span>) for communications cables entering a building**?<br/> [NEC 800.110 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_110)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">14.7</td>
+                    <td class="question">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze" data-cloze="CM" data-ordinal="7">[...]</span>) for communications cables entering a building**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Cables must be listed for their <span class="cloze-inactive" data-ordinal="1">use and installation environment</span>** — <span class="cloze-inactive" data-ordinal="3">plenum</span> (<span class="cloze-inactive" data-ordinal="2">CMP</span>), <span class="cloze-inactive" data-ordinal="4">riser</span> (<span class="cloze-inactive" data-ordinal="5">CMR</span>), or <span class="cloze-inactive" data-ordinal="6">general</span> (<span class="cloze" data-ordinal="7">CM</span>) for communications cables entering a building**?<br/> [NEC 800.110 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_110)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">15.1</td>
+                    <td class="question">A **<span class="cloze-inactive" data-ordinal="2">plenum-rated (CMP)</span>** communications cable is Listed for use in <span class="cloze" data-cloze="air-handling spaces" data-ordinal="1">[...]</span> with <span class="cloze-inactive" data-ordinal="3">low smoke</span> and <span class="cloze-inactive" data-ordinal="4">flame characteristics</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">A **<span class="cloze-inactive" data-ordinal="2">plenum-rated (CMP)</span>** communications cable is Listed for use in <span class="cloze" data-ordinal="1">air-handling spaces</span> with <span class="cloze-inactive" data-ordinal="3">low smoke</span> and <span class="cloze-inactive" data-ordinal="4">flame characteristics</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">15.2</td>
+                    <td class="question">A **<span class="cloze" data-cloze="plenum-rated (CMP)" data-ordinal="2">[...]</span>** communications cable is Listed for use in <span class="cloze-inactive" data-ordinal="1">air-handling spaces</span> with <span class="cloze-inactive" data-ordinal="3">low smoke</span> and <span class="cloze-inactive" data-ordinal="4">flame characteristics</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">A **<span class="cloze" data-ordinal="2">plenum-rated (CMP)</span>** communications cable is Listed for use in <span class="cloze-inactive" data-ordinal="1">air-handling spaces</span> with <span class="cloze-inactive" data-ordinal="3">low smoke</span> and <span class="cloze-inactive" data-ordinal="4">flame characteristics</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">15.3</td>
+                    <td class="question">A **<span class="cloze-inactive" data-ordinal="2">plenum-rated (CMP)</span>** communications cable is Listed for use in <span class="cloze-inactive" data-ordinal="1">air-handling spaces</span> with <span class="cloze" data-cloze="low smoke" data-ordinal="3">[...]</span> and <span class="cloze-inactive" data-ordinal="4">flame characteristics</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">A **<span class="cloze-inactive" data-ordinal="2">plenum-rated (CMP)</span>** communications cable is Listed for use in <span class="cloze-inactive" data-ordinal="1">air-handling spaces</span> with <span class="cloze" data-ordinal="3">low smoke</span> and <span class="cloze-inactive" data-ordinal="4">flame characteristics</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">15.4</td>
+                    <td class="question">A **<span class="cloze-inactive" data-ordinal="2">plenum-rated (CMP)</span>** communications cable is Listed for use in <span class="cloze-inactive" data-ordinal="1">air-handling spaces</span> with <span class="cloze-inactive" data-ordinal="3">low smoke</span> and <span class="cloze" data-cloze="flame characteristics" data-ordinal="4">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">A **<span class="cloze-inactive" data-ordinal="2">plenum-rated (CMP)</span>** communications cable is Listed for use in <span class="cloze-inactive" data-ordinal="1">air-handling spaces</span> with <span class="cloze-inactive" data-ordinal="3">low smoke</span> and <span class="cloze" data-ordinal="4">flame characteristics</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">16.1</td>
+                    <td class="question">CMR is listed for <span class="cloze" data-cloze="vertical runs through floors" data-ordinal="1">[...]</span>; must resist <span class="cloze-inactive" data-ordinal="2">flame spread floor to floor</span> separating <span class="cloze-inactive" data-ordinal="3">riser-rated</span> (CMR)** cable from general-use (CM) cable?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">CMR is listed for <span class="cloze" data-ordinal="1">vertical runs through floors</span>; must resist <span class="cloze-inactive" data-ordinal="2">flame spread floor to floor</span> separating <span class="cloze-inactive" data-ordinal="3">riser-rated</span> (CMR)** cable from general-use (CM) cable?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">16.2</td>
+                    <td class="question">CMR is listed for <span class="cloze-inactive" data-ordinal="1">vertical runs through floors</span>; must resist <span class="cloze" data-cloze="flame spread floor to floor" data-ordinal="2">[...]</span> separating <span class="cloze-inactive" data-ordinal="3">riser-rated</span> (CMR)** cable from general-use (CM) cable?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">CMR is listed for <span class="cloze-inactive" data-ordinal="1">vertical runs through floors</span>; must resist <span class="cloze" data-ordinal="2">flame spread floor to floor</span> separating <span class="cloze-inactive" data-ordinal="3">riser-rated</span> (CMR)** cable from general-use (CM) cable?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">16.3</td>
+                    <td class="question">CMR is listed for <span class="cloze-inactive" data-ordinal="1">vertical runs through floors</span>; must resist <span class="cloze-inactive" data-ordinal="2">flame spread floor to floor</span> separating <span class="cloze" data-cloze="riser-rated" data-ordinal="3">[...]</span> (CMR)** cable from general-use (CM) cable?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">CMR is listed for <span class="cloze-inactive" data-ordinal="1">vertical runs through floors</span>; must resist <span class="cloze-inactive" data-ordinal="2">flame spread floor to floor</span> separating <span class="cloze" data-ordinal="3">riser-rated</span> (CMR)** cable from general-use (CM) cable?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">17.1</td>
+                    <td class="question">The **4 communications cable types** in NEC Article 800 are -<span class="cloze" data-cloze="CMP" data-ordinal="1">[...]</span> — <span class="cloze-inactive" data-ordinal="3">Plenum</span> - <span class="cloze-inactive" data-ordinal="2">CMR</span> — <span class="cloze-inactive" data-ordinal="4">Riser</span> - CMG / CM — General - **CMX** </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The **4 communications cable types** in NEC Article 800 are -<span class="cloze" data-ordinal="1">CMP</span> — <span class="cloze-inactive" data-ordinal="3">Plenum</span> - <span class="cloze-inactive" data-ordinal="2">CMR</span> — <span class="cloze-inactive" data-ordinal="4">Riser</span> - CMG / CM — General - **CMX** <br/> Residential[NEC 800.113 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_113)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">17.2</td>
+                    <td class="question">The **4 communications cable types** in NEC Article 800 are -<span class="cloze-inactive" data-ordinal="1">CMP</span> — <span class="cloze-inactive" data-ordinal="3">Plenum</span> - <span class="cloze" data-cloze="CMR" data-ordinal="2">[...]</span> — <span class="cloze-inactive" data-ordinal="4">Riser</span> - CMG / CM — General - **CMX** </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The **4 communications cable types** in NEC Article 800 are -<span class="cloze-inactive" data-ordinal="1">CMP</span> — <span class="cloze-inactive" data-ordinal="3">Plenum</span> - <span class="cloze" data-ordinal="2">CMR</span> — <span class="cloze-inactive" data-ordinal="4">Riser</span> - CMG / CM — General - **CMX** <br/> Residential[NEC 800.113 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_113)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">17.3</td>
+                    <td class="question">The **4 communications cable types** in NEC Article 800 are -<span class="cloze-inactive" data-ordinal="1">CMP</span> — <span class="cloze" data-cloze="Plenum" data-ordinal="3">[...]</span> - <span class="cloze-inactive" data-ordinal="2">CMR</span> — <span class="cloze-inactive" data-ordinal="4">Riser</span> - CMG / CM — General - **CMX** </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The **4 communications cable types** in NEC Article 800 are -<span class="cloze-inactive" data-ordinal="1">CMP</span> — <span class="cloze" data-ordinal="3">Plenum</span> - <span class="cloze-inactive" data-ordinal="2">CMR</span> — <span class="cloze-inactive" data-ordinal="4">Riser</span> - CMG / CM — General - **CMX** <br/> Residential[NEC 800.113 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_113)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">17.4</td>
+                    <td class="question">The **4 communications cable types** in NEC Article 800 are -<span class="cloze-inactive" data-ordinal="1">CMP</span> — <span class="cloze-inactive" data-ordinal="3">Plenum</span> - <span class="cloze-inactive" data-ordinal="2">CMR</span> — <span class="cloze" data-cloze="Riser" data-ordinal="4">[...]</span> - CMG / CM — General - **CMX** </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The **4 communications cable types** in NEC Article 800 are -<span class="cloze-inactive" data-ordinal="1">CMP</span> — <span class="cloze-inactive" data-ordinal="3">Plenum</span> - <span class="cloze-inactive" data-ordinal="2">CMR</span> — <span class="cloze" data-ordinal="4">Riser</span> - CMG / CM — General - **CMX** <br/> Residential[NEC 800.113 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_113)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">18.1</td>
+                    <td class="question"><span class="cloze" data-cloze="building grounding electrode system" data-ordinal="1">[...]</span> is required for the <span class="cloze-inactive" data-ordinal="2">**primary protector**</span> of a comm system?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">building grounding electrode system</span> is required for the <span class="cloze-inactive" data-ordinal="2">**primary protector**</span> of a comm system?<br/>[NEC 800.100 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_100)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">18.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">building grounding electrode system</span> is required for the <span class="cloze" data-cloze="**primary protector**" data-ordinal="2">[...]</span> of a comm system?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">building grounding electrode system</span> is required for the <span class="cloze" data-ordinal="2">**primary protector**</span> of a comm system?<br/>[NEC 800.100 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_100)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">19.1</td>
+                    <td class="question"><div style="text-align: center;">A <span class="cloze" data-cloze="primary protector" data-ordinal="1">[...]</span> protects against <span class="cloze-inactive" data-ordinal="2">overvoltage from lightning</span> or contact with <span class="cloze-inactive" data-ordinal="3">power lines</span> in a comm circuit</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">A <span class="cloze" data-ordinal="1">primary protector</span> protects against <span class="cloze-inactive" data-ordinal="2">overvoltage from lightning</span> or contact with <span class="cloze-inactive" data-ordinal="3">power lines</span> in a comm circuit</div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">19.2</td>
+                    <td class="question"><div style="text-align: center;">A <span class="cloze-inactive" data-ordinal="1">primary protector</span> protects against <span class="cloze" data-cloze="overvoltage from lightning" data-ordinal="2">[...]</span> or contact with <span class="cloze-inactive" data-ordinal="3">power lines</span> in a comm circuit</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">A <span class="cloze-inactive" data-ordinal="1">primary protector</span> protects against <span class="cloze" data-ordinal="2">overvoltage from lightning</span> or contact with <span class="cloze-inactive" data-ordinal="3">power lines</span> in a comm circuit</div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">19.3</td>
+                    <td class="question"><div style="text-align: center;">A <span class="cloze-inactive" data-ordinal="1">primary protector</span> protects against <span class="cloze-inactive" data-ordinal="2">overvoltage from lightning</span> or contact with <span class="cloze" data-cloze="power lines" data-ordinal="3">[...]</span> in a comm circuit</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">A <span class="cloze-inactive" data-ordinal="1">primary protector</span> protects against <span class="cloze-inactive" data-ordinal="2">overvoltage from lightning</span> or contact with <span class="cloze" data-ordinal="3">power lines</span> in a comm circuit</div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">20.1</td>
+                    <td class="question">the <span class="cloze-inactive" data-ordinal="2">primary protector</span> for a comm system must be located <span class="cloze" data-cloze="As close as practicable to where the cable enters the building" data-ordinal="1">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">the <span class="cloze-inactive" data-ordinal="2">primary protector</span> for a comm system must be located <span class="cloze" data-ordinal="1">As close as practicable to where the cable enters the building</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">20.2</td>
+                    <td class="question">the <span class="cloze" data-cloze="primary protector" data-ordinal="2">[...]</span> for a comm system must be located <span class="cloze-inactive" data-ordinal="1">As close as practicable to where the cable enters the building</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">the <span class="cloze" data-ordinal="2">primary protector</span> for a comm system must be located <span class="cloze-inactive" data-ordinal="1">As close as practicable to where the cable enters the building</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">21.1</td>
+                    <td class="question">The <span class="cloze-inactive" data-ordinal="2">minimum separation</span> between <span class="cloze-inactive" data-ordinal="3">comm cables and power conductors</span> must NOT <span class="cloze" data-cloze="occupy the same raceway" data-ordinal="1">[...]</span> in a shared raceway?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The <span class="cloze-inactive" data-ordinal="2">minimum separation</span> between <span class="cloze-inactive" data-ordinal="3">comm cables and power conductors</span> must NOT <span class="cloze" data-ordinal="1">occupy the same raceway</span> in a shared raceway?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">21.2</td>
+                    <td class="question">The <span class="cloze" data-cloze="minimum separation" data-ordinal="2">[...]</span> between <span class="cloze-inactive" data-ordinal="3">comm cables and power conductors</span> must NOT <span class="cloze-inactive" data-ordinal="1">occupy the same raceway</span> in a shared raceway?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The <span class="cloze" data-ordinal="2">minimum separation</span> between <span class="cloze-inactive" data-ordinal="3">comm cables and power conductors</span> must NOT <span class="cloze-inactive" data-ordinal="1">occupy the same raceway</span> in a shared raceway?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">21.3</td>
+                    <td class="question">The <span class="cloze-inactive" data-ordinal="2">minimum separation</span> between <span class="cloze" data-cloze="comm cables and power conductors" data-ordinal="3">[...]</span> must NOT <span class="cloze-inactive" data-ordinal="1">occupy the same raceway</span> in a shared raceway?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The <span class="cloze-inactive" data-ordinal="2">minimum separation</span> between <span class="cloze" data-ordinal="3">comm cables and power conductors</span> must NOT <span class="cloze-inactive" data-ordinal="1">occupy the same raceway</span> in a shared raceway?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">22.1</td>
+                    <td class="question">Per <span class="cloze-inactive" data-ordinal="2">NEC 800.44</span> comm cables be located <span class="cloze" data-cloze="Below" data-ordinal="1">[...]</span> the electric light or power conductors, if practicable relative to power conductors on a shared pole?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Per <span class="cloze-inactive" data-ordinal="2">NEC 800.44</span> comm cables be located <span class="cloze" data-ordinal="1">Below</span> the electric light or power conductors, if practicable relative to power conductors on a shared pole?<br/>[NEC 800.44 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_44)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">22.2</td>
+                    <td class="question">Per <span class="cloze" data-cloze="NEC 800.44" data-ordinal="2">[...]</span> comm cables be located <span class="cloze-inactive" data-ordinal="1">Below</span> the electric light or power conductors, if practicable relative to power conductors on a shared pole?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Per <span class="cloze" data-ordinal="2">NEC 800.44</span> comm cables be located <span class="cloze-inactive" data-ordinal="1">Below</span> the electric light or power conductors, if practicable relative to power conductors on a shared pole?<br/>[NEC 800.44 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_44)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">23.1</td>
+                    <td class="question"><span class="cloze" data-cloze="2.5 m (8 ft)" data-ordinal="1">[...]</span> from all points of roofs above which they pass is the minimum **vertical clearance of comm cables above roofs** per NEC <span class="cloze-inactive" data-ordinal="2">800.44(B)</span>?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">2.5 m (8 ft)</span> from all points of roofs above which they pass is the minimum **vertical clearance of comm cables above roofs** per NEC <span class="cloze-inactive" data-ordinal="2">800.44(B)</span>?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">23.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">2.5 m (8 ft)</span> from all points of roofs above which they pass is the minimum **vertical clearance of comm cables above roofs** per NEC <span class="cloze" data-cloze="800.44(B)" data-ordinal="2">[...]</span>?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">2.5 m (8 ft)</span> from all points of roofs above which they pass is the minimum **vertical clearance of comm cables above roofs** per NEC <span class="cloze" data-ordinal="2">800.44(B)</span>?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">24.1</td>
+                    <td class="question"><span class="cloze" data-cloze="300 mm (12 in.)" data-ordinal="1">[...]</span> is the minimum **separation between comm cables and 0–750V power conductors** running parallel at any point in the span, provided power conductors are insulated and clearance at the pole is at least <span class="cloze-inactive" data-ordinal="2">1.0 m (40 in.)</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">300 mm (12 in.)</span> is the minimum **separation between comm cables and 0–750V power conductors** running parallel at any point in the span, provided power conductors are insulated and clearance at the pole is at least <span class="cloze-inactive" data-ordinal="2">1.0 m (40 in.)</span> <br/><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">24.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">300 mm (12 in.)</span> is the minimum **separation between comm cables and 0–750V power conductors** running parallel at any point in the span, provided power conductors are insulated and clearance at the pole is at least <span class="cloze" data-cloze="1.0 m (40 in.)" data-ordinal="2">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">300 mm (12 in.)</span> is the minimum **separation between comm cables and 0–750V power conductors** running parallel at any point in the span, provided power conductors are insulated and clearance at the pole is at least <span class="cloze" data-ordinal="2">1.0 m (40 in.)</span> <br/><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">25.1</td>
+                    <td class="question">Unlisted outside plant cable may extend no more than <span class="cloze" data-cloze="15 m (50 ft)" data-ordinal="1">[...]</span> inside a building before terminating on a <span class="cloze-inactive" data-ordinal="2">listed primary protector or enclosure</span> is the 50-ft rule for unlisted outside plant cables (NEC Article <span class="cloze-inactive" data-ordinal="3">800.48</span>)?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Unlisted outside plant cable may extend no more than <span class="cloze" data-ordinal="1">15 m (50 ft)</span> inside a building before terminating on a <span class="cloze-inactive" data-ordinal="2">listed primary protector or enclosure</span> is the 50-ft rule for unlisted outside plant cables (NEC Article <span class="cloze-inactive" data-ordinal="3">800.48</span>)?<br/> [NEC 800.48 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_48)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">25.2</td>
+                    <td class="question">Unlisted outside plant cable may extend no more than <span class="cloze-inactive" data-ordinal="1">15 m (50 ft)</span> inside a building before terminating on a <span class="cloze" data-cloze="listed primary protector or enclosure" data-ordinal="2">[...]</span> is the 50-ft rule for unlisted outside plant cables (NEC Article <span class="cloze-inactive" data-ordinal="3">800.48</span>)?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Unlisted outside plant cable may extend no more than <span class="cloze-inactive" data-ordinal="1">15 m (50 ft)</span> inside a building before terminating on a <span class="cloze" data-ordinal="2">listed primary protector or enclosure</span> is the 50-ft rule for unlisted outside plant cables (NEC Article <span class="cloze-inactive" data-ordinal="3">800.48</span>)?<br/> [NEC 800.48 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_48)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">25.3</td>
+                    <td class="question">Unlisted outside plant cable may extend no more than <span class="cloze-inactive" data-ordinal="1">15 m (50 ft)</span> inside a building before terminating on a <span class="cloze-inactive" data-ordinal="2">listed primary protector or enclosure</span> is the 50-ft rule for unlisted outside plant cables (NEC Article <span class="cloze" data-cloze="800.48" data-ordinal="3">[...]</span>)?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Unlisted outside plant cable may extend no more than <span class="cloze-inactive" data-ordinal="1">15 m (50 ft)</span> inside a building before terminating on a <span class="cloze-inactive" data-ordinal="2">listed primary protector or enclosure</span> is the 50-ft rule for unlisted outside plant cables (NEC Article <span class="cloze" data-ordinal="3">800.48</span>)?<br/> [NEC 800.48 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_48)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">26.1</td>
+                    <td class="question"><span class="cloze" data-cloze="150 mm (6 in.)" data-ordinal="1">[...]</span> is the minimum **<span class="cloze-inactive" data-ordinal="2">burial depth</span>** for direct-buried premises-powered broadband cables</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">150 mm (6 in.)</span> is the minimum **<span class="cloze-inactive" data-ordinal="2">burial depth</span>** for direct-buried premises-powered broadband cables<br/> [NEC 800.47 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_47)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">26.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">150 mm (6 in.)</span> is the minimum **<span class="cloze" data-cloze="burial depth" data-ordinal="2">[...]</span>** for direct-buried premises-powered broadband cables</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">150 mm (6 in.)</span> is the minimum **<span class="cloze" data-ordinal="2">burial depth</span>** for direct-buried premises-powered broadband cables<br/> [NEC 800.47 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/8/communications-systems#800_47)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">27.1</td>
+                    <td class="question"><span class="cloze" data-cloze="300 mm (12 in.)" data-ordinal="1">[...]</span> from conductors of any light or power, <span class="cloze-inactive" data-ordinal="2">non-power-limited fire alarm</span>, or Class 1 circuit [NEC article <span class="cloze-inactive" data-ordinal="3">800.47(B)</span> is the minimum **separation** for direct-buried comm cables from power conductors (NEC 800.47(B))?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">300 mm (12 in.)</span> from conductors of any light or power, <span class="cloze-inactive" data-ordinal="2">non-power-limited fire alarm</span>, or Class 1 circuit [NEC article <span class="cloze-inactive" data-ordinal="3">800.47(B)</span> is the minimum **separation** for direct-buried comm cables from power conductors (NEC 800.47(B))?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">27.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">300 mm (12 in.)</span> from conductors of any light or power, <span class="cloze" data-cloze="non-power-limited fire alarm" data-ordinal="2">[...]</span>, or Class 1 circuit [NEC article <span class="cloze-inactive" data-ordinal="3">800.47(B)</span> is the minimum **separation** for direct-buried comm cables from power conductors (NEC 800.47(B))?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">300 mm (12 in.)</span> from conductors of any light or power, <span class="cloze" data-ordinal="2">non-power-limited fire alarm</span>, or Class 1 circuit [NEC article <span class="cloze-inactive" data-ordinal="3">800.47(B)</span> is the minimum **separation** for direct-buried comm cables from power conductors (NEC 800.47(B))?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">27.3</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">300 mm (12 in.)</span> from conductors of any light or power, <span class="cloze-inactive" data-ordinal="2">non-power-limited fire alarm</span>, or Class 1 circuit [NEC article <span class="cloze" data-cloze="800.47(B)" data-ordinal="3">[...]</span> is the minimum **separation** for direct-buried comm cables from power conductors (NEC 800.47(B))?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">300 mm (12 in.)</span> from conductors of any light or power, <span class="cloze-inactive" data-ordinal="2">non-power-limited fire alarm</span>, or Class 1 circuit [NEC article <span class="cloze" data-ordinal="3">800.47(B)</span> is the minimum **separation** for direct-buried comm cables from power conductors (NEC 800.47(B))?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">28.1</td>
+                    <td class="question"><span class="cloze" data-cloze="1.8 m (6 ft)" data-ordinal="1">[...]</span> where practicable is the minimum separation between <span class="cloze-inactive" data-ordinal="2">lightning protection conductors</span> and <span class="cloze-inactive" data-ordinal="3">comm cables</span>** per NEC article <span class="cloze-inactive" data-ordinal="4">800.53</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">1.8 m (6 ft)</span> where practicable is the minimum separation between <span class="cloze-inactive" data-ordinal="2">lightning protection conductors</span> and <span class="cloze-inactive" data-ordinal="3">comm cables</span>** per NEC article <span class="cloze-inactive" data-ordinal="4">800.53</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">28.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">1.8 m (6 ft)</span> where practicable is the minimum separation between <span class="cloze" data-cloze="lightning protection conductors" data-ordinal="2">[...]</span> and <span class="cloze-inactive" data-ordinal="3">comm cables</span>** per NEC article <span class="cloze-inactive" data-ordinal="4">800.53</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">1.8 m (6 ft)</span> where practicable is the minimum separation between <span class="cloze" data-ordinal="2">lightning protection conductors</span> and <span class="cloze-inactive" data-ordinal="3">comm cables</span>** per NEC article <span class="cloze-inactive" data-ordinal="4">800.53</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">28.3</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">1.8 m (6 ft)</span> where practicable is the minimum separation between <span class="cloze-inactive" data-ordinal="2">lightning protection conductors</span> and <span class="cloze" data-cloze="comm cables" data-ordinal="3">[...]</span>** per NEC article <span class="cloze-inactive" data-ordinal="4">800.53</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">1.8 m (6 ft)</span> where practicable is the minimum separation between <span class="cloze-inactive" data-ordinal="2">lightning protection conductors</span> and <span class="cloze" data-ordinal="3">comm cables</span>** per NEC article <span class="cloze-inactive" data-ordinal="4">800.53</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">28.4</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">1.8 m (6 ft)</span> where practicable is the minimum separation between <span class="cloze-inactive" data-ordinal="2">lightning protection conductors</span> and <span class="cloze-inactive" data-ordinal="3">comm cables</span>** per NEC article <span class="cloze" data-cloze="800.53" data-ordinal="4">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">1.8 m (6 ft)</span> where practicable is the minimum separation between <span class="cloze-inactive" data-ordinal="2">lightning protection conductors</span> and <span class="cloze-inactive" data-ordinal="3">comm cables</span>** per NEC article <span class="cloze" data-ordinal="4">800.53</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">29.1</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="3">800.49</span> requires <span class="cloze-inactive" data-ordinal="4">metal entrance conduit</span> containing communications cable be connected by a <span class="cloze-inactive" data-ordinal="5">bonding conductor</span> to the <span class="cloze" data-cloze="building grounding electrode system" data-ordinal="1">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="3">800.49</span> requires <span class="cloze-inactive" data-ordinal="4">metal entrance conduit</span> containing communications cable be connected by a <span class="cloze-inactive" data-ordinal="5">bonding conductor</span> to the <span class="cloze" data-ordinal="1">building grounding electrode system</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">29.2</td>
+                    <td class="question"><div>No cloze ⁨2⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div>No cloze ⁨2⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">29.3</td>
+                    <td class="question">NEC <span class="cloze" data-cloze="800.49" data-ordinal="3">[...]</span> requires <span class="cloze-inactive" data-ordinal="4">metal entrance conduit</span> containing communications cable be connected by a <span class="cloze-inactive" data-ordinal="5">bonding conductor</span> to the <span class="cloze-inactive" data-ordinal="1">building grounding electrode system</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze" data-ordinal="3">800.49</span> requires <span class="cloze-inactive" data-ordinal="4">metal entrance conduit</span> containing communications cable be connected by a <span class="cloze-inactive" data-ordinal="5">bonding conductor</span> to the <span class="cloze-inactive" data-ordinal="1">building grounding electrode system</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">29.4</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="3">800.49</span> requires <span class="cloze" data-cloze="metal entrance conduit" data-ordinal="4">[...]</span> containing communications cable be connected by a <span class="cloze-inactive" data-ordinal="5">bonding conductor</span> to the <span class="cloze-inactive" data-ordinal="1">building grounding electrode system</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="3">800.49</span> requires <span class="cloze" data-ordinal="4">metal entrance conduit</span> containing communications cable be connected by a <span class="cloze-inactive" data-ordinal="5">bonding conductor</span> to the <span class="cloze-inactive" data-ordinal="1">building grounding electrode system</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">29.5</td>
+                    <td class="question">NEC <span class="cloze-inactive" data-ordinal="3">800.49</span> requires <span class="cloze-inactive" data-ordinal="4">metal entrance conduit</span> containing communications cable be connected by a <span class="cloze" data-cloze="bonding conductor" data-ordinal="5">[...]</span> to the <span class="cloze-inactive" data-ordinal="1">building grounding electrode system</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">NEC <span class="cloze-inactive" data-ordinal="3">800.49</span> requires <span class="cloze-inactive" data-ordinal="4">metal entrance conduit</span> containing communications cable be connected by a <span class="cloze" data-ordinal="5">bonding conductor</span> to the <span class="cloze-inactive" data-ordinal="1">building grounding electrode system</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">30.1</td>
+                    <td class="question">Per **NEC 800.50(C)(2)**, raceways shall <span class="cloze" data-cloze="slope upward from the outside" data-ordinal="1">[...]</span>, or form a <span class="cloze-inactive" data-ordinal="2">drip loop</span> immediately before entry; <span class="cloze-inactive" data-ordinal="3">raceways</span> must have an approved service head </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Per **NEC 800.50(C)(2)**, raceways shall <span class="cloze" data-ordinal="1">slope upward from the outside</span>, or form a <span class="cloze-inactive" data-ordinal="2">drip loop</span> immediately before entry; <span class="cloze-inactive" data-ordinal="3">raceways</span> must have an approved service head <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">30.2</td>
+                    <td class="question">Per **NEC 800.50(C)(2)**, raceways shall <span class="cloze-inactive" data-ordinal="1">slope upward from the outside</span>, or form a <span class="cloze" data-cloze="drip loop" data-ordinal="2">[...]</span> immediately before entry; <span class="cloze-inactive" data-ordinal="3">raceways</span> must have an approved service head </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Per **NEC 800.50(C)(2)**, raceways shall <span class="cloze-inactive" data-ordinal="1">slope upward from the outside</span>, or form a <span class="cloze" data-ordinal="2">drip loop</span> immediately before entry; <span class="cloze-inactive" data-ordinal="3">raceways</span> must have an approved service head <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">30.3</td>
+                    <td class="question">Per **NEC 800.50(C)(2)**, raceways shall <span class="cloze-inactive" data-ordinal="1">slope upward from the outside</span>, or form a <span class="cloze-inactive" data-ordinal="2">drip loop</span> immediately before entry; <span class="cloze" data-cloze="raceways" data-ordinal="3">[...]</span> must have an approved service head </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Per **NEC 800.50(C)(2)**, raceways shall <span class="cloze-inactive" data-ordinal="1">slope upward from the outside</span>, or form a <span class="cloze-inactive" data-ordinal="2">drip loop</span> immediately before entry; <span class="cloze" data-ordinal="3">raceways</span> must have an approved service head <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">31.1</td>
+                    <td class="question">The **<span class="cloze-inactive" data-ordinal="3">purpose of bonding</span>** in a telecom system to <span class="cloze" data-cloze="equalize potential" data-ordinal="1">[...]</span> and protect against <span class="cloze-inactive" data-ordinal="2">voltage surges between systems</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The **<span class="cloze-inactive" data-ordinal="3">purpose of bonding</span>** in a telecom system to <span class="cloze" data-ordinal="1">equalize potential</span> and protect against <span class="cloze-inactive" data-ordinal="2">voltage surges between systems</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">31.2</td>
+                    <td class="question">The **<span class="cloze-inactive" data-ordinal="3">purpose of bonding</span>** in a telecom system to <span class="cloze-inactive" data-ordinal="1">equalize potential</span> and protect against <span class="cloze" data-cloze="voltage surges between systems" data-ordinal="2">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The **<span class="cloze-inactive" data-ordinal="3">purpose of bonding</span>** in a telecom system to <span class="cloze-inactive" data-ordinal="1">equalize potential</span> and protect against <span class="cloze" data-ordinal="2">voltage surges between systems</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">31.3</td>
+                    <td class="question">The **<span class="cloze" data-cloze="purpose of bonding" data-ordinal="3">[...]</span>** in a telecom system to <span class="cloze-inactive" data-ordinal="1">equalize potential</span> and protect against <span class="cloze-inactive" data-ordinal="2">voltage surges between systems</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The **<span class="cloze" data-ordinal="3">purpose of bonding</span>** in a telecom system to <span class="cloze-inactive" data-ordinal="1">equalize potential</span> and protect against <span class="cloze-inactive" data-ordinal="2">voltage surges between systems</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">32.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze" data-cloze="Circuit conductor to be grounded" data-ordinal="1">[...]</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?<br/>[NEC 250.1 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/2/wiring-and-protection#250_1)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">32.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze" data-cloze="Location of grounding connections" data-ordinal="2">[...]</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?<br/>[NEC 250.1 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/2/wiring-and-protection#250_1)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">32.3</td>
+                    <td class="question"><span class="cloze" data-cloze="Systems/circuits required or permitted to be grounded" data-ordinal="3">[...]</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?<br/>[NEC 250.1 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/2/wiring-and-protection#250_1)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">32.4</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze" data-cloze="Types/sizes of grounding conductors and electrodes" data-ordinal="4">[...]</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?<br/>[NEC 250.1 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/2/wiring-and-protection#250_1)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">32.5</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze" data-cloze="Methods of grounding and bonding" data-ordinal="5">[...]</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze-inactive" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?<br/>[NEC 250.1 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/2/wiring-and-protection#250_1)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">32.6</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze" data-cloze="Conditions where isolation substitutes for grounding" data-ordinal="6">[...]</span> covered by NEC 250.1 Scope**?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Systems/circuits required or permitted to be grounded</span>,  <span class="cloze-inactive" data-ordinal="1">Circuit conductor to be grounded</span> <span class="cloze-inactive" data-ordinal="2">Location of grounding connections</span> <span class="cloze-inactive" data-ordinal="4">Types/sizes of grounding conductors and electrodes</span>  <span class="cloze-inactive" data-ordinal="5">Methods of grounding and bonding</span> <span class="cloze" data-ordinal="6">Conditions where isolation substitutes for grounding</span> covered by NEC 250.1 Scope**?<br/>[NEC 250.1 →](https://up.codes/viewer/washington/nfpa-70-2020/chapter/2/wiring-and-protection#250_1)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">33.1</td>
+                    <td class="question">What voltage range does NEC Article <span class="cloze-inactive" data-ordinal="3">250</span> covers electrical installations not over <span class="cloze" data-cloze="1000V AC" data-ordinal="1">[...]</span> / <span class="cloze-inactive" data-ordinal="2">1500V DC</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">What voltage range does NEC Article <span class="cloze-inactive" data-ordinal="3">250</span> covers electrical installations not over <span class="cloze" data-ordinal="1">1000V AC</span> / <span class="cloze-inactive" data-ordinal="2">1500V DC</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">33.2</td>
+                    <td class="question">What voltage range does NEC Article <span class="cloze-inactive" data-ordinal="3">250</span> covers electrical installations not over <span class="cloze-inactive" data-ordinal="1">1000V AC</span> / <span class="cloze" data-cloze="1500V DC" data-ordinal="2">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">What voltage range does NEC Article <span class="cloze-inactive" data-ordinal="3">250</span> covers electrical installations not over <span class="cloze-inactive" data-ordinal="1">1000V AC</span> / <span class="cloze" data-ordinal="2">1500V DC</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">33.3</td>
+                    <td class="question">What voltage range does NEC Article <span class="cloze" data-cloze="250" data-ordinal="3">[...]</span> covers electrical installations not over <span class="cloze-inactive" data-ordinal="1">1000V AC</span> / <span class="cloze-inactive" data-ordinal="2">1500V DC</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">What voltage range does NEC Article <span class="cloze" data-ordinal="3">250</span> covers electrical installations not over <span class="cloze-inactive" data-ordinal="1">1000V AC</span> / <span class="cloze-inactive" data-ordinal="2">1500V DC</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">34.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">Administrator (electrical)</span> is a person designated by an <span class="cloze" data-cloze="electrical contractor" data-ordinal="1">[...]</span> to supervise electrical work and electricians under this chapter </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">Administrator (electrical)</span> is a person designated by an <span class="cloze" data-ordinal="1">electrical contractor</span> to supervise electrical work and electricians under this chapter <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">34.2</td>
+                    <td class="question"><span class="cloze" data-cloze="Administrator (electrical)" data-ordinal="2">[...]</span> is a person designated by an <span class="cloze-inactive" data-ordinal="1">electrical contractor</span> to supervise electrical work and electricians under this chapter </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="2">Administrator (electrical)</span> is a person designated by an <span class="cloze-inactive" data-ordinal="1">electrical contractor</span> to supervise electrical work and electricians under this chapter <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">35.1</td>
+                    <td class="question">Electrical construction trade is <br/>installing or maintaining <span class="cloze" data-cloze="electrical wires and equipment" data-ordinal="1">[...]</span> for light, heat, or power, **and** installing/maintaining <span class="cloze-inactive" data-ordinal="2">remote control, signaling, power limited, or communication circuits or systems</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Electrical construction trade is <br/>installing or maintaining <span class="cloze" data-ordinal="1">electrical wires and equipment</span> for light, heat, or power, **and** installing/maintaining <span class="cloze-inactive" data-ordinal="2">remote control, signaling, power limited, or communication circuits or systems</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">35.2</td>
+                    <td class="question">Electrical construction trade is <br/>installing or maintaining <span class="cloze-inactive" data-ordinal="1">electrical wires and equipment</span> for light, heat, or power, **and** installing/maintaining <span class="cloze" data-cloze="remote control, signaling, power limited, or communication circuits or systems" data-ordinal="2">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Electrical construction trade is <br/>installing or maintaining <span class="cloze-inactive" data-ordinal="1">electrical wires and equipment</span> for light, heat, or power, **and** installing/maintaining <span class="cloze" data-ordinal="2">remote control, signaling, power limited, or communication circuits or systems</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">36.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Electrical contractor</span> is an entity that <span class="cloze" data-cloze="offers, bids for, or does work" data-ordinal="1">[...]</span> installing or maintaining wires or equipment that convey <span class="cloze-inactive" data-ordinal="2">electrical current</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Electrical contractor</span> is an entity that <span class="cloze" data-ordinal="1">offers, bids for, or does work</span> installing or maintaining wires or equipment that convey <span class="cloze-inactive" data-ordinal="2">electrical current</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">36.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Electrical contractor</span> is an entity that <span class="cloze-inactive" data-ordinal="1">offers, bids for, or does work</span> installing or maintaining wires or equipment that convey <span class="cloze" data-cloze="electrical current" data-ordinal="2">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Electrical contractor</span> is an entity that <span class="cloze-inactive" data-ordinal="1">offers, bids for, or does work</span> installing or maintaining wires or equipment that convey <span class="cloze" data-ordinal="2">electrical current</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">36.3</td>
+                    <td class="question"><span class="cloze" data-cloze="Electrical contractor" data-ordinal="3">[...]</span> is an entity that <span class="cloze-inactive" data-ordinal="1">offers, bids for, or does work</span> installing or maintaining wires or equipment that convey <span class="cloze-inactive" data-ordinal="2">electrical current</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="3">Electrical contractor</span> is an entity that <span class="cloze-inactive" data-ordinal="1">offers, bids for, or does work</span> installing or maintaining wires or equipment that convey <span class="cloze-inactive" data-ordinal="2">electrical current</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">37.1</td>
+                    <td class="question">Journey level electrician is a person issued a <span class="cloze" data-cloze="journey level electrician certificate of competency" data-ordinal="1">[...]</span> by the department.</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Journey level electrician is a person issued a <span class="cloze" data-ordinal="1">journey level electrician certificate of competency</span> by the department.<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">38.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">Master journey level</span> electrician is a<br/>person with a <span class="cloze-inactive" data-ordinal="3">master journey level electrician</span> certificate who may be designated to <span class="cloze" data-cloze="supervise electrical work and electricians" data-ordinal="1">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">Master journey level</span> electrician is a<br/>person with a <span class="cloze-inactive" data-ordinal="3">master journey level electrician</span> certificate who may be designated to <span class="cloze" data-ordinal="1">supervise electrical work and electricians</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">38.2</td>
+                    <td class="question"><span class="cloze" data-cloze="Master journey level" data-ordinal="2">[...]</span> electrician is a<br/>person with a <span class="cloze-inactive" data-ordinal="3">master journey level electrician</span> certificate who may be designated to <span class="cloze-inactive" data-ordinal="1">supervise electrical work and electricians</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="2">Master journey level</span> electrician is a<br/>person with a <span class="cloze-inactive" data-ordinal="3">master journey level electrician</span> certificate who may be designated to <span class="cloze-inactive" data-ordinal="1">supervise electrical work and electricians</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">38.3</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">Master journey level</span> electrician is a<br/>person with a <span class="cloze" data-cloze="master journey level electrician" data-ordinal="3">[...]</span> certificate who may be designated to <span class="cloze-inactive" data-ordinal="1">supervise electrical work and electricians</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">Master journey level</span> electrician is a<br/>person with a <span class="cloze" data-ordinal="3">master journey level electrician</span> certificate who may be designated to <span class="cloze-inactive" data-ordinal="1">supervise electrical work and electricians</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">39.1</td>
+                    <td class="question">**<span class="cloze-inactive" data-ordinal="2">Specialty electrician</span>** is a person issued a <span class="cloze" data-cloze="specialty electrician certificate of competency" data-ordinal="1">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">**<span class="cloze-inactive" data-ordinal="2">Specialty electrician</span>** is a person issued a <span class="cloze" data-ordinal="1">specialty electrician certificate of competency</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">39.2</td>
+                    <td class="question">**<span class="cloze" data-cloze="Specialty electrician" data-ordinal="2">[...]</span>** is a person issued a <span class="cloze-inactive" data-ordinal="1">specialty electrician certificate of competency</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">**<span class="cloze" data-ordinal="2">Specialty electrician</span>** is a person issued a <span class="cloze-inactive" data-ordinal="1">specialty electrician certificate of competency</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">40.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">Telecommunications (signal)</span> is <br/>transmission of information by <span class="cloze" data-cloze="wire, radio, optical, or other electromagnetic systems" data-ordinal="1">[...]</span> (voice, data, video, etc.) <br/></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">Telecommunications (signal)</span> is <br/>transmission of information by <span class="cloze" data-ordinal="1">wire, radio, optical, or other electromagnetic systems</span> (voice, data, video, etc.) <br/><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">40.2</td>
+                    <td class="question"><span class="cloze" data-cloze="Telecommunications (signal)" data-ordinal="2">[...]</span> is <br/>transmission of information by <span class="cloze-inactive" data-ordinal="1">wire, radio, optical, or other electromagnetic systems</span> (voice, data, video, etc.) <br/></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="2">Telecommunications (signal)</span> is <br/>transmission of information by <span class="cloze-inactive" data-ordinal="1">wire, radio, optical, or other electromagnetic systems</span> (voice, data, video, etc.) <br/><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">41.1</td>
+                    <td class="question">**<span class="cloze-inactive" data-ordinal="2">Telecommunications</span> cable is a <span class="cloze" data-cloze="copper" data-ordinal="1">[...]</span>, <span class="cloze-inactive" data-ordinal="3">optical fiber</span>, or <span class="cloze-inactive" data-ordinal="4">coaxial</span> cable used primarily for telecommunications</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">**<span class="cloze-inactive" data-ordinal="2">Telecommunications</span> cable is a <span class="cloze" data-ordinal="1">copper</span>, <span class="cloze-inactive" data-ordinal="3">optical fiber</span>, or <span class="cloze-inactive" data-ordinal="4">coaxial</span> cable used primarily for telecommunications<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">41.2</td>
+                    <td class="question">**<span class="cloze" data-cloze="Telecommunications" data-ordinal="2">[...]</span> cable is a <span class="cloze-inactive" data-ordinal="1">copper</span>, <span class="cloze-inactive" data-ordinal="3">optical fiber</span>, or <span class="cloze-inactive" data-ordinal="4">coaxial</span> cable used primarily for telecommunications</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">**<span class="cloze" data-ordinal="2">Telecommunications</span> cable is a <span class="cloze-inactive" data-ordinal="1">copper</span>, <span class="cloze-inactive" data-ordinal="3">optical fiber</span>, or <span class="cloze-inactive" data-ordinal="4">coaxial</span> cable used primarily for telecommunications<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">41.3</td>
+                    <td class="question">**<span class="cloze-inactive" data-ordinal="2">Telecommunications</span> cable is a <span class="cloze-inactive" data-ordinal="1">copper</span>, <span class="cloze" data-cloze="optical fiber" data-ordinal="3">[...]</span>, or <span class="cloze-inactive" data-ordinal="4">coaxial</span> cable used primarily for telecommunications</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">**<span class="cloze-inactive" data-ordinal="2">Telecommunications</span> cable is a <span class="cloze-inactive" data-ordinal="1">copper</span>, <span class="cloze" data-ordinal="3">optical fiber</span>, or <span class="cloze-inactive" data-ordinal="4">coaxial</span> cable used primarily for telecommunications<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">41.4</td>
+                    <td class="question">**<span class="cloze-inactive" data-ordinal="2">Telecommunications</span> cable is a <span class="cloze-inactive" data-ordinal="1">copper</span>, <span class="cloze-inactive" data-ordinal="3">optical fiber</span>, or <span class="cloze" data-cloze="coaxial" data-ordinal="4">[...]</span> cable used primarily for telecommunications</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">**<span class="cloze-inactive" data-ordinal="2">Telecommunications</span> cable is a <span class="cloze-inactive" data-ordinal="1">copper</span>, <span class="cloze-inactive" data-ordinal="3">optical fiber</span>, or <span class="cloze" data-ordinal="4">coaxial</span> cable used primarily for telecommunications<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">42.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">Telecommunications outlet</span> is a receptacle in a work area where <span class="cloze" data-cloze="end-user equipment connects to building telecommunications cabling" data-ordinal="1">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">Telecommunications outlet</span> is a receptacle in a work area where <span class="cloze" data-ordinal="1">end-user equipment connects to building telecommunications cabling</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">42.2</td>
+                    <td class="question"><span class="cloze" data-cloze="Telecommunications outlet" data-ordinal="2">[...]</span> is a receptacle in a work area where <span class="cloze-inactive" data-ordinal="1">end-user equipment connects to building telecommunications cabling</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="2">Telecommunications outlet</span> is a receptacle in a work area where <span class="cloze-inactive" data-ordinal="1">end-user equipment connects to building telecommunications cabling</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">43.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Telecommunications pathway</span> is a <span class="cloze" data-cloze="raceway, conduit, duct, or other means" data-ordinal="1">[...]</span>  that contains <span class="cloze-inactive" data-ordinal="2">telecommunications cables </span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Telecommunications pathway</span> is a <span class="cloze" data-ordinal="1">raceway, conduit, duct, or other means</span>  that contains <span class="cloze-inactive" data-ordinal="2">telecommunications cables </span><br/>[RCW 19.28 →](https://app.leg.wa.gov/rcw/default.aspx?cite=19.28)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">43.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Telecommunications pathway</span> is a <span class="cloze-inactive" data-ordinal="1">raceway, conduit, duct, or other means</span>  that contains <span class="cloze" data-cloze="telecommunications cables&amp;nbsp;" data-ordinal="2">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Telecommunications pathway</span> is a <span class="cloze-inactive" data-ordinal="1">raceway, conduit, duct, or other means</span>  that contains <span class="cloze" data-ordinal="2">telecommunications cables </span><br/>[RCW 19.28 →](https://app.leg.wa.gov/rcw/default.aspx?cite=19.28)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">43.3</td>
+                    <td class="question"><span class="cloze" data-cloze="Telecommunications pathway" data-ordinal="3">[...]</span> is a <span class="cloze-inactive" data-ordinal="1">raceway, conduit, duct, or other means</span>  that contains <span class="cloze-inactive" data-ordinal="2">telecommunications cables </span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="3">Telecommunications pathway</span> is a <span class="cloze-inactive" data-ordinal="1">raceway, conduit, duct, or other means</span>  that contains <span class="cloze-inactive" data-ordinal="2">telecommunications cables </span><br/>[RCW 19.28 →](https://app.leg.wa.gov/rcw/default.aspx?cite=19.28)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">44.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">Telecommunications room/space</span> is <span class="cloze" data-cloze="an enclosed space for housing&amp;nbsp;" data-ordinal="1">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">Telecommunications room/space</span> is <span class="cloze" data-ordinal="1">an enclosed space for housing </span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">44.2</td>
+                    <td class="question"><span class="cloze" data-cloze="Telecommunications room/space" data-ordinal="2">[...]</span> is <span class="cloze-inactive" data-ordinal="1">an enclosed space for housing </span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="2">Telecommunications room/space</span> is <span class="cloze-inactive" data-ordinal="1">an enclosed space for housing </span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">45.1</td>
+                    <td class="question">Like-in-kind is<br/>having similar <span class="cloze" data-cloze="voltage requirements, current draw, and function" data-ordinal="1">[...]</span>, and being in the <span class="cloze-inactive" data-ordinal="2">same location</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Like-in-kind is<br/>having similar <span class="cloze" data-ordinal="1">voltage requirements, current draw, and function</span>, and being in the <span class="cloze-inactive" data-ordinal="2">same location</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">45.2</td>
+                    <td class="question">Like-in-kind is<br/>having similar <span class="cloze-inactive" data-ordinal="1">voltage requirements, current draw, and function</span>, and being in the <span class="cloze" data-cloze="same location" data-ordinal="2">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">Like-in-kind is<br/>having similar <span class="cloze-inactive" data-ordinal="1">voltage requirements, current draw, and function</span>, and being in the <span class="cloze" data-ordinal="2">same location</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">46.1</td>
+                    <td class="question">RCW <span class="cloze-inactive" data-ordinal="2">19.28</span> broadly governs <span class="cloze" data-cloze="Electricians and electrical installations" data-ordinal="1">[...]</span> in Washington State </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">RCW <span class="cloze-inactive" data-ordinal="2">19.28</span> broadly governs <span class="cloze" data-ordinal="1">Electricians and electrical installations</span> in Washington State <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">46.2</td>
+                    <td class="question">RCW <span class="cloze" data-cloze="19.28" data-ordinal="2">[...]</span> broadly governs <span class="cloze-inactive" data-ordinal="1">Electricians and electrical installations</span> in Washington State </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">RCW <span class="cloze" data-ordinal="2">19.28</span> broadly governs <span class="cloze-inactive" data-ordinal="1">Electricians and electrical installations</span> in Washington State <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">47.1</td>
+                    <td class="question">RCW <span class="cloze-inactive" data-ordinal="2">19.28.430</span> governs <span class="cloze" data-cloze="Telecommunications administrator examination and certificate requirements" data-ordinal="1">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">RCW <span class="cloze-inactive" data-ordinal="2">19.28.430</span> governs <span class="cloze" data-ordinal="1">Telecommunications administrator examination and certificate requirements</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">47.2</td>
+                    <td class="question">RCW <span class="cloze" data-cloze="19.28.430" data-ordinal="2">[...]</span> governs <span class="cloze-inactive" data-ordinal="1">Telecommunications administrator examination and certificate requirements</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">RCW <span class="cloze" data-ordinal="2">19.28.430</span> governs <span class="cloze-inactive" data-ordinal="1">Telecommunications administrator examination and certificate requirements</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">48.1</td>
+                    <td class="question"><span class="cloze" data-cloze="Department of Labor &amp;amp; Industries (L&amp;amp;I)" data-ordinal="1">[...]</span> enforces RCW <span class="cloze-inactive" data-ordinal="2">19.28</span> in Washington?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">Department of Labor &amp; Industries (L&amp;I)</span> enforces RCW <span class="cloze-inactive" data-ordinal="2">19.28</span> in Washington?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">48.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">Department of Labor &amp; Industries (L&amp;I)</span> enforces RCW <span class="cloze" data-cloze="19.28" data-ordinal="2">[...]</span> in Washington?</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">Department of Labor &amp; Industries (L&amp;I)</span> enforces RCW <span class="cloze" data-ordinal="2">19.28</span> in Washington?<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">49.1</td>
+                    <td class="question">The penalty for performing electrical work without a license in WA is <span class="cloze" data-cloze="Misdemeanor" data-ordinal="1">[...]</span>; subject to <span class="cloze-inactive" data-ordinal="2">fines and stop-work orders</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The penalty for performing electrical work without a license in WA is <span class="cloze" data-ordinal="1">Misdemeanor</span>; subject to <span class="cloze-inactive" data-ordinal="2">fines and stop-work orders</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">49.2</td>
+                    <td class="question">The penalty for performing electrical work without a license in WA is <span class="cloze-inactive" data-ordinal="1">Misdemeanor</span>; subject to <span class="cloze" data-cloze="fines and stop-work orders" data-ordinal="2">[...]</span></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The penalty for performing electrical work without a license in WA is <span class="cloze-inactive" data-ordinal="1">Misdemeanor</span>; subject to <span class="cloze" data-ordinal="2">fines and stop-work orders</span><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">50.1</td>
+                    <td class="question"><span class="cloze" data-cloze="**RCW 19.28**" data-ordinal="1">[...]</span> does not apply to work done on <span class="cloze-inactive" data-ordinal="2">utility company property</span> — it exempts work done by or for utilities on <span class="cloze-inactive" data-ordinal="3">utility-owned property</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">**RCW 19.28**</span> does not apply to work done on <span class="cloze-inactive" data-ordinal="2">utility company property</span> — it exempts work done by or for utilities on <span class="cloze-inactive" data-ordinal="3">utility-owned property</span> <br/> [RCW 19.28 →](https://app.leg.wa.gov/rcw/default.aspx?cite=19.28)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">50.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">**RCW 19.28**</span> does not apply to work done on <span class="cloze" data-cloze="utility company property" data-ordinal="2">[...]</span> — it exempts work done by or for utilities on <span class="cloze-inactive" data-ordinal="3">utility-owned property</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">**RCW 19.28**</span> does not apply to work done on <span class="cloze" data-ordinal="2">utility company property</span> — it exempts work done by or for utilities on <span class="cloze-inactive" data-ordinal="3">utility-owned property</span> <br/> [RCW 19.28 →](https://app.leg.wa.gov/rcw/default.aspx?cite=19.28)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">50.3</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="1">**RCW 19.28**</span> does not apply to work done on <span class="cloze-inactive" data-ordinal="2">utility company property</span> — it exempts work done by or for utilities on <span class="cloze" data-cloze="utility-owned property" data-ordinal="3">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="1">**RCW 19.28**</span> does not apply to work done on <span class="cloze-inactive" data-ordinal="2">utility company property</span> — it exempts work done by or for utilities on <span class="cloze" data-ordinal="3">utility-owned property</span> <br/> [RCW 19.28 →](https://app.leg.wa.gov/rcw/default.aspx?cite=19.28)</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">50.4</td>
+                    <td class="question"><div>No cloze ⁨4⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div>No cloze ⁨4⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">51.1</td>
+                    <td class="question"><div>No cloze ⁨1⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div>No cloze ⁨1⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">52.1</td>
+                    <td class="question"><div style="text-align: center;"><span class="cloze-inactive" data-ordinal="2">WAC 296-46B</span> governs <span class="cloze" data-cloze="WA State electrical installation rules" data-ordinal="1">[...]</span></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;"><span class="cloze-inactive" data-ordinal="2">WAC 296-46B</span> governs <span class="cloze" data-ordinal="1">WA State electrical installation rules</span></div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">52.2</td>
+                    <td class="question"><div style="text-align: center;"><span class="cloze" data-cloze="WAC 296-46B" data-ordinal="2">[...]</span> governs <span class="cloze-inactive" data-ordinal="1">WA State electrical installation rules</span></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;"><span class="cloze" data-ordinal="2">WAC 296-46B</span> governs <span class="cloze-inactive" data-ordinal="1">WA State electrical installation rules</span></div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">52.3</td>
+                    <td class="question"><div>No cloze ⁨3⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div>No cloze ⁨3⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">53.1</td>
+                    <td class="question"><div>No cloze ⁨1⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div>No cloze ⁨1⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">53.2</td>
+                    <td class="question"><span class="cloze" data-cloze="WAC 296-46B" data-ordinal="2">[...]</span> currently references <span class="cloze-inactive" data-ordinal="3">2020</span> NEC</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="2">WAC 296-46B</span> currently references <span class="cloze-inactive" data-ordinal="3">2020</span> NEC<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">53.3</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">WAC 296-46B</span> currently references <span class="cloze" data-cloze="2020" data-ordinal="3">[...]</span> NEC</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">WAC 296-46B</span> currently references <span class="cloze" data-ordinal="3">2020</span> NEC<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">54.1</td>
+                    <td class="question">WAC <span class="cloze-inactive" data-ordinal="2">296-46B-920</span> is the <span class="cloze" data-cloze="specialty classifications section" data-ordinal="1">[...]</span> — defines what each license type can perform</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">WAC <span class="cloze-inactive" data-ordinal="2">296-46B-920</span> is the <span class="cloze" data-ordinal="1">specialty classifications section</span> — defines what each license type can perform<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">54.2</td>
+                    <td class="question">WAC <span class="cloze" data-cloze="296-46B-920" data-ordinal="2">[...]</span> is the <span class="cloze-inactive" data-ordinal="1">specialty classifications section</span> — defines what each license type can perform</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">WAC <span class="cloze" data-ordinal="2">296-46B-920</span> is the <span class="cloze-inactive" data-ordinal="1">specialty classifications section</span> — defines what each license type can perform<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">55.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">telecom administrator</span> can supervise <span class="cloze" data-cloze="Telecommunications wiring and equipment installation" data-ordinal="1">[...]</span> as specialty work.</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">telecom administrator</span> can supervise <span class="cloze" data-ordinal="1">Telecommunications wiring and equipment installation</span> as specialty work.<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">55.2</td>
+                    <td class="question"><span class="cloze" data-cloze="telecom administrator" data-ordinal="2">[...]</span> can supervise <span class="cloze-inactive" data-ordinal="1">Telecommunications wiring and equipment installation</span> as specialty work.</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="2">telecom administrator</span> can supervise <span class="cloze-inactive" data-ordinal="1">Telecommunications wiring and equipment installation</span> as specialty work.<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">56.1</td>
+                    <td class="question">What does WAC <span class="cloze-inactive" data-ordinal="3">296-46B</span> requires work must be <span class="cloze" data-cloze="inspected and approved" data-ordinal="1">[...]</span> before being <span class="cloze-inactive" data-ordinal="2">concealed or energized</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">What does WAC <span class="cloze-inactive" data-ordinal="3">296-46B</span> requires work must be <span class="cloze" data-ordinal="1">inspected and approved</span> before being <span class="cloze-inactive" data-ordinal="2">concealed or energized</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">56.2</td>
+                    <td class="question">What does WAC <span class="cloze-inactive" data-ordinal="3">296-46B</span> requires work must be <span class="cloze-inactive" data-ordinal="1">inspected and approved</span> before being <span class="cloze" data-cloze="concealed or energized" data-ordinal="2">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">What does WAC <span class="cloze-inactive" data-ordinal="3">296-46B</span> requires work must be <span class="cloze-inactive" data-ordinal="1">inspected and approved</span> before being <span class="cloze" data-ordinal="2">concealed or energized</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">56.3</td>
+                    <td class="question">What does WAC <span class="cloze" data-cloze="296-46B" data-ordinal="3">[...]</span> requires work must be <span class="cloze-inactive" data-ordinal="1">inspected and approved</span> before being <span class="cloze-inactive" data-ordinal="2">concealed or energized</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">What does WAC <span class="cloze" data-ordinal="3">296-46B</span> requires work must be <span class="cloze-inactive" data-ordinal="1">inspected and approved</span> before being <span class="cloze-inactive" data-ordinal="2">concealed or energized</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">57.1</td>
+                    <td class="question"><span class="cloze" data-cloze="L&amp;amp;I inspectors" data-ordinal="1">[...]</span> or approved </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="1">L&amp;I inspectors</span> or approved <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">57.2</td>
+                    <td class="question"><div>No cloze ⁨2⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div>No cloze ⁨2⁩ found on card.Please either add a cloze deletion, or use the Empty Cards tool.<br/><a href="https://docs.ankiweb.net/templates/errors.html#no-cloze-filter-on-cloze-note-type">More information</a></div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">58.1</td>
+                    <td class="question">A <span class="cloze-inactive" data-ordinal="2">Certificate of Approval (COA)</span> is the document issued after an inspection passes — required before <span class="cloze" data-cloze="energizing new work" data-ordinal="1">[...]</span> in WA.</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">A <span class="cloze-inactive" data-ordinal="2">Certificate of Approval (COA)</span> is the document issued after an inspection passes — required before <span class="cloze" data-ordinal="1">energizing new work</span> in WA.<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">58.2</td>
+                    <td class="question">A <span class="cloze" data-cloze="Certificate of Approval (COA)" data-ordinal="2">[...]</span> is the document issued after an inspection passes — required before <span class="cloze-inactive" data-ordinal="1">energizing new work</span> in WA.</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">A <span class="cloze" data-ordinal="2">Certificate of Approval (COA)</span> is the document issued after an inspection passes — required before <span class="cloze-inactive" data-ordinal="1">energizing new work</span> in WA.<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">59.1</td>
+                    <td class="question">The scope of the **09-Telecommunications specialty is installation of <span class="cloze" data-cloze="comm wiring, fiber, coax, phone systems" data-ordinal="1">[...]</span>, and related <span class="cloze-inactive" data-ordinal="2">low-voltage telecom equipment</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The scope of the **09-Telecommunications specialty is installation of <span class="cloze" data-ordinal="1">comm wiring, fiber, coax, phone systems</span>, and related <span class="cloze-inactive" data-ordinal="2">low-voltage telecom equipment</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">59.2</td>
+                    <td class="question">The scope of the **09-Telecommunications specialty is installation of <span class="cloze-inactive" data-ordinal="1">comm wiring, fiber, coax, phone systems</span>, and related <span class="cloze" data-cloze="low-voltage telecom equipment" data-ordinal="2">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">The scope of the **09-Telecommunications specialty is installation of <span class="cloze-inactive" data-ordinal="1">comm wiring, fiber, coax, phone systems</span>, and related <span class="cloze" data-ordinal="2">low-voltage telecom equipment</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">60.1</td>
+                    <td class="question"><div style="text-align: center;">You must apply for certificate <span class="cloze" data-cloze="90 days" data-ordinal="1">[...]</span> after passing all sections</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div style="text-align: center;">You must apply for certificate <span class="cloze" data-ordinal="1">90 days</span> after passing all sections</div><br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">61.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="2">Basic electrical work</span> is <span class="cloze" data-cloze="Like-in-kind replacement" data-ordinal="1">[...]</span> of: control components, household appliances, breakers, fuses, residential luminaires, lamps, switches, dimmers, receptacles, thermostats, heating elements, identical ballasts, motors ≤10 hp, or other items by rule. </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="2">Basic electrical work</span> is <span class="cloze" data-ordinal="1">Like-in-kind replacement</span> of: control components, household appliances, breakers, fuses, residential luminaires, lamps, switches, dimmers, receptacles, thermostats, heating elements, identical ballasts, motors ≤10 hp, or other items by rule. <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">61.2</td>
+                    <td class="question"><span class="cloze" data-cloze="Basic electrical work" data-ordinal="2">[...]</span> is <span class="cloze-inactive" data-ordinal="1">Like-in-kind replacement</span> of: control components, household appliances, breakers, fuses, residential luminaires, lamps, switches, dimmers, receptacles, thermostats, heating elements, identical ballasts, motors ≤10 hp, or other items by rule. </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="2">Basic electrical work</span> is <span class="cloze-inactive" data-ordinal="1">Like-in-kind replacement</span> of: control components, household appliances, breakers, fuses, residential luminaires, lamps, switches, dimmers, receptacles, thermostats, heating elements, identical ballasts, motors ≤10 hp, or other items by rule. <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">62.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Basic electrical work</span> is work other than Class <span class="cloze-inactive" data-ordinal="2">A</span> requiring <span class="cloze" data-cloze="minimal circuit modifications and limited hazards" data-ordinal="1">[...]</span>, including small branch circuit extensions, certain luminaire/motor replacements, and specified low-voltage work</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Basic electrical work</span> is work other than Class <span class="cloze-inactive" data-ordinal="2">A</span> requiring <span class="cloze" data-ordinal="1">minimal circuit modifications and limited hazards</span>, including small branch circuit extensions, certain luminaire/motor replacements, and specified low-voltage work<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">62.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="3">Basic electrical work</span> is work other than Class <span class="cloze" data-cloze="A" data-ordinal="2">[...]</span> requiring <span class="cloze-inactive" data-ordinal="1">minimal circuit modifications and limited hazards</span>, including small branch circuit extensions, certain luminaire/motor replacements, and specified low-voltage work</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="3">Basic electrical work</span> is work other than Class <span class="cloze" data-ordinal="2">A</span> requiring <span class="cloze-inactive" data-ordinal="1">minimal circuit modifications and limited hazards</span>, including small branch circuit extensions, certain luminaire/motor replacements, and specified low-voltage work<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">62.3</td>
+                    <td class="question"><span class="cloze" data-cloze="Basic electrical work" data-ordinal="3">[...]</span> is work other than Class <span class="cloze-inactive" data-ordinal="2">A</span> requiring <span class="cloze-inactive" data-ordinal="1">minimal circuit modifications and limited hazards</span>, including small branch circuit extensions, certain luminaire/motor replacements, and specified low-voltage work</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="3">Basic electrical work</span> is work other than Class <span class="cloze-inactive" data-ordinal="2">A</span> requiring <span class="cloze-inactive" data-ordinal="1">minimal circuit modifications and limited hazards</span>, including small branch circuit extensions, certain luminaire/motor replacements, and specified low-voltage work<br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">63.1</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="4">Class B basic work</span> — branch circuit limit is an<br/>extension of not more than <span class="cloze" data-cloze="one branch circuit" data-ordinal="1">[...]</span>, limited to <span class="cloze-inactive" data-ordinal="2">120V and 20A</span>, no cover inspection, and serving no more than <span class="cloze-inactive" data-ordinal="3">two outlets</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="4">Class B basic work</span> — branch circuit limit is an<br/>extension of not more than <span class="cloze" data-ordinal="1">one branch circuit</span>, limited to <span class="cloze-inactive" data-ordinal="2">120V and 20A</span>, no cover inspection, and serving no more than <span class="cloze-inactive" data-ordinal="3">two outlets</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">63.2</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="4">Class B basic work</span> — branch circuit limit is an<br/>extension of not more than <span class="cloze-inactive" data-ordinal="1">one branch circuit</span>, limited to <span class="cloze" data-cloze="120V and 20A" data-ordinal="2">[...]</span>, no cover inspection, and serving no more than <span class="cloze-inactive" data-ordinal="3">two outlets</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="4">Class B basic work</span> — branch circuit limit is an<br/>extension of not more than <span class="cloze-inactive" data-ordinal="1">one branch circuit</span>, limited to <span class="cloze" data-ordinal="2">120V and 20A</span>, no cover inspection, and serving no more than <span class="cloze-inactive" data-ordinal="3">two outlets</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">63.3</td>
+                    <td class="question"><span class="cloze-inactive" data-ordinal="4">Class B basic work</span> — branch circuit limit is an<br/>extension of not more than <span class="cloze-inactive" data-ordinal="1">one branch circuit</span>, limited to <span class="cloze-inactive" data-ordinal="2">120V and 20A</span>, no cover inspection, and serving no more than <span class="cloze" data-cloze="two outlets" data-ordinal="3">[...]</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze-inactive" data-ordinal="4">Class B basic work</span> — branch circuit limit is an<br/>extension of not more than <span class="cloze-inactive" data-ordinal="1">one branch circuit</span>, limited to <span class="cloze-inactive" data-ordinal="2">120V and 20A</span>, no cover inspection, and serving no more than <span class="cloze" data-ordinal="3">two outlets</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">63.4</td>
+                    <td class="question"><span class="cloze" data-cloze="Class B basic work" data-ordinal="4">[...]</span> — branch circuit limit is an<br/>extension of not more than <span class="cloze-inactive" data-ordinal="1">one branch circuit</span>, limited to <span class="cloze-inactive" data-ordinal="2">120V and 20A</span>, no cover inspection, and serving no more than <span class="cloze-inactive" data-ordinal="3">two outlets</span> </td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><span class="cloze" data-ordinal="4">Class B basic work</span> — branch circuit limit is an<br/>extension of not more than <span class="cloze-inactive" data-ordinal="1">one branch circuit</span>, limited to <span class="cloze-inactive" data-ordinal="2">120V and 20A</span>, no cover inspection, and serving no more than <span class="cloze-inactive" data-ordinal="3">two outlets</span> <br/></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">64.1</td>
+                    <td class="question"><div>The minimum clear width of the working space in front of electrical equipment must be the width of the equipment or a minimum of:</div><div>A. 24 inches</div><div>B. 30 inches</div><div>C. 36 inches</div><div>D. 48 inches</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">B. 30 Inches</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">64.2</td>
+                    <td class="question">B. 30 Inches</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"><div>The minimum clear width of the working space in front of electrical equipment must be the width of the equipment or a minimum of:</div><div>A. 24 inches</div><div>B. 30 inches</div><div>C. 36 inches</div><div>D. 48 inches</div></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">65.1</td>
+                    <td class="question"><div>What is the minimum size copper equipment grounding conductor (EGC) required for a circuit protected by a 20-ampere circuit breaker?<br/><br/></div><div>A. 14 AWG</div><div>B. 12 AWG</div><div>C. 10 AWG</div><div>D. 8 AWG</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">66.1</td>
+                    <td class="question">What is the minimum required length for a driven ground rod?<br/><br/><li><div>A. 6 feet</div></li><li><div>B. 8 feet</div></li><li><div>C. 10 feet</div></li><li><div>D. 12 feet</div></li></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">66.2</td>
+                    <td class="question"></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer">What is the minimum required length for a driven ground rod?<br/><br/><li><div>A. 6 feet</div></li><li><div>B. 8 feet</div></li><li><div>C. 10 feet</div></li><li><div>D. 12 feet</div></li></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">67.1</td>
+                    <td class="question"><div>What is the minimum burial depth required for a direct-buried residential Type UF cable (rated 120V) that is not protected by a GFCI?</div>    A. 12 inches<br/>   B. 18 inches<br/>   C. 24 inches<br/>   D. 30 inches</td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">68.1</td>
+                    <td class="question"><div>Nonmetallic-sheathed cable (Type NM) must be secured in place at intervals not exceeding:</div><div>   A. 3 feet</div><div>   B. 4.5 feet</div><div>   C. 5 feet</div><div>   D. 6 feet</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">69.1</td>
+                    <td class="question">When exactly two conductors are installed in a conduit, what is the maximum allowable percentage of conduit fill?<br/><br/><li><div>   A. 31%</div></li><li><div>   B. 40%</div></li><li><div>   C. 53%</div></li><li><div>   D. 60%</div></li></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">70.1</td>
+                    <td class="question"><div>What is the required free space volume allowance for a single 14 AWG conductor in a junction box?</div><div>   A. 1.50 cubic inches</div><div>   B. 2.00 cubic inches</div><div>   C. 2.25 cubic inches</div><div>   D. 2.50 cubic inches</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">71.1</td>
+                    <td class="question"><div> What is the minimum size copper conductor permitted for general wiring up to 2000 volts?</div><div>   A. 16 AWG</div><div>   B. 14 AWG</div><div>   C. 12 AWG</div><div>   D. 10 AWG</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">72.1</td>
+                    <td class="question"><div>  Branch circuit conductors supplying a single continuous-duty motor must have an ampacity of not less than what percentage of the motor's full-load current rating?</div><div>   </div><div>   A. 80%</div><div>   B. 100%</div><div>   C. 125%</div><div>   D. 150%</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">73.1</td>
+                    <td class="question"><div>When calculating the general lighting load for a dwelling unit, what is the required unit load per square foot?</div><div>   A. 1.5 VA</div><div>   B. 2.0 VA</div><div>   C. 3.0 VA</div><div>   D. 5.0 VA</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+        <div class="card">
+            <table>
+                <tr>
+                    <td class="index" style="color:white; background-color:#F68787;">74.1</td>
+                    <td class="question"><div>What is the ampacity of a 10 AWG THHN copper conductor before any derating factors are applied? (Assume a 90°C rating)</div><div>   A. 30 Amperes</div><div>   B. 35 Amperes</div><div>   C. 40 Amperes</div><div>   D. 45 Amperes</div></td>
+                    <td class="spacer">&nbsp;</td>
+                    <td class="answer"></td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+    
+    <hr>
+</div>
+</body>
+</html>
