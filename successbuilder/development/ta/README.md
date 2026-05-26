@@ -264,7 +264,7 @@ These cover broad NEC content. Filter your study toward the telco admin blueprin
 <details>
 <summary><strong>🎥 Anki Tutorial — Click to expand</strong></summary>
 
-- 🔗 [Anki Tutorial Video (YouTube)](https://www.youtube.com/watch?v=Tk7uybvv1mI)
+- 🔗 [Anki Tutorial Video (YouTube)](https://www.youtube.com/watch?v=0P3dkF9oCZw)
 
 </details>
 
