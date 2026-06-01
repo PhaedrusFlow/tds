@@ -1,0 +1,127 @@
+{
+    "id": "telco-general-theory-01",
+    "title": "Telecom Admin – General Trade Knowledge & Theory",
+    "version": "1.0",
+    "questions": [
+        {
+            "id": 1,
+            "question": "In a low-voltage communications circuit, which quantity is measured in decibels (dB)?",
+            "choices": [
+                "Resistance",
+                "Power ratio or signal level",
+                "Capacitance",
+                "Conductor temperature"
+            ],
+            "answer": "Power ratio or signal level",
+            "explanation": "Decibels express logarithmic ratios, most commonly used to represent signal levels, gains, and losses in power or voltage across communication systems."
+        },
+        {
+            "id": 2,
+            "question": "A twisted pair used for data transmission helps reduce which undesirable effect?",
+            "choices": [
+                "Conductor oxidation",
+                "Electromagnetic interference (EMI) and crosstalk",
+                "Voltage drop",
+                "Ground fault current"
+            ],
+            "answer": "Electromagnetic interference (EMI) and crosstalk",
+            "explanation": "The twist in each pair balances the conductors so induced noise tends to cancel out, significantly reducing EMI pickup and crosstalk between adjacent pairs."
+        },
+        {
+            "id": 3,
+            "question": "Which statement best describes impedance in an AC communications circuit?",
+            "choices": [
+                "It is the same as resistance and ignores reactance.",
+                "It is the opposition to current flow due only to inductance.",
+                "It is the total opposition to AC, combining resistance, inductive reactance, and capacitive reactance.",
+                "It is the voltage divided by capacitance."
+            ],
+            "answer": "It is the total opposition to AC, combining resistance, inductive reactance, and capacitive reactance.",
+            "explanation": "Impedance Z is a complex quantity that includes resistance and reactance; in AC/data systems it determines how signals see the line and how well terminations are matched."
+        },
+        {
+            "id": 4,
+            "question": "In a fiber-optic link, which of the following is a primary advantage over copper for long-distance data transmission?",
+            "choices": [
+                "Lower equipment cost",
+                "Immunity to electromagnetic interference and greater bandwidth",
+                "Ability to carry DC power and data on the same fiber",
+                "Easier field termination without special tools"
+            ],
+            "answer": "Immunity to electromagnetic interference and greater bandwidth",
+            "explanation": "Fiber carries light instead of current, making it immune to EMI, and it supports much higher bandwidth and longer distances than typical copper cabling."
+        },
+        {
+            "id": 5,
+            "question": "Which of the following is the most appropriate instrument for checking the integrity and length of a twisted-pair communications cable in the field?",
+            "choices": [
+                "Clamp-on ammeter",
+                "Time-Domain Reflectometer (TDR)",
+                "Infrared thermometer",
+                "Megohmmeter (megger)"
+            ],
+            "answer": "Time-Domain Reflectometer (TDR)",
+            "explanation": "A TDR injects a pulse and analyzes reflections to locate opens, shorts, and impedance changes, and can estimate cable length from the return time."
+        },
+        {
+            "id": 6,
+            "question": "In a balanced twisted-pair data cable, why is maintaining the pair twist and observing pair integrity during termination important?",
+            "choices": [
+                "It increases the DC resistance to reduce current flow.",
+                "It improves insulation resistance between conductors.",
+                "It preserves characteristic impedance and minimizes crosstalk.",
+                "It ensures the cable can carry higher DC voltages."
+            ],
+            "answer": "It preserves characteristic impedance and minimizes crosstalk.",
+            "explanation": "Keeping each pair correctly twisted and paired maintains balance and the designed impedance, limiting reflections and near-end/far-end crosstalk."
+        },
+        {
+            "id": 7,
+            "question": "When converting between bits per second (b/s) and bytes per second (B/s), which relationship is typically used?",
+            "choices": [
+                "1 byte = 4 bits",
+                "1 byte = 8 bits",
+                "1 byte = 10 bits",
+                "1 byte = 16 bits"
+            ],
+            "answer": "1 byte = 8 bits",
+            "explanation": "In digital systems, a byte is defined as 8 bits, so throughput calculations use this 8:1 ratio between bits and bytes."
+        },
+        {
+            "id": 8,
+            "question": "Which unit is commonly used to express the signal strength of RF or coaxial cable systems relative to 1 milliwatt?",
+            "choices": [
+                "Volts",
+                "Amperes",
+                "dBm",
+                "Ohms"
+            ],
+            "answer": "dBm",
+            "explanation": "dBm expresses power in decibels referenced to 1 milliwatt and is standard for RF, Wi-Fi, and many coaxial signal-level measurements."
+        },
+        {
+            "id": 9,
+            "question": "A PoE (Power over Ethernet) system delivers both data and DC power over the same cable. Which cable characteristic is most critical to verify before loading additional PoE devices on an existing run?",
+            "choices": [
+                "Conductor color sequence",
+                "Cable jacket color",
+                "Cable temperature rating",
+                "Copper conductor gauge and length (for voltage drop and power loss)"
+            ],
+            "answer": "Copper conductor gauge and length (for voltage drop and power loss)",
+            "explanation": "PoE current through a long run produces voltage drop and heating; the conductor size and length determine how much power is actually delivered to the device."
+        },
+        {
+            "id": 10,
+            "question": "Which of the following best describes the purpose of shielding in a shielded twisted-pair (STP) communications cable?",
+            "choices": [
+                "To increase the cable’s tensile strength",
+                "To reduce electromagnetic interference coupling into or out of the cable",
+                "To lower the cable’s characteristic impedance",
+                "To allow higher DC current to flow without overheating"
+            ],
+            "answer": "To reduce electromagnetic interference coupling into or out of the cable",
+            "explanation": "The shield provides a conductive barrier tied to ground that intercepts and drains unwanted electromagnetic fields, protecting signal integrity and reducing emissions."
+        }
+    ]
+}

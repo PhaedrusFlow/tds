@@ -1,0 +1,188 @@
+{
+  "id": "rcw-19-28",
+  "title": "RCW 19.28 — Electrical Installation",
+  "version": "1.0-starter",
+  "note": "Starter dataset. Verify every answer against current RCW 19.28 text before relying on results for exam prep.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Under RCW 19.28, who is primarily responsible for ensuring that all electrical work performed in Washington State complies with applicable codes?",
+      "choices": [
+        "The property owner",
+        "The licensed electrical contractor",
+        "The local building department",
+        "The journeyman electrician on site"
+      ],
+      "answer": "The licensed electrical contractor",
+      "explanation": "RCW 19.28.061 places primary compliance responsibility on the licensed electrical contractor who performs or supervises the work."
+    },
+    {
+      "id": 2,
+      "question": "Which state agency administers and enforces RCW 19.28?",
+      "choices": [
+        "Washington State Department of Health",
+        "Washington State Department of Labor and Industries (L&I)",
+        "Washington State Utilities and Transportation Commission",
+        "Washington State Building Code Council"
+      ],
+      "answer": "Washington State Department of Labor and Industries (L&I)",
+      "explanation": "RCW 19.28.010 designates the Department of Labor and Industries as the administering and enforcing agency for electrical installation law."
+    },
+    {
+      "id": 3,
+      "question": "An electrical contractor license issued under RCW 19.28 is valid for how long before renewal is required?",
+      "choices": [
+        "6 months",
+        "1 year",
+        "2 years",
+        "3 years"
+      ],
+      "answer": "1 year",
+      "explanation": "Under RCW 19.28.041, electrical contractor licenses are issued on an annual basis and must be renewed each year."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following persons is NOT required to hold an individual electrician's certificate of competency under RCW 19.28?",
+      "choices": [
+        "A journeyman electrician performing commercial wiring",
+        "A homeowner doing electrical work on their own single-family residence",
+        "A master electrician supervising apprentices",
+        "An electrician trainee working on a commercial job"
+      ],
+      "answer": "A homeowner doing electrical work on their own single-family residence",
+      "explanation": "RCW 19.28.261 provides an exemption allowing homeowners to perform electrical work on their own single-family dwelling without an individual certificate, provided they obtain the required permits and inspections."
+    },
+    {
+      "id": 5,
+      "question": "Under RCW 19.28, an electrical permit is generally required before starting most electrical installations. Which of the following is a primary purpose of this permit requirement?",
+      "choices": [
+        "To generate revenue for the state general fund",
+        "To allow the local utility to schedule a reconnection",
+        "To ensure the work is inspected for compliance with safety codes",
+        "To notify neighboring property owners"
+      ],
+      "answer": "To ensure the work is inspected for compliance with safety codes",
+      "explanation": "Permit requirements exist to trigger the inspection process, ensuring that electrical installations meet safety standards before energization."
+    },
+    {
+      "id": 6,
+      "question": "What is the minimum ratio of journey-level electricians to apprentices generally permitted on a job site under Washington electrical law?",
+      "choices": [
+        "1 journey-level to 1 apprentice",
+        "1 journey-level to 2 apprentices",
+        "1 journey-level to 3 apprentices",
+        "1 journey-level to 4 apprentices"
+      ],
+      "answer": "1 journey-level to 2 apprentices",
+      "explanation": "WAC rules implementing RCW 19.28 generally limit the apprentice ratio to two apprentices per journey-level electrician, though variations exist depending on the type of work and apprenticeship program."
+    },
+    {
+      "id": 7,
+      "question": "Under RCW 19.28, electrical installations must be inspected before they are concealed or energized. Who is authorized to perform these inspections in Washington State?",
+      "choices": [
+        "Only L&I state electrical inspectors",
+        "L&I state electrical inspectors, or inspectors from an approved local government inspection program",
+        "Any licensed electrical contractor",
+        "The installing electrician's supervisor"
+      ],
+      "answer": "L&I state electrical inspectors, or inspectors from an approved local government inspection program",
+      "explanation": "RCW 19.28.321 allows local governments to operate their own electrical inspection programs if approved by L&I, in addition to L&I's own inspectors."
+    },
+    {
+      "id": 8,
+      "question": "An electrical contractor who employs electricians performing work under RCW 19.28 is required to carry which of the following?",
+      "choices": [
+        "Performance bond only",
+        "General liability insurance only",
+        "Both a surety bond and general liability insurance",
+        "Workers' compensation coverage only"
+      ],
+      "answer": "Both a surety bond and general liability insurance",
+      "explanation": "RCW 19.28.041 requires electrical contractors to maintain a surety bond and general liability insurance as conditions of licensure."
+    },
+    {
+      "id": 9,
+      "question": "Which type of electrical work is explicitly exempt from the licensing requirements of RCW 19.28?",
+      "choices": [
+        "Installation of service entrance equipment in a commercial building",
+        "Maintenance of electrical equipment by the owner-operator of a manufacturing plant on their own premises",
+        "Wiring of a new multi-family residential unit",
+        "Installation of a subpanel in a retail space"
+      ],
+      "answer": "Maintenance of electrical equipment by the owner-operator of a manufacturing plant on their own premises",
+      "explanation": "RCW 19.28.006 provides exemptions for certain owner-operator maintenance activities on their own industrial premises, recognizing that plant maintenance staff often perform routine electrical upkeep."
+    },
+    {
+      "id": 10,
+      "question": "Under RCW 19.28, what action can L&I take against an electrical contractor who repeatedly violates the electrical installation law?",
+      "choices": [
+        "Issue a verbal warning only",
+        "Suspend or revoke the contractor's electrical contractor license",
+        "Refer the matter to the county prosecutor only",
+        "Require the contractor to retake the licensing exam"
+      ],
+      "answer": "Suspend or revoke the contractor's electrical contractor license",
+      "explanation": "RCW 19.28.271 grants L&I the authority to suspend or revoke licenses for violations, in addition to other civil and criminal penalties available under the chapter."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following best describes the scope of RCW 19.28?",
+      "choices": [
+        "It applies only to commercial and industrial electrical installations",
+        "It applies to all electrical installations in or on all buildings, structures, and premises in Washington State, with limited exceptions",
+        "It applies only to new construction and not to remodel work",
+        "It applies only to installations involving voltages above 600V"
+      ],
+      "answer": "It applies to all electrical installations in or on all buildings, structures, and premises in Washington State, with limited exceptions",
+      "explanation": "RCW 19.28.010 broadly defines the scope to cover electrical installations statewide, subject to specific exemptions enumerated elsewhere in the chapter."
+    },
+    {
+      "id": 12,
+      "question": "Under RCW 19.28, an electrical trainee certificate is issued to:",
+      "choices": [
+        "Any person who has completed a four-year apprenticeship",
+        "A person who is learning the electrical trade and working under the direct supervision of a certified electrician",
+        "A licensed contractor who is new to the industry",
+        "A master electrician from another state seeking reciprocity"
+      ],
+      "answer": "A person who is learning the electrical trade and working under the direct supervision of a certified electrician",
+      "explanation": "Trainee certificates under RCW 19.28 are designed for individuals entering the trade who must work under supervision while accumulating the hours needed for journey-level certification."
+    },
+    {
+      "id": 13,
+      "question": "If an electrical contractor license expires and the contractor continues to perform electrical work without renewal, they are subject to:",
+      "choices": [
+        "A grace period of 90 days with no penalty",
+        "Civil penalties and potential criminal misdemeanor charges under RCW 19.28",
+        "Only a late renewal fee with no other consequence",
+        "Automatic suspension of their bond only"
+      ],
+      "answer": "Civil penalties and potential criminal misdemeanor charges under RCW 19.28",
+      "explanation": "Operating without a current license violates RCW 19.28 and can result in civil penalties and criminal misdemeanor prosecution per RCW 19.28.151."
+    },
+    {
+      "id": 14,
+      "question": "A master electrician certificate under RCW 19.28 requires the applicant to pass an exam demonstrating knowledge of:",
+      "choices": [
+        "Only the National Electrical Code (NEC)",
+        "The NEC and Washington State electrical law and rules",
+        "Only Washington State administrative rules",
+        "General construction management principles"
+      ],
+      "answer": "The NEC and Washington State electrical law and rules",
+      "explanation": "The master electrician exam tests both NEC knowledge and familiarity with RCW 19.28 and its implementing WAC rules."
+    },
+    {
+      "id": 15,
+      "question": "When a final electrical inspection reveals code violations, who is primarily responsible for correcting the deficiencies?",
+      "choices": [
+        "The property owner",
+        "The electrical inspector who conducted the inspection",
+        "The licensed electrical contractor who performed the installation",
+        "The local building department"
+      ],
+      "answer": "The licensed electrical contractor who performed the installation",
+      "explanation": "The licensed contractor is responsible for the work they perform and must correct any deficiencies identified during inspection before the installation can be approved and energized."
+    }
+  ]
+}
