@@ -1,0 +1,487 @@
+{
+  "id": "pretest-b",
+  "title": "WA Telecom Admin — Pretest B",
+  "description": "40-question mixed pretest sampling NEC Articles 90, 100–110, 240, 300–398, 705–780, 800–830, RCW 19.28, WAC 296-46B, and general theory. Different questions from Pretest A.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "NEC Article 90.2 describes the scope of the Code. Which of the following installations is NOT covered by the NEC?",
+      "choices": [
+        "Electrical wiring in a commercial office building",
+        "Installations in ships, watercraft, railway rolling stock, and aircraft",
+        "Low-voltage communications wiring in a residential building",
+        "Solar photovoltaic systems on a residential rooftop"
+      ],
+      "answer": "Installations in ships, watercraft, railway rolling stock, and aircraft",
+      "explanation": "NEC 90.2(B) lists installations not covered by the Code, including ships, watercraft other than floating buildings, railway rolling stock, aircraft, and automotive vehicles — NEC Article 90."
+    },
+    {
+      "id": 2,
+      "question": "NEC Article 90.4 states that the authority having jurisdiction (AHJ) has the responsibility to:",
+      "choices": [
+        "Enforce the NEC exactly as written with no discretion",
+        "Interpret the NEC and approve equipment, materials, and installations",
+        "Issue contractor licenses on behalf of the state",
+        "Publish amendments to the NEC every three years"
+      ],
+      "answer": "Interpret the NEC and approve equipment, materials, and installations",
+      "explanation": "NEC 90.4 grants the AHJ the responsibility to interpret the Code requirements, approve equipment and materials, and waive specific requirements or permit alternative methods where equivalent safety is achieved — NEC Article 90."
+    },
+    {
+      "id": 3,
+      "question": "NEC Article 90.7 addresses examination of equipment for safety. Which of the following statements is correct regarding listed equipment?",
+      "choices": [
+        "Listed equipment may never be modified in the field under any circumstances",
+        "Equipment that is listed by a nationally recognized testing laboratory (NRTL) is evaluated for compliance with applicable product safety standards",
+        "Listing by any organization automatically satisfies all NEC requirements without AHJ review",
+        "Field-labeled equipment is prohibited by the NEC"
+      ],
+      "answer": "Equipment that is listed by a nationally recognized testing laboratory (NRTL) is evaluated for compliance with applicable product safety standards",
+      "explanation": "NEC 90.7 and Article 100 establish that listed equipment has been evaluated by a qualified electrical testing laboratory (NRTL) and found to meet applicable safety standards — NEC Article 90."
+    },
+    {
+      "id": 4,
+      "question": "Per NEC Article 100, which of the following best defines 'Concealed' as it applies to wiring methods?",
+      "choices": [
+        "Wiring that is protected by a metal raceway",
+        "Wiring rendered inaccessible by the structure or finish of a building",
+        "Wiring installed underground",
+        "Wiring that is colored gray to blend with the wall surface"
+      ],
+      "answer": "Wiring rendered inaccessible by the structure or finish of a building",
+      "explanation": "NEC Article 100 defines 'Concealed' as rendered inaccessible by the structure or finish of the building. Wires in concealed raceways are considered concealed even though they may be accessible — NEC Article 100."
+    },
+    {
+      "id": 5,
+      "question": "Per NEC Article 100, what is the defined meaning of 'Listed' as applied to electrical equipment?",
+      "choices": [
+        "Equipment that has been approved by the local AHJ only",
+        "Equipment that appears in a list published by a nationally recognized testing laboratory and has been evaluated for safety",
+        "Equipment manufactured in the United States and bearing a UL mark",
+        "Any equipment that the electrical contractor has approved for use on a job site"
+      ],
+      "answer": "Equipment that appears in a list published by a nationally recognized testing laboratory and has been evaluated for safety",
+      "explanation": "NEC Article 100 defines 'Listed' as equipment, materials, or services that have been evaluated by an NRTL and found to meet specific designation criteria — NEC Article 100."
+    },
+    {
+      "id": 6,
+      "question": "NEC Article 100 defines 'Qualified Person.' Which of the following best matches that definition?",
+      "choices": [
+        "Any person who holds a valid electrician's license in any US state",
+        "One who has skills and knowledge related to the construction and operation of electrical equipment and installations, and has received safety training to recognize and avoid hazards",
+        "A person with at least five years of field experience in electrical construction",
+        "Any person employed by a licensed electrical contractor"
+      ],
+      "answer": "One who has skills and knowledge related to the construction and operation of electrical equipment and installations, and has received safety training to recognize and avoid hazards",
+      "explanation": "NEC Article 100 defines a 'Qualified Person' as one who has skills and knowledge of electrical equipment and installations, and has received safety training to recognize and avoid hazards — NEC Article 100."
+    },
+    {
+      "id": 7,
+      "question": "NEC 110.3(B) requires that listed or labeled equipment be:",
+      "choices": [
+        "Painted to match the color code specified by the AHJ",
+        "Installed and used in accordance with any instructions included in the listing or labeling",
+        "Retested by the contractor before installation",
+        "Approved by the engineer of record before the AHJ inspection"
+      ],
+      "answer": "Installed and used in accordance with any instructions included in the listing or labeling",
+      "explanation": "NEC 110.3(B) requires that listed or labeled equipment be installed and used in accordance with the instructions included in the listing or labeling — NEC Article 110."
+    },
+    {
+      "id": 8,
+      "question": "NEC Article 110.26(C) requires that the area above electrical equipment operating at 600 V or less have minimum headroom of:",
+      "choices": [
+        "6 feet, 3 inches",
+        "7 feet",
+        "6 feet",
+        "8 feet"
+      ],
+      "answer": "6 feet, 3 inches",
+      "explanation": "NEC 110.26(C) requires a minimum headroom of 6 feet 3 inches (1.9 m) in front of electrical equipment — NEC Article 110."
+    },
+    {
+      "id": 9,
+      "question": "NEC 240.4(D) limits overcurrent protection for 12 AWG copper conductors to a maximum of:",
+      "choices": [
+        "15 amperes",
+        "20 amperes",
+        "25 amperes",
+        "30 amperes"
+      ],
+      "answer": "20 amperes",
+      "explanation": "NEC 240.4(D) states that 12 AWG copper conductors shall not be protected by overcurrent devices rated more than 20 amperes — NEC Article 240."
+    },
+    {
+      "id": 10,
+      "question": "Per NEC 240.6(A), which of the following is a standard ampere rating for overcurrent devices?",
+      "choices": [
+        "22 amperes",
+        "45 amperes",
+        "55 amperes",
+        "85 amperes"
+      ],
+      "answer": "45 amperes",
+      "explanation": "NEC 240.6(A) lists standard ampere ratings including 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, and higher. 45 A is a listed standard rating — NEC Article 240."
+    },
+    {
+      "id": 11,
+      "question": "NEC Article 240.87 requires arc energy reduction for circuit breakers rated 1,200 amperes or higher. Which of the following is an acceptable method to achieve this?",
+      "choices": [
+        "Installing a time-delay fuse in parallel with the breaker",
+        "Zone-selective interlocking, differential relaying, or an energy-reducing active arc flash mitigation system",
+        "Adding a manual disconnect within 10 feet of the breaker",
+        "Labeling the panel with the available fault current"
+      ],
+      "answer": "Zone-selective interlocking, differential relaying, or an energy-reducing active arc flash mitigation system",
+      "explanation": "NEC 240.87 requires that where the highest continuous current trip setting of a breaker is 1,200 A or higher, a method to reduce clearing time or arc energy must be provided — acceptable methods include zone-selective interlocking and differential relaying — NEC Article 240."
+    },
+    {
+      "id": 12,
+      "question": "NEC Article 240.24(B) prohibits overcurrent devices from being located in which of the following areas?",
+      "choices": [
+        "In commercial kitchens adjacent to cooking equipment",
+        "In bathrooms of dwelling units, dormitories, and guest rooms",
+        "In utility rooms of commercial buildings",
+        "In electrical rooms with a locking door"
+      ],
+      "answer": "In bathrooms of dwelling units, dormitories, and guest rooms",
+      "explanation": "NEC 240.24(B) prohibits overcurrent devices from being installed in the bathrooms of dwelling units, dormitories, and hotel/motel guest rooms — NEC Article 240."
+    },
+    {
+      "id": 13,
+      "question": "NEC Article 300.15 generally requires that a box or fitting be installed at every point where wiring methods join or conductors are spliced. Which of the following is a listed exception?",
+      "choices": [
+        "Conductors spliced within a junction box with a cover",
+        "Splices made in conduit bodies (condulets) that are accessible and of a sufficient size",
+        "Wire nuts used outside of boxes in finished walls",
+        "Splices made in rigid metallic conduit runs longer than 6 feet"
+      ],
+      "answer": "Splices made in conduit bodies (condulets) that are accessible and of a sufficient size",
+      "explanation": "NEC 300.15 requires boxes or fittings at all conductor splices, but permits splices in conduit bodies that are accessible and have sufficient fill volume per NEC 314.16 — NEC Article 300."
+    },
+    {
+      "id": 14,
+      "question": "NEC Article 310.15 governs conductor ampacity. Which of the following factors does NOT affect conductor ampacity?",
+      "choices": [
+        "Ambient temperature",
+        "Number of current-carrying conductors in a raceway",
+        "Insulation temperature rating of the conductor",
+        "The color of the conductor insulation"
+      ],
+      "answer": "The color of the conductor insulation",
+      "explanation": "Conductor ampacity per NEC 310.15 is affected by ambient temperature, number of current-carrying conductors (bundling), and insulation temperature rating — insulation color does not affect ampacity — NEC Article 310."
+    },
+    {
+      "id": 15,
+      "question": "NEC Article 334 covers Nonmetallic-Sheathed Cable (NM/Romex). NM cable is generally permitted to be used in which type of structure?",
+      "choices": [
+        "Buildings exceeding three floors above grade in height",
+        "One- and two-family dwellings and other structures permitted by the Code",
+        "All commercial occupancies regardless of construction type",
+        "Wet and damp locations when protected by a conduit"
+      ],
+      "answer": "One- and two-family dwellings and other structures permitted by the Code",
+      "explanation": "NEC 334.10 permits NM cable in one- and two-family dwellings and multifamily dwellings and other structures where specifically permitted — NEC Article 334."
+    },
+    {
+      "id": 16,
+      "question": "NEC Article 344 covers Rigid Metal Conduit (RMC). In which of the following environments is RMC specifically well suited for use?",
+      "choices": [
+        "Only in dry indoor environments",
+        "Exposed, concealed, and in concrete, in contact with earth, and in hazardous locations",
+        "Only where embedded in concrete slabs",
+        "Only in plenum air-handling spaces"
+      ],
+      "answer": "Exposed, concealed, and in concrete, in contact with earth, and in hazardous locations",
+      "explanation": "NEC 344.10 permits RMC in all atmospheric conditions and occupancies, including direct earth burial, concrete encasement, and hazardous locations — NEC Article 344."
+    },
+    {
+      "id": 17,
+      "question": "NEC Article 352 covers Rigid Polyvinyl Chloride Conduit (PVC). What is a key restriction on the use of Schedule 40 PVC conduit exposed to physical damage?",
+      "choices": [
+        "It is permitted in all exposed locations without restriction",
+        "It shall not be used where exposed to physical damage unless identified for that use",
+        "It must be painted gray when installed exposed",
+        "It requires a metallic inner liner when installed exposed above grade"
+      ],
+      "answer": "It shall not be used where exposed to physical damage unless identified for that use",
+      "explanation": "NEC 352.12 restricts PVC conduit from areas subject to physical damage unless the conduit is specifically identified for such use — NEC Article 352."
+    },
+    {
+      "id": 18,
+      "question": "NEC Article 690.31 governs the wiring methods for PV system DC circuits. Which of the following is required for PV source and output circuit conductors installed on or in buildings?",
+      "choices": [
+        "All PV DC conductors must be installed in rigid metal conduit only",
+        "PV conductors shall be identified with a label or marking at all accessible points stating they are solar PV system conductors",
+        "PV DC conductors must use aluminum conductors exclusively",
+        "PV conductors must be shielded and grounded at both ends"
+      ],
+      "answer": "PV conductors shall be identified with a label or marking at all accessible points stating they are solar PV system conductors",
+      "explanation": "NEC 690.31 requires PV source and output circuit conductors to be identified with markings or labels at accessible points to alert personnel — NEC Article 690."
+    },
+    {
+      "id": 19,
+      "question": "NEC Article 706.10 covers the location of Energy Storage Systems (ESS). Which of the following is a location requirement for ESS equipment?",
+      "choices": [
+        "ESS must always be installed outdoors",
+        "ESS must be installed in a dedicated room with a 2-hour fire-rated door",
+        "ESS shall be installed in accordance with the manufacturer's installation instructions and shall be accessible only to qualified persons where required",
+        "ESS must be located within 10 feet of the main service panel"
+      ],
+      "answer": "ESS shall be installed in accordance with the manufacturer's installation instructions and shall be accessible only to qualified persons where required",
+      "explanation": "NEC 706.10 requires ESS to be installed per manufacturer instructions and accessible only to qualified persons where the system presents a shock or arc flash hazard — NEC Article 706."
+    },
+    {
+      "id": 20,
+      "question": "NEC Article 750 covers Energy Management Systems (EMS). What is the primary purpose of an EMS as defined by Article 750?",
+      "choices": [
+        "To limit the voltage on distribution circuits to prevent overvoltage",
+        "To monitor and manage electrical loads to prevent exceeding a set demand or to optimize energy use",
+        "To automatically disconnect the utility service during peak rate periods",
+        "To provide backup power during utility outages"
+      ],
+      "answer": "To monitor and manage electrical loads to prevent exceeding a set demand or to optimize energy use",
+      "explanation": "NEC Article 750 covers Energy Management Systems, which monitor and control loads to manage energy demand and prevent exceeding load limits — NEC Article 750."
+    },
+    {
+      "id": 21,
+      "question": "NEC Article 760 covers Fire Alarm Systems. Which cable type is required for fire alarm circuits installed in a plenum space?",
+      "choices": [
+        "FPLR (Fire Power Limited Riser)",
+        "FPL (Fire Power Limited General Purpose)",
+        "FPLP (Fire Power Limited Plenum)",
+        "FPLS (Fire Power Limited Special)"
+      ],
+      "answer": "FPLP (Fire Power Limited Plenum)",
+      "explanation": "NEC 760.179 and Table 760.179 require FPLP-rated cable for fire alarm circuits installed in plenum air-handling spaces — NEC Article 760."
+    },
+    {
+      "id": 22,
+      "question": "NEC Article 800.53 requires that unlisted communications cables and cables from outside a building be located at least how far from the point of entrance before connecting to listed cables or protected equipment?",
+      "choices": [
+        "3 feet",
+        "50 feet",
+        "As close as practicable to the point of entrance",
+        "No distance requirement; any point in the building is acceptable"
+      ],
+      "answer": "50 feet",
+      "explanation": "NEC 800.53 generally limits unlisted outside-plant communications cables to no more than 50 feet inside a building before connecting to listed indoor cables or a primary protector — NEC Article 800."
+    },
+    {
+      "id": 23,
+      "question": "NEC Article 800 classifies communications circuits. Which of the following correctly describes a 'Communications Circuit'?",
+      "choices": [
+        "Any circuit operating above 600 V used for signal transmission",
+        "A circuit that transmits voice, data, or video signals and is powered at limited voltage and power levels",
+        "A circuit used exclusively for fire alarm signaling",
+        "A circuit that supplies power to network switches and routers"
+      ],
+      "answer": "A circuit that transmits voice, data, or video signals and is powered at limited voltage and power levels",
+      "explanation": "NEC Article 800 covers communications circuits — those that transmit voice, audio, data, or video signals at limited energy levels — NEC Article 800."
+    },
+    {
+      "id": 24,
+      "question": "Per NEC Article 820.44, coaxial cable used in CATV systems that is run between floors in a building (in riser shafts) shall be rated at minimum:",
+      "choices": [
+        "CATV (basic grade, general purpose)",
+        "CATVP (plenum rated)",
+        "CATVR (riser rated)",
+        "CATVX (limited use)"
+      ],
+      "answer": "CATVR (riser rated)",
+      "explanation": "NEC 820.179 and Table 820.179 require CATVR-rated coaxial cable for installations in vertical riser shafts — NEC Article 820."
+    },
+    {
+      "id": 25,
+      "question": "NEC Article 830.3 classifies network-powered broadband communications circuits. A 'low power' network-powered broadband circuit is characterized by:",
+      "choices": [
+        "Output power not exceeding 250 VA and 150 V",
+        "Output power not exceeding 100 VA and operating at or below 100 V",
+        "Output power not exceeding 15 W regardless of voltage",
+        "Any circuit delivering power over a coaxial cable"
+      ],
+      "answer": "Output power not exceeding 15 W regardless of voltage",
+      "explanation": "NEC Article 830 classifies low-power network-powered broadband circuits as those where the power output does not exceed 15 W — NEC Article 830."
+    },
+    {
+      "id": 26,
+      "question": "NEC Article 840 covers Premises-Powered Broadband Communications Systems. What distinguishes an Article 840 system from an Article 830 system?",
+      "choices": [
+        "Article 840 covers fiber-to-the-home (FTTH) systems powered from premises equipment rather than from the network",
+        "Article 840 covers coaxial-based systems; Article 830 covers fiber-based systems",
+        "Article 840 applies only to commercial buildings; Article 830 applies to residences",
+        "Article 840 systems require no grounding or bonding"
+      ],
+      "answer": "Article 840 covers fiber-to-the-home (FTTH) systems powered from premises equipment rather than from the network",
+      "explanation": "NEC Article 840 covers premises-powered broadband systems (e.g., FTTH/optical network terminals) where power is supplied by premises equipment rather than from the network provider — NEC Article 840."
+    },
+    {
+      "id": 27,
+      "question": "RCW 19.28.006 defines 'electrical work' for the purposes of the chapter. Which of the following activities is considered 'electrical work' under RCW 19.28?",
+      "choices": [
+        "Replacing a light bulb in a residential fixture",
+        "Installing, maintaining, or repairing electrical wiring, devices, appliances, and equipment",
+        "Painting an electrical panel enclosure",
+        "Cleaning the exterior of an outdoor electrical disconnect"
+      ],
+      "answer": "Installing, maintaining, or repairing electrical wiring, devices, appliances, and equipment",
+      "explanation": "RCW 19.28.006 defines 'electrical work' broadly to include installing, maintaining, or repairing electrical wiring, devices, appliances, and equipment — RCW 19.28.006."
+    },
+    {
+      "id": 28,
+      "question": "Under RCW 19.28, a homeowner may perform electrical work on their own single-family residence under which condition?",
+      "choices": [
+        "The homeowner must first pass a written electrical exam administered by L&I",
+        "The homeowner must obtain the required permit and the work must be inspected by L&I",
+        "No permit or inspection is required for homeowner work",
+        "The homeowner must be supervised by a licensed journeyman electrician"
+      ],
+      "answer": "The homeowner must obtain the required permit and the work must be inspected by L&I",
+      "explanation": "RCW 19.28 allows a homeowner to perform electrical work on their own single-family dwelling, but a permit must be obtained and the work is subject to L&I inspection — RCW 19.28."
+    },
+    {
+      "id": 29,
+      "question": "RCW 19.28.191 requires that all electrical contractors in Washington State maintain which of the following before performing electrical work?",
+      "choices": [
+        "A surety bond and certificate of insurance",
+        "Only a business license from the city",
+        "A letter of authorization from the local utility",
+        "A blanket permit from L&I covering all projects statewide"
+      ],
+      "answer": "A surety bond and certificate of insurance",
+      "explanation": "RCW 19.28.191 requires electrical contractors to file a surety bond and maintain a certificate of insurance as a condition of licensure — RCW 19.28.191."
+    },
+    {
+      "id": 30,
+      "question": "Under RCW 19.28, which of the following accurately describes the difference between a 'telecommunications contractor' license and a 'telecommunications administrator' certificate?",
+      "choices": [
+        "They are identical credentials used interchangeably",
+        "The contractor license is held by the business entity; the administrator certificate is held by the individual responsible for supervising the work",
+        "The administrator certificate allows the individual to own and operate a business; the contractor license allows field installation only",
+        "The contractor license is issued by the city; the administrator certificate is issued by the state"
+      ],
+      "answer": "The contractor license is held by the business entity; the administrator certificate is held by the individual responsible for supervising the work",
+      "explanation": "Under RCW 19.28, the telecommunications contractor license is a business license; the telecommunications administrator certificate is held by the qualifying individual who supervises and is responsible for the contractor's work — RCW 19.28."
+    },
+    {
+      "id": 31,
+      "question": "RCW 19.28.401 establishes an electrical board. What is the primary function of this board?",
+      "choices": [
+        "To conduct final inspections in lieu of L&I",
+        "To advise the director of L&I on matters relating to electrical licensing, training, and safety",
+        "To set utility rates for electrical service",
+        "To approve all electrical permit applications in the state"
+      ],
+      "answer": "To advise the director of L&I on matters relating to electrical licensing, training, and safety",
+      "explanation": "RCW 19.28.401 establishes an electrical board that advises the director of L&I on licensing standards, training requirements, and electrical safety matters — RCW 19.28.401."
+    },
+    {
+      "id": 32,
+      "question": "Under RCW 19.28, a telecommunications contractor who allows their license to lapse and continues to perform work may be subject to:",
+      "choices": [
+        "Only a written reprimand",
+        "Civil fines, license revocation, and a stop-work order",
+        "Referral to the electrical board for mediation only",
+        "A requirement to retake the administrator exam"
+      ],
+      "answer": "Civil fines, license revocation, and a stop-work order",
+      "explanation": "RCW 19.28 authorizes L&I to impose civil fines, revoke licenses, and issue stop-work orders for contractors performing work without a current, valid license — RCW 19.28."
+    },
+    {
+      "id": 33,
+      "question": "WAC 296-46B establishes the process for third-party electrical inspections in Washington. Under what circumstances may a third-party inspection agency be used in lieu of L&I inspections?",
+      "choices": [
+        "Third-party inspections are never permitted in Washington State",
+        "When the project owner requests it and the third-party agency is certified by L&I",
+        "Only for projects exceeding $1 million in electrical work",
+        "Only for work performed by licensed master electricians"
+      ],
+      "answer": "When the project owner requests it and the third-party agency is certified by L&I",
+      "explanation": "WAC 296-46B allows certified third-party electrical inspection agencies to perform inspections in lieu of L&I, provided the agency is certified and the process is followed — WAC 296-46B."
+    },
+    {
+      "id": 34,
+      "question": "WAC 296-46B specifies how electrical permits are obtained in Washington. Which of the following is a required step before an electrical permit is issued?",
+      "choices": [
+        "Submission of stamped engineered drawings for all residential projects",
+        "Completion of the permit application with a description of the work and payment of the applicable fee",
+        "Approval from the local fire marshal before L&I issues the permit",
+        "A pre-construction meeting with the L&I inspector"
+      ],
+      "answer": "Completion of the permit application with a description of the work and payment of the applicable fee",
+      "explanation": "WAC 296-46B requires that an electrical permit application describing the scope of work be submitted and fees paid before the permit is issued — WAC 296-46B."
+    },
+    {
+      "id": 35,
+      "question": "WAC 296-46B addresses the qualifications for telecommunications administrator applicants. Which of the following is a general prerequisite for obtaining a telecommunications administrator certificate in Washington?",
+      "choices": [
+        "A minimum of 10 years of field experience as a licensed journeyman electrician",
+        "Passing the telecommunications administrator examination and meeting experience or education requirements",
+        "Holding a professional engineer (PE) license",
+        "Completion of a 4-year electrical engineering degree"
+      ],
+      "answer": "Passing the telecommunications administrator examination and meeting experience or education requirements",
+      "explanation": "WAC 296-46B requires applicants for a telecommunications administrator certificate to pass the required examination and meet applicable experience or education requirements — WAC 296-46B."
+    },
+    {
+      "id": 36,
+      "question": "WAC 296-46B specifies work that may be performed by a trainee telecommunications worker. Which of the following is accurate regarding trainee work?",
+      "choices": [
+        "Trainees may work independently without supervision on any telecommunications project",
+        "Trainees must work under the direct supervision of a certified telecommunications administrator or qualified supervisor",
+        "Trainees are prohibited from performing any work until they pass the administrator exam",
+        "Trainees may supervise other trainees if they have more than one year of experience"
+      ],
+      "answer": "Trainees must work under the direct supervision of a certified telecommunications administrator or qualified supervisor",
+      "explanation": "WAC 296-46B requires that telecommunications trainees work under the direct supervision of a qualified, certified administrator or supervisor — WAC 296-46B."
+    },
+    {
+      "id": 37,
+      "question": "WAC 296-46B addresses situations where an electrical installation fails inspection. What is the required process after a failed inspection?",
+      "choices": [
+        "The contractor may energize the installation and re-request inspection within 30 days",
+        "The deficiencies cited must be corrected and a re-inspection requested before the installation may be energized or covered",
+        "A written appeal must be filed within 5 days or the permit is revoked",
+        "The contractor may correct the deficiency and self-certify without a re-inspection"
+      ],
+      "answer": "The deficiencies cited must be corrected and a re-inspection requested before the installation may be energized or covered",
+      "explanation": "WAC 296-46B requires that deficiencies noted during an inspection be corrected and a re-inspection be scheduled; the installation shall not be energized or concealed until it passes — WAC 296-46B."
+    },
+    {
+      "id": 38,
+      "question": "Under WAC 296-46B, what is the consequence if an electrical permit expires before inspections are completed?",
+      "choices": [
+        "The work is automatically approved if no violations were noted at rough-in",
+        "A new permit must be obtained and associated fees paid before work may continue",
+        "The contractor receives a 12-month automatic extension at no charge",
+        "The permit expiration has no legal effect on the installation"
+      ],
+      "answer": "A new permit must be obtained and associated fees paid before work may continue",
+      "explanation": "WAC 296-46B requires that a new permit be obtained if the original permit expires before all required inspections are completed — WAC 296-46B."
+    },
+    {
+      "id": 39,
+      "question": "A capacitive load causes the current waveform to do which of the following relative to the voltage waveform?",
+      "choices": [
+        "Lag voltage by 90°",
+        "Remain in phase with voltage",
+        "Lead voltage",
+        "Lead voltage by exactly 180°"
+      ],
+      "answer": "Lead voltage",
+      "explanation": "In a capacitive load, current leads voltage because the capacitor charges before the voltage reaches its peak. This is opposite to the behavior of an inductive load — General Theory (AC Phase Relationships)."
+    },
+    {
+      "id": 40,
+      "question": "In a star (point-to-point) network topology used in structured cabling, all end devices connect to a central device such as a switch or hub. What is a primary advantage of this topology compared to a bus topology?",
+      "choices": [
+        "A single cable failure disables all devices on the network",
+        "It requires less cable than a bus topology for the same number of devices",
+        "A failure in one cable link affects only that individual device, not the rest of the network",
+        "All devices share a single transmission medium, reducing total cost"
+      ],
+      "answer": "A failure in one cable link affects only that individual device, not the rest of the network",
+      "explanation": "In a star topology, each device has a dedicated link to the central switch; a single link failure isolates only that device, leaving the rest of the network operational — General Theory (Network Topology)."
+    }
+  ]
+}

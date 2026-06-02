@@ -1,0 +1,217 @@
+{
+  "id": "general-theory-extended",
+  "title": "General Trade Knowledge & Theory — Extended",
+  "description": "Electrical theory, Ohm's Law, AC/DC fundamentals, transformers, test equipment, trade math, data cabling, fiber optics, and safety for the WA Telecom Administrator exam. 30 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the voltage across a 24-ohm resistor with 5 A of current flowing through it?",
+      "choices": ["96 V", "120 V", "144 V", "60 V"],
+      "answer": "120 V",
+      "explanation": "Ohm's Law: V = I × R = 5 A × 24 Ω = 120 V."
+    },
+    {
+      "id": 2,
+      "question": "A circuit has 120 V applied and 8 A of current flowing. What is the resistance?",
+      "choices": ["12 Ω", "15 Ω", "960 Ω", "8 Ω"],
+      "answer": "15 Ω",
+      "explanation": "Ohm's Law: R = V / I = 120 V / 8 A = 15 Ω."
+    },
+    {
+      "id": 3,
+      "question": "A purely resistive AC load has a power factor of 1.0. What does this indicate about the relationship between voltage and current?",
+      "choices": ["Current lags voltage by 90°", "Current leads voltage by 90°", "Voltage and current are perfectly in phase", "Voltage and current are 180° out of phase"],
+      "answer": "Voltage and current are perfectly in phase",
+      "explanation": "A power factor of 1.0 indicates a purely resistive load where voltage and current waveforms are perfectly in phase — General Theory (Power Factor)."
+    },
+    {
+      "id": 4,
+      "question": "A transformer has 400 turns on the primary and 1,600 turns on the secondary. What type of transformer is this?",
+      "choices": ["Step-down transformer", "Step-up transformer", "Isolation transformer with 1:1 ratio", "Autotransformer"],
+      "answer": "Step-up transformer",
+      "explanation": "When the secondary (Ns) has more turns than the primary (Np), the transformer steps voltage up — General Theory (Transformers)."
+    },
+    {
+      "id": 5,
+      "question": "A transformer has a 240 V primary, 200 primary turns, and 50 secondary turns. What is the secondary voltage?",
+      "choices": ["960 V", "60 V", "120 V", "48 V"],
+      "answer": "60 V",
+      "explanation": "Turns ratio: Vs = Vp × (Ns/Np) = 240 × (50/200) = 60 V — General Theory (Transformers)."
+    },
+    {
+      "id": 6,
+      "question": "What is the frequency of standard US AC power?",
+      "choices": ["50 Hz", "60 Hz", "400 Hz", "25 Hz"],
+      "answer": "60 Hz",
+      "explanation": "The US AC grid operates at 60 Hz — General Theory (AC Fundamentals)."
+    },
+    {
+      "id": 7,
+      "question": "An AC waveform has a peak voltage of 170 V. What is the approximate RMS voltage?",
+      "choices": ["85 V", "120 V", "240 V", "170 V"],
+      "answer": "120 V",
+      "explanation": "Vrms = Vpeak × 0.707 = 170 × 0.707 ≈ 120 V — General Theory (AC Waveforms)."
+    },
+    {
+      "id": 8,
+      "question": "What happens to capacitive reactance (Xc) as frequency increases?",
+      "choices": ["Xc increases proportionally", "Xc decreases", "Xc remains constant", "Xc doubles with each octave increase"],
+      "answer": "Xc decreases",
+      "explanation": "Xc = 1/(2πfC): as frequency (f) increases, Xc decreases — General Theory (Reactance)."
+    },
+    {
+      "id": 9,
+      "question": "What happens to inductive reactance (XL) as frequency increases?",
+      "choices": ["XL decreases", "XL remains constant", "XL increases", "XL becomes purely resistive"],
+      "answer": "XL increases",
+      "explanation": "XL = 2πfL: as frequency (f) increases, XL increases — General Theory (Reactance)."
+    },
+    {
+      "id": 10,
+      "question": "A clamp-on ammeter measures current by sensing which of the following?",
+      "choices": ["Voltage drop across the conductor", "The magnetic field surrounding the conductor", "Resistance of the wire insulation", "Electrostatic charge on the wire"],
+      "answer": "The magnetic field surrounding the conductor",
+      "explanation": "A clamp-on ammeter uses electromagnetic induction, sensing the magnetic field around the conductor without interrupting the circuit — General Theory (Test Equipment)."
+    },
+    {
+      "id": 11,
+      "question": "A megohmmeter is used primarily to test which of the following?",
+      "choices": ["Continuity of circuit conductors", "Insulation resistance of cables", "Frequency of AC circuits", "Voltage regulation of transformers"],
+      "answer": "Insulation resistance of cables",
+      "explanation": "A megohmmeter applies a high DC voltage (typically 500 V or 1,000 V) to test insulation resistance — General Theory (Test Equipment)."
+    },
+    {
+      "id": 12,
+      "question": "A three-phase circuit operates at 480 V with 10 A of current and a power factor of 1.0. What is the approximate true power?",
+      "choices": ["4,800 W", "8,314 W", "9,600 W", "14,400 W"],
+      "answer": "8,314 W",
+      "explanation": "Three-phase power: P = √3 × V × I × PF = 1.732 × 480 × 10 × 1.0 ≈ 8,314 W — General Theory (Three-Phase Power)."
+    },
+    {
+      "id": 13,
+      "question": "At what ground-fault current does a Class A GFCI device trip, per UL 943?",
+      "choices": ["10 mA", "5 mA (±1 mA)", "15 mA", "20 mA"],
+      "answer": "5 mA (±1 mA)",
+      "explanation": "Class A GFCIs trip at 5 mA (±1 mA) per UL 943 to protect personnel — General Theory (Safety)."
+    },
+    {
+      "id": 14,
+      "question": "Which OSHA standard governs Lockout/Tagout (LOTO) procedures for the control of hazardous energy?",
+      "choices": ["OSHA 29 CFR 1910.132", "OSHA 29 CFR 1910.147", "OSHA 29 CFR 1926.404", "OSHA 29 CFR 1910.303"],
+      "answer": "OSHA 29 CFR 1910.147",
+      "explanation": "LOTO is governed by OSHA 29 CFR 1910.147, preventing unexpected energization during maintenance — General Theory (Safety)."
+    },
+    {
+      "id": 15,
+      "question": "Three resistors — 10 Ω, 15 Ω, and 25 Ω — are connected in series. What is the total resistance?",
+      "choices": ["5.56 Ω", "25 Ω", "50 Ω", "40 Ω"],
+      "answer": "50 Ω",
+      "explanation": "Series circuit: Rtotal = R1 + R2 + R3 = 10 + 15 + 25 = 50 Ω — General Theory (DC Circuits)."
+    },
+    {
+      "id": 16,
+      "question": "A 12 Ω resistor carries 4 A of current. What is the power dissipated by the resistor?",
+      "choices": ["48 W", "192 W", "16 W", "144 W"],
+      "answer": "192 W",
+      "explanation": "Power formula: P = I² × R = (4)² × 12 = 16 × 12 = 192 W — General Theory (Power Calculations)."
+    },
+    {
+      "id": 17,
+      "question": "A 240 V source is applied across a 60 Ω resistor. What is the power dissipated?",
+      "choices": ["4 W", "14,400 W", "960 W", "400 W"],
+      "answer": "960 W",
+      "explanation": "Power formula: P = V² / R = (240)² / 60 = 57,600 / 60 = 960 W — General Theory (Power Calculations)."
+    },
+    {
+      "id": 18,
+      "question": "Two resistors of 20 Ω and 30 Ω are connected in parallel. What is the total resistance?",
+      "choices": ["50 Ω", "25 Ω", "12 Ω", "10 Ω"],
+      "answer": "12 Ω",
+      "explanation": "Parallel resistance: 1/Rtotal = 1/20 + 1/30 = 3/60 + 2/60 = 5/60; Rtotal = 60/5 = 12 Ω — General Theory (Parallel Circuits)."
+    },
+    {
+      "id": 19,
+      "question": "In a parallel circuit with 120 V applied, one branch has 40 Ω and another has 60 Ω. What is the total current supplied by the source?",
+      "choices": ["2 A", "3 A", "5 A", "1.2 A"],
+      "answer": "5 A",
+      "explanation": "I1 = 120/40 = 3 A; I2 = 120/60 = 2 A. KCL: Itotal = I1 + I2 = 3 + 2 = 5 A — General Theory (Parallel Circuits / KCL)."
+    },
+    {
+      "id": 20,
+      "question": "Kirchhoff's Voltage Law (KVL) states that around any closed loop in a circuit:",
+      "choices": ["The sum of all currents entering a node equals the sum leaving", "The sum of all voltage drops equals the source voltage", "Total resistance equals the sum of branch currents", "Power in equals power dissipated at each resistor individually"],
+      "answer": "The sum of all voltage drops equals the source voltage",
+      "explanation": "KVL: The algebraic sum of all voltage drops around any closed loop equals the applied source voltage — General Theory (Kirchhoff's Laws)."
+    },
+    {
+      "id": 21,
+      "question": "Kirchhoff's Current Law (KCL) states that at any node in a circuit:",
+      "choices": ["Voltage is the same at every branch", "The sum of currents entering the node equals the sum of currents leaving", "Resistance of all branches adds to zero", "Current is identical in all parallel branches"],
+      "answer": "The sum of currents entering the node equals the sum of currents leaving",
+      "explanation": "KCL: The sum of currents entering a node always equals the sum of currents leaving that node — General Theory (Kirchhoff's Laws)."
+    },
+    {
+      "id": 22,
+      "question": "A transformer steps voltage from 120 V to 480 V. If the primary current is 8 A, what is the approximate secondary current (assuming an ideal transformer)?",
+      "choices": ["32 A", "8 A", "2 A", "4 A"],
+      "answer": "2 A",
+      "explanation": "In an ideal transformer, power is conserved: Vp × Ip = Vs × Is. Is = (120 × 8) / 480 = 960 / 480 = 2 A. Current is inversely proportional to the voltage ratio — General Theory (Transformers)."
+    },
+    {
+      "id": 23,
+      "question": "An AC circuit has an apparent power of 10,000 VA and a real power of 8,000 W. What is the reactive power?",
+      "choices": ["2,000 VAR", "6,000 VAR", "18,000 VAR", "80,000 VAR"],
+      "answer": "6,000 VAR",
+      "explanation": "Using the power triangle: Q = √(S² − P²) = √(10,000² − 8,000²) = √(100,000,000 − 64,000,000) = √36,000,000 = 6,000 VAR — General Theory (AC Power)."
+    },
+    {
+      "id": 24,
+      "question": "An AC waveform has a frequency of 400 Hz. What is the period of this waveform?",
+      "choices": ["400 s", "0.0025 s (2.5 ms)", "0.025 s (25 ms)", "4 ms"],
+      "answer": "0.0025 s (2.5 ms)",
+      "explanation": "Period T = 1/f = 1/400 = 0.0025 s = 2.5 ms — General Theory (AC Waveforms)."
+    },
+    {
+      "id": 25,
+      "question": "An inductive load causes the current waveform to do which of the following relative to the voltage waveform?",
+      "choices": ["Lead voltage by 90°", "Lag voltage", "Remain perfectly in phase", "Lead voltage by 45°"],
+      "answer": "Lag voltage",
+      "explanation": "In an inductive load, current lags behind voltage because the inductor opposes changes in current — General Theory (AC Phase Relationships)."
+    },
+    {
+      "id": 26,
+      "question": "If a signal's power doubles, what is the corresponding increase in decibels (dB)?",
+      "choices": ["6 dB", "3 dB", "10 dB", "1 dB"],
+      "answer": "3 dB",
+      "explanation": "A doubling of power equals approximately 3 dB gain. 10 dB = 10× power increase — General Theory (dB Fundamentals)."
+    },
+    {
+      "id": 27,
+      "question": "As the frequency of a signal increases in a copper cable, what generally happens to signal attenuation per unit length?",
+      "choices": ["Attenuation decreases", "Attenuation remains constant regardless of frequency", "Attenuation increases", "Attenuation is eliminated by the skin effect"],
+      "answer": "Attenuation increases",
+      "explanation": "Higher frequencies experience greater signal attenuation per unit length in copper cable due to the skin effect and dielectric losses — General Theory (Signal Attenuation)."
+    },
+    {
+      "id": 28,
+      "question": "Which structured cabling standard defines Category cable ratings (Cat5e, Cat6, Cat6A) and horizontal cabling requirements?",
+      "choices": ["IEEE 802.3", "TIA-568", "ANSI/BICSI 002", "NEC Article 800"],
+      "answer": "TIA-568",
+      "explanation": "TIA-568 (Telecommunications Infrastructure Standard) defines Category cable ratings and structured cabling requirements for commercial buildings — General Theory (Structured Cabling)."
+    },
+    {
+      "id": 29,
+      "question": "What is the primary difference between multimode fiber (MMF) and single-mode fiber (SMF)?",
+      "choices": ["MMF uses a laser light source and supports longer distances; SMF uses an LED and shorter distances", "MMF has a larger core diameter, uses LED/VCSEL sources, and is suited for shorter distances; SMF has a smaller core, uses a laser, and supports longer distances", "SMF is always orange in color; MMF is always yellow", "MMF operates only at 850 nm; SMF operates only at 1,310 nm"],
+      "answer": "MMF has a larger core diameter, uses LED/VCSEL sources, and is suited for shorter distances; SMF has a smaller core, uses a laser, and supports longer distances",
+      "explanation": "Multimode fiber (MMF) has a larger core (50 or 62.5 µm), uses LED/VCSEL light sources, and is used for shorter-distance links. Single-mode fiber (SMF) has a 9 µm core, uses a laser, and supports much longer distances — General Theory (Fiber Optics)."
+    },
+    {
+      "id": 30,
+      "question": "What is the purpose of an OTDR (Optical Time-Domain Reflectometer)?",
+      "choices": ["To measure DC resistance of fiber optic cable", "To inject a tone signal into copper pairs for tracing", "To send a light pulse into fiber and analyze reflections to locate faults, measure length, and assess loss", "To certify the insertion loss of copper Category cable"],
+      "answer": "To send a light pulse into fiber and analyze reflections to locate faults, measure length, and assess loss",
+      "explanation": "An OTDR sends a light pulse into a fiber optic cable and measures the time and intensity of reflected light to locate faults, measure cable length, and characterize splice and connector losses — General Theory (Fiber Optic Test Equipment)."
+    }
+  ]
+}

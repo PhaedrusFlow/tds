@@ -1,0 +1,367 @@
+{
+  "id": "nec-90-introduction",
+  "title": "NEC Article 90 \u2014 Introduction",
+  "description": "Covers the purpose, scope, enforcement, and organization of NEC 2023 (NFPA 70). 30 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to NEC 2023 Section 90.2(A), what is the stated purpose of the National Electrical Code?",
+      "choices": [
+        "To provide design specifications and efficiency standards for electrical installations",
+        "The practical safeguarding of persons and property from hazards arising from the use of electricity",
+        "To serve as an instruction manual for qualified electricians performing installations",
+        "To establish minimum energy efficiency requirements for electrical systems"
+      ],
+      "answer": "The practical safeguarding of persons and property from hazards arising from the use of electricity",
+      "explanation": "NEC 90.2(A) states that the purpose of this Code is the practical safeguarding of persons and property from hazards arising from the use of electricity. The Code explicitly is not intended as a design specification or instruction manual for untrained persons."
+    },
+    {
+      "id": 2,
+      "question": "Under NEC 2023, the NEC is best described as which type of document?",
+      "choices": [
+        "A design specification standard for electrical engineers",
+        "A safety standard establishing minimum requirements",
+        "An instruction manual for training unlicensed electricians",
+        "A comprehensive guide to energy-efficient electrical design"
+      ],
+      "answer": "A safety standard establishing minimum requirements",
+      "explanation": "NEC 90.2(A)(B) makes clear that the Code contains requirements considered necessary for a safe electrical installation \u2014 it is a safety standard, not a design guide. NEC requirements represent bare minimums for safety, not design specifications."
+    },
+    {
+      "id": 3,
+      "question": "According to NEC 90.2(B), which of the following installations is specifically EXCLUDED from the scope of the NEC?",
+      "choices": [
+        "Wiring in a floating building on a navigable waterway",
+        "Electrical installations in mobile homes",
+        "Railway power, signaling, and communications wiring",
+        "Electrical equipment in a utility company office building"
+      ],
+      "answer": "Railway power, signaling, and communications wiring",
+      "explanation": "NEC 90.2(B)(3) specifically excludes railway power, signaling, and communications wiring from the scope of the Code. Mobile homes and floating buildings are covered under 90.2(A)(1), and utility office buildings not integral to generation/distribution are covered under 90.2(A)(4)."
+    },
+    {
+      "id": 4,
+      "question": "Under NEC 90.2(B), which of the following is NOT covered by the NEC?",
+      "choices": [
+        "Electrical wiring in a commercial parking lot",
+        "Conductors connecting premises wiring to the utility supply",
+        "Installations in ships, aircraft, and automotive vehicles",
+        "Wiring in industrial substations on private property"
+      ],
+      "answer": "Installations in ships, aircraft, and automotive vehicles",
+      "explanation": "NEC 90.2(B)(1) excludes installations in cars, trucks, boats, ships and watercraft, planes, and electric trains (transportation vehicles). Parking lots, supply conductors, and private substations fall within NEC coverage under 90.2(A)."
+    },
+    {
+      "id": 5,
+      "question": "According to NEC 90.3, how are Chapters 1 through 4 of the NEC applied?",
+      "choices": [
+        "They apply only to special occupancies and special equipment",
+        "They apply generally to all electrical installations",
+        "They apply exclusively to communications systems",
+        "They apply only when referenced by Chapters 5, 6, or 7"
+      ],
+      "answer": "They apply generally to all electrical installations",
+      "explanation": "NEC 90.3 states that Chapters 1, 2, 3, and 4 apply generally to all electrical installations. Chapters 5, 6, and 7 apply to special occupancies, special equipment, or other special conditions, and may supplement or modify the general requirements."
+    },
+    {
+      "id": 6,
+      "question": "According to NEC 90.3, what is the relationship of Chapter 8 (Communications Systems) to the rest of the NEC?",
+      "choices": [
+        "Chapter 8 supplements and modifies all requirements in Chapters 1 through 7",
+        "Chapter 8 is a standalone chapter; it is not subject to the general requirements of Chapters 1\u20137 unless specifically referenced",
+        "Chapter 8 applies generally and takes precedence over Chapters 5, 6, and 7",
+        "Chapter 8 applies only to utility-owned communications equipment"
+      ],
+      "answer": "Chapter 8 is a standalone chapter; it is not subject to the general requirements of Chapters 1\u20137 unless specifically referenced",
+      "explanation": "NEC 90.3 states that Chapter 8 (communications systems) is not subject to the general requirements of Chapters 1 through 4, or the special requirements of Chapters 5 through 7, unless there is a specific reference in Chapter 8 to a rule in those chapters. This makes Chapter 8 essentially a standalone chapter."
+    },
+    {
+      "id": 7,
+      "question": "Under NEC 90.3, what is the purpose of Chapter 9 of the NEC?",
+      "choices": [
+        "To provide special requirements for hazardous locations",
+        "To establish requirements for communications and signaling systems",
+        "To provide tables applicable as referenced throughout the NEC",
+        "To contain annexes and informational supplements to the Code"
+      ],
+      "answer": "To provide tables applicable as referenced throughout the NEC",
+      "explanation": "NEC 90.3 describes Chapter 9 as consisting of tables applicable as referenced in the NEC. These tables are used to calculate raceway sizing, conductor fill, bend radii, and voltage drop, among other things."
+    },
+    {
+      "id": 8,
+      "question": "According to NEC 90.4, who has the authority to approve equipment and materials for use in an electrical installation?",
+      "choices": [
+        "The NFPA Technical Committee responsible for the applicable article",
+        "The electrical contractor of record for the project",
+        "Only UL-listed testing laboratories",
+        "The authority having jurisdiction (AHJ)"
+      ],
+      "answer": "The authority having jurisdiction (AHJ)",
+      "explanation": "NEC 90.4 states that only the authority having jurisdiction (AHJ) has the authority to approve the installation of equipment and materials. The AHJ is also responsible for interpreting requirements, waiving Code requirements, and ensuring equipment is installed per listing instructions."
+    },
+    {
+      "id": 9,
+      "question": "According to NEC 90.4, what is 'special permission' and who can grant it?",
+      "choices": [
+        "Verbal approval from any licensed master electrician to deviate from the NEC",
+        "Written consent of the authority having jurisdiction to use alternate methods",
+        "A formal interpretation issued by the NFPA Technical Committee",
+        "An exemption granted by the state electrical board for historic structures"
+      ],
+      "answer": "Written consent of the authority having jurisdiction to use alternate methods",
+      "explanation": "NEC 90.4 and Article 100 define special permission as written consent of the authority having jurisdiction. The AHJ may grant special permission to approve alternate methods where equivalent safety can be achieved and maintained."
+    },
+    {
+      "id": 10,
+      "question": "In NEC 90.5(A), the word 'shall' in a Code requirement indicates which of the following?",
+      "choices": [
+        "A permissive rule \u2014 the action is allowed but not required",
+        "An explanatory note \u2014 the item is informational only and not enforceable",
+        "A mandatory requirement that must be followed",
+        "A recommended best practice that may be waived by the AHJ"
+      ],
+      "answer": "A mandatory requirement that must be followed",
+      "explanation": "NEC 90.5(A) states that the words 'shall' or 'shall not' indicate a mandatory requirement. These are enforceable rules with which full compliance is required."
+    },
+    {
+      "id": 11,
+      "question": "Under NEC 90.5(B), the phrase 'shall be permitted' in a Code rule indicates which of the following?",
+      "choices": [
+        "The action is mandatory in all circumstances",
+        "The action is allowed but not required, and the AHJ cannot prohibit it",
+        "The action requires written approval from the AHJ before proceeding",
+        "The action is informational and carries no enforcement weight"
+      ],
+      "answer": "The action is allowed but not required, and the AHJ cannot prohibit it",
+      "explanation": "NEC 90.5(B) states that 'shall be permitted' means the identified action is allowed but not required, and the authority having jurisdiction is not permitted to restrict an installation from being completed in that manner. Permissive rules are often exceptions to a general requirement."
+    },
+    {
+      "id": 12,
+      "question": "Under NEC 90.5(C), Informational Notes in the NEC are best characterized as which of the following?",
+      "choices": [
+        "Mandatory requirements with the same enforcement weight as 'shall' rules",
+        "Permissive rules that allow alternatives to general requirements",
+        "Explanatory material that is informational only and not enforceable",
+        "Table notes that carry full enforcement authority"
+      ],
+      "answer": "Explanatory material that is informational only and not enforceable",
+      "explanation": "NEC 90.5(C) states that Informational Notes are explanatory material \u2014 references to other standards or Code sections, or information related to a Code rule \u2014 and are not enforceable as requirements of the NEC. Note: Table Notes ARE enforceable, unlike Informational Notes."
+    },
+    {
+      "id": 13,
+      "question": "According to NEC 90.6, what is true about formal interpretations issued through the NFPA process?",
+      "choices": [
+        "They are binding on all authorities having jurisdiction in adopting jurisdictions",
+        "They are binding only on jurisdictions that have adopted the current NEC edition",
+        "They are not binding on the authority having jurisdiction",
+        "They supersede the adopted Code and must be enforced immediately"
+      ],
+      "answer": "They are not binding on the authority having jurisdiction",
+      "explanation": "NEC 90.6 states that formal interpretations from the NFPA promote uniformity of interpretation but are not binding on the authority having jurisdiction. The formal interpretation process is established in the NFPA Regulations Governing Committee Projects and is noted to be a time-consuming process."
+    },
+    {
+      "id": 14,
+      "question": "NEC 90.7 addresses examination of equipment for safety. According to this section, when listed equipment is installed, what portion of the equipment generally does NOT need to be inspected at the time of installation?",
+      "choices": [
+        "The exterior markings and labels on the equipment enclosure",
+        "Factory-installed internal wiring and construction of the equipment, except to detect alterations or damage",
+        "The line-side conductors supplying the equipment",
+        "The load-side wiring installed in the field by the contractor"
+      ],
+      "answer": "Factory-installed internal wiring and construction of the equipment, except to detect alterations or damage",
+      "explanation": "NEC 90.7 states that factory-installed internal wiring and construction of listed equipment need not be inspected at the time of installation, except to detect alterations or damage. The testing laboratory's listing process already evaluates the internal construction for safety compliance."
+    },
+    {
+      "id": 15,
+      "question": "According to NEC 90.9, when both metric (SI) and inch-pound measurements appear in the Code, which system must be used to achieve compliance?",
+      "choices": [
+        "Only the metric (SI) system, since it appears first in the Code",
+        "Only the inch-pound system, since it reflects standard U.S. construction practice",
+        "Either the metric system or the inch-pound system \u2014 compliance with either constitutes Code compliance",
+        "The metric system for conductor sizing and the inch-pound system for clearances"
+      ],
+      "answer": "Either the metric system or the inch-pound system \u2014 compliance with either constitutes Code compliance",
+      "explanation": "NEC 90.9(D) states that compliance with the numbers shown in either the SI (metric) system or the inch-pound system constitutes compliance with the Code. The NEC shows metric units first, with inch-pound units immediately following in parentheses, per 90.9(B)."
+    },
+    {
+      "id": 16,
+      "question": "Under NEC 90.2(A), which of the following installations IS within the scope of the NEC?",
+      "choices": [
+        "Wiring aboard an oceangoing cargo ship",
+        "Electrical installations in floating buildings",
+        "Underground mine electrical equipment",
+        "Power generation facilities owned and operated by an electric utility"
+      ],
+      "answer": "Electrical installations in floating buildings",
+      "explanation": "NEC 90.2(A)(1) specifically includes floating buildings within the scope of the Code. Ships, watercraft, and similar vessels are excluded under 90.2(B)(1). Underground mines are excluded under 90.2(B)(2), and utility generation facilities are excluded under 90.2(B)(4)."
+    },
+    {
+      "id": 17,
+      "question": "According to NEC 90.2(B)(2), which of the following is excluded from the scope of the NEC?",
+      "choices": [
+        "Industrial substations located on private property",
+        "Electrical installations in recreational vehicle parks",
+        "Underground mine installations",
+        "Conductors extending from utility poles to a building"
+      ],
+      "answer": "Underground mine installations",
+      "explanation": "NEC 90.2(B)(2) explicitly excludes underground mine installations and the equipment associated with them from the scope of the NEC. These are instead governed by Mine Safety and Health Administration (MSHA) regulations. Industrial substations on private property and RV parks are included under NEC 90.2(A)."
+    },
+    {
+      "id": 18,
+      "question": "Under NEC 90.2(B)(4), which type of installation is excluded from the NEC's scope?",
+      "choices": [
+        "Utility company office buildings not used for generation or distribution",
+        "Electrical installations used for power generation, transmission, and distribution by electric utilities",
+        "Mobile home parks supplied by a utility company",
+        "Industrial substations on private property that supply a manufacturing facility"
+      ],
+      "answer": "Electrical installations used for power generation, transmission, and distribution by electric utilities",
+      "explanation": "NEC 90.2(B)(4) excludes installations under the exclusive control of an electric utility for the purpose of power generation, control, transformation, transmission, and distribution. These facilities are governed by other standards and regulations (e.g., NESC). Utility office buildings and mobile home parks remain within the NEC's scope."
+    },
+    {
+      "id": 19,
+      "question": "A building is owned by an electric utility and houses equipment that is an integral part of the utility's power generation and distribution system. Under NEC 90.2(B)(5), which of the following statements is correct?",
+      "choices": [
+        "The building is fully subject to the NEC because it is a building",
+        "The building's electrical installations are excluded from the NEC because they are integral to utility service",
+        "The NEC applies to the building's wiring only if the utility adopts it voluntarily",
+        "Only the generation equipment is excluded; all wiring must comply with the NEC"
+      ],
+      "answer": "The building's electrical installations are excluded from the NEC because they are integral to utility service",
+      "explanation": "NEC 90.2(B)(5) excludes installations in buildings used by electric utilities \u2014 such as power generating stations, substations, and control centers \u2014 where the electrical installations are an integral part of the utility's generation, transmission, or distribution system. These facilities are regulated under other standards."
+    },
+    {
+      "id": 20,
+      "question": "A utility company maintains an administrative office building that is separate from its substation and used for billing and customer service. According to NEC 90.2(A)(4), is this building covered by the NEC?",
+      "choices": [
+        "No \u2014 any building owned by a utility is excluded from the NEC",
+        "No \u2014 utility buildings are always regulated by the NESC, not the NEC",
+        "Yes \u2014 utility company office buildings that are not integral to generation or distribution are within the NEC's scope",
+        "Yes \u2014 but only if the utility voluntarily adopts the NEC for that building"
+      ],
+      "answer": "Yes \u2014 utility company office buildings that are not integral to generation or distribution are within the NEC's scope",
+      "explanation": "NEC 90.2(A)(4) states that the Code covers installations of electrical equipment in or on buildings or structures used by the electric utility \u2014 such as office buildings, warehouses, garages, and recreation buildings \u2014 that are not an integral part of a generating plant, substation, or control center. These ordinary occupancy buildings are within the NEC's scope."
+    },
+    {
+      "id": 21,
+      "question": "According to NEC 90.2(A), which of the following is specifically listed as a type of installation covered by the NEC?",
+      "choices": [
+        "Electrical wiring aboard a private aircraft",
+        "Power and lighting installations in recreational vehicles in transit",
+        "Electrical installations in carnivals, circuses, fairs, and similar events",
+        "Railway signaling systems under exclusive railroad control"
+      ],
+      "answer": "Electrical installations in carnivals, circuses, fairs, and similar events",
+      "explanation": "NEC 90.2(A)(1) includes installations of electric conductors and equipment within or on public and private buildings or other structures, including mobile homes, recreational vehicle parks, carnivals, and industrial substations. Aircraft and recreational vehicles themselves are excluded (90.2(B)(1)), as are railway signaling systems (90.2(B)(3))."
+    },
+    {
+      "id": 22,
+      "question": "Under NEC 90.3, which chapters of the NEC can supplement or modify the general requirements found in Chapters 1 through 4?",
+      "choices": [
+        "Only Chapter 8 (Communications Systems)",
+        "Chapters 5, 6, and 7",
+        "Chapters 5 through 9",
+        "Chapter 9 (Tables) only"
+      ],
+      "answer": "Chapters 5, 6, and 7",
+      "explanation": "NEC 90.3 states that Chapters 5, 6, and 7 \u2014 covering Special Occupancies, Special Equipment, and Special Conditions, respectively \u2014 may supplement or modify the general requirements of Chapters 1 through 4. Chapter 8 is standalone, and Chapter 9 consists of tables."
+    },
+    {
+      "id": 23,
+      "question": "A hazardous (classified) location is covered by Chapter 5 of the NEC. Chapter 5 contains a rule that conflicts with a general rule in Chapter 3 regarding wiring methods. Under NEC 90.3, which rule controls?",
+      "choices": [
+        "The Chapter 3 rule, because Chapters 1\u20134 always govern",
+        "The Chapter 5 rule, because Chapters 5\u20137 supplement or modify Chapters 1\u20134",
+        "Whichever rule is more restrictive",
+        "The AHJ decides which chapter takes precedence on a case-by-case basis"
+      ],
+      "answer": "The Chapter 5 rule, because Chapters 5\u20137 supplement or modify Chapters 1\u20134",
+      "explanation": "NEC 90.3 states that Chapters 5, 6, and 7 apply to special occupancies, special equipment, and special conditions, respectively, and may supplement or modify the requirements in Chapters 1 through 4. When a conflict exists, the special chapter rule (Chapter 5, 6, or 7) controls over the general chapter rule."
+    },
+    {
+      "id": 24,
+      "question": "Under NEC 90.4, if the AHJ determines that a piece of listed electrical equipment creates a hazard due to the specific conditions of the installation, what authority does the AHJ have?",
+      "choices": [
+        "None \u2014 listed equipment is automatically approved and must be permitted by all AHJs",
+        "The AHJ may reject the listed equipment and refuse to approve the installation",
+        "The AHJ may only add conditions; it cannot outright reject listed equipment",
+        "The AHJ must seek a formal NFPA interpretation before rejecting listed equipment"
+      ],
+      "answer": "The AHJ may reject the listed equipment and refuse to approve the installation",
+      "explanation": "NEC 90.4 grants the AHJ the authority to approve (or reject) equipment and materials. Listing by a nationally recognized testing laboratory does not automatically constitute approval by the AHJ. The AHJ retains the right to reject listed equipment if it determines the equipment creates a hazard in the specific installation context."
+    },
+    {
+      "id": 25,
+      "question": "According to NEC 90.4, who is responsible for interpreting NEC requirements and resolving disputes about Code compliance on a project?",
+      "choices": [
+        "The project's engineer of record",
+        "The electrical contractor of record",
+        "The authority having jurisdiction (AHJ)",
+        "The NFPA Technical Correlating Committee"
+      ],
+      "answer": "The authority having jurisdiction (AHJ)",
+      "explanation": "NEC 90.4 places responsibility for interpretation of NEC requirements squarely with the authority having jurisdiction. The AHJ interprets the rules, approves equipment, waives specific requirements when equivalent safety is provided, and has final say on Code compliance questions at the local level."
+    },
+    {
+      "id": 26,
+      "question": "Under NEC 90.5(B), which phrase, when used in a Code rule, indicates that an action is NOT required but may not be prohibited by the AHJ?",
+      "choices": [
+        "Shall",
+        "Shall not",
+        "Shall be permitted",
+        "Shall not be required"
+      ],
+      "answer": "Shall be permitted",
+      "explanation": "NEC 90.5(B) defines 'shall be permitted' as a permissive rule: the action is allowed but not mandated. The AHJ cannot prohibit an installation method that the Code states 'shall be permitted.' This is distinct from 'shall not be required,' which means the AHJ cannot mandate something, but also doesn't prevent the AHJ from prohibiting it."
+    },
+    {
+      "id": 27,
+      "question": "Under NEC 90.5(C), which of the following carries enforcement authority as part of the NEC?",
+      "choices": [
+        "Informational Notes following a Code section",
+        "Fine-print notes referencing other NFPA standards",
+        "Notes to tables within the NEC",
+        "Explanatory paragraphs labeled 'FPN' in older editions"
+      ],
+      "answer": "Notes to tables within the NEC",
+      "explanation": "NEC 90.5(C) makes clear that Informational Notes are not enforceable. However, notes to tables (table notes) are part of the table itself and ARE enforceable requirements. This is an important distinction tested frequently on licensing exams."
+    },
+    {
+      "id": 28,
+      "question": "According to NEC 90.6, what is the stated purpose of the formal interpretation process?",
+      "choices": [
+        "To provide binding rulings that override the AHJ's local decisions",
+        "To promote uniformity of interpretation of NEC provisions",
+        "To allow manufacturers to contest AHJ rejections of their listed equipment",
+        "To enable states to formally adopt amendments to the NEC"
+      ],
+      "answer": "To promote uniformity of interpretation of NEC provisions",
+      "explanation": "NEC 90.6 states that the formal interpretation process exists to promote uniformity of interpretation. However, formal interpretations are not binding on the authority having jurisdiction. The process is established in NFPA Regulations Governing Committee Projects and is described as time-consuming."
+    },
+    {
+      "id": 29,
+      "question": "According to NEC 90.7, what is the role of nationally recognized testing laboratories (NRTLs) in the context of equipment examination?",
+      "choices": [
+        "NRTLs perform on-site installation inspections on behalf of the AHJ",
+        "NRTLs test equipment and publish product directories; their listing indicates that internal construction has been evaluated for safety",
+        "NRTLs issue formal interpretations when equipment conflicts with Code requirements",
+        "NRTLs approve the AHJ's decisions on equipment rejections"
+      ],
+      "answer": "NRTLs test equipment and publish product directories; their listing indicates that internal construction has been evaluated for safety",
+      "explanation": "NEC 90.7 explains that certain testing organizations examine equipment for safety and publish lists of equipment that meets safety standards. The listing process evaluates the factory-assembled internal wiring and construction, which is why factory-installed internal wiring need not be re-inspected at installation \u2014 except to detect alterations or damage."
+    },
+    {
+      "id": 30,
+      "question": "According to NEC 90.9(A) and 90.9(B), how are measurement units presented in the NEC?",
+      "choices": [
+        "Inch-pound units appear first, with SI (metric) units following in parentheses",
+        "SI (metric) units appear first, with inch-pound units following in parentheses",
+        "Only SI (metric) units are shown; inch-pound conversions are in the annexes",
+        "Only inch-pound units are shown; metric values appear only in Informational Notes"
+      ],
+      "answer": "SI (metric) units appear first, with inch-pound units following in parentheses",
+      "explanation": "NEC 90.9(A) and 90.9(B) establish that the SI (metric) system of measurement is used in the NEC. Metric values are shown first, with the equivalent inch-pound measurement immediately following in parentheses. Either system may be used for compliance per 90.9(D)."
+    }
+  ]
+}

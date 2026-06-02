@@ -1,0 +1,487 @@
+{
+  "id": "pretest-a",
+  "title": "WA Telecom Admin — Pretest A",
+  "description": "40-question mixed pretest sampling NEC Articles 90, 100–110, 240, 300–398, 705–780, 800–830, RCW 19.28, WAC 296-46B, and general theory. Simulates the exam experience.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "NEC Article 90 states that the Code's primary purpose is to:",
+      "choices": [
+        "Establish minimum wage requirements for electricians",
+        "Provide practical safeguarding of persons and property from hazards arising from the use of electricity",
+        "Define maximum permitted load capacities for residential wiring",
+        "Regulate the licensing of electrical contractors in each state"
+      ],
+      "answer": "Provide practical safeguarding of persons and property from hazards arising from the use of electricity",
+      "explanation": "NEC Article 90.1(A) states the purpose of the Code is the practical safeguarding of persons and property from hazards arising from the use of electricity."
+    },
+    {
+      "id": 2,
+      "question": "According to NEC Article 90, the NEC is intended to be used by:",
+      "choices": [
+        "Homeowners performing DIY electrical work without permits",
+        "Only licensed master electricians",
+        "Qualified persons such as electrical inspectors, designers, and installers",
+        "Only federal government agencies"
+      ],
+      "answer": "Qualified persons such as electrical inspectors, designers, and installers",
+      "explanation": "NEC Article 90.1(C) clarifies the Code is not a design manual but is intended for use by qualified persons — NEC Article 90."
+    },
+    {
+      "id": 3,
+      "question": "NEC Article 90.3 describes how the NEC is organized. Which of the following correctly describes the relationship between Chapter 8 and the rest of the NEC?",
+      "choices": [
+        "Chapter 8 applies in addition to all other NEC chapters",
+        "Chapter 8 (Communications Systems) stands alone and is not subject to the requirements of Chapters 1–7 except where specifically referenced",
+        "Chapter 8 supplements Chapter 7 only",
+        "Chapter 8 is optional and may be adopted by local jurisdictions independently"
+      ],
+      "answer": "Chapter 8 (Communications Systems) stands alone and is not subject to the requirements of Chapters 1–7 except where specifically referenced",
+      "explanation": "NEC Article 90.3 states that Chapter 8 covers communications systems and is not subject to the requirements of Chapters 1 through 7 unless specifically referenced therein."
+    },
+    {
+      "id": 4,
+      "question": "Per NEC Article 100, which of the following best defines 'Accessible (as applied to equipment)'?",
+      "choices": [
+        "Capable of being reached quickly for operation, renewal, or inspection without having to climb over or remove obstacles or gain access using a ladder",
+        "Any equipment that can be reached by a licensed electrician with a ladder",
+        "Equipment installed within 7 feet of the finished floor",
+        "Equipment installed in an openly visible location"
+      ],
+      "answer": "Capable of being reached quickly for operation, renewal, or inspection without having to climb over or remove obstacles or gain access using a ladder",
+      "explanation": "NEC Article 100 defines 'Accessible (as applied to equipment)' as capable of being reached quickly for operation, renewal, or inspection without having to climb over or remove obstacles or gain access using a ladder."
+    },
+    {
+      "id": 5,
+      "question": "Per NEC Article 100, what is the definition of a 'Branch Circuit'?",
+      "choices": [
+        "The conductors between the utility transformer and the service entrance",
+        "The circuit conductors between the final overcurrent device protecting the circuit and the outlets",
+        "Any conductor that serves more than one panelboard",
+        "A circuit limited to 15 or 20 amperes"
+      ],
+      "answer": "The circuit conductors between the final overcurrent device protecting the circuit and the outlets",
+      "explanation": "NEC Article 100 defines a Branch Circuit as the circuit conductors between the final overcurrent device protecting the circuit and the outlet(s)."
+    },
+    {
+      "id": 6,
+      "question": "NEC Article 110.12 requires that electrical equipment be installed in a:",
+      "choices": [
+        "Locked enclosure at all times",
+        "Neat and workmanlike manner",
+        "Location accessible only to licensed electricians",
+        "Metal enclosure painted safety orange"
+      ],
+      "answer": "Neat and workmanlike manner",
+      "explanation": "NEC 110.12 states that electrical equipment shall be installed in a neat and workmanlike manner — NEC Article 110."
+    },
+    {
+      "id": 7,
+      "question": "NEC Article 110.26 requires a minimum clear working space in front of electrical equipment operating at 0–150 V to ground. What is this minimum depth?",
+      "choices": [
+        "18 inches",
+        "36 inches (Condition 1)",
+        "42 inches",
+        "24 inches"
+      ],
+      "answer": "36 inches (Condition 1)",
+      "explanation": "NEC Table 110.26(A)(1) specifies a minimum working space depth of 36 inches (Condition 1) for equipment operating at 0–150 V to ground — NEC Article 110."
+    },
+    {
+      "id": 8,
+      "question": "Per NEC 110.14, connections of conductors to terminals shall be made using:",
+      "choices": [
+        "Any connector regardless of conductor material",
+        "Devices identified for the conductor material used, and conductors of the proper size and number",
+        "Only copper conductors terminated with aluminum connectors",
+        "Hand-tightened connectors without torque specifications"
+      ],
+      "answer": "Devices identified for the conductor material used, and conductors of the proper size and number",
+      "explanation": "NEC 110.14 requires that terminals and connectors be identified for the conductor material being used (e.g., Cu, Al, Cu-Al) to prevent galvanic corrosion and overheating — NEC Article 110."
+    },
+    {
+      "id": 9,
+      "question": "Under NEC Article 240, overcurrent protection devices must be installed at which location in a circuit?",
+      "choices": [
+        "At the load end of all conductors",
+        "Only at the panelboard",
+        "At the point where the conductor receives its supply, unless an exception applies",
+        "At every junction box along the circuit"
+      ],
+      "answer": "At the point where the conductor receives its supply, unless an exception applies",
+      "explanation": "NEC 240.21 requires overcurrent protection to be located at the point where the conductor receives its supply, protecting conductors from overload and fault current — NEC Article 240."
+    },
+    {
+      "id": 10,
+      "question": "NEC Article 240.4(D) limits the overcurrent protection for 14 AWG copper conductors to a maximum of:",
+      "choices": [
+        "20 amperes",
+        "15 amperes",
+        "30 amperes",
+        "25 amperes"
+      ],
+      "answer": "15 amperes",
+      "explanation": "NEC 240.4(D) states that 14 AWG copper conductors shall not be protected by overcurrent devices rated over 15 amperes — NEC Article 240."
+    },
+    {
+      "id": 11,
+      "question": "A standard cartridge fuse is rated at 30 amperes. Per NEC Article 240, what is the next standard size fuse that may be used if 30 A is not available and the load calculation allows?",
+      "choices": [
+        "35 amperes",
+        "40 amperes",
+        "45 amperes",
+        "50 amperes"
+      ],
+      "answer": "35 amperes",
+      "explanation": "NEC 240.6(A) lists the standard ampere ratings. The next standard size above 30 A is 35 A — NEC Article 240."
+    },
+    {
+      "id": 12,
+      "question": "Per NEC Article 240, a Type S fuse is used in a fusible panelboard. What is the key safety feature of Type S fuses?",
+      "choices": [
+        "They are resettable after a fault",
+        "They are tamper-resistant and non-interchangeable between amperage ratings",
+        "They can be used in both AC and DC circuits above 600 V",
+        "They have a time-delay feature for motor circuits only"
+      ],
+      "answer": "They are tamper-resistant and non-interchangeable between amperage ratings",
+      "explanation": "NEC 240.54 covers Type S fuses: they are designed to be non-interchangeable between ampere ratings, preventing the insertion of an oversized fuse — NEC Article 240."
+    },
+    {
+      "id": 13,
+      "question": "NEC Article 300.11 requires that raceways and cables used as wiring methods be supported independently of suspended ceiling grids, with certain exceptions. What is the primary reason for this requirement?",
+      "choices": [
+        "Suspended ceilings are not rated for fire protection",
+        "Ceiling grid wires are not designed to support the weight of conduit and cables",
+        "It reduces electromagnetic interference in communications cables",
+        "OSHA mandates that all electrical wiring be above the ceiling grid"
+      ],
+      "answer": "Ceiling grid wires are not designed to support the weight of conduit and cables",
+      "explanation": "NEC 300.11 requires independent support for wiring methods because suspended ceiling support wires are not designed to carry the additional load of conduit and cables — NEC Article 300."
+    },
+    {
+      "id": 14,
+      "question": "Per NEC Article 300.5, underground conductors in a residential location (under a concrete driveway) must have a minimum burial depth of:",
+      "choices": [
+        "6 inches",
+        "12 inches",
+        "18 inches",
+        "24 inches"
+      ],
+      "answer": "24 inches",
+      "explanation": "NEC Table 300.5 requires a minimum burial depth of 24 inches for conductors under driveways for one- and two-family dwellings — NEC Article 300."
+    },
+    {
+      "id": 15,
+      "question": "NEC Article 358 covers Electrical Metallic Tubing (EMT). What is the maximum conduit fill percentage for a single conductor in EMT per NEC Chapter 9?",
+      "choices": [
+        "31%",
+        "40%",
+        "53%",
+        "60%"
+      ],
+      "answer": "53%",
+      "explanation": "NEC Chapter 9, Table 1 permits 53% fill for a single conductor in any conduit, including EMT — NEC Article 358 / Chapter 9."
+    },
+    {
+      "id": 16,
+      "question": "NEC Article 362 covers Electrical Nonmetallic Tubing (ENT). In which location is ENT generally NOT permitted to be installed?",
+      "choices": [
+        "Within a concrete slab on grade",
+        "Exposed in attics",
+        "In locations where the ambient temperature exceeds 50°C (122°F)",
+        "Behind drywall in wood-framed residential construction"
+      ],
+      "answer": "In locations where the ambient temperature exceeds 50°C (122°F)",
+      "explanation": "NEC 362.12 lists locations where ENT shall not be used, including where ambient temperatures exceed 50°C — NEC Article 362."
+    },
+    {
+      "id": 17,
+      "question": "NEC Article 398 covers Open Wiring on Insulators. This wiring method is most commonly found in:",
+      "choices": [
+        "Modern commercial office buildings",
+        "Industrial and agricultural buildings, or older installations",
+        "Underground residential distribution",
+        "Data center environments"
+      ],
+      "answer": "Industrial and agricultural buildings, or older installations",
+      "explanation": "NEC Article 398 permits open wiring on insulators primarily in industrial and agricultural facilities and is common in older installations — NEC Article 398."
+    },
+    {
+      "id": 18,
+      "question": "NEC Article 705 covers Interconnected Electric Power Production Sources. What does NEC 705.12 address?",
+      "choices": [
+        "Grounding of solar panel frames",
+        "Point of connection of power production sources to the premises wiring system",
+        "Metering requirements for net energy",
+        "Labeling of battery systems"
+      ],
+      "answer": "Point of connection of power production sources to the premises wiring system",
+      "explanation": "NEC 705.12 covers the point of connection of an interconnected power production source (e.g., solar PV system) to the premises wiring — NEC Article 705."
+    },
+    {
+      "id": 19,
+      "question": "NEC Article 706 covers Energy Storage Systems (ESS). What is a key marking requirement for ESS equipment per NEC 706.15?",
+      "choices": [
+        "The system must be painted red to indicate high energy storage",
+        "The ESS must be marked with the maximum voltage, maximum continuous current, and polarity",
+        "The battery type (lithium, lead-acid) need not be marked",
+        "Only the total watt-hour capacity needs to be marked"
+      ],
+      "answer": "The ESS must be marked with the maximum voltage, maximum continuous current, and polarity",
+      "explanation": "NEC 706.15 requires ESS equipment to be marked with maximum voltage, maximum continuous discharge current, maximum continuous charge current, and polarity — NEC Article 706."
+    },
+    {
+      "id": 20,
+      "question": "NEC Article 690 covers Solar Photovoltaic (PV) Systems. What does the 'rapid shutdown' requirement in NEC 690.12 mandate for rooftop PV systems?",
+      "choices": [
+        "PV systems must shut down automatically during thunderstorms",
+        "PV conductors on or in buildings must be capable of being de-energized to reduce shock hazard for emergency responders",
+        "PV systems must have a manual disconnect within 10 feet of the inverter",
+        "PV arrays must reduce output to zero within 60 seconds of a utility outage"
+      ],
+      "answer": "PV conductors on or in buildings must be capable of being de-energized to reduce shock hazard for emergency responders",
+      "explanation": "NEC 690.12 requires rapid shutdown of PV systems on buildings so that conductors within the array boundary can be de-energized to protect emergency responders — NEC Article 690."
+    },
+    {
+      "id": 21,
+      "question": "NEC Article 780 covers Closed-Loop and Programmed Power Distribution. This article applies to systems that:",
+      "choices": [
+        "Supply power to electric vehicles through wireless charging",
+        "Control electrical loads through a programmable signaling loop rather than fixed overcurrent-protected circuits",
+        "Distribute DC power in data centers",
+        "Manage energy storage in residential battery systems"
+      ],
+      "answer": "Control electrical loads through a programmable signaling loop rather than fixed overcurrent-protected circuits",
+      "explanation": "NEC Article 780 covers closed-loop and programmed power distribution systems that use a control signal loop to connect and disconnect power to loads — NEC Article 780."
+    },
+    {
+      "id": 22,
+      "question": "NEC Article 800.100 requires that the primary protector of a communications circuit be bonded to:",
+      "choices": [
+        "The nearest cold water pipe",
+        "The building's grounding electrode system",
+        "The electrical panel neutral bus only",
+        "A separate ground rod installed at least 10 feet from the service"
+      ],
+      "answer": "The building's grounding electrode system",
+      "explanation": "NEC 800.100 requires that primary protectors and communications cable grounding be connected to the premises grounding electrode system — NEC Article 800."
+    },
+    {
+      "id": 23,
+      "question": "Per NEC Article 800.133, communications cables shall be separated from electric light and power conductors by a minimum of how many inches when run in the same enclosure?",
+      "choices": [
+        "No separation required if cables are listed",
+        "2 inches",
+        "6 inches",
+        "Communications cables shall not be in the same enclosure as power conductors unless specifically listed for the purpose"
+      ],
+      "answer": "Communications cables shall not be in the same enclosure as power conductors unless specifically listed for the purpose",
+      "explanation": "NEC 800.133 generally prohibits communications cables from occupying the same enclosure as electric light or power conductors unless they are listed for that purpose — NEC Article 800."
+    },
+    {
+      "id": 24,
+      "question": "NEC Article 820 covers Community Antenna Television and Radio Distribution Systems. Per NEC 820.93, the outer conductive shield of coaxial cable shall be:",
+      "choices": [
+        "Left floating (ungrounded) to prevent signal interference",
+        "Grounded at the building entrance",
+        "Connected to the nearest available outlet ground",
+        "Isolated from the grounding electrode system"
+      ],
+      "answer": "Grounded at the building entrance",
+      "explanation": "NEC 820.93 requires that the outer conductive shield of coaxial cable be grounded as close as practicable to the point of entrance — NEC Article 820."
+    },
+    {
+      "id": 25,
+      "question": "NEC Article 830 covers Network-Powered Broadband Communications Systems. Which of the following describes a 'medium power' network-powered broadband circuit?",
+      "choices": [
+        "A circuit limited to 100 VA and operating below 100 V",
+        "A circuit with output power greater than low power but not exceeding 250 VA and 150 V",
+        "A circuit with unlimited power delivered over coaxial cable",
+        "A circuit that uses fiber optic cable exclusively"
+      ],
+      "answer": "A circuit with output power greater than low power but not exceeding 250 VA and 150 V",
+      "explanation": "NEC 830.3 and related definitions classify medium power network-powered broadband circuits as those not exceeding 250 VA and 150 V — NEC Article 830."
+    },
+    {
+      "id": 26,
+      "question": "NEC Article 800.24 requires that communications cables installed in buildings be listed for the location. Which cable type is listed for use in a plenum air-handling space?",
+      "choices": [
+        "CMR (Communications Multipurpose Riser)",
+        "CM (Communications Multipurpose General Purpose)",
+        "CMP (Communications Multipurpose Plenum)",
+        "CMX (Communications Multipurpose Limited Use)"
+      ],
+      "answer": "CMP (Communications Multipurpose Plenum)",
+      "explanation": "NEC 800.179 and Table 800.179 establish that CMP-rated cable is listed for use in plenum air-handling spaces — NEC Article 800."
+    },
+    {
+      "id": 27,
+      "question": "Under RCW 19.28, which entity has primary authority over electrical inspections and licensing in Washington State?",
+      "choices": [
+        "The Washington State Department of Commerce",
+        "The Washington State Department of Labor & Industries (L&I)",
+        "Local county building departments exclusively",
+        "The Washington State Utilities and Transportation Commission"
+      ],
+      "answer": "The Washington State Department of Labor & Industries (L&I)",
+      "explanation": "RCW 19.28 grants the Department of Labor & Industries (L&I) authority over electrical installation licensing, permits, and inspections in Washington State — RCW 19.28."
+    },
+    {
+      "id": 28,
+      "question": "Under RCW 19.28.261, a telecommunications contractor license is required for which of the following work?",
+      "choices": [
+        "Installing a residential doorbell using existing low-voltage wiring",
+        "Installing, maintaining, or repairing telecommunications systems covered by Chapter 19.28 RCW",
+        "Any work performed by a homeowner on their own residence",
+        "Replacing a broken telephone handset"
+      ],
+      "answer": "Installing, maintaining, or repairing telecommunications systems covered by Chapter 19.28 RCW",
+      "explanation": "RCW 19.28.261 requires that telecommunications contractors be licensed to install, maintain, or repair telecommunications systems in Washington State — RCW 19.28.261."
+    },
+    {
+      "id": 29,
+      "question": "RCW 19.28 requires that a permit be obtained before beginning electrical work. Which of the following work is generally EXEMPT from this permit requirement?",
+      "choices": [
+        "Installing a new 200-amp service panel in a commercial building",
+        "Adding a new 20-amp circuit to a kitchen",
+        "Minor repair and maintenance, such as replacing a receptacle on an existing circuit",
+        "Installing a subpanel in a detached garage"
+      ],
+      "answer": "Minor repair and maintenance, such as replacing a receptacle on an existing circuit",
+      "explanation": "RCW 19.28 exempts minor repairs and maintenance from permit requirements, such as replacing existing devices — RCW 19.28."
+    },
+    {
+      "id": 30,
+      "question": "Under RCW 19.28, a telecommunications administrator certificate qualifies the holder to do which of the following?",
+      "choices": [
+        "Supervise only licensed journeyman electricians",
+        "Administer and manage a telecommunications contractor's business operations and field installations",
+        "Perform work as a general electrical contractor without additional licensing",
+        "Install electrical service entrances up to 400 amperes"
+      ],
+      "answer": "Administer and manage a telecommunications contractor's business operations and field installations",
+      "explanation": "The Telecom Administrator certificate under RCW 19.28 qualifies the holder to serve as the managing administrator of a licensed telecommunications contractor — RCW 19.28."
+    },
+    {
+      "id": 31,
+      "question": "RCW 19.28 establishes penalties for performing electrical work without a required license. Which of the following is a consequence for an unlicensed person performing telecommunications work in Washington?",
+      "choices": [
+        "Only a written warning for a first offense",
+        "Civil penalties and potential stop-work orders",
+        "Mandatory community service",
+        "Only a fine payable to the local municipality"
+      ],
+      "answer": "Civil penalties and potential stop-work orders",
+      "explanation": "RCW 19.28 authorizes L&I to assess civil penalties and issue stop-work orders against persons performing electrical or telecommunications work without proper licensing — RCW 19.28."
+    },
+    {
+      "id": 32,
+      "question": "Under RCW 19.28, how long is a Washington State telecommunications contractor license valid before renewal is required?",
+      "choices": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "5 years"
+      ],
+      "answer": "1 year",
+      "explanation": "Washington State telecommunications contractor licenses issued under RCW 19.28 are valid for one year and must be renewed annually — RCW 19.28."
+    },
+    {
+      "id": 33,
+      "question": "WAC 296-46B sets administrative rules for electrical installations in Washington. Which of the following does WAC 296-46B adopt as the state electrical code?",
+      "choices": [
+        "NFPA 70E (Electrical Safety in the Workplace)",
+        "The National Electrical Code (NEC/NFPA 70) with Washington State amendments",
+        "The International Building Code (IBC) electrical chapters",
+        "UL 508A (Industrial Control Panels)"
+      ],
+      "answer": "The National Electrical Code (NEC/NFPA 70) with Washington State amendments",
+      "explanation": "WAC 296-46B adopts the National Electrical Code (NFPA 70) with Washington State-specific amendments as the governing electrical installation standard — WAC 296-46B."
+    },
+    {
+      "id": 34,
+      "question": "Under WAC 296-46B, when must a rough-in inspection be requested for a new electrical installation?",
+      "choices": [
+        "After all wiring is complete and the walls are closed",
+        "Before the wiring is concealed, such as before drywall is installed",
+        "Only after the final inspection has been passed",
+        "Rough-in inspections are optional in Washington State"
+      ],
+      "answer": "Before the wiring is concealed, such as before drywall is installed",
+      "explanation": "WAC 296-46B requires that rough-in inspections be called for and passed before wiring is concealed behind finished surfaces — WAC 296-46B."
+    },
+    {
+      "id": 35,
+      "question": "WAC 296-46B specifies continuing education requirements for licensed electrical workers. Approximately how many hours of continuing education are required per renewal period for a telecommunications administrator?",
+      "choices": [
+        "No continuing education is required",
+        "4 hours",
+        "8 hours",
+        "24 hours"
+      ],
+      "answer": "8 hours",
+      "explanation": "WAC 296-46B requires telecommunications administrators to complete approximately 8 hours of continuing education per renewal period — WAC 296-46B."
+    },
+    {
+      "id": 36,
+      "question": "Under WAC 296-46B, which of the following best describes the role of an 'electrical inspector' working for L&I?",
+      "choices": [
+        "To design electrical systems for commercial projects",
+        "To enforce the state electrical code and ensure installations comply with NEC as adopted by Washington",
+        "To issue electrical contractor licenses on behalf of the state",
+        "To arbitrate disputes between electrical contractors and their customers"
+      ],
+      "answer": "To enforce the state electrical code and ensure installations comply with NEC as adopted by Washington",
+      "explanation": "Electrical inspectors operating under WAC 296-46B enforce the state electrical code (NEC with WA amendments) to protect public safety — WAC 296-46B."
+    },
+    {
+      "id": 37,
+      "question": "WAC 296-46B governs the fees associated with electrical permits. Who is responsible for paying the electrical permit fee in Washington State?",
+      "choices": [
+        "The property owner is always solely responsible",
+        "The electrical contractor or person pulling the permit",
+        "The local utility company",
+        "The general contractor on all projects"
+      ],
+      "answer": "The electrical contractor or person pulling the permit",
+      "explanation": "Under WAC 296-46B, the person or electrical contractor who applies for and pulls the electrical permit is responsible for associated permit fees — WAC 296-46B."
+    },
+    {
+      "id": 38,
+      "question": "WAC 296-46B requires that electrical work be inspected and approved before being energized or concealed. What must be requested when ALL electrical work is complete and ready for final inspection?",
+      "choices": [
+        "A plan review from the local fire marshal",
+        "A final electrical inspection from L&I or the designated inspection authority",
+        "A third-party commissioning report",
+        "A utility service authorization letter"
+      ],
+      "answer": "A final electrical inspection from L&I or the designated inspection authority",
+      "explanation": "WAC 296-46B requires that a final electrical inspection be requested from L&I (or a certified third-party inspector) before the installation is placed in service — WAC 296-46B."
+    },
+    {
+      "id": 39,
+      "question": "A telecommunications technician measures 10 dB of gain on a signal path. What does this represent in terms of power?",
+      "choices": [
+        "The output power is twice the input power",
+        "The output power is 10 times the input power",
+        "The output power is 100 times the input power",
+        "The output power is 3 times the input power"
+      ],
+      "answer": "The output power is 10 times the input power",
+      "explanation": "10 dB of gain corresponds to a 10× increase in power. 3 dB ≈ 2×, 10 dB = 10×, 20 dB = 100× — General Theory (dB Fundamentals)."
+    },
+    {
+      "id": 40,
+      "question": "What is the difference between 'grounding' and 'bonding' in an electrical system?",
+      "choices": [
+        "Grounding and bonding are interchangeable terms for the same process",
+        "Grounding connects the system to earth to limit voltage, while bonding connects conductive parts to establish equal potential",
+        "Bonding connects the system to earth; grounding connects metal parts together",
+        "Grounding is required only for communications systems; bonding is for power systems"
+      ],
+      "answer": "Grounding connects the system to earth to limit voltage, while bonding connects conductive parts to establish equal potential",
+      "explanation": "Grounding establishes a reference to earth to limit overvoltage; bonding connects conductive parts to create equipotential and reduce shock hazard — General Theory (Grounding and Bonding)."
+    }
+  ]
+}

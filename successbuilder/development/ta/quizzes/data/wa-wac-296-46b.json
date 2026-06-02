@@ -1,0 +1,367 @@
+{
+  "id": "wa-wac-296-46b",
+  "title": "WAC 296-46B — WA Electrical Safety Standards",
+  "description": "Washington State electrical construction rules, NEC amendments, permits, licensing, exams, and enforcement under WAC 296-46B. 30 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Under WAC 296-46B-010, when will the 2026 NEC replace the currently adopted 2023 NEC edition in Washington State?",
+      "choices": [
+        "January 1, 2026",
+        "July 1, 2026",
+        "December 31, 2026",
+        "January 1, 2027"
+      ],
+      "answer": "December 31, 2026",
+      "explanation": "WAC 296-46B-010: The 2026 NEC will replace the 2023 edition effective December 31, 2026, as adopted by reference under WAC 296-46B-010."
+    },
+    {
+      "id": 2,
+      "question": "WAC 296-46B-010 adopts the 2023 NEC. Which of the following NEC Annexes are specifically included in that adoption?",
+      "choices": [
+        "Annexes A, B, and C only",
+        "Annexes D, E, and F only",
+        "All Annexes A through H",
+        "No Annexes are adopted — only the main body of the NEC"
+      ],
+      "answer": "Annexes A, B, and C only",
+      "explanation": "WAC 296-46B-010: Washington adopts the 2023 NEC (NFPA 70-2023) by reference, including Annexes A, B, and C specifically."
+    },
+    {
+      "id": 3,
+      "question": "Under WAC 296-46B-100, what is the Washington-specific definition of 'Administrator'?",
+      "choices": [
+        "The L&I official who issues electrical permits in a given county",
+        "The person who qualifies a contractor's license by passing the required exam",
+        "A journey level electrician who supervises apprentices on a job site",
+        "The foreman designated to oversee a project with more than ten workers"
+      ],
+      "answer": "The person who qualifies a contractor's license by passing the required exam",
+      "explanation": "WAC 296-46B-100: Washington's definitions supplement NEC Article 100, and 'Administrator' is defined as the person who qualifies a contractor's license by passing the required examination."
+    },
+    {
+      "id": 4,
+      "question": "WAC 296-46B-210-008(A) adds GFCI requirements beyond the NEC for which type of location?",
+      "choices": [
+        "Commercial kitchens in restaurants",
+        "Dwelling units",
+        "Industrial machinery rooms",
+        "Outdoor agricultural facilities"
+      ],
+      "answer": "Dwelling units",
+      "explanation": "WAC 296-46B-210-008(A): Washington adds extra GFCI requirements for dwelling units beyond those required by the NEC. WAC 296-46B-210-008(B) covers other-than-dwelling units separately."
+    },
+    {
+      "id": 5,
+      "question": "According to WAC 296-46B-210-025, how must branch circuits serving common areas in a multi-family building be arranged?",
+      "choices": [
+        "Common area circuits may share the same panel as individual dwelling unit circuits",
+        "Common area branch circuits must be on separate circuits from individual dwelling units",
+        "Common areas must be served by a dedicated transformer",
+        "Common area loads may be split evenly across any dwelling unit panels"
+      ],
+      "answer": "Common area branch circuits must be on separate circuits from individual dwelling units",
+      "explanation": "WAC 296-46B-210-025: Washington requires that common area branch circuits be on separate circuits from individual dwelling units in multi-family buildings."
+    },
+    {
+      "id": 6,
+      "question": "Under WAC 296-46B-215-010, ground fault protection testing is required for feeders over 150V to ground in solidly grounded wye systems at or above what ampere rating?",
+      "choices": [
+        "600 amperes",
+        "800 amperes",
+        "1000 amperes",
+        "1200 amperes"
+      ],
+      "answer": "1000 amperes",
+      "explanation": "WAC 296-46B-215-010: Ground fault protection testing is required for feeders over 150V to ground in solidly grounded wye systems rated 1,000 amperes or greater."
+    },
+    {
+      "id": 7,
+      "question": "WAC 296-46B-215-005 requires what document for certain electrical projects?",
+      "choices": [
+        "A load calculation stamped by a licensed engineer",
+        "Feeder diagrams submitted to L&I before permit issuance",
+        "A signed affidavit from the property owner",
+        "An arc-flash hazard analysis"
+      ],
+      "answer": "Feeder diagrams submitted to L&I before permit issuance",
+      "explanation": "WAC 296-46B-215-005: Feeder diagrams are required for certain projects and must be submitted to L&I as part of the plan review or permit process."
+    },
+    {
+      "id": 8,
+      "question": "Under WAC 296-46B-250-052, what is Washington's rule regarding concrete-encased grounding electrodes at new buildings on permanent concrete foundations?",
+      "choices": [
+        "They are permitted but not required, consistent with NEC 250.52",
+        "They are required only if ground rods exceed 25 ohms resistance",
+        "They are MANDATORY — a Washington amendment requiring them at all new buildings on permanent concrete foundations",
+        "They are required only for buildings taller than three stories"
+      ],
+      "answer": "They are MANDATORY — a Washington amendment requiring them at all new buildings on permanent concrete foundations",
+      "explanation": "WAC 296-46B-250-052: This is a critical Washington amendment. While NEC 250.52 uses 'shall be permitted' language, WAC 296-46B-250-052 makes concrete-encased grounding electrodes MANDATORY at all new buildings on permanent concrete foundations."
+    },
+    {
+      "id": 9,
+      "question": "Per WAC 296-46B-250-053(A)(2), what is the maximum allowable resistance to earth for a single ground rod, pipe, or plate electrode before a second electrode must be added?",
+      "choices": [
+        "10 ohms",
+        "25 ohms",
+        "50 ohms",
+        "100 ohms"
+      ],
+      "answer": "25 ohms",
+      "explanation": "WAC 296-46B-250-053(A)(2): Ground rods, pipes, or plate electrodes must have a resistance to earth of 25 ohms or less. If a single rod exceeds 25 ohms, a second electrode must be installed."
+    },
+    {
+      "id": 10,
+      "question": "According to WAC 296-46B-250-064, a grounding electrode conductor subject to physical damage must be protected by which of the following?",
+      "choices": [
+        "Only rigid metallic conduit (RMC) is acceptable",
+        "PVC Schedule 40, Schedule 80, or EMT",
+        "Rigid metallic conduit, IMC, rigid nonmetallic conduit, or EMT",
+        "Wireways, auxiliary gutters, or surface metal raceways"
+      ],
+      "answer": "Rigid metallic conduit, IMC, rigid nonmetallic conduit, or EMT",
+      "explanation": "WAC 296-46B-250-064: Where a grounding electrode conductor is subject to physical damage, it must be protected by rigid metallic conduit, intermediate metal conduit (IMC), rigid nonmetallic conduit, or EMT."
+    },
+    {
+      "id": 11,
+      "question": "Under WAC 296-46B-250-068, which statement is TRUE regarding grounding electrode conductors after installation?",
+      "choices": [
+        "They must remain accessible for inspection at all times",
+        "They must be inspected annually by the electrical inspector",
+        "They are not required to be accessible after installation",
+        "They must be labeled with a permanent tag identifying their size"
+      ],
+      "answer": "They are not required to be accessible after installation",
+      "explanation": "WAC 296-46B-250-068: Grounding electrode conductors are not required to be accessible after installation, meaning they may be buried, encased, or covered without concern for future access."
+    },
+    {
+      "id": 12,
+      "question": "WAC 296-46B-250-090 requires bonding for which systems?",
+      "choices": [
+        "Only metallic water piping systems in new construction",
+        "All metal piping systems and structural metal frames",
+        "Only gas piping within 6 feet of electrical panels",
+        "Structural steel in buildings over 50 feet tall"
+      ],
+      "answer": "All metal piping systems and structural metal frames",
+      "explanation": "WAC 296-46B-250-090: All metal piping systems and structural metal frames shall be bonded under Washington's grounding and bonding requirements."
+    },
+    {
+      "id": 13,
+      "question": "WAC 296-46B-300 addresses wiring methods. Regarding raceways installed in suspended ceilings, what does Washington require?",
+      "choices": [
+        "Raceways must be attached to the ceiling grid with listed clips",
+        "Raceways in suspended ceilings must be supported independently of the ceiling grid",
+        "Suspended ceiling raceways may use the ceiling grid as the sole support",
+        "Raceways must be installed above the ceiling grid in all cases"
+      ],
+      "answer": "Raceways in suspended ceilings must be supported independently of the ceiling grid",
+      "explanation": "WAC 296-46B-300: Washington requires that support of raceways in suspended ceilings be independent of the ceiling grid."
+    },
+    {
+      "id": 14,
+      "question": "Under WAC 296-46B-230, what is the requirement regarding the location of a service disconnect?",
+      "choices": [
+        "The service disconnect must be located in a locked electrical room",
+        "The service disconnect must be at a readily accessible location",
+        "The service disconnect may be located in any accessible attic or crawlspace",
+        "The service disconnect must be within 10 feet of the utility meter"
+      ],
+      "answer": "The service disconnect must be at a readily accessible location",
+      "explanation": "WAC 296-46B-230: Washington requires that the service disconnect be located at a readily accessible location."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a true statement about annual permits under WAC 296-46B-901?",
+      "choices": [
+        "Annual permits are not available in Washington; each job requires a separate permit",
+        "Annual permits are available for certain classes of work such as industrial maintenance and telecommunications service work",
+        "Annual permits cover all electrical work performed by a licensed contractor for one calendar year",
+        "Annual permits are only issued to government agencies performing their own maintenance work"
+      ],
+      "answer": "Annual permits are available for certain classes of work such as industrial maintenance and telecommunications service work",
+      "explanation": "WAC 296-46B-901: Annual permits are available in Washington for certain classes of work, including industrial maintenance and telecommunications service work, rather than requiring a separate permit for each individual job."
+    },
+    {
+      "id": 16,
+      "question": "Under WAC 296-46B-901, what is the deadline for a property owner to obtain a permit after an emergency like-in-kind repair?",
+      "choices": [
+        "Within 24 hours of beginning work",
+        "By the next business day",
+        "Within 3 working days",
+        "Within 15 calendar days"
+      ],
+      "answer": "By the next business day",
+      "explanation": "WAC 296-46B-901: An exception exists for owner emergency like-in-kind repairs — the permit must be obtained by the next business day after work begins."
+    },
+    {
+      "id": 17,
+      "question": "Under WAC 296-46B-901, ALL backbone telecommunications installations require a permit regardless of size. For non-backbone telecom installations on the customer side, a permit is required when the project exceeds how many outlets?",
+      "choices": [
+        "5 outlets",
+        "10 outlets",
+        "15 outlets",
+        "25 outlets"
+      ],
+      "answer": "10 outlets",
+      "explanation": "WAC 296-46B-901: A telecommunications permit is required for projects greater than ten outlets on the customer side. All backbone installations require a permit regardless of size."
+    },
+    {
+      "id": 18,
+      "question": "Under WAC 296-46B-906, how are electrical permit and inspection fees generally structured?",
+      "choices": [
+        "Fees are a fixed $500 for every permit regardless of project size",
+        "Fees are based on value of installation or a flat fee depending on type of work",
+        "Fees are calculated strictly by square footage of the building",
+        "Fees are set by the local jurisdiction, not by L&I"
+      ],
+      "answer": "Fees are based on value of installation or a flat fee depending on type of work",
+      "explanation": "WAC 296-46B-906: The fee schedule established under WAC 296-46B-906 bases fees on the value of installation or a flat fee depending on the type of work."
+    },
+    {
+      "id": 19,
+      "question": "Under WAC 296-46B-915, what is the civil penalty for a contractor performing electrical or telecommunications work WITHOUT a valid contractor's license on a SECOND offense?",
+      "choices": [
+        "$500",
+        "$1,000",
+        "$2,000",
+        "$5,000"
+      ],
+      "answer": "$2,000",
+      "explanation": "WAC 296-46B-915: The civil penalty schedule for performing electrical or telecom work without a valid contractor's license is: 1st offense $1,000, 2nd offense $2,000, 3rd offense $3,000, subsequent offenses $10,000 each."
+    },
+    {
+      "id": 20,
+      "question": "Under WAC 296-46B-915, under what circumstance may the Department double the civil penalty?",
+      "choices": [
+        "Whenever the contractor is also cited for a safety violation on the same day",
+        "For serious noncompliance, up to a maximum doubled penalty of $10,000",
+        "Any time the violator has a prior offense within the past 5 years",
+        "Only when the work resulted in personal injury or property damage"
+      ],
+      "answer": "For serious noncompliance, up to a maximum doubled penalty of $10,000",
+      "explanation": "WAC 296-46B-915: The Department may double the civil penalty for serious noncompliance, but the doubled penalty may not exceed $10,000."
+    },
+    {
+      "id": 21,
+      "question": "Under WAC 296-46B-920, which of the following license/certificate type combinations CANNOT be included in a combination specialty administrator certificate?",
+      "choices": [
+        "Specialty Electrician (06) classes combined together",
+        "Telecommunications (09) combined with any specialty class",
+        "Journey Level (01) combined with Master Electrician (02)",
+        "Multiple specialty (06) sub-classes combined with Journey Level (01)"
+      ],
+      "answer": "Telecommunications (09) combined with any specialty class",
+      "explanation": "WAC 296-46B-920 and WAC 296-46B-925: A combination specialty administrator certificate cannot include telecommunications (09) because telecom administrators renew on a different (two-year) cycle and are not required to provide continuing education information."
+    },
+    {
+      "id": 22,
+      "question": "Under WAC 296-46B-925, what minimum insurance coverage for injury or death to multiple persons is required for a telecommunications contractor license?",
+      "choices": [
+        "$20,000",
+        "$50,000",
+        "$100,000",
+        "$300,000"
+      ],
+      "answer": "$100,000",
+      "explanation": "WAC 296-46B-925: Telecommunications contractor licenses require minimum insurance of: $20,000 for property damage, $50,000 per-person injury or death, and $100,000 for multi-person injury or death."
+    },
+    {
+      "id": 23,
+      "question": "Under WAC 296-46B-925, when a telecom contractor obtains a license, the original certificate of insurance must name whom as the certificate holder?",
+      "choices": [
+        "The property owner of the first contracted project",
+        "The Washington State Department of Labor and Industries (L&I)",
+        "The electrical inspection authority having jurisdiction",
+        "The surety bond company underwriting the contractor's bond"
+      ],
+      "answer": "The Washington State Department of Labor and Industries (L&I)",
+      "explanation": "WAC 296-46B-925: The telecommunications contractor license requires an original certificate of insurance naming L&I as the certificate holder."
+    },
+    {
+      "id": 24,
+      "question": "Under WAC 296-46B-930, what happens to a contractor's license if the designated administrator or master electrician leaves and is not replaced within the allowed time?",
+      "choices": [
+        "The contractor must stop work but the license remains active for one year",
+        "The license is automatically suspended",
+        "The contractor is assessed a civil penalty of $1,000 per day",
+        "The license is immediately revoked without right of appeal"
+      ],
+      "answer": "The license is automatically suspended",
+      "explanation": "WAC 296-46B-930: If a contractor's designated administrator or master electrician leaves and is not replaced within the specified time, the contractor's license is suspended."
+    },
+    {
+      "id": 25,
+      "question": "Under WAC 296-46B-935, how long does an applicant have after passing the administrator certificate exam to submit the passing report and fees before the passing result expires?",
+      "choices": [
+        "30 days",
+        "60 days",
+        "90 days",
+        "180 days"
+      ],
+      "answer": "90 days",
+      "explanation": "WAC 296-46B-935: An original administrator certificate is issued upon passing the exam, submitting the passing report within 90 days, and paying the required fees."
+    },
+    {
+      "id": 26,
+      "question": "Under WAC 296-46B-942, what is the maximum number of specialty work hours (out of a trainee's properly supervised hours) that may count toward eligibility for the six-month unsupervised training certificate?",
+      "choices": [
+        "2,000 hours",
+        "3,500 hours",
+        "4,000 hours",
+        "5,000 hours"
+      ],
+      "answer": "4,000 hours",
+      "explanation": "WAC 296-46B-942: To qualify for the six-month nonrenewable unsupervised training certificate, a journey level (01) trainee must have worked more than 7,000 properly supervised hours, with no more than 4,000 of those hours being specialty work."
+    },
+    {
+      "id": 27,
+      "question": "Under WAC 296-46B-960, what three subjects does the electrician examination cover?",
+      "choices": [
+        "Business law, electrical theory, and NEC code",
+        "Safety, state electrical code (WAC 296-46B), and electrical theory",
+        "Mathematics, blueprint reading, and NEC code",
+        "Safety, blueprint reading, and Washington administrative law"
+      ],
+      "answer": "Safety, state electrical code (WAC 296-46B), and electrical theory",
+      "explanation": "WAC 296-46B-960: The electrician examination covers (1) safety, (2) state electrical code (WAC 296-46B), and (3) electrical theory. Exams are administered through a testing agency contracted by L&I."
+    },
+    {
+      "id": 28,
+      "question": "Under WAC 296-46B-970, which certificate holders are required to complete continuing education for license renewal?",
+      "choices": [
+        "Only master electricians",
+        "Journey level and master electricians",
+        "All certificate holders including telecommunications installers",
+        "Only administrators and specialty electricians"
+      ],
+      "answer": "Journey level and master electricians",
+      "explanation": "WAC 296-46B-970: Journey level and master electricians are required to complete continuing education for certificate renewal. Notably, telecommunications administrators are NOT required to provide continuing education information for renewal."
+    },
+    {
+      "id": 29,
+      "question": "Under WAC 296-46B-980 and WAC 296-46B-990, which of the following actions may L&I take against a licensee for violations?",
+      "choices": [
+        "Issue citations and civil penalties only; license suspension requires a court order",
+        "Issue citations and civil penalties, and suspend or revoke licenses or certificates",
+        "Impose criminal fines but not suspend licenses without a hearing board vote",
+        "Only refer cases to the county prosecutor for enforcement action"
+      ],
+      "answer": "Issue citations and civil penalties, and suspend or revoke licenses or certificates",
+      "explanation": "WAC 296-46B-980 and WAC 296-46B-990: L&I has authority to issue citations and civil penalties, and may suspend or revoke licenses and certificates for violations. Licensees have a right to a hearing and an appeals process."
+    },
+    {
+      "id": 30,
+      "question": "Under WAC 296-46B-995, where do appeals of L&I electrical licensing and enforcement decisions go?",
+      "choices": [
+        "Directly to the Washington State Superior Court",
+        "To the Washington State Electrical Board",
+        "To the Office of Administrative Hearings (OAH) only",
+        "To the county commission in the county where the violation occurred"
+      ],
+      "answer": "To the Washington State Electrical Board",
+      "explanation": "WAC 296-46B-995: Appeals of L&I decisions are directed to the board, which has defined composition and hearing procedures for resolving disputes."
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "id": "nec-500-516-hazardous-locations",
+  "title": "NEC Articles 500–516 — Hazardous Locations",
+  "description": "Classification of hazardous locations, Class I/II/III divisions and zones, explosion-proof and intrinsically safe equipment, and wiring methods per NEC 2023 Articles 500–516. 30 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to NEC 500.5(B)(1), which of the following conditions defines a Class I, Division 1 location?",
+      "choices": [
+        "Flammable gases or vapors exist under normal operating conditions, or ignitable concentrations may exist due to frequent repair or maintenance operations",
+        "Flammable liquids or gases are handled only in closed systems and released only during accident or equipment failure",
+        "Combustible dust is suspended in air under normal conditions in sufficient quantities to produce ignitable mixtures",
+        "Easily ignitable fibers or flyings are present but not likely to be suspended in sufficient quantities to produce ignitable mixtures"
+      ],
+      "answer": "Flammable gases or vapors exist under normal operating conditions, or ignitable concentrations may exist due to frequent repair or maintenance operations",
+      "explanation": "NEC 500.5(B)(1): Class I, Division 1 locations are those where ignitable concentrations of flammable gases or vapors exist under normal operating conditions, exist intermittently or periodically under normal operations, or may exist due to frequent repair/maintenance or equipment failure. The other choices describe Division 2 (Class I), Division 1 (Class II), and Class III locations respectively."
+    },
+    {
+      "id": 2,
+      "question": "A location where flammable gases are handled exclusively in closed containers and would only be released during accident or abnormal failure is classified under NEC 500.5 as which of the following?",
+      "choices": [
+        "Class I, Division 2",
+        "Class I, Division 1",
+        "Class II, Division 1",
+        "Class III, Division 1"
+      ],
+      "answer": "Class I, Division 2",
+      "explanation": "NEC 500.5(B)(2): Class I, Division 2 locations are those where flammable liquids or gases are handled in closed systems and would only be released during accidental rupture or abnormal failure of containers, and where adequate ventilation prevents ignitable concentrations under normal conditions."
+    },
+    {
+      "id": 3,
+      "question": "Per NEC 500.5(C)(1), a Class II, Division 1 location is one where:",
+      "choices": [
+        "Combustible dust is present in suspension in sufficient quantities to produce ignitable mixtures under normal conditions, or conductive dust may be present",
+        "Combustible dust accumulates on equipment surfaces but is not normally suspended in the air",
+        "Flammable gases exist only during repair or maintenance activities",
+        "Easily ignitable fibers are present near textile machinery but are not likely suspended in ignitable concentrations"
+      ],
+      "answer": "Combustible dust is present in suspension in sufficient quantities to produce ignitable mixtures under normal conditions, or conductive dust may be present",
+      "explanation": "NEC 500.5(C)(1): Class II, Division 1 covers locations where combustible dust is continuously, intermittently, or periodically in suspension under normal conditions in quantities sufficient to produce ignitable mixtures, or where conductive dust may be present. Division 2 (500.5(C)(2)) covers dust that accumulates but is not normally suspended."
+    },
+    {
+      "id": 4,
+      "question": "NEC 500.5(D) describes Class III locations. Which of the following is an example of a Class III location?",
+      "choices": [
+        "A textile mill where easily ignitable fibers are present but unlikely to be suspended in ignitable concentrations",
+        "A commercial garage where gasoline vapors may accumulate in pits below floor level",
+        "A grain elevator where combustible dust is continuously suspended in air",
+        "A paint spray booth where flammable solvents are applied to surfaces"
+      ],
+      "answer": "A textile mill where easily ignitable fibers are present but unlikely to be suspended in ignitable concentrations",
+      "explanation": "NEC 500.5(D): Class III locations are those that are hazardous because of the presence of easily ignitable fibers or flyings but where such fibers or flyings are not likely to be in suspension in the air in sufficient quantities to produce ignitable mixtures. Textile mills, cotton gins, and sawmills are typical examples."
+    },
+    {
+      "id": 5,
+      "question": "Under NEC 500.6, acetylene is classified into which material group for Class I locations?",
+      "choices": [
+        "Group A",
+        "Group B",
+        "Group C",
+        "Group D"
+      ],
+      "answer": "Group A",
+      "explanation": "NEC 500.6: Acetylene is classified as Group A, the most severe group, due to its very low ignition energy and extremely wide flammable range. Group B includes hydrogen, butadiene, and ethylene oxide. Group C includes ethylene and diethyl ether. Group D includes propane, methane, gasoline, and many common gases."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following gases is classified in Group D under NEC 500.6 for Class I hazardous locations?",
+      "choices": [
+        "Propane",
+        "Hydrogen",
+        "Acetylene",
+        "Ethylene"
+      ],
+      "answer": "Propane",
+      "explanation": "NEC 500.6: Group D includes propane, methane, natural gas, butane, gasoline, acetone, ammonia, benzene, and ethanol — the most common group. Hydrogen is Group B, acetylene is Group A, and ethylene is Group C."
+    },
+    {
+      "id": 7,
+      "question": "A location contains ethylene gas. Under NEC 500.6, this substance falls into which material group?",
+      "choices": [
+        "Group C",
+        "Group A",
+        "Group B",
+        "Group D"
+      ],
+      "answer": "Group C",
+      "explanation": "NEC 500.6: Ethylene is classified in Group C, along with cyclopropane and diethyl ether. These materials have intermediate explosion pressure characteristics. Acetylene is Group A, hydrogen is Group B, and propane/methane are Group D."
+    },
+    {
+      "id": 8,
+      "question": "Per NEC 500.7, which protection technique uses the method of maintaining a surrounding enclosure at a higher pressure than the external atmosphere to prevent entry of flammable gases?",
+      "choices": [
+        "Purged and pressurized (Ex p)",
+        "Intrinsically safe (Ex i)",
+        "Explosion-proof (Ex d)",
+        "Hermetically sealed"
+      ],
+      "answer": "Purged and pressurized (Ex p)",
+      "explanation": "NEC 500.7: Purged and pressurized (Ex p) equipment uses a protective gas supply to maintain the internal enclosure at a pressure higher than the surrounding atmosphere, preventing the entry of flammable gases or vapors. Explosion-proof (Ex d) contains an explosion internally; intrinsically safe (Ex i) limits energy to safe levels; hermetically sealed equipment is sealed against the atmosphere by fusion, soldering, or other means."
+    },
+    {
+      "id": 9,
+      "question": "Which NEC 500.7 protection technique limits the electrical and thermal energy in a circuit to levels below what is required to ignite a specific flammable mixture?",
+      "choices": [
+        "Intrinsically safe (Ex i)",
+        "Explosion-proof (Ex d)",
+        "Oil immersion (Ex o)",
+        "Increased safety (Ex e)"
+      ],
+      "answer": "Intrinsically safe (Ex i)",
+      "explanation": "NEC 500.7: Intrinsically safe (Ex i) equipment and wiring is incapable of releasing sufficient electrical or thermal energy under normal or abnormal conditions to cause ignition of a specific hazardous atmospheric mixture. This is the only technique permitted in Zone 0 (Ex ia). Explosion-proof contains an explosion; oil immersion places live parts in oil; increased safety applies extra measures to prevent sparks and excessive temperatures."
+    },
+    {
+      "id": 10,
+      "question": "According to NEC 500.8(C), which T-code corresponds to a maximum surface temperature of 135°C?",
+      "choices": [
+        "T4",
+        "T3",
+        "T5",
+        "T2"
+      ],
+      "answer": "T4",
+      "explanation": "NEC 500.8(C): The T-code temperature ratings are: T1=450°C, T2=300°C, T3=200°C, T4=135°C, T5=100°C, T6=85°C. Equipment marked T4 has a maximum surface temperature of 135°C. The autoignition temperature of the gas or vapor present must exceed the equipment's T-code rating."
+    },
+    {
+      "id": 11,
+      "question": "NEC 500.8(C) requires that the autoignition temperature of a flammable substance must exceed the equipment's T-code marking. If a substance has an autoignition temperature of 90°C, which T-code equipment would be acceptable?",
+      "choices": [
+        "T6",
+        "T5",
+        "T4",
+        "T3"
+      ],
+      "answer": "T6",
+      "explanation": "NEC 500.8(C): T6 rated equipment has a maximum surface temperature of 85°C, which is below the substance's autoignition temperature of 90°C. T5 equipment has a maximum surface temperature of 100°C, which exceeds the autoignition temperature and would therefore be unacceptable. The equipment's T-code surface temperature must remain below the substance's autoignition temperature."
+    },
+    {
+      "id": 12,
+      "question": "Per NEC 500.8(A), equipment used in a hazardous location must be:",
+      "choices": [
+        "Listed for the specific class, division, and group, or approved by the authority having jurisdiction (AHJ)",
+        "Listed only for the class and division, without regard to material group",
+        "Installed by a licensed electrician regardless of listing status",
+        "Approved by the equipment manufacturer for use in any hazardous location"
+      ],
+      "answer": "Listed for the specific class, division, and group, or approved by the authority having jurisdiction (AHJ)",
+      "explanation": "NEC 500.8(A): Equipment in hazardous locations must be listed for the specific class, division (or zone), and group of the location in which it is to be used, or it must be approved by the authority having jurisdiction (AHJ). Listing must cover all three parameters — class, division/zone, and group."
+    },
+    {
+      "id": 13,
+      "question": "Which wiring methods are permitted in Class I, Division 1 locations per NEC 501.10(A)?",
+      "choices": [
+        "Threaded rigid metal conduit (RMC), threaded steel IMC, and Type MI cable with explosionproof fittings",
+        "EMT, LFMC, and Type MC cable in cable trays",
+        "PVC conduit, RMC, and LFNC in all conditions",
+        "Type TC cable and LFMC without special fittings"
+      ],
+      "answer": "Threaded rigid metal conduit (RMC), threaded steel IMC, and Type MI cable with explosionproof fittings",
+      "explanation": "NEC 501.10(A): In Class I, Division 1 locations, permitted wiring methods are threaded RMC, threaded steel IMC, and Type MI cable. All conduit must be threaded and explosionproof fittings are required. EMT, LFMC, and Type MC cable are generally not permitted in Division 1 but may be used in Division 2 under certain conditions."
+    },
+    {
+      "id": 14,
+      "question": "Per NEC 501.10(B), which wiring method is permitted in Class I, Division 2 locations that is NOT permitted in Class I, Division 1?",
+      "choices": [
+        "Electrical metallic tubing (EMT)",
+        "Threaded rigid metal conduit (RMC)",
+        "Type MI cable",
+        "Threaded steel IMC"
+      ],
+      "answer": "Electrical metallic tubing (EMT)",
+      "explanation": "NEC 501.10(B): Class I, Division 2 locations permit additional wiring methods beyond those in Division 1, including EMT, LFMC (under certain conditions), LFNC (under certain conditions), Type MC cable with listed termination fittings, and Type TC cable in cable trays. EMT is NOT permitted in Division 1 but IS permitted in Division 2."
+    },
+    {
+      "id": 15,
+      "question": "NEC 501.15 requires sealing fittings in Class I locations. Within what distance of an explosionproof enclosure must a seal be installed when the conduit is 2 inches or larger?",
+      "choices": [
+        "18 inches",
+        "24 inches",
+        "12 inches",
+        "36 inches"
+      ],
+      "answer": "18 inches",
+      "explanation": "NEC 501.15: Seals must be installed within 18 inches of an explosionproof enclosure where the conduit trade size is 2 inches or larger. Sealing fittings must also be provided at boundaries between Division 1 and Division 2, or between hazardous and nonhazardous locations. The seal compound must not be affected by the liquids or gases present."
+    },
+    {
+      "id": 16,
+      "question": "According to NEC 501.15, which statement is true regarding sealing fittings in Class I locations?",
+      "choices": [
+        "Sealing fittings must be accessible and the seal compound must not be affected by the liquids or gases present",
+        "Seals are required only at the boundary between Division 1 and nonhazardous locations, not at conduit entries to enclosures",
+        "Seals are not required when conduit is less than 2 inches in trade size at any location",
+        "The seal compound may be any commercially available material regardless of chemical compatibility"
+      ],
+      "answer": "Sealing fittings must be accessible and the seal compound must not be affected by the liquids or gases present",
+      "explanation": "NEC 501.15: Sealing fittings in Class I locations must be accessible and the seal compound must be resistant to the liquids or gases present. Seals are also required at boundaries between hazardous and nonhazardous areas, and at Division 1/Division 2 boundaries. The 18-inch rule applies to conduit 2 inches or larger at explosionproof enclosures."
+    },
+    {
+      "id": 17,
+      "question": "Per NEC 501.20, what is required in addition to an equipment grounding conductor (EGC) in Class I hazardous locations?",
+      "choices": [
+        "Bonding jumpers to connect all non-current-carrying metal parts and ensure continuity at each conduit joint",
+        "A separate grounding electrode system dedicated to the hazardous area",
+        "An isolation transformer between the hazardous area and normal power supply",
+        "Ground fault circuit interrupter (GFCI) protection on all circuits"
+      ],
+      "answer": "Bonding jumpers to connect all non-current-carrying metal parts and ensure continuity at each conduit joint",
+      "explanation": "NEC 501.20: In Class I locations, an EGC is required, and bonding jumpers must be used to connect all non-current-carrying metal parts, ensuring electrical continuity at each conduit joint throughout the hazardous area. This bonding requirement is more stringent than standard grounding requirements because a poor connection could cause arcing in the hazardous atmosphere."
+    },
+    {
+      "id": 18,
+      "question": "NEC 501.25 states that in Class I locations, uninsulated exposed parts:",
+      "choices": [
+        "Are not permitted",
+        "Are permitted only in Division 2 locations",
+        "Are permitted if guarded by a physical barrier",
+        "Are permitted if the voltage is 50 volts or less"
+      ],
+      "answer": "Are not permitted",
+      "explanation": "NEC 501.25: Uninsulated exposed parts are not permitted in Class I locations. Any exposed electrical part could create an arc or spark in the flammable atmosphere, creating an ignition source. All live parts must be properly insulated or enclosed in approved enclosures."
+    },
+    {
+      "id": 19,
+      "question": "Per NEC 502.10(A), what wiring method is required in Class II, Division 1 locations?",
+      "choices": [
+        "Threaded RMC or threaded IMC with dust-ignitionproof enclosures",
+        "EMT with dust-tight enclosures",
+        "LFMC with standard conduit fittings",
+        "Type MC cable with any listed termination fittings"
+      ],
+      "answer": "Threaded RMC or threaded IMC with dust-ignitionproof enclosures",
+      "explanation": "NEC 502.10(A): Class II, Division 1 locations require threaded rigid metal conduit (RMC) or threaded steel IMC with dust-ignitionproof enclosures, or Type MI cable. EMT and other wiring methods permitted in Division 2 are not permitted in Division 1. The dust-ignitionproof requirement prevents combustible dust from entering enclosures and contacting ignition sources."
+    },
+    {
+      "id": 20,
+      "question": "NEC 502.10(B) allows which additional wiring method in Class II, Division 2 locations that is not permitted in Division 1?",
+      "choices": [
+        "Electrical metallic tubing (EMT) with dust-tight enclosures",
+        "Threaded rigid metal conduit (RMC) with dust-ignitionproof enclosures",
+        "Type MI cable",
+        "Threaded IMC with explosion-proof fittings"
+      ],
+      "answer": "Electrical metallic tubing (EMT) with dust-tight enclosures",
+      "explanation": "NEC 502.10(B): Class II, Division 2 permits EMT, LFMC, MC cable, and dust-tight enclosures in addition to the methods allowed in Division 1. The lesser hazard of Division 2 (dust accumulates but is not normally in suspension) justifies the less stringent wiring requirements compared to Division 1."
+    },
+    {
+      "id": 21,
+      "question": "Per NEC 502.15, what special sealing requirement applies to vertical conduit runs in Class II locations?",
+      "choices": [
+        "Vertical runs must be sealed at the top to prevent dust from falling into enclosures below",
+        "Vertical runs must be sealed at the bottom to collect any dust that settles",
+        "Vertical runs require seals both at top and bottom, spaced no more than 5 feet apart",
+        "No sealing is required for vertical conduit runs in Class II locations"
+      ],
+      "answer": "Vertical runs must be sealed at the top to prevent dust from falling into enclosures below",
+      "explanation": "NEC 502.15: In Class II locations, seals are required to minimize the entrance of dust into electrical enclosures. For vertical conduit runs, seals must be installed at the top of the run to prevent combustible dust from migrating downward by gravity into enclosures located below. This is a key difference from Class I sealing requirements."
+    },
+    {
+      "id": 22,
+      "question": "Per NEC 502.150, what type of motor is required in a Class II, Division 1 location?",
+      "choices": [
+        "Totally enclosed motor",
+        "Open drip-proof (ODP) motor",
+        "Standard NEMA motor without special classification",
+        "Explosion-proof motor designed for Class I locations"
+      ],
+      "answer": "Totally enclosed motor",
+      "explanation": "NEC 502.150: In Class II, Division 1 locations, motors and generators must be totally enclosed to prevent combustible dust from entering and coming into contact with internal parts that could ignite it. In Division 2, motors must be totally enclosed or clearly identified and listed for the hazardous area. Note that Class II locations use dust-ignitionproof equipment, not explosion-proof (which is a Class I designation)."
+    },
+    {
+      "id": 23,
+      "question": "NEC 503.128 specifies motor requirements for Class III locations. What type of motor must be used?",
+      "choices": [
+        "Totally enclosed motor",
+        "Open drip-proof (ODP) motor",
+        "Explosion-proof motor",
+        "Dust-ignitionproof motor"
+      ],
+      "answer": "Totally enclosed motor",
+      "explanation": "NEC 503.128: Motors in Class III locations must be totally enclosed. Class III locations involve easily ignitable fibers or flyings (such as in textile mills and sawmills) that could enter an open motor and ignite. Explosion-proof is a Class I requirement; dust-ignitionproof is a Class II requirement; totally enclosed is the appropriate protection for Class III."
+    },
+    {
+      "id": 24,
+      "question": "Under NEC 505.5(A), Zone 0 is defined as a location where:",
+      "choices": [
+        "A flammable gas or vapor is present continuously or for long periods of time",
+        "A flammable gas or vapor is likely to occur during normal operations",
+        "A flammable gas or vapor is not likely to occur during normal operations but may occur in abnormal conditions",
+        "Combustible dust is continuously present in the air in ignitable concentrations"
+      ],
+      "answer": "A flammable gas or vapor is present continuously or for long periods of time",
+      "explanation": "NEC 505.5(A): Zone 0 is the most hazardous zone classification, where a flammable gas or vapor is present continuously or for long periods. Only intrinsically safe (Ex ia) equipment or equipment specifically listed for Zone 0 is permitted. Zone 1 covers likely occurrence during normal operations, and Zone 2 covers unlikely occurrence under normal conditions."
+    },
+    {
+      "id": 25,
+      "question": "Per NEC 505.5(B), which protection techniques are permitted for equipment installed in Zone 1 locations?",
+      "choices": [
+        "Explosion-proof (Ex d), increased safety (Ex e), intrinsically safe (Ex ia or ib), and purged/pressurized (Ex p)",
+        "Only intrinsically safe (Ex ia) equipment specifically listed for Zone 0",
+        "Only nonincendive equipment and standard industrial equipment",
+        "Explosion-proof (Ex d) only, with no other techniques permitted"
+      ],
+      "answer": "Explosion-proof (Ex d), increased safety (Ex e), intrinsically safe (Ex ia or ib), and purged/pressurized (Ex p)",
+      "explanation": "NEC 505.5(B): Zone 1 locations (where flammable gas or vapor is likely to occur under normal operations) permit multiple protection techniques: explosion-proof (Ex d), increased safety (Ex e), intrinsically safe (Ex ia or ib), purged/pressurized (Ex p), and others. Zone 0 is more restrictive (Ex ia only), while Zone 2 permits additional techniques including nonincendive."
+    },
+    {
+      "id": 26,
+      "question": "Under NEC 505.7, acetylene and hydrogen are assigned to which gas group in the Zone classification system?",
+      "choices": [
+        "Group IIC",
+        "Group IIB",
+        "Group IIA",
+        "Group IID"
+      ],
+      "answer": "Group IIC",
+      "explanation": "NEC 505.7: In the Zone classification system, Group IIC is the most severe group and includes acetylene and hydrogen. Group IIB includes ethylene, and Group IIA includes propane and other common gases. Equipment listed for Group IIC is suitable for use with Group IIB and IIA gases (most severe to least severe), but not vice versa."
+    },
+    {
+      "id": 27,
+      "question": "Per NEC 505.9, equipment listed for Class I, Division 1 may be installed in which Zone?",
+      "choices": [
+        "Zone 1",
+        "Zone 0",
+        "Zone 2",
+        "Any Zone without restriction"
+      ],
+      "answer": "Zone 1",
+      "explanation": "NEC 505.9: Equipment listed for Class I, Division 1 (the Division system equivalent of Zone 1) may be installed in Zone 1. Equipment listed for Division 2 may be installed in Zone 2. Division 1 is considered equivalent in hazard level to Zone 1; Zone 0 requires equipment specifically rated for that zone (typically Ex ia or equivalent)."
+    },
+    {
+      "id": 28,
+      "question": "In a commercial garage, per NEC 511.3, what classification applies to the area within pits below floor level where gasoline-powered vehicles are serviced?",
+      "choices": [
+        "Class I, Division 1 (or Zone 1)",
+        "Class I, Division 2 (or Zone 2)",
+        "Class II, Division 1",
+        "Unclassified — pits do not require hazardous location classification"
+      ],
+      "answer": "Class I, Division 1 (or Zone 1)",
+      "explanation": "NEC 511.3: In commercial garages where gasoline-powered vehicles are serviced, pits below floor level are classified as Class I, Division 1 (or Zone 1) because heavier-than-air gasoline vapors accumulate in low areas, creating a condition where ignitable concentrations exist under normal conditions. The area up to 18 inches above floor level is classified Class I, Division 2 (Zone 2)."
+    },
+    {
+      "id": 29,
+      "question": "NEC 514.11 requires an emergency electrical disconnect at motor fuel dispensing facilities. Where must this disconnect be located?",
+      "choices": [
+        "Readily accessible, clearly marked, and located away from the dispensers",
+        "Inside the dispenser enclosure for immediate access by the operator",
+        "Within 10 feet of each fuel dispenser",
+        "In the underground fuel storage area adjacent to the tank"
+      ],
+      "answer": "Readily accessible, clearly marked, and located away from the dispensers",
+      "explanation": "NEC 514.11: At motor fuel dispensing facilities, an emergency electrical disconnect must be provided to disconnect all electrical circuits within the hazardous area. It must be readily accessible, clearly marked (e.g., as an emergency shutoff), and located away from the dispensers so that it can be safely accessed during a fuel emergency. Locating it at the dispenser itself would defeat its purpose in an emergency."
+    },
+    {
+      "id": 30,
+      "question": "Under NEC 516.3, what area classification applies to the space within 3 feet of all openings of a spray booth used for flammable-solvent spray application?",
+      "choices": [
+        "Class I or Class II hazardous location, depending on the material being sprayed",
+        "Unclassified, because the spray booth itself contains all the hazardous material",
+        "Class III location because spray particles are considered ignitable flyings",
+        "Class I, Division 1 only, regardless of the material being sprayed"
+      ],
+      "answer": "Class I or Class II hazardous location, depending on the material being sprayed",
+      "explanation": "NEC 516.3: Areas within spray booths and within 3 feet of all openings are classified as hazardous locations. The classification (Class I or Class II) depends on the material being sprayed — flammable liquid solvents result in Class I classification, while combustible dusts (e.g., powder coating) result in Class II classification. NEC 516.10 further requires that wiring within these areas comply with Article 501 or 502 as applicable, with explosion-proof or dust-ignitionproof equipment required."
+    }
+  ]
+}
