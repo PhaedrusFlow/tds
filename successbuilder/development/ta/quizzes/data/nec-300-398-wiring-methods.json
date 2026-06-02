@@ -1,0 +1,187 @@
+{
+  "id": "nec-300-398-wiring-methods",
+  "title": "NEC Articles 300–398 — Wiring Methods & Materials",
+  "description": "Installation requirements for conduit, cables, raceways, and conductors per NEC 2023 Articles 300–398. 15 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "NEC 300.3(B) requires all conductors of a circuit to be installed in the same raceway, cable, or trench. What is the primary reason for this requirement?",
+      "choices": [
+        "To simplify identification and labeling of conductors",
+        "To prevent inductive heating of metal raceways and enclosures",
+        "To ensure all conductors share the same insulation rating",
+        "To reduce voltage drop across long circuit runs"
+      ],
+      "answer": "To prevent inductive heating of metal raceways and enclosures",
+      "explanation": "NEC 300.3(B) requires all conductors of the same circuit to occupy the same raceway, cable, or trench. When AC circuit conductors are separated and routed through different metal raceways or enclosures, the alternating magnetic fields from each conductor cannot cancel one another, inducing eddy currents in the metal that cause resistive heating. Keeping all circuit conductors together allows their magnetic fields to cancel, preventing inductive heating of ferrous enclosures and raceways."
+    },
+    {
+      "id": 2,
+      "question": "Per NEC 300.4(A)(1), when a cable or raceway is installed through a wood framing member (stud or joist) and the edge of the hole is within 1¼ inches of the nearest edge of the member, what protection is required?",
+      "choices": [
+        "A plastic bushing must be installed at the hole to protect the cable jacket",
+        "A steel plate or sleeve at least 1/16-inch thick must be installed to protect the wiring from nails or screws",
+        "The cable must be routed around the framing member rather than through it",
+        "The hole must be sealed with fire-rated caulk before the cable is installed"
+      ],
+      "answer": "A steel plate or sleeve at least 1/16-inch thick must be installed to protect the wiring from nails or screws",
+      "explanation": "NEC 300.4(A)(1) states that where cables or raceways are installed through bored holes in wood framing members and the edge of the hole is less than 1¼ inches from the nearest edge of the wood member, a steel plate, sleeve, or equivalent at least 1/16-inch (1.6 mm) thick must be installed to protect against nail or screw penetration. This nail plate requirement prevents damage to the wiring from finish-work fasteners driven through the wall surface."
+    },
+    {
+      "id": 3,
+      "question": "According to NEC 300.5(A) and Table 300.5, what is the minimum burial depth (cover) required for rigid metal conduit (RMC) installed in a general location not under a road or driveway?",
+      "choices": [
+        "24 inches",
+        "18 inches",
+        "12 inches",
+        "6 inches"
+      ],
+      "answer": "6 inches",
+      "explanation": "NEC 300.5(A) requires underground wiring to comply with the minimum cover depths in Table 300.5. For rigid metal conduit (RMC) in a general location (not under a roadway, driveway, or in a special occupancy), the minimum cover depth is 6 inches (150 mm). By contrast, PVC conduit (Schedule 40 or 80) requires 18 inches of cover in general locations, and direct-buried cables require 24 inches. The reduced depth for RMC is permitted because the conduit itself provides substantial mechanical protection."
+    },
+    {
+      "id": 4,
+      "question": "NEC 300.11(A) addresses securing of wiring methods in suspended ceiling spaces. Which of the following statements correctly describes the requirement?",
+      "choices": [
+        "Wiring methods may be supported by the suspended ceiling grid wires if the grid is listed for the purpose",
+        "Wiring methods must be supported independently of the ceiling grid; they shall not use the ceiling grid or its hanger wires as support",
+        "Cables may be laid directly on top of ceiling tiles in suspended grid ceilings without additional support",
+        "Only metal raceways larger than ¾ inch trade size require independent support from building structure"
+      ],
+      "answer": "Wiring methods must be supported independently of the ceiling grid; they shall not use the ceiling grid or its hanger wires as support",
+      "explanation": "NEC 300.11(A) requires that wiring methods be secured in place independently of a suspended ceiling grid. The hanger wires and the ceiling grid are not permitted to serve as the support for raceways, cables, or other wiring methods unless listed and identified for that use. Wiring must be supported from the building structure (e.g., from structural members or independent hanger wires tied directly to structure) to ensure that the electrical system's integrity is not compromised if the ceiling grid is disturbed or removed."
+    },
+    {
+      "id": 5,
+      "question": "NEC 300.14 specifies the minimum length of free conductors left at outlets, switch points, and junction boxes. What is the general minimum required length, and what additional requirement applies to conductors at the box opening?",
+      "choices": [
+        "At least 3 inches of free conductor, with no requirement for how much extends past the box opening",
+        "At least 6 inches of free conductor measured from the point where it emerges from the raceway or cable, and at least 3 inches must extend beyond the opening of the box",
+        "At least 8 inches of free conductor, with at least 4 inches extending past the box opening",
+        "At least 6 inches of free conductor measured to the device terminal, with no minimum projection past the box opening"
+      ],
+      "answer": "At least 6 inches of free conductor measured from the point where it emerges from the raceway or cable, and at least 3 inches must extend beyond the opening of the box",
+      "explanation": "NEC 300.14 requires at least 6 inches of free conductor at each outlet, junction, and switch point, measured from the point the conductor emerges from a raceway or cable sheath. For conductors at a box opening (the opening where devices or fixtures are installed), at least 3 inches of the conductor must extend beyond the outside of the box opening. This ensures enough conductor length to make proper connections without excessive tension on the wiring, while also verifying that a minimum amount of conductor is accessible for connections."
+    },
+    {
+      "id": 6,
+      "question": "What does NEC 300.17 establish regarding the number of conductors or cables installed in a raceway?",
+      "choices": [
+        "A raceway shall not contain more than four current-carrying conductors regardless of size",
+        "The number of conductors or cables in a raceway is limited to what can be installed and withdrawn without damaging insulation and to allow safe heat dissipation; fill tables in applicable raceway articles govern",
+        "Raceways must be filled to at least 40% capacity to justify their installation cost",
+        "No more than three conductors of the same circuit may share a single conduit or raceway"
+      ],
+      "answer": "The number of conductors or cables in a raceway is limited to what can be installed and withdrawn without damaging insulation and to allow safe heat dissipation; fill tables in applicable raceway articles govern",
+      "explanation": "NEC 300.17 establishes the principle that the number of conductors or cables in a raceway must not exceed a quantity that allows them to be safely installed and withdrawn without damaging their insulation, and that permits adequate heat dissipation. The specific fill percentages (e.g., 40% for three or more conductors) are found in the applicable raceway article's section 3xx.22 and in Chapter 9 tables. In the 2023 NEC, this section was updated to explicitly include cables in raceways, not just individual conductors."
+    },
+    {
+      "id": 7,
+      "question": "Under NEC 310.15, when applying both an ambient temperature correction factor and a conductor adjustment factor (due to more than three current-carrying conductors), how are the two factors applied to determine final allowable ampacity?",
+      "choices": [
+        "Only the more restrictive of the two factors is applied; they are never multiplied together",
+        "The ambient temperature correction factor is applied first; then the adjustment factor for multiple conductors is added (not multiplied) to that result",
+        "Both factors are applied by multiplying the base ampacity by the temperature correction factor and then by the conductor adjustment factor",
+        "The conductor adjustment factor is applied to the terminal rating column only, and the temperature correction factor is applied to the highest temperature column"
+      ],
+      "answer": "Both factors are applied by multiplying the base ampacity by the temperature correction factor and then by the conductor adjustment factor",
+      "explanation": "NEC 310.15 and its associated tables require that when both a temperature correction factor (for ambient temperatures other than 30°C, per Table 310.15(B)(1)) and a conductor adjustment factor (for more than three current-carrying conductors, per Table 310.15(C)(1)) are applicable, they are both applied multiplicatively. For example, an 8 AWG THHN conductor rated 55 A at 90°C, installed at 40°C ambient (correction factor 0.91) with 4–6 current-carrying conductors (adjustment factor 0.80), yields a final ampacity of 55 × 0.91 × 0.80 = 40.04 A. The result must not exceed the ampacity from the terminal temperature rating column."
+    },
+    {
+      "id": 8,
+      "question": "NEC 312.5(C) governs cables entering cabinets and cutout boxes. Under the general rule, what is required when a cable wiring method is used?",
+      "choices": [
+        "Each cable must be secured to the cabinet, cutout box, or meter socket enclosure",
+        "Cables must enter only through the top or sides of the enclosure, never through the bottom",
+        "Each cable must be secured within 18 inches of the enclosure's knockout opening",
+        "Only one cable may enter through each knockout opening regardless of cable size"
+      ],
+      "answer": "Each cable must be secured to the cabinet, cutout box, or meter socket enclosure",
+      "explanation": "NEC 312.5(C) states that where a cable wiring method is used, each cable shall be secured to the cabinet, cutout box, or meter socket enclosure. This securement protects the cable from mechanical strain and maintains the physical integrity of the installation. An exception permits nonmetallic-sheathed cables to enter through the top of a surface-mounted enclosure via a nonflexible raceway 18 inches to 10 feet long, provided each cable is fastened within 12 inches (measured along the sheath) of the outer end of the raceway, among other conditions."
+    },
+    {
+      "id": 9,
+      "question": "For a straight pull in a pull box or junction box containing conductors 4 AWG or larger, NEC 314.28(A)(1) requires the box length to be at least what multiple of the largest raceway trade size?",
+      "choices": [
+        "6 times the trade size of the largest raceway",
+        "8 times the trade size of the largest raceway",
+        "10 times the trade size of the largest raceway",
+        "4 times the trade size of the largest raceway"
+      ],
+      "answer": "8 times the trade size of the largest raceway",
+      "explanation": "NEC 314.28(A)(1) requires that for straight pulls, the minimum length of the pull or junction box shall not be less than eight times the trade size (metric designator) of the largest raceway entering the box. For example, if the largest conduit entering the box is 3-inch trade size, the minimum box dimension in the direction of the straight pull must be at least 24 inches (3 × 8). For angle or U pulls (314.28(A)(2)), the multiplier is six times the largest raceway, plus the sum of all other raceway diameters on the same wall."
+    },
+    {
+      "id": 10,
+      "question": "NEC 344.10 addresses permitted uses for rigid metal conduit (RMC). Which statement best describes where RMC is permitted to be installed?",
+      "choices": [
+        "RMC is permitted only in dry indoor locations and must not be used where exposed to moisture or soil",
+        "RMC is permitted in all atmospheric conditions and all occupancies, and where exposed, concealed, in direct contact with the earth, embedded in concrete, or in wet, corrosive, or hazardous locations",
+        "RMC is permitted in hazardous locations only when lined with an approved corrosion-resistant coating",
+        "RMC is limited to use above grade and is not permitted for direct burial or embedding in concrete"
+      ],
+      "answer": "RMC is permitted in all atmospheric conditions and all occupancies, and where exposed, concealed, in direct contact with the earth, embedded in concrete, or in wet, corrosive, or hazardous locations",
+      "explanation": "NEC 344.10(A) states that RMC is permitted to be used in all atmospheric conditions and occupancies. This includes exposed and concealed installations, in direct contact with the earth or embedded in concrete, in areas subject to severe corrosive influences when protected by corrosion protection judged suitable for the condition, and in hazardous (classified) locations as permitted by other articles. RMC's heavy-wall steel construction makes it the most universally permitted conduit type in the NEC."
+    },
+    {
+      "id": 11,
+      "question": "NEC 348.12 lists uses that are NOT permitted for flexible metal conduit (FMC). Which of the following is a prohibited use of FMC?",
+      "choices": [
+        "As a short connection between a motor and a junction box to allow for vibration",
+        "In wet locations",
+        "Concealed within walls in dry, indoor commercial buildings",
+        "As a wiring method in finished basements of dwelling units"
+      ],
+      "answer": "In wet locations",
+      "explanation": "NEC 348.12 prohibits FMC use in several locations, including: wet locations; hoistways, other than as permitted in 620.21(A)(1); storage battery rooms; hazardous (classified) locations, except as permitted by other NEC articles; locations where exposed to materials with a deteriorating effect on the conductors or metallic armor (such as oil or gasoline); underground or embedded in poured concrete or aggregate; and where subject to physical damage. FMC is an interlocked-armor conduit that is not liquidtight and can allow moisture ingress, making wet locations prohibited. Liquid-tight flexible metal conduit (LFMC) would be used instead in wet locations."
+    },
+    {
+      "id": 12,
+      "question": "NEC 352.12 identifies where rigid PVC conduit (PVC Schedule 40 or 80) is NOT permitted. Which of the following is a prohibited use of PVC conduit?",
+      "choices": [
+        "In underground installations encased in concrete",
+        "In wet locations above grade",
+        "In locations exposed to physical damage, unless the conduit is identified for such use",
+        "In direct burial below finished grade in residential occupancies"
+      ],
+      "answer": "In locations exposed to physical damage, unless the conduit is identified for such use",
+      "explanation": "NEC 352.12(A) prohibits PVC conduit in locations subject to physical damage unless the conduit is identified for such use. Standard Schedule 40 PVC is not impact-resistant enough for areas where physical damage is likely (e.g., exposed areas of commercial garages, loading docks). Schedule 80 PVC has a heavier wall and may be suitable where moderate physical damage is possible. PVC is freely permitted for direct burial, underground concrete encasement, and wet locations above grade per NEC 352.10, making those correct permitted uses rather than prohibited ones."
+    },
+    {
+      "id": 13,
+      "question": "NEC 358.10 addresses permitted uses for electrical metallic tubing (EMT). Where is EMT NOT permitted to be installed?",
+      "choices": [
+        "In concrete, in or under a slab on grade",
+        "Where subject to severe physical damage",
+        "In wet locations with listed fittings",
+        "Exposed on the exterior of a building"
+      ],
+      "answer": "Where subject to severe physical damage",
+      "explanation": "NEC 358.12(1) prohibits EMT where it will be subject to severe physical damage. EMT's thin wall (thinner than IMC or RMC) does not provide adequate mechanical protection in locations such as areas where forklifts or heavy equipment operate, or where the conduit is routinely struck. EMT is permitted in concrete (including direct burial in the 2023 NEC per 358.10(A)(1)), in wet locations with listed fittings, and exposed on building exteriors. The 2023 NEC specifically revised 358.10 to allow EMT in direct contact with the earth with supplementary corrosion protection."
+    },
+    {
+      "id": 14,
+      "question": "NEC 362.10 governs permitted uses for electrical nonmetallic tubing (ENT). In buildings exceeding three floors above grade, how is ENT permitted to be installed?",
+      "choices": [
+        "ENT is prohibited entirely in buildings exceeding three floors above grade regardless of installation method",
+        "ENT is permitted exposed on the surface of walls and ceilings in buildings exceeding three floors when the occupancy is residential",
+        "ENT must be concealed within walls, floors, or ceilings that provide a thermal barrier of material with at least a 15-minute finish rating",
+        "ENT is permitted in any location above three floors as long as it is installed in an accessible ceiling space"
+      ],
+      "answer": "ENT must be concealed within walls, floors, or ceilings that provide a thermal barrier of material with at least a 15-minute finish rating",
+      "explanation": "NEC 362.10(1) permits ENT in buildings not exceeding three floors above grade for both exposed and concealed work. In buildings exceeding three floors, NEC 362.10(2) requires ENT to be concealed within walls, floors, or ceilings where those assemblies provide a thermal barrier of material that has at least a 15-minute finish rating as identified in listed fire-rated assemblies. This requirement protects the nonmetallic tubing from heat in the event of a fire. An exception allows ENT in buildings over three floors where a complete fire sprinkler system is installed throughout per NFPA 13."
+    },
+    {
+      "id": 15,
+      "question": "NEC 376.22(A) limits conductor fill in metal wireways, and 376.22(B) addresses adjustment (derating) factors. Which statement correctly states both rules?",
+      "choices": [
+        "Conductors shall not exceed 40% of the interior cross-sectional area of the wireway, and adjustment factors apply when more than 20 current-carrying conductors are present",
+        "Conductors shall not exceed 20% of the interior cross-sectional area of the wireway, and adjustment factors from 310.15(C)(1) apply only when the number of current-carrying conductors exceeds 30 at any cross section",
+        "Conductors shall not exceed 20% of the interior cross-sectional area of the wireway, and adjustment factors apply to all conductors whenever there are more than 3 current-carrying conductors",
+        "Conductors shall not exceed 25% of the interior cross-sectional area of the wireway, and adjustment factors apply when more than 30 current-carrying conductors are present"
+      ],
+      "answer": "Conductors shall not exceed 20% of the interior cross-sectional area of the wireway, and adjustment factors from 310.15(C)(1) apply only when the number of current-carrying conductors exceeds 30 at any cross section",
+      "explanation": "NEC 376.22(A) limits conductor fill in metal wireways to not more than 20% of the interior cross-sectional area. For example, a 4-inch × 4-inch wireway (16 in²) may contain no more than 3.2 in² of conductor area at any cross section. NEC 376.22(B) further specifies that the ampacity adjustment factors in Table 310.15(C)(1) apply only when the number of current-carrying conductors exceeds 30 at any cross section of the wireway. This threshold of 30 (unique to metal wireways, versus 3 for most other wiring methods) recognizes that metal wireways dissipate heat effectively; once 31 or more current-carrying conductors are present, all conductors at that cross section must be derated per Table 310.15(C)(1)."
+    }
+  ]
+}
