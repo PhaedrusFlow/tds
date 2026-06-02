@@ -1,188 +1,367 @@
 {
   "id": "rcw-19-28",
-  "title": "RCW 19.28 — Electrical Installation",
-  "version": "1.0-starter",
-  "note": "Starter dataset. Verify every answer against current RCW 19.28 text before relying on results for exam prep.",
+  "title": "RCW 19.28 — Electricians & Electrical Installations",
+  "description": "Washington State law governing electrical contractor licensing, electrician certification, inspections, and enforcement. 30 questions.",
   "questions": [
     {
       "id": 1,
-      "question": "Under RCW 19.28, who is primarily responsible for ensuring that all electrical work performed in Washington State complies with applicable codes?",
+      "question": "Under RCW 19.28.006, how is 'Basic electrical work Class A' defined?",
       "choices": [
-        "The property owner",
-        "The licensed electrical contractor",
-        "The local building department",
-        "The journeyman electrician on site"
+        "Electrical wiring of residential structures not exceeding three stories and including not more than four dwelling units, or agricultural buildings",
+        "Electrical wiring of residential structures not exceeding two stories and including not more than four dwelling units",
+        "Electrical wiring of residential structures not exceeding three stories and including not more than two dwelling units",
+        "Electrical wiring of any residential structure regardless of stories or number of dwelling units"
       ],
-      "answer": "The licensed electrical contractor",
-      "explanation": "RCW 19.28.061 places primary compliance responsibility on the licensed electrical contractor who performs or supervises the work."
+      "answer": "Electrical wiring of residential structures not exceeding three stories and including not more than four dwelling units, or agricultural buildings",
+      "explanation": "RCW 19.28.006: 'Basic electrical work Class A' means electrical wiring of residential structures not exceeding three stories in height and including not more than four dwelling units, or agricultural buildings."
     },
     {
       "id": 2,
-      "question": "Which state agency administers and enforces RCW 19.28?",
+      "question": "Under RCW 19.28.006, what distinguishes 'Basic electrical work Class B' from Class A?",
       "choices": [
-        "Washington State Department of Health",
-        "Washington State Department of Labor and Industries (L&I)",
-        "Washington State Utilities and Transportation Commission",
-        "Washington State Building Code Council"
+        "Class B covers structures with not more than one dwelling unit; Class A covers up to four dwelling units",
+        "Class B covers structures with not more than two dwelling units; Class A covers up to four dwelling units",
+        "Class B covers agricultural buildings only; Class A covers residential structures",
+        "Class B covers structures not exceeding two stories; Class A covers structures not exceeding three stories"
       ],
-      "answer": "Washington State Department of Labor and Industries (L&I)",
-      "explanation": "RCW 19.28.010 designates the Department of Labor and Industries as the administering and enforcing agency for electrical installation law."
+      "answer": "Class B covers structures with not more than one dwelling unit; Class A covers up to four dwelling units",
+      "explanation": "RCW 19.28.006: 'Basic electrical work Class B' means electrical wiring of residential structures not exceeding three stories in height and including not more than one dwelling unit, whereas Class A allows up to four dwelling units."
     },
     {
       "id": 3,
-      "question": "An electrical contractor license issued under RCW 19.28 is valid for how long before renewal is required?",
+      "question": "According to RCW 19.28.006, the term 'Administrator' refers to which of the following?",
       "choices": [
-        "6 months",
-        "1 year",
-        "2 years",
-        "3 years"
+        "A person who qualifies for a contractor's license by passing the required exams",
+        "The Director of the Department of Labor and Industries",
+        "A member of the Washington State electrical board",
+        "A person who supervises trainee electricians on a job site"
       ],
-      "answer": "1 year",
-      "explanation": "Under RCW 19.28.041, electrical contractor licenses are issued on an annual basis and must be renewed each year."
+      "answer": "A person who qualifies for a contractor's license by passing the required exams",
+      "explanation": "RCW 19.28.006: 'Administrator' means the person who qualifies for a contractor's license by passing the required examinations."
     },
     {
       "id": 4,
-      "question": "Which of the following persons is NOT required to hold an individual electrician's certificate of competency under RCW 19.28?",
+      "question": "Under RCW 19.28.006, which body is defined as the 'Board'?",
       "choices": [
-        "A journeyman electrician performing commercial wiring",
-        "A homeowner doing electrical work on their own single-family residence",
-        "A master electrician supervising apprentices",
-        "An electrician trainee working on a commercial job"
+        "Washington State electrical board",
+        "Washington State Department of Labor and Industries",
+        "Washington State Building Code Council",
+        "The Governor's Office of Regulatory Compliance"
       ],
-      "answer": "A homeowner doing electrical work on their own single-family residence",
-      "explanation": "RCW 19.28.261 provides an exemption allowing homeowners to perform electrical work on their own single-family dwelling without an individual certificate, provided they obtain the required permits and inspections."
+      "answer": "Washington State electrical board",
+      "explanation": "RCW 19.28.006: 'Board' means the Washington State electrical board established under this chapter."
     },
     {
       "id": 5,
-      "question": "Under RCW 19.28, an electrical permit is generally required before starting most electrical installations. Which of the following is a primary purpose of this permit requirement?",
+      "question": "How does RCW 19.28.006 define 'like-in-kind' replacement?",
       "choices": [
-        "To generate revenue for the state general fund",
-        "To allow the local utility to schedule a reconnection",
-        "To ensure the work is inspected for compliance with safety codes",
-        "To notify neighboring property owners"
+        "Replacement of existing equipment with equipment of the same type and rating",
+        "Replacement of existing equipment with equipment of higher capacity and updated code compliance",
+        "Installation of any new equipment in place of removed outdated equipment",
+        "Repair of existing equipment without substitution of any components"
       ],
-      "answer": "To ensure the work is inspected for compliance with safety codes",
-      "explanation": "Permit requirements exist to trigger the inspection process, ensuring that electrical installations meet safety standards before energization."
+      "answer": "Replacement of existing equipment with equipment of the same type and rating",
+      "explanation": "RCW 19.28.006: 'Like-in-kind' means replacement of existing equipment with equipment of the same type and rating."
     },
     {
       "id": 6,
-      "question": "What is the minimum ratio of journey-level electricians to apprentices generally permitted on a job site under Washington electrical law?",
+      "question": "Under RCW 19.28.041, how long does an electrical contractor license remain valid after issuance?",
       "choices": [
-        "1 journey-level to 1 apprentice",
-        "1 journey-level to 2 apprentices",
-        "1 journey-level to 3 apprentices",
-        "1 journey-level to 4 apprentices"
+        "24 calendar months",
+        "12 calendar months",
+        "36 calendar months",
+        "18 calendar months"
       ],
-      "answer": "1 journey-level to 2 apprentices",
-      "explanation": "WAC rules implementing RCW 19.28 generally limit the apprentice ratio to two apprentices per journey-level electrician, though variations exist depending on the type of work and apprenticeship program."
+      "answer": "24 calendar months",
+      "explanation": "RCW 19.28.041: Electrical contractor licenses expire 24 calendar months after the date of issuance."
     },
     {
       "id": 7,
-      "question": "Under RCW 19.28, electrical installations must be inspected before they are concealed or energized. Who is authorized to perform these inspections in Washington State?",
+      "question": "What is the required bond amount for an electrical contractor license under RCW 19.28.041 and RCW 19.28.071?",
       "choices": [
-        "Only L&I state electrical inspectors",
-        "L&I state electrical inspectors, or inspectors from an approved local government inspection program",
-        "Any licensed electrical contractor",
-        "The installing electrician's supervisor"
+        "$4,000",
+        "$6,000",
+        "$2,000",
+        "$10,000"
       ],
-      "answer": "L&I state electrical inspectors, or inspectors from an approved local government inspection program",
-      "explanation": "RCW 19.28.321 allows local governments to operate their own electrical inspection programs if approved by L&I, in addition to L&I's own inspectors."
+      "answer": "$4,000",
+      "explanation": "RCW 19.28.041 and RCW 19.28.071: The required bond is $4,000 with the state of Washington as obligee, or a cash deposit of $4,000 as an alternative."
     },
     {
       "id": 8,
-      "question": "An electrical contractor who employs electricians performing work under RCW 19.28 is required to carry which of the following?",
+      "question": "Under RCW 19.28.041, which of the following is NOT listed as a required application element for an electrical contractor license?",
       "choices": [
-        "Performance bond only",
-        "General liability insurance only",
-        "Both a surety bond and general liability insurance",
-        "Workers' compensation coverage only"
+        "A copy of the applicant's journey level electrician certificate",
+        "UBI number",
+        "Workers' compensation account number",
+        "Excise tax registration number"
       ],
-      "answer": "Both a surety bond and general liability insurance",
-      "explanation": "RCW 19.28.041 requires electrical contractors to maintain a surety bond and general liability insurance as conditions of licensure."
+      "answer": "A copy of the applicant's journey level electrician certificate",
+      "explanation": "RCW 19.28.041: Required application elements include UBI number, workers' compensation account number, employment security account number, and excise tax registration number. A journey level certificate is not listed as a contractor license application requirement."
     },
     {
       "id": 9,
-      "question": "Which type of electrical work is explicitly exempt from the licensing requirements of RCW 19.28?",
+      "question": "According to RCW 19.28.041, who must be designated to qualify an electrical contractor license?",
       "choices": [
-        "Installation of service entrance equipment in a commercial building",
-        "Maintenance of electrical equipment by the owner-operator of a manufacturing plant on their own premises",
-        "Wiring of a new multi-family residential unit",
-        "Installation of a subpanel in a retail space"
+        "A master electrician or administrator",
+        "A journey level electrician or specialty electrician",
+        "A state-licensed inspector or department employee",
+        "A board-approved safety officer"
       ],
-      "answer": "Maintenance of electrical equipment by the owner-operator of a manufacturing plant on their own premises",
-      "explanation": "RCW 19.28.006 provides exemptions for certain owner-operator maintenance activities on their own industrial premises, recognizing that plant maintenance staff often perform routine electrical upkeep."
+      "answer": "A master electrician or administrator",
+      "explanation": "RCW 19.28.041: An electrical contractor license must designate a master electrician or administrator to qualify the license."
     },
     {
       "id": 10,
-      "question": "Under RCW 19.28, what action can L&I take against an electrical contractor who repeatedly violates the electrical installation law?",
+      "question": "Under RCW 19.28.091, a homeowner is exempt from electrical contractor licensing requirements when performing electrical work on their own single-family dwelling, provided the home is NOT offered for sale within how many months of the work?",
       "choices": [
-        "Issue a verbal warning only",
-        "Suspend or revoke the contractor's electrical contractor license",
-        "Refer the matter to the county prosecutor only",
-        "Require the contractor to retake the licensing exam"
+        "12 months",
+        "6 months",
+        "24 months",
+        "18 months"
       ],
-      "answer": "Suspend or revoke the contractor's electrical contractor license",
-      "explanation": "RCW 19.28.271 grants L&I the authority to suspend or revoke licenses for violations, in addition to other civil and criminal penalties available under the chapter."
+      "answer": "12 months",
+      "explanation": "RCW 19.28.091: The owner of a single-family dwelling may perform their own electrical work without a contractor license, provided the work is not for hire and the property is not offered for sale within 12 months of the work being completed."
     },
     {
       "id": 11,
-      "question": "Which of the following best describes the scope of RCW 19.28?",
+      "question": "Which of the following electrical installations is explicitly exempt from NEC requirements under RCW 19.28.010?",
       "choices": [
-        "It applies only to commercial and industrial electrical installations",
-        "It applies to all electrical installations in or on all buildings, structures, and premises in Washington State, with limited exceptions",
-        "It applies only to new construction and not to remodel work",
-        "It applies only to installations involving voltages above 600V"
+        "Telephone wires under exclusive control of a communication utility",
+        "Panel boards in commercial buildings",
+        "Service entrance conductors in residential structures",
+        "Wiring in agricultural outbuildings"
       ],
-      "answer": "It applies to all electrical installations in or on all buildings, structures, and premises in Washington State, with limited exceptions",
-      "explanation": "RCW 19.28.010 broadly defines the scope to cover electrical installations statewide, subject to specific exemptions enumerated elsewhere in the chapter."
+      "answer": "Telephone wires under exclusive control of a communication utility",
+      "explanation": "RCW 19.28.010: Exemptions from NEC requirements include telephone, telegraph, radio, and TV (community antenna) wires that are under the exclusive control of communication utilities."
     },
     {
       "id": 12,
-      "question": "Under RCW 19.28, an electrical trainee certificate is issued to:",
+      "question": "Under RCW 19.28.021, if a dispute arises between a municipality and the state over electrical standards, arbitration is conducted by a panel of how many persons?",
       "choices": [
-        "Any person who has completed a four-year apprenticeship",
-        "A person who is learning the electrical trade and working under the direct supervision of a certified electrician",
-        "A licensed contractor who is new to the industry",
-        "A master electrician from another state seeking reciprocity"
+        "5",
+        "3",
+        "7",
+        "9"
       ],
-      "answer": "A person who is learning the electrical trade and working under the direct supervision of a certified electrician",
-      "explanation": "Trainee certificates under RCW 19.28 are designed for individuals entering the trade who must work under supervision while accumulating the hours needed for journey-level certification."
+      "answer": "5",
+      "explanation": "RCW 19.28.021: The arbitration panel consists of 5 persons — 2 appointed by the municipality, 2 appointed by the state, and 1 neutral member."
     },
     {
       "id": 13,
-      "question": "If an electrical contractor license expires and the contractor continues to perform electrical work without renewal, they are subject to:",
+      "question": "Under RCW 19.28.021, a party wishing to appeal an arbitration decision regarding municipal vs. state electrical standards must file an appeal within how many days?",
       "choices": [
-        "A grace period of 90 days with no penalty",
-        "Civil penalties and potential criminal misdemeanor charges under RCW 19.28",
-        "Only a late renewal fee with no other consequence",
-        "Automatic suspension of their bond only"
+        "30 days",
+        "20 days",
+        "60 days",
+        "45 days"
       ],
-      "answer": "Civil penalties and potential criminal misdemeanor charges under RCW 19.28",
-      "explanation": "Operating without a current license violates RCW 19.28 and can result in civil penalties and criminal misdemeanor prosecution per RCW 19.28.151."
+      "answer": "30 days",
+      "explanation": "RCW 19.28.021: An appeal of an arbitration decision must be filed with the superior court within 30 days of the decision."
     },
     {
       "id": 14,
-      "question": "A master electrician certificate under RCW 19.28 requires the applicant to pass an exam demonstrating knowledge of:",
+      "question": "According to RCW 19.28.031, at whose expense does the Director obtain the current edition of the National Electrical Code (NEC) annually?",
       "choices": [
-        "Only the National Electrical Code (NEC)",
-        "The NEC and Washington State electrical law and rules",
-        "Only Washington State administrative rules",
-        "General construction management principles"
+        "State expense",
+        "Applicant's expense",
+        "Local jurisdiction's expense",
+        "The National Fire Protection Association's expense"
       ],
-      "answer": "The NEC and Washington State electrical law and rules",
-      "explanation": "The master electrician exam tests both NEC knowledge and familiarity with RCW 19.28 and its implementing WAC rules."
+      "answer": "State expense",
+      "explanation": "RCW 19.28.031: The Director obtains the current edition of the NEC annually from the NFPA at state expense, and it is filed with the Director of Code Reviser."
     },
     {
       "id": 15,
-      "question": "When a final electrical inspection reveals code violations, who is primarily responsible for correcting the deficiencies?",
+      "question": "Under RCW 19.28.051, which THREE subject areas are covered by electrical examinations?",
       "choices": [
-        "The property owner",
-        "The electrical inspector who conducted the inspection",
-        "The licensed electrical contractor who performed the installation",
-        "The local building department"
+        "Electrical safety, state electrical code, and electrical theory",
+        "Electrical safety, NEC code calculations, and business law",
+        "State electrical code, electrical theory, and labor law",
+        "Electrical theory, construction management, and electrical safety"
       ],
-      "answer": "The licensed electrical contractor who performed the installation",
-      "explanation": "The licensed contractor is responsible for the work they perform and must correct any deficiencies identified during inspection before the installation can be approved and energized."
+      "answer": "Electrical safety, state electrical code, and electrical theory",
+      "explanation": "RCW 19.28.051: The board establishes examinations covering three categories: (1) electrical safety, (2) state electrical code, and (3) electrical theory."
+    },
+    {
+      "id": 16,
+      "question": "Under RCW 19.28.201, how often must electrical certification examinations be offered at a minimum?",
+      "choices": [
+        "At least twice per year",
+        "At least once per year",
+        "At least four times per year",
+        "At least once every six months, but only in odd-numbered years"
+      ],
+      "answer": "At least twice per year",
+      "explanation": "RCW 19.28.201: Certification examinations must be offered at least twice per year, and results are certified and sent to applicants."
+    },
+    {
+      "id": 17,
+      "question": "Under RCW 19.28.161, what is the maximum number of trainees a single certified journey level or specialty electrician may supervise?",
+      "choices": [
+        "Two trainees",
+        "One trainee",
+        "Three trainees",
+        "Four trainees"
+      ],
+      "answer": "Two trainees",
+      "explanation": "RCW 19.28.161(2): A certified journey level electrician or specialty electrician may supervise not more than two trainees at one time (the 1:2 supervision ratio)."
+    },
+    {
+      "id": 18,
+      "question": "Under RCW 19.28.161, which certificate is required for an individual who is working toward electrician certification but has not yet passed the examination?",
+      "choices": [
+        "Trainee certificate",
+        "Provisional specialty certificate",
+        "Apprentice contractor license",
+        "Temporary journey level permit"
+      ],
+      "answer": "Trainee certificate",
+      "explanation": "RCW 19.28.161: A trainee certificate is required for individuals who are working toward electrician certification and have not yet completed the examination process."
+    },
+    {
+      "id": 19,
+      "question": "Under RCW 19.28.101, which action is prohibited before an electrical installation has been inspected?",
+      "choices": [
+        "Concealing the electrical installation",
+        "Energizing the installation for a load test",
+        "Applying for an occupancy permit",
+        "Connecting permanent fixtures to the panel"
+      ],
+      "answer": "Concealing the electrical installation",
+      "explanation": "RCW 19.28.101: It is prohibited to conceal electrical installations before they have been inspected by the Department."
+    },
+    {
+      "id": 20,
+      "question": "Under RCW 19.28.101, a utility shall NOT connect electrical service to a new installation until what condition is met?",
+      "choices": [
+        "The installation has been approved or permitted",
+        "The contractor license has been renewed",
+        "A master electrician has certified the installation in writing",
+        "The local fire marshal has issued a clearance"
+      ],
+      "answer": "The installation has been approved or permitted",
+      "explanation": "RCW 19.28.101: A utility shall not connect service to an installation until the installation has been approved and/or permitted by the Department."
+    },
+    {
+      "id": 21,
+      "question": "According to RCW 19.28.241, which of the following is a valid ground for revoking an electrician's certificate of competency?",
+      "choices": [
+        "Conviction of a felony related to the trade",
+        "Failure to complete a continuing education course in the current renewal period",
+        "Employing more than two trainees simultaneously",
+        "Working in a municipality without a local permit on one occasion"
+      ],
+      "answer": "Conviction of a felony related to the trade",
+      "explanation": "RCW 19.28.241: Grounds for revocation include fraud, gross incompetence, willful negligence, and conviction of a felony related to the electrical trade."
+    },
+    {
+      "id": 22,
+      "question": "Under RCW 19.28.341, a licensee wishing to appeal a license suspension or revocation must file an appeal within how many days?",
+      "choices": [
+        "20 days",
+        "30 days",
+        "10 days",
+        "45 days"
+      ],
+      "answer": "20 days",
+      "explanation": "RCW 19.28.341: A licensee may appeal a license suspension or revocation to the board within 20 days, after which a board hearing is required."
+    },
+    {
+      "id": 23,
+      "question": "Under RCW 19.28.381, what action must the Department take if a licensee or certificate holder has outstanding unpaid penalties at the time of renewal?",
+      "choices": [
+        "Deny renewal of the license or certificate",
+        "Issue a conditional renewal pending payment",
+        "Suspend the license for 30 days and then renew",
+        "Refer the matter to the Attorney General without taking action on renewal"
+      ],
+      "answer": "Deny renewal of the license or certificate",
+      "explanation": "RCW 19.28.381: The Department shall deny renewal if the licensee or certificate holder has outstanding unpaid penalties."
+    },
+    {
+      "id": 24,
+      "question": "Under RCW 19.28.351, where are all fees and penalties collected under RCW 19.28 deposited?",
+      "choices": [
+        "The electrical license fund",
+        "The state general fund",
+        "The Department of Labor and Industries operating fund",
+        "The local jurisdiction's enforcement fund"
+      ],
+      "answer": "The electrical license fund",
+      "explanation": "RCW 19.28.351: All fees and penalties collected under this chapter are deposited into the electrical license fund, which is used to administer the electrical program."
+    },
+    {
+      "id": 25,
+      "question": "Under RCW 19.28.311, how many members make up the Washington State electrical board?",
+      "choices": [
+        "7",
+        "5",
+        "9",
+        "11"
+      ],
+      "answer": "7",
+      "explanation": "RCW 19.28.311: The Washington State electrical board consists of 7 members appointed by the Governor, serving staggered terms."
+    },
+    {
+      "id": 26,
+      "question": "Under RCW 19.28.321, which qualification must a state electrical inspector employed by the Department hold?",
+      "choices": [
+        "Must be a qualified journey level electrician or master electrician",
+        "Must be a licensed electrical contractor with at least five years of experience",
+        "Must be a licensed professional engineer specializing in electrical systems",
+        "Must hold a specialty electrician certificate in at least two categories"
+      ],
+      "answer": "Must be a qualified journey level electrician or master electrician",
+      "explanation": "RCW 19.28.321: State electrical inspectors employed by the Department must be qualified journey level electricians or master electricians."
+    },
+    {
+      "id": 27,
+      "question": "Under the telecommunications subchapter (RCW 19.28.420), which of the following best describes the licensing requirement for telecommunications contractors?",
+      "choices": [
+        "A separate telecommunications contractor license is required, distinct from the general electrical contractor license",
+        "A general electrical contractor license also covers all telecommunications work",
+        "Telecommunications work requires only a specialty electrician certificate, not a contractor license",
+        "No contractor license is required for low-voltage telecommunications systems"
+      ],
+      "answer": "A separate telecommunications contractor license is required, distinct from the general electrical contractor license",
+      "explanation": "RCW 19.28.420: A separate telecommunications contractor license is required for telecommunications work; it is not covered by a general electrical contractor license."
+    },
+    {
+      "id": 28,
+      "question": "Under RCW 19.28.400, which of the following systems is included in the definition of 'telecommunications systems'?",
+      "choices": [
+        "Voice, data, audio/video, alarm, and fiber systems on the customer side of the network demarcation",
+        "High-voltage transmission lines and associated relay systems",
+        "Utility metering equipment and associated telemetry",
+        "Publicly owned street lighting and traffic signal systems"
+      ],
+      "answer": "Voice, data, audio/video, alarm, and fiber systems on the customer side of the network demarcation",
+      "explanation": "RCW 19.28.400 and RCW 19.28.410: Telecommunications systems include voice, data, audio/video, alarm, and fiber systems on the customer side of the network demarcation point."
+    },
+    {
+      "id": 29,
+      "question": "Under RCW 19.28.501, what financial assurance requirement applies specifically to telecommunications contractors that differs from electrical contractors?",
+      "choices": [
+        "Telecommunications contractors must carry liability insurance, in addition to or instead of only a bond",
+        "Telecommunications contractors must post a $10,000 bond instead of the $4,000 bond required of electrical contractors",
+        "Telecommunications contractors must deposit $8,000 cash with the Department",
+        "Telecommunications contractors are exempt from all bond and insurance requirements"
+      ],
+      "answer": "Telecommunications contractors must carry liability insurance, in addition to or instead of only a bond",
+      "explanation": "RCW 19.28.501: Telecommunications contractors are required to carry liability insurance, which is a requirement distinct from the bond-only requirement applicable to general electrical contractors."
+    },
+    {
+      "id": 30,
+      "question": "Under RCW 19.28.095, what type of electrical work is covered by the equipment repair specialty classification?",
+      "choices": [
+        "Repair or replacement of existing electrical equipment with like-in-kind replacements",
+        "New installation of electrical equipment in previously unequipped areas",
+        "Upgrade of existing electrical equipment to higher-rated components",
+        "Installation of temporary power supplies for construction sites"
+      ],
+      "answer": "Repair or replacement of existing electrical equipment with like-in-kind replacements",
+      "explanation": "RCW 19.28.095: The equipment repair specialty covers repair or replacement of existing electrical equipment with like-in-kind replacements and does not cover new installation."
     }
   ]
 }
