@@ -4,19 +4,26 @@ This repository is a Salesforce DX project for the `map-salesforce` workspace, u
 
 It is also set up so people who are newer to Salesforce CLI can understand the basics of what the CLI is, how org login works, and how this repository uses shared TDS org aliases plus personal Dev Hub aliases.
 
-## Salesforce CLI basics
 
-Salesforce CLI is a free command-line tool from Salesforce that lets people work with Salesforce orgs from a terminal or command prompt instead of doing every task through the browser UI.
+<details>
+<summary style="font-size: 1.4em; font-weight: bold; padding: 15px; background: #667eea; color: white; border-radius: 10px; cursor: pointer; margin: 10px 0;"><strong>🧭 CLI Basics</strong></summary>
+<blockquote style="font-size: 1.2em; line-height: 1.8; padding: 25px; background: #f8f9fa; border-left: 6px solid #667eea; border-radius: 8px; margin: 15px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+
+
+
+Salesforce (SF) Command Line Interface (CLI) is a free SF command-line tool that lets people work with SF orgs from a terminal or command prompt instead of doing every task through the browser UI.
 
 A command-line interface, or CLI, is simply a text-based tool where tasks are done by typing
 commands.
 
-For this project, Salesforce CLI is mainly used to:
+For this project, SF CLI is mainly used to:
 
 - Log into the TDS Salesforce org.
 - Set a default org and Dev Hub alias for local development.
 - Work with metadata in this repository.
 - Support scratch-org and packaging workflows.
+
+</details>
 
 ## Project configuration
 
