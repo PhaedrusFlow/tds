@@ -1,0 +1,187 @@
+{
+  "id": "nec-705-780-special-conditions",
+  "title": "NEC Articles 705–780 — Special Conditions (PV, ESS, Interconnected Power)",
+  "description": "Interconnected power production sources, photovoltaic systems, energy storage, and low-voltage lighting per NEC 2023 Articles 705–780. 15 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Per NEC 2023 Section 705.6, which equipment used in interactive power production systems must be listed for the application?",
+      "choices": [
+        "Only the utility service equipment and metering",
+        "Only overcurrent protective devices on the load side",
+        "All interactive equipment, including inverters, used in the system",
+        "Only equipment rated above 600 volts"
+      ],
+      "answer": "All interactive equipment, including inverters, used in the system",
+      "explanation": "NEC 705.6 requires that all equipment used in an interactive power production system, including inverters, be listed for the application. This ensures that all interactive equipment meets evaluated safety standards for parallel operation with a primary source of electricity. The listing requirement covers inverters, converters, charge controllers, and other components identified as interactive."
+    },
+    {
+      "id": 2,
+      "question": "Under NEC 2023 Section 705.12(B)(3)(2) — the '120% rule' — a PV inverter is connected to the load side of a 200 A panelboard busbar with a 200 A main breaker. The backfed breaker must be placed at the opposite end of the busbar from the main breaker. What is the maximum rating permitted for that backfed breaker?",
+      "choices": [
+        "40 A",
+        "60 A",
+        "80 A",
+        "100 A"
+      ],
+      "answer": "40 A",
+      "explanation": "NEC 705.12(B)(3)(2) states that the sum of 125% of the power source output circuit current plus the rating of the overcurrent device protecting the busbar shall not exceed 120% of the busbar ampacity. For a 200 A busbar: 120% × 200 A = 240 A allowable. Subtracting the 200 A main breaker leaves a maximum of 40 A for the backfed breaker (which supports up to 32 A of continuous inverter output). A permanent warning label is required adjacent to the backfed breaker stating that it must not be relocated."
+    },
+    {
+      "id": 3,
+      "question": "NEC 2023 Section 705.20 requires that the disconnecting means for an interactive power production source have which of the following characteristics?",
+      "choices": [
+        "It must be located within the utility meter enclosure",
+        "It must be readily accessible and capable of being locked in the open position",
+        "It must be a fused disconnect rated at 200% of the system output current",
+        "It must be located outdoors on the exterior wall of the building only"
+      ],
+      "answer": "It must be readily accessible and capable of being locked in the open position",
+      "explanation": "NEC 705.20 requires the source disconnecting means for an interactive power production system to be readily accessible and capable of being locked in the open position in accordance with 110.25. The locking provisions must remain in place with or without the lock installed. This requirement ensures that maintenance personnel can de-energize the system and prevent it from being re-energized inadvertently while work is being performed."
+    },
+    {
+      "id": 4,
+      "question": "Which wiring methods are permitted for interconnected power production systems under NEC 2023 Section 705.25?",
+      "choices": [
+        "Only rigid metal conduit (RMC) and intermediate metal conduit (IMC)",
+        "Any wiring method included in Chapter 3 that is suitable for the conditions",
+        "Only NM cable and SE cable for residential applications",
+        "Only metal wireways and cable trays for commercial applications"
+      ],
+      "answer": "Any wiring method included in Chapter 3 that is suitable for the conditions",
+      "explanation": "NEC 705.25 permits the use of any wiring method included in Chapter 3 of the NEC that is suitable for the conditions of the installation. The wiring method must be appropriate for the environment (wet, dry, corrosive, etc.) and rated for the voltage and current of the system, but no single wiring method is mandated. This parallels the wiring method flexibility given to other power systems in the NEC."
+    },
+    {
+      "id": 5,
+      "question": "NEC 2023 Section 705.40 addresses the behavior of an interactive power production source upon loss of the primary source (utility). What does this section require?",
+      "choices": [
+        "The interactive system shall continue to energize the premises wiring to supply critical loads",
+        "The interactive system shall automatically de-energize and shall not reconnect until the primary source is restored",
+        "The interactive system may remain connected provided it has an automatic transfer switch",
+        "The interactive system shall reduce output to 50% within 30 seconds of detecting utility loss"
+      ],
+      "answer": "The interactive system shall automatically de-energize and shall not reconnect until the primary source is restored",
+      "explanation": "NEC 705.40 requires that upon loss of voltage in the primary source, an interactive electric power production source shall automatically de-energize (disconnect from) all ungrounded conductors of the primary source and shall not reconnect until the primary source is restored. This anti-islanding requirement prevents the system from back-feeding the utility grid and creating shock hazards for utility workers. An interactive system is permitted to operate as a stand-alone system only to supply loads that have already been disconnected from the distribution network."
+    },
+    {
+      "id": 6,
+      "question": "Under NEC 2023 Article 705, Part IV (Microgrid Systems), Section 705.50, what operational capability must a microgrid system have to qualify as a microgrid under the NEC?",
+      "choices": [
+        "It must operate permanently in island mode without any connection to the utility",
+        "It must be capable of disconnecting from the primary source and operating in island mode, and be capable of reconnecting to that primary source",
+        "It must supply power exclusively from PV and battery storage",
+        "It must be limited to a single power production source with no parallel sources"
+      ],
+      "answer": "It must be capable of disconnecting from the primary source and operating in island mode, and be capable of reconnecting to that primary source",
+      "explanation": "NEC 705.50 (Article 705, Part IV — Microgrid Systems) states that microgrid systems capable of operating in interactive mode with a primary source of electricity shall be permitted to disconnect from other sources and operate in island mode. Per the Article 100 definition, a microgrid is an electric power system capable of operating in island mode and capable of being interconnected to an electric power production and distribution network. Reconnection to the primary power source must occur via a microgrid interconnect device (MID) providing synchronous transition, per NEC 705.65."
+    },
+    {
+      "id": 7,
+      "question": "Per NEC 2023 Section 705.60, how must connections between a microgrid system and an external primary power source (such as the utility) be made?",
+      "choices": [
+        "Only at the supply side of the service disconnecting means per 705.11",
+        "Only at the load side of the service disconnecting means using the 120% busbar rule",
+        "In accordance with 705.11 (supply-side), 705.12 (load-side), or 705.13 (power control systems)",
+        "Directly at the utility transformer secondary terminals with AHJ approval"
+      ],
+      "answer": "In accordance with 705.11 (supply-side), 705.12 (load-side), or 705.13 (power control systems)",
+      "explanation": "NEC 705.60 requires that connections to primary power sources external to the microgrid system shall comply with 705.11 (supply-side connections), 705.12 (load-side source connections, including the 120% busbar rule), or 705.13 (power control systems). This ensures that a microgrid's interface with the utility grid is subject to the same interconnection safety rules as any other interactive power production source."
+    },
+    {
+      "id": 8,
+      "question": "NEC 2023 Article 706 applies to energy storage systems (ESS). Which of the following correctly states the capacity threshold that triggers the scope of Article 706?",
+      "choices": [
+        "Greater than 1 kWh (3.6 MJ)",
+        "Greater than 5 kWh (18 MJ)",
+        "Greater than 10 kWh (36 MJ)",
+        "Greater than 100 Ah at any nominal system voltage"
+      ],
+      "answer": "Greater than 1 kWh (3.6 MJ)",
+      "explanation": "NEC 706.1 states that Article 706 applies to all permanently installed energy storage systems having a capacity greater than 3.6 MJ (1 kWh). These systems may be stand-alone or operate interactively with other electric power production sources. ESS below this capacity threshold, or those integrated as components within a larger listed product such as a UPS, are not governed by Article 706."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following best matches the NEC 2023 definition of an Energy Storage System (ESS) as found in Section 706.2?",
+      "choices": [
+        "A system consisting solely of lead-acid batteries used for emergency lighting and exit signs",
+        "One or more components assembled together capable of storing energy and providing that energy to an electrical circuit",
+        "A device that converts alternating current to direct current exclusively for DC loads",
+        "Any battery system rated above 48 volts DC used in stand-alone applications"
+      ],
+      "answer": "One or more components assembled together capable of storing energy and providing that energy to an electrical circuit",
+      "explanation": "NEC 706.2 defines an Energy Storage System (ESS) as one or more components assembled together capable of storing energy and providing that energy to an electrical circuit. An ESS may be assembled from electrochemical cells, capacitors, flywheels, or other storage technologies, along with associated power conversion, monitoring, controls, and protective devices. This broad definition covers residential battery systems, commercial battery banks, and other technologies meeting the capacity threshold in 706.1."
+    },
+    {
+      "id": 10,
+      "question": "NEC 2023 Section 706.10 addresses listing requirements for energy storage systems. What does it require?",
+      "choices": [
+        "ESS equipment is not required to be listed if designed by a licensed professional engineer",
+        "Only the inverter portion of the ESS must be listed; the battery modules are exempt",
+        "ESS equipment shall be listed and identified for the application",
+        "Listing is required only for ESS systems that are interconnected to the utility grid"
+      ],
+      "answer": "ESS equipment shall be listed and identified for the application",
+      "explanation": "NEC 706.10 requires that energy storage systems be listed and identified for the application. UL 9540 (Standard for Energy Storage Systems and Equipment) is a widely recognized listing standard that AHJs frequently rely upon for complete ESS products. The listing requirement applies to both stand-alone and utility-interactive systems and ensures that the specific storage technology and configuration has been evaluated for safety."
+    },
+    {
+      "id": 11,
+      "question": "Under NEC 2023 Section 706.20, where must the disconnecting means for an energy storage system (ESS) be located?",
+      "choices": [
+        "At the utility meter base, accessible only to utility personnel",
+        "Readily accessible and within sight of the ESS; if not within sight, as close as practicable and lockable open per 110.25",
+        "At the main service panel only, regardless of the ESS location",
+        "In a locked enclosure accessible only to qualified persons, at any location on the premises"
+      ],
+      "answer": "Readily accessible and within sight of the ESS; if not within sight, as close as practicable and lockable open per 110.25",
+      "explanation": "NEC 706.20 requires the ESS disconnecting means to be readily accessible and located within sight of the ESS. Where it is impracticable to locate it within sight, the disconnect shall be installed as close as practicable and shall be capable of being locked in the open position in accordance with 110.25, with the disconnect location field-marked on or immediately adjacent to the ESS. For one- and two-family dwellings, a disconnecting means or its remote control must also be provided at a readily accessible location outside the building."
+    },
+    {
+      "id": 12,
+      "question": "Per NEC 2023 Section 706.30(A), what is the minimum ampere rating required for overcurrent protective devices (OCPDs) protecting energy storage system (ESS) output circuits?",
+      "choices": [
+        "100% of the maximum current marked on the ESS nameplate",
+        "115% of the maximum current marked on the ESS nameplate",
+        "125% of the maximum current marked on the ESS nameplate",
+        "150% of the maximum current marked on the ESS nameplate"
+      ],
+      "answer": "125% of the maximum current marked on the ESS nameplate",
+      "explanation": "NEC 706.30(A) requires that overcurrent protective devices for ESS output circuits have an ampere rating of not less than 125% of the maximum current marked on the nameplate of the ESS. NEC 706.30(B) correspondingly requires output circuit conductors to have an ampacity of not less than 125% of the nameplate current rating. The 125% factor accounts for the continuous-duty nature of ESS output current, consistent with the continuous load treatment applied elsewhere in the NEC."
+    },
+    {
+      "id": 13,
+      "question": "NEC 2023 Article 690 covers PV systems. Per Section 690.2, which of the following correctly describes a 'PV source circuit'?",
+      "choices": [
+        "The conductors between the PV array output combiner and the input terminals of the utility-interactive inverter",
+        "The conductors between PV modules and from PV modules to the common connection point(s) of the DC system",
+        "All DC conductors from the PV array to the utility service entrance equipment",
+        "The conductors on the AC output side of the PV inverter"
+      ],
+      "answer": "The conductors between PV modules and from PV modules to the common connection point(s) of the DC system",
+      "explanation": "NEC 690.2 defines a PV source circuit as the conductors between PV modules and from PV modules to the common connection point(s) of the DC system, such as a combiner box or inverter input. These are the circuits within and between strings of PV modules (sometimes called 'home run' conductors). The PV string circuit is a subset that connects series-connected modules within a string. PV output circuits (now called 'PV string circuits' in 2023 NEC) connect strings to downstream DC equipment, and inverter output circuits are on the AC side."
+    },
+    {
+      "id": 14,
+      "question": "NEC 2023 Section 690.12 requires rapid shutdown for PV systems installed on or in buildings. Which statement correctly describes the voltage limit and time requirement for controlled conductors outside the array boundary?",
+      "choices": [
+        "Conductors must be de-energized to 0 volts within 10 seconds of initiation",
+        "Conductors must be limited to not more than 30 volts within 30 seconds of rapid shutdown initiation",
+        "Conductors must be limited to not more than 80 volts within 30 seconds of rapid shutdown initiation",
+        "Conductors outside the array boundary are exempt from rapid shutdown requirements"
+      ],
+      "answer": "Conductors must be limited to not more than 30 volts within 30 seconds of rapid shutdown initiation",
+      "explanation": "NEC 690.12(B)(1) requires that controlled conductors located outside the array boundary — defined in 690.12(B) as 1 ft (305 mm) from the array in all directions — or more than 3 ft (1 m) from the point of entry inside a building, shall be limited to not more than 30 volts (and 240 VA) within 30 seconds of rapid shutdown initiation. Inside the array boundary, 690.12(B)(2) requires the PV system to provide shock hazard control through a listed Photovoltaic Hazard Control System (PVHCS). Rapid shutdown applies to PV circuits on or in buildings; an exception applies for ground-mounted arrays where the sole purpose of entering the building is to house PV system equipment."
+    },
+    {
+      "id": 15,
+      "question": "NEC 2023 Section 690.47(A) governs the grounding electrode system for buildings or structures supporting a PV system. What does this section require?",
+      "choices": [
+        "A separate dedicated grounding electrode must be driven at each corner of the PV array",
+        "The building or structure supporting the PV system shall have a grounding electrode system installed in accordance with Article 250 Part III",
+        "PV systems using transformerless (ungrounded) inverters are exempt from all grounding electrode requirements",
+        "A copper ground rod of at least 10 ft must be driven directly at the inverter location"
+      ],
+      "answer": "The building or structure supporting the PV system shall have a grounding electrode system installed in accordance with Article 250 Part III",
+      "explanation": "NEC 690.47(A) requires that a building or structure supporting a PV system shall have a grounding electrode system installed in accordance with Part III of Article 250. PV array equipment grounding conductors shall be connected to this grounding electrode system in accordance with Article 250 Part VII, in addition to any other equipment grounding conductor requirements in 690.43(C). PV array equipment grounding conductors shall be sized per 690.45, and the grounding electrode conductor shall be sized per 250.66. Additional auxiliary grounding electrodes are permitted (not required) per 250.52 and 250.54, and may be connected directly to the module frame(s) or support structure."
+    }
+  ]
+}
