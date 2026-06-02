@@ -1,0 +1,367 @@
+{
+  "id": "nec-250-grounding-bonding",
+  "title": "NEC Article 250 — Grounding & Bonding",
+  "description": "System grounding, equipment grounding, grounding electrodes, bonding, and grounding electrode conductors per NEC 2023 Article 250. 30 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to NEC 250.4(A)(1), what is the primary purpose of grounding a solidly grounded electrical system?",
+      "choices": [
+        "To provide a low-impedance path to facilitate overcurrent device operation in case of a ground fault",
+        "To prevent static charge buildup on equipment enclosures",
+        "To equalize voltage between phase conductors under load",
+        "To eliminate induced voltages on metallic raceways"
+      ],
+      "answer": "To provide a low-impedance path to facilitate overcurrent device operation in case of a ground fault",
+      "explanation": "NEC 250.4(A)(1): Solidly grounded systems shall be grounded to limit voltage imposed by lightning, line surges, or unintentional contact with higher-voltage lines, and to stabilize voltage to earth during normal operation. The grounding path must provide a low-impedance path so that fault current will operate overcurrent devices."
+    },
+    {
+      "id": 2,
+      "question": "NEC 250.4(A)(5) requires that the equipment grounding conductor (EGC) provide what specific capability?",
+      "choices": [
+        "A low-impedance path for fault current to facilitate operation of the overcurrent protective device",
+        "A high-impedance path to limit fault current to safe levels before the overcurrent device operates",
+        "A redundant neutral path to carry unbalanced load current back to the source",
+        "A static-dissipation path rated at least 1 ampere continuous"
+      ],
+      "answer": "A low-impedance path for fault current to facilitate operation of the overcurrent protective device",
+      "explanation": "NEC 250.4(A)(5): The electrical equipment grounding conductor shall provide an effective ground-fault current path — a low-impedance electrically conductive path that facilitates the operation of the overcurrent protective device or ground detector for high-impedance grounded systems."
+    },
+    {
+      "id": 3,
+      "question": "NEC 250.6 addresses 'objectionable current.' Which of the following best describes what this section prohibits?",
+      "choices": [
+        "Making grounding connections in a manner that causes objectionable current to flow on grounding conductors",
+        "Installing grounding conductors smaller than those specified in Table 250.66",
+        "Connecting the neutral conductor to the grounding electrode at a location other than the service equipment",
+        "Using aluminum grounding electrode conductors within 18 inches of the earth"
+      ],
+      "answer": "Making grounding connections in a manner that causes objectionable current to flow on grounding conductors",
+      "explanation": "NEC 250.6: The grounding of electrical systems, circuit conductors, surge arresters, surge-protective devices, and conductive normally non-current-carrying metal parts of equipment shall be installed and arranged in a manner that will prevent objectionable current from flowing on the grounding conductors or grounding paths."
+    },
+    {
+      "id": 4,
+      "question": "Under NEC 250.20(A), an AC system of less than 50 volts must be grounded when it is supplied by a transformer and the primary supply system voltage to ground exceeds which value?",
+      "choices": [
+        "150 volts",
+        "120 volts",
+        "100 volts",
+        "300 volts"
+      ],
+      "answer": "150 volts",
+      "explanation": "NEC 250.20(A): AC systems of less than 50 volts shall be grounded where the system is supplied by transformers and the supply system exceeds 150 volts to ground, or where the system is supplied by transformers and the supply system is ungrounded, or where installed as overhead conductors outside of buildings."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following AC systems operating between 50V and 1000V is required to be grounded per NEC 250.20(B)?",
+      "choices": [
+        "A 3-phase 4-wire wye system where the neutral is used as a circuit conductor",
+        "A 3-phase 3-wire delta system with no neutral conductor",
+        "A single-phase 2-wire 480V system with both conductors ungrounded",
+        "A 3-phase 4-wire delta system where no midpoint tap is used as a circuit conductor"
+      ],
+      "answer": "A 3-phase 4-wire wye system where the neutral is used as a circuit conductor",
+      "explanation": "NEC 250.20(B): AC systems of 50V to 1000V that are required to be grounded include: systems where the voltage to ground does not exceed 150V; single-phase 3-wire systems; 3-phase 4-wire wye systems where the neutral is used as a circuit conductor; and 3-phase 4-wire delta systems where the midpoint of one phase is used as a circuit conductor."
+    },
+    {
+      "id": 6,
+      "question": "Per NEC 250.24(A), where must the grounding electrode conductor be connected at a service-supplied building?",
+      "choices": [
+        "At the service equipment",
+        "At the first overcurrent device on each branch circuit",
+        "At the load center furthest from the service entrance",
+        "At the utility transformer secondary terminals"
+      ],
+      "answer": "At the service equipment",
+      "explanation": "NEC 250.24(A): For grounded systems, the grounded conductor shall be connected to the grounding electrode conductor at the service equipment. The grounding electrode conductor connects the grounded conductor, the equipment grounding conductor, and the grounding electrode system at the service equipment."
+    },
+    {
+      "id": 7,
+      "question": "NEC 250.24(C) states that the grounded conductor routed to service equipment must not be smaller than what reference?",
+      "choices": [
+        "The size specified in Table 250.102(C)(1)",
+        "The size specified in Table 250.122",
+        "The size specified in Table 310.16",
+        "The size specified in Table 250.66"
+      ],
+      "answer": "The size specified in Table 250.102(C)(1)",
+      "explanation": "NEC 250.24(C): The grounded conductor brought to the service equipment shall not be smaller than the size specified in Table 250.102(C)(1) based on the area of the largest ungrounded service-entrance conductor."
+    },
+    {
+      "id": 8,
+      "question": "The main bonding jumper (MBJ) described in NEC 250.28 connects which conductors at service equipment?",
+      "choices": [
+        "The equipment grounding conductor/grounding electrode conductor to the grounded (neutral) conductor",
+        "The ungrounded phase conductors to the grounding electrode",
+        "The neutral conductor to the phase conductors to balance load",
+        "The service-entrance conductors to the meter enclosure"
+      ],
+      "answer": "The equipment grounding conductor/grounding electrode conductor to the grounded (neutral) conductor",
+      "explanation": "NEC 250.28: The main bonding jumper shall connect the equipment grounding conductor(s) and the grounding electrode conductor to the grounded (neutral) conductor at the service equipment. The MBJ may be a wire, bus, screw, or strap."
+    },
+    {
+      "id": 9,
+      "question": "When a main bonding jumper is installed as a screw, what color must it be per NEC 250.28?",
+      "choices": [
+        "Green",
+        "White",
+        "Red",
+        "Yellow"
+      ],
+      "answer": "Green",
+      "explanation": "NEC 250.28: Where the main bonding jumper is a screw only, the screw shall be colored green and shall be visible after installation."
+    },
+    {
+      "id": 10,
+      "question": "Per NEC 250.50, what must be done with all grounding electrodes described in 250.52(A)(1) through (A)(7) that are present at a building?",
+      "choices": [
+        "They must all be bonded together to form the grounding electrode system",
+        "Only the electrode with the lowest resistance may be used; others must be isolated",
+        "Each electrode must be connected to a separate panel to avoid objectionable current",
+        "They must be tested annually and only those below 5 ohms may remain connected"
+      ],
+      "answer": "They must all be bonded together to form the grounding electrode system",
+      "explanation": "NEC 250.50: All grounding electrodes as described in 250.52(A)(1) through (A)(7) that are present at each building or structure served shall be bonded together to form the grounding electrode system."
+    },
+    {
+      "id": 11,
+      "question": "A metal underground water pipe electrode used per NEC 250.52(A)(1) must have a minimum contact with the earth of how many feet?",
+      "choices": [
+        "10 feet",
+        "6 feet",
+        "8 feet",
+        "20 feet"
+      ],
+      "answer": "10 feet",
+      "explanation": "NEC 250.52(A)(1): A metal underground water pipe in direct contact with the earth for 10 ft (3.0 m) or more (including any metal well casing that is bonded to the pipe) and electrically continuous (or made electrically continuous by bonding around insulating joints or insulating pipe) to the points of connection of the grounding electrode conductor and the bonding conductor(s) shall be considered a grounding electrode."
+    },
+    {
+      "id": 12,
+      "question": "The underground water pipe electrode per NEC 250.52(A)(1) must always be supplemented by which of the following?",
+      "choices": [
+        "At least one additional electrode from 250.52(A)(2) through (A)(7)",
+        "A second water pipe electrode in a different trench",
+        "A ground ring encircling the building",
+        "A plate electrode of at least 4 square feet"
+      ],
+      "answer": "At least one additional electrode from 250.52(A)(2) through (A)(7)",
+      "explanation": "NEC 250.52(A)(1): The underground water pipe electrode shall be supplemented by an additional electrode of a type specified in 250.52(A)(2) through (A)(8)."
+    },
+    {
+      "id": 13,
+      "question": "A concrete-encased electrode ('Ufer ground') as described in NEC 250.52(A)(3) requires at least how many feet of bare copper conductor (minimum 4 AWG) or rebar encased in concrete?",
+      "choices": [
+        "20 feet",
+        "10 feet",
+        "15 feet",
+        "30 feet"
+      ],
+      "answer": "20 feet",
+      "explanation": "NEC 250.52(A)(3): A concrete-encased electrode shall consist of at least 20 ft (6.0 m) of either bare copper conductor not smaller than 4 AWG, or one or more steel reinforcing bars or rods of not less than ½ inch (13 mm) in diameter, encased within and located near the bottom of a concrete foundation or footing in direct contact with the earth."
+    },
+    {
+      "id": 14,
+      "question": "What is the minimum diameter of steel rebar used as a concrete-encased electrode (Ufer ground) per NEC 250.52(A)(3)?",
+      "choices": [
+        "½ inch",
+        "¼ inch",
+        "⅝ inch",
+        "¾ inch"
+      ],
+      "answer": "½ inch",
+      "explanation": "NEC 250.52(A)(3): Steel reinforcing bars or rods used as concrete-encased electrodes shall be not less than ½ inch (13 mm) in diameter."
+    },
+    {
+      "id": 15,
+      "question": "A ground ring electrode per NEC 250.52(A)(5) must encircle the building using bare copper conductor of at least what size, buried at least how deep?",
+      "choices": [
+        "2 AWG copper, buried at least 30 inches",
+        "4 AWG copper, buried at least 18 inches",
+        "2 AWG copper, buried at least 18 inches",
+        "1/0 AWG copper, buried at least 24 inches"
+      ],
+      "answer": "2 AWG copper, buried at least 30 inches",
+      "explanation": "NEC 250.52(A)(5): A ground ring encircling the building or structure, in direct contact with the earth, shall consist of at least 20 ft (6.0 m) of bare copper conductor not smaller than 2 AWG and buried to a depth below the earth's surface of not less than 750 mm (30 in.)."
+    },
+    {
+      "id": 16,
+      "question": "Per NEC 250.52(A)(6), a copper or copper-clad steel rod electrode must have a minimum diameter of what size and be driven to a minimum depth of how many feet?",
+      "choices": [
+        "5/8 inch diameter, driven at least 8 feet into the earth",
+        "1/2 inch diameter, driven at least 6 feet into the earth",
+        "3/4 inch diameter, driven at least 8 feet into the earth",
+        "5/8 inch diameter, driven at least 10 feet into the earth"
+      ],
+      "answer": "5/8 inch diameter, driven at least 8 feet into the earth",
+      "explanation": "NEC 250.52(A)(6): Rod electrodes shall have a diameter of not less than 15.87 mm (5/8 in.) where of copper or copper-clad steel, and shall be driven to a depth of not less than 2.44 m (8 ft) below the surface of the earth."
+    },
+    {
+      "id": 17,
+      "question": "A plate electrode per NEC 250.52(A)(7) must expose at least how much surface area to the soil, and iron or steel plates must be at least how thick?",
+      "choices": [
+        "2 square feet of surface area; iron/steel plates at least 1/4 inch thick",
+        "4 square feet of surface area; iron/steel plates at least 1/8 inch thick",
+        "2 square feet of surface area; iron/steel plates at least 1/8 inch thick",
+        "1 square foot of surface area; iron/steel plates at least 1/4 inch thick"
+      ],
+      "answer": "2 square feet of surface area; iron/steel plates at least 1/4 inch thick",
+      "explanation": "NEC 250.52(A)(7): Plate electrodes shall have a minimum of 0.186 m² (2 sq ft) of surface area exposed to the surrounding earth. Electrodes of iron or steel plates shall be at least 6.4 mm (¼ in.) in thickness. Electrodes of nonferrous metal shall be at least 1.5 mm (0.06 in.) in thickness."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is explicitly NOT permitted as a grounding electrode per NEC 250.52(B)?",
+      "choices": [
+        "Metal underground gas piping systems",
+        "Metal underground water pipe in contact with soil for 12 feet",
+        "Concrete-encased rebar of ½ inch diameter",
+        "A copper rod driven 8 feet into the earth"
+      ],
+      "answer": "Metal underground gas piping systems",
+      "explanation": "NEC 250.52(B): The following systems and materials shall not be used as grounding electrodes: metal underground gas piping systems and aluminum electrodes."
+    },
+    {
+      "id": 19,
+      "question": "Per NEC 250.53(A)(2), if a single rod, pipe, or plate electrode has a resistance to earth exceeding how many ohms, a second electrode must be installed?",
+      "choices": [
+        "25 ohms",
+        "10 ohms",
+        "50 ohms",
+        "100 ohms"
+      ],
+      "answer": "25 ohms",
+      "explanation": "NEC 250.53(A)(2): A single rod, pipe, or plate electrode shall be supplemented by an additional electrode of a type specified in 250.52(A)(2) through (A)(8). Where a rod, pipe, or plate electrode has a resistance to earth of 25 ohms or less, the supplemental electrode is not required."
+    },
+    {
+      "id": 20,
+      "question": "NEC 250.54 permits auxiliary grounding electrodes to be connected to equipment grounding conductors of individual branch circuits. What resistance requirement applies to these auxiliary electrodes?",
+      "choices": [
+        "No resistance requirement — they are not required to meet the 25-ohm rule",
+        "They must have a resistance of 25 ohms or less",
+        "They must have a resistance of 10 ohms or less",
+        "They must have a resistance of 100 ohms or less"
+      ],
+      "answer": "No resistance requirement — they are not required to meet the 25-ohm rule",
+      "explanation": "NEC 250.54: Auxiliary grounding electrodes shall be permitted to be connected to the equipment grounding conductors specified in 250.118 and run with the circuit conductors. The resistance of auxiliary grounding electrodes shall not be required to comply with the 25-ohm rule of 250.53(A)(2)."
+    },
+    {
+      "id": 21,
+      "question": "NEC 250.64(A) permits aluminum grounding electrode conductors (GECs), but prohibits their use in which location?",
+      "choices": [
+        "Within 18 inches of the earth or where subject to corrosive conditions",
+        "Within 12 inches of the earth or in wet locations",
+        "Within 24 inches of the earth or outdoors",
+        "Within 6 inches of the earth or in damp locations"
+      ],
+      "answer": "Within 18 inches of the earth or where subject to corrosive conditions",
+      "explanation": "NEC 250.64(A): Aluminum or copper-clad aluminum conductors shall not be used where in direct contact with masonry or the earth, or where subject to corrosive conditions. Where used outside, aluminum or copper-clad aluminum GECs shall not be installed within 450 mm (18 in.) of the earth."
+    },
+    {
+      "id": 22,
+      "question": "Per NEC 250.64(C), a grounding electrode conductor (GEC) shall be installed without splicing EXCEPT by which permitted methods?",
+      "choices": [
+        "Listed irreversible compression connectors, listed exothermic welding, or connection to busbars",
+        "Listed wire nuts, listed mechanical set-screw connectors, or soldering",
+        "Listed crimp sleeves, silver solder joints, or mechanical clamps",
+        "Insulation-piercing connectors, listed mechanical lugs, or aluminum crimps"
+      ],
+      "answer": "Listed irreversible compression connectors, listed exothermic welding, or connection to busbars",
+      "explanation": "NEC 250.64(C): The grounding electrode conductor shall be installed without a splice or joint unless spliced by irreversible compression-type connectors listed for the purpose, exothermic welding, or connected to busbars as provided in 250.64(D)."
+    },
+    {
+      "id": 23,
+      "question": "When a grounding electrode conductor (GEC) is run inside a metal raceway per NEC 250.64(E), what additional requirement applies to that raceway?",
+      "choices": [
+        "Both ends of the raceway must be bonded to the GEC or connected to a grounded metal enclosure",
+        "The raceway must be non-metallic to prevent eddy current heating",
+        "The raceway must be bonded only at the service equipment end",
+        "The raceway must be listed for use with GECs and painted green"
+      ],
+      "answer": "Both ends of the raceway must be bonded to the GEC or connected to a grounded metal enclosure",
+      "explanation": "NEC 250.64(E): Where a raceway is used as protection for a grounding electrode conductor, the installation shall comply with the requirements of the appropriate raceway article. Where a metal raceway is used, it shall be electrically continuous from the point of attachment to cabinets or equipment to the grounding electrode, and shall be bonded at each end of the raceway to the grounding electrode conductor."
+    },
+    {
+      "id": 24,
+      "question": "The size of the grounding electrode conductor (GEC) is determined by NEC 250.66 based on what, and what is the maximum copper GEC size required?",
+      "choices": [
+        "Based on the size of the service-entrance conductors per Table 250.66; maximum 3/0 AWG copper",
+        "Based on the rating of the main overcurrent device per Table 250.122; maximum 2/0 AWG copper",
+        "Based on the largest service load in amperes per Table 310.16; maximum 4/0 AWG copper",
+        "Based on the size of the service-entrance conductors per Table 250.66; maximum 2/0 AWG copper"
+      ],
+      "answer": "Based on the size of the service-entrance conductors per Table 250.66; maximum 3/0 AWG copper",
+      "explanation": "NEC 250.66: The size of the grounding electrode conductor at the service, at each building or structure where supplied by a feeder(s) or branch circuit(s), or at a separately derived system of a grounded or ungrounded ac system shall not be less than given in Table 250.66. The GEC is not required to be larger than 3/0 AWG copper or 250 kcmil aluminum."
+    },
+    {
+      "id": 25,
+      "question": "NEC 250.92(B) requires specific bonding methods at service equipment. Which of the following methods is NOT acceptable for bonding at the service?",
+      "choices": [
+        "Locknut-only connections (standard locknuts without bonding capability)",
+        "Bonding bushings with a bonding jumper to the grounded conductor",
+        "Grounded hubs threaded onto the conduit",
+        "Set-screw type connectors listed for bonding"
+      ],
+      "answer": "Locknut-only connections (standard locknuts without bonding capability)",
+      "explanation": "NEC 250.92(B): Bonding shall be provided at the service for electrically continuous connections. Standard locknuts or bushings alone shall not be used for this purpose. Acceptable methods include bonding equipment listed for the purpose, such as bonding-type locknuts, bonding bushings with bonding jumpers, and grounded hubs."
+    },
+    {
+      "id": 26,
+      "question": "NEC 250.94 requires an intersystem bonding termination to be provided at the service equipment. What is the purpose of this termination?",
+      "choices": [
+        "To provide an accessible means for bonding communications systems such as telephone, CATV, and satellite",
+        "To connect the neutral conductor to the grounding electrode at a second location",
+        "To bond the utility transformer neutral to the building grounding electrode system",
+        "To provide a test point for measuring ground resistance without disconnecting the GEC"
+      ],
+      "answer": "To provide an accessible means for bonding communications systems such as telephone, CATV, and satellite",
+      "explanation": "NEC 250.94: An intersystem bonding termination for connecting intersystem bonding and grounding electrode conductors required for other systems shall be provided external to enclosures at the service equipment or metering equipment enclosure. This provides an accessible means for communications systems (telephone, CATV, satellite) to bond to the grounding electrode system."
+    },
+    {
+      "id": 27,
+      "question": "Interior metal water piping must be bonded per NEC 250.104(A). The bonding jumper for this purpose must be sized based on what reference?",
+      "choices": [
+        "Table 250.102(C)(1) based on the size of the service-entrance conductors",
+        "Table 250.122 based on the rating of the largest branch circuit overcurrent device",
+        "Table 250.66 based on the size of the service-entrance conductors",
+        "Table 310.16 based on the load carried by the water heater circuit"
+      ],
+      "answer": "Table 250.102(C)(1) based on the size of the service-entrance conductors",
+      "explanation": "NEC 250.104(A): The bonding jumper(s) for interior metal water piping systems shall not be smaller than the sizes given in Table 250.102(C)(1) based on the size of the service-entrance conductors."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following conductor types is listed as an acceptable equipment grounding conductor (EGC) per NEC 250.118?",
+      "choices": [
+        "Electrical metallic tubing (EMT)",
+        "PVC conduit (Schedule 80)",
+        "Non-metallic sheathed cable (NM-B) outer jacket",
+        "Flexible nonmetallic conduit (FNMC)"
+      ],
+      "answer": "Electrical metallic tubing (EMT)",
+      "explanation": "NEC 250.118: The following are permitted as equipment grounding conductors: copper, aluminum, or copper-clad aluminum conductors; rigid metal conduit (RMC); intermediate metal conduit (IMC); electrical metallic tubing (EMT); flexible metal conduit (FMC) under conditions; liquidtight flexible metal conduit (LFMC) under conditions; armor of Type AC cable; copper sheath of MI cable; and listed EGC in cable assemblies."
+    },
+    {
+      "id": 29,
+      "question": "Per NEC 250.119, how must an equipment grounding conductor (EGC) be identified when it has insulation?",
+      "choices": [
+        "Continuous green insulation, or green with one or more yellow stripes",
+        "Continuous white or gray insulation",
+        "Continuous orange insulation or bare conductor only",
+        "Continuous blue insulation or bare conductor only"
+      ],
+      "answer": "Continuous green insulation, or green with one or more yellow stripes",
+      "explanation": "NEC 250.119: Unless required to be identified elsewhere in this Code, equipment grounding conductors shall be permitted to be bare, covered, or insulated. Individually covered or insulated equipment grounding conductors shall have a continuous outer finish that is either green or green with one or more yellow stripes."
+    },
+    {
+      "id": 30,
+      "question": "Per NEC 250.122, what is the basis for sizing an equipment grounding conductor (EGC), and when conductors are run in parallel, how must the EGC be installed?",
+      "choices": [
+        "Sized per Table 250.122 based on the rating of the overcurrent device; one EGC run in each raceway, each sized for the full OCPD rating",
+        "Sized per Table 250.66 based on service-entrance conductor size; one EGC total may serve all parallel raceways",
+        "Sized per Table 250.122 based on total load current; a single EGC run in any one of the parallel raceways",
+        "Sized per Table 310.16 based on circuit conductor ampacity; EGC may be shared across all parallel raceways"
+      ],
+      "answer": "Sized per Table 250.122 based on the rating of the overcurrent device; one EGC run in each raceway, each sized for the full OCPD rating",
+      "explanation": "NEC 250.122 and 250.122(B): Equipment grounding conductors are sized per Table 250.122 based on the rating of the overcurrent protective device. Where conductors are run in parallel in multiple raceways, the EGC shall also be run in parallel; each EGC in each raceway shall be sized in accordance with Table 250.122 based on the rating of the overcurrent device protecting the circuit conductors."
+    }
+  ]
+}
