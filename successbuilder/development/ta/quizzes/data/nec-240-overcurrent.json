@@ -1,38 +1,35 @@
 {
   "id": "nec-240-overcurrent",
-  "title": "NEC Article 240 — Overcurrent Protection",
-  "description": "Fuses, circuit breakers, conductor protection, and overcurrent device sizing per NEC 2023 Article 240. 15 questions.",
+  "title": "NEC Article 240 \u2014 Overcurrent Protection",
+  "description": "Fuses, circuit breakers, conductor protection, and overcurrent device sizing per NEC 2023 Article 240. 30 questions.",
   "questions": [
     {
       "id": 1,
-      "section": "240.4",
-      "question": "Under NEC 2023 Section 240.4, what is the general rule governing the relationship between an overcurrent protective device (OCPD) and the conductor it protects?",
+      "question": "According to NEC 240.4, what is the general rule for overcurrent protection of conductors?",
       "choices": [
-        "The OCPD rating shall not exceed the ampacity of the conductors it protects.",
-        "The OCPD rating shall be at least 125% of the conductor ampacity.",
-        "The OCPD rating shall not exceed 80% of the conductor ampacity for continuous loads only.",
-        "The OCPD rating may be any standard size that is within two sizes of the conductor ampacity."
+        "Conductors shall be protected at their rated voltage",
+        "Conductors shall be protected so that the overcurrent device rating does not exceed the conductor ampacity",
+        "Conductors shall be protected at the next-higher standard overcurrent device rating above their ampacity",
+        "Conductors shall be protected only when supplying loads over 15 amperes"
       ],
-      "answer": "The OCPD rating shall not exceed the ampacity of the conductors it protects.",
-      "explanation": "NEC 240.4 establishes the general rule that conductors must be protected against overcurrent in accordance with their ampacity — meaning the OCPD rating shall not exceed the ampacity of the conductors it protects. Specific exceptions (such as the next-higher-size rule and small-conductor limits) are addressed in 240.4(B) and 240.4(D)."
+      "answer": "Conductors shall be protected so that the overcurrent device rating does not exceed the conductor ampacity",
+      "explanation": "NEC 240.4 establishes the general rule that conductors shall be protected against overcurrent in accordance with their ampacities. The overcurrent protective device (OCPD) rating shall not exceed the ampacity of the conductor it protects, subject to the specific exceptions listed in 240.4(A) through (G)."
     },
     {
       "id": 2,
-      "section": "240.4(B)",
-      "question": "A 6 AWG copper branch circuit conductor has an ampacity of 65 amperes at its 75°C terminal rating. No standard OCPD size of 65A exists. Under NEC 2023 Section 240.4(B), which of the following correctly describes when the next higher standard OCPD size may be used?",
+      "question": "Under NEC 240.4(B), which of the following is a condition that must be met to use the next-higher standard overcurrent device rating above a conductor's ampacity?",
       "choices": [
-        "The next higher standard size is permitted provided it does not exceed 800 amperes and the conductor does not supply more than one receptacle for cord-and-plug-connected portable loads.",
-        "The next higher standard size is always permitted regardless of the load type or OCPD rating, as long as the conductor is copper.",
-        "The next higher standard size is permitted only when the conductor ampacity exactly equals a standard OCPD rating.",
-        "The next higher standard size is permitted only for feeders, never for branch circuits."
+        "The conductor must be rated for 90\u00b0C insulation",
+        "The overcurrent device rating must not exceed 800 amperes",
+        "The load must be purely resistive",
+        "The conductor must be copper only"
       ],
-      "answer": "The next higher standard size is permitted provided it does not exceed 800 amperes and the conductor does not supply more than one receptacle for cord-and-plug-connected portable loads.",
-      "explanation": "NEC 240.4(B) permits the next higher standard OCPD rating above the conductor ampacity when three conditions are all met: (1) the conductors do not supply more than one receptacle for cord-and-plug-connected portable loads, (2) the conductor ampacity does not exactly correspond to a standard OCPD size, and (3) the next higher standard size selected does not exceed 800 amperes. The 800A ceiling exists because standard OCPD size gaps above 800A become very large, creating unacceptable overprotection gaps."
+      "answer": "The overcurrent device rating must not exceed 800 amperes",
+      "explanation": "NEC 240.4(B) permits the next-higher standard overcurrent device rating (above the conductor's ampacity) only when: (1) the conductor ampacity does not correspond to a standard rating of an overcurrent device, (2) the overcurrent device rating does not exceed 800 amperes, and (3) the overcurrent device does not supply more than one receptacle for portable cord-and-plug-connected equipment."
     },
     {
       "id": 3,
-      "section": "240.4(D)",
-      "question": "Per NEC 2023 Section 240.4(D), what is the maximum OCPD rating permitted for a 12 AWG copper conductor used as a branch circuit conductor?",
+      "question": "Per NEC 240.4(D), what is the maximum overcurrent protection permitted for 12 AWG copper conductors?",
       "choices": [
         "15 amperes",
         "20 amperes",
@@ -40,163 +37,331 @@
         "30 amperes"
       ],
       "answer": "20 amperes",
-      "explanation": "NEC 240.4(D) establishes absolute maximum OCPD ratings for small conductors that cannot be exceeded regardless of the next-higher-size rule in 240.4(B): 14 AWG copper is limited to 15A, 12 AWG copper is limited to 20A, and 10 AWG copper is limited to 30A. For aluminum and copper-clad aluminum, 12 AWG is limited to 15A and 10 AWG to 25A. These limits are fixed and the 240.4(B) round-up rule does not apply."
+      "explanation": "NEC 240.4(D) establishes maximum overcurrent protection for small conductors. 12 AWG copper conductors are limited to 20 amperes, 14 AWG copper is limited to 15 amperes, and 10 AWG copper is limited to 30 amperes, regardless of the conductor's listed ampacity at higher temperature ratings."
     },
     {
       "id": 4,
-      "section": "240.6(A)",
-      "question": "According to NEC 2023 Table 240.6(A), which of the following is a correct list of consecutive standard ampere ratings for fuses and inverse time circuit breakers?",
+      "question": "Which of the following lists represents the standard ampere ratings for fuses and inverse time circuit breakers as specified in NEC 240.6(A)?",
       "choices": [
-        "15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100",
-        "15, 20, 25, 30, 40, 50, 60, 70, 80, 100, 125",
-        "15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110",
-        "15, 20, 25, 30, 35, 40, 50, 60, 70, 90, 100"
+        "10, 15, 20, 30, 40, 50, 60, 80, 100, 125, 150, 175, 200",
+        "15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 110, 125, 150, 175, 200",
+        "15, 20, 30, 40, 50, 60, 70, 80, 100, 125, 150, 175, 200",
+        "20, 25, 30, 35, 40, 50, 60, 70, 80, 100, 125, 150, 200"
       ],
-      "answer": "15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100",
-      "explanation": "NEC 240.6(A) lists the standard ampere ratings for fuses and inverse time circuit breakers as: 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 110, 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, 500, 600, 700, 800, 1000, 1200, 1600, 2000, 2500, 3000, 4000, 5000, and 6000 amperes. Note that both 35A and 45A are standard sizes and are often missed on exams. Additional fuse-only standard ratings include 1, 3, 6, 10, and 601 amperes."
+      "answer": "15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 110, 125, 150, 175, 200",
+      "explanation": "NEC 240.6(A) lists the standard ampere ratings for fuses and inverse time circuit breakers, which include: 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 110, 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, 500, 600, 700, 800, 1000, 1200, 1600, 2000, 2500, 3000, 4000, 5000, and 6000 amperes. These standard ratings govern when the next-higher rule of 240.4(B) applies."
     },
     {
       "id": 5,
-      "section": "240.10",
-      "question": "A luminaire installed in a commercial building contains an internal fuse to protect its LED driver circuitry. How does NEC 2023 Section 240.10 classify this internal fuse, and what does it require?",
+      "question": "Per NEC 240.10, which statement correctly describes supplementary overcurrent protection?",
       "choices": [
-        "It is classified as supplementary overcurrent protection; it is not a substitute for required branch-circuit overcurrent protection and does not need to be readily accessible.",
-        "It is classified as branch-circuit overcurrent protection and must be readily accessible at all times.",
-        "It is classified as a primary overcurrent device and must be rated to match the branch-circuit OCPD.",
-        "It is classified as supplementary overcurrent protection and must be rated at no more than 15 amperes."
+        "It is permitted to serve as the sole branch-circuit overcurrent protection and must be readily accessible",
+        "It is not a substitute for branch-circuit overcurrent protection and is not required to be readily accessible",
+        "It must be rated at least equal to the branch-circuit overcurrent device",
+        "It must be installed in the same enclosure as the branch-circuit overcurrent device"
       ],
-      "answer": "It is classified as supplementary overcurrent protection; it is not a substitute for required branch-circuit overcurrent protection and does not need to be readily accessible.",
-      "explanation": "NEC 240.10 states that where supplementary overcurrent protection is used for luminaires, appliances, and other equipment, or for internal circuits and components of equipment, it shall not be used as a substitute for the required branch-circuit overcurrent protection. Supplementary overcurrent devices are also not required to be readily accessible, distinguishing them from standard branch-circuit OCPDs covered by 240.24(A)."
+      "answer": "It is not a substitute for branch-circuit overcurrent protection and is not required to be readily accessible",
+      "explanation": "NEC 240.10 states that supplementary overcurrent protection (such as in luminaires, appliances, or other equipment) is not a substitute for required branch-circuit overcurrent protective devices and shall not be used as the sole overcurrent protection for branch-circuit conductors. Additionally, supplementary overcurrent protective devices are not required to be readily accessible."
     },
     {
       "id": 6,
-      "section": "240.15(A)",
-      "question": "NEC 2023 Section 240.15(A) requires that a fuse or overcurrent trip unit of a circuit breaker be connected in series with each ungrounded conductor. Which arrangement is specifically permitted as an alternative to a fuse in series with an ungrounded conductor?",
+      "question": "NEC 240.15(A) requires that a fuse or overcurrent trip unit of a circuit breaker be connected in series with each ungrounded conductor. What alternative method is specifically permitted?",
       "choices": [
-        "A current transformer (CT) with an overcurrent trip relay in lieu of a fuse.",
-        "A ground-fault circuit interrupter (GFCI) device rated for the circuit load.",
-        "A thermal cutout device rated at 125% of the continuous load.",
-        "A current-limiting reactor installed at the point of supply."
+        "A ground-fault circuit interrupter (GFCI) on each circuit",
+        "An arc-fault circuit interrupter (AFCI) on each phase",
+        "A current transformer with a trip coil relay as the overcurrent unit",
+        "A thermal cutout device installed in the load equipment"
       ],
-      "answer": "A current transformer (CT) with an overcurrent trip relay in lieu of a fuse.",
-      "explanation": "NEC 240.15(A) requires a fuse or an overcurrent trip unit of a circuit breaker to be connected in series with each ungrounded conductor. It also specifically permits using a current transformer (CT) and an overcurrent trip relay in lieu of a fuse as an equivalent means of providing overcurrent protection in series with ungrounded conductors."
+      "answer": "A current transformer with a trip coil relay as the overcurrent unit",
+      "explanation": "NEC 240.15(A) requires a fuse or overcurrent trip unit of a circuit breaker to be connected in series with each ungrounded conductor. A current transformer (CT) with a trip coil and relay is specifically permitted as an alternative overcurrent unit for providing the required protection in series with each ungrounded conductor."
     },
     {
       "id": 7,
-      "section": "240.20",
-      "question": "Per NEC 2023 Section 240.20, which conductors must be protected by an overcurrent device?",
+      "question": "According to NEC 240.20, which conductor is generally NOT required to be opened by an overcurrent device?",
       "choices": [
-        "Each ungrounded conductor must be protected by an overcurrent device.",
-        "Both grounded and ungrounded conductors must each have their own OCPD.",
-        "Only the grounded (neutral) conductor requires overcurrent protection.",
-        "Only conductors larger than 10 AWG require overcurrent protection."
+        "An ungrounded (hot) conductor in a single-phase circuit",
+        "An ungrounded (hot) conductor in a three-phase circuit",
+        "The grounded (neutral) conductor",
+        "The equipment grounding conductor"
       ],
-      "answer": "Each ungrounded conductor must be protected by an overcurrent device.",
-      "explanation": "NEC 240.20 requires overcurrent protection in each ungrounded conductor. An OCPD is generally not permitted to be connected in series with a grounded (neutral) conductor unless the device opens all conductors of the circuit simultaneously and is designed so that no pole can operate independently, or where motor overload protection under 430.36 or 430.37 requires it."
+      "answer": "The grounded (neutral) conductor",
+      "explanation": "NEC 240.20 requires that each ungrounded conductor of a circuit be protected by an overcurrent device. The grounded conductor (neutral) is generally not opened or interrupted by an overcurrent device, as interrupting the neutral while the hot conductors remain energized could create dangerous voltage imbalances and is not needed for overcurrent protection of the neutral."
     },
     {
       "id": 8,
-      "section": "240.21",
-      "question": "Under NEC 2023 Section 240.21, where must an overcurrent protective device generally be located in a circuit?",
+      "question": "NEC 240.21 requires that the overcurrent protective device be located at the point where a conductor receives its supply. What does this section also provide?",
       "choices": [
-        "At the point where the conductors receive their supply, with specific tap exceptions permitted under 240.21(A) through (H).",
-        "At the load end of every conductor run, regardless of circuit type.",
-        "At a readily accessible location within 6 feet of the panelboard, unless the circuit exceeds 200 amperes.",
-        "At the midpoint of the circuit run for feeder conductors longer than 100 feet."
+        "Exceptions that allow tap conductors to run unprotected under specific conditions listed in 240.21(A) through (H)",
+        "A requirement that all conductors be protected within 10 feet of the source",
+        "A blanket exemption for conductors over 4 AWG",
+        "Permission to omit overcurrent protection on any service conductor"
       ],
-      "answer": "At the point where the conductors receive their supply, with specific tap exceptions permitted under 240.21(A) through (H).",
-      "explanation": "NEC 240.21 requires overcurrent protective devices to be located at the point where the conductors receive their supply. This ensures all circuit current is forced through the OCPD. Exceptions are enumerated in 240.21(A) through (H), covering branch circuits, feeder taps, transformer secondary conductors, service conductors, busway taps, motor circuits, generator output conductors, and solar photovoltaic system output circuits. Importantly, a conductor supplied under any of these exceptions cannot in turn supply another conductor except through a properly rated OCPD (the 'you can't tap a tap' principle)."
+      "answer": "Exceptions that allow tap conductors to run unprotected under specific conditions listed in 240.21(A) through (H)",
+      "explanation": "NEC 240.21 states that overcurrent protection shall be provided at the point where a conductor receives its supply. However, it also provides specific tap conductor exceptions in 240.21(A) through (H) that allow conductors to run without overcurrent protection at their supply end under defined conditions (such as the 10-foot tap, 25-foot tap, and outdoor tap rules), so long as prescribed sizing and termination requirements are met."
     },
     {
       "id": 9,
-      "section": "240.21(B)(1)",
-      "question": "An electrician wants to make an indoor feeder tap from a feeder protected by a 400-ampere OCPD. The tap conductors will be 8 feet long and terminate in a single circuit breaker. Per NEC 2023 Section 240.21(B)(1), what is the minimum ampacity the tap conductors must have?",
+      "question": "Under the 10-foot indoor tap rule in NEC 240.21(B)(1), the tap conductor ampacity must be at least what fraction of the rating of the overcurrent device protecting the feeder?",
       "choices": [
-        "At least 40 amperes (one-tenth of 400A) or the ampacity required for the load served, whichever is greater.",
-        "At least 133 amperes (one-third of 400A), and they must be installed in a raceway.",
-        "At least 200 amperes (one-half of 400A) to provide adequate short-circuit protection.",
-        "At least 400 amperes, matching the upstream feeder OCPD rating."
+        "1/3 of the feeder OCPD rating",
+        "1/4 of the feeder OCPD rating",
+        "1/10 of the feeder OCPD rating",
+        "Equal to the feeder OCPD rating"
       ],
-      "answer": "At least 40 amperes (one-tenth of 400A) or the ampacity required for the load served, whichever is greater.",
-      "explanation": "NEC 240.21(B)(1) covers indoor feeder taps not exceeding 10 feet. The tap conductors must have an ampacity of not less than the combined calculated loads and not less than the rating of the device (OCPD or equipment) supplied by the tap — but at minimum, the ampacity must be at least one-tenth (1/10) of the rating of the overcurrent device protecting the feeder conductors. For a 400A feeder OCPD, this yields a minimum of 40A. The conductors must also terminate in a single OCPD, be protected from physical damage (e.g., installed in a raceway), and the 240.4(B) round-up rule is prohibited for tap conductors."
+      "answer": "1/10 of the feeder OCPD rating",
+      "explanation": "NEC 240.21(B)(1) permits a 10-foot indoor tap provided the tap conductor has an ampacity of at least 1/10 (one-tenth) the rating of the overcurrent device protecting the feeder conductors, the tap terminates in a single circuit breaker or set of fuses that will limit the load, the tap is not over 10 feet long, and it is in a raceway or protected from physical damage."
     },
     {
       "id": 10,
-      "section": "240.21(B)(2)",
-      "question": "A 25-foot indoor feeder tap is made from a feeder protected by a 600-ampere overcurrent device. Per NEC 2023 Section 240.21(B)(2), what is the minimum ampacity the tap conductors must have, and how must they terminate?",
+      "question": "Under the 25-foot indoor tap rule of NEC 240.21(B)(2), what is the minimum required ampacity of the tap conductor relative to the feeder OCPD?",
       "choices": [
-        "At least 200 amperes (one-third of 600A); they must terminate in a single circuit breaker or set of fuses rated no higher than the tap conductor's ampacity.",
-        "At least 60 amperes (one-tenth of 600A); they must terminate in a single circuit breaker or set of fuses.",
-        "At least 300 amperes (one-half of 600A); they may terminate in a panelboard with multiple branch circuit breakers.",
-        "At least 400 amperes (two-thirds of 600A); they must terminate in a single OCPD rated to match the feeder."
+        "At least 1/10 of the feeder OCPD rating",
+        "At least 1/3 of the feeder OCPD rating",
+        "At least 1/2 of the feeder OCPD rating",
+        "Equal to or greater than the feeder OCPD rating"
       ],
-      "answer": "At least 200 amperes (one-third of 600A); they must terminate in a single circuit breaker or set of fuses rated no higher than the tap conductor's ampacity.",
-      "explanation": "NEC 240.21(B)(2) permits feeder tap conductors not exceeding 25 feet under these conditions: (1) the tap conductor ampacity must be not less than one-third (1/3) the rating of the overcurrent device protecting the feeder — for a 600A feeder, that is 200A minimum; (2) the tap conductors must terminate in a single circuit breaker or a single set of fuses rated no higher than the tap conductor's ampacity; (3) the tap conductors must be protected from physical damage by being enclosed in a raceway. Unlike the 10-foot tap, the 1/3 calculation is based on the feeder's OCPD rating, not the feeder conductor ampacity."
+      "answer": "At least 1/3 of the feeder OCPD rating",
+      "explanation": "NEC 240.21(B)(2) permits a tap conductor no more than 25 feet long provided the tap conductor ampacity is not less than 1/3 of the rating of the overcurrent device protecting the feeder, the tap conductor terminates in a single circuit breaker or set of fuses rated at or below the tap conductor ampacity, and the tap conductor is protected from physical damage and installed in a raceway."
     },
     {
       "id": 11,
-      "section": "240.24(A)",
-      "question": "NEC 2023 Section 240.24(A) requires overcurrent protective devices to be readily accessible. Which of the following installation scenarios violates this requirement?",
+      "question": "Per NEC 240.24(A), overcurrent protective devices must be readily accessible. What is the maximum height for the center of the operating handle of an overcurrent device in its highest position?",
       "choices": [
-        "A panelboard installed in a utility room that requires moving stored boxes to reach the breaker handles.",
-        "A panelboard installed in an electrical room that is kept locked but accessible to qualified persons with a key.",
-        "A circuit breaker installed in a surface-mounted enclosure at 5 feet above the finished floor.",
-        "A fusible disconnect installed on the exterior wall of a commercial building behind a hinged cover."
+        "5 feet 6 inches above the floor or working platform",
+        "6 feet above the floor or working platform",
+        "6 feet 7 inches above the floor or working platform",
+        "7 feet above the floor or working platform"
       ],
-      "answer": "A panelboard installed in a utility room that requires moving stored boxes to reach the breaker handles.",
-      "explanation": "NEC 240.24(A) requires that overcurrent devices be readily accessible, meaning capable of being reached quickly for operation, renewal, or inspection without requiring a ladder or the removal of obstacles. A panelboard blocked by stored items is not readily accessible because obstacles must be removed to reach it. A locked electrical room accessible to qualified persons with a key is generally considered readily accessible. Note that 240.24(A) also limits the height of the highest overcurrent device handle to not more than 2.0 m (6 ft 7 in.) above the floor or working platform."
+      "answer": "6 feet 7 inches above the floor or working platform",
+      "explanation": "NEC 240.24(A) requires that overcurrent devices be readily accessible, and specifically states that the center of the grip of the operating handle of the circuit breaker or switch, when in its highest position, shall not be more than 6 feet 7 inches (2.0 m) above the floor or working platform. A panel blocked by storage would also violate the readily accessible requirement."
     },
     {
       "id": 12,
-      "section": "240.24(F)",
-      "question": "A contractor is planning to install a panelboard in a stairwell so it is centrally located for both floors. Per NEC 2023 Section 240.24(F), which of the following is true?",
+      "question": "NEC 240.24(F) prohibits overcurrent protective devices from being located in which specific area?",
       "choices": [
-        "Overcurrent devices shall not be located over steps of a stairway.",
-        "Overcurrent devices may be located over steps if the panel handle height does not exceed 5 feet above any step.",
-        "Overcurrent devices are permitted over steps only if they are supplementary overcurrent devices.",
-        "Overcurrent devices may be located over steps provided a permanent platform is installed in front of the panel."
+        "In attached garages",
+        "Over the steps of a stairway",
+        "In unfinished basements",
+        "In outdoor weatherproof enclosures"
       ],
-      "answer": "Overcurrent devices shall not be located over steps of a stairway.",
-      "explanation": "NEC 240.24(F) flatly prohibits locating overcurrent devices over steps of a stairway. This is a safety rule: operating or resetting a breaker while standing on steps creates a fall hazard. The prohibition applies to standard overcurrent protective devices; supplementary overcurrent protection (addressed separately in 240.10) has different accessibility requirements, but the over-steps rule in 240.24(F) applies to required OCPDs."
+      "answer": "Over the steps of a stairway",
+      "explanation": "NEC 240.24(F) specifically prohibits overcurrent protective devices from being located in the vicinity of easily ignitable material, and additionally states they shall not be located over the steps of a stairway. This provision prevents a person from having to stand on stairs (an unstable, hazardous position) to operate a panel or reset a breaker."
     },
     {
       "id": 13,
-      "section": "240.50–240.60",
-      "question": "Per NEC 2023 Sections 240.51 and 240.54, regarding Edison-base plug fuses and Type S fuses, which statement is correct?",
+      "question": "Per NEC 240.51 and 240.54, which statement correctly describes the use of Edison-base fuses?",
       "choices": [
-        "Edison-base plug fuses are permitted only as replacements in existing installations where there is no evidence of overfusing or tampering; Type S adapters installed in Edison-base fuseholders cannot be removed once inserted.",
-        "Edison-base plug fuses may be used in new installations provided the circuit does not exceed 30 amperes and 125 volts.",
-        "Type S fuses are fully interchangeable with Edison-base fuses of the same ampere rating without adapters.",
-        "Edison-base fuseholders may accept Type S fuses of a higher ampere rating in an emergency, provided the conductor is properly derated."
+        "Edison-base fuses may be installed in new installations where listed for the purpose",
+        "Edison-base fuses are for replacement only in existing fuseholders and shall not be used in new installations; Type S adapters are non-removable once installed",
+        "Edison-base fuses can be replaced with Type S fuses only when the load exceeds 30 amperes",
+        "Edison-base fuses must be replaced with cartridge fuses in all occupancies after 2011"
       ],
-      "answer": "Edison-base plug fuses are permitted only as replacements in existing installations where there is no evidence of overfusing or tampering; Type S adapters installed in Edison-base fuseholders cannot be removed once inserted.",
-      "explanation": "NEC 240.51(B) restricts Edison-base plug fuses to replacement use only in existing installations where there is no evidence of overfusing or tampering — they are not permitted in new installations. NEC 240.54 requires that Edison-base fuseholders be made to accept Type S fuses through the use of non-removable adapters. Once inserted, Type S adapters cannot be removed (240.54(C)), preventing overfusing by making it impossible to install a higher-rated fuse. Plug fuses are classified at not more than 125 volts and 30 amperes per 240.50(A)."
+      "answer": "Edison-base fuses are for replacement only in existing fuseholders and shall not be used in new installations; Type S adapters are non-removable once installed",
+      "explanation": "NEC 240.51 limits Edison-base fuseholders to replacement of existing fuseholders and prohibits them from being installed in new installations. NEC 240.54 requires Type S fuses, adapters, and fuseholders \u2014 and specifies that Type S adapters, once inserted into an Edison-base fuseholder, are non-removable, preventing the substitution of an oversized fuse that could defeat overcurrent protection."
     },
     {
       "id": 14,
-      "section": "240.80",
-      "question": "Per NEC 2023 Section 240.80, what indication must a circuit breaker provide regarding its operational status?",
+      "question": "According to NEC 240.80, what must a circuit breaker clearly indicate?",
       "choices": [
-        "The circuit breaker must clearly indicate whether it is in the open (off), closed (on), or tripped position.",
-        "The circuit breaker must only indicate whether the circuit is energized or de-energized via a built-in pilot light.",
-        "The circuit breaker must display the amount of current flowing through the circuit on a digital readout.",
-        "The circuit breaker must provide an audible alarm when it trips to an open position."
+        "The date of manufacture and interrupting rating",
+        "The open (off), closed (on), and tripped positions of the operating handle",
+        "The voltage rating and current rating on the face of the device",
+        "The wire gauge range and torque specification for terminals"
       ],
-      "answer": "The circuit breaker must clearly indicate whether it is in the open (off), closed (on), or tripped position.",
-      "explanation": "NEC 240.80 (Method of Operation) requires circuit breakers to be capable of being operated manually and to clearly indicate whether the breaker is in the open (off), closed (on), or tripped position. This three-state indication is critical for safe operation and troubleshooting — a tripped breaker must be visually distinguishable from a breaker that has been manually opened, so workers can identify fault conditions. Circuit breakers may also include shunt trips or remote operators in addition to manual operation."
+      "answer": "The open (off), closed (on), and tripped positions of the operating handle",
+      "explanation": "NEC 240.80 requires that circuit breaker operating handles clearly indicate whether they are in the open (off), closed (on), or tripped position. This allows a person to quickly determine the status of a circuit breaker without having to test the circuit, which is important for both normal operation and safety during electrical emergencies."
     },
     {
       "id": 15,
-      "section": "240.85",
-      "question": "NEC 2023 Section 240.85 permits circuit breakers to be applied in series-rated combinations. Which of the following correctly describes a key requirement for using a series-rated system?",
+      "question": "NEC 240.85 covers series-rated systems. Which of the following statements best describes the field-marking requirement for a series-rated system?",
       "choices": [
-        "The series combination must be tested and listed; the equipment must be field-marked with a caution label stating the series combination rating in amperes and that identified replacement components are required.",
-        "Any circuit breaker may be used in a series combination as long as the upstream OCPD has an AIC rating at least twice that of the downstream breaker.",
-        "Series-rated systems require no special labeling provided the upstream device has a higher AIC rating than the available fault current.",
-        "Series ratings are only permitted in existing installations selected by a licensed electrical engineer and are prohibited in new construction."
+        "No field marking is required if the equipment was listed by a nationally recognized testing laboratory",
+        "The equipment must be marked with a caution label indicating the series combination rating and requiring identified replacement components",
+        "The series rating must only be marked on the upstream overcurrent device",
+        "Series-rated equipment must be marked with the voltage class and short-circuit current rating only"
       ],
-      "answer": "The series combination must be tested and listed; the equipment must be field-marked with a caution label stating the series combination rating in amperes and that identified replacement components are required.",
-      "explanation": "NEC 240.85 permits circuit breakers to be used in series-rated combinations where the downstream breaker's individual AIC rating is lower than the available fault current, provided the specific combination has been tested and listed. Per NEC 110.22(C), equipment enclosures containing OCPDs used in a series combination must be legibly field-marked with: 'CAUTION — SERIES COMBINATION SYSTEM RATED ___ AMPERES. IDENTIFIED REPLACEMENT COMPONENTS REQUIRED.' This label alerts maintenance personnel that only specific replacement OCPDs may be used to maintain the tested series rating. The series combination rating cannot exceed the AIC rating of the upstream device."
+      "answer": "The equipment must be marked with a caution label indicating the series combination rating and requiring identified replacement components",
+      "explanation": "NEC 240.85 requires that series-rated systems be tested and listed, and that the electrical equipment be legibly marked in the field with a caution label that includes the series combination rating and states that identified replacement components are required. This ensures that any future maintenance or replacement does not inadvertently compromise the tested series rating of the system."
+    },
+    {
+      "id": 16,
+      "question": "NEC 240.4(E) states that tap conductors shall be protected against overcurrent in accordance with which section?",
+      "choices": [
+        "NEC 240.4(B) \u2014 next-higher standard rating rule",
+        "NEC 240.21 \u2014 overcurrent protection at the point where the tap conductor receives its supply",
+        "NEC 240.6(A) \u2014 standard ampere ratings only",
+        "NEC 240.15(A) \u2014 series protection in each ungrounded conductor"
+      ],
+      "answer": "NEC 240.21 \u2014 overcurrent protection at the point where the tap conductor receives its supply",
+      "explanation": "NEC 240.4(E) directs that tap conductors shall be protected in accordance with NEC 240.21. Rather than requiring an overcurrent device at the supply end of every tap conductor, 240.21 provides specific conditions under which tap conductors (10-ft, 25-ft, outside, feeder taps, transformer secondary taps, etc.) may run without an OCPD at their point of supply, provided the tap meets the prescribed length, ampacity, and termination requirements."
+    },
+    {
+      "id": 17,
+      "question": "NEC 240.4(G) states that overcurrent protection for motor-circuit conductors shall be provided as specified in which NEC article?",
+      "choices": [
+        "Article 215 \u2014 Feeders",
+        "Article 310 \u2014 Conductors for General Wiring",
+        "Article 430 \u2014 Motors, Motor Circuits, and Controllers",
+        "Article 445 \u2014 Generators"
+      ],
+      "answer": "Article 430 \u2014 Motors, Motor Circuits, and Controllers",
+      "explanation": "NEC 240.4(G) refers motor-circuit conductor protection to Article 430. Motor circuits are unique because motors have high inrush currents during starting that would trip a standard overcurrent device sized to the conductor ampacity. Article 430 provides specific rules for motor branch-circuit short-circuit and ground-fault protection, motor overload protection, and feeder protection that differ from the general rules in 240.4."
+    },
+    {
+      "id": 18,
+      "question": "Under NEC 240.6(B), when are fuses with non-standard ampere ratings permitted?",
+      "choices": [
+        "Only for motor circuits rated over 100 horsepower",
+        "When the non-standard rating is a manufacturer's standard rating recognized by the listing or labeling of the equipment",
+        "Only for fuses used as supplementary overcurrent protection inside equipment",
+        "When the authority having jurisdiction (AHJ) grants written approval"
+      ],
+      "answer": "When the non-standard rating is a manufacturer's standard rating recognized by the listing or labeling of the equipment",
+      "explanation": "NEC 240.6(B) permits the use of fuses with non-standard ampere ratings where such ratings are recognized as manufacturer's standard ratings and the fuse is listed or labeled for use in a specific piece of equipment. This allows equipment manufacturers to incorporate fuses with intermediate ratings (e.g., 22A or 35A) that are specifically designed and listed for the equipment's protection requirements."
+    },
+    {
+      "id": 19,
+      "question": "Per NEC 240.15(B), in a single-phase, line-to-line load connected to a three-phase system using only two of the three phases, what overcurrent protection is required?",
+      "choices": [
+        "A two-pole overcurrent device protecting both ungrounded conductors supplying the load",
+        "A single-pole overcurrent device on one ungrounded conductor only",
+        "A three-pole overcurrent device sized for all three phases",
+        "No overcurrent device is required if the load is less than 600V"
+      ],
+      "answer": "A two-pole overcurrent device protecting both ungrounded conductors supplying the load",
+      "explanation": "NEC 240.15(B) requires that where a single-phase load is connected line-to-line on a three-phase system, a two-pole overcurrent device shall be used to protect both of the ungrounded conductors supplying that load. This ensures that a fault in either ungrounded conductor is interrupted, and both poles open simultaneously to de-energize the load."
+    },
+    {
+      "id": 20,
+      "question": "Under the outdoor tap rule of NEC 240.21(B)(3), which of the following is a key requirement for outside tap conductors?",
+      "choices": [
+        "The outdoor tap must not exceed 25 feet in length",
+        "There is no specified length limit, but the tap must terminate in a single overcurrent device rated at or below the tap conductor ampacity",
+        "The outdoor tap must have an ampacity of at least 1/3 of the feeder OCPD rating",
+        "The outdoor tap must be installed in rigid metal conduit only"
+      ],
+      "answer": "There is no specified length limit, but the tap must terminate in a single overcurrent device rated at or below the tap conductor ampacity",
+      "explanation": "NEC 240.21(B)(3) allows outside tap conductors (exposed to outdoor weather) to be of unlimited length, provided the conductors are protected from physical damage, terminate in a single circuit breaker or set of fuses with a rating no greater than the tap conductor ampacity, and are not over 100 feet in length (for high-bay warehouse industrial applications this may differ; the general rule for outdoor taps is no specified maximum length as long as requirements are met). The key distinction from indoor taps is the absence of a strict length cap, with the termination in a single OCPD being the critical requirement."
+    },
+    {
+      "id": 21,
+      "question": "NEC 240.21(C) addresses transformer secondary conductors. Under the 10-foot secondary tap rule of NEC 240.21(C)(1), what is the minimum required ampacity of the secondary conductor?",
+      "choices": [
+        "At least 1/10 of the primary overcurrent device rating reflected through the transformer turns ratio",
+        "At least equal to the combined computed load of all circuits supplied by the secondary conductors, and the secondary conductors must terminate in a single set of overcurrent devices rated at or below their ampacity",
+        "At least 1/3 of the secondary transformer rating",
+        "At least equal to the primary conductor ampacity multiplied by the transformer turns ratio"
+      ],
+      "answer": "At least equal to the combined computed load of all circuits supplied by the secondary conductors, and the secondary conductors must terminate in a single set of overcurrent devices rated at or below their ampacity",
+      "explanation": "NEC 240.21(C)(1) permits transformer secondary conductors of up to 10 feet in length without an overcurrent device at the secondary terminals provided: (1) the secondary conductors have an ampacity that, when multiplied by the ratio of secondary-to-primary voltage, is at least 1/10 of the primary overcurrent device rating; (2) the secondary conductors terminate in a single set of overcurrent devices rated at or below the secondary conductor ampacity; and (3) the conductors are protected from physical damage."
+    },
+    {
+      "id": 22,
+      "question": "Per NEC 240.21(D), how are service-entrance conductors protected against overcurrent?",
+      "choices": [
+        "By an overcurrent device located at the utility transformer",
+        "By service equipment (the main service disconnect or main breaker) at the service entrance point",
+        "By an overcurrent device installed at the meter socket",
+        "Service conductors do not require overcurrent protection"
+      ],
+      "answer": "By service equipment (the main service disconnect or main breaker) at the service entrance point",
+      "explanation": "NEC 240.21(D) states that service conductors shall be protected by an overcurrent device at the point where they enter the building or structure \u2014 that is, by the service equipment (main service disconnect or main breaker panel). Because no standard overcurrent device is placed between the utility and the service equipment, the service equipment itself provides the overcurrent protection for the service-entrance conductors."
+    },
+    {
+      "id": 23,
+      "question": "NEC 240.24(B) prohibits the installation of overcurrent protective devices in which type of room or area?",
+      "choices": [
+        "Laundry rooms in dwellings",
+        "Bathrooms",
+        "Mechanical equipment rooms",
+        "Attached garages"
+      ],
+      "answer": "Bathrooms",
+      "explanation": "NEC 240.24(B) prohibits overcurrent protective devices from being located in bathrooms of dwelling units, dormitories, hotels, or motels. This prohibition exists because bathrooms contain plumbing and water sources that create increased shock hazards, and the confined space makes it impractical and dangerous to operate electrical panels in such an environment."
+    },
+    {
+      "id": 24,
+      "question": "According to NEC 240.24(C), overcurrent protective devices shall not be located in which area of a dwelling?",
+      "choices": [
+        "Attached garages",
+        "Hallways less than 3 feet wide",
+        "Clothes closets",
+        "Attics without permanent lighting"
+      ],
+      "answer": "Clothes closets",
+      "explanation": "NEC 240.24(C) prohibits overcurrent protective devices from being installed in the area of clothes closets. This restriction prevents the hazard of electrical equipment being located near flammable clothing and fabrics, reducing fire risk in an area where a panel fault or arc could easily ignite stored materials."
+    },
+    {
+      "id": 25,
+      "question": "NEC 240.24(D) addresses overcurrent protective devices where they may be exposed to physical damage. What does this section require?",
+      "choices": [
+        "OCPDs shall be installed in GFCI-protected enclosures when exposed to physical damage",
+        "OCPDs shall not be located where they are exposed to physical damage",
+        "OCPDs in areas of physical damage must be rated for 125% of the design load",
+        "OCPDs must be installed behind a locked cover when exposed to physical damage"
+      ],
+      "answer": "OCPDs shall not be located where they are exposed to physical damage",
+      "explanation": "NEC 240.24(D) requires that overcurrent protective devices not be located where they could be exposed to physical damage. Installing a panel in an area subject to impacts, vehicular traffic, or other physical hazards could damage the enclosure and the protective devices, defeating their purpose and creating safety hazards. Protected locations or equipment rated for physical damage must be selected instead."
+    },
+    {
+      "id": 26,
+      "question": "Per NEC 240.24(E), in a multi-unit dwelling, where must the overcurrent protective device for each dwelling unit be located?",
+      "choices": [
+        "In a central electrical room accessible to building maintenance personnel only",
+        "In each dwelling unit or in a location accessible only to the occupant of that dwelling unit",
+        "In the basement or utility room shared by all tenants",
+        "At the main service entrance for all units"
+      ],
+      "answer": "In each dwelling unit or in a location accessible only to the occupant of that dwelling unit",
+      "explanation": "NEC 240.24(E) requires that in a multi-unit dwelling, the overcurrent protective devices protecting the conductors for each individual dwelling unit shall be located within the dwelling unit or in a location accessible to the occupant of that unit only. This ensures that each occupant can control and reset their own overcurrent devices without depending on others or building staff, and prevents one tenant from accessing another's electrical panel."
+    },
+    {
+      "id": 27,
+      "question": "NEC 240.33 addresses overcurrent protective devices in damp and wet locations. What is the requirement?",
+      "choices": [
+        "OCPDs may be installed in damp locations only if rated GFCI-protected",
+        "OCPDs in damp or wet locations shall be in enclosures identified as suitable for the location",
+        "OCPDs shall not be installed in any damp or wet location",
+        "OCPDs in wet locations must be enclosed in liquidtight flexible conduit"
+      ],
+      "answer": "OCPDs in damp or wet locations shall be in enclosures identified as suitable for the location",
+      "explanation": "NEC 240.33 requires that when overcurrent protective devices are installed in damp or wet locations, they shall be in enclosures identified (listed and labeled) as suitable for the prevailing conditions. This means using NEMA 3R, 4, 4X, or other appropriately rated weatherproof or raintight enclosures to prevent moisture from compromising the OCPD and creating shock or fire hazards."
+    },
+    {
+      "id": 28,
+      "question": "NEC 240.40 addresses the interrupting rating of overcurrent devices. What does this section require?",
+      "choices": [
+        "OCPDs must have an interrupting rating not less than the nominal voltage of the circuit",
+        "OCPDs must have an interrupting rating equal to or greater than the maximum available fault current at their line terminals",
+        "OCPDs must have an interrupting rating of at least 10,000 amperes for all installations",
+        "OCPDs must be replaced when the available fault current exceeds 22,000 amperes"
+      ],
+      "answer": "OCPDs must have an interrupting rating equal to or greater than the maximum available fault current at their line terminals",
+      "explanation": "NEC 240.40 requires that overcurrent protective devices be rated for the available fault current at their line terminals. The interrupting rating of the OCPD must be equal to or greater than the maximum available short-circuit current at the point of installation. An OCPD that attempts to interrupt a fault current exceeding its interrupting rating can fail catastrophically, causing fires, explosions, and serious injury."
+    },
+    {
+      "id": 29,
+      "question": "Per NEC 240.60(A), cartridge fuses and fuseholders shall be classified according to voltage and ampere ratings. What additional feature is required for current-limiting fuses to prevent incorrect installation?",
+      "choices": [
+        "Color-coded fuse body that matches the fuseholder",
+        "Rejection features (non-interchangeable design) that prevent the installation of a non-current-limiting fuse",
+        "A tamper-resistant screw on the fuseholder cap",
+        "A label stating the maximum available fault current"
+      ],
+      "answer": "Rejection features (non-interchangeable design) that prevent the installation of a non-current-limiting fuse",
+      "explanation": "NEC 240.60(A) establishes that cartridge fuses and fuseholders shall have voltage and ampere ratings, and that Class CC, G, J, L, R, and T current-limiting fuses require rejection features. These non-interchangeable designs ensure that a non-current-limiting fuse cannot be installed in a fuseholder designed for a current-limiting fuse, preventing dangerous substitutions that could compromise the system's short-circuit protection."
+    },
+    {
+      "id": 30,
+      "question": "NEC 240.60(D) addresses fuseholders for current-limiting fuses. What is the key requirement for fuseholders used with current-limiting fuses?",
+      "choices": [
+        "Fuseholders shall be rated for at least twice the ampere rating of the fuse they hold",
+        "Fuseholders must be rated for at least the fuse's ampere and voltage rating, and must incorporate rejection features that prevent installation of a non-current-limiting fuse",
+        "Fuseholders for current-limiting fuses must be UL-listed for outdoor use",
+        "Fuseholders must include an integral fuse-blown indicator light"
+      ],
+      "answer": "Fuseholders must be rated for at least the fuse's ampere and voltage rating, and must incorporate rejection features that prevent installation of a non-current-limiting fuse",
+      "explanation": "NEC 240.60(D) requires that fuseholders for current-limiting fuses have a rejection feature that makes it physically impossible to install a non-current-limiting fuse of the same ampere rating. This rejection feature protects the system integrity: current-limiting fuses are installed specifically to limit let-through energy during faults, and allowing a non-current-limiting fuse to be substituted would remove that protection."
     }
   ]
 }
