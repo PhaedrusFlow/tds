@@ -1,0 +1,187 @@
+{
+  "id": "wa-wac-296-46b",
+  "title": "WA WAC 296-46B — Electrical Construction Rules",
+  "description": "Washington State electrical construction and administrative rules under WAC 296-46B. 15 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does WAC 296-46B govern, and what agency administers it?",
+      "choices": [
+        "Building construction safety codes for residential structures, administered by the Washington State Building Code Council",
+        "Electrical safety standards, administration, and installation in Washington State, administered by the Department of Labor and Industries (L&I)",
+        "Utility transmission line standards for investor-owned utilities, administered by the Utilities and Transportation Commission",
+        "National electrical standards for commercial buildings, administered by the National Fire Protection Association"
+      ],
+      "answer": "Electrical safety standards, administration, and installation in Washington State, administered by the Department of Labor and Industries (L&I)",
+      "explanation": "WAC 296-46B — titled 'Electrical safety standards, administration and installation' — establishes Washington State's electrical installation requirements, licensing rules, inspection procedures, and enforcement authority, all administered by the Department of Labor and Industries. Source: WAC 296-46B-010"
+    },
+    {
+      "id": 2,
+      "question": "Which edition of the National Electrical Code (NEC) has Washington State adopted in WAC 296-46B-010, and what controls when there is a conflict between WAC 296-46B and the NEC?",
+      "choices": [
+        "The 2020 NEC is adopted; the NEC always controls in the event of a conflict",
+        "The 2023 NEC (NFPA 70-2023) is adopted by reference; WAC 296-46B controls when there is a conflict between the chapter and the NEC",
+        "The 2017 NEC is adopted; conflicts are resolved by the local authority having jurisdiction",
+        "The 2023 NEC is adopted; the NEC controls over WAC 296-46B in all circumstances"
+      ],
+      "answer": "The 2023 NEC (NFPA 70-2023) is adopted by reference; WAC 296-46B controls when there is a conflict between the chapter and the NEC",
+      "explanation": "WAC 296-46B-010 adopts the 2023 edition of the National Electrical Code (NFPA 70-2023), including Annexes A, B, and C, by reference. The section explicitly states that WAC 296-46B will be followed where there is any conflict between the chapter and the NEC. (The 2026 NEC will replace the 2023 edition effective December 31, 2026.) Source: WAC 296-46B-010"
+    },
+    {
+      "id": 3,
+      "question": "Under WAC 296-46B-901, when must an electrical work permit be obtained relative to when work begins?",
+      "choices": [
+        "Within 30 days after the work is completed and passes final inspection",
+        "Prior to beginning any electrical work, and posted at the job site before work starts — except that for owner emergency like-in-kind repairs, the permit must be obtained no later than the next business day after work begins",
+        "At any time during construction, as long as the permit is in hand before requesting final inspection",
+        "Only after the rough-in is complete and ready for inspection"
+      ],
+      "answer": "Prior to beginning any electrical work, and posted at the job site before work starts — except that for owner emergency like-in-kind repairs, the permit must be obtained no later than the next business day after work begins",
+      "explanation": "WAC 296-46B-901 requires the electrical work permit to be obtained and posted at the job site prior to beginning any electrical work. The only exception allowing work to begin before obtaining the permit is owner emergency like-in-kind repairs, where the permit must be obtained no later than the next business day after work begins. Source: WAC 296-46B-901"
+    },
+    {
+      "id": 4,
+      "question": "Under WAC 296-46B-901, a telecommunications system installation on the customer side of the network demarcation point requires a permit and inspection when it exceeds how many outlets?",
+      "choices": [
+        "Any number of outlets — all telecommunications installations require a permit regardless of size",
+        "25 or more outlets in a single work area",
+        "More than 10 telecommunications outlets; all backbone installations require a permit regardless of size",
+        "50 or more outlets, unless the building has an annual telecommunications permit"
+      ],
+      "answer": "More than 10 telecommunications outlets; all backbone installations require a permit regardless of size",
+      "explanation": "WAC 296-46B-901 states that an electrical work permit is required for all installations of telecommunications systems on the customer side of the network demarcation point for projects greater than ten telecommunications outlets. All backbone installations — regardless of size — and all telecommunications installations involving penetrations of fire barriers or hazardous locations also require permits and inspections. Source: WAC 296-46B-901"
+    },
+    {
+      "id": 5,
+      "question": "Under WAC 296-46B-901, when must a request for inspection be made after an electrical or telecommunications installation is completed?",
+      "choices": [
+        "Within 30 calendar days of permit issuance",
+        "No later than three working days after the installation is completed, or one working day after any part of the installation has been energized, whichever occurs first",
+        "At the contractor's convenience before the permit expires",
+        "Within 10 business days of completing the rough-in phase"
+      ],
+      "answer": "No later than three working days after the installation is completed, or one working day after any part of the installation has been energized, whichever occurs first",
+      "explanation": "WAC 296-46B-901 specifies that inspection requests must be made no later than three working days after an entity completes its electrical or telecommunications installation, or one working day after any part of the installation has been energized, whichever occurs first. Source: WAC 296-46B-901"
+    },
+    {
+      "id": 6,
+      "question": "Under WAC 296-46B-901, what must happen if an electrical installation is found not in compliance following an inspection?",
+      "choices": [
+        "The contractor must obtain a new permit and restart the inspection process from the beginning",
+        "Corrections must be made within 15 calendar days of notification by the department",
+        "The installation must be removed and reinstalled within 30 days, or a variance must be obtained",
+        "The authority having jurisdiction may grant up to 90 days for corrections before assessing penalties"
+      ],
+      "answer": "Corrections must be made within 15 calendar days of notification by the department",
+      "explanation": "WAC 296-46B-901 states that electrical installations found not in compliance with approved standards must be corrected within fifteen calendar days of notification by the department. Failure to correct within this period is itself a violation subject to civil penalties under WAC 296-46B-915. Source: WAC 296-46B-901"
+    },
+    {
+      "id": 7,
+      "question": "WAC 296-46B-110 and WAC 296-46B-010 establish Washington's relationship to the NEC. Where can Washington-specific amendments to NEC Article 250 (Grounding and Bonding) be found in WAC 296-46B?",
+      "choices": [
+        "WAC 296-46B-110 — General requirements for electrical installations",
+        "WAC 296-46B-250 — Grounding and bonding",
+        "WAC 296-46B-010 — General (scope section only)",
+        "WAC 296-46B-300 — General requirements for wiring methods and materials"
+      ],
+      "answer": "WAC 296-46B-250 — Grounding and bonding",
+      "explanation": "Washington-specific amendments to NEC Article 250 are codified in WAC 296-46B-250, which mirrors the NEC article numbering. Key Washington amendments include: mandatory concrete-encased grounding electrodes at new buildings on permanent concrete foundations (amending NEC 250.52); specific rod/pipe/plate electrode spacing requirements; and provisions for separately derived systems with multiple enclosures (amending NEC 250.28(D)(3)). Source: WAC 296-46B-250"
+    },
+    {
+      "id": 8,
+      "question": "Under WAC 296-46B-925, which of the following is required for a telecommunications contractor's license in Washington State?",
+      "choices": [
+        "A surety bond of at least $6,000 and general liability insurance with no minimum specified",
+        "An original certificate of insurance naming L&I as certificate holder, with coverage of at least $20,000 property damage, $50,000 per-person injury/death, and $100,000 multi-person injury/death",
+        "Proof of a valid electrical contractor's license and a $10,000 performance bond",
+        "A Washington State business license and proof of four years of telecommunications installation experience by the owner"
+      ],
+      "answer": "An original certificate of insurance naming L&I as certificate holder, with coverage of at least $20,000 property damage, $50,000 per-person injury/death, and $100,000 multi-person injury/death",
+      "explanation": "WAC 296-46B-925 requires that to obtain a telecommunications contractor's license, the applicant must provide L&I with an original certificate of insurance naming the Department of Labor and Industries, electrical section, as certificate holder, with minimum coverage of: $20,000 for injury or damages to property; $50,000 for injury or damage including death to any one person; and $100,000 for injury or damage including death to more than one person. Source: WAC 296-46B-925"
+    },
+    {
+      "id": 9,
+      "question": "Under WAC 296-46B-925, what type of administrator must be assigned to a telecommunications contractor's license?",
+      "choices": [
+        "Any certified journey level (01) electrician with at least two years of telecommunications experience",
+        "A certified master electrician who also holds a limited energy specialty certificate",
+        "A certified telecommunications administrator — a telecommunications contractor cannot be assigned a general electrical administrator",
+        "An administrator holding a combination electrical and telecommunications certificate"
+      ],
+      "answer": "A certified telecommunications administrator — a telecommunications contractor cannot be assigned a general electrical administrator",
+      "explanation": "WAC 296-46B-925 explicitly states that an administrator assigned to a telecommunications contractor must be certified as a telecommunications administrator. Additionally, a combination specialty administrator's license will not be issued for telecommunications (09), because telecommunications administrator renewal requirements differ from those for electrical administrators. Source: WAC 296-46B-925"
+    },
+    {
+      "id": 10,
+      "question": "Under WAC 296-46B-935, what experience is required before an individual may sit for the telecommunications administrator certificate examination?",
+      "choices": [
+        "A minimum of 4,000 hours of supervised telecommunications installation experience",
+        "Completion of an approved two-year telecommunications training program",
+        "No experience requirement — there are no qualification requirements for taking an administrator certificate examination; applicants contact the testing agency directly",
+        "Three years as a licensed telecommunications contractor employee with documentation from the employer"
+      ],
+      "answer": "No experience requirement — there are no qualification requirements for taking an administrator certificate examination; applicants contact the testing agency directly",
+      "explanation": "WAC 296-46B-935 explicitly states that there are no qualification requirements for taking an administrator certificate examination. An original administrator certificate (including telecommunications administrator) is issued to any person who successfully completes the appropriate examination, submits the passing report with required personal information within 90 days, and pays applicable fees per WAC 296-46B-909. Source: WAC 296-46B-935"
+    },
+    {
+      "id": 11,
+      "question": "Under WAC 296-46B-935, how long is a telecommunications administrator certificate renewal period, and is continuing education required?",
+      "choices": [
+        "Three years, with the same continuing education requirements as electrical administrators",
+        "Two years, and telecommunications administrators are not required to provide continuing education information for renewal",
+        "One year, with 8 hours of continuing education required annually",
+        "Three years, with 24 hours of continuing education required over the renewal period"
+      ],
+      "answer": "Two years, and telecommunications administrators are not required to provide continuing education information for renewal",
+      "explanation": "WAC 296-46B-935 states that telecommunications administrator certificates are renewed for two years (whereas general electrical administrators renew for three years). Telecommunications administrators are explicitly not required to provide continuing education information as part of their renewal. This difference is also why a combination specialty administrator certificate cannot be issued that includes telecommunications. Source: WAC 296-46B-935"
+    },
+    {
+      "id": 12,
+      "question": "Under WAC 296-46B-945, how many total hours of work experience in an approved electrical construction trade apprenticeship program must a general (01) journey level electrician candidate complete to qualify for the examination?",
+      "choices": [
+        "4,000 hours, all in new industrial or commercial electrical installations",
+        "12,000 hours with no minimum in any specific category",
+        "8,000 hours, of which at least 4,000 hours must be new industrial or commercial electrical installations",
+        "16,000 hours of out-of-state experience if the applicant did not complete a Washington apprenticeship"
+      ],
+      "answer": "8,000 hours, of which at least 4,000 hours must be new industrial or commercial electrical installations",
+      "explanation": "WAC 296-46B-945 requires a candidate for the journey level (01) electrician examination to have successfully completed an 8,000-hour electrical construction trade apprenticeship program approved under chapter 49.04 RCW, with at least 4,000 of those hours in new industrial or commercial electrical installations under the supervision of a master or journey level electrician. Source: WAC 296-46B-945"
+    },
+    {
+      "id": 13,
+      "question": "Under WAC 296-46B-942, under what limited circumstance may a general (01) electrician trainee work without direct supervision, and what hour threshold triggers eligibility?",
+      "choices": [
+        "A trainee may work unsupervised at any time for tasks limited to residential wiring after completing 2,000 hours",
+        "A trainee may never work without direct supervision under any circumstance",
+        "A trainee who has worked over 7,000 properly supervised hours (with no more than 4,000 hours in specialty work) may be issued a six-month, nonrenewable unsupervised training certificate",
+        "A trainee may work unsupervised after 5,000 hours if a journey level electrician is on the same job site"
+      ],
+      "answer": "A trainee who has worked over 7,000 properly supervised hours (with no more than 4,000 hours in specialty work) may be issued a six-month, nonrenewable unsupervised training certificate",
+      "explanation": "WAC 296-46B-942 provides that for a trainee seeking a general (01) journey level electrician certificate, a six-month nonrenewable unsupervised electrical training certificate may be issued once the trainee has worked over 7,000 properly supervised hours, provided no more than 4,000 of those hours were in specialty work and all other listed requirements are met. Source: WAC 296-46B-942"
+    },
+    {
+      "id": 14,
+      "question": "Under WAC 296-46B-915, what is the civil penalty for a first offense of performing electrical work without possessing a valid electrical contractor's license in Washington State?",
+      "choices": [
+        "$50 for a first offense, increasing to $100 for each offense thereafter",
+        "$500 for a first offense, increasing to $1,500 for a second offense",
+        "$1,000 for a first offense; $2,000 for a second offense; $3,000 for a third; $10,000 for each offense thereafter",
+        "$250 for a first offense, increasing to $500 for each offense thereafter"
+      ],
+      "answer": "$1,000 for a first offense; $2,000 for a second offense; $3,000 for a third; $10,000 for each offense thereafter",
+      "explanation": "WAC 296-46B-915(1) establishes civil penalties for offering to perform, advertising, or performing electrical or telecommunications work without a valid contractor's license: $1,000 (first offense), $2,000 (second offense), $3,000 (third offense), and $10,000 for each offense thereafter. Additionally, in cases of serious noncompliance, the department may double the penalty up to $10,000. Source: WAC 296-46B-915"
+    },
+    {
+      "id": 15,
+      "question": "Under WAC 296-46B-900, when must electrical plans be submitted for plan review before a permit is issued?",
+      "choices": [
+        "For all electrical installations, regardless of project size or type",
+        "Only for residential projects with services larger than 400 amperes",
+        "For specified project types and sizes as defined in WAC 296-46B-900, such as large commercial or industrial installations; plan review by L&I is required before a permit can be issued for those projects",
+        "Plan review is optional for all projects — contractors may choose to submit plans voluntarily to obtain departmental guidance"
+      ],
+      "answer": "For specified project types and sizes as defined in WAC 296-46B-900, such as large commercial or industrial installations; plan review by L&I is required before a permit can be issued for those projects",
+      "explanation": "WAC 296-46B-900 (titled 'Electrical plan review') establishes the requirements for submitting electrical plans to L&I before a permit can be issued. Plan review is required for specified project types and sizes — typically larger commercial, industrial, or complex installations. WAC 296-46B-010 also references WAC 296-46B-900 for adopted standards applicable to new installations requiring plan review when plans are received before an adoption date. Source: WAC 296-46B-900"
+    }
+  ]
+}
