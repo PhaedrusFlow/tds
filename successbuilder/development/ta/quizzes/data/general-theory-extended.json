@@ -1,0 +1,187 @@
+{
+  "id": "general-theory-extended",
+  "title": "General Trade Knowledge & Theory — Extended",
+  "description": "Electrical theory, Ohm's Law, AC/DC fundamentals, transformers, test equipment, and trade math for the WA Telecom Administrator exam. 15 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Using Ohm's Law, what is the voltage across a resistor if the current is 5 A and the resistance is 24 Ω?",
+      "choices": [
+        "60 V",
+        "120 V",
+        "4.8 V",
+        "29 V"
+      ],
+      "answer": "120 V",
+      "explanation": "Ohm's Law states V = I × R. V = 5 A × 24 Ω = 120 V. Source: General Theory — Ohm's Law"
+    },
+    {
+      "id": 2,
+      "question": "A circuit has 120 V applied and draws 8 A of current. What is the resistance of the circuit?",
+      "choices": [
+        "960 Ω",
+        "112 Ω",
+        "15 Ω",
+        "0.067 Ω"
+      ],
+      "answer": "15 Ω",
+      "explanation": "Ohm's Law: R = V ÷ I = 120 V ÷ 8 A = 15 Ω. Source: General Theory — Ohm's Law"
+    },
+    {
+      "id": 3,
+      "question": "In an AC circuit, what does a power factor of 1.0 (unity) indicate?",
+      "choices": [
+        "The circuit is purely reactive and consumes no real power",
+        "The voltage and current are 90° out of phase",
+        "The circuit is purely resistive; voltage and current are in phase, and all apparent power is real power",
+        "The circuit has equal inductive and capacitive reactance canceling each other, resulting in maximum reactive power"
+      ],
+      "answer": "The circuit is purely resistive; voltage and current are in phase, and all apparent power is real power",
+      "explanation": "Power factor (PF) is the ratio of real power (watts) to apparent power (volt-amperes). A PF of 1.0 means the load is purely resistive: voltage and current waveforms are perfectly in phase, so no reactive power is consumed and all power delivered does useful work. Source: General Theory — Power Factor"
+    },
+    {
+      "id": 4,
+      "question": "In a transformer, the turns ratio relates primary and secondary voltages by Vp/Vs = Np/Ns. If the secondary has more turns than the primary, the transformer is a:",
+      "choices": [
+        "Step-down transformer, because secondary voltage is lower than primary voltage",
+        "Step-up transformer, because secondary voltage is higher than primary voltage",
+        "Isolation transformer, because turns are equal on both sides",
+        "Auto-transformer, because primary and secondary share a common winding"
+      ],
+      "answer": "Step-up transformer, because secondary voltage is higher than primary voltage",
+      "explanation": "When Ns > Np, the ratio Ns/Np is greater than 1, so Vs = Vp × (Ns/Np) results in a secondary voltage higher than the primary voltage. This is a step-up transformer. Conversely, Ns < Np yields a step-down transformer. Source: General Theory — Transformers"
+    },
+    {
+      "id": 5,
+      "question": "A transformer has a primary voltage of 240 V and 200 primary turns. The secondary winding has 50 turns. What is the secondary voltage?",
+      "choices": [
+        "960 V",
+        "120 V",
+        "30 V",
+        "60 V"
+      ],
+      "answer": "60 V",
+      "explanation": "Using the turns ratio: Vs = Vp × (Ns/Np) = 240 V × (50/200) = 240 V × 0.25 = 60 V. With fewer secondary turns, this is a step-down transformer. Source: General Theory — Transformers"
+    },
+    {
+      "id": 6,
+      "question": "What is the frequency of the standard US alternating current (AC) power grid?",
+      "choices": [
+        "50 Hz",
+        "400 Hz",
+        "60 Hz",
+        "120 Hz"
+      ],
+      "answer": "60 Hz",
+      "explanation": "The standard US power grid operates at 60 Hz (60 cycles per second). Most of Europe and other regions use 50 Hz. The 120 Hz value is the rectified ripple frequency of full-wave rectification of 60 Hz AC, not the grid frequency itself. Source: General Theory — AC Theory"
+    },
+    {
+      "id": 7,
+      "question": "What is the approximate RMS (root mean square) voltage of a sinusoidal AC waveform with a peak voltage of 170 V?",
+      "choices": [
+        "170 V",
+        "108 V",
+        "240 V",
+        "120 V"
+      ],
+      "answer": "120 V",
+      "explanation": "Vrms = Vpeak × 0.707 = 170 V × 0.707 ≈ 120 V. This is why standard US household outlets are rated at 120 V RMS even though the peak voltage is approximately 170 V. Source: General Theory — AC Theory"
+    },
+    {
+      "id": 8,
+      "question": "Capacitive reactance (Xc) in an AC circuit is described by the formula Xc = 1 ÷ (2πfC). What happens to capacitive reactance as frequency increases?",
+      "choices": [
+        "Capacitive reactance increases proportionally with frequency",
+        "Capacitive reactance remains constant regardless of frequency",
+        "Capacitive reactance decreases as frequency increases",
+        "Capacitive reactance doubles for every octave increase in frequency"
+      ],
+      "answer": "Capacitive reactance decreases as frequency increases",
+      "explanation": "Because frequency (f) appears in the denominator of Xc = 1 ÷ (2πfC), as frequency increases, Xc decreases. A capacitor blocks low-frequency signals and passes high-frequency signals more easily. At DC (f = 0), Xc is theoretically infinite. Source: General Theory — AC Theory"
+    },
+    {
+      "id": 9,
+      "question": "Inductive reactance (XL) in an AC circuit is described by the formula XL = 2πfL. How does XL change as frequency increases?",
+      "choices": [
+        "XL decreases as frequency increases",
+        "XL remains constant regardless of frequency",
+        "XL increases proportionally with frequency",
+        "XL is unaffected by frequency; only resistance limits current in an inductor"
+      ],
+      "answer": "XL increases proportionally with frequency",
+      "explanation": "Frequency (f) appears in the numerator of XL = 2πfL. As frequency increases, XL increases proportionally. An inductor blocks high-frequency signals and passes low-frequency and DC signals more easily — opposite behavior to a capacitor. Source: General Theory — AC Theory"
+    },
+    {
+      "id": 10,
+      "question": "How does a clamp-on ammeter measure current, and what is its primary advantage over a standard series ammeter?",
+      "choices": [
+        "It measures voltage drop across a known shunt resistor and calculates current using Ohm's Law; requires inserting the shunt into the circuit",
+        "It senses the magnetic field generated by current flowing through a conductor; the circuit does not need to be broken to take a measurement",
+        "It injects a known test signal into the conductor and measures the reflected signal strength to determine current",
+        "It measures the heat generated by current in the conductor using an infrared sensor embedded in the jaws"
+      ],
+      "answer": "It senses the magnetic field generated by current flowing through a conductor; the circuit does not need to be broken to take a measurement",
+      "explanation": "A clamp-on ammeter uses a current transformer or Hall-effect sensor in its jaws to detect the magnetic field induced by current in the conductor. The key advantage is that the live circuit does not need to be interrupted or modified — the jaws simply clamp around a single conductor. Source: General Theory — Test Equipment"
+    },
+    {
+      "id": 11,
+      "question": "What is a megohmmeter (megger) used for, and what test voltage does it typically apply?",
+      "choices": [
+        "Testing continuity of low-resistance connections at 9 V DC to identify open circuits",
+        "Measuring capacitance in motor windings at 24 V AC to detect winding degradation",
+        "Testing insulation resistance by applying a high DC voltage — typically 500 V or 1,000 V — and measuring the resulting leakage current to calculate insulation resistance in megohms",
+        "Verifying ground fault circuit interrupter (GFCI) trip sensitivity at 120 V AC by simulating a ground fault"
+      ],
+      "answer": "Testing insulation resistance by applying a high DC voltage — typically 500 V or 1,000 V — and measuring the resulting leakage current to calculate insulation resistance in megohms",
+      "explanation": "A megohmmeter applies a high DC voltage (commonly 500 V for 600 V-rated insulation, or 1,000 V for higher-voltage systems) to the insulation under test. A high resistance reading (in megohms) indicates healthy insulation; a low reading indicates degraded or damaged insulation that may cause leakage or failure. Source: General Theory — Test Equipment"
+    },
+    {
+      "id": 12,
+      "question": "What is the three-phase power when line voltage is 480 V, current is 10 A, and power factor is 1.0?",
+      "choices": [
+        "4,800 W",
+        "8,314 W",
+        "14,400 W",
+        "2,771 W"
+      ],
+      "answer": "8,314 W",
+      "explanation": "Three-phase power: P = √3 × V × I × PF = 1.732 × 480 V × 10 A × 1.0 ≈ 8,314 W. The √3 factor accounts for the 120° phase relationship between the three phases. Source: General Theory — Trade Math"
+    },
+    {
+      "id": 13,
+      "question": "At what ground fault current level does a standard GFCI (Class A) trip to protect personnel, per UL 943?",
+      "choices": [
+        "15 mA — the threshold where muscle freeze occurs",
+        "50 mA — the threshold for ventricular fibrillation",
+        "5 mA (± 1 mA) — the threshold at which ground fault current poses a risk of electrocution",
+        "1 mA — the threshold of human perception"
+      ],
+      "answer": "5 mA (± 1 mA) — the threshold at which ground fault current poses a risk of electrocution",
+      "explanation": "Per UL 943, a Class A GFCI is designed to trip when the ground fault current reaches 5 mA (±1 mA), typically within 1/40th of a second. This level is below the fibrillation threshold but above normal leakage, providing personnel protection. Source: General Theory — Electrical Safety"
+    },
+    {
+      "id": 14,
+      "question": "What is the purpose of Lockout/Tagout (LOTO), and when is it required per OSHA 29 CFR 1910.147?",
+      "choices": [
+        "To label electrical panels for identification; required whenever a new panel is installed",
+        "To prevent the unexpected energization, startup, or release of stored energy while workers are performing service or maintenance on equipment where such energy could injure them",
+        "To document that a circuit has been tested and found de-energized; required only on circuits above 600 V",
+        "To lock panel doors against unauthorized access; required in all commercial buildings per NFPA 70E"
+      ],
+      "answer": "To prevent the unexpected energization, startup, or release of stored energy while workers are performing service or maintenance on equipment where such energy could injure them",
+      "explanation": "OSHA 29 CFR 1910.147 (The Control of Hazardous Energy standard) requires employers to establish energy control procedures, including LOTO, before any employee performs servicing or maintenance where the unexpected energization, start-up, or release of stored energy (electrical, hydraulic, pneumatic, mechanical, thermal, or chemical) could cause injury. Source: General Theory — Electrical Safety"
+    },
+    {
+      "id": 15,
+      "question": "In a series DC circuit containing three resistors — R1 = 10 Ω, R2 = 15 Ω, and R3 = 25 Ω — what is the total resistance?",
+      "choices": [
+        "6.25 Ω",
+        "50 Ω",
+        "375 Ω",
+        "16.7 Ω"
+      ],
+      "answer": "50 Ω",
+      "explanation": "In a series circuit, total resistance is the sum of all individual resistances: Rtotal = R1 + R2 + R3 = 10 Ω + 15 Ω + 25 Ω = 50 Ω. (The 6.25 Ω option approximates the parallel combination of these resistors, which is a common distractor.) Source: General Theory — DC Circuits"
+    }
+  ]
+}
