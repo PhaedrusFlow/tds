@@ -1,7 +1,7 @@
 {
   "id": "nec-800-830-communications",
   "title": "NEC Articles 800–830 — Communications Systems",
-  "description": "Telephone, data, cable TV, fiber optic, network-powered broadband, and outside plant wiring per NEC 2023 Articles 800–830. 15 questions.",
+  "description": "Telephone, data, cable TV, fiber optic, network-powered broadband, and outside plant wiring per NEC 2023 Articles 800–830. 30 questions.",
   "questions": [
     {
       "id": 1,
@@ -182,6 +182,186 @@
       ],
       "answer": "2 in. from electric light, power, or Class 1 conductors, unless conductors are in raceways or separated by an approved barrier",
       "explanation": "NEC 830.44 requires that network-powered broadband communications cables maintain at least 2 inches of separation from electric light, power, or Class 1 conductors. Exceptions allow commingling when all power/Class 1 conductors are in metallic raceways or metal-sheathed cable, or when the broadband cables are permanently separated by a firmly fixed nonconductor acting as a barrier. This 2-inch separation rule parallels the requirement in 800.133(A)(2) for general communications circuits and is critical because medium-power broadband circuits (Article 830 Type BM) can operate at up to 150 V."
+    },
+    {
+      "id": 16,
+      "question": "NEC 2023 Article 800.2 provides definitions for several key communications terms. Which of the following is the correct NEC definition of a 'Network Interface Device (NID)'?",
+      "choices": [
+        "The primary protector for communications circuits installed at the point of entrance",
+        "A device that serves as the demarcation point between the communications utility's network and the customer's inside wiring",
+        "The terminal block where communications cables from the utility splice to premises wiring inside the building",
+        "A listed device that converts optical fiber signals to copper wire signals at the customer premises"
+      ],
+      "answer": "A device that serves as the demarcation point between the communications utility's network and the customer's inside wiring",
+      "explanation": "NEC 800.2 defines a Network Interface Device (NID) as a device that serves as the demarcation point between the communications utility's network and the customer's inside wiring. The NID establishes where utility responsibility ends and customer responsibility begins. It is distinct from the primary protector: the NID is an administrative and physical demarcation device, while the primary protector is a surge-protective device required by 800.90 to protect the building wiring from overvoltage."
+    },
+    {
+      "id": 17,
+      "question": "NEC 2023 Section 800.12 restricts the installation of communications circuits in hazardous locations. What does this section require?",
+      "choices": [
+        "Communications circuits may be installed in any hazardous location provided all conductors are enclosed in rigid metal conduit",
+        "Communications circuits are not permitted in hazardous locations classified under Article 500 unless installed in equipment specifically approved for the hazardous location",
+        "Communications circuits in hazardous locations must use fiber optic cable only, since fiber carries no electrical energy",
+        "Communications circuits in Class I, Division 1 locations require conduit seals every 25 ft"
+      ],
+      "answer": "Communications circuits are not permitted in hazardous locations classified under Article 500 unless installed in equipment specifically approved for the hazardous location",
+      "explanation": "NEC 800.12 states that communications circuits and equipment shall not be installed in hazardous locations as classified in Article 500 unless the equipment and wiring method are approved for use in the specific hazardous location. The hazardous location classification (Class, Division or Zone, and group) determines the type of approved equipment required. This restriction prevents communications equipment — which is typically not designed for hazardous environments — from becoming an ignition source in areas with flammable gases, vapors, or dusts."
+    },
+    {
+      "id": 18,
+      "question": "NEC 2023 Section 800.44(A) governs overhead aerial span clearances for communications cables from the ground. Which statement correctly describes the minimum clearance requirements?",
+      "choices": [
+        "Communications cables must maintain 10 ft above finished grade in all locations without exception",
+        "Communications cables must comply with specific minimum clearances above ground that vary by location type — including over roads, driveways, and pedestrian areas — as specified in 800.44(A)",
+        "Communications cables require only 6 ft of clearance above ground in all residential areas, regardless of traffic conditions",
+        "Ground clearance requirements for communications cables are governed by the utility only; the NEC does not regulate ground clearances for aerial spans"
+      ],
+      "answer": "Communications cables must comply with specific minimum clearances above ground that vary by location type — including over roads, driveways, and pedestrian areas — as specified in 800.44(A)",
+      "explanation": "NEC 800.44(A) requires that overhead aerial communications cables comply with minimum clearance heights above ground that vary depending on the location. For example, cables must be at least 10 ft above finished grade, sidewalks, or platforms from which they might be accessible to pedestrians, 12 ft over residential driveways and commercial areas subject to pedestrian traffic, and 18 ft over public roads and driveways subject to truck traffic. These graduated requirements mirror those for power conductors to account for different traffic and safety exposures."
+    },
+    {
+      "id": 19,
+      "question": "NEC 800.48 permits up to 50 ft of unlisted communications cable inside a building from the point of entrance. Which building spaces are explicitly excluded from this allowance, requiring listed cable regardless of length?",
+      "choices": [
+        "Unfinished basements and crawl spaces, where moisture can degrade unlisted cable jackets",
+        "Plenum spaces and riser applications, which require listed cable rated for those environments regardless of length",
+        "Electrical rooms and utility closets where communications cables share space with power equipment",
+        "Attic spaces, since fire spreads rapidly through attics and unlisted cable increases that risk"
+      ],
+      "answer": "Plenum spaces and riser applications, which require listed cable rated for those environments regardless of length",
+      "explanation": "NEC 800.48 explicitly states that the 50 ft unlisted cable allowance does not apply to ducts, plenums, or other spaces used for environmental air, nor to riser applications (vertical runs penetrating more than one floor). Those spaces require listed and rated cable — Type CMP for plenums and Type CMR or CMP for risers — regardless of the cable's length inside the building. This is because unlisted cable in these spaces poses unacceptable fire propagation risks."
+    },
+    {
+      "id": 20,
+      "question": "NEC 2023 Section 800.90(C) provides an exception to the primary protector requirement. Under what condition is a primary protector not required for a communications circuit?",
+      "choices": [
+        "When the communications circuit is installed entirely within conduit from the point of entrance to the terminal equipment",
+        "When the circuit is incapable of delivering a hazardous voltage or energy level to the building — such as certain circuits with current-limiting characteristics that prevent dangerous energy exposure",
+        "When the circuit serves a single-family dwelling and the cable is less than 25 ft in total length inside the building",
+        "When the primary protector would be located in a wet or damp location and a suitable weatherproof enclosure is not available"
+      ],
+      "answer": "When the circuit is incapable of delivering a hazardous voltage or energy level to the building — such as certain circuits with current-limiting characteristics that prevent dangerous energy exposure",
+      "explanation": "NEC 800.90(C) provides that a primary protector is not required for a communications circuit that is incapable of delivering a hazardous voltage or energy level under any conditions, including fault conditions. Circuits that are inherently current-limited by their source or by series resistance such that the open-circuit voltage and available current cannot reach levels hazardous to persons or capable of igniting materials fall within this exception. The determination of whether a circuit qualifies is typically based on voltage, available current, and energy calculations."
+    },
+    {
+      "id": 21,
+      "question": "NEC 2023 Section 800.100(A)(4) imposes a special length restriction on the grounding/bonding conductor for communications primary protectors in certain occupancies. What is this restriction and where does it apply?",
+      "choices": [
+        "The grounding conductor must not exceed 50 ft in length in any occupancy type",
+        "In one- and two-family dwellings, the grounding or bonding conductor for the primary protector must not exceed 20 ft in length",
+        "In high-rise buildings above four stories, the grounding conductor must not exceed 10 ft in length to minimize impedance",
+        "In commercial occupancies, the grounding conductor must be run in conduit and not exceed 30 ft"
+      ],
+      "answer": "In one- and two-family dwellings, the grounding or bonding conductor for the primary protector must not exceed 20 ft in length",
+      "explanation": "NEC 800.100(A)(4) requires that in one- and two-family dwellings, the grounding or bonding conductor for the communications primary protector (and metallic cable sheath) must not exceed 20 ft in length. This length restriction minimizes the impedance of the grounding conductor path, ensuring that surge currents from lightning or line contacts are diverted to ground before they can reach terminal equipment. Where the 20 ft limit cannot be met, the conductor must be bonded at the closest practical grounding electrode."
+    },
+    {
+      "id": 22,
+      "question": "NEC 2023 Section 800.100(B) lists the permitted electrodes to which the communications grounding/bonding conductor may be connected. Which of the following is among the permitted electrodes?",
+      "choices": [
+        "The neutral bus of the main service panel, bypassing the grounding electrode system",
+        "The electric service grounding electrode system, the building or structure grounding electrode system, or a separately installed grounding electrode",
+        "Only a ground rod driven exclusively for the communications system, to isolate it from power system ground",
+        "The metal frame of the building structure only, when the structure is effectively grounded"
+      ],
+      "answer": "The electric service grounding electrode system, the building or structure grounding electrode system, or a separately installed grounding electrode",
+      "explanation": "NEC 800.100(B) identifies the permitted grounding electrodes for communications system grounding and bonding conductors. Permitted electrodes include: (1) the building or structure grounding electrode system per 250.50, (2) the grounded interior metal water piping system within 5 ft of its entrance, (3) the power service accessible means external to the building, (4) a metallic power service raceway, (5) the service equipment enclosure, (6) the grounding electrode conductor or the grounding electrode conductor metal enclosure, or (7) a separately driven grounding electrode. A separately installed electrode must then be bonded to the power electrode system per 800.100(D)."
+    },
+    {
+      "id": 23,
+      "question": "NEC 2023 Section 800.113(A) governs the use of general-purpose Type CM communications cable. In which locations is Type CM cable NOT permitted to be installed?",
+      "choices": [
+        "Type CM is not permitted in conduit or raceway systems of any type",
+        "Type CM is not permitted in one- and two-family dwellings; it is restricted to commercial occupancies only",
+        "Type CM is not permitted in plenum spaces, riser applications, or any location requiring a higher-rated cable type such as CMP or CMR",
+        "Type CM is not permitted outdoors, even when enclosed in conduit rated for wet locations"
+      ],
+      "answer": "Type CM is not permitted in plenum spaces, riser applications, or any location requiring a higher-rated cable type such as CMP or CMR",
+      "explanation": "NEC 800.113(A) establishes that Type CM (general-purpose communications cable) is the baseline cable type for general building wiring but is explicitly not permitted in plenum spaces (which require CMP) or in riser applications penetrating more than one floor (which require CMR or CMP). The cable substitution hierarchy in 800.113 is: CMP > CMR > CMG > CM > CMX, meaning a higher-rated cable may always substitute for a lower-rated one, but not vice versa. Type CM may be used in conduit in riser spaces only when enclosed in a listed metal raceway."
+    },
+    {
+      "id": 24,
+      "question": "NEC 2023 Section 800.113(D) addresses Type CMX limited-use communications cable. In which locations is Type CMX permitted, and what installation restriction applies to exposed runs?",
+      "choices": [
+        "CMX is permitted in all building locations when enclosed in any listed raceway",
+        "CMX is permitted in one- and two-family dwellings and in raceways; exposed runs of CMX are only permitted in nonconcealed spaces and limited to short lengths",
+        "CMX is permitted only in attics and crawl spaces where it is concealed from view",
+        "CMX is permitted in all dwelling unit types for any installation method including exposed runs of unlimited length"
+      ],
+      "answer": "CMX is permitted in one- and two-family dwellings and in raceways; exposed runs of CMX are only permitted in nonconcealed spaces and limited to short lengths",
+      "explanation": "NEC 800.113(D) limits Type CMX (limited-use communications cable) to installation in one- and two-family dwellings and in raceways. When used in dwellings, CMX may be run exposed only in nonconcealed spaces (not inside walls, ceilings, or floors) and only in short lengths. CMX is not permitted in multifamily buildings, commercial occupancies, plenum spaces, or riser applications. Its lower flame resistance rating compared to CM, CMR, and CMP restricts it to these limited applications."
+    },
+    {
+      "id": 25,
+      "question": "NEC 2023 Section 800.133(A)(2) requires separation of communications conductors from power conductors inside buildings. What is the minimum separation required, and what conditions eliminate the separation requirement?",
+      "choices": [
+        "6 in. minimum separation; reduced to 2 in. when both cable types are in listed conduit",
+        "2 in. minimum separation from electric light, power, or Class 1 conductors; separation not required when the power conductors are in a raceway or are metal-sheathed, or when a fixed nonconductor barrier separates the conductors",
+        "1 in. minimum separation; eliminated only when communications conductors are installed in Type CMP cable",
+        "No separation is required when communications conductors are in a listed raceway of any type"
+      ],
+      "answer": "2 in. minimum separation from electric light, power, or Class 1 conductors; separation not required when the power conductors are in a raceway or are metal-sheathed, or when a fixed nonconductor barrier separates the conductors",
+      "explanation": "NEC 800.133(A)(2) requires that communications conductors inside buildings maintain at least 2 inches of separation from conductors of electric light, power, and Class 1 circuits. The separation is not required where: (1) the electric light, power, or Class 1 conductors are in a raceway or in metal-sheathed, metal-clad, non-metallic sheathed, or UF cables; or (2) the communications conductors are in a raceway; or (3) a permanently fixed nonconductor — such as a porcelain tube — is placed between the conductors. This 2-inch minimum prevents crosstalk, induction, and shock hazards at points where circuits run parallel."
+    },
+    {
+      "id": 26,
+      "question": "NEC 2023 Section 810.15 specifies the minimum size of the grounding conductor for an antenna mast. What is the minimum conductor size required?",
+      "choices": [
+        "14 AWG copper, the same as the minimum for communications primary protector grounding under 800.100",
+        "12 AWG copper, consistent with general grounding conductor sizing for equipment",
+        "10 AWG copper",
+        "6 AWG copper, required because antenna masts can carry large lightning surge currents"
+      ],
+      "answer": "10 AWG copper",
+      "explanation": "NEC 810.15 requires that the grounding conductor for an antenna mast be not smaller than 10 AWG copper (or 17 AWG copper-clad steel or bronze). This is larger than the 14 AWG minimum for communications primary protector grounding in Article 800, reflecting the greater lightning surge currents that can flow through an antenna mast and its grounding path. The mast grounding conductor must be run as straight as practicable and connect to the building's grounding electrode system."
+    },
+    {
+      "id": 27,
+      "question": "NEC 2023 Section 810.21(F) specifies how the grounding conductor for a radio or television receiving antenna must be installed on the surface of a building. What does this subsection require?",
+      "choices": [
+        "The conductor must be enclosed in a listed nonmetallic conduit to prevent galvanic corrosion from contact with the building surface",
+        "The conductor must be routed through the building interior to the grounding electrode, taking the shortest possible path even if it passes through habitable spaces",
+        "The conductor shall be permitted to be run along the surface of the building and shall be installed without unnecessary bends",
+        "The conductor must be supported every 4 ft and kept at least 2 in. from combustible surfaces using listed standoff insulators"
+      ],
+      "answer": "The conductor shall be permitted to be run along the surface of the building and shall be installed without unnecessary bends",
+      "explanation": "NEC 810.21(F) specifies that the antenna grounding conductor shall be permitted to be run along the surface of the building and must be installed without unnecessary bends. Avoiding sharp bends and loops is important because high-frequency lightning surge currents tend to travel on the surface of conductors (skin effect) and sharp bends increase the effective impedance of the grounding path, reducing the effectiveness of the lightning discharge. A straight or gently curved run minimizes impedance and provides the most effective path to ground."
+    },
+    {
+      "id": 28,
+      "question": "NEC 2023 Section 820.100(A) requires grounding of the coaxial cable used in CATV systems. Which specific part of the coaxial cable must be grounded?",
+      "choices": [
+        "The inner conductor (center wire) of the coaxial cable must be grounded at the point of entrance",
+        "The outer conductive shield of the coaxial cable must be grounded at the earliest practicable point after entrance into the building",
+        "The entire coaxial cable assembly, including the dielectric, must be bonded to the building steel",
+        "Grounding of CATV coaxial cable is optional if the cable is listed Type CATVP"
+      ],
+      "answer": "The outer conductive shield of the coaxial cable must be grounded at the earliest practicable point after entrance into the building",
+      "explanation": "NEC 820.100(A) requires that the outer conductive shield (metallic sheath) of a coaxial CATV cable be grounded at the earliest practicable point after the cable's entrance into the building. This grounding diverts lightning surges and induced voltages from power line contacts to earth before they can propagate into the building's distribution system and damage equipment or create shock hazards. The grounding conductor and electrode requirements for CATV parallel those of Article 800."
+    },
+    {
+      "id": 29,
+      "question": "Per NEC 2023 Section 820.100(B), what are the minimum and maximum sizes permitted for the CATV system grounding conductor connected to the outer shield of the coaxial cable?",
+      "choices": [
+        "Minimum 18 AWG, maximum 12 AWG copper",
+        "Minimum 14 AWG, maximum 6 AWG copper",
+        "Minimum 12 AWG, maximum 4 AWG copper",
+        "Minimum 10 AWG, no maximum size specified"
+      ],
+      "answer": "Minimum 14 AWG, maximum 6 AWG copper",
+      "explanation": "NEC 820.100(B) requires that the grounding conductor for a CATV coaxial cable outer shield be not smaller than 14 AWG copper and not required to be larger than 6 AWG. This is identical to the grounding conductor sizing in Article 800 (800.100(A)(3)) for communications primary protectors. As with Article 800, a separately installed electrode for the CATV system must be bonded to the building's power grounding electrode system with a minimum 6 AWG conductor per 820.100(D)."
+    },
+    {
+      "id": 30,
+      "question": "NEC 2023 Articles 830.90 and 830.100 address primary protectors and grounding for network-powered broadband systems. Which combination of requirements correctly describes both sections?",
+      "choices": [
+        "830.90: No primary protector required if the broadband system is medium-power (Type BM); 830.100: grounding conductor minimum 12 AWG",
+        "830.90: A listed primary protector is required for network-powered broadband circuits entering buildings; 830.100: the grounding conductor for the protector must be not smaller than 14 AWG and not required to be larger than 6 AWG",
+        "830.90: A primary protector is required only for low-power (Type BL) circuits; 830.100: grounding conductor minimum 10 AWG",
+        "830.90: Primary protectors are required only for aerial (overhead) broadband cables, not underground; 830.100: no maximum conductor size is specified"
+      ],
+      "answer": "830.90: A listed primary protector is required for network-powered broadband circuits entering buildings; 830.100: the grounding conductor for the protector must be not smaller than 14 AWG and not required to be larger than 6 AWG",
+      "explanation": "NEC 830.90 requires that a listed primary protector be provided for network-powered broadband communications circuits where conductors enter a building. This protects building wiring and equipment from lightning surges and accidental contact with power circuits. NEC 830.100 mirrors the grounding requirements of Article 800: the grounding conductor for the broadband primary protector must be not smaller than 14 AWG copper and not required to be larger than 6 AWG. If a separate grounding electrode is installed, it must be bonded to the building's power grounding electrode system with a minimum 6 AWG conductor, consistent with 830.100(D)."
     }
   ]
 }
