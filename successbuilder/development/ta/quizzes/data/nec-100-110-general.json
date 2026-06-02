@@ -1,0 +1,187 @@
+{
+  "id": "nec-100-110-general",
+  "title": "NEC Articles 100–110 — Definitions & General Requirements",
+  "description": "Key definitions from Article 100 and general installation requirements from Article 110. 15 questions.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to NEC 2023 Article 100, how is 'Ampacity' defined?",
+      "choices": [
+        "The maximum current a conductor can carry continuously under normal conditions without exceeding its temperature rating",
+        "The short-circuit current rating assigned to an overcurrent protective device",
+        "The rated continuous current output of a service entrance panel",
+        "The current draw of a load measured at full operating voltage"
+      ],
+      "answer": "The maximum current a conductor can carry continuously under normal conditions without exceeding its temperature rating",
+      "explanation": "NEC Article 100 defines Ampacity as the maximum current, in amperes, that a conductor can carry continuously under the conditions of use without exceeding its temperature rating. This is a critical definition for conductor sizing and overcurrent protection calculations."
+    },
+    {
+      "id": 2,
+      "question": "Under NEC Article 100, the term 'Approved' means which of the following?",
+      "choices": [
+        "Listed and labeled by a nationally recognized testing laboratory",
+        "Acceptable to the authority having jurisdiction",
+        "Manufactured in accordance with a national product standard",
+        "Installed per the manufacturer's published instructions"
+      ],
+      "answer": "Acceptable to the authority having jurisdiction",
+      "explanation": "NEC Article 100 defines 'Approved' as acceptable to the authority having jurisdiction (AHJ). Note that 'Listed' is a separate definition; equipment can be listed but still require AHJ approval, and conversely, the AHJ can approve unlisted equipment."
+    },
+    {
+      "id": 3,
+      "question": "According to NEC Article 100, which of the following BEST describes a 'Branch Circuit'?",
+      "choices": [
+        "All circuit conductors between the service equipment and the final overcurrent device",
+        "The circuit conductors between the final overcurrent protective device and the outlets it serves",
+        "The conductors from the utility transformer to the service entrance equipment",
+        "Any circuit that supplies a single dedicated load such as a motor or appliance"
+      ],
+      "answer": "The circuit conductors between the final overcurrent protective device and the outlets it serves",
+      "explanation": "NEC Article 100 defines Branch Circuit as the circuit conductors between the final overcurrent device protecting the circuit and the outlet(s). The key distinguishing feature is that branch circuits originate at the final overcurrent protective device (e.g., a circuit breaker in a panelboard)."
+    },
+    {
+      "id": 4,
+      "question": "Under NEC Article 100, a 'Feeder' is defined as which of the following?",
+      "choices": [
+        "The conductors from the utility transformer secondary to the service entrance",
+        "All circuit conductors between the service equipment (or source of a separately derived system) and the final branch-circuit overcurrent protective device",
+        "The circuit conductors between the final overcurrent device and the outlets it supplies",
+        "Conductors installed between two or more panelboards on the same floor of a building"
+      ],
+      "answer": "All circuit conductors between the service equipment (or source of a separately derived system) and the final branch-circuit overcurrent protective device",
+      "explanation": "NEC Article 100 defines Feeder as all circuit conductors between the service equipment, the source of a separately derived system, or other power supply source and the final branch-circuit overcurrent protective device. Feeders occupy the middle tier between service conductors and branch circuits."
+    },
+    {
+      "id": 5,
+      "question": "According to NEC Article 100, what is the definition of a 'Dwelling Unit'?",
+      "choices": [
+        "Any building or portion thereof used exclusively for residential occupancy",
+        "A single unit providing complete and independent living facilities for one or more persons, including permanent provisions for living, sleeping, cooking, and sanitation",
+        "A residential structure containing not more than two families in separate living quarters",
+        "Any habitable space within a building that includes at least one bedroom and a bathroom"
+      ],
+      "answer": "A single unit providing complete and independent living facilities for one or more persons, including permanent provisions for living, sleeping, cooking, and sanitation",
+      "explanation": "NEC Article 100 defines Dwelling Unit as a single unit providing complete and independent living facilities for one or more persons, including permanent provisions for living, sleeping, cooking, and sanitation. This definition is essential for applying dwelling-unit-specific requirements throughout the Code."
+    },
+    {
+      "id": 6,
+      "question": "Under NEC Article 100, which of the following BEST defines 'Listed'?",
+      "choices": [
+        "Equipment approved in writing by the authority having jurisdiction for a specific installation",
+        "Equipment that has been tested and found to meet specific requirements, and whose manufacturer is identified in a list published by a nationally recognized testing laboratory",
+        "Equipment that bears the UL mark and is therefore exempt from AHJ inspection",
+        "Equipment installed in accordance with the manufacturer's installation instructions"
+      ],
+      "answer": "Equipment that has been tested and found to meet specific requirements, and whose manufacturer is identified in a list published by a nationally recognized testing laboratory",
+      "explanation": "NEC Article 100 defines Listed as equipment or materials that have been evaluated by a nationally recognized testing laboratory, found to meet specific designation criteria, and included in a list published by that organization. Being listed does not exempt equipment from AHJ approval, but listed equipment is generally approved per NEC 90.4 and 90.7."
+    },
+    {
+      "id": 7,
+      "question": "According to NEC Article 100, what is an 'Outlet'?",
+      "choices": [
+        "A device used to connect portable equipment to the wiring system through a plug",
+        "A point on the wiring system where current is taken to supply utilization equipment",
+        "An electrical box containing a wiring device such as a receptacle or switch",
+        "A female contact device installed at a fixed location for the connection of attachment plugs"
+      ],
+      "answer": "A point on the wiring system where current is taken to supply utilization equipment",
+      "explanation": "NEC Article 100 defines Outlet as a point on the wiring system at which current is taken to supply utilization equipment. A receptacle outlet is one type of outlet, but outlets also include lighting outlets, appliance outlets, etc. A receptacle is a contact device installed at an outlet for the connection of an attachment plug."
+    },
+    {
+      "id": 8,
+      "question": "Under NEC Article 100, a 'Raceway' is defined as which of the following?",
+      "choices": [
+        "Any metallic enclosure used to house electrical conductors",
+        "An enclosed channel of metallic or nonmetallic materials designed expressly for holding wires, cables, or busbars",
+        "A cable tray system used to support multiconductor cables in industrial facilities",
+        "The interior pathway through which conductors are routed inside a listed electrical enclosure"
+      ],
+      "answer": "An enclosed channel of metallic or nonmetallic materials designed expressly for holding wires, cables, or busbars",
+      "explanation": "NEC Article 100 defines Raceway as an enclosed channel of metallic or nonmetallic materials designed expressly for holding wires, cables, or busbars, with additional functions as permitted in the Code. Examples include conduit, electrical metallic tubing (EMT), wireways, and auxiliary gutters."
+    },
+    {
+      "id": 9,
+      "question": "According to NEC Article 100, the phrase 'In Sight From (Within Sight From, Within Sight)' means the equipment referred to is visible and within what distance from the other equipment?",
+      "choices": [
+        "10 feet (3.0 m)",
+        "25 feet (7.5 m)",
+        "50 feet (15 m)",
+        "100 feet (30 m)"
+      ],
+      "answer": "50 feet (15 m)",
+      "explanation": "NEC Article 100 defines 'In Sight From (Within Sight From, Within Sight)' as visible and not more than 15 m (50 ft) distant from the other equipment. Both conditions — visible AND within 50 feet — must be met. This definition governs many disconnecting means requirements throughout the Code."
+    },
+    {
+      "id": 10,
+      "question": "Under NEC Article 100, 'Overcurrent' is defined as which of the following?",
+      "choices": [
+        "Any current that causes a circuit breaker or fuse to operate",
+        "Current in excess of the rated current of equipment or the ampacity of a conductor, which may result from overload, short circuit, or ground fault",
+        "A fault current that flows from an ungrounded conductor to ground through an unintended path",
+        "The current measured at the service entrance that exceeds the service rating"
+      ],
+      "answer": "Current in excess of the rated current of equipment or the ampacity of a conductor, which may result from overload, short circuit, or ground fault",
+      "explanation": "NEC Article 100 defines Overcurrent as any current in excess of the rated current of equipment or the ampacity of a conductor. It may result from overload, short circuit, or ground fault. This distinction matters because different overcurrent conditions (overload vs. short circuit/ground fault) may require different protective devices."
+    },
+    {
+      "id": 11,
+      "question": "According to NEC 110.3(B), when listed or labeled equipment is installed, what requirement must be followed?",
+      "choices": [
+        "The equipment must be reinspected by the AHJ regardless of its listing status",
+        "The equipment must be installed and used in accordance with any instructions included in the listing, labeling, or identification",
+        "The equipment must bear a field-applied label confirming compliance with the installation code",
+        "The equipment's internal wiring must be verified by the electrical inspector before energization"
+      ],
+      "answer": "The equipment must be installed and used in accordance with any instructions included in the listing, labeling, or identification",
+      "explanation": "NEC 110.3(B) states that equipment that is listed, labeled, or identified for a use shall be installed and used in accordance with any instructions included in the listing, labeling, or identification. Failure to follow manufacturer's installation instructions is a Code violation, even for listed equipment."
+    },
+    {
+      "id": 12,
+      "question": "According to NEC 110.12, how must completed electrical installations be executed?",
+      "choices": [
+        "In a neat and workmanlike manner",
+        "In strict accordance with the engineer of record's drawings",
+        "Using only listed wiring methods and listed equipment",
+        "In conformance with OSHA electrical safety standards"
+      ],
+      "answer": "In a neat and workmanlike manner",
+      "explanation": "NEC 110.12 requires that electrical equipment be installed in a neat and workmanlike manner. Unused openings in electrical enclosures must be closed, and the installation must be free of unnecessary wiring or damage that could compromise safety. This is a general quality-of-work requirement that gives AHJs authority to reject sloppy installations."
+    },
+    {
+      "id": 13,
+      "question": "NEC 110.14(C) governs conductor temperature ratings at terminals. For equipment rated 100 amperes or less (or marked for conductors 14 AWG through 1 AWG), what is the default temperature rating to use when sizing conductors at their terminations?",
+      "choices": [
+        "60°C, unless the equipment is listed and identified for a higher temperature rating",
+        "75°C, the standard rating for most commercial equipment",
+        "90°C, the rating of THHN insulation commonly used in conduit",
+        "The temperature rating printed on the conductor insulation"
+      ],
+      "answer": "60°C, unless the equipment is listed and identified for a higher temperature rating",
+      "explanation": "NEC 110.14(C)(1)(a) states that for equipment rated 100 A or less, or marked for 14 AWG through 1 AWG conductors, conductors shall be sized based on the 60°C ampacity column of Table 310.16, unless the equipment is listed and identified for use with conductors at higher temperature ratings. A conductor with 90°C insulation may be used, but its ampacity must be taken from the 60°C column if the terminal is only rated 60°C."
+    },
+    {
+      "id": 14,
+      "question": "According to NEC 110.21(B), which of the following is a requirement for field-applied hazard markings (such as DANGER, WARNING, or CAUTION labels) required by the NEC?",
+      "choices": [
+        "The label must be hand-printed clearly in permanent marker by the installer",
+        "The label must be permanently affixed, adequately warn of the hazard using effective words, colors, or symbols, and shall not be handwritten (except for variable or changeable information)",
+        "The label must include the specific NEC section number requiring the marking",
+        "The label must be submitted to the AHJ for approval before installation"
+      ],
+      "answer": "The label must be permanently affixed, adequately warn of the hazard using effective words, colors, or symbols, and shall not be handwritten (except for variable or changeable information)",
+      "explanation": "NEC 110.21(B) requires that field-applied hazard markings adequately warn of the hazard using effective words and/or colors and/or symbols, be permanently affixed, and not be handwritten — except for portions that are variable or subject to change. The marking must also be of sufficient durability to withstand the environment."
+    },
+    {
+      "id": 15,
+      "question": "According to NEC 110.26(E), what space requirement applies to switchboards, switchgear, panelboards, and motor control centers installed indoors?",
+      "choices": [
+        "A clear working space equal to the width of the equipment must be maintained in front of the equipment at all times",
+        "A dedicated equipment space equal to the width and depth of the equipment, extending from the floor to 6 feet above the equipment or to the structural ceiling (whichever is lower), must be kept clear of foreign systems",
+        "A minimum 18-inch clearance above the top of the equipment must be maintained for heat dissipation",
+        "A dedicated equipment space must extend from the top of the equipment to the structural ceiling, and may contain HVAC ductwork if protected by leak-proof pans"
+      ],
+      "answer": "A dedicated equipment space equal to the width and depth of the equipment, extending from the floor to 6 feet above the equipment or to the structural ceiling (whichever is lower), must be kept clear of foreign systems",
+      "explanation": "NEC 110.26(E)(1)(a) requires a dedicated equipment space equal to the width and depth of the equipment (the equipment footprint), extending from the floor to a height of 6 feet above the equipment or to the structural ceiling, whichever is lower. Only equipment associated with the electrical installation is permitted in this space — no piping, ductwork, or other foreign systems. Note: The area above this dedicated space may contain foreign systems if protection against leaks or condensation is provided."
+    }
+  ]
+}
