@@ -25,6 +25,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build quiz manifest
+        run: node scripts/build-quiz-manifest.mjs
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:

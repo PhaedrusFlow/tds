@@ -1,0 +1,30 @@
+[
+  {
+    "id": "nec-theory-mixed-01",
+    "title": "NEC 2023 + General Theory – Mixed Set 01",
+    "description": "Quiz loaded from JSON question bank.",
+    "file": "data/nec-theory-mixed-01.json",
+    "questionCount": 13
+  },
+  {
+    "id": "rcw-19-28",
+    "title": "RCW 19.28 — Electrical Installation",
+    "description": "Quiz loaded from JSON question bank.",
+    "file": "data/rcw-19-28.json",
+    "questionCount": 15
+  },
+  {
+    "id": "ta_pq3",
+    "title": "Telco Admin Practice Quiz 3",
+    "description": "Quiz loaded from JSON question bank.",
+    "file": "data/ta_pq3.json",
+    "questionCount": 16
+  },
+  {
+    "id": "telco-general-theory-01",
+    "title": "Telecom Admin – General Trade Knowledge & Theory",
+    "description": "Quiz loaded from JSON question bank.",
+    "file": "data/telco-general-theory-01.json",
+    "questionCount": 10
+  }
+]
