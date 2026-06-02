@@ -1,0 +1,367 @@
+{
+  "id": "nec-mixed-02",
+  "title": "NEC 2023 + General Theory — Mixed Set 02",
+  "description": "Questions 29–60 from study session: NEC Articles 110, 230, 250, 310.15, 314, 334, 408, 500, 501, and general trade theory (Ohm's Law, AC/DC, fiber optic, data cabling, PoE).",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the maximum ampacity permitted for 14/2 NM cable with grounding used in residential wiring?",
+      "choices": [
+        "15 amperes",
+        "20 amperes",
+        "25 amperes",
+        "30 amperes"
+      ],
+      "answer": "15 amperes",
+      "explanation": "NEC 334.80 / 310.15: 14 AWG copper conductors are rated at 15 A when used in Type NM cable in residential wiring. Overcurrent protection must not exceed 15 A."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following conductors is NOT permitted for grounding electrode conductors per NEC Article 250?",
+      "choices": [
+        "Bare copper",
+        "Aluminum",
+        "Galvanized steel",
+        "Stainless steel"
+      ],
+      "answer": "Stainless steel",
+      "explanation": "NEC 250.62: Grounding electrode conductors shall be of copper, aluminum, or copper-clad aluminum. Stainless steel is not listed as a permitted material."
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of grounding electrode conductors as per NEC Article 250?",
+      "choices": [
+        "To provide a path for fault current to return safely to the earth",
+        "To carry fault current under normal conditions",
+        "To increase electrical resistance in the system",
+        "To reduce energy consumption"
+      ],
+      "answer": "To provide a path for fault current to return safely to the earth",
+      "explanation": "NEC 250: The grounding electrode conductor connects the system or equipment grounding to the earth, providing a reference potential and a path for fault current dissipation."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following factors should be considered when determining the minimum size for junction and pull boxes according to NEC Article 314?",
+      "choices": [
+        "Number of conductors, devices, or fittings",
+        "Manufacturer's brand name",
+        "Color of the box",
+        "Distance from the ground"
+      ],
+      "answer": "Number of conductors, devices, or fittings",
+      "explanation": "NEC 314.16: Box fill calculations are based on the number and size of conductors, devices, and fittings entering or contained in the box."
+    },
+    {
+      "id": 5,
+      "question": "What is the minimum size copper grounding electrode conductor required for a building with 200 A service according to NEC Article 250?",
+      "choices": [
+        "#6 AWG",
+        "#8 AWG",
+        "#10 AWG",
+        "#4 AWG"
+      ],
+      "answer": "#4 AWG",
+      "explanation": "NEC 250.66, Table 250.66: For service-entrance conductors sized up to 2/0 AWG copper (typical for 200 A service), the minimum copper grounding electrode conductor is #4 AWG."
+    },
+    {
+      "id": 6,
+      "question": "According to NEC Article 250, which of the following is a requirement for grounding electrode conductors?",
+      "choices": [
+        "They shall be insulated for their entire length.",
+        "They shall not be smaller than 6 AWG copper or 4 AWG aluminum.",
+        "They are permitted to be spliced.",
+        "They are not required to be connected to more than one grounding electrode."
+      ],
+      "answer": "They shall not be smaller than 6 AWG copper or 4 AWG aluminum.",
+      "explanation": "NEC 250.62 / 250.64: Grounding electrode conductors shall not be smaller than 6 AWG copper or 4 AWG aluminum, regardless of the calculation in Table 250.66."
+    },
+    {
+      "id": 7,
+      "question": "According to the 2023 NEC, which of the following statements is true regarding the use of NM cable in residential wiring? (NEC 334)",
+      "choices": [
+        "It is permitted in wet locations such as bathrooms.",
+        "It must be protected from physical damage where necessary.",
+        "It can be exposed on the surface without any protection.",
+        "It is suitable for direct burial applications."
+      ],
+      "answer": "It must be protected from physical damage where necessary.",
+      "explanation": "NEC 334.15 / 334.12: Type NM cable must be protected from physical damage where subject to it. It is not permitted in wet locations, direct burial, or exposed without protection where damage is likely."
+    },
+    {
+      "id": 8,
+      "question": "What is the power dissipated in a circuit with a resistance of 10 ohms and a current of 2 amperes?",
+      "choices": [
+        "12 watts",
+        "20 watts",
+        "5 watts",
+        "40 watts"
+      ],
+      "answer": "40 watts",
+      "explanation": "General Theory — Ohm's Law / Power: P = I² × R = (2)² × 10 = 4 × 10 = 40 W."
+    },
+    {
+      "id": 9,
+      "question": "According to the 2023 NEC, what is the minimum depth required for a standard electrical box when mounted in combustible material? (NEC 314)",
+      "choices": [
+        "1 1/2 inches",
+        "1 inch",
+        "2 inches",
+        "2 1/2 inches"
+      ],
+      "answer": "1 1/2 inches",
+      "explanation": "NEC 314.20: Boxes installed in walls or ceilings of combustible material shall be flush with the surface or project therefrom; the minimum permitted box depth in combustible surfaces is 1 1/2 inches."
+    },
+    {
+      "id": 10,
+      "question": "According to the 2023 NEC, what is the minimum depth required for a device box when installed in a combustible wall surface? (NEC 314)",
+      "choices": [
+        "1 1/4 inches",
+        "1 1/2 inches",
+        "2 inches",
+        "2 1/2 inches"
+      ],
+      "answer": "1 1/2 inches",
+      "explanation": "NEC 314.20: Device boxes installed in combustible wall surfaces shall be flush with or project from the surface; standard minimum depth for device boxes is 1 1/2 inches per NEC listing requirements."
+    },
+    {
+      "id": 11,
+      "question": "According to the 2023 NEC Article 408, what is the minimum width required for working space in front of electrical equipment such as panelboards? (NEC 110)",
+      "choices": [
+        "24 inches",
+        "30 inches",
+        "36 inches",
+        "42 inches"
+      ],
+      "answer": "30 inches",
+      "explanation": "NEC 110.26(A)(2): The minimum width of working space in front of electrical equipment shall be 30 inches, or the width of the equipment, whichever is greater."
+    },
+    {
+      "id": 12,
+      "question": "For a residential service, what is the minimum size copper equipment grounding conductor required for a 200 A service according to NEC Article 230? (NEC 250)",
+      "choices": [
+        "#8 AWG",
+        "#6 AWG",
+        "#4 AWG",
+        "#2 AWG"
+      ],
+      "answer": "#4 AWG",
+      "explanation": "NEC 250.66, Table 250.66: For service-entrance conductors up to 2/0 AWG copper (200 A service), the minimum copper grounding electrode conductor is #4 AWG."
+    },
+    {
+      "id": 13,
+      "question": "What is the power consumption of a 120 V light bulb with a resistance of 144 ohms?",
+      "choices": [
+        "60 W",
+        "80 W",
+        "90 W",
+        "100 W"
+      ],
+      "answer": "100 W",
+      "explanation": "General Theory — Power: P = V² ÷ R = (120)² ÷ 144 = 14,400 ÷ 144 = 100 W."
+    },
+    {
+      "id": 14,
+      "question": "A 120 V circuit has a resistance of 12 ohms. What is the power consumption in watts?",
+      "choices": [
+        "10 W",
+        "100 W",
+        "1,200 W",
+        "1,000 W"
+      ],
+      "answer": "1,200 W",
+      "explanation": "General Theory — Power: P = V² ÷ R = (120)² ÷ 12 = 14,400 ÷ 12 = 1,200 W."
+    },
+    {
+      "id": 15,
+      "question": "According to the 2023 NEC, what is the maximum number of current-carrying conductors permitted in a Type NM cable without adjustment factors applied? (NEC 310.15 / 334.80)",
+      "choices": [
+        "9",
+        "8",
+        "7",
+        "6"
+      ],
+      "answer": "9",
+      "explanation": "NEC 310.15(C)(1) / 334.80: Adjustment factors for more than three current-carrying conductors apply when there are 4 or more. However, NM cable (334.80) allows up to 9 current-carrying conductors before a special fill adjustment triggers—beyond 9 the standard bundling derating applies per 310.15(C)."
+    },
+    {
+      "id": 16,
+      "question": "In a Class I, Division 1 hazardous location, which type of equipment protection method is commonly used to prevent the ignition of flammable gases or vapors? (NEC 500)",
+      "choices": [
+        "Increased safety (Ex e)",
+        "Flameproof (Ex d)",
+        "Purged and pressurized (Ex p)",
+        "Dust-ignition proof (Ex t)"
+      ],
+      "answer": "Flameproof (Ex d)",
+      "explanation": "NEC 500 / NFPA 70: Flameproof (explosion-proof, Ex d) enclosures are the most common protection method in Class I, Division 1 locations—they contain any internal ignition and prevent flame propagation to the surrounding atmosphere."
+    },
+    {
+      "id": 17,
+      "question": "When working with electrical equipment in wet or damp locations, which of the following safety practices should be observed to prevent electric shock hazards? (NEC 110)",
+      "choices": [
+        "Ensure all electrical connections are tightly wrapped with electrical tape",
+        "Use only double-insulated tools and equipment",
+        "Wear non-insulated gloves to provide protection",
+        "Connect multiple extension cords together for increased reach"
+      ],
+      "answer": "Use only double-insulated tools and equipment",
+      "explanation": "NEC 110.26 / General Safety: Double-insulated tools provide an additional layer of protection against shock in wet or damp locations where ground faults are more likely."
+    },
+    {
+      "id": 18,
+      "question": "In a Class I, Division 1 hazardous location, what type of equipment is permitted to be installed? (NEC 501)",
+      "choices": [
+        "Only explosion-proof equipment",
+        "Only intrinsically safe equipment",
+        "Both explosion-proof and intrinsically safe equipment",
+        "Neither explosion-proof nor intrinsically safe equipment"
+      ],
+      "answer": "Both explosion-proof and intrinsically safe equipment",
+      "explanation": "NEC 501.10(A): In Class I, Division 1 locations, equipment shall be explosion-proof, intrinsically safe, or approved for the specific hazardous location—both methods are permitted."
+    },
+    {
+      "id": 19,
+      "question": "What is the power dissipated by a circuit with a voltage of 120 volts and a resistance of 10 ohms?",
+      "choices": [
+        "12 watts",
+        "60 watts",
+        "1,440 watts",
+        "240 watts"
+      ],
+      "answer": "1,440 watts",
+      "explanation": "General Theory — Power: P = V² ÷ R = (120)² ÷ 10 = 14,400 ÷ 10 = 1,440 W."
+    },
+    {
+      "id": 20,
+      "question": "According to the 2023 NEC, what is the maximum number of current-carrying conductors permitted in a single nonmetallic-sheathed cable (Type NM) installed without maintaining spacing from thermal insulation without adjustment factors? (NEC 310.15 / 334.80)",
+      "choices": [
+        "8",
+        "12",
+        "4",
+        "6"
+      ],
+      "answer": "4",
+      "explanation": "NEC 334.80 Exception: Where NM cable is installed in thermal insulation without maintaining spacing, adjustment factors of 310.15(C) apply if there are more than 4 current-carrying conductors."
+    },
+    {
+      "id": 21,
+      "question": "When analyzing a circuit in a residential building, which of the following factors typically indicates an alternating current (AC) circuit rather than a direct current (DC) circuit?",
+      "choices": [
+        "Use of a battery as a power source",
+        "Presence of transformers in the circuit",
+        "Conductors with positive and negative terminals",
+        "Operating at low voltage levels"
+      ],
+      "answer": "Presence of transformers in the circuit",
+      "explanation": "General Theory — AC/DC: Transformers only function with AC because they rely on a changing magnetic field produced by alternating current. Batteries produce DC; positive/negative terminals are DC characteristics."
+    },
+    {
+      "id": 22,
+      "question": "A twisted pair used for data transmission helps reduce which undesirable effect?",
+      "choices": [
+        "Conductor oxidation",
+        "Electromagnetic interference (EMI) and crosstalk",
+        "Voltage drop",
+        "Ground fault current"
+      ],
+      "answer": "Electromagnetic interference (EMI) and crosstalk",
+      "explanation": "General Theory — Data Cabling: Twisting the pair causes induced noise to appear equally on both conductors (common mode), which the differential receiver cancels out, reducing EMI pickup and crosstalk between adjacent pairs."
+    },
+    {
+      "id": 23,
+      "question": "Which statement best describes impedance in an AC communications circuit?",
+      "choices": [
+        "It is the same as resistance and ignores reactance.",
+        "It is the opposition to current flow due only to inductance.",
+        "It is the total opposition to AC, combining resistance, inductive reactance, and capacitive reactance.",
+        "It is the voltage divided by capacitance."
+      ],
+      "answer": "It is the total opposition to AC, combining resistance, inductive reactance, and capacitive reactance.",
+      "explanation": "General Theory — AC Theory: Impedance (Z) is the vector sum of resistance (R) and reactance (X = XL − XC). It represents the total opposition to current flow in an AC circuit."
+    },
+    {
+      "id": 24,
+      "question": "In a fiber-optic link, which of the following is a primary advantage over copper for long-distance data transmission?",
+      "choices": [
+        "Lower equipment cost",
+        "Immunity to electromagnetic interference and greater bandwidth",
+        "Ability to carry DC power and data on the same fiber",
+        "Easier field termination without special tools"
+      ],
+      "answer": "Immunity to electromagnetic interference and greater bandwidth",
+      "explanation": "General Theory — Fiber Optic: Fiber-optic cable transmits light, not electrical signals, so it is inherently immune to EMI/RFI. It also supports far greater bandwidth over much longer distances than copper."
+    },
+    {
+      "id": 25,
+      "question": "Which of the following is the most appropriate instrument for checking the integrity and length of a twisted-pair communications cable in the field?",
+      "choices": [
+        "Clamp-on ammeter",
+        "Time-Domain Reflectometer (TDR)",
+        "Infrared thermometer",
+        "Megohmmeter (megger)"
+      ],
+      "answer": "Time-Domain Reflectometer (TDR)",
+      "explanation": "General Theory — Test Equipment: A TDR sends a signal pulse down the cable and measures the time for reflections to return, identifying faults, breaks, or impedance discontinuities and calculating cable length."
+    },
+    {
+      "id": 26,
+      "question": "In a balanced twisted-pair data cable, why is maintaining the pair twist and observing pair integrity during termination important?",
+      "choices": [
+        "It increases the DC resistance to reduce current flow.",
+        "It improves insulation resistance between conductors.",
+        "It preserves characteristic impedance and minimizes crosstalk.",
+        "It ensures the cable can carry higher DC voltages."
+      ],
+      "answer": "It preserves characteristic impedance and minimizes crosstalk.",
+      "explanation": "General Theory — Data Cabling: Untwisting pairs at termination points beyond the allowed length (per TIA-568: max 13 mm / 0.5 in. for Cat 6) disrupts the balanced geometry, raising crosstalk and altering characteristic impedance."
+    },
+    {
+      "id": 27,
+      "question": "When converting between bits per second (b/s) and bytes per second (B/s), which relationship is typically used?",
+      "choices": [
+        "1 byte = 4 bits",
+        "1 byte = 8 bits",
+        "1 byte = 10 bits",
+        "1 byte = 16 bits"
+      ],
+      "answer": "1 byte = 8 bits",
+      "explanation": "General Theory — Digital Data: By convention, 1 byte = 8 bits. To convert b/s to B/s, divide by 8 (e.g., 100 Mb/s ÷ 8 = 12.5 MB/s)."
+    },
+    {
+      "id": 28,
+      "question": "Which unit is commonly used to express the signal strength of RF or coaxial cable systems relative to 1 milliwatt?",
+      "choices": [
+        "Volts",
+        "Amperes",
+        "dBm",
+        "Ohms"
+      ],
+      "answer": "dBm",
+      "explanation": "General Theory — RF / Signal Level: dBm (decibels relative to 1 milliwatt) is the standard unit for expressing absolute signal power in RF, coaxial, and fiber-optic systems."
+    },
+    {
+      "id": 29,
+      "question": "A PoE (Power over Ethernet) system delivers both data and DC power over the same cable. Which cable characteristic is most critical to verify before loading additional PoE devices on an existing run?",
+      "choices": [
+        "Conductor color sequence",
+        "Cable jacket color",
+        "Cable temperature rating",
+        "Copper conductor gauge and length (for voltage drop and power loss)"
+      ],
+      "answer": "Copper conductor gauge and length (for voltage drop and power loss)",
+      "explanation": "General Theory — PoE / Data Cabling: PoE power delivery is limited by the DC resistance of the cable run (gauge × length). Thinner or longer cables cause higher voltage drop and resistive heating, potentially starving powered devices or exceeding thermal limits."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following best describes the purpose of shielding in a shielded twisted-pair (STP) communications cable?",
+      "choices": [
+        "To increase the cable's tensile strength",
+        "To reduce electromagnetic interference coupling into or out of the cable",
+        "To lower the cable's characteristic impedance",
+        "To allow higher DC current to flow without overheating"
+      ],
+      "answer": "To reduce electromagnetic interference coupling into or out of the cable",
+      "explanation": "General Theory — Data Cabling: The metallic shield (foil or braid) in STP acts as a Faraday cage, attenuating external EMI from entering the cable and preventing internal signals from radiating outward."
+    }
+  ]
+}
