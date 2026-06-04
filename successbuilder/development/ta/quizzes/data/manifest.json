@@ -1,30 +1,107 @@
 [
   {
-    "id": "nec-theory-mixed-01",
-    "title": "NEC 2023 + General Theory – Mixed Set 01",
-    "description": "Quiz loaded from JSON question bank.",
-    "file": "data/nec-theory-mixed-01.json",
-    "questionCount": 13
+    "id": "general-theory-extended",
+    "title": "General Trade Knowledge & Theory — Extended",
+    "description": "Electrical theory, Ohm's Law, AC/DC fundamentals, transformers, test equipment, trade math, data cabling, fiber optics, and safety for the WA Telecom Administrator exam. 30 questions.",
+    "file": "data/general-theory-extended.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-100-110-general",
+    "title": "NEC Articles 100–110 — Definitions & General Requirements",
+    "description": "Key definitions from Article 100 and general installation requirements from Article 110. 30 questions.",
+    "file": "data/nec-100-110-general.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-240-overcurrent",
+    "title": "NEC Article 240 — Overcurrent Protection",
+    "description": "Fuses, circuit breakers, conductor protection, and overcurrent device sizing per NEC 2023 Article 240. 30 questions.",
+    "file": "data/nec-240-overcurrent.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-250-grounding-bonding",
+    "title": "NEC Article 250 — Grounding & Bonding",
+    "description": "System grounding, equipment grounding, grounding electrodes, bonding, and grounding electrode conductors per NEC 2023 Article 250. 30 questions.",
+    "file": "data/nec-250-grounding-bonding.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-300-398-wiring-methods",
+    "title": "NEC Articles 300–398 — Wiring Methods & Materials",
+    "description": "Installation requirements for conduit, cables, raceways, and conductors per NEC 2023 Articles 300–398. 30 questions.",
+    "file": "data/nec-300-398-wiring-methods.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-500-516-hazardous-locations",
+    "title": "NEC Articles 500–516 — Hazardous Locations",
+    "description": "Classification of hazardous locations, Class I/II/III divisions and zones, explosion-proof and intrinsically safe equipment, and wiring methods per NEC 2023 Articles 500–516. 30 questions.",
+    "file": "data/nec-500-516-hazardous-locations.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-705-780-special-conditions",
+    "title": "NEC Articles 705–780 — Special Conditions (PV, ESS, Interconnected Power)",
+    "description": "Interconnected power production sources, photovoltaic systems, energy storage, and low-voltage lighting per NEC 2023 Articles 705–780. 30 questions.",
+    "file": "data/nec-705-780-special-conditions.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-800-830-communications",
+    "title": "NEC Articles 800–830 — Communications Systems",
+    "description": "Telephone, data, cable TV, fiber optic, network-powered broadband, and outside plant wiring per NEC 2023 Articles 800–830. 30 questions.",
+    "file": "data/nec-800-830-communications.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-90-introduction",
+    "title": "NEC Article 90 — Introduction",
+    "description": "Covers the purpose, scope, enforcement, and organization of NEC 2023 (NFPA 70). 30 questions.",
+    "file": "data/nec-90-introduction.json",
+    "questionCount": 30
+  },
+  {
+    "id": "nec-2023-grounding-basics",
+    "title": "NEC 2023 — Grounding: Definitions and Functions",
+    "description": "Questions on what grounding is, why it is required, and what it actually does per 2023 NEC grounding and bonding concepts.",
+    "file": "data/nec-grounding.json",
+    "questionCount": 10
+  },
+  {
+    "id": "nec-mixed-02",
+    "title": "NEC 2023 + General Theory — Mixed Set 02",
+    "description": "Questions 29–60 from study session: NEC Articles 110, 230, 250, 310.15, 314, 334, 408, 500, 501, and general trade theory (Ohm's Law, AC/DC, fiber optic, data cabling, PoE).",
+    "file": "data/nec-mixed-02.json",
+    "questionCount": 30
+  },
+  {
+    "id": "pretest-a",
+    "title": "WA Telecom Admin — Pretest A",
+    "description": "40-question mixed pretest sampling NEC Articles 90, 100–110, 240, 300–398, 705–780, 800–830, RCW 19.28, WAC 296-46B, and general theory. Simulates the exam experience.",
+    "file": "data/pretest-a.json",
+    "questionCount": 40
+  },
+  {
+    "id": "pretest-b",
+    "title": "WA Telecom Admin — Pretest B",
+    "description": "40-question mixed pretest sampling NEC Articles 90, 100–110, 240, 300–398, 705–780, 800–830, RCW 19.28, WAC 296-46B, and general theory. Different questions from Pretest A.",
+    "file": "data/pretest-b.json",
+    "questionCount": 40
   },
   {
     "id": "rcw-19-28",
-    "title": "RCW 19.28 — Electrical Installation",
-    "description": "Quiz loaded from JSON question bank.",
+    "title": "RCW 19.28 — Electricians & Electrical Installations",
+    "description": "Washington State law governing electrical contractor licensing, electrician certification, inspections, and enforcement. 30 questions.",
     "file": "data/rcw-19-28.json",
-    "questionCount": 15
+    "questionCount": 30
   },
   {
-    "id": "ta_pq3",
-    "title": "Telco Admin Practice Quiz 3",
-    "description": "Quiz loaded from JSON question bank.",
-    "file": "data/ta_pq3.json",
-    "questionCount": 16
-  },
-  {
-    "id": "telco-general-theory-01",
-    "title": "Telecom Admin – General Trade Knowledge & Theory",
-    "description": "Quiz loaded from JSON question bank.",
-    "file": "data/telco-general-theory-01.json",
-    "questionCount": 10
+    "id": "wa-wac-296-46b",
+    "title": "WAC 296-46B — WA Electrical Safety Standards",
+    "description": "Washington State electrical construction rules, NEC amendments, permits, licensing, exams, and enforcement under WAC 296-46B. 30 questions.",
+    "file": "data/wa-wac-296-46b.json",
+    "questionCount": 30
   }
 ]
