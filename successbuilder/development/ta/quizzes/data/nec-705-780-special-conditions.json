@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "Per NEC 2023 Section 705.6, which equipment used in interactive power production systems must be listed for the application?",
+      "question": "Which equipment used in interactive power production systems must be listed for the application?",
       "choices": [
         "Only the utility service equipment and metering",
         "Only overcurrent protective devices on the load side",
@@ -17,7 +17,7 @@
     },
     {
       "id": 2,
-      "question": "Under NEC 2023 Section 705.12(B)(3)(2) — the '120% rule' — a PV inverter is connected to the load side of a 200 A panelboard busbar with a 200 A main breaker. The backfed breaker must be placed at the opposite end of the busbar from the main breaker. What is the maximum rating permitted for that backfed breaker?",
+      "question": "The '120% rule' — a PV inverter is connected to the load side of a 200 A panelboard busbar with a 200 A main breaker. The backfed breaker must be placed at the opposite end of the busbar from the main breaker. What is the maximum rating permitted for that backfed breaker?",
       "choices": [
         "40 A",
         "60 A",
@@ -29,7 +29,7 @@
     },
     {
       "id": 3,
-      "question": "NEC 2023 Section 705.20 requires that the disconnecting means for an interactive power production source have which of the following characteristics?",
+      "question": "The NEC requires that the disconnecting means for an interactive power production source have which of the following characteristics?",
       "choices": [
         "It must be located within the utility meter enclosure",
         "It must be readily accessible and capable of being locked in the open position",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "question": "Which wiring methods are permitted for interconnected power production systems under NEC 2023 Section 705.25?",
+      "question": "Which wiring methods are permitted for interconnected power production systems?",
       "choices": [
         "Only rigid metal conduit (RMC) and intermediate metal conduit (IMC)",
         "Any wiring method included in Chapter 3 that is suitable for the conditions",
@@ -53,7 +53,7 @@
     },
     {
       "id": 5,
-      "question": "NEC 2023 Section 705.40 addresses the behavior of an interactive power production source upon loss of the primary source (utility). What does this section require?",
+      "question": "The NEC addresses the behavior of an interactive power production source upon loss of the primary source (utility), requiring ______ ?",
       "choices": [
         "The interactive system shall continue to energize the premises wiring to supply critical loads",
         "The interactive system shall automatically de-energize and shall not reconnect until the primary source is restored",
@@ -65,7 +65,7 @@
     },
     {
       "id": 6,
-      "question": "Under NEC 2023 Article 705, Part IV (Microgrid Systems), Section 705.50, what operational capability must a microgrid system have to qualify as a microgrid under the NEC?",
+      "question": "What operational capability must a microgrid system have to qualify as a microgrid under the NEC?",
       "choices": [
         "It must operate permanently in island mode without any connection to the utility",
         "It must be capable of disconnecting from the primary source and operating in island mode, and be capable of reconnecting to that primary source",
@@ -77,7 +77,7 @@
     },
     {
       "id": 7,
-      "question": "Per NEC 2023 Section 705.60, how must connections between a microgrid system and an external primary power source (such as the utility) be made?",
+      "question": "How must connections between a microgrid system and an external primary power source (such as the utility) be made?",
       "choices": [
         "Only at the supply side of the service disconnecting means per 705.11",
         "Only at the load side of the service disconnecting means using the 120% busbar rule",
@@ -89,7 +89,7 @@
     },
     {
       "id": 8,
-      "question": "NEC 2023 Article 706 applies to energy storage systems (ESS). Which of the following correctly states the capacity threshold that triggers the scope of Article 706?",
+      "question": "Which of the following correctly states the  energy storage systems (ESS) capacity threshold that triggers the scope of the NEC?",
       "choices": [
         "Greater than 1 kWh (3.6 MJ)",
         "Greater than 5 kWh (18 MJ)",
@@ -101,7 +101,7 @@
     },
     {
       "id": 9,
-      "question": "Which of the following best matches the NEC 2023 definition of an Energy Storage System (ESS) as found in Section 706.2?",
+      "question": "Which of the following best matches the NEC 2023 definition of an Energy Storage System (ESS)?",
       "choices": [
         "A system consisting solely of lead-acid batteries used for emergency lighting and exit signs",
         "One or more components assembled together capable of storing energy and providing that energy to an electrical circuit",
@@ -113,7 +113,7 @@
     },
     {
       "id": 10,
-      "question": "NEC 2023 Section 706.10 addresses listing requirements for energy storage systems. What does it require?",
+      "question": "The NEC addresses listing requirements for energy storage systems. What does it require?",
       "choices": [
         "ESS equipment is not required to be listed if designed by a licensed professional engineer",
         "Only the inverter portion of the ESS must be listed; the battery modules are exempt",
@@ -125,7 +125,7 @@
     },
     {
       "id": 11,
-      "question": "Under NEC 2023 Section 706.20, where must the disconnecting means for an energy storage system (ESS) be located?",
+      "question": "Where must the disconnecting means for an energy storage system (ESS) be located?",
       "choices": [
         "At the utility meter base, accessible only to utility personnel",
         "Readily accessible and within sight of the ESS; if not within sight, as close as practicable and lockable open per 110.25",
@@ -137,7 +137,7 @@
     },
     {
       "id": 12,
-      "question": "Per NEC 2023 Section 706.30(A), what is the minimum ampere rating required for overcurrent protective devices (OCPDs) protecting energy storage system (ESS) output circuits?",
+      "question": "What is the minimum ampere rating required for overcurrent protective devices (OCPDs) protecting energy storage system (ESS) output circuits?",
       "choices": [
         "100% of the maximum current marked on the ESS nameplate",
         "115% of the maximum current marked on the ESS nameplate",
@@ -149,7 +149,7 @@
     },
     {
       "id": 13,
-      "question": "NEC 2023 Article 690 covers PV systems. Per Section 690.2, which of the following correctly describes a 'PV source circuit'?",
+      "question": "Which of the following correctly describes a 'PV source circuit'?",
       "choices": [
         "The conductors between the PV array output combiner and the input terminals of the utility-interactive inverter",
         "The conductors between PV modules and from PV modules to the common connection point(s) of the DC system",
@@ -161,7 +161,7 @@
     },
     {
       "id": 14,
-      "question": "NEC 2023 Section 690.12 requires rapid shutdown for PV systems installed on or in buildings. Which statement correctly describes the voltage limit and time requirement for controlled conductors outside the array boundary?",
+      "question": "NEC 2023 Section 690.12 requires rapid shutdown for installed on or in buildings. Which statement correctly describes the voltage limit and time requirement for controlled conductors outside the array boundary for  PV system installs?",
       "choices": [
         "Conductors must be de-energized to 0 volts within 10 seconds of initiation",
         "Conductors must be limited to not more than 30 volts within 30 seconds of rapid shutdown initiation",
@@ -171,21 +171,21 @@
       "answer": "Conductors must be limited to not more than 30 volts within 30 seconds of rapid shutdown initiation",
       "explanation": "NEC 690.12(B)(1) requires that controlled conductors located outside the array boundary — defined in 690.12(B) as 1 ft (305 mm) from the array in all directions — or more than 3 ft (1 m) from the point of entry inside a building, shall be limited to not more than 30 volts (and 240 VA) within 30 seconds of rapid shutdown initiation. Inside the array boundary, 690.12(B)(2) requires the PV system to provide shock hazard control through a listed Photovoltaic Hazard Control System (PVHCS). Rapid shutdown applies to PV circuits on or in buildings; an exception applies for ground-mounted arrays where the sole purpose of entering the building is to house PV system equipment."
     },
-    {
+     {
       "id": 15,
-      "question": "NEC 2023 Section 690.47(A) governs the grounding electrode system for buildings or structures supporting a PV system. What does this section require?",
+      "question": "Which statement best explains what grounding does for overvoltage events such as lightning or line surges, according to NEC grounding principles?",
       "choices": [
-        "A separate dedicated grounding electrode must be driven at each corner of the PV array",
-        "The building or structure supporting the PV system shall have a grounding electrode system installed in accordance with Article 250 Part III",
-        "PV systems using transformerless (ungrounded) inverters are exempt from all grounding electrode requirements",
-        "A copper ground rod of at least 10 ft must be driven directly at the inverter location"
+        "It prevents any surge current from entering the building",
+        "It provides a reference and path to earth to help limit the voltage rise of the system during surges",
+        "It eliminates all risk to sensitive electronic equipment",
+        "It diverts all fault current into the neutral conductor"
       ],
-      "answer": "The building or structure supporting the PV system shall have a grounding electrode system installed in accordance with Article 250 Part III",
-      "explanation": "NEC 690.47(A) requires that a building or structure supporting a PV system shall have a grounding electrode system installed in accordance with Part III of Article 250. PV array equipment grounding conductors shall be connected to this grounding electrode system in accordance with Article 250 Part VII, in addition to any other equipment grounding conductor requirements in 690.43(C). PV array equipment grounding conductors shall be sized per 690.45, and the grounding electrode conductor shall be sized per 250.66. Additional auxiliary grounding electrodes are permitted (not required) per 250.52 and 250.54, and may be connected directly to the module frame(s) or support structure."
+      "answer": "It provides a reference and path to earth to help limit the voltage rise of the system during surges",
+      "explanation": "Grounding to earth does not eliminate surges, but it gives the system a stable reference and can help limit the peak voltage by providing a path for surge energy to dissipate into the earth."
     },
     {
       "id": 16,
-      "question": "NEC 2023 Section 705.11 permits an interconnected power production source to be connected on the supply side of the service disconnecting means. What primary advantage does a supply-side connection offer compared to a load-side (705.12) connection?",
+      "question": "The NEC permits an interconnected power production source to be connected on the supply side of the service disconnecting means. What primary advantage does a supply-side connection offer compared to a load-side connection?",
       "choices": [
         "Supply-side connections do not require a disconnecting means or overcurrent protection of any kind",
         "Supply-side connections are not subject to the 120% busbar loading rule, allowing larger systems to interconnect without being constrained by panelboard busbar ratings",
@@ -197,7 +197,7 @@
     },
     {
       "id": 17,
-      "question": "Under NEC 2023 Section 705.12(B)(1), a PV system is connected using a dedicated circuit breaker in the panelboard (with no other loads on that branch circuit). How does this connection method relate to the 120% busbar rule in 705.12(B)(3)?",
+      "question": "A PV system is connected using a dedicated circuit breaker in the panelboard (with no other loads on that branch circuit). How does this connection method relate to the 120% busbar rule in 705.12(B)(3)?",
       "choices": [
         "The 120% rule still applies in full; the dedicated circuit breaker is counted the same as a backfed breaker",
         "The dedicated branch circuit connection method does not involve a backfed breaker and so the 120% busbar rule formula in 705.12(B)(3) does not apply to this method",
@@ -209,7 +209,7 @@
     },
     {
       "id": 18,
-      "question": "NEC 2023 Section 705.12(B)(3)(1) requires a permanent warning label at the point of interconnection when a backfed breaker is used for a PV inverter connection. What exact wording must appear on that label?",
+      "question": "The NEC equires a permanent warning label at the point of interconnection when a backfed breaker is used for a PV inverter connection. What exact wording must appear on that label?",
       "choices": [
         "WARNING — SOLAR CIRCUIT — DO NOT OPERATE UNDER LOAD",
         "CAUTION — DUAL-FED PANEL — DISCONNECT ALL SOURCES BEFORE SERVICING",
@@ -221,7 +221,7 @@
     },
     {
       "id": 19,
-      "question": "NEC 2023 Section 705.13 introduces power control systems (PCS) as an alternative interconnection method. What is the fundamental mechanism by which a power control system allows interconnection of a source that would otherwise exceed panelboard busbar limits?",
+      "question": "The NEC ntroduces power control systems (PCS) as an alternative interconnection method. What is the fundamental mechanism by which a power control system allows interconnection of a source that would otherwise exceed panelboard busbar limits?",
       "choices": [
         "The PCS monitors utility voltage only and disconnects the source if voltage drifts outside ±5%",
         "The PCS actively limits or manages the combined power output to prevent the busbar from being loaded beyond its rating, providing an alternative to the static 120% calculation",
@@ -233,7 +233,7 @@
     },
     {
       "id": 20,
-      "question": "NEC 2023 Section 705.65 addresses the microgrid interconnect device (MID). What specific requirement does this section impose on the MID when it reconnects an islanded microgrid back to the primary source?",
+      "question": "The NEC addresses the microgrid interconnect device (MID). What specific requirement does this section impose on the MID when it reconnects an islanded microgrid back to the primary source?",
       "choices": [
         "The MID must open all microgrid circuits for a minimum of 5 minutes before reconnecting to prevent surge damage",
         "The MID must provide a synchronous transition — ensuring the microgrid voltage is in phase with the primary source — before closing the interconnection",
@@ -245,7 +245,7 @@
     },
     {
       "id": 21,
-      "question": "Per NEC 2023 Section 706.30(B), what minimum ampacity must the conductors of ESS output circuits have relative to the ESS nameplate current rating?",
+      "question": "What minimum ampacity must the conductors of ESS output circuits have relative to the ESS nameplate current rating?",
       "choices": [
         "100% of the maximum current marked on the ESS nameplate",
         "115% of the maximum current marked on the ESS nameplate",
@@ -257,7 +257,7 @@
     },
     {
       "id": 22,
-      "question": "NEC 2023 Section 706.31 requires disconnecting means for ESS circuits. Which statement correctly describes what this section mandates regarding the switching action of an ESS disconnecting means?",
+      "question": "The NEC requires disconnecting means for ESS circuits. Which statement correctly describes what this section mandates regarding the switching action of an ESS disconnecting means?",
       "choices": [
         "The disconnecting means must be a fused switch; circuit breakers are not permitted for ESS circuits",
         "A single shared disconnecting means may serve all ESS and PV circuits in a combined system",
@@ -269,7 +269,7 @@
     },
     {
       "id": 23,
-      "question": "NEC 2023 Section 706.40 addresses installation and listing requirements for ESS equipment installed outdoors. What does this section require beyond the general listing requirement?",
+      "question": "The NEC ddresses installation and listing requirements for ESS equipment installed outdoors. What does this section require beyond the general listing requirement?",
       "choices": [
         "Outdoor ESS must be installed in a dedicated outbuilding separated from the main structure by at least 10 ft",
         "Outdoor ESS must be listed and identified as suitable for outdoor use, with appropriate environmental ratings for the installation location",
@@ -281,7 +281,7 @@
     },
     {
       "id": 24,
-      "question": "NEC 2023 Section 690.7 requires calculation of the maximum PV system voltage using temperature correction. At what ambient temperature condition is the maximum system DC voltage calculated, and why?",
+      "question": "The NEC equires calculation of the maximum PV system voltage using temperature correction. At what ambient temperature condition is the maximum system DC voltage calculated, and why?",
       "choices": [
         "At the highest expected summer temperature, because high heat increases the open-circuit voltage of PV modules",
         "At the standard test condition (STC) temperature of 25°C (77°F), because STC ratings are the only recognized baseline",
@@ -293,7 +293,7 @@
     },
     {
       "id": 25,
-      "question": "Per NEC 2023 Section 690.8, what value is used as the basis for sizing conductors and overcurrent protective devices for PV source and output circuits?",
+      "question": "What value is used as the basis for sizing conductors and overcurrent protective devices for PV source and output circuits?",
       "choices": [
         "The maximum power current (Imp) at STC, since this is the normal operating current",
         "125% of the short-circuit current (Isc) at STC, treating PV output as a continuous load",
@@ -305,7 +305,7 @@
     },
     {
       "id": 26,
-      "question": "NEC 2023 Section 690.9 requires overcurrent protection for PV source circuits and PV output circuits. Under which specific condition does 690.9 permit a PV source circuit to be installed without a dedicated overcurrent protective device?",
+      "question": "The NEC requires overcurrent protection for PV source circuits and PV output circuits. Under which specific condition does 690.9 permit a PV source circuit to be installed without a dedicated overcurrent protective device?",
       "choices": [
         "When the PV circuit uses conductors rated at 90°C and the conduit fill is less than 40%",
         "When the short-circuit current from all other sources connected in parallel does not exceed the ampacity of the circuit conductors and the rating of connected equipment",
@@ -317,7 +317,7 @@
     },
     {
       "id": 27,
-      "question": "NEC 2023 Section 690.11 requires arc-fault circuit protection for DC PV circuits. To which installations and circuit locations does this requirement specifically apply?",
+      "question": "The NEC requires arc-fault circuit protection for DC PV circuits. To which installations and circuit locations does this requirement specifically apply?",
       "choices": [
         "All PV systems, including ground-mounted utility-scale systems, on all DC circuits from modules to inverter",
         "PV systems installed on or in buildings — a listed DC arc-fault circuit protection device is required to protect the DC PV system circuits",
@@ -329,7 +329,7 @@
     },
     {
       "id": 28,
-      "question": "NEC 2023 Section 690.12(B)(2) addresses shock hazard control within the PV array boundary during rapid shutdown. What does it require?",
+      "question": "The NEC addresses shock hazard control within the PV array boundary during rapid shutdown. What does it require?",
       "choices": [
         "All conductors within the array boundary must be reduced to 0 volts within 30 seconds of rapid shutdown initiation",
         "Modules within the array boundary must be physically disconnected from each other by a listed switching device at each module",
