@@ -13,7 +13,7 @@
         "To provide a low-resistance path between all ungrounded conductors"
       ],
       "answer": "To provide an intentional connection between the electrical system and the earth for stabilization of system voltage and limitation of overvoltages",
-      "explanation": "System grounding intentionally connects the electrical system to earth to stabilize the voltage with respect to ground and help limit voltage from lightning, line surges, or accidental contact with higher-voltage systems, as described in NEC grounding principles in Article 250.[web:39][web:40][web:41]"
+      "explanation": "System grounding intentionally connects the electrical system to earth to stabilize the voltage with respect to ground and help limit voltage from lightning, line surges, or accidental contact with higher-voltage systems, as described in NEC grounding principles in Article 250."
     },
     {
       "id": 2,
@@ -25,7 +25,7 @@
         "It eliminates the need for overcurrent protective devices"
       ],
       "answer": "It provides a low-impedance fault-current path that facilitates quick operation of overcurrent devices during ground faults",
-      "explanation": "Equipment grounding conductors and bonding connections are used to create an effective ground-fault current path so a fault will cause enough current to flow to open the overcurrent device and remove dangerous voltage from exposed metal parts.[web:39][web:40][web:42]"
+      "explanation": "Equipment grounding conductors and bonding connections are used to create an effective ground-fault current path so a fault will cause enough current to flow to open the overcurrent device and remove dangerous voltage from exposed metal parts."
     },
     {
       "id": 3,
@@ -37,7 +37,7 @@
         "Grounded conductor"
       ],
       "answer": "Effective ground-fault current path",
-      "explanation": "The NEC defines an effective ground-fault current path as an intentionally constructed, low-impedance path designed to carry fault current from the point of fault back to the source, facilitating the operation of overcurrent devices and clearing the fault.[web:39][web:41][web:42]"
+      "explanation": "The NEC defines an effective ground-fault current path as an intentionally constructed, low-impedance path designed to carry fault current from the point of fault back to the source, facilitating the operation of overcurrent devices and clearing the fault."
     },
     {
       "id": 4,
@@ -49,7 +49,7 @@
         "System grounding is only used on DC systems, while equipment grounding is only used on AC systems"
       ],
       "answer": "System grounding connects one conductor of the electrical system to earth, while equipment grounding connects non–current-carrying metal parts to the system grounding point",
-      "explanation": "Under NEC concepts, system grounding refers to connecting a conductor (such as the service neutral) to ground, while equipment grounding connects exposed metal parts to the grounding system so faults will return to the source over a low-impedance path.[web:39][web:41][web:42]"
+      "explanation": "Under NEC concepts, system grounding refers to connecting a conductor (such as the service neutral) to ground, while equipment grounding connects exposed metal parts to the grounding system so faults will return to the source over a low-impedance path."
     },
     {
       "id": 5,
@@ -61,7 +61,7 @@
         "To replace the equipment grounding conductor in interior branch circuits"
       ],
       "answer": "To connect the electrical system to the earth for voltage stabilization and reference",
-      "explanation": "The grounding electrode and grounding electrode conductor form the intentional connection between the electrical system and earth, which stabilizes system voltage with respect to ground and limits overvoltage from surges and lightning.[web:39][web:40][web:41]"
+      "explanation": "The grounding electrode and grounding electrode conductor form the intentional connection between the electrical system and earth, which stabilizes system voltage with respect to ground and limits overvoltage from surges and lightning."
     },
     {
       "id": 6,
@@ -73,7 +73,7 @@
         "It diverts all fault current into the neutral conductor"
       ],
       "answer": "It provides a reference and path to earth to help limit the voltage rise of the system during surges",
-      "explanation": "Grounding to earth does not eliminate surges, but it gives the system a stable reference and can help limit the peak voltage by providing a path for surge energy to dissipate into the earth.[web:39][web:40][web:41]"
+      "explanation": "Grounding to earth does not eliminate surges, but it gives the system a stable reference and can help limit the peak voltage by providing a path for surge energy to dissipate into the earth."
     },
     {
       "id": 7,
@@ -85,7 +85,7 @@
         "To substitute for overcurrent protection on branch circuits"
       ],
       "answer": "To ensure all conductive parts are electrically connected so they rise and fall in potential together during a fault",
-      "explanation": "Bonding ensures that all metal parts are electrically connected, forming part of the effective ground-fault current path and keeping exposed parts at substantially the same potential, reducing shock risk and facilitating device operation.[web:39][web:40][web:41][web:42]"
+      "explanation": "Bonding ensures that all metal parts are electrically connected, forming part of the effective ground-fault current path and keeping exposed parts at substantially the same potential, reducing shock risk and facilitating device operation."
     },
     {
       "id": 8,
@@ -97,7 +97,7 @@
         "To improve the power factor of the electrical system"
       ],
       "answer": "So that any accidental energizing of the metal parts will create a fault that trips the overcurrent device",
-      "explanation": "Article 250 requires grounding of exposed metal parts so that if a phase conductor contacts the metal, the resulting fault current flows over a low-impedance equipment grounding path, causing the overcurrent device to operate and remove dangerous voltage from the equipment.[web:39][web:40][web:42]"
+      "explanation": "Article 250 requires grounding of exposed metal parts so that if a phase conductor contacts the metal, the resulting fault current flows over a low-impedance equipment grounding path, causing the overcurrent device to operate and remove dangerous voltage from the equipment."
     },
     {
       "id": 9,
@@ -109,7 +109,7 @@
         "The grounded (neutral) conductor is never connected to earth anywhere in the system"
       ],
       "answer": "The grounded (neutral) conductor is intended to carry normal current, while the equipment grounding conductor is intended only to carry fault current under abnormal conditions",
-      "explanation": "The NEC treats the grounded conductor as part of the normal current path for loads, while the equipment grounding conductor is intended as a fault-only path to operate protective devices, not a normal current carrier.[web:39][web:41][web:42]"
+      "explanation": "The NEC treats the grounded conductor as part of the normal current path for loads, while the equipment grounding conductor is intended as a fault-only path to operate protective devices, not a normal current carrier."
     },
     {
       "id": 10,
@@ -121,7 +121,7 @@
         "Grounding and bonding allow the use of smaller overcurrent devices than would otherwise be required"
       ],
       "answer": "Grounding and bonding are intended to limit the duration and magnitude of dangerous touch voltages by providing an effective path for fault current to operate protective devices",
-      "explanation": "NEC grounding and bonding rules aim to reduce the risk of electric shock and fire by ensuring that fault currents have a reliable, low-impedance path that clears the fault quickly, reducing the exposure time to hazardous voltages on accessible metal parts.[web:39][web:40][web:41][web:42]"
+      "explanation": "NEC grounding and bonding rules aim to reduce the risk of electric shock and fire by ensuring that fault currents have a reliable, low-impedance path that clears the fault quickly, reducing the exposure time to hazardous voltages on accessible metal parts."
     }
   ]
 }
