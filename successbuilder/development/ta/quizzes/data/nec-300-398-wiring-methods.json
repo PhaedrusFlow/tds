@@ -317,7 +317,7 @@
     },
     {
       "id": 27,
-      "question":What is counted as a conductor equivalent when calculating fill for a device box?",
+     "question": "What is counted as a conductor equivalent when calculating fill for a device box?",
       "choices": [
         "Only current-carrying conductors; equipment grounding conductors and cable clamps are exempt from box fill",
         "Each ungrounded and grounded circuit conductor counts as one, all grounding conductors together count as one, each internal cable clamp counts as one, and each yoke-mounted device counts as two conductors",
