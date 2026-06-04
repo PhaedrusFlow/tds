@@ -1,0 +1,127 @@
+{
+  "id": "nec-2023-grounding-basics",
+  "title": "NEC 2023 — Grounding: Definitions and Functions",
+  "description": "Questions on what grounding is, why it is required, and what it actually does per 2023 NEC grounding and bonding concepts.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to NEC concepts, which statement best describes the primary purpose of grounding a premises electrical system?",
+      "choices": [
+        "To ensure that all energized conductors operate at the same voltage",
+        "To provide an intentional connection between the electrical system and the earth for stabilization of system voltage and limitation of overvoltages",
+        "To guarantee that no person can ever receive an electric shock from the system",
+        "To provide a low-resistance path between all ungrounded conductors"
+      ],
+      "answer": "To provide an intentional connection between the electrical system and the earth for stabilization of system voltage and limitation of overvoltages",
+      "explanation": "System grounding intentionally connects the electrical system to earth to stabilize the voltage with respect to ground and help limit voltage from lightning, line surges, or accidental contact with higher-voltage systems, as described in NEC grounding principles in Article 250.[web:39][web:40][web:41]"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following BEST describes what equipment grounding actually does in an electrical installation?",
+      "choices": [
+        "It carries normal load current during standard operation",
+        "It provides a low-impedance fault-current path that facilitates quick operation of overcurrent devices during ground faults",
+        "It balances the voltage between phases in a three-phase system",
+        "It eliminates the need for overcurrent protective devices"
+      ],
+      "answer": "It provides a low-impedance fault-current path that facilitates quick operation of overcurrent devices during ground faults",
+      "explanation": "Equipment grounding conductors and bonding connections are used to create an effective ground-fault current path so a fault will cause enough current to flow to open the overcurrent device and remove dangerous voltage from exposed metal parts.[web:39][web:40][web:42]"
+    },
+    {
+      "id": 3,
+      "question": "Which NEC term refers to a conducting path that provides a route for ground-fault current back to the source so that a protective device can operate?",
+      "choices": [
+        "Grounding electrode system",
+        "Grounding electrode conductor",
+        "Effective ground-fault current path",
+        "Grounded conductor"
+      ],
+      "answer": "Effective ground-fault current path",
+      "explanation": "The NEC defines an effective ground-fault current path as an intentionally constructed, low-impedance path designed to carry fault current from the point of fault back to the source, facilitating the operation of overcurrent devices and clearing the fault.[web:39][web:41][web:42]"
+    },
+    {
+      "id": 4,
+      "question": "Which statement correctly distinguishes system grounding from equipment grounding as addressed in the NEC?",
+      "choices": [
+        "System grounding connects non–current-carrying metal parts together, while equipment grounding connects a conductor to earth",
+        "System grounding connects one conductor of the electrical system to earth, while equipment grounding connects non–current-carrying metal parts to the system grounding point",
+        "There is no distinction between system grounding and equipment grounding in the NEC",
+        "System grounding is only used on DC systems, while equipment grounding is only used on AC systems"
+      ],
+      "answer": "System grounding connects one conductor of the electrical system to earth, while equipment grounding connects non–current-carrying metal parts to the system grounding point",
+      "explanation": "Under NEC concepts, system grounding refers to connecting a conductor (such as the service neutral) to ground, while equipment grounding connects exposed metal parts to the grounding system so faults will return to the source over a low-impedance path.[web:39][web:41][web:42]"
+    },
+    {
+      "id": 5,
+      "question": "What is the primary purpose of the grounding electrode and grounding electrode conductor in a service as described in NEC grounding rules?",
+      "choices": [
+        "To carry normal load current from the service to the loads",
+        "To provide a primary path for all fault current returning to the source",
+        "To connect the electrical system to the earth for voltage stabilization and reference",
+        "To replace the equipment grounding conductor in interior branch circuits"
+      ],
+      "answer": "To connect the electrical system to the earth for voltage stabilization and reference",
+      "explanation": "The grounding electrode and grounding electrode conductor form the intentional connection between the electrical system and earth, which stabilizes system voltage with respect to ground and limits overvoltage from surges and lightning.[web:39][web:40][web:41]"
+    },
+    {
+      "id": 6,
+      "question": "Which statement best explains what grounding does for overvoltage events such as lightning or line surges, according to NEC grounding principles?",
+      "choices": [
+        "It prevents any surge current from entering the building",
+        "It provides a reference and path to earth to help limit the voltage rise of the system during surges",
+        "It eliminates all risk to sensitive electronic equipment",
+        "It diverts all fault current into the neutral conductor"
+      ],
+      "answer": "It provides a reference and path to earth to help limit the voltage rise of the system during surges",
+      "explanation": "Grounding to earth does not eliminate surges, but it gives the system a stable reference and can help limit the peak voltage by providing a path for surge energy to dissipate into the earth.[web:39][web:40][web:41]"
+    },
+    {
+      "id": 7,
+      "question": "In NEC terminology, what is the main function of bonding between metal raceways, enclosures, and equipment grounding conductors?",
+      "choices": [
+        "To increase the resistance of fault paths so less current flows",
+        "To isolate metal parts from the grounding system",
+        "To ensure all conductive parts are electrically connected so they rise and fall in potential together during a fault",
+        "To substitute for overcurrent protection on branch circuits"
+      ],
+      "answer": "To ensure all conductive parts are electrically connected so they rise and fall in potential together during a fault",
+      "explanation": "Bonding ensures that all metal parts are electrically connected, forming part of the effective ground-fault current path and keeping exposed parts at substantially the same potential, reducing shock risk and facilitating device operation.[web:39][web:40][web:41][web:42]"
+    },
+    {
+      "id": 8,
+      "question": "Why does the NEC require exposed, normally non–current-carrying metal parts of fixed equipment to be connected to an equipment grounding conductor under many conditions?",
+      "choices": [
+        "So that these parts can be used as neutrals when needed",
+        "So that any accidental energizing of the metal parts will create a fault that trips the overcurrent device",
+        "To provide an alternate path for neutral current during overloads",
+        "To improve the power factor of the electrical system"
+      ],
+      "answer": "So that any accidental energizing of the metal parts will create a fault that trips the overcurrent device",
+      "explanation": "Article 250 requires grounding of exposed metal parts so that if a phase conductor contacts the metal, the resulting fault current flows over a low-impedance equipment grounding path, causing the overcurrent device to operate and remove dangerous voltage from the equipment.[web:39][web:40][web:42]"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a correct statement about the role of the grounded (neutral) conductor versus the equipment grounding conductor under NEC rules?",
+      "choices": [
+        "Both conductors normally carry the same load current in all parts of the system",
+        "The grounded (neutral) conductor is intended to carry normal current, while the equipment grounding conductor is intended only to carry fault current under abnormal conditions",
+        "The equipment grounding conductor carries all neutral current in multiwire branch circuits",
+        "The grounded (neutral) conductor is never connected to earth anywhere in the system"
+      ],
+      "answer": "The grounded (neutral) conductor is intended to carry normal current, while the equipment grounding conductor is intended only to carry fault current under abnormal conditions",
+      "explanation": "The NEC treats the grounded conductor as part of the normal current path for loads, while the equipment grounding conductor is intended as a fault-only path to operate protective devices, not a normal current carrier.[web:39][web:41][web:42]"
+    },
+    {
+      "id": 10,
+      "question": "Which statement best reflects the NEC’s intent for a properly grounded and bonded service in terms of personnel safety?",
+      "choices": [
+        "Grounding and bonding are intended primarily to protect equipment from damage and do not significantly affect personnel safety",
+        "Grounding and bonding are intended to limit the duration and magnitude of dangerous touch voltages by providing an effective path for fault current to operate protective devices",
+        "Grounding and bonding are intended to eliminate all risk of shock regardless of how equipment is used",
+        "Grounding and bonding allow the use of smaller overcurrent devices than would otherwise be required"
+      ],
+      "answer": "Grounding and bonding are intended to limit the duration and magnitude of dangerous touch voltages by providing an effective path for fault current to operate protective devices",
+      "explanation": "NEC grounding and bonding rules aim to reduce the risk of electric shock and fire by ensuring that fault currents have a reliable, low-impedance path that clears the fault quickly, reducing the exposure time to hazardous voltages on accessible metal parts.[web:39][web:40][web:41][web:42]"
+    }
+  ]
+}

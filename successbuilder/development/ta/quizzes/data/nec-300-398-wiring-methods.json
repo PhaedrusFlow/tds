@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "NEC 300.3(B) requires all conductors of the same circuit to be in the same raceway, cable, or trench. What is the primary reason for this requirement?",
+      "question": "The NEC requires all conductors of the same circuit to be in the same raceway, cable, or trench. What is the primary reason for this requirement?",
       "choices": [
         "To reduce voltage drop across long circuit runs",
         "To prevent inductive heating of ferrous metal raceways and enclosures",
@@ -17,7 +17,7 @@
     },
     {
       "id": 2,
-      "question": "Per NEC 300.4(A)(1), when a cable is installed through a wood framing member and is within 1\u00bc inches of the nearest edge, what protection is required?",
+      "question": "When a cable is installed through a wood framing member and is within 1\u00bc inches of the nearest edge, what protection is required?",
       "choices": [
         "A plastic bushing listed for the purpose",
         "A steel nail plate at least 1/16 inch thick covering the area of the wiring",
@@ -29,7 +29,7 @@
     },
     {
       "id": 3,
-      "question": "According to NEC 300.5(A) and Table 300.5, which wiring method requires the shallowest minimum cover depth when buried underground?",
+      "question": "Which wiring method requires the shallowest minimum cover depth when buried underground?",
       "choices": [
         "Direct burial cables rated for the purpose \u2014 24 inches",
         "PVC conduit (Schedule 80) \u2014 18 inches",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "question": "NEC 300.11(A) requires that wiring within a ceiling assembly be supported independently of the ceiling infrastructure. Which of the following would violate this requirement?",
+      "question": "The NEC requires that wiring within a ceiling assembly be supported independently of the ceiling infrastructure. Which of the following would violate this requirement?",
       "choices": [
         "A conduit supported by a trapeze hanger attached to the building structure",
         "A cable supported by its own J-hooks attached to the building structure",
@@ -53,7 +53,7 @@
     },
     {
       "id": 5,
-      "question": "NEC 300.14 requires free conductors at outlets and switch points. What is the minimum free length of conductor that must be left at each outlet, junction, or switch point for splicing or connection to a device?",
+      "question": "The NEC requires free conductors at outlets and switch points. What is the minimum free length of conductor that must be left at each outlet, junction, or switch point for splicing or connection to a device?",
       "choices": [
         "3 inches total, with at least 1 inch extending beyond the box opening",
         "6 inches measured from the point where it emerges from the raceway or cable sheath, with at least 3 inches extending past the front opening of the box",
@@ -65,7 +65,7 @@
     },
     {
       "id": 6,
-      "question": "NEC 300.17 states that the number and size of conductors in a raceway shall be not more than will permit dissipation of heat and ready installation or withdrawal of conductors. What documents govern raceway fill?",
+      "question": "The number and size of conductors in a raceway shall be not more than will permit dissipation of heat and ready installation or withdrawal of conductors. What documents govern raceway fill?",
       "choices": [
         "NFPA 70E Table 130.7 and the equipment manufacturer's specifications",
         "The fill tables in Chapter 9 of the NEC, including Table 1 (percent fill) and associated conduit and conductor area tables",
@@ -77,7 +77,7 @@
     },
     {
       "id": 7,
-      "question": "When calculating conductor ampacity per NEC 310.15, both a temperature correction factor and a conductor adjustment factor apply simultaneously. How are these two factors applied?",
+      "question": "When calculating conductor ampacity, both a temperature correction factor and a conductor adjustment factor apply simultaneously. How are these two factors applied?",
       "choices": [
         "Use whichever factor is more restrictive; do not apply both simultaneously",
         "Add the two factors together and subtract from 100% to get the final derating",
@@ -89,7 +89,7 @@
     },
     {
       "id": 8,
-      "question": "NEC 312.5(C) addresses cables entering cabinets and cutout boxes. What does this section require?",
+      "question": "What is required for cables entering cabinets and cutout boxes?",
       "choices": [
         "Cables shall enter only through the bottom of the cabinet to prevent moisture entry",
         "Cables shall be secured to the cabinet or cutout box",
@@ -101,7 +101,7 @@
     },
     {
       "id": 9,
-      "question": "For a straight pull through a pull box, NEC 314.28(A)(1) requires the length of the box to be at least how many times the trade size of the largest raceway entering the box?",
+      "question": "For a straight pull through a pull box,the length of the box is required to be at least how many times the trade size of the largest raceway entering the box?",
       "choices": [
         "6 times the trade size of the largest raceway",
         "8 times the trade size of the largest raceway",
@@ -113,7 +113,7 @@
     },
     {
       "id": 10,
-      "question": "NEC 344.10 addresses the permitted uses of rigid metal conduit (RMC). Which of the following best describes where RMC is permitted?",
+      "question": "Which of the following best describes where rigid metal conduit (RMC) RMC is permitted?",
       "choices": [
         "RMC is permitted only in dry and damp locations, not in wet or corrosive environments",
         "RMC is permitted in all atmospheric conditions and all occupancies, and is suitable for direct burial and concrete encasement",
@@ -125,7 +125,7 @@
     },
     {
       "id": 11,
-      "question": "NEC 348.12 lists conditions under which flexible metal conduit (FMC) shall NOT be used. Which of the following is a prohibited application?",
+      "question": "Which of the following is a prohibited application for flexible metal conduit (FMC)?",
       "choices": [
         "As a wiring method in lengths exceeding 10 feet indoors",
         "In wet locations",
@@ -137,7 +137,7 @@
     },
     {
       "id": 12,
-      "question": "Per NEC 352.12(A), PVC conduit (rigid nonmetallic conduit) is not permitted in which application?",
+      "question": "PVC conduit (rigid nonmetallic conduit) is not permitted in which application?",
       "choices": [
         "In wet locations or underground",
         "Where exposed to physical damage, unless the conduit is identified for such use",
@@ -149,7 +149,7 @@
     },
     {
       "id": 13,
-      "question": "NEC 358.12(1) lists conditions where electrical metallic tubing (EMT) shall NOT be used. Which condition makes EMT prohibited?",
+      "question": "<ScrollWheelDown>Which condition makes electrical metallic tubing (EMT) EMT prohibited?",
       "choices": [
         "In concrete that is in direct contact with the earth",
         "Where subject to severe physical damage",
@@ -161,7 +161,7 @@
     },
     {
       "id": 14,
-      "question": "NEC 362.10 addresses where electrical nonmetallic tubing (ENT) may be used. What restriction applies to using ENT in multi-story buildings?",
+      "question": "What restriction applies to using electrical nonmetallic tubing (ENT) in multi-story buildings?",
       "choices": [
         "ENT may not be used in any building more than two stories in height",
         "ENT in buildings over three floors must be concealed within walls, floors, or ceilings that provide at least a 15-minute thermal barrier (such as \u00bd-inch gypsum wallboard)",
@@ -173,7 +173,7 @@
     },
     {
       "id": 15,
-      "question": "NEC 376.22 addresses the use of metal wireways. What is the maximum percentage of cross-sectional fill permitted in a metal wireway, and what additional rule applies when there are more than 30 current-carrying conductors?",
+      "question": "What is the maximum percentage of cross-sectional fill permitted in a metal wireway, and what additional rule applies when there are more than 30 current-carrying conductors?",
       "choices": [
         "40% fill maximum; no adjustment factor required for any number of conductors",
         "20% fill maximum; when more than 30 current-carrying conductors are bundled in any cross section, conductor ampacity adjustment factors of 310.15(C)(1) apply",
@@ -185,7 +185,7 @@
     },
     {
       "id": 16,
-      "question": "NEC 300.4(B) addresses cables installed in notches cut into wooden framing members. What protection is required?",
+      "question": "What protection is required for cables installed in notches cut into wooden framing members?",
       "choices": [
         "The notch must be filled with fire-rated caulking after cable installation",
         "A steel plate at least 1/16 inch thick must be installed over the notch to protect the cable from fasteners",
@@ -197,7 +197,7 @@
     },
     {
       "id": 17,
-      "question": "Per NEC 300.4(G), what is required when cables or raceways pass through holes or slots in metal framing members (such as metal studs)?",
+      "question": "What is required when cables or raceways pass through holes or slots in metal framing members (such as metal studs)?",
       "choices": [
         "The metal framing member must be grounded to the cable or raceway",
         "Listed bushings or listed grommets must be installed to protect the cables or raceways from the sharp metal edges",
@@ -209,7 +209,7 @@
     },
     {
       "id": 18,
-      "question": "NEC 300.5(D) addresses underground conductors where they emerge from the ground. How far above grade must protection be provided for conductors emerging from a direct-buried installation?",
+      "question": "How far above grade must protection be provided for conductors emerging from a direct-buried installation?",
       "choices": [
         "From grade level to a minimum of 4 feet above finished grade",
         "From grade level to a minimum of 8 feet above finished grade, or to the point of termination in an enclosure",
@@ -221,7 +221,7 @@
     },
     {
       "id": 19,
-      "question": "NEC 300.5(I) addresses the identification of underground conductors. Which of the following is a required method for identifying underground conductors at their point of termination?",
+      "question": "Which of the following is a required method for identifying underground conductors at their point of termination?",
       "choices": [
         "Conductors must be color-coded red for 240V and black for 120V",
         "Underground conductors must be identified by tagging, marking tape, or other effective means at their terminals",
@@ -233,7 +233,7 @@
     },
     {
       "id": 20,
-      "question": "NEC 300.7(A) requires that raceways be sealed where they pass from areas of different temperatures. What is the primary purpose of this sealing requirement?",
+      "question": "NEC 300.7(A) requires that. What is the primary purpose of raceways being sealed where they pass from areas of different temperatures?",
       "choices": [
         "To prevent fire from spreading through raceways between temperature zones",
         "To prevent circulation of air through the raceway that could cause condensation to form and travel to equipment",
@@ -245,7 +245,7 @@
     },
     {
       "id": 21,
-      "question": "NEC 300.10 addresses electrical continuity of metal raceways and enclosures. What does this section require?",
+      "question": "What is required for metal raceways and enclosures?",
       "choices": [
         "Metal raceways must be bonded to the grounded (neutral) conductor at each junction",
         "Metal raceways, cable armor, and other metal enclosures shall be metallically continuous, forming a low-impedance fault current path",
@@ -257,7 +257,7 @@
     },
     {
       "id": 22,
-      "question": "NEC 300.12 addresses mechanical continuity of raceways. What does this section require?",
+      "question": "What is required for mechanical continuity of raceways?",
       "choices": [
         "Metal raceways must be supported at intervals not exceeding 3 feet to ensure mechanical continuity",
         "Raceways and cable sheaths shall be continuous between outlets, boxes, devices, and fittings \u2014 they must not be intermittent",
@@ -269,7 +269,7 @@
     },
     {
       "id": 23,
-      "question": "NEC 300.15 requires a box or conduit body wherever conductors are spliced or where a device is installed. Which of the following situations would require a listed box or conduit body?",
+      "question": "The NEC requires a box or conduit body wherever conductors are spliced or where a device is installed. Which of the following situations would require a listed box or conduit body?",
       "choices": [
         "A continuous conductor passing through a pull fitting with no splice",
         "A splice in a conductor inside a length of conduit without a box",
@@ -281,7 +281,7 @@
     },
     {
       "id": 24,
-      "question": "NEC 300.20 addresses induced currents in ferrous metal raceways. If a single ungrounded conductor must be installed in a ferrous metal raceway, what must be done to prevent inductive heating?",
+      "question": "If a single ungrounded conductor must be installed in a ferrous metal raceway, what must be done to prevent inductive heating?",
       "choices": [
         "The conduit must be bonded to ground at both ends to dissipate induced currents",
         "All conductors of the circuit \u2014 including the neutral and equipment grounding conductor \u2014 must be installed in the same ferrous metal raceway",
@@ -293,7 +293,7 @@
     },
     {
       "id": 25,
-      "question": "NEC 310.15(B) provides ambient temperature correction factors for conductor ampacity. If a conductor is rated for 75\u00b0C and is installed where the ambient temperature is 50\u00b0C (instead of the standard 30\u00b0C reference), how does the correction factor affect the conductor ampacity?",
+      "question": "If a conductor is rated for 75\u00b0C and is installed where the ambient temperature is 50\u00b0C (instead of the standard 30\u00b0C reference), how does the correction factor affect the conductor ampacity?",
       "choices": [
         "The ampacity is increased because the insulation is rated higher than the ambient",
         "The ampacity is reduced by multiplying by a correction factor less than 1.0, because the elevated ambient reduces the conductor's ability to dissipate heat",
@@ -305,7 +305,7 @@
     },
     {
       "id": 26,
-      "question": "Per NEC 310.15(C)(1), when more than 3 current-carrying conductors are bundled together or installed in a single conduit, adjustment factors are required. What adjustment factor applies when there are 7 to 9 current-carrying conductors?",
+      "question": "When more than 3 current-carrying conductors are bundled together or installed in a single conduit, adjustment factors are required. What adjustment factor applies when there are 7 to 9 current-carrying conductors?",
       "choices": [
         "80% of the base ampacity",
         "70% of the base ampacity",
@@ -317,7 +317,7 @@
     },
     {
       "id": 27,
-      "question": "NEC 314.16(A) governs box fill calculations for standard device boxes. What is counted as a conductor equivalent when calculating fill for a device box?",
+      "question":What is counted as a conductor equivalent when calculating fill for a device box?",
       "choices": [
         "Only current-carrying conductors; equipment grounding conductors and cable clamps are exempt from box fill",
         "Each ungrounded and grounded circuit conductor counts as one, all grounding conductors together count as one, each internal cable clamp counts as one, and each yoke-mounted device counts as two conductors",
@@ -329,7 +329,7 @@
     },
     {
       "id": 28,
-      "question": "For angle pulls or U-pulls through a pull or junction box, NEC 314.28(A)(2) requires a minimum distance. How is this minimum distance calculated for an angle pull?",
+      "question": "For angle pulls or U-pulls through a pull or junction box, the NEC requires a minimum distance. How is this minimum distance calculated for an angle pull?",
       "choices": [
         "At least 8 times the trade size of the largest raceway on that wall",
         "At least 6 times the trade size of the largest raceway entering the angle pull, plus the sum of the diameters of all other raceways entering the same wall",
@@ -341,7 +341,7 @@
     },
     {
       "id": 29,
-      "question": "NEC 344.30 specifies support requirements for rigid metal conduit (RMC). What is the maximum interval between supports, and how close to a box or fitting must support be provided?",
+      "question": "What is the maximum interval between  rigid metal conduit (RMC) supports, and how close to a box or fitting must support be provided?",
       "choices": [
         "Every 6 feet; within 2 feet of each box or fitting",
         "Every 10 feet; within 3 feet of each outlet box, junction box, cabinet, or fitting",
@@ -353,7 +353,7 @@
     },
     {
       "id": 30,
-      "question": "NEC 358.30 specifies support requirements for electrical metallic tubing (EMT). What are the maximum support intervals?",
+      "question": "What are the maximum support intervals for electrical metallic tubing (EMT)?",
       "choices": [
         "Every 6 feet, and within 2 feet of each box or fitting",
         "Every 10 feet, and within 3 feet of each outlet box, junction box, cabinet, or fitting",

@@ -5,7 +5,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "According to Article 100 of the NEC 2023, what is the definition of 'Ampacity'?",
+      "question": "What is the definition of 'Ampacity'?",
       "choices": [
         "The maximum current a conductor can carry continuously without exceeding its insulation voltage rating",
         "The current in amperes that a conductor can carry continuously under the conditions of use without exceeding its temperature rating",
@@ -17,7 +17,7 @@
     },
     {
       "id": 2,
-      "question": "Under Article 100 of the NEC 2023, equipment or materials described as 'Approved' means which of the following?",
+      "question": "Equipment or materials described as 'Approved' means which of the following?",
       "choices": [
         "Listed by a nationally recognized testing laboratory (NRTL)",
         "Labeled with a mark from a product certification organization",
@@ -29,7 +29,7 @@
     },
     {
       "id": 3,
-      "question": "As defined in Article 100 of the NEC, a 'Branch Circuit' is the circuit conductors between which two points?",
+      "question": "A 'Branch Circuit' is the circuit conductors between which two points?",
       "choices": [
         "The utility transformer secondary terminals and the service equipment",
         "The service equipment and the first overcurrent protective device downstream",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "question": "According to Article 100, how is a 'Feeder' defined in the NEC?",
+      "question": "How is a 'Feeder' defined in the NEC?",
       "choices": [
         "The conductors between the utility service point and the first overcurrent device",
         "All circuit conductors between the service equipment and the final branch-circuit overcurrent device",
@@ -53,7 +53,7 @@
     },
     {
       "id": 5,
-      "question": "Under Article 100, a 'Dwelling Unit' is defined as a unit that provides which of the following?",
+      "question": "A 'Dwelling Unit' is defined as a unit that provides which of the following?",
       "choices": [
         "Sleeping accommodations for not fewer than two persons",
         "Complete and independent living facilities for one or more persons, including permanent provisions for living, sleeping, eating, cooking, and sanitation",
@@ -65,7 +65,7 @@
     },
     {
       "id": 6,
-      "question": "Under Article 100 of the NEC, equipment is 'Listed' when it meets which criteria?",
+      "question": "Equipment is 'Listed' when it meets which criteria?",
       "choices": [
         "Approved in writing by the authority having jurisdiction for a specific installation",
         "Identified in a list published by a nationally recognized testing laboratory (NRTL) that evaluates the equipment for safety",
@@ -77,7 +77,7 @@
     },
     {
       "id": 7,
-      "question": "As defined in Article 100, an 'Outlet' is best described as which of the following?",
+      "question": "An 'Outlet' is best described as which of the following?",
       "choices": [
         "A female receptacle device installed in a box to accept a plug",
         "A point in the wiring system where current is taken to supply utilization equipment",
@@ -89,7 +89,7 @@
     },
     {
       "id": 8,
-      "question": "According to Article 100, a 'Raceway' is defined as which type of structure?",
+      "question": "A 'Raceway' is defined as which type of structure?",
       "choices": [
         "A metallic or nonmetallic tube designed to support cables without enclosing them",
         "An enclosed channel of metallic or nonmetallic materials designed expressly for holding wires, cables, or busbars",
@@ -101,7 +101,7 @@
     },
     {
       "id": 9,
-      "question": "Under Article 100, equipment is considered to be 'In Sight From' other equipment when which conditions are both met?",
+      "question": "Equipment is considered to be 'In Sight From' other equipment when which conditions are both met?",
       "choices": [
         "The equipment is in the same room and within 25 feet",
         "The equipment is visible and not more than 50 feet (15 m) distant from the other equipment",
@@ -113,7 +113,7 @@
     },
     {
       "id": 10,
-      "question": "As defined in Article 100, 'Overcurrent' refers to which condition?",
+      "question": "'Overcurrent' refers to which condition?",
       "choices": [
         "Any current flow that causes a visible arc or spark in the electrical system",
         "Current in excess of the rated current of equipment or the ampacity of a conductor, which may result from overload, short circuit, or ground fault",
@@ -125,7 +125,7 @@
     },
     {
       "id": 11,
-      "question": "According to NEC 110.3(B), when equipment is listed or labeled, how must it be installed?",
+      "question": "When equipment is listed or labeled, how must it be installed?",
       "choices": [
         "Per the NEC article covering that equipment type, regardless of the manufacturer's instructions",
         "In accordance with any instructions included in the listing or labeling",
@@ -137,7 +137,7 @@
     },
     {
       "id": 12,
-      "question": "NEC 110.12 requires that electrical equipment be installed in what manner?",
+      "question": "The NEC requires that electrical equipment be installed in what manner?",
       "choices": [
         "In a listed enclosure rated for the installation environment",
         "In a neat and workmanlike manner",
@@ -149,7 +149,7 @@
     },
     {
       "id": 13,
-      "question": "Under NEC 110.14(C)(1)(a), what temperature rating column must be used when selecting the ampacity of conductors connected to equipment rated 100 amperes or less, or for conductors 14 AWG through 1 AWG?",
+      "question": "What temperature rating column must be used when selecting the ampacity of conductors connected to equipment rated 100 amperes or less, or for conductors 14 AWG through 1 AWG?",
       "choices": [
         "The 75\u00b0C column of the applicable ampacity table, regardless of conductor insulation rating",
         "The 90\u00b0C column because it yields the highest allowable ampacity",
@@ -161,7 +161,7 @@
     },
     {
       "id": 14,
-      "question": "According to NEC 110.21(B), which requirement applies to field-applied hazard markings on electrical equipment?",
+      "question": "Which requirement applies to field-applied hazard markings on electrical equipment?",
       "choices": [
         "They must be written in permanent marker and signed by the installer",
         "They must be permanently affixed to the equipment and must not be handwritten",
@@ -173,7 +173,7 @@
     },
     {
       "id": 15,
-      "question": "Under NEC 110.26(E)(1)(a), what is the minimum dedicated equipment space required above electrical equipment such as a panelboard installed in a building?",
+      "question": "What is the minimum dedicated equipment space required above electrical equipment such as a panelboard installed in a building?",
       "choices": [
         "The width and depth of the equipment extending from the floor to the ceiling of the room",
         "The width and depth of the equipment extending from the floor to a height of 1.8 m (6 ft) above the equipment, or to the structural ceiling, whichever is lower",
@@ -185,7 +185,7 @@
     },
     {
       "id": 16,
-      "question": "According to Article 100 of the NEC, how is 'Ground Fault' defined?",
+      "question": "How is 'Ground Fault' defined?",
       "choices": [
         "An intentional connection between a circuit conductor and the earth for lightning protection",
         "An unintentional, electrically conducting connection between an ungrounded conductor of an electrical circuit and the normally non\u2013current-carrying conductors, metallic enclosures, metallic raceways, metallic equipment, or earth",
@@ -197,7 +197,7 @@
     },
     {
       "id": 17,
-      "question": "As defined in Article 100, what is the 'Equipment Grounding Conductor' (EGC)?",
+      "question": "What is the 'Equipment Grounding Conductor' (EGC)?",
       "choices": [
         "The conductor that connects the grounded (neutral) point of the system to a grounding electrode",
         "The conductive path(s) that provide a ground fault current path and connects normally non\u2013current-carrying metal parts of equipment to the system grounded conductor, the grounding electrode conductor, or both",
@@ -209,7 +209,7 @@
     },
     {
       "id": 18,
-      "question": "Under Article 100, a 'Grounding Electrode Conductor' (GEC) is defined as the conductor used to connect which components?",
+      "question": "A 'Grounding Electrode Conductor' (GEC) is defined as the conductor used to connect which components?",
       "choices": [
         "The equipment grounding conductor to the grounded service conductor at the main panel",
         "The system grounded conductor or the equipment to a grounding electrode or to a point on the grounding electrode system",
@@ -221,7 +221,7 @@
     },
     {
       "id": 19,
-      "question": "According to Article 100 of the NEC, what is the 'Service Point'?",
+      "question": "What is the 'Service Point' as defined by the NEC?",
       "choices": [
         "The point of connection between the utility transformer secondary terminals and the service entrance conductors",
         "The point of connection between the facilities of the serving utility and the premises wiring",
@@ -233,7 +233,7 @@
     },
     {
       "id": 20,
-      "question": "As defined in Article 100, 'Service Equipment' consists of which of the following?",
+      "question": "'Service Equipment' consists of which of the following?",
       "choices": [
         "All conductors from the utility transformer to the customer's meter",
         "The necessary equipment, usually consisting of a circuit breaker(s) or switch(es) and fuse(s) and their accessories, connected to the load end of service conductors to constitute the main control and means of cutoff for the supply to a building or structure",
@@ -245,7 +245,7 @@
     },
     {
       "id": 21,
-      "question": "Article 100 provides two definitions of 'Accessible.' When the term is applied to wiring methods (as opposed to equipment), what does 'Accessible' mean?",
+      "question": "When the term is applied to wiring methods (as opposed to equipment), what does 'Accessible' mean?",
       "choices": [
         "Can be removed or exposed without damaging the building structure or finish",
         "Can be reached quickly in an emergency without the use of a tool or key",
@@ -257,7 +257,7 @@
     },
     {
       "id": 22,
-      "question": "According to Article 100, a 'Continuous Load' is a load where the maximum current is expected to continue for how long?",
+      "question": "A 'Continuous Load' is a load where the maximum current is expected to continue for how long?",
       "choices": [
         "15 minutes or more",
         "30 minutes or more",
@@ -269,7 +269,7 @@
     },
     {
       "id": 23,
-      "question": "Under Article 100, the term 'Disconnecting Means' refers to which of the following?",
+      "question": "The term 'Disconnecting Means' refers to which of the following?",
       "choices": [
         "Only fuses and circuit breakers that interrupt fault current",
         "A device or group of devices \u2014 or other means \u2014 by which conductors of a circuit can be disconnected from their source of supply",
@@ -281,7 +281,7 @@
     },
     {
       "id": 24,
-      "question": "According to NEC 110.14(A), terminals for connecting conductors must be suitable for what?",
+      "question": "Terminals for connecting conductors must be suitable for what?",
       "choices": [
         "The conductor's insulation type and voltage rating only",
         "The temperature rating of the conductor insulation",
@@ -293,7 +293,7 @@
     },
     {
       "id": 25,
-      "question": "Under NEC 110.14(B), how must splices in conductors be made?",
+      "question": "How must splices in conductors be made?",
       "choices": [
         "By twisting conductors together and applying electrical tape",
         "With devices identified for the use, or by brazing, welding, or soldering with a fusible metal or alloy",
@@ -305,7 +305,7 @@
     },
     {
       "id": 26,
-      "question": "Under NEC 110.14(C)(1)(b), what temperature rating column is used to determine conductor ampacity for equipment rated over 100 amperes, or for conductors larger than 1 AWG?",
+      "question": "What temperature rating column is used to determine conductor ampacity for equipment rated over 100 amperes, or for conductors larger than 1 AWG?",
       "choices": [
         "60\u00b0C column only",
         "75\u00b0C column, unless equipment is otherwise marked",
@@ -317,7 +317,7 @@
     },
     {
       "id": 27,
-      "question": "According to NEC 110.16(A), which of the following types of electrical equipment must be field-marked to warn qualified persons of the potential electric arc flash hazard?",
+      "question": "Which of the following types of electrical equipment must be field-marked to warn qualified persons of the potential electric arc flash hazard?",
       "choices": [
         "All electrical equipment rated over 120 volts",
         "Service equipment, switchboards, switchgear, panelboards, industrial control panels, and motor control centers in other than dwelling units",
@@ -329,7 +329,7 @@
     },
     {
       "id": 28,
-      "question": "According to NEC 110.26(A)(1), what is the minimum required depth of working space in front of electrical equipment for voltage to ground of 0 to 150 volts (Condition 1)?",
+      "question": "What is the minimum required depth of working space in front of electrical equipment for voltage to ground of 0 to 150 volts (Condition 1)?",
       "choices": [
         "600 mm (2 ft)",
         "900 mm (3 ft)",
@@ -341,7 +341,7 @@
     },
     {
       "id": 29,
-      "question": "Under NEC 110.26(A)(2), what is the minimum required width of the working space in front of electrical equipment?",
+      "question": "What is the minimum required width of the working space in front of electrical equipment?",
       "choices": [
         "600 mm (24 in.) or the width of the equipment, whichever is greater",
         "750 mm (30 in.) or the width of the equipment, whichever is greater",
@@ -353,7 +353,7 @@
     },
     {
       "id": 30,
-      "question": "According to NEC 110.26(D), what is required for all electrical equipment rooms and enclosures containing service equipment, switchboards, switchgear, panelboards, or motor control centers?",
+      "question": "What is required for all electrical equipment rooms and enclosures containing service equipment, switchboards, switchgear, panelboards, or motor control centers?",
       "choices": [
         "A dedicated HVAC system to maintain equipment within rated operating temperature",
         "Adequate illumination of the working space about electrical equipment",

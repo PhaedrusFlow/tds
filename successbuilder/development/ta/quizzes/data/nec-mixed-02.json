@@ -17,7 +17,7 @@
     },
     {
       "id": 2,
-      "question": "Which of the following conductors is NOT permitted for grounding electrode conductors per NEC Article 250?",
+      "question": "Which of the following conductors is NOT permitted for grounding electrode conductors",
       "choices": [
         "Bare copper",
         "Aluminum",
@@ -29,7 +29,7 @@
     },
     {
       "id": 3,
-      "question": "What is the purpose of grounding electrode conductors as per NEC Article 250?",
+      "question": "What is the purpose of grounding electrode conductors?",
       "choices": [
         "To provide a path for fault current to return safely to the earth",
         "To carry fault current under normal conditions",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "question": "Which of the following factors should be considered when determining the minimum size for junction and pull boxes according to NEC Article 314?",
+      "question": "Which of the following factors should be considered when determining the minimum size for junction and pull boxes?",
       "choices": [
         "Number of conductors, devices, or fittings",
         "Manufacturer's brand name",
@@ -53,7 +53,7 @@
     },
     {
       "id": 5,
-      "question": "What is the minimum size copper grounding electrode conductor required for a building with 200 A service according to NEC Article 250?",
+      "question": "What is the minimum size copper grounding electrode conductor required for a building with 200 A service?",
       "choices": [
         "#6 AWG",
         "#8 AWG",
@@ -65,7 +65,7 @@
     },
     {
       "id": 6,
-      "question": "According to NEC Article 250, which of the following is a requirement for grounding electrode conductors?",
+      "question": "Which of the following is a requirement for grounding electrode conductors?",
       "choices": [
         "They shall be insulated for their entire length.",
         "They shall not be smaller than 6 AWG copper or 4 AWG aluminum.",
@@ -77,7 +77,7 @@
     },
     {
       "id": 7,
-      "question": "According to the 2023 NEC, which of the following statements is true regarding the use of NM cable in residential wiring? (NEC 334)",
+      "question": "According to the 2023 NEC, which of the following statements is true regarding the use of NM cable in residential wiring?",
       "choices": [
         "It is permitted in wet locations such as bathrooms.",
         "It must be protected from physical damage where necessary.",
@@ -113,7 +113,7 @@
     },
     {
       "id": 10,
-      "question": "According to the 2023 NEC, what is the minimum depth required for a device box when installed in a combustible wall surface? (NEC 314)",
+      "question": "According to the 2023 NEC, what is the minimum depth required for a device box when installed in a combustible wall surface?",
       "choices": [
         "1 1/4 inches",
         "1 1/2 inches",
@@ -125,7 +125,7 @@
     },
     {
       "id": 11,
-      "question": "According to the 2023 NEC Article 408, what is the minimum width required for working space in front of electrical equipment such as panelboards? (NEC 110)",
+      "question": "According to the NEC, what is the minimum width required for working space in front of electrical equipment such as panelboards?",
       "choices": [
         "24 inches",
         "30 inches",
@@ -137,7 +137,7 @@
     },
     {
       "id": 12,
-      "question": "For a residential service, what is the minimum size copper equipment grounding conductor required for a 200 A service according to NEC Article 230? (NEC 250)",
+      "question": "For a residential service, what is the minimum size copper equipment grounding conductor required for a 200 A service?",
       "choices": [
         "#8 AWG",
         "#6 AWG",
