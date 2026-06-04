@@ -1,125 +1,136 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TA Practice Tests — Success Builder</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
 
-  <!-- SKIP NAV -->
-  <a href="#main" class="skip-link">Skip to main content</a>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TA Practice Tests — Success Builder</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="logo">
-        <svg aria-label="Success Builder" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="2" y="2" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
-          <path d="M8 14 L12 18 L20 10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span>Success Builder <span class="logo-sub">/ TA</span></span>
-      </div>
-      <button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-      </button>
-    </div>
-  </header>
+	<body>
 
-  <main id="main">
+		<!-- SKIP NAV -->
+		<a href="#main" class="skip-link">Skip to main content</a>
 
-    <!-- CATALOG VIEW -->
-    <section id="view-catalog" class="view active">
-      <div class="container">
-        <h1 class="page-title">Electrical Law <em>Practice Tests</em></h1>
-        <p class="page-subtitle">Select a test below. Questions shuffle each session. Verify answers against current statute before relying on results for exam prep.</p>
-        <div id="quiz-catalog" class="catalog-grid"></div>
-      </div>
-    </section>
+		<!-- HEADER -->
+		<header class="site-header">
+			<div class="header-inner">
+				<div class="logo">
+					<svg aria-label="Success Builder" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<rect x="2" y="2" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
+						<path d="M8 14 L12 18 L20 10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
+					<span>Success Builder <span class="logo-sub">/ TA</span></span>
+				</div>
+				<button class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+						<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+					</svg>
+				</button>
+			</div>
+		</header>
 
-    <!-- QUIZ VIEW -->
-    <section id="view-quiz" class="view">
-      <div class="container container--narrow">
+		<main id="main">
 
-        <div class="quiz-nav">
-          <button class="btn btn-ghost" id="btn-back-to-catalog">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15,18 9,12 15,6"/></svg>
-            All tests
-          </button>
-          <div class="quiz-options">
-            <label class="toggle-label">
-              <input type="checkbox" id="opt-shuffle-q"> Shuffle Q
-            </label>
-            <label class="toggle-label">
-              <input type="checkbox" id="opt-shuffle-c"> Shuffle choices
-            </label>
-          </div>
-        </div>
+			<!-- CATALOG VIEW -->
+			<section id="view-catalog" class="view active">
+				<div class="container">
+					<h1 class="page-title">Telecommunications Administrator <em>Practice Tests</em></h1>
+					<p class="page-subtitle">Select a test below. Questions shuffle each session. Verify answers against
+						current statute before relying on results for exam prep.</p>
+					<div id="quiz-catalog" class="catalog-grid"></div>
+				</div>
+			</section>
 
-        <div class="quiz-meta">
-          <span id="quiz-title-display" class="quiz-title-sm"></span>
-          <span id="progress-label" class="progress-label"></span>
-        </div>
-        <div class="progress-bar-track"><div class="progress-bar-fill" id="progress-bar"></div></div>
+			<!-- QUIZ VIEW -->
+			<section id="view-quiz" class="view">
+				<div class="container container--narrow">
 
-        <div id="question-card" class="question-card">
-          <p id="question-text" class="question-text"></p>
-          <ul id="choices-list" class="choices-list" role="list"></ul>
-          <div id="feedback-area" class="feedback-area hidden"></div>
-          <div class="question-actions">
-            <button class="btn btn-primary" id="btn-submit" disabled>Check answer</button>
-            <button class="btn btn-secondary hidden" id="btn-next">Next question</button>
-          </div>
-        </div>
+					<div class="quiz-nav">
+						<button class="btn btn-ghost" id="btn-back-to-catalog">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<polyline points="15,18 9,12 15,6"/>
+							</svg>
+							All tests
+						</button>
+						<div class="quiz-options">
+							<label class="toggle-label">
+								<input type="checkbox" id="opt-shuffle-q">
+								Shuffle Q
+							</label>
+							<label class="toggle-label">
+								<input type="checkbox" id="opt-shuffle-c">
+								Shuffle choices
+							</label>
+						</div>
+					</div>
 
-      </div>
-    </section>
+					<div class="quiz-meta">
+						<span id="quiz-title-display" class="quiz-title-sm"></span>
+						<span id="progress-label" class="progress-label"></span>
+					</div>
+					<div class="progress-bar-track">
+						<div class="progress-bar-fill" id="progress-bar"></div>
+					</div>
 
-    <!-- RESULTS VIEW -->
-    <section id="view-results" class="view">
-      <div class="container container--narrow">
-        <div class="results-card">
-          <div class="score-ring" id="score-ring">
-            <svg viewBox="0 0 120 120" class="score-svg">
-              <circle class="score-bg" cx="60" cy="60" r="52" />
-              <circle class="score-fg" cx="60" cy="60" r="52" id="score-arc" />
-            </svg>
-            <div class="score-text">
-              <span id="score-pct" class="score-pct">0%</span>
-              <span class="score-label">Score</span>
-            </div>
-          </div>
-          <h2 id="results-heading" class="results-heading"></h2>
-          <p id="results-sub" class="results-sub"></p>
-          <div class="results-actions">
-            <button class="btn btn-primary" id="btn-review">Review answers</button>
-            <button class="btn btn-secondary" id="btn-retake">Retake test</button>
-            <button class="btn btn-ghost" id="btn-back-from-results">All tests</button>
-          </div>
-        </div>
-      </div>
-    </section>
+					<div id="question-card" class="question-card">
+						<p id="question-text" class="question-text"></p>
+						<ul id="choices-list" class="choices-list" role="list"></ul>
+						<div id="feedback-area" class="feedback-area hidden"></div>
+						<div class="question-actions">
+							<button class="btn btn-primary" id="btn-submit" disabled>Check answer</button>
+							<button class="btn btn-secondary hidden" id="btn-next">Next question</button>
+						</div>
+					</div>
+				</div>
+			</section>
 
-    <!-- REVIEW VIEW -->
-    <section id="view-review" class="view">
-      <div class="container">
-        <div class="review-header">
-          <button class="btn btn-ghost" id="btn-back-from-review">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15,18 9,12 15,6"/></svg>
-            Results
-          </button>
-          <h2 class="review-title">Answer Review</h2>
-        </div>
-        <div id="review-list" class="review-list"></div>
-      </div>
-    </section>
+			<!-- RESULTS VIEW -->
+			<section id="view-results" class="view">
+				<div class="container container--narrow">
+					<div class="results-card">
+						<div class="score-ring" id="score-ring">
+							<svg viewBox="0 0 120 120" class="score-svg">
+								<circle class="score-bg" cx="60" cy="60" r="52"/>
+								<circle class="score-fg" cx="60" cy="60" r="52" id="score-arc"/>
+							</svg>
+							<div class="score-text">
+								<span id="score-pct" class="score-pct">0%</span>
+								<span class="score-label">Score</span>
+							</div>
+						</div>
+						<h2 id="results-heading" class="results-heading"></h2>
+						<p id="results-sub" class="results-sub"></p>
+						<div class="results-actions">
+							<button class="btn btn-primary" id="btn-review">Review answers</button>
+							<button class="btn btn-secondary" id="btn-retake">Retake test</button>
+							<button class="btn btn-ghost" id="btn-back-from-results">All tests</button>
+						</div>
+					</div>
+				</div>
+			</section>
 
-  </main>
+			<!-- REVIEW VIEW -->
+			<section id="view-review" class="view">
+				<div class="container">
+					<div class="review-header">
+						<button class="btn btn-ghost" id="btn-back-from-review">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<polyline points="15,18 9,12 15,6"/>
+							</svg>
+							Results
+						</button>
+						<h2 class="review-title">Answer Review</h2>
+					</div>
+					<div id="review-list" class="review-list"></div>
+				</div>
+			</section>
+		</main>
 
-  <script src="app.js"></script>
-</body>
+		<script src="app.js"></script>
+	</body>
 </html>
