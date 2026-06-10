@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<title>Linux Installation Instructions</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+	html,body,h1,h2,h3,h4,h5,h6 {font-family:"Helvetica",sans-serif}
+	p,li,pre,code { font-size: 12px; }
+	pre,code { font-family:"Monaco"; font-size:11px; }
+	div.date { font-size: 10px;}
+	h1 {color: #FFB53F; font-weight: normal; font-size: 24px; }
+	h1.toptrim { margin-top: -5px;}
+	h1.toptrim2 { margin-top: -12px;}
+	h3 { font-weight: normal; font-size: 17px; margin-bottom: 0px; }
+	ul,ol { margin-top: 5px; margin-left: -14px; margin-bottom: 5px; line-height:110%; }
+	ol ul { margin-left: 0px; margin-top: 5px; line-height:120%; }
+	ol ul { list-style: '- '; }
+	ul.flush-top { margin-top: -5px; }
+	p.i1 { margin-left: 32px; } 
+	pre { margin-top: 2px; }
+	p { line-height: 110%; margin-top: 2px; }
+</style>
+</head>
+
+<body>
+<h1 class="toptrim">Linux Installation Instructions</h1>
+<h1 class="toptrim2">DaVinci Resolve 20</h1>
+<h3>Pre-installation Notes</h3>
+<ul>
+	<li>DaVinci Resolve for Linux is a free download and does not require a license dongle or an activation.</li>
+	<li>DaVinci Resolve Studio for Linux supports all DaVinci Resolve licenses as well as the Advanced Panel dongle.</li>
+</ul>
+
+<h3>Installation instructions</h3>
+<ol type="1">
+<li>From the Blackmagic Design website <a href="https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion">https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion</a>, download
+	<p class="i1"><code>DaVinci_Resolve_Studio_20.3.2_Linux.zip</code> (if you have a DaVinci Resolve license) or<br/>
+	<code>DaVinci_Resolve_20.3.2_Linux.zip</code></p></li>
+<li>Unzip the package.</li>
+<li>Install from the GUI:<ul>
+	<li>From the file browser, double-click the installer package.</li>
+	<li>Enter the root password when prompted, and follow the instructions.</li></ul> </li>
+<li>(Optional) Terminal commands to unzip and install the downloaded package:
+	<p class="i1">Ensure that you are not logged in as root.</p>
+	<ul class="flush-top"><li>for the Studio version:</li>
+<pre>cd ~/Downloads/
+unzip ./DaVinci_Resolve_Studio_20.3.2_Linux.zip
+chmod +x ./DaVinci_Resolve_Studio_20.3.2_Linux.run
+sudo ./DaVinci_Resolve_Studio_20.3.2_Linux.run -i</pre>
+	<li>for the Free version:</li>
+<pre>cd ~/Downloads/
+unzip ./DaVinci_Resolve_20.3.2_Linux.zip
+chmod +x ./DaVinci_Resolve_20.3.2_Linux.run
+sudo ./DaVinci_Resolve_20.3.2_Linux.run -i</pre>
+	</ul></li>
+</ol>
+<h3>Nvidia Driver</h3>
+<p>From the Nvidia manual driver search tool at <a href="https://www.nvidia.com/en-us/drivers/">https://www.nvidia.com/en-us/drivers/</a>, enter your graphics card details, download the recommended driver and install. Follow these installation steps for Rocky Linux 8:</p>
+<ol type="1">
+	<li>Download the driver. The file name should look like: <code>NVIDIA-Linux-x86_64-570.124.04.run</code>.</li>
+	<li>Please save your work and exit any applications in use. This process will require a system reboot.</li>
+	<li>Open a Terminal shell.</li>
+	<li>Switch to the root user. Type: <code>su -</code> and enter the 'root' password when prompted.</li>
+	<li>Disable the Linux desktop and switch to a text interface. Type: <code>init 3</code></li>
+	<li>You will be prompted at the terminal for a username. Type: <code>root</code> and enter the 'root' password when prompted.</li>
+	<li>Navigate to the folder with the downloaded driver. Type: <code>cd /path/to/downloaded/location</code></li>
+	<li>Run the driver installer. Type: <code>sh NVIDIA-Linux-x86_64-570.124.04.run --silent --no-network</code></li>
+	<li>Wait for the installer to complete. Reboot the machine by typing: <code>reboot</code></li>
+</ol>
+
+<h3>DeckLink Driver</h3>
+<p>To use Blackmagic monitoring devices with your Linux system, ensure that you have the latest DeckLink driver installed from <a href="https://www.blackmagicdesign.com/support/family/capture-and-playback">https://www.blackmagicdesign.com/support/family/capture-and-playback</a>. Follow these steps:</p>
+<ol type="1">
+	<li>Download the driver package. The file name should look like: <code>Blackmagic_Desktop_Video_Linux_(driver_version).tar.gz</code></li>
+	<li>Please save your work and exit any applications in use. This process will require a system reboot.</li>
+	<li>Open a Terminal shell.</li>
+	<li>Switch to the root user. Type: <code>su -</code> and enter the 'root' password when prompted.</li>
+	<li>Uninstall any existing drivers. Type: <code>rpm -qa | grep desktopvideo | xargs rpm -e</code></li>
+	<li>Uncompress the downloaded driver. Type: <code>tar xvfz /path/to/downloaded/location/Blackmagic_Desktop_Video_Linux_(driver_version).tar.gz</code></li>
+	<li>Install the latest Desktop Video driver. Type: <code>rpm -ivh Blackmagic_Desktop_Video_Linux_(driver_version)/rpm/x86_64/desktopvideo-(driver_version).x86_64.rpm</code></li>
+	<li>Wait for the installer to complete. Reboot the machine by typing: <code>reboot</code></li>
+	<li>After reboot, open a Terminal shell again.</li>
+	<li>Switch to the root user. Type: <code>su -</code> and enter the 'root' password when prompted.</li>
+	<li>Update the firmware on your DeckLink card. Type: <code>BlackmagicFirmwareUpdater update 0</code></li>
+	<li>Wait for the update to complete. Reboot the machine by typing: <code>reboot</code></li>
+</ol>
+
+
+<h3>Installing DaVinci Resolve&rsquo;s Rocky Linux ISO</h3>
+<p>For users setting up new systems or looking to use a standardized DaVinci Resolve environment, a standard Rocky Linux 8.6 ISO is available to download at:</p>
+<p class="i1"><a href="https://downloads.blackmagicdesign.com/DaVinciResolve/DaVinci-Resolve-Linux-RockyLinux_8.6.iso">https://downloads.blackmagicdesign.com/DaVinciResolve/DaVinci-Resolve-Linux-RockyLinux_8.6.iso</a> <br/>
+(MD5: <a href="https://downloads.blackmagicdesign.com/DaVinciResolve/DaVinci-Resolve-Linux-RockyLinux_8.6.txt">https://downloads.blackmagicdesign.com/DaVinciResolve/DaVinci-Resolve-Linux-RockyLinux_8.6.txt</a>)</p>
+<p>The ISO file can be burned to a bootable USB flash drive or a DVD for the installation process. Before installation, ensure that you have backups of your files, including media and Resolve project libraries. Turn off UEFI Secure Boot in BIOS configuration and boot from the ISO.</p>
+<p>Selecting the Automatic option will erase all the files on your connected drives during installation. Please ensure that you only connect a single boot drive to install the OS onto. Alternatively, select Manual configuration and customize the target drive and partitions when installing the OS.</p>
+<p>The installer takes care of all dependencies - including standard libraries, Nvidia drivers and DeckLink drivers. When the installation is complete, you can reboot the system once, and download and install DaVinci Resolve using the instructions above. When upgrading DaVinci Resolve, please check this section in the new installer for any special instructions you may need for the new version.</p>
+
+<div class="date">Updated February 11, 2026.</div>
+</body>
+</html>
+
