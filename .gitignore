@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+/msft/sharepoint/node_modules/
+/msft/sharepoint/lib/
+/msft/sharepoint/dist/
+/msft/sharepoint/temp/
+/msft/sharepoint/release/
+/msft/sharepoint/sharepoint/solution/
+/msft/sharepoint/*.sppkg
+/msft/sharepoint/*.log
+/msft/sharepoint/.env
+/msft/sharepoint/.env.*
+/msft/sharepoint/.eslintcache

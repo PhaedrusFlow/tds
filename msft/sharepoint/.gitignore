@@ -1,0 +1,14 @@
+node_modules/
+lib/
+dist/
+temp/
+release/
+sharepoint/solution/
+*.sppkg
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
