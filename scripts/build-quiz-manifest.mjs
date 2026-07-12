@@ -1,11 +1,8 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
-
 const repoRoot = process.cwd();
 const dataDir = path.join(
     repoRoot,
-    "successbuilder",
-    "development",
     "ta",
     "quizzes",
     "data",
@@ -34,7 +31,6 @@ const parseJsonFile = (raw, fileName) => {
         throw new Error(`Invalid JSON in ${fileName}: ${error.message}`);
     }
 };
-
 const isNonEmptyString = (value) =>
     typeof value === "string" && value.trim().length > 0;
 
@@ -51,17 +47,14 @@ const validateQuestion = (question, fileName, index) => {
     if (typeof question.id !== "number" && !isNonEmptyString(question.id)) {
         throw new Error(`${label} is missing a valid "id".`);
     }
-
     if (!isNonEmptyString(question.question)) {
         throw new Error(`${label} is missing a non-empty "question" string.`);
     }
-
     if (!Array.isArray(question.choices) || question.choices.length < 2) {
         throw new Error(
             `${label} must have a "choices" array with at least 2 items.`,
         );
     }
-
     for (let i = 0; i < question.choices.length; i += 1) {
         if (!isNonEmptyString(question.choices[i])) {
             throw new Error(
@@ -69,17 +62,14 @@ const validateQuestion = (question, fileName, index) => {
             );
         }
     }
-
     if (!isNonEmptyString(question.answer)) {
         throw new Error(`${label} is missing a non-empty "answer" string.`);
     }
-
     if (!question.choices.includes(question.answer)) {
         throw new Error(
             `${label} has an "answer" that does not match any choice.`,
         );
     }
-
     if (
         question.explanation !== undefined &&
         question.explanation !== null &&
@@ -90,7 +80,6 @@ const validateQuestion = (question, fileName, index) => {
         );
     }
 };
-
 const validateQuizData = (data, fileName) => {
     if (typeof data !== "object" || data === null || Array.isArray(data)) {
         throw new Error(`${fileName} must contain a top-level JSON object.`);
@@ -181,16 +170,13 @@ const main = async () => {
             questionCount: questions.length,
         });
     }
-
     await fs.writeFile(
         manifestPath,
         `${JSON.stringify(manifest, null, 2)}\n`,
         "utf8",
     );
-
     console.log(`Wrote ${manifest.length} quiz entries to ${manifestPath}`);
 };
-
 main().catch((error) => {
     console.error(error.message || error);
     process.exit(1);

@@ -1,0 +1,929 @@
+                             Journal of Graduate Medical Education
+              Match Trends in Competitive Surgical Specialties Post ACGME Merger
+                                                 --Manuscript Draft--
+
+Manuscript Number:                      JGME-D-26-00264
+
+Full Title:                             Match Trends in Competitive Surgical Specialties Post ACGME Merger
+
+Short Title:                            Match Trends Post ACGME Merger
+
+Article Type:                           Original Research
+
+Keywords:                               Match Trends; Graduate medical education; Osteopathic; ACGME Merger;
+                                        Representation; medical education; Geography; Regional Trends; Surgery;
+                                        Competitive
+
+Abstract:                               Background: Prior to the ACGME merger, residency programs were designated
+                                        separately from MD and DO applicants. Competitive surgical specialties have
+                                        historically been dominated by MD representation and spots for DO residents limited.
+                                        However, the ACGME merger that took place in 2020 eliminated this separation.
+                                        Objective: The aim of this study is to determine trends in DO representation in
+                                        competitive surgical specialties by evaluating changes in overall DO representation
+                                        and regional representation five years post-ACGME merger.
+                                        Methods: Utilizing publicly accessible data, DO representation was evaluated across
+                                        the following ACGME accredited competitive surgical specialties comparing PGY1 to
+                                        PGY5: ENT, general surgery, orthopedic surgery, plastic surgery, and urology. Data
+                                        was collected during the 2025 academic year. A total of 776 ACGME accredited
+                                        residency programs were evaluated.
+                                        Results: Based on the results, it was concluded that five years post ACGME merger,
+                                        there was an increase in ENT and general surgery DO representation overall and a
+                                        decrease in urology, orthopedic surgery, and plastic surgery. General surgery was
+                                        found to have the most DO representation expansion with a 3% increase overall.
+                                        Conclusion: In evaluating regional data, results indicate an increase in DO
+                                        representation regionally in all specialties with the exception of orthopedic surgery and
+                                        urology. In conclusion, there was minimal overall DO representation advancement
+                                        across surgical specialties and regional distribution is varied.
+
+
+
+
+                   Powered by Editorial Manager® and ProduXion Manager® from Aries Systems Corporation
+Cover Letter
+
+
+
+
+               Dear Editors,
+
+
+
+               On behalf of my co-authors, I am pleased to submit our manuscript entitled “Match Trends
+               in Competitive Surgical Specialties Post ACGME Merger” for consideration for publication in
+               the Journal of Graduate Medical Education. This manuscript has not been published
+               previously and is not under consideration for publication elsewhere.
+
+               The study examines trends in DO representation in competitive surgical specialties by
+               evaluating changes in overall DO representation and regional representation five years
+               post-ACGME merger. We believe our findings are relevant to the Journal of Graduate Medical
+               Education readership and contribute to advancing osteopathic medicine by addressing an
+               important concern for osteopathic medical students and overall osteopathic medical
+               education.
+
+               We confirm that all authors meet authorship criteria and have approved the final version of
+               the manuscript. All relevant ethical standards have been upheld, including IRB approval.
+               Conflict of interest and funding statements are included as required.
+
+               Thank you for considering our manuscript for publication in the Journal of Graduate Medical
+               Education. We appreciate your time and look forward to your review.
+
+
+
+               Sincerely,
+
+               Ashley P Lesser, OMS IV, MBA, BS
+
+               On behalf of all authors
+Manuscript File                                                         Click here to access/download;Manuscript File;JGME
+                                                                        Manuscript .docx
+
+   1
+   2
+   3
+   4
+   5                                                       Title Page
+   6
+   7
+   8
+   9              Article Title
+  10                  Match Trends in Competitive Surgical Specialties Post ACGME Merger
+  11
+  12              Author Bylines
+  13
+                     Ashley P. Lesser, MBA, OMS4 ; Madison E. Kelly, BS, OMS4; Shay B. Van
+  14
+  15                 Sambeek, BS, OMS4; Christian J. Nassif, BA, OMS4; John P. Dobson III, MD
+  16
+  17              Author Affiliations
+  18                 Ashley P. Lesser, OMS4, Kansas City University College of Osteopathic Medicine, Kansas City, Missouri
+  19                 Madison E. Kelly, OMS4, Kansas City University College of Osteopathic
+  20
+  21                 Medicine, Kansas City, Missouri
+  22                 Shay B. Van Sambeek, OMS4, Kansas City University College of Osteopathic
+  23                 Medicine, Kansas City, Missouri
+  24                 Christian J. Nassif, OMS4, Kansas City University College of Osteopathic
+  25
+                     Medicine, Kansas City, Missouri
+  26
+  27                 Dr. John P. Dobson III, MD, Kansas City University College of Osteopathic
+  28                 Medicine, Kansas City, Missouri
+  29
+  30              Correspondence Address
+  31                 Kansas City University, 1750 Independence Ave, Kansas City, MO 64106.
+  32
+  33                 Email: Ashley.Lesser@kansascity.edu
+  34
+  35              Prior Poster Presentation: American College of Osteopathic Surgeons Spring Conference, April 2025
+  36
+  37              Financial Disclosures : None reported.
+  38
+  39
+  40              Ethical Approval
+  41                 IRB review is conducted by performing a risk-benefit analysis and applying HHS regulations
+  42                 at 45 CFR 46, which implement the National Research Act of 1974. The study was reviewed
+  43                 and approved through the Kansas City University International Review Board on August 19th,
+  44                 2024. IRB approval number is 2226107-1.
+  45
+  46
+  47              Informed Consent
+  48                  No informed consent needed.
+  49
+  50              Author Contributions
+  51                Ashley P. Lesser, Madison E. Kelly, Shay B. Van Sambeek and Christian J. Nassif provided substantial
+  52                contributions to conception and design, acquisition of data, analysis and interpretation of data, and drafted
+  53
+  54                the article. John P. Dobson gave final approval of the version of the article to be published; and all authors
+  55                agree to be accountable for all aspects of the work in ensuring that questions related to the accuracy or
+  56                integrity of any part of the work are appropriately investigated and resolved.
+  57
+  58              Word Count: Abstract 216; Manuscript 1931
+  59
+  60
+  61
+  62
+  63
+  64                                                                                                                             1
+  65
+ 1
+ 2
+ 3
+ 4                                                       ABSTRACT
+ 5
+ 6   Background: Prior to the ACGME merger, residency programs were designated separately from MD and
+ 7
+ 8   DO applicants. Competitive surgical specialties have historically been dominated by MD representation
+ 9
+10
+     and spots for DO residents limited. However, the ACGME merger that took place in 2020 eliminated this
+11
+12
+     separation.
+13
+14
+15
+16   Objective: The aim of this study is to determine trends in DO representation in competitive surgical
+17
+18   specialties by evaluating changes in overall DO representation and regional representation five years post-
+19
+20   ACGME merger.
+21
+22
+23   Methods: Utilizing publicly accessible data, DO representation was evaluated across the following
+24
+25   ACGME accredited competitive surgical specialties comparing PGY1 to PGY5: ENT, general surgery,
+26
+27   orthopedic surgery, plastic surgery, and urology. Data was collected during the 2025 academic year. A
+28
+29   total of 776 ACGME accredited residency programs were evaluated.
+30
+31
+32   Results: Based on the results, it was concluded that five years post ACGME merger, there was an increase
+33
+34   in ENT and general surgery DO representation overall and a decrease in urology, orthopedic surgery, and
+35
+36   plastic surgery. General surgery was found to have the most DO representation expansion with a 3%
+37
+38   increase overall.
+39
+40
+41   Conclusion: In evaluating regional data, results indicate an increase in DO representation regionally in all
+42
+43   specialties with the exception of orthopedic surgery and urology. In conclusion, there was minimal overall
+44
+45   DO representation advancement across surgical specialties and regional distribution is varied.
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                                  2
+65
+ 1
+ 2
+ 3
+ 4                                          MAIN MANUSCRIPT: INTRODUCTION
+ 5
+ 6
+ 7
+ 8   Prior to the merger of the Accreditation Council for Graduate Medical Education (ACGME) and the American
+ 9
+10   Osteopathic Association (AOA) accreditation systems that occurred in 2020, residency programs for allopathic
+11
+12   (MD) and osteopathic (DO) applicants were designated separately. During a five-year transition period from 2015-
+13
+14   2020, American Osteopathic Association (AOA) programs had to demonstrate compliance with ACGME
+15
+16   requirements. The resulting single accreditation system streamlines graduate medical education by eliminating
+17
+18   duplicative accreditation costs, ensuring uniform standards of evaluation and accountability, and expanding
+19
+20
+     opportunities for all medical graduates—including access to osteopathic training for both allopathic and osteopathic
+21
+22
+     students. It also fosters greater collaboration across the medical education community while providing transparency
+23
+24
+     for residents.¹
+25
+26
+27
+28
+29   Competitive surgical specialties have historically been dominated by MD representation with spots for DO residents
+30
+31   limited. With the ACGME merge, this separation was eliminated, but the effects of this transition are not yet fully
+32
+33   understood. There are limited studies that detail a comprehensive analysis across multiple surgical disciplines and
+34
+35   geographic regions.
+36
+37
+38
+39   Prior studies reporting lower match rates for DO applicants compared to MD applicants in surgical fields. For
+40
+41   example, a 2022 study reported that nearly half of surveyed surgical programs did not train DO residents, 2 and an
+42
+43   additional study found lower DO match rates across multiple specialties.3 Similarly, a 2023 study demonstrated that
+44
+45   DO applicants experienced significant losses in ophthalmology following the merger. 4 Together, these findings
+46
+47   reinforce the persistent underrepresentation of DOs in highly competitive surgical fields. However, this study adds a
+48
+49   unique perspective to the current body of literature. Occurring five years after the ACGME merger this study is the
+50
+51   most recent assessment of its effects. These findings help draw attention to the current under representation of DO
+52
+53   students despite the ACGME merger. This highlights the need for further intervention to ensure equity between
+54
+55   allopathic and osteopathic students.
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                                         3
+65
+ 1
+ 2
+ 3
+ 4   In this study, we aim to further evaluate representation of DO graduates across five ACGME-accredited competitive
+ 5
+ 6   surgical specialties: ENT, general surgery, orthopedic surgery, plastic surgery, and urology. Understanding the
+ 7
+ 8   distribution of DO physicians in these fields can provide valuable insight into the opportunities for osteopathic
+ 9
+10   graduates to match into competitive surgical specialties compared to their MD counterparts. This data can be used to
+11
+12   help future applicants, medical school advisors, and residency program directors better understand the trends that
+13
+14   exist for their specialty of interest.
+15
+16
+17
+18
+                                                 MAIN MANUSCRIPT: METHODS
+19
+20
+21
+22
+     The study protocol was reviewed and approved by the Kansas City University Institutional Review Board (approval
+23
+24
+     number: 2226107-1). No funding was received to support this study.
+25
+26
+27
+28
+29   Residency program data were collected from the American Association of Medical Colleges (AAMC) website for
+30
+31   otolaryngology,5 orthopedic surgery,6 and general surgery. 7 Program listings for plastic surgery,8 and urology 9 were
+32
+33   obtained from the American Society of Plastic Surgeons and the American Urological Association, respectively.
+34
+35
+36
+37   From the listings of programs, MD and DO degree data was obtained in the following manner: Each individual
+38
+39   residency program’s public website was accessed to retrieve resident demographic information including total
+40
+41   resident numbers, total number of MDs and DOs, and numbers of MDs and DOs in PGY1 and PGY5. Excluded
+42
+43   from the total number of residents were research fellows and those undergoing a program development year.
+44
+45   Programs region was also noted based on the AAMC Residency Regions. This data was all collected between July
+46
+47   of 2024 and December of 2024.
+48
+49
+50
+51   The following inclusion parameters were applied to the initial listings of all residency programs across all specialties
+52
+53   of interest (Table 1). The program was an US ACGME accredited program. The program had PGY1-PGY5
+54
+55   residency classes. The program website contained resident and program director degree types or was publicly
+56
+57   accessible. The program was a civilian residency program. Additionally, integrated and independent plastic surgery
+58
+59   residency programs were separated, and only integrated programs were included. If any of these parameters were
+60
+61
+62
+63
+64                                                                                                                         4
+65
+ 1
+ 2
+ 3
+ 4   not met the program was excluded. This resulted in 117 ENT, 274 general surgery, 175 orthopedic surgery, 79
+ 5
+ 6   plastic surgery, and 131 urology residency programs evaluated in this study.
+ 7
+ 8
+ 9
+10   Microsoft Excel was used to analyze the data collected assessing for mean and percent change of both MD and DO
+11
+12   populations in PGY1 and PGY5. A paired T-test was performed with regional data again comparing DO
+13
+14   representation for PGY5 and PGY5.
+15
+16
+17
+18
+                                                  MAIN MANUSCRIPT: RESULTS
+19
+20
+21
+22
+     ENT
+23
+24
+     DO residents account for 5.8% of all PGY5 ENT residents and 7.9% of PGY1 ENT residents. This depicts a 2.1%
+25
+26
+     increase in DO residents from PGY5 to PGY1. DO representation across AAMC Residency Regions for PGY5
+27
+28
+29   showed the East North Central region had the largest DO ENT resident population accounting for 16.7% while the
+30
+31   West North Central, South Atlantic, Mountain, and Pacific regions had no DO ENT residents. For PGY1, the East
+32
+33   North Central region had the largest DO ENT Resident population with 22.7% while the East South Central,
+34
+35   Mountain, and Pacific Region had no DO ENT residents. Regional DO representation comparison between PGY5
+36
+37   and PGY1 is shown in Table 2. The East North Central region had the largest increase of 6.0% while the West South
+38
+39   Central region demonstrated the largest decline of -25.1%. Statistical significance for regional change utilizing
+40
+41   Paired T-test indicated no statistical significance for regional changes (p=0.57).
+42
+43
+44
+45   General Surgery
+46
+47   General Surgery DO residents account for 13.9% of all PGY5 residents and 17.1% of PGY1 general surgery
+48
+49   residents. This depicts a 3.2% increase in DO residents from PGY5 to PGY1. DO representation comparison across
+50
+51   AAMC Residency Regions for PGY5 to PGY1 is depicted in Table 2. For PGY5, the East North Central region had
+52
+53   the largest DO ENT resident population accounting for 26.7% and again the New England region had the least with
+54
+55   1.1%. For PGY1, the East North Central region had the largest DO general surgery resident population with 24.3%
+56
+57   while the New England region had the least with 5.3%. All regions saw an increase in DO resident representation
+58
+59   five years following the ACGME merger with the exception of the East North Central Region showed a decrease of
+60
+61
+62
+63
+64                                                                                                                       5
+65
+ 1
+ 2
+ 3
+ 4   -2.5%. The South Atlantic region had the largest increase of 9.9%. Statistical significance for regional change
+ 5
+ 6   utilizing Paired T-test indicated statistical significance for regional changes (p=0.005).
+ 7
+ 8
+ 9
+10   Orthopedic Surgery
+11
+12   DO residents account for 12.7% of all PGY5 orthopedic surgery residents and 12% of PGY1 residents. DO regional
+13
+14   representation for PGY5 demonstrated the similar distribution with the East North Central having the highest
+15
+16   representation and the New England region again having the lowest. For PGY1, the East North Central region had
+17
+18   the largest DO orthopedic surgery resident population with 27.2% while the New England region had the least with
+19
+20
+     2.0%. DO representation comparison across AAMC Residency Regions for PGY5 to PGY1 is depicted in Table 2.
+21
+22
+     Statistical significance for regional change utilizing Paired T-test indicated no statistical significance for regional
+23
+24
+     changes (p=0.31).
+25
+26
+27
+28
+29   Plastic Surgery
+30
+31   DO plastic surgery residents account for 2 % of all PGY5 residents and 1.1% of PGY1 residents. DO representation
+32
+33   across AAMC Residency Regions for PGY1 and PGY5 plastic surgery DO demographics are depicted in Table 2.
+34
+35   DO regional representation for PGY5 demonstrated DO residents only in the East North Central and South Atlantic
+36
+37   regions. For PGY1, the East North Central region and the Middle Atlantic region were the only regions with DO
+38
+39   plastic surgery residents. Statistical significance for regional change utilizing Paired T-test indicated no statistical
+40
+41   significance for regional changes (p=0.30).
+42
+43
+44
+45   Urology
+46
+47   DO urology residents account for 10% of all PGY5 orthopedic surgery residents and 8.5% of PGY1 residents. There
+48
+49   was a 1.5% decrease in DO representation from PGY5 to PGY1. DO representation across AAMC Residency
+50
+51   Regions for PGY1 and PGY5 urology surgery DO demographics are depicted in Table 2. DO regional
+52
+53   representation for PGY5 demonstrated the highest DO representation in the Middle Atlantic region and no DO
+54
+55   residents in the New England, West North Central, Pacific, and Mountain regions. For PGY1, the South Atlantic
+56
+57   region had the largest DO urology resident population with 10.3% while the New England region, East South
+58
+59
+60
+61
+62
+63
+64                                                                                                                              6
+65
+ 1
+ 2
+ 3
+ 4   Central, and Pacific had no DO residents. Statistical significance for regional change utilizing Paired T-test indicated
+ 5
+ 6   no statistical significance for regional changes (p=0.39).
+ 7
+ 8
+ 9
+10
+11                                              MAIN MANUSCRIPT: DISCUSSION
+12
+13
+14
+15   Overall, the findings suggest limited benefits of the ACGME merger for osteopathic applicants in competitive
+16
+17   surgical specialties. Although DO representation increased in general surgery and otolaryngology, decreases in
+18
+19   orthopedic surgery, plastic surgery, and urology underscore persistent differences. These results challenge the
+20
+21   ACGME’s assertion that the merger “enhanced opportunities” for DO applicants, indicating that systemic barriers
+22
+23   may remain.
+24
+25
+26
+27   The results of this study found that there was an increase in overall representation for DO applicants in ENT and
+28
+29   General Surgery. However, there was a decrease in overall representation in Orthopedic Surgery, Plastic Surgery,
+30
+31
+     and Urology. These overall trends are evident in Figure 1. Regional changes were found to not be statistically
+32
+33
+     significant in ENT, Orthopedic Surgery, Plastic Surgery, and Urology. However, General Surgery had an increase in
+34
+35
+     DO representation in every region except the East North Central which showed a decrease. The largest
+36
+37
+38   representation for General Surgery was in the East North Central region and the least in the New England region for
+39
+40   both PGY1 and PGY5 residents. Overall regional trends were also identified, with overall regional DO distribution
+41
+42   remaining highest in the East North Central region and lowest in the New England Region, no change was noted in
+43
+44   the Pacific and Mountain regions, however redistribution was noted in the West North Central, West South Central,
+45
+46   East South Central, and South Atlantic regions as appreciated in Figure 2.
+47
+48
+49
+50   Although there was the largest increase in representation in General Surgery overall and regionally, the specialty
+51
+52   itself is the least competitive of those analyzed. The increase in representation in the ENT group is far outweighed
+53
+54   by the decrease in representation in the Orthopedic Surgery, Plastic Surgery, and Urology groups.
+55
+56
+57
+58   Prior research has consistently shown lower match rates and underrepresentation of DO applicants in competitive
+59
+60   surgical specialties, with some studies noting significant post-merger declines. A study published in 2025 compared
+61
+62
+63
+64                                                                                                                          7
+65
+ 1
+ 2
+ 3
+ 4   match rates of DO students before and after the ACGME merger. This study aligned with our results showing a
+ 5
+ 6   significant increase in DO match rates in general surgery, but no change in integrated residency positions like plastic
+ 7
+ 8   surgery and thoracic surgery. Our study, conducted five years after the ACGME merger, provides the most recent
+ 9
+10   assessment and underscores the ongoing need for interventions to promote equity between MD and DO applicants.
+11
+12
+13
+14   While this study expands upon the current literature it is important to acknowledge certain limitations. One such
+15
+16   limitation is the collection of data from only five surgical specialties. There are other competitive surgical specialties
+17
+18   such as Neurosurgery, Vascular Surgery, Obstetrics and Gynecology, Cardiothoracic Surgery, and Ophthalmology
+19
+20
+     which may have provided more insight to our study. Another constraint was the limited access to resident
+21
+22
+     information for certain programs. These programs were excluded from the study but may have increased the
+23
+24
+     statistical power. Finally, since there was an increase in representation among ENT and General Surgery the data
+25
+26
+     may be interpreted differently and as increasing representation for DOs.
+27
+28
+29
+30
+31
+                                               MAIN MANUSCRIPT: CONCLUSIONS
+32
+33
+34
+35   Following the ACGME merger completed five years ago, osteopathic medical students have seen
+36
+37   minimal improvement in representation throughout the exploration of the five surgical specialties
+38
+39   detailed in our investigation with significant variation in regional distribution. Although increases
+40
+41   were observed in otolaryngology and general surgery, decreases in orthopedic surgery, plastic surgery,
+42
+43   and urology highlight ongoing differences. Regional analysis revealed heterogeneous trends, with
+44
+45   some areas showing modest growth while others demonstrated declines or stagnation. Further research
+46
+47   should evaluate additional competitive specialties, program-level factors such as leadership
+48
+49   composition, and applicant characteristics associated with successful DO matches. Our hope is that as
+50
+51   the number of DO applicants increase, we see a linear relationship in this representation in
+52
+53   competitive surgical specialties.
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                                           8
+65
+ 1
+ 2
+ 3
+ 4                                                        REFERENCES
+ 5
+ 6
+ 7   1.   Accreditation Council for Graduate Medical Education. History of the Transition to a Single
+ 8
+ 9        GME Accreditation System [Internet]. ACGME. Accessed September 3, 2025. Available from:
+10
+11        https://www.acgme.org/about/transition-to-a-single-gme-accreditation-system-history/
+12
+13
+     2.   Heard M, Buckley S, Burns B, Conrad-Schnetz K. Identifying attitudes toward and acceptance
+14
+15
+          of osteopathic graduates in surgical residency programs in the era of single accreditation: results
+16
+17
+          of the American College of Osteopathic Surgeons Medical Student Section questionnaire of
+18
+19
+          program directors. Cureus. 2022;14(3):e22870. doi:10.7759/cureus.22870
+20
+21
+22   3.   Brazdzionis J, Savla P, Oppenheim R, et al. Comparison of osteopathic (DO) and allopathic
+23
+24        (MD) candidates matching into selected surgical subspecialties. Cureus. 2023;15(6):e40566.
+25
+26        doi:10.7759/cureus.40566
+27
+28   4.   Bohler F, Garden A, Santiago C, Bohler L, Taranikanti V. Characterizing the initial effects of
+29
+30        the single accreditation system merge on the ophthalmology residency match. Med Educ Online.
+31
+32        2024;29(1):2307124. doi:10.1080/10872981.2024.2307124
+33
+34   5.   Association of American Medical Colleges. ERAS 2026 Participating Specialties & Programs:
+35
+36        Otolaryngology [Internet]. AAMC. Accessed July 20, 2024. Available from:
+37
+38        https://systems.aamc.org/eras/erasstats/par/display.cfm?NAV_ROW=PAR&SPEC_CD=280
+39
+40   6.   Association of American Medical Colleges. ERAS 2026 Participating Specialties & Programs:
+41
+42        Orthopaedic Surgery [Internet]. AAMC. Accessed July 20, 2024. Available from:
+43
+44        https://systems.aamc.org/eras/erasstats/par/display.cfm?NAV_ROW=PAR&SPEC_CD=260
+45
+46   7.   Association of American Medical Colleges. ERAS 2026 Participating Specialties & Programs:
+47
+48        Surgery [Internet]. AAMC. Accessed July 20, 2024. Available from:
+49
+50        https://systems.aamc.org/eras/erasstats/par/display.cfm?NAV_ROW=PAR&SPEC_CD=440
+51
+52   8.   American Society of Plastic Surgeons. Integrated Residency Programs. In: Medical Students
+53
+54        Forum [Internet]. American Society of Plastic Surgeons. Accessed December 15, 2024.
+55
+56        Available from: https://www.plasticsurgery.org/for-medical-professionals/community/ medical-
+57
+58        students-forum/integrated-residency-programs
+59
+60   9.   American Urological Association. Accredited Listing of U.S. Urology Residency Programs
+61
+62
+63
+64                                                                                                              9
+65
+ 1
+ 2
+ 3
+ 4   [Internet]. AUA. Accessed July 20, 2024. Available from: https://www.auanet.org/ meetings-
+ 5
+ 6   and-education/for-residents/urology-residency-and-fellowship-programs/accredited-us-urology-
+ 7
+ 8   programs/accredited-listing-of-us-urology-residency-programs
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                  10
+65
+Figure 1 _ Overall DO Representation PGY1 vs PGY5   Click here to access/download;Figure;Figure 1.png
+Figure 2.1 _ PGY5 Regional Distribution Map   Click here to access/download;Figure;Figure 2.1.png
+Figure 2.2 _ PGY1 Regional Distribution Map   Click here to access/download;Figure;Figure 2.2.png
+Table 1 _ Inclusion Parameters                                           Click here to access/download;Table;Table 1.docx
+
+
+
+
+              Table 1
+
+
+               Program Inclusion Parameters
+                #                 Inclusion Parameter
+
+               1                  Program is a United States ACGME accredited program.
+
+               2                  Program includes residency classes PGY1 (Class of 2029) through PGY5 (Class
+                                  of 2025).
+
+               3                  Program website contains resident degree type or degree was publicly accessible
+                                  (MD or DO).
+
+               4                  Program is a civilian residency program.
+
+               5*                 Program is Integrated.
+              *Denotes Parameter Specific to Plastic Surgery Residency Programs
+Table 2_ Regional Comparisons                                                    Click here to access/download;Table;Table 2.docx
+
+
+
+
+             Table 2
+             Comparison of MD and DO representation across AAMC Residency Region for ENT, General
+             Surgery, Orthopedic Surgery, Plastic Surgery, and Urology for classes PGY5 and PGY1.
+
+                       Specialty                Region         PGY5 %MD         PGY5 %DO         PGY1 %MD         PGY1 %DO
+
+
+
+             ENT                   New England           95.7             4.3              95.2             4.8
+
+
+             ENT                   Middle Atlantic       88.1             11.9             88.3             11.7
+
+
+             ENT                   East North Central    83.3             16.7             77.3             22.7
+
+
+             ENT                   West North Central    100              0                94.6             5.4
+
+
+             ENT                   South Atlantic        100              0                98.3             1.7
+
+
+             ENT                   East South Central    95.2             4.8              100              0
+
+
+             ENT                   West South Central    70               30               95.1             4.9
+
+
+             ENT                   Mountain              100              0                100              0
+
+
+             ENT                   Pacific               100              0                100              0
+
+
+             General Surgery       New England           98.9             1.1              94.7             5.3
+
+
+             General Surgery       Middle Atlantic       82.1             17.9             79.2             20.8
+
+
+             General Surgery       East North Central    73.2             26.8             75.7             24.3
+
+
+             General Surgery       West North Central    81.4             18.6             76.5             23.5
+
+
+             General Surgery       South Atlantic        93.8             6.2              83.9             16.1
+
+
+             General Surgery       East South Central    91               9                83.5             16.5
+
+
+             General Surgery       West South Central    93.3             6.7              91               9
+
+
+             General Surgery       Mountain              83.9             16.1             79.3             20.7
+
+
+             General Surgery       Pacific               93.8             6.2              91.4             8.6
+
+
+             Orthopedic Surgery    New England           100              0                98               2
+
+
+             Orthopedic Surgery    Middle Atlantic       82.1             17.9             85.5             14.5
+
+
+             Orthopedic Surgery    East North Central    76.4             23.6             72.8             27.2
+Orthopedic Surgery   West North Central   98.6   15.4   95.5   4.5
+
+
+Orthopedic Surgery   South Atlantic       93.1   6.9    94.6   5.4
+
+
+Orthopedic Surgery   East South Central   89.5   10.5   92.1   7.9
+
+
+Orthopedic Surgery   West South Central   96.1   3.9    96.3   3.7
+
+
+Orthopedic Surgery   Mountain             87.9   12.1   96.9   3.1
+
+
+Orthopedic Surgery   Pacific              85.6   14.4   89.1   10.9
+
+
+Plastic Surgery      New England          100    0      100    0
+
+
+Plastic Surgery      Middle Atlantic      100    0      96.2   3.8
+
+
+Plastic Surgery      East North Central   93.1   6.9    96.9   3.1
+
+
+Plastic Surgery      West North Central   100    0      100    0
+
+
+Plastic Surgery      South Atlantic       95.7   4.3    100    0
+
+
+Plastic Surgery      East South Central   100    0      100    0
+
+
+Plastic Surgery      West South Central   100    0      100    0
+
+
+Plastic Surgery      Mountain             100    0      100    0
+
+
+Plastic Surgery      Pacific              100    0      100    0
+
+
+Urology              New England          100    0      100    0
+
+
+Urology              Middle Atlantic      90.9   9.1    91.8   8.2
+
+
+Urology              East North Central   63.8   36.2   80     20
+
+
+Urology              West North Central   100    0      95.7   4.3
+
+
+Urology              South Atlantic       96.2   3.8    97     3
+
+
+Urology              East South Central   95.2   4.8    100    0
+
+
+Urology              West South Central   92.1   7.9    89.7   10.3
+
+
+Urology              Mountain             100    0      92.3   7.7
+
+
+Urology              Pacific              100    0      100    0
+

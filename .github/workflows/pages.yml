@@ -31,14 +31,14 @@ jobs:
           node-version: 24
 
       - name: Build quiz manifest
-        run: node scripts/build-quiz-manifest.mjs
+        run: node build-quiz-manifest.mjs
 
       - name: Assemble Pages site
         run: |
           rm -rf _site
-          mkdir -p _site/successbuilder/development/ta
+          mkdir -p _site/ta
           mkdir -p _site/msft
-          cp -R successbuilder/development/ta/quizzes _site/successbuilder/development/ta/
+          cp -R ta/quizzes _site/successbuilder/development/ta/
           cp -R msft/sharepoint _site/msft/
           touch _site/.nojekyll
 
