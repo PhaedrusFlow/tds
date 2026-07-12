@@ -31,7 +31,7 @@ jobs:
           node-version: 24
 
       - name: Build quiz manifest
-        run: node build-quiz-manifest.mjs
+        run: node scripts/build-quiz-manifest.mjs
 
       - name: Assemble Pages site
         run: |
