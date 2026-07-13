@@ -10,12 +10,31 @@
  */
 
 /**
+ * @typedef {Object} QuestionExplanationChoice
+ * @property {string} text
+ * @property {string[]} [sections]
+ */
+
+/**
+ * @typedef {Object} QuestionExplanationCorrect
+ * @property {string} text
+ * @property {string[]} [indexKeywords]
+ * @property {string[]} [sections]
+ */
+
+/**
+ * @typedef {Object} QuestionExplanationObject
+ * @property {QuestionExplanationCorrect} [correct]
+ * @property {Record<string, QuestionExplanationChoice>} [choices]
+ */
+
+/**
  * @typedef {Object} Question
  * @property {number|string} id
  * @property {string} question
  * @property {string[]} choices
  * @property {string} answer
- * @property {string} [explanation]
+ * @property {string|QuestionExplanationObject} [explanation]
  */
 
 /**
@@ -51,6 +70,7 @@
  */
 
 /* ── State ──────────────────────────────────────────────────────── */
+
 /** @type {AppState} */
 let state = {
   currentQuiz: null,
@@ -67,9 +87,9 @@ let state = {
 
 /**
  * @param {string} sel
- * @returns {Element | null}
+ * @returns {HTMLElement|null}
  */
-const $ = (sel) => document.querySelector(sel);
+const $ = (sel) => /** @type {HTMLElement|null} */ (document.querySelector(sel));
 
 const views = {
   catalog: /** @type {HTMLElement} */ ($('#view-catalog')),
@@ -79,12 +99,14 @@ const views = {
 };
 
 /* ── Theme toggle ───────────────────────────────────────────────── */
+
 (function () {
   /** @type {HTMLButtonElement|null} */
   const t = /** @type {HTMLButtonElement|null} */ ($('[data-theme-toggle]'));
   const r = document.documentElement;
-  const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   let d = r.getAttribute('data-theme') || (prefersDark ? 'dark' : 'light');
+
   r.setAttribute('data-theme', d);
 
   if (t) {
@@ -101,12 +123,16 @@ const views = {
    * @param {string} theme
    */
   function updateThemeIcon(btn, theme) {
-    btn.setAttribute('aria-label', 'Switch to ' + (theme === 'dark' ? 'light' : 'dark') + ' mode');
-    btn.innerHTML = theme === 'dark'
-      ? '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
-      : '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+    btn.setAttribute(
+      'aria-label',
+      'Switch to ' + (theme === 'dark' ? 'light' : 'dark') + ' mode'
+    );
+    btn.innerHTML =
+      theme === 'dark'
+        ? '☀️'
+        : '🌙';
   }
-}());
+})();
 
 /* ── View management ────────────────────────────────────────────── */
 
@@ -114,16 +140,18 @@ const views = {
  * @param {ViewName} name
  */
 function showView(name) {
-  Object.values(views).forEach(v => v.classList.remove('active'));
+  Object.values(views).forEach((v) => v.classList.remove('active'));
   views[name].classList.add('active');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-/* ── Catalog rendering — loads from manifest.json ───────────────── */
+/* ── Catalog rendering ──────────────────────────────────────────── */
+
 async function renderCatalog() {
   /** @type {HTMLDivElement} */
   const grid = /** @type {HTMLDivElement} */ ($('#quiz-catalog'));
-  grid.innerHTML = '<p style="color:var(--color-text-muted);font-size:var(--text-sm)">Loading quizzes…</p>';
+
+  grid.innerHTML = '<p>Loading quizzes…</p>';
 
   /** @type {QuizCatalogItem[]} */
   let catalog = [];
@@ -133,38 +161,34 @@ async function renderCatalog() {
     if (!res.ok) throw new Error(`manifest fetch failed: ${res.status}`);
     catalog = await res.json();
   } catch (err) {
-    grid.innerHTML = `<p style="color:var(--color-wrong);font-size:var(--text-sm)">Could not load quiz manifest. (${err.message})</p>`;
+    grid.innerHTML = `<p>Could not load quiz manifest. (${escHtml(err.message)})</p>`;
     return;
   }
 
   grid.innerHTML = '';
 
   if (catalog.length === 0) {
-    grid.innerHTML = '<p style="color:var(--color-text-muted);font-size:var(--text-sm)">No quizzes found in manifest.</p>';
+    grid.innerHTML = '<p>No quizzes found in manifest.</p>';
     return;
   }
 
   for (const quiz of catalog) {
     const count = quiz.questionCount ?? '?';
-
     const card = document.createElement('div');
     card.className = 'catalog-card';
     card.setAttribute('role', 'button');
     card.setAttribute('tabindex', '0');
     card.setAttribute('aria-label', 'Start ' + quiz.title);
+
     card.innerHTML = `
-      <svg class="catalog-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-        <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2m-6 9l2 2 4-4"/>
-      </svg>
-      <div class="catalog-card-title">${escHtml(quiz.title)}</div>
-      <div class="catalog-card-meta">${count} question${count === 1 ? '' : 's'}</div>
-      <p style="font-size:var(--text-xs);color:var(--color-text-muted);max-width:36ch;margin-bottom:var(--space-4);">${escHtml(quiz.description)}</p>
-      <span class="catalog-card-cta">Start test
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9,18 15,12 9,6"/></svg>
-      </span>
+      <h3>${escHtml(quiz.title)}</h3>
+      <p>${escHtml(quiz.description || '')}</p>
+      <div class="catalog-meta">${count} questions</div>
+      <button class="catalog-start-btn" type="button">Start test</button>
     `;
 
     const start = () => loadQuiz(quiz);
+
     card.addEventListener('click', start);
     card.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
@@ -209,6 +233,8 @@ async function loadQuiz(quiz) {
 
   state.currentIndex = 0;
   state.results = [];
+  state.selected = null;
+  state.answered = false;
 
   /** @type {HTMLElement} */
   const quizTitleDisplay = /** @type {HTMLElement} */ ($('#quiz-title-display'));
@@ -219,9 +245,11 @@ async function loadQuiz(quiz) {
 }
 
 /* ── Render question ────────────────────────────────────────────── */
+
 function renderQuestion() {
   /** @type {Question} */
   const q = state.questions[state.currentIndex];
+
   state.selected = null;
   state.answered = false;
 
@@ -234,13 +262,19 @@ function renderQuestion() {
   const progressBar = /** @type {HTMLElement} */ ($('#progress-bar'));
   /** @type {HTMLElement} */
   const questionText = /** @type {HTMLElement} */ ($('#question-text'));
-
-  progressLabel.textContent = `${done + 1} / ${total}`;
-  progressBar.style.width = ((done / total) * 100) + '%';
-  questionText.textContent = q.question;
-
   /** @type {HTMLUListElement} */
   const choicesList = /** @type {HTMLUListElement} */ ($('#choices-list'));
+  /** @type {HTMLElement} */
+  const feedback = /** @type {HTMLElement} */ ($('#feedback-area'));
+  /** @type {HTMLButtonElement} */
+  const submitBtn = /** @type {HTMLButtonElement} */ ($('#btn-submit'));
+  /** @type {HTMLButtonElement} */
+  const nextBtn = /** @type {HTMLButtonElement} */ ($('#btn-next'));
+
+  progressLabel.textContent = `${done + 1} / ${total}`;
+  progressBar.style.width = `${(done / total) * 100}%`;
+  questionText.textContent = q.question;
+
   choicesList.innerHTML = '';
 
   /** @type {string[]} */
@@ -256,10 +290,12 @@ function renderQuestion() {
     li.setAttribute('aria-checked', 'false');
     li.setAttribute('tabindex', '0');
     li.dataset.value = choice;
+
     li.innerHTML = `
-      <span class="choice-letter" aria-hidden="true">${letters[i] || i + 1}</span>
+      <span class="choice-letter">${letters[i] || ''}</span>
       <span class="choice-text">${escHtml(choice)}</span>
     `;
+
     li.addEventListener('click', () => selectChoice(li, choice));
     li.addEventListener('keydown', (e) => {
       if (e.key === 'Enter' || e.key === ' ') {
@@ -267,18 +303,12 @@ function renderQuestion() {
         selectChoice(li, choice);
       }
     });
+
     choicesList.appendChild(li);
   });
 
-  /** @type {HTMLElement} */
-  const feedback = /** @type {HTMLElement} */ ($('#feedback-area'));
   feedback.className = 'feedback-area hidden';
   feedback.innerHTML = '';
-
-  /** @type {HTMLButtonElement} */
-  const submitBtn = /** @type {HTMLButtonElement} */ ($('#btn-submit'));
-  /** @type {HTMLButtonElement} */
-  const nextBtn = /** @type {HTMLButtonElement} */ ($('#btn-next'));
 
   submitBtn.disabled = true;
   submitBtn.classList.remove('hidden');
@@ -296,9 +326,10 @@ function selectChoice(el, value) {
 
   state.selected = value;
 
-  /** @type {NodeListOf<HTMLElement>} */
-  const choiceItems = /** @type {NodeListOf<HTMLElement>} */ (document.querySelectorAll('.choice-item'));
-  choiceItems.forEach((item) => {
+  /** @type {NodeListOf<HTMLLIElement>} */
+  const allChoices = document.querySelectorAll('#choices-list .choice-item');
+
+  allChoices.forEach((item) => {
     item.classList.remove('selected');
     item.setAttribute('aria-checked', 'false');
   });
@@ -312,179 +343,282 @@ function selectChoice(el, value) {
 }
 
 /* ── Submit answer ──────────────────────────────────────────────── */
-{
-  /** @type {HTMLButtonElement} */
-  const submitBtn = /** @type {HTMLButtonElement} */ ($('#btn-submit'));
 
-  submitBtn.addEventListener('click', () => {
-    if (!state.selected || state.answered) return;
-    state.answered = true;
+function submitAnswer() {
+  if (state.answered || !state.selected) return;
 
-    /** @type {Question} */
-    const q = state.questions[state.currentIndex];
-    const correct = state.selected === q.answer;
+  /** @type {Question} */
+  const q = state.questions[state.currentIndex];
+  const isCorrect = state.selected === q.answer;
 
-    state.results.push({
-      question: q,
-      selected: state.selected,
-      correct,
-    });
+  state.answered = true;
 
-    /** @type {NodeListOf<HTMLLIElement>} */
-    const choiceItems = /** @type {NodeListOf<HTMLLIElement>} */ (document.querySelectorAll('.choice-item'));
-    choiceItems.forEach((item) => {
-      item.classList.add('disabled');
-      item.setAttribute('tabindex', '-1');
+  state.results.push({
+    question: q,
+    selected: state.selected,
+    correct: isCorrect,
+  });
 
-      if (item.dataset.value === q.answer) item.classList.add('correct');
-      else if (item.dataset.value === state.selected && !correct) item.classList.add('wrong');
+  /** @type {NodeListOf<HTMLLIElement>} */
+  const allChoices = document.querySelectorAll('#choices-list .choice-item');
 
-      item.classList.remove('selected');
-    });
+  allChoices.forEach((item) => {
+    const value = item.dataset.value || '';
+    item.classList.remove('selected');
 
-    /** @type {HTMLElement} */
-    const feedback = /** @type {HTMLElement} */ ($('#feedback-area'));
-    /** @type {HTMLButtonElement} */
-    const nextBtn = /** @type {HTMLButtonElement} */ ($('#btn-next'));
-
-    feedback.className = 'feedback-area ' + (correct ? 'correct-fb' : 'wrong-fb');
-
-    if (correct) {
-      feedback.innerHTML =
-        '<strong class="feedback-strong">Correct!</strong>' +
-        (q.explanation ? escHtml(q.explanation) : '');
-    } else {
-      feedback.innerHTML =
-        '<strong class="feedback-strong">Incorrect.</strong>' +
-        'Correct answer: <strong>' + escHtml(q.answer) + '</strong>' +
-        (q.explanation ? '<br>' + escHtml(q.explanation) : '');
+    if (value === q.answer) {
+      item.classList.add('correct');
     }
 
-    submitBtn.classList.add('hidden');
-    nextBtn.classList.remove('hidden');
-  });
-}
+    if (value === state.selected && value !== q.answer) {
+      item.classList.add('incorrect');
+    }
 
-/* ── Next question ──────────────────────────────────────────────── */
-{
+    item.setAttribute('aria-checked', value === state.selected ? 'true' : 'false');
+    item.setAttribute('tabindex', '-1');
+  });
+
+  /** @type {HTMLElement} */
+  const feedback = /** @type {HTMLElement} */ ($('#feedback-area'));
+  /** @type {HTMLButtonElement} */
+  const submitBtn = /** @type {HTMLButtonElement} */ ($('#btn-submit'));
   /** @type {HTMLButtonElement} */
   const nextBtn = /** @type {HTMLButtonElement} */ ($('#btn-next'));
 
-  nextBtn.addEventListener('click', () => {
-    state.currentIndex++;
-    if (state.currentIndex >= state.questions.length) {
-      showResults();
-    } else {
-      renderQuestion();
+  const explanationText = getExplanationText(q, state.selected, isCorrect);
+  const explanationMeta = getExplanationMeta(q, state.selected, isCorrect);
+
+  feedback.className = `feedback-area ${isCorrect ? 'correct' : 'incorrect'}`;
+  feedback.innerHTML = `
+    <div class="feedback-title">${isCorrect ? 'Correct!' : 'Incorrect'}</div>
+    <div class="feedback-answer">
+      <strong>Correct answer:</strong> ${escHtml(q.answer)}
+    </div>
+    ${
+      explanationText
+        ? `<div class="feedback-text">${escHtml(explanationText)}</div>`
+        : ''
     }
-  });
+    ${
+      explanationMeta
+        ? `<div class="feedback-meta">${explanationMeta}</div>`
+        : ''
+    }
+  `;
+
+  submitBtn.classList.add('hidden');
+  nextBtn.classList.remove('hidden');
+  nextBtn.textContent =
+    state.currentIndex === state.questions.length - 1 ? 'See results' : 'Next question';
 }
 
-/* ── Back buttons ───────────────────────────────────────────────── */
-{
-  /** @type {HTMLButtonElement} */
-  const backToCatalog = /** @type {HTMLButtonElement} */ ($('#btn-back-to-catalog'));
-  /** @type {HTMLButtonElement} */
-  const backFromResults = /** @type {HTMLButtonElement} */ ($('#btn-back-from-results'));
-  /** @type {HTMLButtonElement} */
-  const backFromReview = /** @type {HTMLButtonElement} */ ($('#btn-back-from-review'));
+/* ── Next question ──────────────────────────────────────────────── */
 
-  backToCatalog.addEventListener('click', () => showView('catalog'));
-  backFromResults.addEventListener('click', () => showView('catalog'));
-  backFromReview.addEventListener('click', () => showView('results'));
+function nextQuestion() {
+  if (!state.answered) return;
+
+  if (state.currentIndex < state.questions.length - 1) {
+    state.currentIndex += 1;
+    renderQuestion();
+    return;
+  }
+
+  renderResults();
 }
 
 /* ── Results ────────────────────────────────────────────────────── */
-function showResults() {
+
+function renderResults() {
   const total = state.results.length;
-  const correct = state.results.filter(r => r.correct).length;
-  const pct = Math.round((correct / total) * 100);
+  const correct = state.results.filter((r) => r.correct).length;
+  const percent = total === 0 ? 0 : Math.round((correct / total) * 100);
 
-  const circumference = 326.7;
-  const offset = circumference - (pct / 100) * circumference;
-
-  /** @type {SVGCircleElement} */
-  const scoreArc = /** @type {SVGCircleElement} */ ($('#score-arc'));
   /** @type {HTMLElement} */
-  const scorePct = /** @type {HTMLElement} */ ($('#score-pct'));
+  const scoreValue = /** @type {HTMLElement} */ ($('#score-value'));
   /** @type {HTMLElement} */
-  const resultsHeading = /** @type {HTMLElement} */ ($('#results-heading'));
+  const scoreDetail = /** @type {HTMLElement} */ ($('#score-detail'));
   /** @type {HTMLElement} */
-  const resultsSub = /** @type {HTMLElement} */ ($('#results-sub'));
+  const resultsList = /** @type {HTMLElement} */ ($('#results-list'));
 
-  setTimeout(() => {
-    scoreArc.style.strokeDashoffset = String(offset);
-  }, 100);
+  scoreValue.textContent = `${percent}%`;
+  scoreDetail.textContent = `${correct} of ${total} correct`;
 
-  if (pct >= 80) scoreArc.style.stroke = 'var(--color-correct)';
-  else if (pct >= 60) scoreArc.style.stroke = 'var(--color-primary)';
-  else scoreArc.style.stroke = 'var(--color-wrong)';
+  resultsList.innerHTML = '';
 
-  scorePct.textContent = pct + '%';
+  state.results.forEach((r, index) => {
+    const item = document.createElement('div');
+    item.className = `result-item ${r.correct ? 'correct' : 'incorrect'}`;
 
-  const heading = pct >= 90 ? 'Outstanding work.'
-    : pct >= 80 ? 'Well done!'
-      : pct >= 70 ? 'Good progress.'
-        : pct >= 60 ? 'Keep studying.'
-          : 'More review needed.';
+    item.innerHTML = `
+      <div class="result-number">Q${index + 1}</div>
+      <div class="result-body">
+        <div class="result-question">${escHtml(r.question.question)}</div>
+        <div class="result-selected">
+          <strong>Your answer:</strong> ${escHtml(r.selected)}
+        </div>
+        <div class="result-correct-answer">
+          <strong>Correct answer:</strong> ${escHtml(r.question.answer)}
+        </div>
+        <div class="result-status">${r.correct ? 'Correct' : 'Incorrect'}</div>
+      </div>
+    `;
 
-  resultsHeading.textContent = heading;
-  resultsSub.textContent =
-    `${correct} of ${total} correct. Verify answers against source material before relying on results for exam prep.`;
+    resultsList.appendChild(item);
+  });
 
   showView('results');
 }
 
-/* ── Retake ─────────────────────────────────────────────────────── */
-{
-  /** @type {HTMLButtonElement} */
-  const retakeBtn = /** @type {HTMLButtonElement} */ ($('#btn-retake'));
-
-  retakeBtn.addEventListener('click', () => {
-    if (state.currentQuiz) loadQuiz(state.currentQuiz);
-  });
-}
-
 /* ── Review ─────────────────────────────────────────────────────── */
-{
-  /** @type {HTMLButtonElement} */
-  const reviewBtn = /** @type {HTMLButtonElement} */ ($('#btn-review'));
 
-  reviewBtn.addEventListener('click', () => {
-    /** @type {HTMLDivElement} */
-    const list = /** @type {HTMLDivElement} */ ($('#review-list'));
-    list.innerHTML = '';
+function renderReview() {
+  /** @type {HTMLElement} */
+  const list = /** @type {HTMLElement} */ ($('#review-list'));
+  list.innerHTML = '';
 
-    state.results.forEach((r, i) => {
-      const div = document.createElement('div');
-      div.className = 'review-item ' + (r.correct ? 'r-correct' : 'r-wrong');
+  state.results.forEach((r, index) => {
+    const explanationText = getExplanationText(r.question, r.selected, r.correct);
+    const explanationMeta = getExplanationMeta(r.question, r.selected, r.correct);
 
-      const choicesHtml = r.question.choices.map(c => {
-        const isCorrect = c === r.question.answer;
-        const isSelected = c === r.selected;
-        if (!isCorrect && !isSelected) return '';
+    const div = document.createElement('div');
+    div.className = `review-item ${r.correct ? 'correct' : 'incorrect'}`;
 
-        const cls = isCorrect ? 'ra-correct' : 'ra-wrong';
-        const badge = isCorrect
-          ? '<span class="badge badge-correct">Correct answer</span>'
-          : '<span class="badge badge-wrong">Your answer</span>';
+    div.innerHTML = `
+      <div class="review-header">
+        <div class="review-number">Question ${index + 1}</div>
+        <div class="review-status">${r.correct ? 'Correct' : 'Incorrect'}</div>
+      </div>
+      <div class="review-question">${escHtml(r.question.question)}</div>
+      <div class="review-selected"><strong>Your answer:</strong> ${escHtml(r.selected)}</div>
+      <div class="review-answer"><strong>Correct answer:</strong> ${escHtml(r.question.answer)}</div>
+      ${
+        explanationText
+          ? `<div class="review-explanation">${escHtml(explanationText)}</div>`
+          : ''
+      }
+      ${
+        explanationMeta
+          ? `<div class="review-meta">${explanationMeta}</div>`
+          : ''
+      }
+    `;
 
-        return `<div class="review-answer ${cls}">${badge} <span>${escHtml(c)}</span></div>`;
-      }).join('');
-
-      div.innerHTML = `
-        <div class="review-q-num">Question ${i + 1}</div>
-        <p class="review-q-text">${escHtml(r.question.question)}</p>
-        <div class="review-answers">${choicesHtml}</div>
-        ${r.question.explanation ? '<p class="review-explanation">' + escHtml(r.question.explanation) + '</p>' : ''}
-      `;
-
-      list.appendChild(div);
-    });
-
-    showView('review');
+    list.appendChild(div);
   });
+
+  showView('review');
 }
+
+/* ── Explanation helpers ────────────────────────────────────────── */
+
+/**
+ * @param {Question} question
+ * @param {string|null} selected
+ * @param {boolean} isCorrect
+ * @returns {string}
+ */
+function getExplanationText(question, selected, isCorrect) {
+  const exp = question.explanation;
+
+  if (!exp) return '';
+
+  if (typeof exp === 'string') {
+    return exp;
+  }
+
+  if (isCorrect) {
+    return exp.correct?.text || '';
+  }
+
+  if (selected && exp.choices && exp.choices[selected]) {
+    return exp.choices[selected].text || '';
+  }
+
+  return exp.correct?.text || '';
+}
+
+/**
+ * @param {Question} question
+ * @param {string|null} selected
+ * @param {boolean} isCorrect
+ * @returns {string}
+ */
+function getExplanationMeta(question, selected, isCorrect) {
+  const exp = question.explanation;
+
+  if (!exp || typeof exp === 'string') return '';
+
+  let sections = [];
+  let keywords = [];
+
+  if (isCorrect) {
+    sections = exp.correct?.sections || [];
+    keywords = exp.correct?.indexKeywords || [];
+  } else if (selected && exp.choices && exp.choices[selected]) {
+    sections = exp.choices[selected].sections || [];
+  }
+
+  const parts = [];
+
+  if (sections.length) {
+    parts.push(
+      `<span class="meta-sections"><strong>Sections:</strong> ${escHtml(
+        sections.join(', ')
+      )}</span>`
+    );
+  }
+
+  if (keywords.length) {
+    parts.push(
+      `<span class="meta-keywords"><strong>Index:</strong> ${escHtml(
+        keywords.join(' | ')
+      )}</span>`
+    );
+  }
+
+  return parts.join(' ');
+}
+
+/* ── Buttons / events ───────────────────────────────────────────── */
+
+(function bindEvents() {
+  /** @type {HTMLButtonElement|null} */
+  const submitBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-submit'));
+  /** @type {HTMLButtonElement|null} */
+  const nextBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-next'));
+  /** @type {HTMLButtonElement|null} */
+  const reviewBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-review'));
+  /** @type {HTMLButtonElement|null} */
+  const retryBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-retry'));
+  /** @type {HTMLButtonElement|null} */
+  const homeBtns = /** @type {NodeListOf<HTMLButtonElement>} */ (document.querySelectorAll('[data-action="home"]'));
+
+  if (submitBtn) {
+    submitBtn.addEventListener('click', submitAnswer);
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', nextQuestion);
+  }
+
+  if (reviewBtn) {
+    reviewBtn.addEventListener('click', renderReview);
+  }
+
+  if (retryBtn) {
+    retryBtn.addEventListener('click', () => {
+      if (state.currentQuiz) {
+        loadQuiz(state.currentQuiz);
+      }
+    });
+  }
+
+  homeBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      showView('catalog');
+    });
+  });
+})();
 
 /* ── Utilities ──────────────────────────────────────────────────── */
 
@@ -494,7 +628,7 @@ function showResults() {
  * @returns {T[]}
  */
 function shuffle(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
+  for (let i = arr.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
@@ -510,8 +644,10 @@ function escHtml(str) {
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 /* ── Init ───────────────────────────────────────────────────────── */
+
 renderCatalog();
