@@ -3,30 +3,102 @@
   "title": "NEC Articles 705–780 — Special Conditions (PV, ESS, Interconnected Power)",
   "description": "Interconnected power production sources, photovoltaic systems, energy storage, and low-voltage lighting per NEC 2023 Articles 705–780. 30 questions.",
   "questions": [
-    {
-      "id": 1,
-      "question": "Which equipment used in interactive power production systems must be listed for the application?",
-      "choices": [
-        "Only the utility service equipment and metering",
-        "Only overcurrent protective devices on the load side",
-        "All interactive equipment, including inverters, used in the system",
-        "Only equipment rated above 600 volts"
+   {
+  "id": 1,
+  "question": "Which equipment used in interactive power production systems must be listed for the application?",
+  "choices": [
+    "Only the utility service equipment and metering",
+    "Only overcurrent protective devices on the load side",
+    "All interactive equipment, including inverters, used in the system",
+    "Only equipment rated above 600 volts"
+  ],
+  "answer": "All interactive equipment, including inverters, used in the system",
+  "explanation": {
+    "correct": {
+      "text": "NEC 705.6 requires that all equipment used in an interactive power production system be listed for the application. This includes interactive inverters, converters, charge controllers, and other components identified as interactive. Listing ensures the equipment has been evaluated for safe parallel operation with a primary source of electricity, such as a utility supply, and that it meets the necessary safety standards for interconnected power production sources.",
+      "indexKeywords": [
+        "Approval, Approved -> 705.6"
       ],
-      "answer": "All interactive equipment, including inverters, used in the system",
-      "explanation": "NEC 705.6 requires that all equipment used in an interactive power production system, including inverters, be listed for the application. This ensures that all interactive equipment meets evaluated safety standards for parallel operation with a primary source of electricity. The listing requirement covers inverters, converters, charge controllers, and other components identified as interactive."
+      "sections": [
+        "705.6"
+      ]
     },
-    {
-      "id": 2,
-      "question": "The '120% rule' — a PV inverter is connected to the load side of a 200 A panelboard busbar with a 200 A main breaker. The backfed breaker must be placed at the opposite end of the busbar from the main breaker. What is the maximum rating permitted for that backfed breaker?",
-      "choices": [
-        "40 A",
-        "60 A",
-        "80 A",
-        "100 A"
+    "choices": {
+      "Only the utility service equipment and metering": {
+        "text": "Utility service equipment and metering must meet their own listing and approval requirements, but NEC 705.6 specifically addresses equipment used in interactive power production systems. It does not limit the listing requirement to utility service equipment; instead, it applies to all interactive system components such as inverters and controllers.",
+        "sections": [
+          "705.6"
+        ]
+      },
+      "Only overcurrent protective devices on the load side": {
+        "text": "Overcurrent protective devices are important for system protection, but NEC 705.6 is broader. It requires all interactive equipment in the power production system to be listed, not just the load-side overcurrent devices. Inverters, converters, and other interactive components must also be listed for the application.",
+        "sections": [
+          "705.6"
+        ]
+      },
+      "All interactive equipment, including inverters, used in the system": {
+        "text": "This answer correctly reflects NEC 705.6. All equipment used in an interactive power production system, including inverters and other identified interactive components, must be listed for the application to ensure safe operation in parallel with a primary source of electricity.",
+        "sections": [
+          "705.6"
+        ]
+      },
+      "Only equipment rated above 600 volts": {
+        "text": "NEC 705.6 does not limit the listing requirement to equipment above 600 volts. Interactive power production systems often operate at lower voltages, and the Code requires all interactive equipment, regardless of voltage rating, to be listed for the application.",
+        "sections": [
+          "705.6"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 2,
+  "question": "A PV inverter is connected on the load side of a 200 A panelboard bus with a 200 A main breaker using the 120% rule. The backfed breaker must be located at the opposite end of the bus from the main breaker. What is the maximum rating permitted for that backfed breaker?",
+  "choices": [
+    "40 A",
+    "60 A",
+    "80 A",
+    "100 A"
+  ],
+  "answer": "40 A",
+  "explanation": {
+    "correct": {
+      "text": "NEC 705.12(B)(3)(2) specifies that, for power source connections to busbars with a primary source and another power source located at opposite ends, the sum of 125 percent of the power source output circuit current and the rating of the overcurrent device protecting the busbar shall not exceed 120 percent of the busbar ampere rating. For a 200 A busbar, 120 percent × 200 A = 240 A. With a 200 A main breaker already protecting the bus, the remaining allowable rating for the backfed breaker is 240 A − 200 A = 40 A. This 40 A breaker can support up to 32 A of continuous inverter output (since inverter output circuits are sized at 125 percent of continuous current). A permanent warning label is required adjacent to the backfed breaker indicating that it must not be relocated.",
+      "indexKeywords": [
+        "Busbars -> Interconnected electrical power production sources -> 705.12(B)"
       ],
-      "answer": "40 A",
-      "explanation": "NEC 705.12(B)(3)(2) states that the sum of 125% of the power source output circuit current plus the rating of the overcurrent device protecting the busbar shall not exceed 120% of the busbar ampacity. For a 200 A busbar: 120% × 200 A = 240 A allowable. Subtracting the 200 A main breaker leaves a maximum of 40 A for the backfed breaker (which supports up to 32 A of continuous inverter output). A permanent warning label is required adjacent to the backfed breaker stating that it must not be relocated."
+      "sections": [
+        "705.12(B)(3)(2)"
+      ]
     },
+    "choices": {
+      "40 A": {
+        "text": "This value satisfies NEC 705.12(B)(3)(2). The total of the 200 A main breaker plus the 40 A backfed breaker equals 240 A, which is 120 percent of the 200 A busbar rating and therefore meets the 120 percent rule for load-side PV connections.",
+        "sections": [
+          "705.12(B)(3)(2)"
+        ]
+      },
+      "60 A": {
+        "text": "A 60 A backfed breaker would make the total overcurrent device rating 260 A on a 200 A busbar, exceeding the 120 percent limit (240 A) in NEC 705.12(B)(3)(2).",
+        "sections": [
+          "705.12(B)(3)(2)"
+        ]
+      },
+      "80 A": {
+        "text": "An 80 A backfed breaker would result in 280 A of total overcurrent device rating on a 200 A busbar, well above the 120 percent maximum of 240 A allowed by NEC 705.12(B)(3)(2).",
+        "sections": [
+          "705.12(B)(3)(2)"
+        ]
+      },
+      "100 A": {
+        "text": "A 100 A backfed breaker combined with the 200 A main would give 300 A of total overcurrent device rating, which significantly exceeds the 240 A (120 percent of 200 A) limit in NEC 705.12(B)(3)(2).",
+        "sections": [
+          "705.12(B)(3)(2)"
+        ]
+      }
+    }
+  }
+},
     {
       "id": 3,
       "question": "The NEC requires that the disconnecting means for an interactive power production source have which of the following characteristics?",
@@ -37,117 +109,499 @@
         "It must be located outdoors on the exterior wall of the building only"
       ],
       "answer": "It must be readily accessible and capable of being locked in the open position",
-      "explanation": "NEC 705.20 requires the source disconnecting means for an interactive power production system to be readily accessible and capable of being locked in the open position in accordance with 110.25. The locking provisions must remain in place with or without the lock installed. This requirement ensures that maintenance personnel can de-energize the system and prevent it from being re-energized inadvertently while work is being performed."
+      "explanation": {
+        "correct": {
+          "text": "NEC 705.20 requires the source disconnecting means for an interactive power production system to be readily accessible and capable of being locked in the open position in accordance with 110.25. The locking provisions must remain in place with or without the lock installed. This requirement ensures that qualified personnel can de-energize the system and prevent it from being re-energized inadvertently while work is being performed.",
+          "indexKeywords": [
+            "Disconnecting Means, Source -> 705.20",
+            "Lockable Disconnecting Means -> 110.25"
+          ],
+          "sections": [
+            "705.20",
+            "110.25"
+          ]
+        },
+        "choices": {
+          "It must be located within the utility meter enclosure": {
+            "text": "NEC 705.20 does not require the source disconnecting means to be located within the utility meter enclosure. The Code focuses on the disconnect being readily accessible, properly rated, and capable of being locked open, not on a specific location inside meter equipment.",
+            "sections": [
+              "705.20"
+            ]
+          },
+          "It must be readily accessible and capable of being locked in the open position": {
+            "text": "This option correctly reflects NEC 705.20, which requires the source disconnecting means for interactive power production equipment to be readily accessible and lockable in the open position in accordance with 110.25. These provisions support safe maintenance and lockout/tagout practices.",
+            "sections": [
+              "705.20",
+              "110.25"
+            ]
+          },
+          "It must be a fused disconnect rated at 200% of the system output current": {
+            "text": "NEC 705.20 does not mandate a fused disconnect rated at 200% of system output current. While the disconnect must be properly rated for the maximum circuit current and available fault current, oversizing it to 200% and requiring fuses are not specified in this section.",
+            "sections": [
+              "705.20"
+            ]
+          },
+          "It must be located outdoors on the exterior wall of the building only": {
+            "text": "The NEC does not restrict the source disconnecting means for interactive power production equipment to outdoor locations on an exterior wall only. NEC 705.20 focuses on accessibility, appropriate ratings, and lockable open capability rather than limiting the installation to outdoor, exterior-wall locations.",
+            "sections": [
+              "705.20"
+            ]
+          }
+        }
+      }
     },
     {
-      "id": 4,
-      "question": "Which wiring methods are permitted for interconnected power production systems?",
-      "choices": [
-        "Only rigid metal conduit (RMC) and intermediate metal conduit (IMC)",
-        "Any wiring method included in Chapter 3 that is suitable for the conditions",
-        "Only NM cable and SE cable for residential applications",
-        "Only metal wireways and cable trays for commercial applications"
+  "id": 4,
+  "question": "A telecom equipment room is served by an emergency generator via an automatic transfer switch (ATS). Under NEC Article 700, which condition must be met for the telecom load to be classified as part of an emergency system?",
+  "choices": [
+    "The telecom load must be supplied by any alternate source, including portable generators",
+    "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication",
+    "The telecom load must be larger than 50 kVA",
+    "The telecom load must be part of an optional standby system only"
+  ],
+  "answer": "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication",
+  "explanation": {
+    "correct": {
+      "text": "NEC 700.2 defines emergency systems as those legally required and designed to supply illumination and power to specified loads essential to life safety. Telecom loads qualify as emergency loads when they perform life safety functions such as fire alarm signaling, emergency communications, or systems supporting safe egress. Simply being served by a generator or exceeding a particular kVA rating does not, by itself, make the load an emergency system; the function must be directly tied to life safety and legally required use.",
+      "indexKeywords": [
+        "Emergency systems -> Definitions -> 700.2",
+        "Life safety loads -> Telecom -> 700.2"
       ],
-      "answer": "Any wiring method included in Chapter 3 that is suitable for the conditions",
-      "explanation": "NEC 705.25 permits the use of any wiring method included in Chapter 3 of the NEC that is suitable for the conditions of the installation. The wiring method must be appropriate for the environment (wet, dry, corrosive, etc.) and rated for the voltage and current of the system, but no single wiring method is mandated. This parallels the wiring method flexibility given to other power systems in the NEC."
+      "sections": [
+        "700.2"
+      ]
     },
-    {
-      "id": 5,
-      "question": "The NEC addresses the behavior of an interactive power production source upon loss of the primary source (utility), requiring ______ ?",
-      "choices": [
-        "The interactive system shall continue to energize the premises wiring to supply critical loads",
-        "The interactive system shall automatically de-energize and shall not reconnect until the primary source is restored",
-        "The interactive system may remain connected provided it has an automatic transfer switch",
-        "The interactive system shall reduce output to 50% within 30 seconds of detecting utility loss"
+    "choices": {
+      "The telecom load must be supplied by any alternate source, including portable generators": {
+        "text": "Supplying a load from an alternate source does not automatically classify it as an emergency system. NEC 700.2 focuses on life safety functions and legal requirements, not merely the presence of a generator or alternate source.",
+        "sections": [
+          "700.2"
+        ]
+      },
+      "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication": {
+        "text": "This option correctly reflects NEC 700.2. Emergency systems serve loads essential to life safety, which can include specific telecom and signaling functions that support egress or fire alarm communication when those functions are legally required.",
+        "sections": [
+          "700.2"
+        ]
+      },
+      "The telecom load must be larger than 50 kVA": {
+        "text": "The NEC does not set a minimum kVA threshold for a load to be considered part of an emergency system. Classification depends on function and legal requirements, not the size of the load.",
+        "sections": [
+          "700.2"
+        ]
+      },
+      "The telecom load must be part of an optional standby system only": {
+        "text": "Optional standby systems are covered in Article 702 and serve loads that are not legally required for life safety. Telecom loads that perform legally required life safety functions fall under Article 700, not exclusively under optional standby systems.",
+        "sections": [
+          "700.2",
+          "702.2"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 5,
+  "question": "A data center includes telecom racks that must remain operational for public safety dispatch during a utility outage. The system design uses an automatic transfer switch and generator dedicated to these loads. Under NEC Article 701, how are these telecom loads classified?",
+  "choices": [
+    "As legally required standby loads because they support public safety communication",
+    "As optional standby loads because they are not directly connected to lighting circuits",
+    "As emergency system loads because they use the same generator as the fire pump",
+    "As normal system loads because telecom is always considered noncritical"
+  ],
+  "answer": "As legally required standby loads because they support public safety communication",
+  "explanation": {
+    "correct": {
+      "text": "NEC 701.2 defines legally required standby systems as those intended to supply power to selected loads other than emergency illumination where interruption of the normal supply could create hazards or hamper rescue, firefighting, or other emergency operations. Telecom loads that support public safety dispatch and emergency communication fit the definition of legally required standby loads, even though they are not part of the Article 700 emergency lighting system.",
+      "indexKeywords": [
+        "Legally required standby systems -> Telecom -> 701.2",
+        "Public safety communication loads -> 701.2"
       ],
-      "answer": "The interactive system shall automatically de-energize and shall not reconnect until the primary source is restored",
-      "explanation": "NEC 705.40 requires that upon loss of voltage in the primary source, an interactive electric power production source shall automatically de-energize (disconnect from) all ungrounded conductors of the primary source and shall not reconnect until the primary source is restored. This anti-islanding requirement prevents the system from back-feeding the utility grid and creating shock hazards for utility workers. An interactive system is permitted to operate as a stand-alone system only to supply loads that have already been disconnected from the distribution network."
+      "sections": [
+        "701.2"
+      ]
     },
-    {
-      "id": 6,
-      "question": "What operational capability must a microgrid system have to qualify as a microgrid under the NEC?",
-      "choices": [
-        "It must operate permanently in island mode without any connection to the utility",
-        "It must be capable of disconnecting from the primary source and operating in island mode, and be capable of reconnecting to that primary source",
-        "It must supply power exclusively from PV and battery storage",
-        "It must be limited to a single power production source with no parallel sources"
+    "choices": {
+      "As legally required standby loads because they support public safety communication": {
+        "text": "This option correctly reflects NEC 701.2. Telecom systems that support dispatch, emergency communication, and public safety operations are typical examples of legally required standby loads.",
+        "sections": [
+          "701.2"
+        ]
+      },
+      "As optional standby loads because they are not directly connected to lighting circuits": {
+        "text": "Optional standby systems covered by Article 702 serve loads that are not legally required and where continuity is desirable but not essential to public safety. Public safety dispatch telecom equipment is generally considered a legally required standby load, not optional.",
+        "sections": [
+          "702.2",
+          "701.2"
+        ]
+      },
+      "As emergency system loads because they use the same generator as the fire pump": {
+        "text": "Sharing a generator with emergency loads does not necessarily make all connected loads part of the Article 700 emergency system. NEC separates emergency systems, legally required standby systems, and optional standby systems based on function and legal requirements, not just common power sources.",
+        "sections": [
+          "700.2",
+          "701.2"
+        ]
+      },
+      "As normal system loads because telecom is always considered noncritical": {
+        "text": "NEC 701.2 specifically recognizes loads that support public safety and emergency operations as legally required standby loads. Telecom equipment used for dispatch or emergency communication is not automatically classified as noncritical.",
+        "sections": [
+          "701.2"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 6,
+  "question": "An office building has an optional standby generator that maintains power to a telecom closet so business VoIP phones stay operational during an outage. Under NEC Article 702, what is the primary characteristic of this telecom load classification?",
+  "choices": [
+    "It is a legally required standby load because it supports public safety operations",
+    "It is an emergency system load because loss of phone service always endangers life",
+    "It is an optional standby load because continued operation is desirable but not legally required",
+    "It is a normal system load because optional standby systems cannot serve telecom equipment"
+  ],
+  "answer": "It is an optional standby load because continued operation is desirable but not legally required",
+  "explanation": {
+    "correct": {
+      "text": "NEC 702.2 defines optional standby systems as those intended to supply power to loads where interruption of the normal supply does not present a hazard to life or property but where continued operation is desirable. Business VoIP telecom closets that support routine communications but are not legally required for emergency or public safety use fit the definition of optional standby loads.",
+      "indexKeywords": [
+        "Optional standby systems -> Business telecom -> 702.2"
       ],
-      "answer": "It must be capable of disconnecting from the primary source and operating in island mode, and be capable of reconnecting to that primary source",
-      "explanation": "NEC 705.50 (Article 705, Part IV — Microgrid Systems) states that microgrid systems capable of operating in interactive mode with a primary source of electricity shall be permitted to disconnect from other sources and operate in island mode. Per the Article 100 definition, a microgrid is an electric power system capable of operating in island mode and capable of being interconnected to an electric power production and distribution network. Reconnection to the primary power source must occur via a microgrid interconnect device (MID) providing synchronous transition, per NEC 705.65."
+      "sections": [
+        "702.2"
+      ]
     },
-    {
-      "id": 7,
-      "question": "How must connections between a microgrid system and an external primary power source (such as the utility) be made?",
-      "choices": [
-        "Only at the supply side of the service disconnecting means per 705.11",
-        "Only at the load side of the service disconnecting means using the 120% busbar rule",
-        "In accordance with 705.11 (supply-side), 705.12 (load-side), or 705.13 (power control systems)",
-        "Directly at the utility transformer secondary terminals with AHJ approval"
+    "choices": {
+      "It is a legally required standby load because it supports public safety operations": {
+        "text": "Legally required standby loads under Article 701 are associated with public safety, emergency response, or other legally mandated functions. Routine business VoIP phones typically do not meet that threshold unless specifically designated for public safety use.",
+        "sections": [
+          "701.2",
+          "702.2"
+        ]
+      },
+      "It is an emergency system load because loss of phone service always endangers life": {
+        "text": "Article 700 emergency systems are reserved for loads essential to life safety, such as egress lighting and fire alarm systems. General business phone systems are not automatically classified as emergency loads simply because they are convenient.",
+        "sections": [
+          "700.2",
+          "702.2"
+        ]
+      },
+      "It is an optional standby load because continued operation is desirable but not legally required": {
+        "text": "This answer correctly reflects NEC 702.2. Optional standby systems serve loads where continuity of power is desirable but not legally required or directly tied to life safety.",
+        "sections": [
+          "702.2"
+        ]
+      },
+      "It is a normal system load because optional standby systems cannot serve telecom equipment": {
+        "text": "Article 702 does not prohibit telecom equipment from being served by optional standby systems. Classification depends on whether the load is legally required or essential to life safety, not on the type of equipment.",
+        "sections": [
+          "702.2"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 7,
+  "question": "A critical operations power system (COPS) supports a 24/7 telecom operations center that must remain functional during natural disasters. Under NEC Article 708, what survivability requirement applies to supply conductors serving this COPS telecom equipment?",
+  "choices": [
+    "Supply conductors must be installed in metallic raceway only, with no additional requirements",
+    "Supply conductors must be sized at 200% of the load current to ensure reliability",
+    "Supply conductors must have survivability features such as 2-hour fire-resistive cable systems or equivalent protection for the required duration",
+    "Supply conductors may be run with normal building branch circuits if overcurrent devices are selectively coordinated"
+  ],
+  "answer": "Supply conductors must have survivability features such as 2-hour fire-resistive cable systems or equivalent protection for the required duration",
+  "explanation": {
+    "correct": {
+      "text": "NEC 708.10 and related sections require survivability for COPS feeders and branch circuits supplying critical operations areas. This can be achieved through 2-hour fire-resistive cable systems, installation in spaces with 2-hour fire rating, or other methods providing equivalent protection for the specified duration. Telecom operations centers designated as COPS must be supplied by circuits that maintain functionality during fire or other adverse conditions, not by standard wiring without survivability measures.",
+      "indexKeywords": [
+        "Critical Operations Power Systems -> Survivability -> 708.10",
+        "Fire-resistive cable systems -> COPS -> 708.10"
       ],
-      "answer": "In accordance with 705.11 (supply-side), 705.12 (load-side), or 705.13 (power control systems)",
-      "explanation": "NEC 705.60 requires that connections to primary power sources external to the microgrid system shall comply with 705.11 (supply-side connections), 705.12 (load-side source connections, including the 120% busbar rule), or 705.13 (power control systems). This ensures that a microgrid's interface with the utility grid is subject to the same interconnection safety rules as any other interactive power production source."
+      "sections": [
+        "708.10"
+      ]
     },
-    {
-      "id": 8,
-      "question": "Which of the following correctly states the  energy storage systems (ESS) capacity threshold that triggers the scope of the NEC?",
-      "choices": [
-        "Greater than 1 kWh (3.6 MJ)",
-        "Greater than 5 kWh (18 MJ)",
-        "Greater than 10 kWh (36 MJ)",
-        "Greater than 100 Ah at any nominal system voltage"
+    "choices": {
+      "Supply conductors must be installed in metallic raceway only, with no additional requirements": {
+        "text": "Using metallic raceway alone does not meet the survivability requirements of NEC Article 708. Conductors must be protected for a specified duration, often via 2-hour fire-resistive systems or equivalent construction.",
+        "sections": [
+          "708.10"
+        ]
+      },
+      "Supply conductors must be sized at 200% of the load current to ensure reliability": {
+        "text": "Article 708 focuses on survivability, routing, and protection rather than arbitrarily doubling conductor ampacity. Conductors must be properly sized per load calculations, but survivability is achieved through fire-resistive systems and protected routing.",
+        "sections": [
+          "708.10",
+          "310.15"
+        ]
+      },
+      "Supply conductors must have survivability features such as 2-hour fire-resistive cable systems or equivalent protection for the required duration": {
+        "text": "This option correctly reflects NEC 708.10, which requires COPS feeders and circuits to be designed for survivability using methods such as 2-hour fire-resistive cable systems or equivalent protective construction.",
+        "sections": [
+          "708.10"
+        ]
+      },
+      "Supply conductors may be run with normal building branch circuits if overcurrent devices are selectively coordinated": {
+        "text": "Selective coordination of overcurrent devices is important, but NEC Article 708 still requires physical survivability measures for COPS circuits. Simply sharing raceways with normal building circuits does not meet the survivability requirements.",
+        "sections": [
+          "708.10"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 8,
+  "question": "A telecom technician is installing Class 2 power-limited circuits to supply network edge devices from a power-limited source. Under NEC Article 725, which statement correctly describes a key ampacity and protection characteristic of Class 2 circuits?",
+  "choices": [
+    "Class 2 circuits are permitted to be protected by up to 100 A overcurrent devices",
+    "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock",
+    "Class 2 circuits must always operate at 120 volts or higher",
+    "Class 2 circuits are treated the same as Class 1 circuits with respect to conductor ampacity and overcurrent protection"
+  ],
+  "answer": "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock",
+  "explanation": {
+    "correct": {
+      "text": "NEC 725.121 and related sections describe Class 2 circuits as power-limited circuits supplied by listed Class 2 power sources. These sources restrict voltage and power output to levels that provide acceptable protection from fire initiation and electric shock under normal and fault conditions. Telecom technicians working with Class 2 circuits rely on the inherent power limitation of the source rather than large overcurrent devices sized like branch circuits.",
+      "indexKeywords": [
+        "Class 2 power-limited circuits -> Definition -> 725.121"
       ],
-      "answer": "Greater than 1 kWh (3.6 MJ)",
-      "explanation": "NEC 706.1 states that Article 706 applies to all permanently installed energy storage systems having a capacity greater than 3.6 MJ (1 kWh). These systems may be stand-alone or operate interactively with other electric power production sources. ESS below this capacity threshold, or those integrated as components within a larger listed product such as a UPS, are not governed by Article 706."
+      "sections": [
+        "725.121"
+      ]
     },
-    {
-      "id": 9,
-      "question": "Which of the following best matches the NEC 2023 definition of an Energy Storage System (ESS)?",
-      "choices": [
-        "A system consisting solely of lead-acid batteries used for emergency lighting and exit signs",
-        "One or more components assembled together capable of storing energy and providing that energy to an electrical circuit",
-        "A device that converts alternating current to direct current exclusively for DC loads",
-        "Any battery system rated above 48 volts DC used in stand-alone applications"
+    "choices": {
+      "Class 2 circuits are permitted to be protected by up to 100 A overcurrent devices": {
+        "text": "Class 2 circuits are inherently power-limited by their listed source, not protected by large overcurrent devices like 100 A breakers. Overcurrent devices for the source follow the listing of the equipment and are not sized like normal branch-circuit OCPDs.",
+        "sections": [
+          "725.121"
+        ]
+      },
+      "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock": {
+        "text": "This option correctly describes the defining characteristic of Class 2 circuits in NEC 725.121. The combination of limited voltage and power output is what makes Class 2 circuits suitable for many telecom and signaling applications.",
+        "sections": [
+          "725.121"
+        ]
+      },
+      "Class 2 circuits must always operate at 120 volts or higher": {
+        "text": "Class 2 circuits are typically low-voltage and may operate well below 120 volts. The NEC does not require Class 2 circuits to operate at 120 volts or higher; in fact, their safety characteristics rely on lower voltage and power limits.",
+        "sections": [
+          "725.121"
+        ]
+      },
+      "Class 2 circuits are treated the same as Class 1 circuits with respect to conductor ampacity and overcurrent protection": {
+        "text": "Class 1 circuits are not inherently power-limited and follow different rules for conductor ampacity and overcurrent protection. Class 2 circuits rely on the listed power-limited source and have different installation and protection requirements than Class 1 circuits.",
+        "sections": [
+          "725.41",
+          "725.121"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 9,
+  "question": "A remote telecom cabinet uses Class 3 circuits to power signaling equipment over long runs. Under NEC Article 725, how do Class 3 circuits differ from Class 2 circuits in terms of permitted power and installation concern?",
+  "choices": [
+    "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards",
+    "Class 3 circuits must always be installed in metal raceway; Class 2 circuits cannot be installed in raceway",
+    "Class 3 circuits are restricted to less power than Class 2 and are exempt from fire hazard considerations",
+    "Class 3 circuits are identical to branch circuits and follow Article 210 only"
+  ],
+  "answer": "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards",
+  "explanation": {
+    "correct": {
+      "text": "NEC 725.127 describes Class 3 circuits as power-limited but allowing higher voltage and power levels than Class 2 circuits. Because Class 3 circuits can deliver more energy, their installation requirements are more stringent to mitigate fire and electric shock hazards. Telecom applications using Class 3 circuits must account for these additional installation considerations compared to lower-energy Class 2 circuits.",
+      "indexKeywords": [
+        "Class 3 power-limited circuits -> Definition -> 725.127",
+        "Difference between Class 2 and Class 3 -> 725.121, 725.127"
       ],
-      "answer": "One or more components assembled together capable of storing energy and providing that energy to an electrical circuit",
-      "explanation": "NEC 706.2 defines an Energy Storage System (ESS) as one or more components assembled together capable of storing energy and providing that energy to an electrical circuit. An ESS may be assembled from electrochemical cells, capacitors, flywheels, or other storage technologies, along with associated power conversion, monitoring, controls, and protective devices. This broad definition covers residential battery systems, commercial battery banks, and other technologies meeting the capacity threshold in 706.1."
+      "sections": [
+        "725.127",
+        "725.121"
+      ]
     },
-    {
-      "id": 10,
-      "question": "The NEC addresses listing requirements for energy storage systems. What does it require?",
-      "choices": [
-        "ESS equipment is not required to be listed if designed by a licensed professional engineer",
-        "Only the inverter portion of the ESS must be listed; the battery modules are exempt",
-        "ESS equipment shall be listed and identified for the application",
-        "Listing is required only for ESS systems that are interconnected to the utility grid"
+    "choices": {
+      "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards": {
+        "text": "This option correctly reflects NEC 725.127, which permits higher voltages and power levels for Class 3 circuits and requires installation practices that adequately address the increased potential fire and shock hazards.",
+        "sections": [
+          "725.127"
+        ]
+      },
+      "Class 3 circuits must always be installed in metal raceway; Class 2 circuits cannot be installed in raceway": {
+        "text": "The NEC does not state that Class 3 circuits must always be in metal raceway or that Class 2 circuits cannot be installed in raceway. Raceway use is based on design and code requirements for the specific application, not a blanket restriction by circuit class.",
+        "sections": [
+          "725.25",
+          "725.127"
+        ]
+      },
+      "Class 3 circuits are restricted to less power than Class 2 and are exempt from fire hazard considerations": {
+        "text": "Class 3 circuits actually allow more power than Class 2 circuits and therefore require careful consideration of fire and shock hazards. They are not exempt from fire hazard considerations.",
+        "sections": [
+          "725.127"
+        ]
+      },
+      "Class 3 circuits are identical to branch circuits and follow Article 210 only": {
+        "text": "Class 3 circuits are power-limited circuits governed by Article 725, not general branch circuits under Article 210. While some installation requirements may be similar, Class 3 circuits follow specialized rules for power limitation and signaling applications.",
+        "sections": [
+          "725.1",
+          "725.127"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 10,
+  "question": "A telecom provider installs a Class 4 fault-managed power system to feed remote network devices over a single cable. Under NEC Article 726, what is a defining characteristic of Class 4 fault-managed power that affects telecom cabling design?",
+  "choices": [
+    "Class 4 systems operate at unlimited voltage and current as long as overcurrent devices are provided at the source",
+    "Class 4 systems dynamically limit power delivery based on fault detection and cable conditions, allowing higher power delivery while still controlling shock and fire hazards",
+    "Class 4 systems may only be used for lighting loads and are prohibited for telecom equipment",
+    "Class 4 systems must use traditional branch-circuit wiring methods without special cable types"
+  ],
+  "answer": "Class 4 systems dynamically limit power delivery based on fault detection and cable conditions, allowing higher power delivery while still controlling shock and fire hazards",
+  "explanation": {
+    "correct": {
+      "text": "NEC 726.1 and related sections describe Class 4 fault-managed power systems as actively controlled systems that monitor circuit conditions, detect faults, and rapidly limit or shut off power to maintain safety. This approach allows delivery of more power over structured cabling or specialized cables than traditional Class 2 or Class 3 systems, while still managing shock and fire hazards through active fault detection and power limitation. For telecom applications, this enables powering remote network devices over data or hybrid cables under managed fault conditions.",
+      "indexKeywords": [
+        "Class 4 fault-managed power systems -> Definition -> 726.1",
+        "Fault-managed power for telecom loads -> 726.1"
       ],
-      "answer": "ESS equipment shall be listed and identified for the application",
-      "explanation": "NEC 706.10 requires that energy storage systems be listed and identified for the application. UL 9540 (Standard for Energy Storage Systems and Equipment) is a widely recognized listing standard that AHJs frequently rely upon for complete ESS products. The listing requirement applies to both stand-alone and utility-interactive systems and ensures that the specific storage technology and configuration has been evaluated for safety."
+      "sections": [
+        "726.1"
+      ]
     },
-    {
-      "id": 11,
-      "question": "Where must the disconnecting means for an energy storage system (ESS) be located?",
-      "choices": [
-        "At the utility meter base, accessible only to utility personnel",
-        "Readily accessible and within sight of the ESS; if not within sight, as close as practicable and lockable open per 110.25",
-        "At the main service panel only, regardless of the ESS location",
-        "In a locked enclosure accessible only to qualified persons, at any location on the premises"
+    "choices": {
+      "Class 4 systems operate at unlimited voltage and current as long as overcurrent devices are provided at the source": {
+        "text": "Class 4 systems are still power-limited in the sense that they must control voltage and current based on monitored conditions. NEC Article 726 does not permit unlimited voltage and current; instead, it relies on active fault management to keep energy within safe bounds.",
+        "sections": [
+          "726.1"
+        ]
+      },
+      "Class 4 systems dynamically limit power delivery based on fault detection and cable conditions, allowing higher power delivery while still controlling shock and fire hazards": {
+        "text": "This answer correctly describes fault-managed power under NEC 726.1. Class 4 systems continuously monitor the circuit and limit or interrupt power when faults or unsafe conditions are detected, enabling higher power use with managed risk.",
+        "sections": [
+          "726.1"
+        ]
+      },
+      "Class 4 systems may only be used for lighting loads and are prohibited for telecom equipment": {
+        "text": "NEC Article 726 does not restrict Class 4 systems to lighting loads or prohibit their use for telecom equipment. Many anticipated applications involve powering ICT and network devices using fault-managed power techniques.",
+        "sections": [
+          "726.1"
+        ]
+      },
+      "Class 4 systems must use traditional branch-circuit wiring methods without special cable types": {
+        "text": "Class 4 systems may use specialized cables and structured cabling that are listed and identified for fault-managed power. They are not limited to traditional branch-circuit wiring methods.",
+        "sections": [
+          "726.160"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 11,
+  "question": "An optical fiber backbone serving telecom equipment is routed through the same ceiling space as power and emergency circuits. Under NEC Article 770, which statement correctly describes a key installation requirement for optical fiber cables in mixed-use spaces?",
+  "choices": [
+    "Optical fiber cables are exempt from separation requirements and may be freely bundled with power conductors",
+    "Optical fiber cables must be separated from power conductors or use listed composite or hybrid cables that maintain required fire and electrical separation",
+    "Optical fiber cables must always be installed in rigid metal conduit when near power circuits",
+    "Optical fiber cables can only be installed in dedicated telecom rooms and are prohibited in ceiling spaces"
+  ],
+  "answer": "Optical fiber cables must be separated from power conductors or use listed composite or hybrid cables that maintain required fire and electrical separation",
+  "explanation": {
+    "correct": {
+      "text": "NEC 770.133 and related sections require that optical fiber cables be separated from conductors of electric light, power, Class 1 circuits, and non–power-limited fire alarm circuits unless they are in the same cable assembly or raceway specifically listed for the purpose. In mixed-use spaces such as ceilings, telecom designers must either maintain appropriate separation or use listed composite or hybrid cables that provide the required fire and electrical separation between fiber and power conductors.",
+      "indexKeywords": [
+        "Optical fiber cables -> Separation from power -> 770.133",
+        "Hybrid fiber/power cables -> 770.133"
       ],
-      "answer": "Readily accessible and within sight of the ESS; if not within sight, as close as practicable and lockable open per 110.25",
-      "explanation": "NEC 706.20 requires the ESS disconnecting means to be readily accessible and located within sight of the ESS. Where it is impracticable to locate it within sight, the disconnect shall be installed as close as practicable and shall be capable of being locked in the open position in accordance with 110.25, with the disconnect location field-marked on or immediately adjacent to the ESS. For one- and two-family dwellings, a disconnecting means or its remote control must also be provided at a readily accessible location outside the building."
+      "sections": [
+        "770.133"
+      ]
     },
-    {
-      "id": 12,
-      "question": "What is the minimum ampere rating required for overcurrent protective devices (OCPDs) protecting energy storage system (ESS) output circuits?",
-      "choices": [
-        "100% of the maximum current marked on the ESS nameplate",
-        "115% of the maximum current marked on the ESS nameplate",
-        "125% of the maximum current marked on the ESS nameplate",
-        "150% of the maximum current marked on the ESS nameplate"
+    "choices": {
+      "Optical fiber cables are exempt from separation requirements and may be freely bundled with power conductors": {
+        "text": "NEC Article 770 does not exempt optical fiber cables from separation rules. Fiber and power conductors must be separated or installed together only in listed composite or hybrid assemblies.",
+        "sections": [
+          "770.133"
+        ]
+      },
+      "Optical fiber cables must be separated from power conductors or use listed composite or hybrid cables that maintain required fire and electrical separation": {
+        "text": "This option correctly reflects NEC 770.133, which governs how fiber may be installed in proximity to power conductors in mixed-use spaces.",
+        "sections": [
+          "770.133"
+        ]
+      },
+      "Optical fiber cables must always be installed in rigid metal conduit when near power circuits": {
+        "text": "Rigid metal conduit is one possible wiring method, but NEC 770.133 does not require it in all cases. The Code allows multiple wiring methods, including listed composite cable assemblies, as long as separation and fire safety requirements are met.",
+        "sections": [
+          "770.113",
+          "770.133"
+        ]
+      },
+      "Optical fiber cables can only be installed in dedicated telecom rooms and are prohibited in ceiling spaces": {
+        "text": "NEC Article 770 allows optical fiber cables in ceiling spaces and other building areas, provided they meet applicable listing, fire-resistance, and separation requirements. The Code does not restrict fiber cables to dedicated telecom rooms only.",
+        "sections": [
+          "770.21",
+          "770.113"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 12,
+  "question": "A telecom engineer selects a plenum-rated optical fiber cable to route through an environmental air plenum above a data center. Under NEC Article 770, what is a key requirement for fiber cables used in environmental air plenums serving telecom equipment?",
+  "choices": [
+    "Fiber cables in plenums may be of any type as long as the jacket is nonmetallic",
+    "Fiber cables in plenums must be listed for use in environmental air spaces (OFNP or equivalent) to limit smoke and flame spread",
+    "Fiber cables in plenums must be installed in rigid metal conduit without exception",
+    "Fiber cables are prohibited in environmental air plenums; only metal raceways are permitted"
+  ],
+  "answer": "Fiber cables in plenums must be listed for use in environmental air spaces (OFNP or equivalent) to limit smoke and flame spread",
+  "explanation": {
+    "correct": {
+      "text": "NEC 770.113 requires that optical fiber cables installed in environmental air plenums be listed for use in such spaces, typically with a plenum rating such as OFNP or equivalent. These cables are designed to limit smoke and flame spread if exposed to fire. For telecom engineers, selecting properly listed plenum-rated fiber cable is critical when routing through data center plenums that serve as environmental air spaces.",
+      "indexKeywords": [
+        "Optical fiber cables -> Plenum rating -> 770.113",
+        "Environmental air plenums -> Fiber cable type -> 770.113"
       ],
-      "answer": "125% of the maximum current marked on the ESS nameplate",
-      "explanation": "NEC 706.30(A) requires that overcurrent protective devices for ESS output circuits have an ampere rating of not less than 125% of the maximum current marked on the nameplate of the ESS. NEC 706.30(B) correspondingly requires output circuit conductors to have an ampacity of not less than 125% of the nameplate current rating. The 125% factor accounts for the continuous-duty nature of ESS output current, consistent with the continuous load treatment applied elsewhere in the NEC."
+      "sections": [
+        "770.113"
+      ]
     },
-    {
+    "choices": {
+      "Fiber cables in plenums may be of any type as long as the jacket is nonmetallic": {
+        "text": "NEC 770.113 does not accept any cable type solely based on jacket material. Cables must be specifically listed and identified for use in environmental air plenums, with tested flame and smoke characteristics.",
+        "sections": [
+          "770.113"
+        ]
+      },
+      "Fiber cables in plenums must be listed for use in environmental air spaces (OFNP or equivalent) to limit smoke and flame spread": {
+        "text": "This answer correctly reflects NEC 770.113, which mandates the use of plenum-rated optical fiber cables in environmental air spaces to limit smoke and flame spread.",
+        "sections": [
+          "770.113"
+        ]
+      },
+      "Fiber cables in plenums must be installed in rigid metal conduit without exception": {
+        "text": "While some designs may use metal raceway, NEC 770.113 allows exposed plenum-rated fiber cables without rigid metal conduit when they are properly listed for use in environmental air plenums.",
+        "sections": [
+          "770.113"
+        ]
+      },
+      "Fiber cables are prohibited in environmental air plenums; only metal raceways are permitted": {
+        "text": "The Code does not prohibit optical fiber cables in environmental air plenums. Instead, it requires that such cables be listed and rated for use in those spaces to ensure fire safety.",
+        "sections": [
+          "770.113"
+        ]
+      }
+    }
+  }
+},
+{
       "id": 13,
       "question": "Which of the following correctly describes a 'PV source circuit'?",
       "choices": [

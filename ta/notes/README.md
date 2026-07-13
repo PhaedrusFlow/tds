@@ -295,71 +295,79 @@ R: 386/388 Surface raceways, 390 Underfloor, 392 Trays, 394–398 “old/open”
 
 # Chapter 7 and 8 Study Map
 
-## Chapter 7 – Special Conditions
+## Chapter 7 – Special Conditions – Exam Keyword Hooks
 
-### One-word mnemonic
+Use the **ESPOWERS** bands to decide where to look:
 
-**RESCUE**
+> `ESPOWERS: E 700–706 | S 708–710 | P 722–726 | O 728 | W 750 | E 760 | R 770`
 
-> **R** 700–710 (Emergency / Standby / Independent power)  
-> **E** 722–728 (Power-limited / Fault-managed / Fire-resistive cable systems)  
-> **S** 750–770 (Energy management / Fire alarm / Fiber)
 
-You can write this as:
+### E – 700–706: Emergency / Standby / Power Sources / Storage
 
-> `RESCUE: 700–710 Emergency/Standby | 722–728 Power-limited/Fault-managed/Fire cable | 750–770 Energy mgmt/Fire alarm/Fiber`
+**Keywords → Articles**
 
-### Article map
+- **Emergency system / egress lighting / life safety loads**  
+  → **700 Emergency Systems**
 
-#### 700–710 – Emergency / Standby / Independent power
+- **Legally required standby / code‑mandated standby loads (e.g., fire pumps, smoke control)**  
+  → **701 Legally Required Standby Systems**
 
-- **700** – Emergency Systems  
-- **701** – Legally Required Standby Systems  
-- **702** – Optional Standby Systems  
-- **705** – Interconnected Electric Power Production Sources  
-- **706** – Energy Storage Systems  
-- **708** – Critical Operations Power Systems (COPS)  
-- **710** – Stand-Alone Systems  
+- **Optional standby / owner‑chosen backup (servers, process loads, etc.)**  
+  → **702 Optional Standby Systems**
 
-Quick anchors:
+- **PV systems / interconnected generators / microgrids / utility‑interactive power**  
+  → **705 Interconnected Electric Power Production Sources**
 
-- `700 Emergency`
-- `701 Legally required standby`
-- `702 Optional standby`
-- `705 Interconnected sources`
-- `706 Storage`
-- `708 COPS`
-- `710 Stand-alone`
+- **Battery systems / ESS / rack batteries / energy storage rooms**  
+  → **706 Energy Storage Systems**
 
-#### 722–728 – Power-limited / Fault-managed / Fire-resistive systems
 
-- **722** – Cables for Power-Limited Circuits and Fault-Managed Power Circuits  
-- **724** – Class 1 Power-Limited Circuits and Class 1 Power-Limited Remote-Control and Signaling Circuits  
-- **725** – Class 2 and Class 3 Power-Limited Circuits  
-- **726** – Class 4 Fault-Managed Power Systems  
-- **728** – Fire-Resistive Cable Systems  
+### S – 708–710: Special Operations & Stand‑Alone
 
-Quick anchors:
+- **Critical operations power / mission‑critical facilities (COPS)**  
+  → **708 Critical Operations Power Systems**
 
-- `722 Cables`
-- `724 Class 1`
-- `725 Class 2 & 3`
-- `726 Class 4`
-- `728 Fire-resistive`
+- **Stand‑alone systems / not utility‑connected / isolated power sources**  
+  → **710 Stand‑Alone Systems**
 
-#### 750–770 – Energy / Fire / Fiber
 
-- **750** – Energy Management Systems  
-- **760** – Fire Alarm Systems  
-- **770** – Optical Fiber Cables  
+### P – 722–726: Power‑Limited & Fault‑Managed Circuits
 
-Quick anchors:
+- **Generic “power‑limited cable” or “fault‑managed power cable” without class number**  
+  → **722 Cables for Power‑Limited Circuits and Fault‑Managed Power Circuits**
 
-- `750 Energy management`
-- `760 Fire alarm`
-- `770 Fiber`
+- **Class 1 power‑limited or Class 1 remote‑control / signaling**  
+  → **724 Class 1 Power‑Limited Circuits**
 
----
+- **Class 2 / Class 3 power‑limited circuits (control, signaling, LV control wiring)**  
+  → **725 Class 2 and Class 3 Power‑Limited Circuits**
+
+- **Class 4 fault‑managed power systems (new FMP / digital power distribution)**  
+  → **726 Class 4 Fault‑Managed Power Systems**
+
+
+### O – 728: On‑fire / Fire‑Resistive Cable Systems
+
+- **Circuit integrity cable / fire‑resistive cable / cable that must survive fire exposure**  
+  → **728 Fire‑Resistive Cable Systems**
+
+
+### W – 750: Watt Management / Energy Management
+
+- **Energy management system / load shedding / demand response / building EMS**  
+  → **750 Energy Management Systems**
+
+
+### E – 760: Emergency Signaling / Fire Alarm
+
+- **Fire alarm circuits / NACs / SLCs / notification, initiating devices**  
+  → **760 Fire Alarm Systems**
+
+
+### R – 770: Remote Light / Optical Fiber
+
+- **Optical fiber cables / fiber backbone / communications via light (no current)**  
+  → **770 Optical Fiber Cables**
 
 ## Chapter 8 – Communications Systems
 
