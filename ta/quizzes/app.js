@@ -6,7 +6,7 @@
  * @property {string} title
  * @property {string} description
  * @property {string} file
- * @property {number|null} questionCount
+ * @property {number|null} [questionCount]
  */
 
 /**
@@ -39,8 +39,8 @@
 
 /**
  * @typedef {Object} QuizFile
- * @property {string} id
- * @property {string} title
+ * @property {string} [id]
+ * @property {string} [title]
  * @property {string} [version]
  * @property {string} [note]
  * @property {Question[]} questions
@@ -54,7 +54,7 @@
  */
 
 /**
- * @typedef {'catalog' | 'quiz' | 'results' | 'review'} ViewName
+ * @typedef {'catalog'|'quiz'|'results'|'review'} ViewName
  */
 
 /**
@@ -67,12 +67,12 @@
  * @property {QuizResult[]} results
  * @property {boolean} shuffleQ
  * @property {boolean} shuffleC
+ * @property {QuizCatalogItem[]} catalog
  */
 
-/* ── State ──────────────────────────────────────────────────────── */
+/* ── State ───────────────────────────────────────────────────────── */
 
-/** @type {AppState} */
-let state = {
+const state = {
   currentQuiz: null,
   questions: [],
   currentIndex: 0,
@@ -81,9 +81,10 @@ let state = {
   results: [],
   shuffleQ: false,
   shuffleC: false,
+  catalog: [],
 };
 
-/* ── DOM refs ───────────────────────────────────────────────────── */
+/* ── DOM helpers ─────────────────────────────────────────────────── */
 
 /**
  * @param {string} sel
@@ -98,188 +99,290 @@ const views = {
   review: /** @type {HTMLElement} */ ($('#view-review')),
 };
 
-/* ── Theme toggle ───────────────────────────────────────────────── */
+const els = {
+  catalog: /** @type {HTMLDivElement} */ ($('#quiz-catalog')),
+  quizTitle: /** @type {HTMLElement} */ ($('#quiz-title-display')),
+  progressLabel: /** @type {HTMLElement} */ ($('#progress-label')),
+  progressBar: /** @type {HTMLElement} */ ($('#progress-bar')),
+  questionText: /** @type {HTMLElement} */ ($('#question-text')),
+  choicesList: /** @type {HTMLUListElement} */ ($('#choices-list')),
+  feedbackArea: /** @type {HTMLElement} */ ($('#feedback-area')),
+  submitBtn: /** @type {HTMLButtonElement} */ ($('#btn-submit')),
+  nextBtn: /** @type {HTMLButtonElement} */ ($('#btn-next')),
+  shuffleQ: /** @type {HTMLInputElement|null} */ ($('#opt-shuffle-q')),
+  shuffleC: /** @type {HTMLInputElement|null} */ ($('#opt-shuffle-c')),
+  scoreValue: /** @type {HTMLElement} */ ($('#score-value')),
+  scoreDetail: /** @type {HTMLElement} */ ($('#score-detail')),
+  scoreArc: /** @type {SVGCircleElement|null} */ ($('#score-arc')),
+  resultsHeading: /** @type {HTMLElement} */ ($('#results-heading')),
+  resultsList: /** @type {HTMLElement} */ ($('#results-list')),
+  reviewList: /** @type {HTMLElement} */ ($('#review-list')),
+  reviewBtn: /** @type {HTMLButtonElement|null} */ ($('#btn-review')),
+  retryBtn: /** @type {HTMLButtonElement|null} */ ($('#btn-retry')),
+  backFromReviewBtn: /** @type {HTMLButtonElement|null} */ ($('#btn-back-from-review')),
+};
 
-(function () {
+/* ── Theme ───────────────────────────────────────────────────────── */
+
+(function initTheme() {
   /** @type {HTMLButtonElement|null} */
-  const t = /** @type {HTMLButtonElement|null} */ ($('[data-theme-toggle]'));
-  const r = document.documentElement;
+  const btn = /** @type {HTMLButtonElement|null} */ ($('[data-theme-toggle]'));
+  const root = document.documentElement;
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  let d = r.getAttribute('data-theme') || (prefersDark ? 'dark' : 'light');
+  let theme = root.getAttribute('data-theme') || (prefersDark ? 'dark' : 'light');
 
-  r.setAttribute('data-theme', d);
+  root.setAttribute('data-theme', theme);
 
-  if (t) {
-    updateThemeIcon(t, d);
-    t.addEventListener('click', () => {
-      d = d === 'dark' ? 'light' : 'dark';
-      r.setAttribute('data-theme', d);
-      updateThemeIcon(t, d);
+  if (btn) {
+    setThemeIcon(btn, theme);
+    btn.addEventListener('click', () => {
+      theme = theme === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', theme);
+      setThemeIcon(btn, theme);
     });
   }
 
   /**
-   * @param {HTMLButtonElement} btn
-   * @param {string} theme
+   * @param {HTMLButtonElement} button
+   * @param {string} currentTheme
    */
-  function updateThemeIcon(btn, theme) {
-    btn.setAttribute(
+  function setThemeIcon(button, currentTheme) {
+    button.setAttribute(
       'aria-label',
-      'Switch to ' + (theme === 'dark' ? 'light' : 'dark') + ' mode'
+      `Switch to ${currentTheme === 'dark' ? 'light' : 'dark'} mode`
     );
-    btn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+    button.innerHTML =
+      currentTheme === 'dark'
+        ? `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+             <circle cx="12" cy="12" r="5"></circle>
+             <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+           </svg>`
+        : `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+           </svg>`;
   }
 })();
 
-/* ── View management ────────────────────────────────────────────── */
+/* ── Views ───────────────────────────────────────────────────────── */
 
 /**
  * @param {ViewName} name
  */
 function showView(name) {
-  Object.values(views).forEach((v) => v.classList.remove('active'));
+  Object.values(views).forEach((view) => view.classList.remove('active'));
   views[name].classList.add('active');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-/* ── Catalog rendering ──────────────────────────────────────────── */
+/* ── Paths ───────────────────────────────────────────────────────── */
+
+const MANIFEST_PATH = './data/manifest.json';
+
+/**
+ * @param {string} path
+ * @returns {string}
+ */
+function normalizePath(path) {
+  if (!path) return path;
+  if (/^(https?:)?\/\//i.test(path)) return path;
+  if (path.startsWith('./') || path.startsWith('../') || path.startsWith('/')) return path;
+  return `./${path}`;
+}
+
+/* ── Catalog ─────────────────────────────────────────────────────── */
 
 async function renderCatalog() {
-  /** @type {HTMLDivElement} */
-  const grid = /** @type {HTMLDivElement} */ ($('#quiz-catalog'));
-  grid.innerHTML = '<p>Loading quizzes…</p>';
-
-  /** @type {QuizCatalogItem[]} */
-  let catalog = [];
+  els.catalog.innerHTML = `<p>Loading quizzes…</p>`;
 
   try {
-    const res = await fetch('data/manifest.json');
-    if (!res.ok) throw new Error(`manifest fetch failed: ${res.status}`);
-    catalog = await res.json();
-  } catch (err) {
-    grid.innerHTML = `<p>Could not load quiz manifest. (${escHtml(err.message)})</p>`;
-    return;
-  }
+    const res = await fetch(MANIFEST_PATH, { cache: 'no-store' });
+    if (!res.ok) {
+      throw new Error(`Manifest request failed (${res.status}) at ${MANIFEST_PATH}`);
+    }
 
-  grid.innerHTML = '';
+    /** @type {unknown} */
+    const payload = await res.json();
 
-  if (catalog.length === 0) {
-    grid.innerHTML = '<p>No quizzes found in manifest.</p>';
-    return;
-  }
+    if (!Array.isArray(payload)) {
+      throw new Error('Manifest must be a JSON array.');
+    }
 
-  for (const quiz of catalog) {
-    const count = quiz.questionCount ?? '?';
-    const card = document.createElement('div');
-    card.className = 'catalog-card';
-    card.setAttribute('role', 'button');
-    card.setAttribute('tabindex', '0');
-    card.setAttribute('aria-label', 'Start ' + quiz.title);
+    state.catalog = payload
+      .filter(Boolean)
+      .map((item) => ({
+        id: String(item.id ?? ''),
+        title: String(item.title ?? 'Untitled quiz'),
+        description: String(item.description ?? ''),
+        file: normalizePath(String(item.file ?? '')),
+        questionCount:
+          item.questionCount === null || item.questionCount === undefined
+            ? null
+            : Number(item.questionCount),
+      }))
+      .filter((item) => item.id && item.file);
 
-    card.innerHTML = `
-      <h3>${escHtml(quiz.title)}</h3>
-      <p>${escHtml(quiz.description || '')}</p>
-      <div class="catalog-meta">${escHtml(String(count))} questions</div>
-      <button class="catalog-start-btn" type="button">Start test</button>
-    `;
+    if (state.catalog.length === 0) {
+      els.catalog.innerHTML = `
+        <div class="results-card">
+          <h2 class="results-heading">No tests found</h2>
+          <p class="results-sub">
+            The manifest loaded, but it did not contain any usable quiz entries.
+          </p>
+        </div>
+      `;
+      return;
+    }
 
-    const start = () => loadQuiz(quiz);
-
-    card.addEventListener('click', start);
-    card.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        start();
-      }
+    els.catalog.innerHTML = '';
+    state.catalog.forEach((quiz) => {
+      els.catalog.appendChild(createCatalogCard(quiz));
     });
-
-    grid.appendChild(card);
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    els.catalog.innerHTML = `
+      <div class="results-card">
+        <h2 class="results-heading">Could not load tests</h2>
+        <p class="results-sub">
+          Check that <code>${escHtml(MANIFEST_PATH)}</code> exists and that your quiz JSON files are in the <code>data/</code> folder.
+        </p>
+        <div class="results-list">
+          <div class="result-item incorrect">
+            <div class="result-number">!</div>
+            <div class="result-body">
+              <div class="result-question">Load error</div>
+              <div class="result-status">${escHtml(message)}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
   }
 }
 
-/* ── Load and start quiz ────────────────────────────────────────── */
+/**
+ * @param {QuizCatalogItem} quiz
+ * @returns {HTMLDivElement}
+ */
+function createCatalogCard(quiz) {
+  const card = document.createElement('div');
+  const count =
+    typeof quiz.questionCount === 'number' && Number.isFinite(quiz.questionCount)
+      ? quiz.questionCount
+      : '?';
+
+  card.className = 'catalog-card';
+  card.setAttribute('role', 'button');
+  card.setAttribute('tabindex', '0');
+  card.setAttribute('aria-label', `Start ${quiz.title}`);
+
+  card.innerHTML = `
+    <h3>${escHtml(quiz.title)}</h3>
+    <p>${escHtml(quiz.description || '')}</p>
+    <div class="catalog-meta">${escHtml(String(count))} questions</div>
+    <button class="catalog-start-btn" type="button" tabindex="-1">Start test</button>
+  `;
+
+  const start = () => loadQuiz(quiz);
+
+  card.addEventListener('click', start);
+  card.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      start();
+    }
+  });
+
+  return card;
+}
+
+/* ── Quiz loading ────────────────────────────────────────────────── */
 
 /**
  * @param {QuizCatalogItem} quiz
  */
 async function loadQuiz(quiz) {
-  /** @type {QuizFile} */
-  let data;
-
   try {
-    const res = await fetch(quiz.file);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    data = await res.json();
+    const res = await fetch(normalizePath(quiz.file), { cache: 'no-store' });
+    if (!res.ok) {
+      throw new Error(`Quiz request failed (${res.status}) for ${quiz.file}`);
+    }
+
+    /** @type {QuizFile} */
+    const data = await res.json();
+
+    if (!data || !Array.isArray(data.questions)) {
+      throw new Error(`Quiz file ${quiz.file} is missing a questions array.`);
+    }
+
+    state.currentQuiz = quiz;
+    state.shuffleQ = !!els.shuffleQ?.checked;
+    state.shuffleC = !!els.shuffleC?.checked;
+    state.questions = data.questions.slice();
+
+    if (state.shuffleQ) {
+      shuffle(state.questions);
+    }
+
+    if (state.questions.length === 0) {
+      throw new Error(`Quiz file ${quiz.file} contains 0 questions.`);
+    }
+
+    state.currentIndex = 0;
+    state.results = [];
+    state.selected = null;
+    state.answered = false;
+
+    els.quizTitle.textContent = quiz.title;
+    showView('quiz');
+    renderQuestion();
   } catch (err) {
-    alert('Could not load quiz file: ' + quiz.file + '\n' + err.message);
-    return;
+    const message = err instanceof Error ? err.message : String(err);
+    els.catalog.innerHTML = `
+      <div class="results-card">
+        <h2 class="results-heading">Could not open quiz</h2>
+        <p class="results-sub">
+          The selected test could not be loaded.
+        </p>
+        <div class="results-list">
+          <div class="result-item incorrect">
+            <div class="result-number">!</div>
+            <div class="result-body">
+              <div class="result-question">${escHtml(quiz.title)}</div>
+              <div class="result-selected"><strong>File:</strong> ${escHtml(quiz.file)}</div>
+              <div class="result-status">${escHtml(message)}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+    showView('catalog');
   }
-
-  /** @type {HTMLInputElement|null} */
-  const shuffleQ = /** @type {HTMLInputElement|null} */ ($('#opt-shuffle-q'));
-  /** @type {HTMLInputElement|null} */
-  const shuffleC = /** @type {HTMLInputElement|null} */ ($('#opt-shuffle-c'));
-
-  state.currentQuiz = quiz;
-  state.shuffleQ = shuffleQ ? shuffleQ.checked : false;
-  state.shuffleC = shuffleC ? shuffleC.checked : false;
-  state.questions = data.questions.slice();
-
-  if (state.shuffleQ) shuffle(state.questions);
-
-  state.currentIndex = 0;
-  state.results = [];
-  state.selected = null;
-  state.answered = false;
-
-  /** @type {HTMLElement} */
-  const quizTitleDisplay = /** @type {HTMLElement} */ ($('#quiz-title-display'));
-  quizTitleDisplay.textContent = quiz.title;
-
-  showView('quiz');
-  renderQuestion();
 }
 
-/* ── Render question ────────────────────────────────────────────── */
+/* ── Quiz rendering ──────────────────────────────────────────────── */
 
 function renderQuestion() {
-  /** @type {Question} */
   const q = state.questions[state.currentIndex];
-
   state.selected = null;
   state.answered = false;
 
   const total = state.questions.length;
-  const done = state.currentIndex;
+  const currentNumber = state.currentIndex + 1;
+  const progressPercent = total > 0 ? ((currentNumber - 1) / total) * 100 : 0;
 
-  /** @type {HTMLElement} */
-  const progressLabel = /** @type {HTMLElement} */ ($('#progress-label'));
-  /** @type {HTMLElement} */
-  const progressBar = /** @type {HTMLElement} */ ($('#progress-bar'));
-  /** @type {HTMLElement} */
-  const questionText = /** @type {HTMLElement} */ ($('#question-text'));
-  /** @type {HTMLUListElement} */
-  const choicesList = /** @type {HTMLUListElement} */ ($('#choices-list'));
-  /** @type {HTMLElement} */
-  const feedback = /** @type {HTMLElement} */ ($('#feedback-area'));
-  /** @type {HTMLButtonElement} */
-  const submitBtn = /** @type {HTMLButtonElement} */ ($('#btn-submit'));
-  /** @type {HTMLButtonElement} */
-  const nextBtn = /** @type {HTMLButtonElement} */ ($('#btn-next'));
+  els.progressLabel.textContent = `${currentNumber} / ${total}`;
+  els.progressBar.style.width = `${progressPercent}%`;
+  els.questionText.textContent = q.question;
+  els.choicesList.innerHTML = '';
 
-  progressLabel.textContent = `${done + 1} / ${total}`;
-  progressBar.style.width = `${(done / total) * 100}%`;
-  questionText.textContent = q.question;
-
-  choicesList.innerHTML = '';
-
-  /** @type {string[]} */
   let choices = q.choices.slice();
-  if (state.shuffleC) shuffle(choices);
+  if (state.shuffleC) {
+    shuffle(choices);
+  }
 
   const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
-  choices.forEach((choice, i) => {
+  choices.forEach((choice, index) => {
     const li = document.createElement('li');
     li.className = 'choice-item';
     li.setAttribute('role', 'radio');
@@ -288,30 +391,77 @@ function renderQuestion() {
     li.dataset.value = choice;
 
     li.innerHTML = `
-      <span class="choice-letter">${escHtml(letters[i] || '')}</span>
+      <span class="choice-letter">${escHtml(letters[index] || '')}</span>
       <span class="choice-text">${escHtml(choice)}</span>
     `;
 
     li.addEventListener('click', () => selectChoice(li, choice));
-    li.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
+    li.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
         selectChoice(li, choice);
       }
     });
 
-    choicesList.appendChild(li);
+    els.choicesList.appendChild(li);
   });
 
-  feedback.className = 'feedback-area hidden';
-  feedback.innerHTML = '';
-
-  submitBtn.disabled = true;
-  submitBtn.classList.remove('hidden');
-  nextBtn.classList.add('hidden');
+  els.feedbackArea.className = 'feedback-area hidden';
+  els.feedbackArea.innerHTML = '';
+  els.submitBtn.disabled = true;
+  els.submitBtn.classList.remove('hidden');
+  els.nextBtn.classList.add('hidden');
 }
 
-/* ── Select choice ──────────────────────────────────────────────── */
+function submitAnswer() {
+  if (state.answered || !state.selected) return;
+
+  const q = state.questions[state.currentIndex];
+  const selected = state.selected;
+  const isCorrect = selected === q.answer;
+
+  state.answered = true;
+  state.results.push({
+    question: q,
+    selected,
+    correct: isCorrect,
+  });
+
+  /** @type {NodeListOf<HTMLLIElement>} */
+  const allChoices = document.querySelectorAll('#choices-list .choice-item');
+
+  allChoices.forEach((item) => {
+    const value = item.dataset.value || '';
+    item.classList.remove('selected');
+
+    if (value === q.answer) {
+      item.classList.add('correct');
+    }
+
+    if (value === selected && value !== q.answer) {
+      item.classList.add('incorrect');
+    }
+
+    item.setAttribute('aria-checked', value === selected ? 'true' : 'false');
+    item.setAttribute('tabindex', '-1');
+  });
+
+  const explanationText = getExplanationText(q, selected, isCorrect);
+  const explanationMeta = getExplanationMeta(q, selected, isCorrect);
+
+  els.feedbackArea.className = `feedback-area ${isCorrect ? 'correct' : 'incorrect'}`;
+  els.feedbackArea.innerHTML = `
+    <div class="feedback-title">${isCorrect ? 'Correct.' : 'Incorrect.'}</div>
+    <div class="feedback-answer"><strong>Correct answer:</strong> ${escHtml(q.answer)}</div>
+    ${explanationText ? `<div class="feedback-explanation">${escHtml(explanationText)}</div>` : ''}
+    ${explanationMeta ? `<div class="feedback-meta">${explanationMeta}</div>` : ''}
+  `;
+
+  els.submitBtn.classList.add('hidden');
+  els.nextBtn.classList.remove('hidden');
+  els.nextBtn.textContent =
+    state.currentIndex === state.questions.length - 1 ? 'See results' : 'Next question';
+}
 
 /**
  * @param {HTMLLIElement} el
@@ -332,84 +482,8 @@ function selectChoice(el, value) {
 
   el.classList.add('selected');
   el.setAttribute('aria-checked', 'true');
-
-  /** @type {HTMLButtonElement} */
-  const submitBtn = /** @type {HTMLButtonElement} */ ($('#btn-submit'));
-  submitBtn.disabled = false;
+  els.submitBtn.disabled = false;
 }
-
-/* ── Submit answer ──────────────────────────────────────────────── */
-
-function submitAnswer() {
-  if (state.answered || !state.selected) return;
-
-  /** @type {Question} */
-  const q = state.questions[state.currentIndex];
-  const selected = state.selected;
-  const isCorrect = selected === q.answer;
-
-  state.answered = true;
-
-  state.results.push({
-    question: q,
-    selected,
-    correct: isCorrect,
-  });
-
-  /** @type {NodeListOf<HTMLLIElement>} */
-  const allChoices = document.querySelectorAll('#choices-list .choice-item');
-
-  allChoices.forEach((item) => {
-    const value = item.dataset.value || '';
-    item.classList.remove('selected');
-
-    if (value === q.answer) {
-      item.classList.add('correct');
-    }
-
-    if (value === selected && value ~= q.answer) {
-      item.classList.add('incorrect');
-    }
-
-    item.setAttribute('aria-checked', value === selected ? 'true' : 'false');
-    item.setAttribute('tabindex', '-1');
-  });
-
-  /** @type {HTMLElement} */
-  const feedback = /** @type {HTMLElement} */ ($('#feedback-area'));
-  /** @type {HTMLButtonElement} */
-  const submitBtn = /** @type {HTMLButtonElement} */ ($('#btn-submit'));
-  /** @type {HTMLButtonElement} */
-  const nextBtn = /** @type {HTMLButtonElement} */ ($('#btn-next'));
-
-  const explanationText = getExplanationText(q, selected, isCorrect);
-  const explanationMeta = getExplanationMeta(q, selected, isCorrect);
-
-  feedback.className = `feedback-area ${isCorrect ? 'correct' : 'incorrect'}`;
-  feedback.innerHTML = `
-    <div class="feedback-title">${isCorrect ? 'Correct.' : 'Incorrect.'}</div>
-    <div class="feedback-answer">
-      <strong>Correct answer:</strong> ${escHtml(q.answer)}
-    </div>
-    ${
-      explanationText
-        ? `<div class="feedback-explanation">${escHtml(explanationText)}</div>`
-        : ''
-    }
-    ${
-      explanationMeta
-        ? `<div class="feedback-meta">${explanationMeta}</div>`
-        : ''
-    }
-  `;
-
-  submitBtn.classList.add('hidden');
-  nextBtn.classList.remove('hidden');
-  nextBtn.textContent =
-    state.currentIndex === state.questions.length - 1 ? 'See results' : 'Next question';
-}
-
-/* ── Next question ──────────────────────────────────────────────── */
 
 function nextQuestion() {
   if (!state.answered) return;
@@ -423,27 +497,17 @@ function nextQuestion() {
   renderResults();
 }
 
-/* ── Results ────────────────────────────────────────────────────── */
+/* ── Results and review ──────────────────────────────────────────── */
 
 function renderResults() {
   const total = state.results.length;
   const correct = state.results.filter((r) => r.correct).length;
   const percent = total === 0 ? 0 : Math.round((correct / total) * 100);
 
-  /** @type {HTMLElement} */
-  const scoreValue = /** @type {HTMLElement} */ ($('#score-value'));
-  /** @type {HTMLElement} */
-  const scoreDetail = /** @type {HTMLElement} */ ($('#score-detail'));
-  /** @type {HTMLElement} */
-  const resultsList = /** @type {HTMLElement} */ ($('#results-list'));
-  /** @type {SVGCircleElement|null} */
-  const scoreArc = /** @type {SVGCircleElement|null} */ ($('#score-arc'));
-  /** @type {HTMLElement} */
-  const resultsHeading = /** @type {HTMLElement} */ ($('#results-heading'));
+  els.scoreValue.textContent = `${percent}%`;
+  els.scoreDetail.textContent = `${correct} of ${total} correct`;
 
-  scoreValue.textContent = `${percent}%`;
-  scoreDetail.textContent = `${correct} of ${total} correct`;
-  resultsHeading.textContent =
+  els.resultsHeading.textContent =
     percent === 100
       ? 'Perfect score'
       : percent >= 80
@@ -452,76 +516,65 @@ function renderResults() {
           ? 'Keep going'
           : 'More review needed';
 
-  if (scoreArc) {
-    const circumference = 2 * Math.PI * 52;
+  if (els.scoreArc) {
+    const radius = 52;
+    const circumference = 2 * Math.PI * radius;
     const offset = circumference * (1 - percent / 100);
-    scoreArc.style.strokeDasharray = `${circumference}`;
-    scoreArc.style.strokeDashoffset = `${offset}`;
+    els.scoreArc.style.strokeDasharray = `${circumference}`;
+    els.scoreArc.style.strokeDashoffset = `${offset}`;
   }
 
-  resultsList.innerHTML = '';
+  els.resultsList.innerHTML = '';
 
-  state.results.forEach((r, index) => {
+  state.results.forEach((result, index) => {
     const item = document.createElement('div');
-    item.className = `result-item ${r.correct ? 'correct' : 'incorrect'}`;
+    item.className = `result-item ${result.correct ? 'correct' : 'incorrect'}`;
 
     item.innerHTML = `
       <div class="result-number">Q${index + 1}</div>
       <div class="result-body">
-        <div class="result-question">${escHtml(r.question.question)}</div>
-        <div class="result-selected"><strong>Your answer:</strong> ${escHtml(r.selected)}</div>
-        <div class="result-correct-answer"><strong>Correct answer:</strong> ${escHtml(r.question.answer)}</div>
-        <div class="result-status">${r.correct ? 'Correct' : 'Incorrect'}</div>
+        <div class="result-question">${escHtml(result.question.question)}</div>
+        <div class="result-selected"><strong>Your answer:</strong> ${escHtml(result.selected)}</div>
+        <div class="result-correct-answer"><strong>Correct answer:</strong> ${escHtml(result.question.answer)}</div>
+        <div class="result-status">${result.correct ? 'Correct' : 'Incorrect'}</div>
       </div>
     `;
 
-    resultsList.appendChild(item);
+    els.resultsList.appendChild(item);
   });
 
   showView('results');
 }
 
-/* ── Review ─────────────────────────────────────────────────────── */
-
 function renderReview() {
-  /** @type {HTMLElement} */
-  const list = /** @type {HTMLElement} */ ($('#review-list'));
-  list.innerHTML = '';
+  els.reviewList.innerHTML = '';
 
-  state.results.forEach((r, index) => {
-    const explanationText = getExplanationText(r.question, r.selected, r.correct);
-    const explanationMeta = getExplanationMeta(r.question, r.selected, r.correct);
+  state.results.forEach((result, index) => {
+    const explanationText = getExplanationText(result.question, result.selected, result.correct);
+    const explanationMeta = getExplanationMeta(result.question, result.selected, result.correct);
 
-    const div = document.createElement('div');
-    div.className = `review-item ${r.correct ? 'correct' : 'incorrect'}`;
+    const card = document.createElement('div');
+    card.className = `review-item ${result.correct ? 'correct' : 'incorrect'}`;
 
-    div.innerHTML = `
+    card.innerHTML = `
       <div class="review-header">
         <div class="review-number">Question ${index + 1}</div>
-        <div class="review-status">${r.correct ? 'Correct' : 'Incorrect'}</div>
+        <div class="review-status">${result.correct ? 'Correct' : 'Incorrect'}</div>
       </div>
-      <div class="review-question">${escHtml(r.question.question)}</div>
-      <div class="review-selected"><strong>Your answer:</strong> ${escHtml(r.selected)}</div>
-      <div class="review-answer"><strong>Correct answer:</strong> ${escHtml(r.question.answer)}</div>
-      ${
-        explanationText
-          ? `<div class="review-explanation">${escHtml(explanationText)}</div>`
-          : ''
-      }
-      ${
-        explanationMeta
-          ? `<div class="review-meta">${explanationMeta}</div>`
-          : ''
-      }
+      <div class="review-question">${escHtml(result.question.question)}</div>
+      <div class="review-selected"><strong>Your answer:</strong> ${escHtml(result.selected)}</div>
+      <div class="review-answer"><strong>Correct answer:</strong> ${escHtml(result.question.answer)}</div>
+      ${explanationText ? `<div class="review-explanation">${escHtml(explanationText)}</div>` : ''}
+      ${explanationMeta ? `<div class="review-meta">${explanationMeta}</div>` : ''}
     `;
 
-    list.appendChild(div);
+    els.reviewList.appendChild(card);
   });
 
   showView('review');
 }
 
-/* ── Explanation helpers ────────────────────────────────────────── */
+/* ── Explanation helpers ─────────────────────────────────────────── */
 
 /**
  * @param {Question} question
@@ -531,7 +584,6 @@ function renderReview() {
  */
 function getExplanationText(question, selected, isCorrect) {
   const exp = question.explanation;
-
   if (!exp) return '';
 
   if (typeof exp === 'string') {
@@ -557,7 +609,6 @@ function getExplanationText(question, selected, isCorrect) {
  */
 function getExplanationMeta(question, selected, isCorrect) {
   const exp = question.explanation;
-
   if (!exp || typeof exp === 'string') return '';
 
   /** @type {string[]} */
@@ -576,73 +627,44 @@ function getExplanationMeta(question, selected, isCorrect) {
 
   if (sections.length) {
     parts.push(
-      `<span class="meta-sections"><strong>Sections:</strong> ${escHtml(
-        sections.join(', ')
-      )}</span>`
+      `<span class="meta-sections"><strong>Sections:</strong> ${escHtml(sections.join(', '))}</span>`
     );
   }
 
   if (keywords.length) {
     parts.push(
-      `<span class="meta-keywords"><strong>Index:</strong> ${escHtml(
-        keywords.join(' | ')
-      )}</span>`
+      `<span class="meta-keywords"><strong>Index:</strong> ${escHtml(keywords.join(' | '))}</span>`
     );
   }
 
   return parts.join(' ');
 }
 
-/* ── Buttons / events ───────────────────────────────────────────── */
+/* ── Events ──────────────────────────────────────────────────────── */
 
-(function bindEvents() {
-  /** @type {HTMLButtonElement|null} */
-  const submitBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-submit'));
-  /** @type {HTMLButtonElement|null} */
-  const nextBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-next'));
-  /** @type {HTMLButtonElement|null} */
-  const reviewBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-review'));
-  /** @type {HTMLButtonElement|null} */
-  const retryBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-retry'));
-  /** @type {HTMLButtonElement|null} */
-  const backFromReviewBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-back-from-review'));
-  /** @type {NodeListOf<HTMLButtonElement>} */
-  const homeBtns = document.querySelectorAll('[data-action="home"]');
+function bindEvents() {
+  els.submitBtn?.addEventListener('click', submitAnswer);
+  els.nextBtn?.addEventListener('click', nextQuestion);
+  els.reviewBtn?.addEventListener('click', renderReview);
 
-  if (submitBtn) {
-    submitBtn.addEventListener('click', submitAnswer);
-  }
+  els.retryBtn?.addEventListener('click', () => {
+    if (state.currentQuiz) {
+      loadQuiz(state.currentQuiz);
+    }
+  });
 
-  if (nextBtn) {
-    nextBtn.addEventListener('click', nextQuestion);
-  }
+  els.backFromReviewBtn?.addEventListener('click', () => {
+    showView('results');
+  });
 
-  if (reviewBtn) {
-    reviewBtn.addEventListener('click', renderReview);
-  }
-
-  if (retryBtn) {
-    retryBtn.addEventListener('click', () => {
-      if (state.currentQuiz) {
-        loadQuiz(state.currentQuiz);
-      }
-    });
-  }
-
-  if (backFromReviewBtn) {
-    backFromReviewBtn.addEventListener('click', () => {
-      showView('results');
-    });
-  }
-
-  homeBtns.forEach((btn) => {
+  document.querySelectorAll('[data-action="home"]').forEach((btn) => {
     btn.addEventListener('click', () => {
       showView('catalog');
     });
   });
-})();
+}
 
-/* ── Utilities ──────────────────────────────────────────────────── */
+/* ── Utilities ───────────────────────────────────────────────────── */
 
 /**
  * @template T
@@ -670,6 +692,7 @@ function escHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
-/* ── Init ───────────────────────────────────────────────────────── */
+/* ── Init ────────────────────────────────────────────────────────── */
 
+bindEvents();
 renderCatalog();
