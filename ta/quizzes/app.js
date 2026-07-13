@@ -127,10 +127,7 @@ const views = {
       'aria-label',
       'Switch to ' + (theme === 'dark' ? 'light' : 'dark') + ' mode'
     );
-    btn.innerHTML =
-      theme === 'dark'
-        ? '☀️'
-        : '🌙';
+    btn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
   }
 })();
 
@@ -150,7 +147,6 @@ function showView(name) {
 async function renderCatalog() {
   /** @type {HTMLDivElement} */
   const grid = /** @type {HTMLDivElement} */ ($('#quiz-catalog'));
-
   grid.innerHTML = '<p>Loading quizzes…</p>';
 
   /** @type {QuizCatalogItem[]} */
@@ -183,7 +179,7 @@ async function renderCatalog() {
     card.innerHTML = `
       <h3>${escHtml(quiz.title)}</h3>
       <p>${escHtml(quiz.description || '')}</p>
-      <div class="catalog-meta">${count} questions</div>
+      <div class="catalog-meta">${escHtml(String(count))} questions</div>
       <button class="catalog-start-btn" type="button">Start test</button>
     `;
 
@@ -292,7 +288,7 @@ function renderQuestion() {
     li.dataset.value = choice;
 
     li.innerHTML = `
-      <span class="choice-letter">${letters[i] || ''}</span>
+      <span class="choice-letter">${escHtml(letters[i] || '')}</span>
       <span class="choice-text">${escHtml(choice)}</span>
     `;
 
@@ -349,13 +345,14 @@ function submitAnswer() {
 
   /** @type {Question} */
   const q = state.questions[state.currentIndex];
-  const isCorrect = state.selected === q.answer;
+  const selected = state.selected;
+  const isCorrect = selected === q.answer;
 
   state.answered = true;
 
   state.results.push({
     question: q,
-    selected: state.selected,
+    selected,
     correct: isCorrect,
   });
 
@@ -370,11 +367,11 @@ function submitAnswer() {
       item.classList.add('correct');
     }
 
-    if (value === state.selected && value !== q.answer) {
+    if (value === selected && value ~= q.answer) {
       item.classList.add('incorrect');
     }
 
-    item.setAttribute('aria-checked', value === state.selected ? 'true' : 'false');
+    item.setAttribute('aria-checked', value === selected ? 'true' : 'false');
     item.setAttribute('tabindex', '-1');
   });
 
@@ -385,18 +382,18 @@ function submitAnswer() {
   /** @type {HTMLButtonElement} */
   const nextBtn = /** @type {HTMLButtonElement} */ ($('#btn-next'));
 
-  const explanationText = getExplanationText(q, state.selected, isCorrect);
-  const explanationMeta = getExplanationMeta(q, state.selected, isCorrect);
+  const explanationText = getExplanationText(q, selected, isCorrect);
+  const explanationMeta = getExplanationMeta(q, selected, isCorrect);
 
   feedback.className = `feedback-area ${isCorrect ? 'correct' : 'incorrect'}`;
   feedback.innerHTML = `
-    <div class="feedback-title">${isCorrect ? 'Correct!' : 'Incorrect'}</div>
+    <div class="feedback-title">${isCorrect ? 'Correct.' : 'Incorrect.'}</div>
     <div class="feedback-answer">
       <strong>Correct answer:</strong> ${escHtml(q.answer)}
     </div>
     ${
       explanationText
-        ? `<div class="feedback-text">${escHtml(explanationText)}</div>`
+        ? `<div class="feedback-explanation">${escHtml(explanationText)}</div>`
         : ''
     }
     ${
@@ -439,9 +436,28 @@ function renderResults() {
   const scoreDetail = /** @type {HTMLElement} */ ($('#score-detail'));
   /** @type {HTMLElement} */
   const resultsList = /** @type {HTMLElement} */ ($('#results-list'));
+  /** @type {SVGCircleElement|null} */
+  const scoreArc = /** @type {SVGCircleElement|null} */ ($('#score-arc'));
+  /** @type {HTMLElement} */
+  const resultsHeading = /** @type {HTMLElement} */ ($('#results-heading'));
 
   scoreValue.textContent = `${percent}%`;
   scoreDetail.textContent = `${correct} of ${total} correct`;
+  resultsHeading.textContent =
+    percent === 100
+      ? 'Perfect score'
+      : percent >= 80
+        ? 'Strong result'
+        : percent >= 60
+          ? 'Keep going'
+          : 'More review needed';
+
+  if (scoreArc) {
+    const circumference = 2 * Math.PI * 52;
+    const offset = circumference * (1 - percent / 100);
+    scoreArc.style.strokeDasharray = `${circumference}`;
+    scoreArc.style.strokeDashoffset = `${offset}`;
+  }
 
   resultsList.innerHTML = '';
 
@@ -453,12 +469,8 @@ function renderResults() {
       <div class="result-number">Q${index + 1}</div>
       <div class="result-body">
         <div class="result-question">${escHtml(r.question.question)}</div>
-        <div class="result-selected">
-          <strong>Your answer:</strong> ${escHtml(r.selected)}
-        </div>
-        <div class="result-correct-answer">
-          <strong>Correct answer:</strong> ${escHtml(r.question.answer)}
-        </div>
+        <div class="result-selected"><strong>Your answer:</strong> ${escHtml(r.selected)}</div>
+        <div class="result-correct-answer"><strong>Correct answer:</strong> ${escHtml(r.question.answer)}</div>
         <div class="result-status">${r.correct ? 'Correct' : 'Incorrect'}</div>
       </div>
     `;
@@ -548,7 +560,9 @@ function getExplanationMeta(question, selected, isCorrect) {
 
   if (!exp || typeof exp === 'string') return '';
 
+  /** @type {string[]} */
   let sections = [];
+  /** @type {string[]} */
   let keywords = [];
 
   if (isCorrect) {
@@ -591,7 +605,9 @@ function getExplanationMeta(question, selected, isCorrect) {
   /** @type {HTMLButtonElement|null} */
   const retryBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-retry'));
   /** @type {HTMLButtonElement|null} */
-  const homeBtns = /** @type {NodeListOf<HTMLButtonElement>} */ (document.querySelectorAll('[data-action="home"]'));
+  const backFromReviewBtn = /** @type {HTMLButtonElement|null} */ ($('#btn-back-from-review'));
+  /** @type {NodeListOf<HTMLButtonElement>} */
+  const homeBtns = document.querySelectorAll('[data-action="home"]');
 
   if (submitBtn) {
     submitBtn.addEventListener('click', submitAnswer);
@@ -610,6 +626,12 @@ function getExplanationMeta(question, selected, isCorrect) {
       if (state.currentQuiz) {
         loadQuiz(state.currentQuiz);
       }
+    });
+  }
+
+  if (backFromReviewBtn) {
+    backFromReviewBtn.addEventListener('click', () => {
+      showView('results');
     });
   }
 
