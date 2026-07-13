@@ -1,3 +1,421 @@
+# Chapter 3 Wiring Methods – CABFER Map
+
+## One‑word mnemonic
+
+**CABFER**
+
+> **C** 300–315 (Core – General, Conductors, Boxes)  
+> **A** 320–340 (Cables: AC–UF)  
+> **B** 342–362 (Conduit/Tubing: IMC–ENT)  
+> **F** 366–371 (Bus/Gutters)  
+> **E** 372–384 (Floor Raceways, Wireways, Extensions)  
+> **R** 386–398 (Surface/Underfloor/Trays/“Old” Wiring)
+
+You can write this at the top of your scratch sheet:
+
+> `CABFER: C 300–315 | A 320–340 | B 342–362 | F 366–371 | E 372–384 | R 386–398`
+
+
+---
+
+## C – Core (300–315)
+
+**Scope:** General wiring-method rules, conductors, cabinets/boxes.
+
+### Article 300 – General Requirements
+
+**300–305** – General rules
+
+**Master mnemonic:**  
+`Scope – Limits – Conductors – Damage – Underground – Corrosion – Temperature – Systems – Wet – Continuity – Support – Sheath – Splices – Free Length – Boxes – Transition – Raceway Fill – Raceway Install – Vertical Support – Induction – Firestopping – Plenums – Access Panels – Stair Towers – Signal Classification`
+
+This version uses a keyword for each section that sounds more like the actual section title.
+
+### Article 300 section map
+
+- **300.1 – Scope**  
+  What Article 300 **covers**.
+
+- **300.2 – Limits**  
+  **Limitations** of Article 300.
+
+- **300.3 – Conductors**  
+  Rules for **conductors**.
+
+- **300.4 – Damage**  
+  Protection against physical **damage**.
+
+- **300.5 – Underground**  
+  **Underground installations**.
+
+- **300.6 – Corrosion**  
+  Protection against **corrosion** and deterioration.
+
+- **300.7 – Temperature**  
+  Raceways exposed to different **temperatures**.
+
+- **300.8 – Systems**  
+  Installation of conductors with other **systems**.
+
+- **300.9 – Wet**  
+  Raceways in **wet** locations above grade.
+
+- **300.10 – Continuity**  
+  Electrical **continuity** of metal raceways, cable armor, and enclosures.
+
+- **300.11 – Support**  
+  **Securing and supporting**.
+
+- **300.12 – Sheath**  
+  Mechanical continuity of raceways and cable **sheaths**.
+
+- **300.13 – Splices**  
+  Mechanical and electrical continuity of conductors, especially **splices/joints**.
+
+- **300.14 – Free Length**  
+  Required **free conductor length** at outlets, junctions, and switch points.
+
+- **300.15 – Boxes**  
+  **Boxes, conduit bodies, or fittings** — where required.
+
+- **300.16 – Transition**  
+  Raceway or cable to open or concealed wiring **transition**.
+
+- **300.17 – Raceway Fill**  
+  Number and size of conductors and cables in **raceway**.
+
+- **300.18 – Raceway Install**  
+  **Raceway installations**.
+
+- **300.19 – Vertical Support**  
+  Supporting conductors in **vertical raceways**.
+
+- **300.20 – Induction**  
+  Induced currents in **ferrous metal enclosures or ferrous metal raceways**.
+
+- **300.21 – Firestopping**  
+  Spread of **fire** or products of combustion.
+
+- **300.22 – Plenums**  
+  Wiring in ducts and other spaces for environmental air, especially **plenums**.
+
+- **300.23 – Access Panels**  
+  **Panels designed to allow access**.
+
+- **300.25 – Stair Towers**  
+  **Exit enclosures (stair towers)**.
+
+- **300.26 – Signal Classification**  
+  Remote-control and signaling circuits **classification**.
+
+### High-yield mnemonic for 300.10–300.20
+
+**Section mnemonic:**  
+`Continuity – Support – Sheath – Splices – Free Length – Boxes – Transition – Raceway Fill – Raceway Install – Vertical Support – Induction`
+
+- **300.10 – Continuity**  
+  Electrical continuity of **metal raceways, cable armor, and enclosures**.
+
+- **300.11 – Support**  
+  **Securing and supporting** raceways and cables.
+
+- **300.12 – Sheath**  
+  Mechanical continuity of **raceways and cable sheaths**.
+
+- **300.13 – Splices**  
+  Mechanical and electrical continuity of **conductors**.
+
+- **300.14 – Free Length**  
+  Minimum **free conductor length** at outlets, junctions, and switch points.
+
+- **300.15 – Boxes**  
+  Where **boxes, conduit bodies, or fittings** are required.
+
+- **300.16 – Transition**  
+  **Raceway or cable to open or concealed wiring**.
+
+- **300.17 – Raceway Fill**  
+  **Number and size of conductors and cables in raceway**.
+
+- **300.18 – Raceway Install**  
+  **Raceway installations**.
+
+- **300.19 – Vertical Support**  
+  **Supporting conductors in vertical raceways**.
+
+- **300.20 – Induction**  
+  **Induced currents in ferrous metal enclosures or ferrous metal raceways**.
+
+### Exam keyword hook
+
+When the question says **single conductor**, **ferrous metal raceway**, or **inductive heating**, use this path:
+
+`General requirements for wiring methods -> Induced currents in ferrous metal enclosures -> 300.20`
+
+### Mistake trap
+
+- If the question is about **inductive heating in ferrous metal**, think **300.20**.
+- If the question is about **surface metal raceway as a wiring method**, think **Article 386**.
+- The word **ferrous** can pull you toward the wrong article, but the deciding clue is **induced currents / inductive heating**, which points to **300.20**.
+
+### Other core Articles in C
+
+- **305** – General requirements for wiring methods and materials **over 1000 V ac, 1500 V dc**.
+- **310** – Conductors for general wiring.
+- **312** – Cabinets, cutout boxes, and meter socket enclosures.
+- **314** – Outlet, device, pull, and junction boxes; conduit bodies; fittings; handhole enclosures.
+
+## A – Cables (320–340)
+
+**Scope:** Named cable wiring methods.
+
+- **320** – Armored Cable: Type **AC**  
+- **322** – Flat Cable Assemblies: Type **FC**  
+- **324** – Flat Conductor Cable: Type **FCC**  
+- **326** – Integrated Gas Spacer Cable: Type **IGS**  
+- **330** – Metal‑Clad Cable: Type **MC**  
+- **332** – Mineral‑Insulated, Metal‑Sheathed Cable: Type **MI**  
+- **334** – Nonmetallic‑Sheathed Cable: Types **NM, NMC**  
+- **335** – Instrumentation Tray Cable: Type **ITC**  
+- **336** – Power and Control Tray Cable: Type **TC**  
+- **337** – Type **P** Cable  
+- **338** – Service‑Entrance Cable: Types **SE, USE**  
+- **340** – Underground Feeder and Branch‑Circuit Cable: Type **UF**
+
+Quick anchors:
+
+- `320 AC, 330 MC, 334 NM, 338 SE/USE, 340 UF`
+
+
+---
+
+## B – Conduit/Tubing (342–362)
+
+**Scope:** Conduit and tubing wiring methods.
+
+- **342** – Intermediate Metal Conduit (**IMC**)  
+- **344** – Rigid Metal Conduit (**RMC**)  
+- **348** – Flexible Metal Conduit (**FMC**)  
+- **350** – Liquidtight Flexible Metal Conduit (**LFMC**)  
+- **352** – Rigid Polyvinyl Chloride Conduit (**PVC**)  
+- **353** – High Density Polyethylene Conduit (**HDPE**)  
+- **354** – Nonmetallic Underground Conduit with Conductors (**NUCC**)  
+- **355** – Reinforced Thermosetting Resin Conduit (**RTRC**)  
+- **356** – Liquidtight Flexible Nonmetallic Conduit (**LFNC**)  
+- **358** – Electrical Metallic Tubing (**EMT**)  
+- **360** – Flexible Metallic Tubing (**FMT**)  
+- **362** – Electrical Nonmetallic Tubing (**ENT**)
+
+Quick anchors:
+
+- `342 IMC, 344 RMC, 352 PVC, 358 EMT, 362 ENT`
+
+
+---
+
+## F – Bus & Gutters (366–371)
+
+**Scope:** Gutters and bus systems.
+
+- **366** – Auxiliary Gutters  
+- **368** – Busways  
+- **369** – Insulated Bus Pipe (IBP) / Tubular Covered Conductors (TCC) Systems  
+- **370** – Cablebus  
+- **371** – Flexible Bus Systems
+
+Quick anchors:
+
+- `366 Gutters, 368 Busways, 370 Cablebus`
+
+
+---
+
+## E – Floor Raceways, Wireways, Extensions (372–384)
+
+**Scope:** Floor raceways, wireways, multioutlet assemblies, extensions, strut raceways.
+
+- **372** – Cellular Concrete Floor Raceways  
+- **374** – Cellular Metal Floor Raceways  
+- **376** – Metal Wireways  
+- **378** – Nonmetallic Wireways  
+- **380** – Multioutlet Assembly  
+- **382** – Nonmetallic Extensions  
+- **384** – Strut‑Type Channel Raceway
+
+Quick anchors:
+
+- `372/374 Floor raceways`  
+- `376/378 Wireways`  
+- `380/382/384 Extensions / Strut`
+
+
+---
+
+## R – Surface/Underfloor/Trays/“Old” Wiring (386–398)
+
+**Scope:** Surface raceways, underfloor raceways, cable trays, ceiling power systems, legacy/open wiring.
+
+- **386** – Surface Metal Raceways  
+- **388** – Surface Nonmetallic Raceways  
+- **390** – Underfloor Raceways  
+- **392** – Cable Trays  
+- **393** – Low‑Voltage Suspended Ceiling Power Distribution Systems  
+- **394** – Concealed Knob‑and‑Tube Wiring  
+- **395** – Outdoor Overhead Conductors over 1000 Volts  
+- **396** – Messenger‑Supported Wiring  
+- **398** – Open Wiring on Insulators
+
+Quick anchors:
+
+- `386/388 Surface raceways`  
+- `390 Underfloor`  
+- `392 Trays`  
+- `394–398 “old/open” wiring (knob‑and‑tube, overhead, messenger, open wiring)`
+
+
+---
+
+### Exam‑time shorthand
+
+At the top of your notes or scratch paper:
+
+```text
+CABFER: C 300–315 | A 320–340 | B 342–362 | F 366–371 | E 372–384 | R 386–398
+
+C: 300–315 (Gen, Conductors, Boxes)
+   300.10–.15 = Path–Pipe–Length–Box
+   305 MV Gen, 310 Conductors, 312/314 Cabinets & Boxes
+
+A: 320 AC, 330 MC, 334 NM, 338 SE/USE, 340 UF
+B: 342 IMC, 344 RMC, 352 PVC, 358 EMT, 362 ENT
+F: 366 Gutters, 368 Busways, 370 Cablebus
+E: 372/374 Floor raceways, 376/378 Wireways, 380/382/384 Extensions/Strut
+R: 386/388 Surface raceways, 390 Underfloor, 392 Trays, 394–398 “old/open” wiring
+```
+
+# Chapter 7 and 8 Study Map
+
+## Chapter 7 – Special Conditions
+
+### One-word mnemonic
+
+**RESCUE**
+
+> **R** 700–710 (Emergency / Standby / Independent power)  
+> **E** 722–728 (Power-limited / Fault-managed / Fire-resistive cable systems)  
+> **S** 750–770 (Energy management / Fire alarm / Fiber)
+
+You can write this as:
+
+> `RESCUE: 700–710 Emergency/Standby | 722–728 Power-limited/Fault-managed/Fire cable | 750–770 Energy mgmt/Fire alarm/Fiber`
+
+### Article map
+
+#### 700–710 – Emergency / Standby / Independent power
+
+- **700** – Emergency Systems  
+- **701** – Legally Required Standby Systems  
+- **702** – Optional Standby Systems  
+- **705** – Interconnected Electric Power Production Sources  
+- **706** – Energy Storage Systems  
+- **708** – Critical Operations Power Systems (COPS)  
+- **710** – Stand-Alone Systems  
+
+Quick anchors:
+
+- `700 Emergency`
+- `701 Legally required standby`
+- `702 Optional standby`
+- `705 Interconnected sources`
+- `706 Storage`
+- `708 COPS`
+- `710 Stand-alone`
+
+#### 722–728 – Power-limited / Fault-managed / Fire-resistive systems
+
+- **722** – Cables for Power-Limited Circuits and Fault-Managed Power Circuits  
+- **724** – Class 1 Power-Limited Circuits and Class 1 Power-Limited Remote-Control and Signaling Circuits  
+- **725** – Class 2 and Class 3 Power-Limited Circuits  
+- **726** – Class 4 Fault-Managed Power Systems  
+- **728** – Fire-Resistive Cable Systems  
+
+Quick anchors:
+
+- `722 Cables`
+- `724 Class 1`
+- `725 Class 2 & 3`
+- `726 Class 4`
+- `728 Fire-resistive`
+
+#### 750–770 – Energy / Fire / Fiber
+
+- **750** – Energy Management Systems  
+- **760** – Fire Alarm Systems  
+- **770** – Optical Fiber Cables  
+
+Quick anchors:
+
+- `750 Energy management`
+- `760 Fire alarm`
+- `770 Fiber`
+
+---
+
+## Chapter 8 – Communications Systems
+
+### One-word mnemonic
+
+**ANTENNA**
+
+> **A** 800–805 (Core communications rules and circuits)  
+> **N** 810 (Antenna systems)  
+> **T** 820–840 (CATV and broadband systems)
+
+You can write this as:
+
+> `ANTENNA: 800–805 General/Comms circuits | 810 Antennas | 820–840 CATV & Broadband`
+
+### Article map
+
+#### 800–805 – Core communications
+
+- **800** – General Requirements for Communications Systems  
+- **805** – Communications Circuits  
+
+Quick anchors:
+
+- `800 General comms`
+- `805 Communications circuits`
+
+#### 810 – Antenna systems
+
+- **810** – Antenna Systems  
+
+Quick anchor:
+
+- `810 Antennas`
+
+#### 820–840 – CATV and broadband
+
+- **820** – Community Antenna Television and Radio Distribution Systems  
+- **830** – Network-Powered Broadband Communications Systems  
+- **840** – Premises-Powered Broadband Communications Systems  
+
+Quick anchors:
+
+- `820 CATV / radio distribution`
+- `830 Network-powered broadband`
+- `840 Premises-powered broadband`
+
+---
+
+## One-line cram sheet
+
+```text
+RESCUE: 700–710 Emergency/Standby | 722–728 Power-limited/Fault-managed/Fire cable | 750–770 Energy mgmt/Fire alarm/Fiber
+ANTENNA: 800–805 General/Comms circuits | 810 Antennas | 820–840 CATV & Broadband
+```
+
 
 $$V_s = V_p \times \left(\frac{N_s}{N_p}\right) = 240 \times \left(\frac{50}{200}\right) = 60\text{ V}$$
 
