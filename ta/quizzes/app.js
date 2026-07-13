@@ -70,8 +70,6 @@
  * @property {QuizCatalogItem[]} catalog
  */
 
-/* ── State ───────────────────────────────────────────────────────── */
-
 const state = {
   currentQuiz: null,
   questions: [],
@@ -83,8 +81,6 @@ const state = {
   shuffleC: false,
   catalog: [],
 };
-
-/* ── DOM helpers ─────────────────────────────────────────────────── */
 
 /**
  * @param {string} sel
@@ -122,7 +118,7 @@ const els = {
   backFromReviewBtn: /** @type {HTMLButtonElement|null} */ ($('#btn-back-from-review')),
 };
 
-/* ── Theme ───────────────────────────────────────────────────────── */
+const MANIFEST_PATH = './data/manifest.json';
 
 (function initTheme() {
   /** @type {HTMLButtonElement|null} */
@@ -163,8 +159,6 @@ const els = {
   }
 })();
 
-/* ── Views ───────────────────────────────────────────────────────── */
-
 /**
  * @param {ViewName} name
  */
@@ -173,10 +167,6 @@ function showView(name) {
   views[name].classList.add('active');
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-
-/* ── Paths ───────────────────────────────────────────────────────── */
-
-const MANIFEST_PATH = './data/manifest.json';
 
 /**
  * @param {string} path
@@ -188,8 +178,6 @@ function normalizePath(path) {
   if (path.startsWith('./') || path.startsWith('../') || path.startsWith('/')) return path;
   return `./${path}`;
 }
-
-/* ── Catalog ─────────────────────────────────────────────────────── */
 
 async function renderCatalog() {
   els.catalog.innerHTML = `<p>Loading quizzes…</p>`;
@@ -295,8 +283,6 @@ function createCatalogCard(quiz) {
   return card;
 }
 
-/* ── Quiz loading ────────────────────────────────────────────────── */
-
 /**
  * @param {QuizCatalogItem} quiz
  */
@@ -358,8 +344,6 @@ async function loadQuiz(quiz) {
     showView('catalog');
   }
 }
-
-/* ── Quiz rendering ──────────────────────────────────────────────── */
 
 function renderQuestion() {
   const q = state.questions[state.currentIndex];
@@ -497,8 +481,6 @@ function nextQuestion() {
   renderResults();
 }
 
-/* ── Results and review ──────────────────────────────────────────── */
-
 function renderResults() {
   const total = state.results.length;
   const correct = state.results.filter((r) => r.correct).length;
@@ -574,8 +556,6 @@ function renderReview() {
   showView('review');
 }
 
-/* ── Explanation helpers ─────────────────────────────────────────── */
-
 /**
  * @param {Question} question
  * @param {string|null} selected
@@ -611,9 +591,7 @@ function getExplanationMeta(question, selected, isCorrect) {
   const exp = question.explanation;
   if (!exp || typeof exp === 'string') return '';
 
-  /** @type {string[]} */
   let sections = [];
-  /** @type {string[]} */
   let keywords = [];
 
   if (isCorrect) {
@@ -640,8 +618,6 @@ function getExplanationMeta(question, selected, isCorrect) {
   return parts.join(' ');
 }
 
-/* ── Events ──────────────────────────────────────────────────────── */
-
 function bindEvents() {
   els.submitBtn?.addEventListener('click', submitAnswer);
   els.nextBtn?.addEventListener('click', nextQuestion);
@@ -663,8 +639,6 @@ function bindEvents() {
     });
   });
 }
-
-/* ── Utilities ───────────────────────────────────────────────────── */
 
 /**
  * @template T
@@ -692,7 +666,13 @@ function escHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
-/* ── Init ────────────────────────────────────────────────────────── */
+function initApp() {
+  bindEvents();
+  renderCatalog();
+}
 
-bindEvents();
-renderCatalog();
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp);
+} else {
+  initApp();
+}
