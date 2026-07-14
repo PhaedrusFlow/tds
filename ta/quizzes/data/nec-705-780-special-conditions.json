@@ -147,50 +147,53 @@
         }
       }
     },
-    {
+ {
   "id": 4,
   "question": "A telecom equipment room is served by an emergency generator via an automatic transfer switch (ATS). Which condition must be met for the telecom load to be classified as part of an emergency system?",
   "choices": [
     "The telecom load must be supplied by any alternate source, including portable generators",
-    "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication",
+    "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication, and be legally required for that purpose",
     "The telecom load must be larger than 50 kVA",
     "The telecom load must be part of an optional standby system only"
   ],
-  "answer": "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication",
+  "answer": "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication, and be legally required for that purpose",
   "explanation": {
     "correct": {
-      "text": "NEC 700.2 defines emergency systems as those legally required and designed to supply illumination and power to specified loads essential to life safety. Telecom loads qualify as emergency loads when they perform life safety functions such as fire alarm signaling, emergency communications, or systems supporting safe egress. Simply being served by a generator or exceeding a particular kVA rating does not, by itself, make the load an emergency system; the function must be directly tied to life safety and legally required use.",
+      "text": "NEC 700.1 states that Article 700 applies to emergency systems that supply power or illumination to required facilities when the normal source is interrupted, for functions essential to safety to human life. Informational Note No. 1 under 700.1 explains that emergency systems may provide power for public safety communications systems and fire detection and alarm systems, along with emergency lighting and other life-safety loads. A telecom load is classified as part of an emergency system when it performs legally required life-safety functions (such as emergency communications or egress-related signaling) and is treated as an emergency system load by the applicable codes and the authority having jurisdiction. Simply being on a generator, or exceeding a particular kVA rating, does not by itself make a telecom load an Article 700 emergency system load.",
       "indexKeywords": [
-        "Emergency systems -> Definitions -> 700.2",
-        "Life safety loads -> Telecom -> 700.2"
+        "Emergency systems -> Scope -> 700.1",
+        "Public safety communications systems -> Emergency power -> 700.1 Informational Note No. 1",
+        "Life safety loads -> Telecom"
       ],
       "sections": [
-        "700.2"
+        "700.1"
       ]
     },
     "choices": {
       "The telecom load must be supplied by any alternate source, including portable generators": {
-        "text": "Supplying a load from an alternate source does not automatically classify it as an emergency system. NEC 700.2 focuses on life safety functions and legal requirements, not merely the presence of a generator or alternate source.",
+        "text": "The presence of an alternate source, such as a generator or portable source, does not automatically classify a load as part of an emergency system. Article 700.1 focuses on supplying required facilities and life-safety functions when normal power is interrupted; merely connecting to an alternate source is insufficient.",
         "sections": [
-          "700.2"
+          "700.1",
+          "700.3(F)"
         ]
       },
-      "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication": {
-        "text": "This option correctly reflects NEC 700.2. Emergency systems serve loads essential to life safety, which can include specific telecom and signaling functions that support egress or fire alarm communication when those functions are legally required.",
+      "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication, and be legally required for that purpose": {
+        "text": "This option aligns with NEC 700.1. Emergency systems are intended to supply power for functions essential to safety to human life when normal power is lost. Informational Note No. 1 under 700.1 specifically mentions public safety communications systems and fire detection and alarm systems as examples of emergency system loads. Telecom equipment that carries legally required emergency communications or supports safe egress can be classified as part of an emergency system.",
         "sections": [
-          "700.2"
+          "700.1"
         ]
       },
       "The telecom load must be larger than 50 kVA": {
-        "text": "The NEC does not set a minimum kVA threshold for a load to be considered part of an emergency system. Classification depends on function and legal requirements, not the size of the load.",
+        "text": "Article 700 does not set a minimum kVA threshold for a load to qualify as part of an emergency system. Classification depends on the function (life-safety, legally required) and the scope in 700.1, not on the size of the load.",
         "sections": [
-          "700.2"
+          "700.1",
+          "700.4(A)"
         ]
       },
       "The telecom load must be part of an optional standby system only": {
-        "text": "Optional standby systems are covered in Article 702 and serve loads that are not legally required for life safety. Telecom loads that perform legally required life safety functions fall under Article 700, not exclusively under optional standby systems.",
+        "text": "Optional standby systems are covered in Article 702 and serve loads that are not legally required for life safety. Telecom loads that perform legally required emergency or public safety communications functions fall under Article 700, not exclusively under optional standby systems.",
         "sections": [
-          "700.2",
+          "700.1",
           "702.2"
         ]
       }
