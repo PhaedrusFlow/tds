@@ -113,12 +113,10 @@
         "correct": {
           "text": "NEC 705.20 requires the source disconnecting means for an interactive power production system to be readily accessible and capable of being locked in the open position in accordance with 110.25. The locking provisions must remain in place with or without the lock installed. This requirement ensures that qualified personnel can de-energize the system and prevent it from being re-energized inadvertently while work is being performed.",
           "indexKeywords": [
-            "Disconnecting Means, Source -> 705.20",
-            "Lockable Disconnecting Means -> 110.25"
+            "Disconnecting Means -> 705.20"
           ],
           "sections": [
-            "705.20",
-            "110.25"
+            "705.20"
           ]
         },
         "choices": {
@@ -131,8 +129,7 @@
           "It must be readily accessible and capable of being locked in the open position": {
             "text": "This option correctly reflects NEC 705.20, which requires the source disconnecting means for interactive power production equipment to be readily accessible and lockable in the open position in accordance with 110.25. These provisions support safe maintenance and lockout/tagout practices.",
             "sections": [
-              "705.20",
-              "110.25"
+              "705.20"
             ]
           },
           "It must be a fused disconnect rated at 200% of the system output current": {
