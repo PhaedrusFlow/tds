@@ -334,62 +334,88 @@
 },
 {
   "id": 8,
-  "question": "A telecom technician is installing Class 2 power-limited circuits to supply network edge devices from a listed Class 2 power source. Which statement correctly describes a key ampacity and protection characteristic of Class 2 circuits?",
+  "question": "A telecom technician is installing Class 2 power-limited circuits to supply network edge devices from a listed Class 2 power source. Which statement correctly describes a key power-limitation and protection characteristic of Class 2 circuits?",
   "choices": [
-    "Class 2 circuits are permitted to be protected by up to 100 A overcurrent devices",
-    "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock",
+    "Class 2 circuits are permitted to be protected by overcurrent devices rated up to 100 amperes",
+    "Class 2 circuits rely on power-limited sources whose output voltage and current are restricted to provide fire-initiation safety and acceptable protection from electric shock",
     "Class 2 circuits must always operate at 120 volts or higher",
-    "Class 2 circuits are treated the same as Class 1 circuits with respect to conductor ampacity and overcurrent protection"
+    "Class 2 circuits are treated the same as Class 1 circuits for conductor ampacity and overcurrent protection"
   ],
-  "answer": "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock",
+  "answer": "Class 2 circuits rely on power-limited sources whose output voltage and current are restricted to provide fire-initiation safety and acceptable protection from electric shock",
   "explanation": {
     "correct": {
-      "text": "Class 2 circuits are supplied by listed Class 2 power sources such as Class 2 transformers, Class 2 power supplies, and limited-power circuits of listed audio/video, information technology, communications, and industrial equipment. These sources are required to limit their output voltage and current to the values specified in Chapter 9, Tables 11(A) and 11(B), so that the available energy on the Class 2 circuit remains within power-limited levels that reduce the risk of fire and electric shock under normal and fault conditions. The fundamental protection for Class 2 circuits therefore comes from the inherent power limitation of the source, not from large branch-circuit overcurrent devices.",
+      "text": "A Class 2 circuit is supplied by an approved Class 2 power source, such as a listed Class 2 transformer, listed Class 2 power supply, or other listed equipment marked to identify its Class 2 output. Section 725.60 establishes the permitted source arrangements and refers to Chapter 9, Tables 11(A) and 11(B), for the applicable voltage and current limitations. These source limitations keep the available circuit energy within levels that consider safety from a fire-initiation standpoint and provide acceptable protection from electric shock.",
       "indexKeywords": [
-        "listed Class 2 power source -> transformer, power supply, limited-power circuits",
-        "output limited by Chapter 9 Tables 11(A) and 11(B)",
-        "power-limited levels -> fire and shock protection"
+        "Class 2 circuit -> fire-initiation safety and acceptable electric-shock protection",
+        "Class 2 protection -> inherent output limitation of the power source",
+        "Class 2 power sources -> listed transformer, power supply, or marked listed equipment",
+        "Voltage and current limits -> Chapter 9 Tables 11(A) and 11(B)",
+        "Supply-side wiring -> Chapters 1 through 4 under 725.127"
       ],
       "sections": [
-        "725.60(A)(1)",
-        "725.60(A)(2)",
-        "725.60(A)(3)",
-        "725.60(A)(4)",
+        "Article 100 — Class 2 Circuit",
+        "725.60(A)",
+        "725.127",
         "Chapter 9 Table 11(A)",
         "Chapter 9 Table 11(B)"
       ]
     },
     "choices": {
-      "Class 2 circuits are permitted to be protected by up to 100 A overcurrent devices": {
-        "text": "Class 2 circuits are defined by the limitations of their listed Class 2 power sources and the voltage and current limits in Chapter 9 Tables 11(A) and 11(B), not by very large overcurrent devices like 100 A breakers.",
+      "Class 2 circuits are permitted to be protected by overcurrent devices rated up to 100 amperes": {
+        "text": "This is incorrect. The protection characteristic of a Class 2 circuit comes primarily from the voltage and current limitations of its Class 2 power source, not from a 100-ampere overcurrent device. Section 725.127 also limits an overcurrent device protecting a transformer or other device supplied from an electric-light or power circuit to a maximum rating of 20 amperes.",
+        "indexKeywords": [
+          "Class 2 protection -> power-source output limitation",
+          "Supply-side overcurrent protection -> maximum 20 amperes under 725.127",
+          "100-ampere overcurrent device -> not a Class 2 protection characteristic"
+        ],
         "sections": [
           "725.60(A)",
+          "725.127",
           "Chapter 9 Table 11(A)",
           "Chapter 9 Table 11(B)"
         ]
       },
-      "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock": {
-        "text": "This statement aligns with the requirement that Class 2 circuits be supplied by listed Class 2 power sources whose output voltage and current are limited in accordance with Chapter 9 Tables 11(A) and 11(B), keeping the circuit within power-limited, safer energy levels.",
+      "Class 2 circuits rely on power-limited sources whose output voltage and current are restricted to provide fire-initiation safety and acceptable protection from electric shock": {
+        "text": "This is correct. A Class 2 circuit relies on a Class 2 power source whose output is limited according to the applicable voltage and current values in Chapter 9, Tables 11(A) and 11(B). The resulting power limitation considers safety from a fire-initiation standpoint and provides acceptable protection from electric shock.",
+        "indexKeywords": [
+          "Class 2 circuit -> fire-initiation safety and acceptable electric-shock protection",
+          "Class 2 protection -> inherent output limitation of the power source",
+          "Class 2 power sources -> listed transformer, power supply, or marked listed equipment",
+          "Voltage and current limits -> Chapter 9 Tables 11(A) and 11(B)",
+          "Supply-side wiring -> Chapters 1 through 4 under 725.127"
+        ],
         "sections": [
+          "Article 100 — Class 2 Circuit",
           "725.60(A)",
+          "725.127",
           "Chapter 9 Table 11(A)",
           "Chapter 9 Table 11(B)"
         ]
       },
       "Class 2 circuits must always operate at 120 volts or higher": {
-        "text": "Chapter 9 Tables 11(A) and 11(B) define maximum voltages and currents for Class 2 outputs that are well below typical 120 V branch-circuit values, so Class 2 circuits are not required to, and generally do not, operate at 120 V or higher.",
+        "text": "This is incorrect. Class 2 classification is determined by the permitted combinations of output voltage, current, and power established by Chapter 9, Tables 11(A) and 11(B). The NEC does not require a Class 2 circuit to operate at 120 volts or higher.",
+        "indexKeywords": [
+          "Class 2 voltage -> determined by applicable source table limits",
+          "Class 2 classification -> combination of voltage, current, and power",
+          "120 volts or higher -> not required"
+        ],
         "sections": [
           "725.60(A)",
           "Chapter 9 Table 11(A)",
           "Chapter 9 Table 11(B)"
         ]
       },
-      "Class 2 circuits are treated the same as Class 1 circuits with respect to conductor ampacity and overcurrent protection": {
-        "text": "Power-limited Class 2 circuits follow different rules from Class 1 circuits, relying on limited-power sources and the output limits in Chapter 9 rather than on traditional branch-circuit ampacity and overcurrent protection schemes used for Class 1 wiring.",
+      "Class 2 circuits are treated the same as Class 1 circuits for conductor ampacity and overcurrent protection": {
+        "text": "This is incorrect. Class 2 circuits rely on limited-output power sources and are governed by the specialized Class 2 and Class 3 requirements of Article 725. Although 725.130 permits Class 1 wiring methods to be used for Class 2 and Class 3 circuits, that permission does not make the circuit electrically equivalent to a Class 1 circuit or eliminate its Class 2 source limitations.",
+        "indexKeywords": [
+          "Class 2 vs Class 1 -> different source and protection requirements",
+          "Class 1 wiring methods -> permitted without changing Class 2 classification",
+          "Class 2 load-side wiring -> 725.130"
+        ],
         "sections": [
           "725.60(A)",
-          "725.130(A)",
-          "725.130(B)"
+          "725.127",
+          "725.130"
         ]
       }
     }
@@ -458,10 +484,10 @@
       "Class 3 is treated as a branch circuit and is governed exclusively by Article 210": {
         "text": "This is incorrect. A Class 3 circuit is the portion of the wiring system between the load side of a Class 3 power source and the connected equipment. It remains a Class 3 power-limited circuit governed by Article 725 and related limited-energy requirements. Section 725.127 applies Chapters 1 through 4 to conductors and equipment on the supply side of the Class 2 or Class 3 power source, but that does not convert the load-side Class 3 circuit into an Article 210 branch circuit.",
         "sections": [
-          "Article 100 — Class 3 Circuit",
           "725.60(A)",
           "725.127",
-          "725.130"
+          "725.130",
+          "Article 100 — Class 3 Circuit"
         ]
       }
     }
