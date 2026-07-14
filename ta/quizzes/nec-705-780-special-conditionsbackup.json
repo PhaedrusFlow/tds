@@ -1,0 +1,1297 @@
+{
+  "id": "nec-705-780-special-conditions",
+  "title": "NEC Articles 705–780 — Special Conditions (PV, ESS, Interconnected Power)",
+  "description": "Interconnected power production sources, photovoltaic systems, energy storage, and low-voltage lighting per NEC 2023 Articles 705–780. 30 questions.",
+  "questions": [
+   {
+  "id": 1,
+  "question": "Which equipment used in interactive power production systems must be listed for the application?",
+  "choices": [
+    "Only the utility service equipment and metering",
+    "Only overcurrent protective devices on the load side",
+    "All interactive equipment, including inverters, used in the system",
+    "Only equipment rated above 600 volts"
+  ],
+  "answer": "All interactive equipment, including inverters, used in the system",
+  "explanation": {
+    "correct": {
+      "text": "NEC 705.6 requires that all equipment used in an interactive power production system be listed for the application. This includes interactive inverters, converters, charge controllers, and other components identified as interactive. Listing ensures the equipment has been evaluated for safe parallel operation with a primary source of electricity, such as a utility supply, and that it meets the necessary safety standards for interconnected power production sources.",
+      "indexKeywords": [
+        "Approval, Approved -> 705.6"
+      ],
+      "sections": [
+        "705.6"
+      ]
+    },
+    "choices": {
+      "Only the utility service equipment and metering": {
+        "text": "Utility service equipment and metering must meet their own listing and approval requirements, but NEC 705.6 specifically addresses equipment used in interactive power production systems. It does not limit the listing requirement to utility service equipment; instead, it applies to all interactive system components such as inverters and controllers.",
+        "sections": [
+          "705.6"
+        ]
+      },
+      "Only overcurrent protective devices on the load side": {
+        "text": "Overcurrent protective devices are important for system protection, but NEC 705.6 is broader. It requires all interactive equipment in the power production system to be listed, not just the load-side overcurrent devices. Inverters, converters, and other interactive components must also be listed for the application.",
+        "sections": [
+          "705.6"
+        ]
+      },
+      "All interactive equipment, including inverters, used in the system": {
+        "text": "This answer correctly reflects NEC 705.6. All equipment used in an interactive power production system, including inverters and other identified interactive components, must be listed for the application to ensure safe operation in parallel with a primary source of electricity.",
+        "sections": [
+          "705.6"
+        ]
+      },
+      "Only equipment rated above 600 volts": {
+        "text": "NEC 705.6 does not limit the listing requirement to equipment above 600 volts. Interactive power production systems often operate at lower voltages, and the Code requires all interactive equipment, regardless of voltage rating, to be listed for the application.",
+        "sections": [
+          "705.6"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 2,
+  "question": "A PV inverter is connected on the load side of a 200 A panelboard bus with a 200 A main breaker using the 120% rule. The backfed breaker must be located at the opposite end of the bus from the main breaker. What is the maximum rating permitted for that backfed breaker?",
+  "choices": [
+    "40 A",
+    "60 A",
+    "80 A",
+    "100 A"
+  ],
+  "answer": "40 A",
+  "explanation": {
+    "correct": {
+      "text": "NEC 705.12(B)(3)(2) specifies that, for power source connections to busbars with a primary source and another power source located at opposite ends, the sum of 125 percent of the power source output circuit current and the rating of the overcurrent device protecting the busbar shall not exceed 120 percent of the busbar ampere rating. For a 200 A busbar, 120 percent × 200 A = 240 A. With a 200 A main breaker already protecting the bus, the remaining allowable rating for the backfed breaker is 240 A − 200 A = 40 A. This 40 A breaker can support up to 32 A of continuous inverter output (since inverter output circuits are sized at 125 percent of continuous current). A permanent warning label is required adjacent to the backfed breaker indicating that it must not be relocated.",
+      "indexKeywords": [
+        "Busbars -> Interconnected electrical power production sources -> 705.12(B)"
+      ],
+      "sections": [
+        "705.12(B)(3)(2)"
+      ]
+    },
+    "choices": {
+      "40 A": {
+        "text": "This value satisfies NEC 705.12(B)(3)(2). The total of the 200 A main breaker plus the 40 A backfed breaker equals 240 A, which is 120 percent of the 200 A busbar rating and therefore meets the 120 percent rule for load-side PV connections.",
+        "sections": [
+          "705.12(B)(3)(2)"
+        ]
+      },
+      "60 A": {
+        "text": "A 60 A backfed breaker would make the total overcurrent device rating 260 A on a 200 A busbar, exceeding the 120 percent limit (240 A) in NEC 705.12(B)(3)(2).",
+        "sections": [
+          "705.12(B)(3)(2)"
+        ]
+      },
+      "80 A": {
+        "text": "An 80 A backfed breaker would result in 280 A of total overcurrent device rating on a 200 A busbar, well above the 120 percent maximum of 240 A allowed by NEC 705.12(B)(3)(2).",
+        "sections": [
+          "705.12(B)(3)(2)"
+        ]
+      },
+      "100 A": {
+        "text": "A 100 A backfed breaker combined with the 200 A main would give 300 A of total overcurrent device rating, which significantly exceeds the 240 A (120 percent of 200 A) limit in NEC 705.12(B)(3)(2).",
+        "sections": [
+          "705.12(B)(3)(2)"
+        ]
+      }
+    }
+  }
+},
+    {
+      "id": 3,
+      "question": "The NEC requires that the disconnecting means for an interactive power production source have which of the following characteristics?",
+      "choices": [
+        "It must be located within the utility meter enclosure",
+        "It must be readily accessible and capable of being locked in the open position",
+        "It must be a fused disconnect rated at 200% of the system output current",
+        "It must be located outdoors on the exterior wall of the building only"
+      ],
+      "answer": "It must be readily accessible and capable of being locked in the open position",
+      "explanation": {
+        "correct": {
+          "text": "NEC 705.20 requires the source disconnecting means for an interactive power production system to be readily accessible and capable of being locked in the open position in accordance with 110.25. The locking provisions must remain in place with or without the lock installed. This requirement ensures that qualified personnel can de-energize the system and prevent it from being re-energized inadvertently while work is being performed.",
+          "indexKeywords": [
+            "Disconnecting Means -> 705.20"
+          ],
+          "sections": [
+            "705.20"
+          ]
+        },
+        "choices": {
+          "It must be located within the utility meter enclosure": {
+            "text": "NEC 705.20 does not require the source disconnecting means to be located within the utility meter enclosure. The Code focuses on the disconnect being readily accessible, properly rated, and capable of being locked open, not on a specific location inside meter equipment.",
+            "sections": [
+              "705.20"
+            ]
+          },
+          "It must be readily accessible and capable of being locked in the open position": {
+            "text": "This option correctly reflects NEC 705.20, which requires the source disconnecting means for interactive power production equipment to be readily accessible and lockable in the open position in accordance with 110.25. These provisions support safe maintenance and lockout/tagout practices.",
+            "sections": [
+              "705.20"
+            ]
+          },
+          "It must be a fused disconnect rated at 200% of the system output current": {
+            "text": "NEC 705.20 does not mandate a fused disconnect rated at 200% of system output current. While the disconnect must be properly rated for the maximum circuit current and available fault current, oversizing it to 200% and requiring fuses are not specified in this section.",
+            "sections": [
+              "705.20"
+            ]
+          },
+          "It must be located outdoors on the exterior wall of the building only": {
+            "text": "The NEC does not restrict the source disconnecting means for interactive power production equipment to outdoor locations on an exterior wall only. NEC 705.20 focuses on accessibility, appropriate ratings, and lockable open capability rather than limiting the installation to outdoor, exterior-wall locations.",
+            "sections": [
+              "705.20"
+            ]
+          }
+        }
+      }
+    },
+ {
+  "id": 4,
+  "question": "A telecom equipment room is served by an emergency generator via an automatic transfer switch (ATS). Which condition must be met for the telecom load to be classified as part of an emergency system?",
+  "choices": [
+    "The telecom load must be supplied by any alternate source, including portable generators",
+    "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication, and be legally required for that purpose",
+    "The telecom load must be larger than 50 kVA",
+    "The telecom load must be part of an optional standby system only"
+  ],
+  "answer": "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication, and be legally required for that purpose",
+  "explanation": {
+    "correct": {
+      "text": "NEC 700.1 states that Article 700 applies to emergency systems that supply power or illumination to required facilities when the normal source is interrupted, for functions essential to safety to human life. Informational Note No. 1 under 700.1 explains that emergency systems may provide power for public safety communications systems and fire detection and alarm systems, along with emergency lighting and other life-safety loads. A telecom load is classified as part of an emergency system when it performs legally required life-safety functions (such as emergency communications or egress-related signaling) and is treated as an emergency system load by the applicable codes and the authority having jurisdiction. Simply being on a generator, or exceeding a particular kVA rating, does not by itself make a telecom load an Article 700 emergency system load.",
+      "indexKeywords": [
+        "Emergency systems -> Scope -> 700.1",
+        "Public safety communications systems -> Emergency power -> 700.1 Informational Note No. 1",
+        "Life safety loads -> Telecom"
+      ],
+      "sections": [
+        "700.1"
+      ]
+    },
+    "choices": {
+      "The telecom load must be supplied by any alternate source, including portable generators": {
+        "text": "The presence of an alternate source, such as a generator or portable source, does not automatically classify a load as part of an emergency system. Article 700.1 focuses on supplying required facilities and life-safety functions when normal power is interrupted; merely connecting to an alternate source is insufficient.",
+        "sections": [
+          "700.1",
+          "700.3(F)"
+        ]
+      },
+      "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication, and be legally required for that purpose": {
+        "text": "This option aligns with NEC 700.1. Emergency systems are intended to supply power for functions essential to safety to human life when normal power is lost. Informational Note No. 1 under 700.1 specifically mentions public safety communications systems and fire detection and alarm systems as examples of emergency system loads. Telecom equipment that carries legally required emergency communications or supports safe egress can be classified as part of an emergency system.",
+        "sections": [
+          "700.1"
+        ]
+      },
+      "The telecom load must be larger than 50 kVA": {
+        "text": "Article 700 does not set a minimum kVA threshold for a load to qualify as part of an emergency system. Classification depends on the function (life-safety, legally required) and the scope in 700.1, not on the size of the load.",
+        "sections": [
+          "700.1",
+          "700.4(A)"
+        ]
+      },
+      "The telecom load must be part of an optional standby system only": {
+        "text": "Optional standby systems are covered in Article 702 and serve loads that are not legally required for life safety. Telecom loads that perform legally required emergency or public safety communications functions fall under Article 700, not exclusively under optional standby systems.",
+        "sections": [
+          "700.1",
+          "702.2"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 5,
+  "question": "A data center includes telecom racks that must remain operational for public safety dispatch during a utility outage. The system design uses an automatic transfer switch and generator permanently installed and dedicated to these racks. How are these telecom loads classified?",
+  "choices": [
+    "They are legally required standby loads because loss of public safety communications could create hazards or hamper rescue or firefighting operations",
+    "They are optional standby loads because they are communications systems and continued operation is only desirable",
+    "They are emergency system loads because they share equipment with other life safety loads",
+    "They are normal system loads because telecom is always considered noncritical"
+  ],
+  "answer": "They are legally required standby loads because loss of public safety communications could create hazards or hamper rescue or firefighting operations",
+  "explanation": {
+    "correct": {
+      "text": "NEC 701.1 applies to legally required standby systems that supply electricity to required facilities for illumination or power when the normal supply is interrupted, using permanently installed power sources. Informational Note No. 4 under 701.1 states that legally required standby systems are typically installed to serve loads such as communications systems, lighting systems, and industrial processes that, when stopped during any interruption of the normal electrical supply, could create hazards or hamper rescue or firefighting operations. Telecom racks used for public safety dispatch clearly fall into this category, so they are classified as legally required standby loads under Article 701.",
+      "indexKeywords": [
+        "701.1 Scope -> legally required standby systems",
+        "701.1 Informational Note No. 4 -> communications systems, hazards, rescue",
+        "Public safety dispatch telecom -> legally required standby"
+      ],
+      "sections": [
+        "701.1"
+      ]
+    },
+    "choices": {
+      "They are legally required standby loads because loss of public safety communications could create hazards or hamper rescue or firefighting operations": {
+        "text": "This option matches the language in 701.1 Informational Note No. 4, which describes legally required standby systems serving communications systems and other loads that, when stopped during a power interruption, could create hazards or hamper rescue or firefighting operations. Public safety dispatch telecom racks fit this description.",
+        "sections": [
+          "701.1"
+        ]
+      },
+      "They are optional standby loads because they are communications systems and continued operation is only desirable": {
+        "text": "Optional standby systems are covered in Article 702 and serve loads that are not legally required, where continued operation is desirable but primarily related to comfort, process continuity, or economic loss. Public safety dispatch communications are legally required and directly tied to hazards and rescue operations, so they are not classified as optional standby loads.",
+        "sections": [
+          "702.1",
+          "701.1"
+        ]
+      },
+      "They are emergency system loads because they share equipment with other life safety loads": {
+        "text": "Sharing a generator or transfer equipment with emergency loads does not automatically make all connected loads emergency system loads under Article 700. Emergency systems serve loads essential to safety to human life, while Article 701 specifically addresses legally required standby systems, including communications systems whose loss could hamper rescue or firefighting operations. Public safety dispatch telecom racks are properly classified as legally required standby loads.",
+        "sections": [
+          "700.1",
+          "701.1"
+        ]
+      },
+      "They are normal system loads because telecom is always considered noncritical": {
+        "text": "Article 701.1 and its Informational Note No. 4 explicitly recognize communications systems as typical legally required standby loads when their loss could create hazards or hamper rescue or firefighting operations. Public safety dispatch telecom racks are not treated as normal noncritical loads; they are part of the legally required standby system.",
+        "sections": [
+          "701.1"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 6,
+  "question": "A new fire alarm control panel is installed in an office building. Its supply branch circuit is dedicated to the fire alarm equipment, not part of a multiwire branch circuit, and is not protected by GFCI or AFCI devices. How is this branch circuit best characterized?",
+  "choices": [
+    "It is a standard lighting circuit because it does not use GFCI or AFCI protection",
+    "It is an emergency system circuit because all fire alarm equipment must be on emergency power",
+    "It is a dedicated fire alarm branch circuit that must serve no other loads and be specially identified",
+    "It is a communications circuit because fire alarm systems are considered signaling equipment only"
+  ],
+  "answer": "It is a dedicated fire alarm branch circuit that must serve no other loads and be specially identified",
+  "explanation": {
+    "correct": {
+      "text": "The branch circuit supplying the fire alarm equipment shall supply no other loads, the location of the branch-circuit overcurrent protective device shall be permanently identified at the fire alarm control unit, and the circuit disconnecting means shall have red identification, shall be accessible only to qualified personnel, and shall be identified as \"FIRE ALARM CIRCUIT.\" This branch circuit shall not be supplied through ground-fault circuit interrupters or arc-fault circuit-interrupters. These requirements characterize it as a dedicated fire alarm branch circuit rather than a general-purpose or communications circuit.",
+      "indexKeywords": [
+        "shall supply no other loads",
+        "permanently identified at the fire alarm control unit",
+        "shall have red identification",
+        "\"FIRE ALARM CIRCUIT\"",
+        "shall not be supplied through ground-fault circuit interrupters or arc-fault circuit-interrupters"
+      ],
+      "sections": [
+        "760.41(B)"
+      ]
+    },
+    "choices": {
+      "It is a standard lighting circuit because it does not use GFCI or AFCI protection": {
+        "text": "Standard lighting circuits are not required to be permanently identified at a fire alarm control unit or marked as \"FIRE ALARM CIRCUIT\" with red identification, nor are they required to supply no other loads. The described circuit matches dedicated fire alarm branch circuit requirements.",
+        "sections": [
+          "760.41(B)"
+        ]
+      },
+      "It is an emergency system circuit because all fire alarm equipment must be on emergency power": {
+        "text": "Emergency system circuits have separate requirements, and fire alarm branch circuits are specifically described with their own identification and isolation rules. Fire alarm equipment branch circuits are not automatically classified as emergency system circuits.",
+        "sections": [
+          "760.41(B)"
+        ]
+      },
+      "It is a dedicated fire alarm branch circuit that must serve no other loads and be specially identified": {
+        "text": "This choice restates that the branch circuit supplying the fire alarm equipment shall supply no other loads, shall have its overcurrent protective device location permanently identified at the fire alarm control unit, and shall have a disconnecting means with red identification marked as \"FIRE ALARM CIRCUIT\" and accessible only to qualified personnel, without GFCI or AFCI protection.",
+        "sections": [
+          "760.41(B)"
+        ]
+      },
+      "It is a communications circuit because fire alarm systems are considered signaling equipment only": {
+        "text": "Communications circuits do not have the specific branch-circuit requirements that the fire alarm equipment branch circuit does, such as supplying no other loads, red identification, and the \"FIRE ALARM CIRCUIT\" marking. Those conditions apply to the dedicated fire alarm branch circuit.",
+        "sections": [
+          "760.41(B)",
+          "760.130"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 7,
+  "question": "A critical operations power system (COPS) supports a 24/7 telecom operations center that must remain functional during natural disasters. Feeder and branch-circuit wiring serving this COPS telecom equipment must be protected so that it maintains operation during a fire for the required time. What requirement applies to the supply conductors serving this COPS telecom equipment?",
+  "choices": [
+    "Supply conductors must be installed in metallic raceway only, with no additional requirements",
+    "Supply conductors must be sized at 200% of the load current to ensure reliability",
+    "Supply conductors must be protected by a listed electrical circuit protective system or fire-resistive cable system with a minimum fire rating, or by a listed fire-rated assembly or equivalent means for the required duration",
+    "Supply conductors may be run with normal building branch circuits if overcurrent devices are selectively coordinated"
+  ],
+  "answer": "Supply conductors must be protected by a listed electrical circuit protective system or fire-resistive cable system with a minimum fire rating, or by a listed fire-rated assembly or equivalent means for the required duration",
+  "explanation": {
+    "correct": {
+      "text": "For critical operations power systems, feeder and branch-circuit wiring must have survivability so that circuits remain operational during a fire for the required time. This is achieved by methods such as a listed electrical circuit protective system with a minimum fire rating, a listed fire-resistive cable system, a listed fire-rated assembly with a minimum fire rating that contains only the protected circuits, or encasement in concrete or other equivalent protection, rather than simply oversizing conductors or running them with normal building wiring.",
+      "indexKeywords": [
+        "listed electrical circuit protective system",
+        "listed fire-resistive cable system",
+        "listed fire-rated assembly",
+        "minimum fire rating",
+        "feeder and branch-circuit wiring survivability"
+      ],
+      "sections": [
+        "708.10(C)",
+        "700.10(D)(1)"
+      ]
+    }
+  }
+},
+{
+  "id": 8,
+  "question": "A telecom technician is installing Class 2 power-limited circuits to supply network edge devices from a listed Class 2 power source. Which statement correctly describes a key power-limitation and protection characteristic of Class 2 circuits?",
+  "choices": [
+    "Class 2 circuits are permitted to be protected by overcurrent devices rated up to 100 amperes",
+    "Class 2 circuits rely on power-limited sources whose output voltage and current are restricted to provide fire-initiation safety and acceptable protection from electric shock",
+    "Class 2 circuits must always operate at 120 volts or higher",
+    "Class 2 circuits are treated the same as Class 1 circuits for conductor ampacity and overcurrent protection"
+  ],
+  "answer": "Class 2 circuits rely on power-limited sources whose output voltage and current are restricted to provide fire-initiation safety and acceptable protection from electric shock",
+  "explanation": {
+    "correct": {
+      "text": "A Class 2 circuit is supplied by an approved Class 2 power source, such as a listed Class 2 transformer, listed Class 2 power supply, or other listed equipment marked to identify its Class 2 output. Section 725.60 establishes the permitted source arrangements and refers to Chapter 9, Tables 11(A) and 11(B), for the applicable voltage and current limitations. These source limitations keep the available circuit energy within levels that consider safety from a fire-initiation standpoint and provide acceptable protection from electric shock.",
+      "indexKeywords": [
+        "Class 2 circuit -> fire-initiation safety and acceptable electric-shock protection",
+        "Class 2 protection -> inherent output limitation of the power source",
+        "Class 2 power sources -> listed transformer, power supply, or marked listed equipment",
+        "Voltage and current limits -> Chapter 9 Tables 11(A) and 11(B)",
+        "Supply-side wiring -> Chapters 1 through 4 under 725.127"
+      ],
+      "sections": [
+        "Article 100 — Class 2 Circuit",
+        "725.60(A)",
+        "725.127",
+        "Chapter 9 Table 11(A)",
+        "Chapter 9 Table 11(B)"
+      ]
+    },
+    "choices": {
+      "Class 2 circuits are permitted to be protected by overcurrent devices rated up to 100 amperes": {
+        "text": "This is incorrect. The protection characteristic of a Class 2 circuit comes primarily from the voltage and current limitations of its Class 2 power source, not from a 100-ampere overcurrent device. Section 725.127 also limits an overcurrent device protecting a transformer or other device supplied from an electric-light or power circuit to a maximum rating of 20 amperes.",
+        "indexKeywords": [
+          "Class 2 protection -> power-source output limitation",
+          "Supply-side overcurrent protection -> maximum 20 amperes under 725.127",
+          "100-ampere overcurrent device -> not a Class 2 protection characteristic"
+        ],
+        "sections": [
+          "725.60(A)",
+          "725.127",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
+        ]
+      },
+      "Class 2 circuits rely on power-limited sources whose output voltage and current are restricted to provide fire-initiation safety and acceptable protection from electric shock": {
+        "text": "This is correct. A Class 2 circuit relies on a Class 2 power source whose output is limited according to the applicable voltage and current values in Chapter 9, Tables 11(A) and 11(B). The resulting power limitation considers safety from a fire-initiation standpoint and provides acceptable protection from electric shock.",
+        "indexKeywords": [
+          "Class 2 circuit -> fire-initiation safety and acceptable electric-shock protection",
+          "Class 2 protection -> inherent output limitation of the power source",
+          "Class 2 power sources -> listed transformer, power supply, or marked listed equipment",
+          "Voltage and current limits -> Chapter 9 Tables 11(A) and 11(B)",
+          "Supply-side wiring -> Chapters 1 through 4 under 725.127"
+        ],
+        "sections": [
+          "Article 100 — Class 2 Circuit",
+          "725.60(A)",
+          "725.127",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
+        ]
+      },
+      "Class 2 circuits must always operate at 120 volts or higher": {
+        "text": "This is incorrect. Class 2 classification is determined by the permitted combinations of output voltage, current, and power established by Chapter 9, Tables 11(A) and 11(B). The NEC does not require a Class 2 circuit to operate at 120 volts or higher.",
+        "indexKeywords": [
+          "Class 2 voltage -> determined by applicable source table limits",
+          "Class 2 classification -> combination of voltage, current, and power",
+          "120 volts or higher -> not required"
+        ],
+        "sections": [
+          "725.60(A)",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
+        ]
+      },
+      "Class 2 circuits are treated the same as Class 1 circuits for conductor ampacity and overcurrent protection": {
+        "text": "This is incorrect. Class 2 circuits rely on limited-output power sources and are governed by the specialized Class 2 and Class 3 requirements of Article 725. Although 725.130 permits Class 1 wiring methods to be used for Class 2 and Class 3 circuits, that permission does not make the circuit electrically equivalent to a Class 1 circuit or eliminate its Class 2 source limitations.",
+        "indexKeywords": [
+          "Class 2 vs Class 1 -> different source and protection requirements",
+          "Class 1 wiring methods -> permitted without changing Class 2 classification",
+          "Class 2 load-side wiring -> 725.130"
+        ],
+        "sections": [
+          "725.60(A)",
+          "725.127",
+          "725.130"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 9,
+  "question": "A telecom technician installs Class 2 circuit conductors in the same raceway as Class 3 circuit conductors. According to 2023 NEC 725.139(C), the insulation of the Class 2 circuit conductors must be:",
+  "choices": [
+    "At least that required for Class 3 circuits",
+    "Only that required for Class 2 circuits",
+    "Rated not less than 600 volts",
+    "Installed exclusively in a separate metal raceway"
+  ],
+  "answer": "At least that required for Class 3 circuits",
+  "explanation": {
+    "correct": {
+      "text": "Section 725.139(C) permits Class 2 circuit conductors to be installed with Class 3 circuit conductors in the same cable, enclosure, raceway, or cable routing assembly when the Class 2 conductor insulation is at least that required for the Class 3 circuits.",
+      "indexKeywords": [
+        "Class 2 circuits with Class 3 circuits -> 725.139(C)",
+        "Same cable, enclosure, raceway, or cable routing assembly",
+        "Class 2 conductor insulation -> at least that required for Class 3 circuits"
+      ],
+      "sections": [
+        "725.139(C)"
+      ]
+    },
+    "choices": {
+      "At least that required for Class 3 circuits": {
+        "text": "Correct. The controlling requirement in 725.139(C) is that the Class 2 circuit conductor insulation be at least that required for the Class 3 circuits.",
+        "indexKeywords": [
+          "Class 2 with Class 3 -> permitted under 725.139(C)",
+          "Required insulation level -> Class 3"
+        ],
+        "sections": [
+          "725.139(C)"
+        ]
+      },
+      "Only that required for Class 2 circuits": {
+        "text": "Incorrect. When Class 2 conductors are installed with Class 3 conductors, 725.139(C) requires the Class 2 conductor insulation to meet at least the insulation requirement applicable to the Class 3 circuits.",
+        "indexKeywords": [
+          "Class 2 insulation alone -> insufficient when installed with Class 3",
+          "Required insulation level -> Class 3"
+        ],
+        "sections": [
+          "725.139(C)"
+        ]
+      },
+      "Rated not less than 600 volts": {
+        "text": "Incorrect. Section 725.139(C) does not establish a blanket 600-volt insulation requirement. It requires the Class 2 circuit conductor insulation to be at least that required for the Class 3 circuits.",
+        "indexKeywords": [
+          "Blanket 600-volt rating -> not required by 725.139(C)",
+          "Class 2 with Class 3 -> use Class 3 insulation requirement"
+        ],
+        "sections": [
+          "725.139(C)"
+        ]
+      },
+      "Installed exclusively in a separate metal raceway": {
+        "text": "Incorrect. Section 725.139(C) expressly permits Class 2 and Class 3 circuit conductors in the same cable, enclosure, raceway, or cable routing assembly when the Class 2 conductor insulation satisfies the Class 3 requirement.",
+        "indexKeywords": [
+          "Separate metal raceway -> not universally required",
+          "Shared raceway -> permitted when insulation condition is satisfied"
+        ],
+        "sections": [
+          "725.139(C)"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 10,
+  "question": "A Class 4 fault-managed power system supplies remote telecom equipment. A line-to-line fault occurs between the transmitter and receiver that presents an unacceptable risk of fire or electric shock. According to 2023 NEC 726.121(A), what action is required?",
+  "choices": [
+    "A transmitter shall interrupt an energized circuit",
+    "The transmitter shall continue supplying power until a branch-circuit overcurrent device operates",
+    "The transmitter shall reduce the voltage but keep the faulted circuit energized",
+    "The receiver alone shall disconnect the load while the Class 4 circuit remains energized"
+  ],
+  "answer": "A transmitter shall interrupt an energized circuit",
+  "explanation": {
+    "correct": {
+      "text": "Section 726.121(A) requires the Class 4 transmitter to interrupt an energized circuit when specified conditions occur between the transmitter and receiver. One listed condition is a line-to-line fault that presents an unacceptable risk of fire or electric shock.",
+      "indexKeywords": [
+        "Class 4 power source -> 726.121",
+        "Fault management -> 726.121(A)",
+        "Line-to-line fault presenting unacceptable risk -> 726.121(A)(2)",
+        "Required transmitter action -> interrupt the energized circuit"
+      ],
+      "sections": [
+        "726.121",
+        "726.121(A)",
+        "726.121(A)(2)"
+      ]
+    },
+    "choices": {
+      "A transmitter shall interrupt an energized circuit": {
+        "text": "Correct. Section 726.121(A) requires the transmitter to interrupt the energized circuit when a listed fault condition occurs between the transmitter and receiver. The line-to-line fault described in the question is specifically addressed by 726.121(A)(2).",
+        "indexKeywords": [
+          "Transmitter action -> interrupt energized circuit",
+          "Line-to-line fault -> 726.121(A)(2)"
+        ],
+        "sections": [
+          "726.121(A)",
+          "726.121(A)(2)"
+        ]
+      },
+      "The transmitter shall continue supplying power until a branch-circuit overcurrent device operates": {
+        "text": "Incorrect. The fault-management requirement does not depend solely on a conventional branch-circuit overcurrent device. Section 726.121(A) requires the Class 4 transmitter to interrupt the energized circuit when one of the specified fault conditions occurs.",
+        "indexKeywords": [
+          "Class 4 protection -> transmitter fault management",
+          "Branch-circuit overcurrent device alone -> insufficient"
+        ],
+        "sections": [
+          "726.121(A)",
+          "726.121(A)(2)"
+        ]
+      },
+      "The transmitter shall reduce the voltage but keep the faulted circuit energized": {
+        "text": "Incorrect. For the fault condition described, the operative requirement in 726.121(A) is interruption of the energized circuit. The subsection does not direct the transmitter merely to reduce voltage while leaving that circuit energized.",
+        "indexKeywords": [
+          "Fault response -> circuit interruption",
+          "Voltage reduction alone -> not the stated requirement"
+        ],
+        "sections": [
+          "726.121(A)",
+          "726.121(A)(2)"
+        ]
+      },
+      "The receiver alone shall disconnect the load while the Class 4 circuit remains energized": {
+        "text": "Incorrect. Section 726.121(A) places the required fault-management action on the transmitter. It must interrupt the energized circuit when the specified fault occurs between the transmitter and receiver.",
+        "indexKeywords": [
+          "Required device -> Class 4 transmitter",
+          "Required action -> interrupt energized circuit",
+          "Receiver-only disconnection -> not the stated requirement"
+        ],
+        "sections": [
+          "726.121(A)",
+          "726.121(A)(2)"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 11,
+  "question": "A telecom installer proposes placing a conductive optical fiber cable without an armored or metal-clad-type sheath in the same raceway as 480-volt power conductors. According to 2023 NEC 770.133(A), the power conductors must be:",
+  "choices": [
+    "Separated from all of the optical fiber cables by a permanent barrier or listed divider",
+    "Separated from the optical fiber cable only by the insulation on the power conductors",
+    "Functionally associated with the optical fiber cable, with no additional separation required",
+    "Rated 1000 volts or less, with no barrier or divider required"
+  ],
+  "answer": "Separated from all of the optical fiber cables by a permanent barrier or listed divider",
+  "explanation": {
+    "correct": {
+      "text": "Section 770.133(A) does not generally permit a conductive optical fiber cable without an armored or metal-clad-type sheath to occupy the same cable tray or raceway as the specified electrical conductors. It is permitted when all applicable electrical conductors are separated from all optical fiber cables by a permanent barrier or listed divider.",
+      "indexKeywords": [
+        "Unarmored conductive optical fiber cable -> 770.133(A)",
+        "Same cable tray or raceway with power conductors",
+        "Required separation -> permanent barrier or listed divider",
+        "Power circuit operating voltage -> 1000 volts or less"
+      ],
+      "sections": [
+        "770.133(A)"
+      ]
+    },
+    "choices": {
+      "Separated from all of the optical fiber cables by a permanent barrier or listed divider": {
+        "text": "Correct. For a conductive optical fiber cable without an armored or metal-clad-type sheath, 770.133(A) requires the applicable electrical conductors to be separated from all optical fiber cables by a permanent barrier or listed divider.",
+        "indexKeywords": [
+          "Unarmored conductive optical fiber -> separation required",
+          "Permitted separation method -> permanent barrier or listed divider"
+        ],
+        "sections": [
+          "770.133(A)"
+        ]
+      },
+      "Separated from the optical fiber cable only by the insulation on the power conductors": {
+        "text": "Incorrect. Section 770.133(A) specifies a permanent barrier or listed divider. The ordinary insulation on the electrical conductors is not identified as a substitute for the required separation.",
+        "indexKeywords": [
+          "Conductor insulation alone -> not sufficient",
+          "Required separation -> barrier or listed divider"
+        ],
+        "sections": [
+          "770.133(A)"
+        ]
+      },
+      "Functionally associated with the optical fiber cable, with no additional separation required": {
+        "text": "Incorrect. Functional association is addressed by 770.133(B) for certain installations in cabinets, outlet boxes, panels, and similar enclosures. It does not replace the barrier or divider condition for the unarmored conductive optical fiber cable described in 770.133(A).",
+        "indexKeywords": [
+          "Functional association -> 770.133(B)(1)",
+          "Cable tray or raceway condition -> 770.133(A)",
+          "Unarmored conductive optical fiber -> barrier or divider required"
+        ],
+        "sections": [
+          "770.133(A)",
+          "770.133(B)(1)"
+        ]
+      },
+      "Rated 1000 volts or less, with no barrier or divider required": {
+        "text": "Incorrect. The 1000-volt limitation does not by itself permit an unarmored conductive optical fiber cable to share the raceway with the specified electrical conductors. Under 770.133(A), a permanent barrier or listed divider is still required.",
+        "indexKeywords": [
+          "1000 volts or less -> not sufficient by itself",
+          "Unarmored conductive optical fiber -> separation condition applies",
+          "Required separation -> permanent barrier or listed divider"
+        ],
+        "sections": [
+          "770.133(A)"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 12,
+  "question": "A telecom installer routes optical fiber cable directly through a space above a data center that is used for environmental air, without using one of the raceway or covered-metal-cable-tray methods permitted elsewhere in 770.113(C)(1). According to 2023 NEC 770.113(C)(1)(1), which cable types are permitted?",
+  "choices": [
+    "Types OFNP and OFCP",
+    "Types OFNR and OFCR",
+    "Types OFNG and OFCG",
+    "Types OFN and OFC"
+  ],
+  "answer": "Types OFNP and OFCP",
+  "explanation": {
+    "correct": {
+      "text": "Section 770.113(C) covers optical fiber cables installed in other spaces used for environmental air, commonly called plenums. The first permitted wiring method listed in 770.113(C)(1) permits Types OFNP and OFCP in these spaces. Other optical fiber cable types may be permitted only when installed using one of the specific raceway or covered metal cable tray methods listed in the remaining provisions of 770.113(C)(1).",
+      "indexKeywords": [
+        "Other spaces used for environmental air -> 770.113(C)",
+        "Plenum optical fiber cables -> 770.113(C)(1)",
+        "Cable types permitted directly in plenums -> OFNP and OFCP",
+        "Other optical fiber cable types -> permitted only through specified wiring methods"
+      ],
+      "sections": [
+        "770.113(A)",
+        "770.113(C)",
+        "770.113(C)(1)",
+        "770.113(C)(1)(1)",
+        "770.113(C)(2)"
+      ]
+    },
+    "choices": {
+      "Types OFNP and OFCP": {
+        "text": "Correct. Section 770.113(C)(1)(1) specifically lists Types OFNP and OFCP as permitted in other spaces used for environmental air.",
+        "indexKeywords": [
+          "Plenum cable types -> OFNP and OFCP",
+          "Uses permitted -> 770.113(C)(1)(1)"
+        ],
+        "sections": [
+          "770.113(C)",
+          "770.113(C)(1)",
+          "770.113(C)(1)(1)"
+        ]
+      },
+      "Types OFNR and OFCR": {
+        "text": "Incorrect. Types OFNR and OFCR are not permitted to be installed directly in other spaces used for environmental air under 770.113(C)(2). They can be used in such spaces only when installed using an applicable raceway or covered metal cable tray method permitted by 770.113(C)(1).",
+        "indexKeywords": [
+          "OFNR and OFCR -> not permitted directly in plenums",
+          "Permitted only through specified wiring methods",
+          "Uses not permitted -> 770.113(C)(2)"
+        ],
+        "sections": [
+          "770.113(C)(1)(5)",
+          "770.113(C)(1)(6)",
+          "770.113(C)(1)(7)",
+          "770.113(C)(2)"
+        ]
+      },
+      "Types OFNG and OFCG": {
+        "text": "Incorrect. Types OFNG and OFCG are among the cable types prohibited from direct installation in other spaces used for environmental air by 770.113(C)(2). They may be installed only where one of the specific raceway or covered metal cable tray permissions in 770.113(C)(1) applies.",
+        "indexKeywords": [
+          "OFNG and OFCG -> not permitted directly in plenums",
+          "Raceway or covered cable tray permission required",
+          "Uses not permitted -> 770.113(C)(2)"
+        ],
+        "sections": [
+          "770.113(C)(1)(5)",
+          "770.113(C)(1)(6)",
+          "770.113(C)(1)(7)",
+          "770.113(C)(2)"
+        ]
+      },
+      "Types OFN and OFC": {
+        "text": "Incorrect. Types OFN and OFC are not permitted to be installed directly in other spaces used for environmental air. Section 770.113(C)(2) prohibits that installation unless a specific raceway or covered metal cable tray permission in 770.113(C)(1) is used.",
+        "indexKeywords": [
+          "OFN and OFC -> not permitted directly in plenums",
+          "Specific raceway or covered cable tray method required",
+          "Uses not permitted -> 770.113(C)(2)"
+        ],
+        "sections": [
+          "770.113(C)(1)(5)",
+          "770.113(C)(1)(6)",
+          "770.113(C)(1)(7)",
+          "770.113(C)(2)"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 13,
+  "question": "A technician is verifying the power source for a non–power-limited fire alarm circuit. What is the maximum permitted nominal output voltage?",
+  "choices": [
+    "Not more than 600 volts, nominal",
+    "Not more than 1000 volts, nominal",
+    "Not more than 150 volts, nominal",
+    "The output voltage is unlimited if the disconnect is secured in the on position"
+  ],
+  "answer": "Not more than 600 volts, nominal",
+  "explanation": {
+    "correct": {
+      "text": "Section 760.41(A) requires the power source for a non–power-limited fire alarm circuit to comply with Chapters 1 through 4 and limits its output voltage to not more than 600 volts, nominal. The fire alarm circuit disconnect is permitted to be secured in the on position.",
+      "indexKeywords": [
+        "NPLFA power source requirements -> 760.41(A)",
+        "Maximum output voltage -> 600 volts nominal",
+        "Circuit disconnect -> permitted to be secured in the on position"
+      ],
+      "sections": [
+        "760.41(A)"
+      ]
+    },
+    "choices": {
+      "Not more than 600 volts, nominal": {
+        "text": "Correct. Section 760.41(A) states that the output voltage of the NPLFA power source shall be not more than 600 volts, nominal.",
+        "indexKeywords": [
+          "NPLFA output voltage -> not more than 600 volts nominal"
+        ],
+        "sections": [
+          "760.41(A)"
+        ]
+      },
+      "Not more than 1000 volts, nominal": {
+        "text": "Incorrect. Section 760.41(A) establishes a maximum nominal output voltage of 600 volts, not 1000 volts.",
+        "indexKeywords": [
+          "1000 volts -> exceeds NPLFA source limit",
+          "Correct maximum -> 600 volts nominal"
+        ],
+        "sections": [
+          "760.41(A)"
+        ]
+      },
+      "Not more than 150 volts, nominal": {
+        "text": "Incorrect. The 150-volt value is associated with the permitted use of multiconductor NPLFA cables under 760.53, not the maximum power-source output established by 760.41(A).",
+        "indexKeywords": [
+          "150 volts -> multiconductor NPLFA cable application",
+          "Power-source maximum -> 600 volts nominal"
+        ],
+        "sections": [
+          "760.41(A)",
+          "760.53"
+        ]
+      },
+      "The output voltage is unlimited if the disconnect is secured in the on position": {
+        "text": "Incorrect. Permission to secure the disconnect in the on position does not eliminate the voltage limitation. Section 760.41(A) still limits the output to not more than 600 volts, nominal.",
+        "indexKeywords": [
+          "Secured disconnect -> does not remove voltage limit",
+          "NPLFA output voltage -> maximum 600 volts nominal"
+        ],
+        "sections": [
+          "760.41(A)"
+        ]
+      }
+    }
+  }
+},
+   {
+  "id": 14,
+  "question": "A non–power-limited fire alarm circuit uses 18 AWG and 16 AWG conductors.What are the maximum permitted overcurrent-protection ratings for these conductors?",
+  "choices": [
+    "7 amperes for 18 AWG and 10 amperes for 16 AWG",
+    "10 amperes for 18 AWG and 15 amperes for 16 AWG",
+    "15 amperes for both 18 AWG and 16 AWG",
+    "20 amperes for 18 AWG and 30 amperes for 16 AWG"
+  ],
+  "answer": "7 amperes for 18 AWG and 10 amperes for 16 AWG",
+  "explanation": {
+    "correct": {
+      "text": "Section 760.43 states that overcurrent protection shall not exceed 7 amperes for 18 AWG conductors and 10 amperes for 16 AWG conductors. An exception applies where another NEC article permits or requires different overcurrent protection.",
+      "indexKeywords": [
+        "NPLFA overcurrent protection -> 760.43",
+        "18 AWG conductor -> maximum 7 amperes",
+        "16 AWG conductor -> maximum 10 amperes",
+        "Other overcurrent protection -> permitted or required by another article"
+      ],
+      "sections": [
+        "760.43"
+      ]
+    },
+    "choices": {
+      "7 amperes for 18 AWG and 10 amperes for 16 AWG": {
+        "text": "Correct. These are the maximum overcurrent-protection ratings stated in 760.43 for 18 AWG and 16 AWG NPLFA circuit conductors.",
+        "indexKeywords": [
+          "18 AWG -> 7 amperes maximum",
+          "16 AWG -> 10 amperes maximum"
+        ],
+        "sections": [
+          "760.43"
+        ]
+      },
+      "10 amperes for 18 AWG and 15 amperes for 16 AWG": {
+        "text": "Incorrect. Section 760.43 limits 18 AWG conductors to 7 amperes and 16 AWG conductors to 10 amperes.",
+        "indexKeywords": [
+          "18 AWG -> not 10 amperes",
+          "16 AWG -> not 15 amperes"
+        ],
+        "sections": [
+          "760.43"
+        ]
+      },
+      "15 amperes for both 18 AWG and 16 AWG": {
+        "text": "Incorrect. Section 760.43 establishes separate limits of 7 amperes for 18 AWG and 10 amperes for 16 AWG conductors.",
+        "indexKeywords": [
+          "15 amperes -> exceeds both stated limits",
+          "Separate limits -> 7 amperes and 10 amperes"
+        ],
+        "sections": [
+          "760.43"
+        ]
+      },
+      "20 amperes for 18 AWG and 30 amperes for 16 AWG": {
+        "text": "Incorrect. These ratings substantially exceed the maximum values permitted by 760.43 for 18 AWG and 16 AWG NPLFA conductors.",
+        "indexKeywords": [
+          "20 and 30 amperes -> exceed NPLFA conductor limits",
+          "Correct limits -> 7 and 10 amperes"
+        ],
+        "sections": [
+          "760.43"
+        ]
+      }
+    }
+  }
+},
+{
+      "id": 15,
+      "question": "Which statement best explains what grounding does for overvoltage events such as lightning or line surges, according to NEC grounding principles?",
+      "choices": [
+        "It prevents any surge current from entering the building",
+        "It provides a reference and path to earth to help limit the voltage rise of the system during surges",
+        "It eliminates all risk to sensitive electronic equipment",
+        "It diverts all fault current into the neutral conductor"
+      ],
+      "answer": "It provides a reference and path to earth to help limit the voltage rise of the system during surges",
+      "explanation": "Grounding to earth does not eliminate surges, but it gives the system a stable reference and can help limit the peak voltage by providing a path for surge energy to dissipate into the earth."
+    },
+    {
+      "id": 16,
+      "question": "The NEC permits an interconnected power production source to be connected on the supply side of the service disconnecting means. What primary advantage does a supply-side connection offer compared to a load-side connection?",
+      "choices": [
+        "Supply-side connections do not require a disconnecting means or overcurrent protection of any kind",
+        "Supply-side connections are not subject to the 120% busbar loading rule, allowing larger systems to interconnect without being constrained by panelboard busbar ratings",
+        "Supply-side connections allow the use of unlisted inverters when approved by the utility",
+        "Supply-side connections are limited to systems under 10 kW to reduce fault current exposure"
+      ],
+      "answer": "Supply-side connections are not subject to the 120% busbar loading rule, allowing larger systems to interconnect without being constrained by panelboard busbar ratings",
+      "explanation": "NEC 705.11 permits connection of an electric power production source on the supply side of the service disconnecting means — upstream of the main breaker and panelboard busbar. Because the connection is before the service disconnect and busbar, the 120% busbar rule of 705.12(B)(3) does not apply. This allows larger inverter outputs to be interconnected on services where the panelboard busbar would otherwise be a limiting constraint. Supply-side tap conductors and equipment must still be rated for the available fault current and comply with applicable service conductor rules."
+    },
+    {
+      "id": 17,
+      "question": "A PV system is connected using a dedicated circuit breaker in the panelboard (with no other loads on that branch circuit). How does this connection method relate to the 120% busbar rule?",
+      "choices": [
+        "The 120% rule still applies in full; the dedicated circuit breaker is counted the same as a backfed breaker",
+        "The dedicated branch circuit connection method does not involve a backfed breaker and so the 120% busbar rule formula in 705.12(B)(3) does not apply to this method",
+        "The 120% rule applies, but the dedicated circuit breaker rating is multiplied by 80% before being added to the main breaker rating",
+        "The dedicated circuit must be on the same buss bar end as the main breaker, reversing the normal placement rule"
+      ],
+      "answer": "The dedicated branch circuit connection method does not involve a backfed breaker and so the 120% busbar rule formula in 705.12(B)(3) does not apply to this method",
+      "explanation": "NEC 705.12(B)(1) describes a load-side interconnection using a dedicated overcurrent device connected to the busbar without a backfed breaker arrangement. Because the current flows in the normal direction (source to load through that breaker), the cumulative busbar loading concern addressed by the 120% formula is not triggered. This provides an alternative interconnection path that bypasses the 120% calculation constraint, though the panelboard must still have suitable available positions and ratings."
+    },
+   {
+  "id": 13,
+  "question": "A technician is verifying the power source for a non–power-limited fire alarm circuit. According to 2023 NEC 760.41(A), what is the maximum permitted nominal output voltage?",
+  "choices": [
+    "Not more than 600 volts, nominal",
+    "Not more than 1000 volts, nominal",
+    "Not more than 150 volts, nominal",
+    "The output voltage is unlimited if the disconnect is secured in the on position"
+  ],
+  "answer": "Not more than 600 volts, nominal",
+  "explanation": {
+    "correct": {
+      "text": "Section 760.41(A) requires the power source for a non–power-limited fire alarm circuit to comply with Chapters 1 through 4 and limits its output voltage to not more than 600 volts, nominal. The fire alarm circuit disconnect is permitted to be secured in the on position.",
+      "indexKeywords": [
+        "NPLFA power source requirements -> 760.41(A)",
+        "Maximum output voltage -> 600 volts nominal",
+        "Circuit disconnect -> permitted to be secured in the on position"
+      ],
+      "sections": [
+        "760.41(A)"
+      ]
+    },
+    "choices": {
+      "Not more than 600 volts, nominal": {
+        "text": "Correct. Section 760.41(A) states that the output voltage of the NPLFA power source shall be not more than 600 volts, nominal.",
+        "indexKeywords": [
+          "NPLFA output voltage -> not more than 600 volts nominal"
+        ],
+        "sections": [
+          "760.41(A)"
+        ]
+      },
+      "Not more than 1000 volts, nominal": {
+        "text": "Incorrect. Section 760.41(A) establishes a maximum nominal output voltage of 600 volts, not 1000 volts.",
+        "indexKeywords": [
+          "1000 volts -> exceeds NPLFA source limit",
+          "Correct maximum -> 600 volts nominal"
+        ],
+        "sections": [
+          "760.41(A)"
+        ]
+      },
+      "Not more than 150 volts, nominal": {
+        "text": "Incorrect. The 150-volt value is associated with the permitted use of multiconductor NPLFA cables under 760.53, not the maximum power-source output established by 760.41(A).",
+        "indexKeywords": [
+          "150 volts -> multiconductor NPLFA cable application",
+          "Power-source maximum -> 600 volts nominal"
+        ],
+        "sections": [
+          "760.41(A)",
+          "760.53"
+        ]
+      },
+      "The output voltage is unlimited if the disconnect is secured in the on position": {
+        "text": "Incorrect. Permission to secure the disconnect in the on position does not eliminate the voltage limitation. Section 760.41(A) still limits the output to not more than 600 volts, nominal.",
+        "indexKeywords": [
+          "Secured disconnect -> does not remove voltage limit",
+          "NPLFA output voltage -> maximum 600 volts nominal"
+        ],
+        "sections": [
+          "760.41(A)"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 14,
+  "question": "A non–power-limited fire alarm circuit uses 18 AWG and 16 AWG conductors. According to 2023 NEC 760.43, what are the maximum permitted overcurrent-protection ratings for these conductors?",
+  "choices": [
+    "7 amperes for 18 AWG and 10 amperes for 16 AWG",
+    "10 amperes for 18 AWG and 15 amperes for 16 AWG",
+    "15 amperes for both 18 AWG and 16 AWG",
+    "20 amperes for 18 AWG and 30 amperes for 16 AWG"
+  ],
+  "answer": "7 amperes for 18 AWG and 10 amperes for 16 AWG",
+  "explanation": {
+    "correct": {
+      "text": "Section 760.43 states that overcurrent protection shall not exceed 7 amperes for 18 AWG conductors and 10 amperes for 16 AWG conductors. An exception applies where another NEC article permits or requires different overcurrent protection.",
+      "indexKeywords": [
+        "NPLFA overcurrent protection -> 760.43",
+        "18 AWG conductor -> maximum 7 amperes",
+        "16 AWG conductor -> maximum 10 amperes",
+        "Other overcurrent protection -> permitted or required by another article"
+      ],
+      "sections": [
+        "760.43"
+      ]
+    },
+    "choices": {
+      "7 amperes for 18 AWG and 10 amperes for 16 AWG": {
+        "text": "Correct. These are the maximum overcurrent-protection ratings stated in 760.43 for 18 AWG and 16 AWG NPLFA circuit conductors.",
+        "indexKeywords": [
+          "18 AWG -> 7 amperes maximum",
+          "16 AWG -> 10 amperes maximum"
+        ],
+        "sections": [
+          "760.43"
+        ]
+      },
+      "10 amperes for 18 AWG and 15 amperes for 16 AWG": {
+        "text": "Incorrect. Section 760.43 limits 18 AWG conductors to 7 amperes and 16 AWG conductors to 10 amperes.",
+        "indexKeywords": [
+          "18 AWG -> not 10 amperes",
+          "16 AWG -> not 15 amperes"
+        ],
+        "sections": [
+          "760.43"
+        ]
+      },
+      "15 amperes for both 18 AWG and 16 AWG": {
+        "text": "Incorrect. Section 760.43 establishes separate limits of 7 amperes for 18 AWG and 10 amperes for 16 AWG conductors.",
+        "indexKeywords": [
+          "15 amperes -> exceeds both stated limits",
+          "Separate limits -> 7 amperes and 10 amperes"
+        ],
+        "sections": [
+          "760.43"
+        ]
+      },
+      "20 amperes for 18 AWG and 30 amperes for 16 AWG": {
+        "text": "Incorrect. These ratings substantially exceed the maximum values permitted by 760.43 for 18 AWG and 16 AWG NPLFA conductors.",
+        "indexKeywords": [
+          "20 and 30 amperes -> exceed NPLFA conductor limits",
+          "Correct limits -> 7 and 10 amperes"
+        ],
+        "sections": [
+          "760.43"
+        ]
+      }
+    }
+  }
+},
+{
+  "id": 15,
+  "question": "A multiconductor non–power-limited fire alarm cable is installed in a space used for environmental air above a suspended ceiling. Absent an applicable exception, which cable type is required?",
+  "choices": [
+    "Type NPLFP",
+    "Type NPLFR",
+    "Type NPLF",
+    "Type FPL"
+  ],
+  "answer": "Type NPLFP",
+  "explanation": {
+    "correct": {
+      "text": "Section 760.53(B)(2) requires cables installed in other spaces used for environmental air to be Type NPLFP. The subsection contains exceptions for certain NPLFR and NPLF installations complying with 300.22(C), other qualifying wiring methods, and Type NPLFP-CI cable used to provide a 2-hour circuit-integrity rating.",
+      "indexKeywords": [
+        "NPLFA cable in environmental-air space -> 760.53(B)(2)",
+        "Plenum NPLFA cable -> Type NPLFP",
+        "NPLFR or NPLF in plenum -> only under an applicable exception",
+        "Two-hour circuit integrity -> Type NPLFP-CI"
+      ],
+      "sections": [
+        "760.53",
+        "760.53(B)",
+        "760.53(B)(2)",
+        "300.22(C)"
+      ]
+    },
+    "choices": {
+      "Type NPLFP": {
+        "text": "Correct. The general requirement in 760.53(B)(2) is that an NPLFA cable installed in another space used for environmental air shall be Type NPLFP.",
+        "indexKeywords": [
+          "Environmental-air space -> Type NPLFP",
+          "General plenum requirement -> 760.53(B)(2)"
+        ],
+        "sections": [
+          "760.53(B)(2)"
+        ]
+      },
+      "Type NPLFR": {
+        "text": "Incorrect. Type NPLFR is generally the cable required for qualifying vertical riser runs under 760.53(B)(3). Its installation in an environmental-air plenum requires compliance with an applicable exception to 760.53(B)(2).",
+        "indexKeywords": [
+          "NPLFR -> riser cable",
+          "Plenum installation -> exception required"
+        ],
+        "sections": [
+          "760.53(B)(2)",
+          "760.53(B)(3)"
+        ]
+      },
+      "Type NPLF": {
+        "text": "Incorrect. Type NPLF is generally permitted in building locations not covered by the duct, plenum, or riser provisions. Its use in an environmental-air space requires compliance with an applicable exception to 760.53(B)(2).",
+        "indexKeywords": [
+          "NPLF -> other building locations",
+          "Plenum installation -> exception required"
+        ],
+        "sections": [
+          "760.53(B)(2)",
+          "760.53(B)(4)"
+        ]
+      },
+      "Type FPL": {
+        "text": "Incorrect. Type FPL is a power-limited fire alarm cable designation. The question concerns a multiconductor non–power-limited fire alarm cable, for which the general plenum designation is Type NPLFP.",
+        "indexKeywords": [
+          "FPL -> power-limited fire alarm cable",
+          "NPLFA plenum cable -> Type NPLFP"
+        ],
+        "sections": [
+          "760.53(B)(2)",
+          "760.154"
+        ]
+      }
+    }
+  }
+},
+{
+      "id": 19,
+      "question": "The NEC ntroduces power control systems (PCS) as an alternative interconnection method. What is the fundamental mechanism by which a power control system allows interconnection of a source that would otherwise exceed panelboard busbar limits?",
+      "choices": [
+        "The PCS monitors utility voltage only and disconnects the source if voltage drifts outside ±5%",
+        "The PCS actively limits or manages the combined power output to prevent the busbar from being loaded beyond its rating, providing an alternative to the static 120% calculation",
+        "The PCS converts AC output to DC for storage, preventing any power from flowing into the panelboard simultaneously with utility power",
+        "The PCS provides ground-fault protection that replaces the need for overcurrent protection on the inverter output circuit"
+      ],
+      "answer": "The PCS actively limits or manages the combined power output to prevent the busbar from being loaded beyond its rating, providing an alternative to the static 120% calculation",
+      "explanation": "NEC 705.13 permits a listed power control system as an alternative connection method. Rather than relying on the static 120% formula of 705.12(B)(3), a PCS dynamically monitors and limits combined power flow so that the panelboard busbar is never overloaded. This active power management approach can allow larger production sources to connect to existing panels that would fail the 120% calculation, provided the PCS is listed for the purpose and installed per its listing and the manufacturer's instructions."
+    },
+    {
+      "id": 20,
+      "question": "The NEC addresses the microgrid interconnect device (MID). What specific requirement does this section impose on the MID when it reconnects an islanded microgrid back to the primary source?",
+      "choices": [
+        "The MID must open all microgrid circuits for a minimum of 5 minutes before reconnecting to prevent surge damage",
+        "The MID must provide a synchronous transition — ensuring the microgrid voltage is in phase with the primary source — before closing the interconnection",
+        "The MID must connect through a step-down isolation transformer rated for the full microgrid output",
+        "The MID must be operated manually by a qualified person at the time of every reconnection"
+      ],
+      "answer": "The MID must provide a synchronous transition — ensuring the microgrid voltage is in phase with the primary source — before closing the interconnection",
+      "explanation": "NEC 705.65 requires that a listed microgrid interconnect device (MID) provide a synchronous transition when reconnecting the microgrid to the primary power source. Synchronous transition means the MID verifies that the microgrid and the primary source are at the same voltage magnitude, frequency, and phase angle before closing. Closing out of phase can produce violent current surges and mechanical torque that can damage rotating equipment, inverters, and other connected loads. A listed MID performs this synchronization check automatically."
+    },
+    {
+      "id": 21,
+      "question": "What minimum ampacity must the conductors of ESS output circuits have relative to the ESS nameplate current rating?",
+      "choices": [
+        "100% of the maximum current marked on the ESS nameplate",
+        "115% of the maximum current marked on the ESS nameplate",
+        "125% of the maximum current marked on the ESS nameplate",
+        "200% of the maximum current marked on the ESS nameplate"
+      ],
+      "answer": "125% of the maximum current marked on the ESS nameplate",
+      "explanation": "NEC 706.30(B) requires ESS output circuit conductors to have an ampacity of not less than 125% of the maximum current marked on the ESS nameplate. This matches the 125% OCPD rating requirement of 706.30(A) and reflects the continuous-duty nature of ESS discharge current. Together, 706.30(A) and (B) ensure both the overcurrent device and the conductors are sized to handle continuous ESS output without overheating."
+    },
+    {
+      "id": 22,
+      "question": "The NEC requires disconnecting means for ESS circuits. Which statement correctly describes what this section mandates regarding the switching action of an ESS disconnecting means?",
+      "choices": [
+        "The disconnecting means must be a fused switch; circuit breakers are not permitted for ESS circuits",
+        "A single shared disconnecting means may serve all ESS and PV circuits in a combined system",
+        "The disconnecting means must simultaneously open all ungrounded conductors of the ESS circuit",
+        "The disconnecting means is required on the charging (input) side only; the output side is exempt"
+      ],
+      "answer": "The disconnecting means must simultaneously open all ungrounded conductors of the ESS circuit",
+      "explanation": "NEC 706.31 requires a disconnecting means for ESS circuits that opens all ungrounded conductors of the circuit simultaneously. Because batteries can supply current from either terminal direction, simultaneously opening all ungrounded conductors ensures the circuit is fully de-energized rather than leaving a path through a grounded conductor. The section does not mandate fused disconnects; either fused disconnects or circuit breakers may be used provided they perform simultaneous opening."
+    },
+    {
+      "id": 23,
+      "question": "The NEC ddresses installation and listing requirements for ESS equipment installed outdoors. What does this section require beyond the general listing requirement?",
+      "choices": [
+        "Outdoor ESS must be installed in a dedicated outbuilding separated from the main structure by at least 10 ft",
+        "Outdoor ESS must be listed and identified as suitable for outdoor use, with appropriate environmental ratings for the installation location",
+        "Outdoor ESS installations require utility approval and a separate meter for the ESS",
+        "Outdoor ESS are exempt from listing requirements if they have a weatherproof enclosure of NEMA 3R or higher rating"
+      ],
+      "answer": "Outdoor ESS must be listed and identified as suitable for outdoor use, with appropriate environmental ratings for the installation location",
+      "explanation": "NEC 706.40 requires that ESS installed outdoors be listed and identified as suitable for outdoor use. The equipment must carry environmental ratings (such as rain-tight or weatherproof designations) appropriate to the outdoor installation environment. General listing for indoor use is not sufficient for outdoor installation. This ensures the ESS enclosure, battery management system, and associated components are rated to withstand exposure to precipitation, temperature extremes, and other outdoor conditions."
+    },
+    {
+      "id": 24,
+      "question": "The NEC equires calculation of the maximum PV system voltage using temperature correction. At what ambient temperature condition is the maximum system DC voltage calculated, and why?",
+      "choices": [
+        "At the highest expected summer temperature, because high heat increases the open-circuit voltage of PV modules",
+        "At the standard test condition (STC) temperature of 25°C (77°F), because STC ratings are the only recognized baseline",
+        "At the lowest expected ambient temperature for the installation location, because open-circuit voltage of crystalline PV modules increases as temperature decreases",
+        "At 0°C (32°F) for all locations regardless of actual climate, as a uniform safety margin"
+      ],
+      "answer": "At the lowest expected ambient temperature for the installation location, because open-circuit voltage of crystalline PV modules increases as temperature decreases",
+      "explanation": "NEC 690.7 requires that maximum PV system voltage be calculated using the lowest expected ambient temperature for the site. Crystalline silicon PV modules have a negative temperature coefficient for Voc: as temperature decreases below 25°C STC, Voc increases. The product of the module's STC Voc and the temperature correction factor (from Table 690.7 or the module's published coefficient) at the record low temperature gives the maximum system voltage used to select conductors, inverters, combiners, and other components. This prevents component overvoltage at cold-weather startup conditions."
+    },
+    {
+      "id": 25,
+      "question": "What value is used as the basis for sizing conductors and overcurrent protective devices for PV source and output circuits?",
+      "choices": [
+        "The maximum power current (Imp) at STC, since this is the normal operating current",
+        "125% of the short-circuit current (Isc) at STC, treating PV output as a continuous load",
+        "150% of the open-circuit voltage (Voc) to account for temperature variation",
+        "The inverter's maximum DC input current rating as marked on the inverter nameplate"
+      ],
+      "answer": "125% of the short-circuit current (Isc) at STC, treating PV output as a continuous load",
+      "explanation": "NEC 690.8 establishes that PV circuit current for conductor and OCPD sizing is based on 125% of the module's or string's short-circuit current (Isc) at STC. PV modules are considered continuous sources — they can produce current at or near Isc for three hours or more under bright irradiance conditions. Applying the 125% factor (treating them as continuous loads per the definition in Article 100) to Isc yields the minimum conductor ampacity and OCPD rating before any additional derating factors such as temperature or conduit fill are applied."
+    },
+   {
+  "id": 26,
+  "question": "A technician installs a fire alarm control panel in a telecommunications facility. Wat must be installed on the supply side of the fire alarm control panel?",
+  "choices": [
+    "A listed surge-protective device",
+    "An unlisted grounding electrode",
+    "A ground-fault circuit interrupter",
+    "An isolation transformer without overvoltage protection"
+  ],
+  "answer": "A listed surge-protective device",
+  "explanation": {
+    "correct": {
+      "text": "Section 760.33 requires a listed surge-protective device to be installed on the supply side of a fire alarm control panel. The SPD must be installed in accordance with Part II of Article 242.",
+      "indexKeywords": [
+        "Fire alarm control panel -> supply-side overvoltage protection",
+        "Required equipment -> listed surge-protective device",
+        "SPD installation requirements -> Article 242 Part II"
+      ],
+      "sections": [
+        "760.33",
+        "Article 242 Part II"
+      ]
+    },
+    "choices": {
+      "A listed surge-protective device": {
+        "text": "Correct. Section 760.33 expressly requires a listed surge-protective device on the supply side of a fire alarm control panel.",
+        "indexKeywords": [
+          "Supply side of fire alarm control panel -> listed SPD",
+          "Supply-side overvoltage protection -> 760.33"
+        ],
+        "sections": [
+          "760.33",
+          "Article 242 Part II"
+        ]
+      },
+      "An unlisted grounding electrode": {
+        "text": "Incorrect. Section 760.33 requires a listed surge-protective device. It does not permit an unlisted grounding electrode to substitute for the required SPD.",
+        "indexKeywords": [
+          "Unlisted grounding electrode -> not a substitute for SPD",
+          "Required protection -> listed SPD"
+        ],
+        "sections": [
+          "760.33"
+        ]
+      },
+      "A ground-fault circuit interrupter": {
+        "text": "Incorrect. A GFCI provides ground-fault protection for personnel; it is not the supply-side surge-protective device required by 760.33. Furthermore, 760.41(B) states that the branch circuit supplying NPLFA equipment shall not be supplied through a GFCI or AFCI.",
+        "indexKeywords": [
+          "GFCI -> not surge protection",
+          "NPLFA branch circuit -> not supplied through GFCI or AFCI",
+          "Required overvoltage protection -> listed SPD"
+        ],
+        "sections": [
+          "760.33",
+          "760.41(B)"
+        ]
+      },
+      "An isolation transformer without overvoltage protection": {
+        "text": "Incorrect. Section 760.33 specifically requires a listed surge-protective device. An isolation transformer without the required SPD does not satisfy this provision.",
+        "indexKeywords": [
+          "Isolation transformer alone -> does not satisfy 760.33",
+          "Required equipment -> listed SPD"
+        ],
+        "sections": [
+          "760.33"
+        ]
+      }
+    }
+  }
+},
+{
+      "id": 27,
+      "question": "The NEC requires arc-fault circuit protection for DC PV circuits. To which installations and circuit locations does this requirement specifically apply?",
+      "choices": [
+        "All PV systems, including ground-mounted utility-scale systems, on all DC circuits from modules to inverter",
+        "PV systems installed on or in buildings — a listed DC arc-fault circuit protection device is required to protect the DC PV system circuits",
+        "Only PV systems with DC string voltages exceeding 80 volts, to address high-energy arcs only",
+        "Only the AC output circuits of inverters mounted inside buildings, since DC arcs self-extinguish outdoors"
+      ],
+      "answer": "PV systems installed on or in buildings — a listed DC arc-fault circuit protection device is required to protect the DC PV system circuits",
+      "explanation": "NEC 690.11 requires DC arc-fault circuit protection for PV systems installed on or in buildings. A listed PV arc-fault circuit interrupter (AFCI) must detect and interrupt arc faults on the DC side of the PV system. This requirement applies specifically to building-mounted PV systems because a sustained DC arc in proximity to building materials creates a significant fire risk. The AFCI is typically integrated into modern grid-tied inverters or microinverter systems. Ground-mounted systems not associated with buildings are not covered by 690.11."
+    },
+    {
+      "id": 28,
+      "question": "The NEC addresses shock hazard control within the PV array boundary during rapid shutdown. What does it require?",
+      "choices": [
+        "All conductors within the array boundary must be reduced to 0 volts within 30 seconds of rapid shutdown initiation",
+        "Modules within the array boundary must be physically disconnected from each other by a listed switching device at each module",
+        "A listed Photovoltaic Hazard Control System (PVHCS) must be employed within the array boundary to address shock hazard",
+        "Within the array boundary, conductors must be enclosed in grounded metal conduit to mitigate shock exposure"
+      ],
+      "answer": "A listed Photovoltaic Hazard Control System (PVHCS) must be employed within the array boundary to address shock hazard",
+      "explanation": "NEC 690.12(B)(2) requires that within the array boundary, a listed Photovoltaic Hazard Control System (PVHCS) be used to address shock hazard to firefighters and other emergency responders working on or near the array. Unlike the area outside the boundary — where voltage must drop to ≤30 V within 30 seconds — the array boundary region retains higher voltages inherent to the modules. The PVHCS (which may use module-level power electronics or dedicated shutdown devices at each module) controls shock hazard within the boundary in a manner evaluated by the listing."
+    },
+    {
+      "id": 29,
+      "question": "NEC 2023 Section 690.31(A) requires identification of PV source circuit and PV output circuit conductors. Where must this identification be provided?",
+      "choices": [
+        "At the inverter DC input terminals only, since that is where the circuits are most often accessed",
+        "At the first junction box or combiner box only",
+        "At all points of termination, connection, and splices",
+        "At the array disconnect and at the point of entry into the building"
+      ],
+      "answer": "At all points of termination, connection, and splices",
+      "explanation": "NEC 690.31(A) requires that PV source circuit and PV output circuit conductors be identified at all points of termination, connection, and splices. This identification — which may be accomplished by color coding, marking tape, tagging, or other approved means — allows service personnel and emergency responders to distinguish energized PV DC conductors from other building wiring at any point where the conductors are accessed. Identification at only one location (such as the inverter) is insufficient."
+    },
+    {
+      "id": 30,
+      "question": "NEC 2023 Section 690.56(C) requires a rapid shutdown initiator — commonly called the firefighter's disconnect — to bear a specific label. What wording does the NEC require on this label, and where must the initiator be located?",
+      "choices": [
+        "'SOLAR PHOTOVOLTAIC SHUTOFF' — located inside the main electrical panel",
+        "'PHOTOVOLTAIC SYSTEM RAPID SHUTDOWN' — located at a readily accessible location outside the building, such as near the utility meter or main service",
+        "'DANGER — HIGH VOLTAGE DC — DO NOT TOUCH' — located at the PV array combiner box",
+        "'PV DISCONNECT — QUALIFIED PERSONS ONLY' — located at the inverter inside the building"
+      ],
+      "answer": "'PHOTOVOLTAIC SYSTEM RAPID SHUTDOWN' — located at a readily accessible location outside the building, such as near the utility meter or main service",
+      "explanation": "NEC 690.56(C) requires that the rapid shutdown initiator be labeled with the words 'PHOTOVOLTAIC SYSTEM RAPID SHUTDOWN' and be located at a readily accessible location outside the building — typically near the utility meter base or main service panel on the exterior of the building. This placement and labeling allow first responders to quickly locate and actuate the shutdown without entering the building. The initiator label must also include a placard displaying the roof layout of the PV array, per 690.56(C)(1), so firefighters can identify energized zones."
+    }
+  ]
+}
