@@ -32,7 +32,7 @@
     "title": "Nec 300 398 Wiring Methods",
     "description": "Quiz loaded from JSON question bank.",
     "file": "data/nec-300-398-wiring-methods.json",
-    "questionCount": 30
+    "questionCount": 0
   },
   {
     "id": "nec-500-516-hazardous-locations",
