@@ -286,7 +286,6 @@
       "It is an emergency system circuit because all fire alarm equipment must be on emergency power": {
         "text": "Emergency system circuits have separate requirements, and fire alarm branch circuits are specifically described with their own identification and isolation rules. Fire alarm equipment branch circuits are not automatically classified as emergency system circuits.",
         "sections": [
-          "700.2",
           "760.41(B)"
         ]
       },
