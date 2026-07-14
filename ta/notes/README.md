@@ -4,11 +4,11 @@
 
 **CABFER**
 
-> **C** 300–315 (Core – General, Conductors, Boxes)  
-> **A** 320–340 (Cables: AC–UF)  
-> **B** 342–362 (Conduit/Tubing: IMC–ENT)  
-> **F** 366–371 (Bus/Gutters)  
-> **E** 372–384 (Floor Raceways, Wireways, Extensions)  
+> **C** 300–315 (Core – General, Conductors, Boxes)
+> **A** 320–340 (Cables: AC–UF)
+> **B** 342–362 (Conduit/Tubing: IMC–ENT)
+> **F** 366–371 (Bus/Gutters)
+> **E** 372–384 (Floor Raceways, Wireways, Extensions)
 > **R** 386–398 (Surface/Underfloor/Trays/“Old” Wiring)
 
 You can write this at the top of your scratch sheet:

@@ -397,71 +397,71 @@
 },
 {
   "id": 9,
-  "question": "A remote telecom cabinet uses Class 3 circuits to power signaling equipment over long runs. How do Class 3 circuits differ from Class 2 circuits in terms of permitted power and installation concern?",
+  "question": "A remote telecom cabinet uses a Class 3 power-limited circuit because the signaling equipment requires more energy than a comparable Class 2 circuit can provide. Under the 2023 NEC, what additional safety concern distinguishes the Class 3 circuit?",
   "choices": [
-    "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards",
-    "Class 3 circuits must always be installed in metal raceway; Class 2 circuits cannot be installed in raceway",
-    "Class 3 circuits are restricted to less power than Class 2 and are exempt from fire hazard considerations",
-    "Class 3 circuits are identical to branch circuits and follow Article 210 only"
+    "Class 3 permits higher voltage and current than Class 2; both address fire-initiation safety, but Class 3 requires additional safeguards against electric shock",
+    "Class 3 presents a greater fire-initiation hazard and therefore must always be installed in metal raceway",
+    "Class 3 permits less voltage and current than Class 2 and requires no electric-shock safeguards",
+    "Class 3 is treated as a branch circuit and is governed exclusively by Article 210"
   ],
-  "answer": "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards",
+  "answer": "Class 3 permits higher voltage and current than Class 2; both address fire-initiation safety, but Class 3 requires additional safeguards against electric shock",
   "explanation": {
     "correct": {
-      "text": "Class 2 and Class 3 circuits are both power-limited circuits, but they are supplied by different types of listed power sources whose output voltage and current limits are defined in Chapter 9, Tables 11(A) and 11(B). Class 3 sources are allowed higher voltage and power levels than Class 2 sources, which means Class 3 circuits can deliver more energy and require more careful installation practices to address fire and electric shock hazards, including adherence to the wiring method, insulation, separation, and routing requirements in 725.130, 725.136, and 725.139.",
+      "text": "Class 2 and Class 3 circuits are power-limited by their power sources. The NEC descriptions of these circuit classes state that both consider safety from a fire-initiation standpoint. Class 2 also provides acceptable protection from electric shock. Because Class 3 permits higher voltage and current than Class 2, additional safeguards are required to protect against an electric-shock hazard. Section 725.60 requires an appropriate Class 2 or Class 3 power source and directs the user to Chapter 9, Tables 11(A) and 11(B), for the applicable source limitations.",
       "indexKeywords": [
-        "Class 2 vs Class 3 -> different source limits -> Chapter 9 Tables 11(A) and 11(B)",
-        "Class 3 higher permitted energy -> increased fire/shock concern",
-        "Wiring/separation for Class 2/3 -> 725.130, 725.136, 725.139"
+        "Class 2 -> fire-initiation safety and acceptable electric-shock protection",
+        "Class 3 -> fire-initiation safety but additional electric-shock safeguards",
+        "Class 3 higher voltage and current than Class 2",
+        "Power-source limitations -> 725.60 and Chapter 9 Tables 11(A) and 11(B)",
+        "Class 2 installed with Class 3 -> Class 3 insulation requirement under 725.139(C)"
       ],
       "sections": [
+        "Article 100 — Class 2 Circuit",
+        "Article 100 — Class 3 Circuit",
         "725.60(A)",
-        "725.130(A)",
-        "725.130(B)",
-        "725.136",
-        "725.139",
+        "725.130",
+        "725.139(C)",
         "Chapter 9 Table 11(A)",
         "Chapter 9 Table 11(B)"
       ]
     },
     "choices": {
-      "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards": {
-        "text": "Class 3 circuits are supplied by listed Class 3 power sources whose output limits in Chapter 9 Tables 11(A) and 11(B) are higher than those for Class 2 sources. Because Class 3 circuits can deliver more energy, designers and installers must pay closer attention to wiring methods, insulation, and separation requirements in 725.130 and 725.136 to mitigate fire and shock hazards.",
+      "Class 3 permits higher voltage and current than Class 2; both address fire-initiation safety, but Class 3 requires additional safeguards against electric shock": {
+        "text": "This is correct. Class 3 permits higher voltage and current than Class 2. Both circuit classifications use power limitations to address fire initiation, but the higher permitted Class 3 levels require additional safeguards against electric shock. Section 725.139(C), for example, requires Class 2 conductors installed with Class 3 conductors to have insulation at least sufficient for the Class 3 circuit.",
         "sections": [
+          "Article 100 — Class 2 Circuit",
+          "Article 100 — Class 3 Circuit",
           "725.60(A)",
-          "725.130(A)",
-          "725.130(B)",
-          "725.136",
+          "725.139(C)",
           "Chapter 9 Table 11(A)",
           "Chapter 9 Table 11(B)"
         ]
       },
-      "Class 3 circuits must always be installed in metal raceway; Class 2 circuits cannot be installed in raceway": {
-        "text": "The code allows Class 2 and Class 3 circuits to use a range of wiring methods, including Class 1 methods where needed, and does not state that Class 3 must always be in metal raceway or that Class 2 cannot use raceway. Wiring method selection is governed by 725.130 and related sections, not by a blanket raceway-only rule.",
+      "Class 3 presents a greater fire-initiation hazard and therefore must always be installed in metal raceway": {
+        "text": "This is incorrect. The Class 3 power limitation considers safety from a fire-initiation standpoint. Its distinguishing concern is electric shock resulting from the higher permitted voltage and current. Article 725 does not impose a blanket requirement that every Class 3 circuit be installed in metal raceway; the applicable load-side wiring methods are addressed by 725.130 and its referenced requirements.",
         "sections": [
-          "725.130(A)",
-          "725.130(B)",
-          "725.136"
+          "Article 100 — Class 3 Circuit",
+          "725.130",
+          "725.136",
+          "725.139"
         ]
       },
-      "Class 3 circuits are restricted to less power than Class 2 and are exempt from fire hazard considerations": {
-        "text": "Chapter 9 Tables 11(A) and 11(B) specify that Class 3 sources can have higher voltage and power limits than Class 2 sources. This increased available energy means Class 3 circuits are not exempt from fire hazard considerations; instead, separation and protection requirements in 725.136 become more important.",
+      "Class 3 permits less voltage and current than Class 2 and requires no electric-shock safeguards": {
+        "text": "This is incorrect. Class 3 permits higher, not lower, voltage and current than Class 2. Those higher permitted levels are why the NEC identifies electric shock as the additional Class 3 concern and requires appropriate safeguards.",
         "sections": [
+          "Article 100 — Class 3 Circuit",
           "725.60(A)",
-          "725.136",
           "Chapter 9 Table 11(A)",
           "Chapter 9 Table 11(B)"
         ]
       },
-      "Class 3 circuits are identical to branch circuits and follow Article 210 only": {
-        "text": "Class 3 circuits are power-limited remote-control and signaling circuits governed by Article 725. While they can sometimes use Class 1 wiring methods, they remain subject to the specialized source limitation, insulation, and separation requirements in 725.60, 725.130, 725.136, and 725.139, not just the branch-circuit rules of Article 210.",
+      "Class 3 is treated as a branch circuit and is governed exclusively by Article 210": {
+        "text": "This is incorrect. A Class 3 circuit is the portion of the wiring system between the load side of a Class 3 power source and the connected equipment. It remains a Class 3 power-limited circuit governed by Article 725 and related limited-energy requirements. Section 725.127 applies Chapters 1 through 4 to conductors and equipment on the supply side of the Class 2 or Class 3 power source, but that does not convert the load-side Class 3 circuit into an Article 210 branch circuit.",
         "sections": [
+          "Article 100 — Class 3 Circuit",
           "725.60(A)",
-          "725.130(A)",
-          "725.130(B)",
-          "725.136",
-          "725.139",
-          "Chapter 9 Table 11(A)",
-          "Chapter 9 Table 11(B)"
+          "725.127",
+          "725.130"
         ]
       }
     }
