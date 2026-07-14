@@ -334,7 +334,7 @@
 },
 {
   "id": 8,
-  "question": "A telecom technician is installing Class 2 power-limited circuits to supply network edge devices from a power-limited source. Which statement correctly describes a key ampacity and protection characteristic of Class 2 circuits?",
+  "question": "A telecom technician is installing Class 2 power-limited circuits to supply network edge devices from a listed Class 2 power source. Which statement correctly describes a key ampacity and protection characteristic of Class 2 circuits?",
   "choices": [
     "Class 2 circuits are permitted to be protected by up to 100 A overcurrent devices",
     "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock",
@@ -344,38 +344,52 @@
   "answer": "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock",
   "explanation": {
     "correct": {
-      "text": "NEC 725.121 and related sections describe Class 2 circuits as power-limited circuits supplied by listed Class 2 power sources. These sources restrict voltage and power output to levels that provide acceptable protection from fire initiation and electric shock under normal and fault conditions. Telecom technicians working with Class 2 circuits rely on the inherent power limitation of the source rather than large overcurrent devices sized like branch circuits.",
+      "text": "Class 2 circuits are supplied by listed Class 2 power sources such as Class 2 transformers, Class 2 power supplies, and limited-power circuits of listed audio/video, information technology, communications, and industrial equipment. These sources are required to limit their output voltage and current to the values specified in Chapter 9, Tables 11(A) and 11(B), so that the available energy on the Class 2 circuit remains within power-limited levels that reduce the risk of fire and electric shock under normal and fault conditions. The fundamental protection for Class 2 circuits therefore comes from the inherent power limitation of the source, not from large branch-circuit overcurrent devices.",
       "indexKeywords": [
-        "Class 2 power-limited circuits -> Definition -> 725.121"
+        "listed Class 2 power source -> transformer, power supply, limited-power circuits",
+        "output limited by Chapter 9 Tables 11(A) and 11(B)",
+        "power-limited levels -> fire and shock protection"
       ],
       "sections": [
-        "725.121"
+        "725.60(A)(1)",
+        "725.60(A)(2)",
+        "725.60(A)(3)",
+        "725.60(A)(4)",
+        "Chapter 9 Table 11(A)",
+        "Chapter 9 Table 11(B)"
       ]
     },
     "choices": {
       "Class 2 circuits are permitted to be protected by up to 100 A overcurrent devices": {
-        "text": "Class 2 circuits are inherently power-limited by their listed source, not protected by large overcurrent devices like 100 A breakers. Overcurrent devices for the source follow the listing of the equipment and are not sized like normal branch-circuit OCPDs.",
+        "text": "Class 2 circuits are defined by the limitations of their listed Class 2 power sources and the voltage and current limits in Chapter 9 Tables 11(A) and 11(B), not by very large overcurrent devices like 100 A breakers.",
         "sections": [
-          "725.121"
+          "725.60(A)",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
         ]
       },
       "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock": {
-        "text": "This option correctly describes the defining characteristic of Class 2 circuits in NEC 725.121. The combination of limited voltage and power output is what makes Class 2 circuits suitable for many telecom and signaling applications.",
+        "text": "This statement aligns with the requirement that Class 2 circuits be supplied by listed Class 2 power sources whose output voltage and current are limited in accordance with Chapter 9 Tables 11(A) and 11(B), keeping the circuit within power-limited, safer energy levels.",
         "sections": [
-          "725.121"
+          "725.60(A)",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
         ]
       },
       "Class 2 circuits must always operate at 120 volts or higher": {
-        "text": "Class 2 circuits are typically low-voltage and may operate well below 120 volts. The NEC does not require Class 2 circuits to operate at 120 volts or higher; in fact, their safety characteristics rely on lower voltage and power limits.",
+        "text": "Chapter 9 Tables 11(A) and 11(B) define maximum voltages and currents for Class 2 outputs that are well below typical 120 V branch-circuit values, so Class 2 circuits are not required to, and generally do not, operate at 120 V or higher.",
         "sections": [
-          "725.121"
+          "725.60(A)",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
         ]
       },
       "Class 2 circuits are treated the same as Class 1 circuits with respect to conductor ampacity and overcurrent protection": {
-        "text": "Class 1 circuits are not inherently power-limited and follow different rules for conductor ampacity and overcurrent protection. Class 2 circuits rely on the listed power-limited source and have different installation and protection requirements than Class 1 circuits.",
+        "text": "Power-limited Class 2 circuits follow different rules from Class 1 circuits, relying on limited-power sources and the output limits in Chapter 9 rather than on traditional branch-circuit ampacity and overcurrent protection schemes used for Class 1 wiring.",
         "sections": [
-          "725.41",
-          "725.121"
+          "725.60(A)",
+          "725.130(A)",
+          "725.130(B)"
         ]
       }
     }
@@ -393,41 +407,61 @@
   "answer": "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards",
   "explanation": {
     "correct": {
-      "text": "NEC 725.127 describes Class 3 circuits as power-limited but allowing higher voltage and power levels than Class 2 circuits. Because Class 3 circuits can deliver more energy, their installation requirements are more stringent to mitigate fire and electric shock hazards. Telecom applications using Class 3 circuits must account for these additional installation considerations compared to lower-energy Class 2 circuits.",
+      "text": "Class 2 and Class 3 circuits are both power-limited circuits, but they are supplied by different types of listed power sources whose output voltage and current limits are defined in Chapter 9, Tables 11(A) and 11(B). Class 3 sources are allowed higher voltage and power levels than Class 2 sources, which means Class 3 circuits can deliver more energy and require more careful installation practices to address fire and electric shock hazards, including adherence to the wiring method, insulation, separation, and routing requirements in 725.130, 725.136, and 725.139.",
       "indexKeywords": [
-        "Class 3 power-limited circuits -> Definition -> 725.127",
-        "Difference between Class 2 and Class 3 -> 725.121, 725.127"
+        "Class 2 vs Class 3 -> different source limits -> Chapter 9 Tables 11(A) and 11(B)",
+        "Class 3 higher permitted energy -> increased fire/shock concern",
+        "Wiring/separation for Class 2/3 -> 725.130, 725.136, 725.139"
       ],
       "sections": [
-        "725.127",
-        "725.121"
+        "725.60(A)",
+        "725.130(A)",
+        "725.130(B)",
+        "725.136",
+        "725.139",
+        "Chapter 9 Table 11(A)",
+        "Chapter 9 Table 11(B)"
       ]
     },
     "choices": {
       "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards": {
-        "text": "This option correctly reflects NEC 725.127, which permits higher voltages and power levels for Class 3 circuits and requires installation practices that adequately address the increased potential fire and shock hazards.",
+        "text": "Class 3 circuits are supplied by listed Class 3 power sources whose output limits in Chapter 9 Tables 11(A) and 11(B) are higher than those for Class 2 sources. Because Class 3 circuits can deliver more energy, designers and installers must pay closer attention to wiring methods, insulation, and separation requirements in 725.130 and 725.136 to mitigate fire and shock hazards.",
         "sections": [
-          "725.127"
+          "725.60(A)",
+          "725.130(A)",
+          "725.130(B)",
+          "725.136",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
         ]
       },
       "Class 3 circuits must always be installed in metal raceway; Class 2 circuits cannot be installed in raceway": {
-        "text": "The NEC does not state that Class 3 circuits must always be in metal raceway or that Class 2 circuits cannot be installed in raceway. Raceway use is based on design and code requirements for the specific application, not a blanket restriction by circuit class.",
+        "text": "The code allows Class 2 and Class 3 circuits to use a range of wiring methods, including Class 1 methods where needed, and does not state that Class 3 must always be in metal raceway or that Class 2 cannot use raceway. Wiring method selection is governed by 725.130 and related sections, not by a blanket raceway-only rule.",
         "sections": [
-          "725.25",
-          "725.127"
+          "725.130(A)",
+          "725.130(B)",
+          "725.136"
         ]
       },
       "Class 3 circuits are restricted to less power than Class 2 and are exempt from fire hazard considerations": {
-        "text": "Class 3 circuits actually allow more power than Class 2 circuits and therefore require careful consideration of fire and shock hazards. They are not exempt from fire hazard considerations.",
+        "text": "Chapter 9 Tables 11(A) and 11(B) specify that Class 3 sources can have higher voltage and power limits than Class 2 sources. This increased available energy means Class 3 circuits are not exempt from fire hazard considerations; instead, separation and protection requirements in 725.136 become more important.",
         "sections": [
-          "725.127"
+          "725.60(A)",
+          "725.136",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
         ]
       },
       "Class 3 circuits are identical to branch circuits and follow Article 210 only": {
-        "text": "Class 3 circuits are power-limited circuits governed by Article 725, not general branch circuits under Article 210. While some installation requirements may be similar, Class 3 circuits follow specialized rules for power limitation and signaling applications.",
+        "text": "Class 3 circuits are power-limited remote-control and signaling circuits governed by Article 725. While they can sometimes use Class 1 wiring methods, they remain subject to the specialized source limitation, insulation, and separation requirements in 725.60, 725.130, 725.136, and 725.139, not just the branch-circuit rules of Article 210.",
         "sections": [
-          "725.1",
-          "725.127"
+          "725.60(A)",
+          "725.130(A)",
+          "725.130(B)",
+          "725.136",
+          "725.139",
+          "Chapter 9 Table 11(A)",
+          "Chapter 9 Table 11(B)"
         ]
       }
     }
@@ -435,7 +469,7 @@
 },
 {
   "id": 10,
-  "question": "A telecom provider installs a Class 4 fault-managed power system to feed remote network devices over a single cable. Wwhat is a defining characteristic of Class 4 fault-managed power that affects telecom cabling design?",
+  "question": "A telecom provider installs a Class 4 fault-managed power system to feed remote network devices over a single cable. What is a defining characteristic of Class 4 fault-managed power that affects telecom cabling design?",
   "choices": [
     "Class 4 systems operate at unlimited voltage and current as long as overcurrent devices are provided at the source",
     "Class 4 systems dynamically limit power delivery based on fault detection and cable conditions, allowing higher power delivery while still controlling shock and fire hazards",
@@ -445,36 +479,39 @@
   "answer": "Class 4 systems dynamically limit power delivery based on fault detection and cable conditions, allowing higher power delivery while still controlling shock and fire hazards",
   "explanation": {
     "correct": {
-      "text": "NEC 726.1 and related sections describe Class 4 fault-managed power systems as actively controlled systems that monitor circuit conditions, detect faults, and rapidly limit or shut off power to maintain safety. This approach allows delivery of more power over structured cabling or specialized cables than traditional Class 2 or Class 3 systems, while still managing shock and fire hazards through active fault detection and power limitation. For telecom applications, this enables powering remote network devices over data or hybrid cables under managed fault conditions.",
+      "text": "Class 4 fault-managed power systems are designed to continuously monitor circuit conditions and detect faults, then rapidly limit or interrupt power when unsafe conditions occur. By actively controlling voltage and current based on cable characteristics and fault detection, these systems can deliver more power over listed Class 4 or fault-managed power cabling than traditional Class 2 or Class 3 systems, while still keeping shock and fire hazards within acceptable limits. This dynamic fault management is a defining characteristic that directly influences telecom cabling design, enabling remote network devices to be powered over data or hybrid cables under managed fault conditions.",
       "indexKeywords": [
-        "Class 4 fault-managed power systems -> Definition -> 726.1",
-        "Fault-managed power for telecom loads -> 726.1"
+        "Class 4 fault-managed power -> active monitoring and shutdown",
+        "Higher power over listed cabling -> controlled shock and fire risk",
+        "Telecom cabling design -> fault-managed power over single cable"
       ],
       "sections": [
-        "726.1"
+        "726.30",
+        "726.160"
       ]
     },
     "choices": {
       "Class 4 systems operate at unlimited voltage and current as long as overcurrent devices are provided at the source": {
-        "text": "Class 4 systems are still power-limited in the sense that they must control voltage and current based on monitored conditions. NEC Article 726 does not permit unlimited voltage and current; instead, it relies on active fault management to keep energy within safe bounds.",
+        "text": "Class 4 systems remain power-managed systems; they do not permit unlimited voltage and current. Their design requires active monitoring and limitation or interruption of power when faults or unsafe conditions are detected, rather than relying solely on traditional overcurrent devices.",
         "sections": [
-          "726.1"
+          "726.30"
         ]
       },
       "Class 4 systems dynamically limit power delivery based on fault detection and cable conditions, allowing higher power delivery while still controlling shock and fire hazards": {
-        "text": "This answer correctly describes fault-managed power under NEC 726.1. Class 4 systems continuously monitor the circuit and limit or interrupt power when faults or unsafe conditions are detected, enabling higher power use with managed risk.",
+        "text": "This option correctly describes fault-managed power: Class 4 systems monitor the circuit, detect faults, and adjust or shut off power to keep energy within safe limits. This allows more power to be sent over listed Class 4 or fault-managed power cabling to telecom and ICT devices while managing shock and fire risks.",
         "sections": [
-          "726.1"
+          "726.30",
+          "726.160"
         ]
       },
       "Class 4 systems may only be used for lighting loads and are prohibited for telecom equipment": {
-        "text": "NEC Article 726 does not restrict Class 4 systems to lighting loads or prohibit their use for telecom equipment. Many anticipated applications involve powering ICT and network devices using fault-managed power techniques.",
+        "text": "Fault-managed power is intended for a variety of applications, including information technology and communications loads. The rules for Class 4 do not confine these systems to lighting only or prohibit their use for telecom equipment.",
         "sections": [
-          "726.1"
+          "726.30"
         ]
       },
       "Class 4 systems must use traditional branch-circuit wiring methods without special cable types": {
-        "text": "Class 4 systems may use specialized cables and structured cabling that are listed and identified for fault-managed power. They are not limited to traditional branch-circuit wiring methods.",
+        "text": "Class 4 systems can use specialized cabling listed and identified for fault-managed power or Class 4 use. Article 726 includes requirements for these cable types and routing, rather than limiting Class 4 systems to traditional branch-circuit wiring methods alone.",
         "sections": [
           "726.160"
         ]
