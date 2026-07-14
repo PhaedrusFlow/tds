@@ -264,10 +264,13 @@
   "answer": "It is a dedicated fire alarm branch circuit that must serve no other loads and be specially identified",
   "explanation": {
     "correct": {
-      "text": "The branch circuit supplying fire alarm equipment is required to serve no other loads, be clearly and permanently identified at the fire alarm control unit, and have a disconnect marked as a fire alarm circuit with distinctive red identification accessible only to qualified personnel. It also must not be part of a multiwire branch circuit or be supplied through GFCI or AFCI devices, so it is correctly described as a dedicated fire alarm branch circuit rather than a general-purpose or communications circuit.",
+      "text": "The branch circuit supplying the fire alarm equipment shall supply no other loads, the location of the branch-circuit overcurrent protective device shall be permanently identified at the fire alarm control unit, and the circuit disconnecting means shall have red identification, shall be accessible only to qualified personnel, and shall be identified as \"FIRE ALARM CIRCUIT.\" This branch circuit shall not be supplied through ground-fault circuit interrupters or arc-fault circuit-interrupters. These requirements characterize it as a dedicated fire alarm branch circuit rather than a general-purpose or communications circuit.",
       "indexKeywords": [
-        "Fire alarm branch circuit -> Dedicated -> No other loads",
-        "Branch circuit identification -> Red marking -> Fire alarm circuit"
+        "shall supply no other loads",
+        "permanently identified at the fire alarm control unit",
+        "shall have red identification",
+        "\"FIRE ALARM CIRCUIT\"",
+        "shall not be supplied through ground-fault circuit interrupters or arc-fault circuit-interrupters"
       ],
       "sections": [
         "760.41(B)"
@@ -275,26 +278,26 @@
     },
     "choices": {
       "It is a standard lighting circuit because it does not use GFCI or AFCI protection": {
-        "text": "Even though the circuit is not GFCI- or AFCI-protected, its function and identification requirements distinguish it from ordinary lighting or receptacle circuits. It is dedicated to fire alarm equipment and must be treated accordingly.",
+        "text": "Standard lighting circuits are not required to be permanently identified at a fire alarm control unit or marked as \"FIRE ALARM CIRCUIT\" with red identification, nor are they required to supply no other loads. The described circuit matches dedicated fire alarm branch circuit requirements.",
         "sections": [
           "760.41(B)"
         ]
       },
       "It is an emergency system circuit because all fire alarm equipment must be on emergency power": {
-        "text": "Emergency system circuits have their own rules, but fire alarm supply circuits follow specific fire alarm requirements. Fire alarm equipment is not automatically classified as an emergency system load; its branch circuit is governed by dedicated fire alarm circuit rules.",
+        "text": "Emergency system circuits have separate requirements, and fire alarm branch circuits are specifically described with their own identification and isolation rules. Fire alarm equipment branch circuits are not automatically classified as emergency system circuits.",
         "sections": [
           "700.2",
           "760.41(B)"
         ]
       },
       "It is a dedicated fire alarm branch circuit that must serve no other loads and be specially identified": {
-        "text": "This choice correctly reflects that the branch circuit feeding the fire alarm control panel must supply no other loads, must be permanently identified at the panel, and must have a disconnect with red identification marked as a fire alarm circuit and accessible only to qualified personnel.",
+        "text": "This choice restates that the branch circuit supplying the fire alarm equipment shall supply no other loads, shall have its overcurrent protective device location permanently identified at the fire alarm control unit, and shall have a disconnecting means with red identification marked as \"FIRE ALARM CIRCUIT\" and accessible only to qualified personnel, without GFCI or AFCI protection.",
         "sections": [
           "760.41(B)"
         ]
       },
       "It is a communications circuit because fire alarm systems are considered signaling equipment only": {
-        "text": "While fire alarm systems perform signaling functions, their supply branch circuits are not classified as simple communications circuits. They have specific isolation and identification requirements that distinguish them from typical communications cabling.",
+        "text": "Communications circuits do not have the specific branch-circuit requirements that the fire alarm equipment branch circuit does, such as supplying no other loads, red identification, and the \"FIRE ALARM CIRCUIT\" marking. Those conditions apply to the dedicated fire alarm branch circuit.",
         "sections": [
           "760.41(B)",
           "760.130"
