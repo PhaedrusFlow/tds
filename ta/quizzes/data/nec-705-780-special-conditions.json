@@ -202,7 +202,7 @@
 },
 {
   "id": 5,
-  "question": "A data center includes telecom racks that must remain operational for public safety dispatch during a utility outage. The system design uses an automatic transfer switch and generator permanently installed and dedicated to these racks. Under NEC Article 701, how are these telecom loads classified?",
+  "question": "A data center includes telecom racks that must remain operational for public safety dispatch during a utility outage. The system design uses an automatic transfer switch and generator permanently installed and dedicated to these racks. How are these telecom loads classified?",
   "choices": [
     "They are legally required standby loads because loss of public safety communications could create hazards or hamper rescue or firefighting operations",
     "They are optional standby loads because they are communications systems and continued operation is only desirable",
@@ -254,49 +254,50 @@
 },
 {
   "id": 6,
-  "question": "An office building has an optional standby generator that maintains power to a telecom closet so business VoIP phones stay operational during an outage. What is the primary characteristic of this telecom load classification?",
+  "question": "A new fire alarm control panel is installed in an office building. Its supply branch circuit is dedicated to the fire alarm equipment, not part of a multiwire branch circuit, and is not protected by GFCI or AFCI devices. How is this branch circuit best characterized?",
   "choices": [
-    "It is a legally required standby load because it supports public safety operations",
-    "It is an emergency system load because loss of phone service always endangers life",
-    "It is an optional standby load because continued operation is desirable but not legally required",
-    "It is a normal system load because optional standby systems cannot serve telecom equipment"
+    "It is a standard lighting circuit because it does not use GFCI or AFCI protection",
+    "It is an emergency system circuit because all fire alarm equipment must be on emergency power",
+    "It is a dedicated fire alarm branch circuit that must serve no other loads and be specially identified",
+    "It is a communications circuit because fire alarm systems are considered signaling equipment only"
   ],
-  "answer": "It is an optional standby load because continued operation is desirable but not legally required",
+  "answer": "It is a dedicated fire alarm branch circuit that must serve no other loads and be specially identified",
   "explanation": {
     "correct": {
-      "text": "NEC 702.2 defines optional standby systems as those intended to supply power to loads where interruption of the normal supply does not present a hazard to life or property but where continued operation is desirable. Business VoIP telecom closets that support routine communications but are not legally required for emergency or public safety use fit the definition of optional standby loads.",
+      "text": "The branch circuit supplying fire alarm equipment is required to serve no other loads, be clearly and permanently identified at the fire alarm control unit, and have a disconnect marked as a fire alarm circuit with distinctive red identification accessible only to qualified personnel. It also must not be part of a multiwire branch circuit or be supplied through GFCI or AFCI devices, so it is correctly described as a dedicated fire alarm branch circuit rather than a general-purpose or communications circuit.",
       "indexKeywords": [
-        "Optional standby systems -> Business telecom -> 702.2"
+        "Fire alarm branch circuit -> Dedicated -> No other loads",
+        "Branch circuit identification -> Red marking -> Fire alarm circuit"
       ],
       "sections": [
-        "702.2"
+        "760.41(B)"
       ]
     },
     "choices": {
-      "It is a legally required standby load because it supports public safety operations": {
-        "text": "Legally required standby loads under Article 701 are associated with public safety, emergency response, or other legally mandated functions. Routine business VoIP phones typically do not meet that threshold unless specifically designated for public safety use.",
+      "It is a standard lighting circuit because it does not use GFCI or AFCI protection": {
+        "text": "Even though the circuit is not GFCI- or AFCI-protected, its function and identification requirements distinguish it from ordinary lighting or receptacle circuits. It is dedicated to fire alarm equipment and must be treated accordingly.",
         "sections": [
-          "701.2",
-          "702.2"
+          "760.41(B)"
         ]
       },
-      "It is an emergency system load because loss of phone service always endangers life": {
-        "text": "Article 700 emergency systems are reserved for loads essential to life safety, such as egress lighting and fire alarm systems. General business phone systems are not automatically classified as emergency loads simply because they are convenient.",
+      "It is an emergency system circuit because all fire alarm equipment must be on emergency power": {
+        "text": "Emergency system circuits have their own rules, but fire alarm supply circuits follow specific fire alarm requirements. Fire alarm equipment is not automatically classified as an emergency system load; its branch circuit is governed by dedicated fire alarm circuit rules.",
         "sections": [
           "700.2",
-          "702.2"
+          "760.41(B)"
         ]
       },
-      "It is an optional standby load because continued operation is desirable but not legally required": {
-        "text": "This answer correctly reflects NEC 702.2. Optional standby systems serve loads where continuity of power is desirable but not legally required or directly tied to life safety.",
+      "It is a dedicated fire alarm branch circuit that must serve no other loads and be specially identified": {
+        "text": "This choice correctly reflects that the branch circuit feeding the fire alarm control panel must supply no other loads, must be permanently identified at the panel, and must have a disconnect with red identification marked as a fire alarm circuit and accessible only to qualified personnel.",
         "sections": [
-          "702.2"
+          "760.41(B)"
         ]
       },
-      "It is a normal system load because optional standby systems cannot serve telecom equipment": {
-        "text": "Article 702 does not prohibit telecom equipment from being served by optional standby systems. Classification depends on whether the load is legally required or essential to life safety, not on the type of equipment.",
+      "It is a communications circuit because fire alarm systems are considered signaling equipment only": {
+        "text": "While fire alarm systems perform signaling functions, their supply branch circuits are not classified as simple communications circuits. They have specific isolation and identification requirements that distinguish them from typical communications cabling.",
         "sections": [
-          "702.2"
+          "760.41(B)",
+          "760.130"
         ]
       }
     }
