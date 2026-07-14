@@ -149,7 +149,7 @@
     },
     {
   "id": 4,
-  "question": "A telecom equipment room is served by an emergency generator via an automatic transfer switch (ATS). Under NEC Article 700, which condition must be met for the telecom load to be classified as part of an emergency system?",
+  "question": "A telecom equipment room is served by an emergency generator via an automatic transfer switch (ATS). Which condition must be met for the telecom load to be classified as part of an emergency system?",
   "choices": [
     "The telecom load must be supplied by any alternate source, including portable generators",
     "The telecom load must serve functions essential to life safety, such as fire alarm signaling or egress communication",
@@ -199,7 +199,7 @@
 },
 {
   "id": 5,
-  "question": "A data center includes telecom racks that must remain operational for public safety dispatch during a utility outage. The system design uses an automatic transfer switch and generator dedicated to these loads. Under NEC Article 701, how are these telecom loads classified?",
+  "question": "A data center includes telecom racks that must remain operational for public safety dispatch during a utility outage. The system design uses an automatic transfer switch and generator dedicated to these loads. Hw are these telecom loads classified?",
   "choices": [
     "As legally required standby loads because they support public safety communication",
     "As optional standby loads because they are not directly connected to lighting circuits",
@@ -250,7 +250,7 @@
 },
 {
   "id": 6,
-  "question": "An office building has an optional standby generator that maintains power to a telecom closet so business VoIP phones stay operational during an outage. Under NEC Article 702, what is the primary characteristic of this telecom load classification?",
+  "question": "An office building has an optional standby generator that maintains power to a telecom closet so business VoIP phones stay operational during an outage. What is the primary characteristic of this telecom load classification?",
   "choices": [
     "It is a legally required standby load because it supports public safety operations",
     "It is an emergency system load because loss of phone service always endangers life",
@@ -300,7 +300,7 @@
 },
 {
   "id": 7,
-  "question": "A critical operations power system (COPS) supports a 24/7 telecom operations center that must remain functional during natural disasters. Under NEC Article 708, what survivability requirement applies to supply conductors serving this COPS telecom equipment?",
+  "question": "A critical operations power system (COPS) supports a 24/7 telecom operations center that must remain functional during natural disasters. What survivability requirement applies to supply conductors serving this COPS telecom equipment?",
   "choices": [
     "Supply conductors must be installed in metallic raceway only, with no additional requirements",
     "Supply conductors must be sized at 200% of the load current to ensure reliability",
@@ -350,7 +350,7 @@
 },
 {
   "id": 8,
-  "question": "A telecom technician is installing Class 2 power-limited circuits to supply network edge devices from a power-limited source. Under NEC Article 725, which statement correctly describes a key ampacity and protection characteristic of Class 2 circuits?",
+  "question": "A telecom technician is installing Class 2 power-limited circuits to supply network edge devices from a power-limited source. Which statement correctly describes a key ampacity and protection characteristic of Class 2 circuits?",
   "choices": [
     "Class 2 circuits are permitted to be protected by up to 100 A overcurrent devices",
     "Class 2 circuits rely on power-limited sources and are restricted to low-voltage, low-power levels that limit the risk of fire and electric shock",
@@ -399,7 +399,7 @@
 },
 {
   "id": 9,
-  "question": "A remote telecom cabinet uses Class 3 circuits to power signaling equipment over long runs. Under NEC Article 725, how do Class 3 circuits differ from Class 2 circuits in terms of permitted power and installation concern?",
+  "question": "A remote telecom cabinet uses Class 3 circuits to power signaling equipment over long runs. How do Class 3 circuits differ from Class 2 circuits in terms of permitted power and installation concern?",
   "choices": [
     "Class 3 circuits permit higher voltage and power than Class 2 and therefore require more stringent installation practices to address fire and shock hazards",
     "Class 3 circuits must always be installed in metal raceway; Class 2 circuits cannot be installed in raceway",
@@ -451,7 +451,7 @@
 },
 {
   "id": 10,
-  "question": "A telecom provider installs a Class 4 fault-managed power system to feed remote network devices over a single cable. Under NEC Article 726, what is a defining characteristic of Class 4 fault-managed power that affects telecom cabling design?",
+  "question": "A telecom provider installs a Class 4 fault-managed power system to feed remote network devices over a single cable. Wwhat is a defining characteristic of Class 4 fault-managed power that affects telecom cabling design?",
   "choices": [
     "Class 4 systems operate at unlimited voltage and current as long as overcurrent devices are provided at the source",
     "Class 4 systems dynamically limit power delivery based on fault detection and cable conditions, allowing higher power delivery while still controlling shock and fire hazards",
@@ -500,7 +500,7 @@
 },
 {
   "id": 11,
-  "question": "An optical fiber backbone serving telecom equipment is routed through the same ceiling space as power and emergency circuits. Under NEC Article 770, which statement correctly describes a key installation requirement for optical fiber cables in mixed-use spaces?",
+  "question": "An optical fiber backbone serving telecom equipment is routed through the same ceiling space as power and emergency circuits. Which statement correctly describes a key installation requirement for optical fiber cables in mixed-use spaces?",
   "choices": [
     "Optical fiber cables are exempt from separation requirements and may be freely bundled with power conductors",
     "Optical fiber cables must be separated from power conductors or use listed composite or hybrid cables that maintain required fire and electrical separation",
@@ -551,7 +551,7 @@
 },
 {
   "id": 12,
-  "question": "A telecom engineer selects a plenum-rated optical fiber cable to route through an environmental air plenum above a data center. Under NEC Article 770, what is a key requirement for fiber cables used in environmental air plenums serving telecom equipment?",
+  "question": "A telecom engineer selects a plenum-rated optical fiber cable to route through an environmental air plenum above a data center. What is a key requirement for fiber cables used in environmental air plenums serving telecom equipment?",
   "choices": [
     "Fiber cables in plenums may be of any type as long as the jacket is nonmetallic",
     "Fiber cables in plenums must be listed for use in environmental air spaces (OFNP or equivalent) to limit smoke and flame spread",
