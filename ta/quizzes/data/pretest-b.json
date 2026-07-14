@@ -1,487 +1,367 @@
 {
   "id": "pretest-b",
   "title": "WA Telecom Admin — Pretest B",
-  "description": "40-question mixed pretest sampling NEC Articles 90, 100–110, 240, 300–398, 705–780, 800–830, RCW 19.28, WAC 296-46B, and general theory. Different questions from Pretest A.",
+  "description": "30-question NEC 2023 book-reference pretest. Distribution: Introduction 2; General Requirements 3; Grounding and Bonding 3; Wiring Methods 3; Hazardous Locations 1; Special Conditions 4; Communications Systems 8; General Trade Knowledge and Theory 6. Questions differ from Pretest A.",
   "questions": [
     {
       "id": 1,
-      "question": "NEC Article 90.2 describes the scope of the Code. Which of the following installations is NOT covered by the NEC?",
+      "question": "Which installation is not covered by the Code?",
       "choices": [
-        "Electrical wiring in a commercial office building",
-        "Installations in ships, watercraft, railway rolling stock, and aircraft",
-        "Low-voltage communications wiring in a residential building",
-        "Solar photovoltaic systems on a residential rooftop"
+        "Installations in ships, watercraft other than floating buildings, railway rolling stock, aircraft, or automotive vehicles other than mobile homes and recreational vehicles",
+        "Wiring in a commercial office building",
+        "Communications wiring in a residence",
+        "Electrical conductors connecting equipment to a premises supply"
       ],
-      "answer": "Installations in ships, watercraft, railway rolling stock, and aircraft",
-      "explanation": "NEC 90.2(B) lists installations not covered by the Code, including ships, watercraft other than floating buildings, railway rolling stock, aircraft, and automotive vehicles — NEC Article 90."
+      "answer": "Installations in ships, watercraft other than floating buildings, railway rolling stock, aircraft, or automotive vehicles other than mobile homes and recreational vehicles",
+      "explanation": "This group of installations is expressly identified as not covered. Reference: 90.2(D)(1), 2023 NEC."
     },
     {
       "id": 2,
-      "question": "NEC Article 90.4 states that the authority having jurisdiction (AHJ) has the responsibility to:",
+      "question": "Who has responsibility for interpreting Code rules, deciding on approval of equipment and materials, and granting contemplated special permission?",
       "choices": [
-        "Enforce the NEC exactly as written with no discretion",
-        "Interpret the NEC and approve equipment, materials, and installations",
-        "Issue contractor licenses on behalf of the state",
-        "Publish amendments to the NEC every three years"
+        "The authority having jurisdiction",
+        "The equipment owner",
+        "The material supplier",
+        "Any apprentice on the project"
       ],
-      "answer": "Interpret the NEC and approve equipment, materials, and installations",
-      "explanation": "NEC 90.4 grants the AHJ the responsibility to interpret the Code requirements, approve equipment and materials, and waive specific requirements or permit alternative methods where equivalent safety is achieved — NEC Article 90."
+      "answer": "The authority having jurisdiction",
+      "explanation": "These responsibilities are assigned to the authority having jurisdiction for Code enforcement. Reference: 90.4(B), 2023 NEC."
     },
     {
       "id": 3,
-      "question": "NEC Article 90.7 addresses examination of equipment for safety. Which of the following statements is correct regarding listed equipment?",
+      "question": "Fill in the blank: A branch circuit consists of the circuit conductors between the final overcurrent device protecting the circuit and the ______.",
       "choices": [
-        "Listed equipment may never be modified in the field under any circumstances",
-        "Equipment that is listed by a nationally recognized testing laboratory (NRTL) is evaluated for compliance with applicable product safety standards",
-        "Listing by any organization automatically satisfies all NEC requirements without AHJ review",
-        "Field-labeled equipment is prohibited by the NEC"
+        "outlet(s)",
+        "service point",
+        "grounding electrode",
+        "utility transformer only"
       ],
-      "answer": "Equipment that is listed by a nationally recognized testing laboratory (NRTL) is evaluated for compliance with applicable product safety standards",
-      "explanation": "NEC 90.7 and Article 100 establish that listed equipment has been evaluated by a qualified electrical testing laboratory (NRTL) and found to meet applicable safety standards — NEC Article 90."
+      "answer": "outlet(s)",
+      "explanation": "The Article 100 definition places the branch-circuit conductors between the final overcurrent device and the outlet or outlets. Reference: Article 100, Branch Circuit, 2023 NEC."
     },
     {
       "id": 4,
-      "question": "Per NEC Article 100, which of the following best defines 'Concealed' as it applies to wiring methods?",
+      "question": "Which description is part of the Code definition of listed equipment, materials, or services?",
       "choices": [
-        "Wiring that is protected by a metal raceway",
-        "Wiring rendered inaccessible by the structure or finish of a building",
-        "Wiring installed underground",
-        "Wiring that is colored gray to blend with the wall surface"
+        "They are included in a list published by an organization acceptable to the authority having jurisdiction and concerned with evaluation of products or services",
+        "They are selected only because they have the lowest purchase price",
+        "They are approved solely by the installer without evaluation",
+        "They are manufactured outside the jurisdiction and need no inspection"
       ],
-      "answer": "Wiring rendered inaccessible by the structure or finish of a building",
-      "explanation": "NEC Article 100 defines 'Concealed' as rendered inaccessible by the structure or finish of the building. Wires in concealed raceways are considered concealed even though they may be accessible — NEC Article 100."
+      "answer": "They are included in a list published by an organization acceptable to the authority having jurisdiction and concerned with evaluation of products or services",
+      "explanation": "This choice states the opening requirement of the Article 100 definition of Listed. Reference: Article 100, Listed, 2023 NEC."
     },
     {
       "id": 5,
-      "question": "Per NEC Article 100, what is the defined meaning of 'Listed' as applied to electrical equipment?",
+      "question": "Conductors and equipment required or permitted by the Code are acceptable only when what condition is met?",
       "choices": [
-        "Equipment that has been approved by the local AHJ only",
-        "Equipment that appears in a list published by a nationally recognized testing laboratory and has been evaluated for safety",
-        "Equipment manufactured in the United States and bearing a UL mark",
-        "Any equipment that the electrical contractor has approved for use on a job site"
+        "They are approved",
+        "They are less than one year old",
+        "They are installed by the manufacturer",
+        "They are painted with an identifying color"
       ],
-      "answer": "Equipment that appears in a list published by a nationally recognized testing laboratory and has been evaluated for safety",
-      "explanation": "NEC Article 100 defines 'Listed' as equipment, materials, or services that have been evaluated by an NRTL and found to meet specific designation criteria — NEC Article 100."
+      "answer": "They are approved",
+      "explanation": "The general approval rule states that required or permitted conductors and equipment are acceptable only if approved. Reference: 110.2, 2023 NEC."
     },
     {
       "id": 6,
-      "question": "NEC Article 100 defines 'Qualified Person.' Which of the following best matches that definition?",
+      "question": "Which statement correctly describes earth in relation to an effective ground-fault current path?",
       "choices": [
-        "Any person who holds a valid electrician's license in any US state",
-        "One who has skills and knowledge related to the construction and operation of electrical equipment and installations, and has received safety training to recognize and avoid hazards",
-        "A person with at least five years of field experience in electrical construction",
-        "Any person employed by a licensed electrical contractor"
+        "Earth must not be considered an effective ground-fault current path",
+        "Earth is always the only permitted ground-fault current path",
+        "Earth replaces the equipment grounding conductor in every installation",
+        "Earth is the normal return path for all branch-circuit current"
       ],
-      "answer": "One who has skills and knowledge related to the construction and operation of electrical equipment and installations, and has received safety training to recognize and avoid hazards",
-      "explanation": "NEC Article 100 defines a 'Qualified Person' as one who has skills and knowledge of electrical equipment and installations, and has received safety training to recognize and avoid hazards — NEC Article 100."
+      "answer": "Earth must not be considered an effective ground-fault current path",
+      "explanation": "The grounding and bonding performance rule expressly states that earth is not an effective ground-fault current path. Reference: 250.4(A)(5), 2023 NEC."
     },
     {
       "id": 7,
-      "question": "NEC 110.3(B) requires that listed or labeled equipment be:",
+      "question": "Fill in the blank: A single rod, pipe, or plate grounding electrode generally requires a supplemental electrode unless its resistance to earth is ______.",
       "choices": [
-        "Painted to match the color code specified by the AHJ",
-        "Installed and used in accordance with any instructions included in the listing or labeling",
-        "Retested by the contractor before installation",
-        "Approved by the engineer of record before the AHJ inspection"
+        "25 ohms or less",
+        "50 ohms or less",
+        "10 ohms or more",
+        "Exactly 1 ohm"
       ],
-      "answer": "Installed and used in accordance with any instructions included in the listing or labeling",
-      "explanation": "NEC 110.3(B) requires that listed or labeled equipment be installed and used in accordance with the instructions included in the listing or labeling — NEC Article 110."
+      "answer": "25 ohms or less",
+      "explanation": "The supplemental-electrode exception applies where a single rod, pipe, or plate electrode has a resistance to earth of 25 ohms or less. Reference: 250.53(A)(2), Exception, 2023 NEC."
     },
     {
       "id": 8,
-      "question": "NEC Article 110.26(C) requires that the area above electrical equipment operating at 600 V or less have minimum headroom of:",
+      "question": "What conductor length and minimum size are required for a copper ground ring encircling a building or structure?",
       "choices": [
-        "6 feet, 3 inches",
-        "7 feet",
-        "6 feet",
-        "8 feet"
+        "At least 6.0 m (20 ft) of bare copper not smaller than 2 AWG",
+        "At least 3.0 m (10 ft) of insulated copper not smaller than 14 AWG",
+        "At least 1.8 m (6 ft) of bare copper not smaller than 10 AWG",
+        "At least 15 m (50 ft) of aluminum not smaller than 6 AWG"
       ],
-      "answer": "6 feet, 3 inches",
-      "explanation": "NEC 110.26(C) requires a minimum headroom of 6 feet 3 inches (1.9 m) in front of electrical equipment — NEC Article 110."
+      "answer": "At least 6.0 m (20 ft) of bare copper not smaller than 2 AWG",
+      "explanation": "A ground ring consists of at least 6.0 m (20 ft) of bare copper conductor not smaller than 2 AWG in direct contact with earth. Reference: 250.52(A)(4), 2023 NEC."
     },
     {
       "id": 9,
-      "question": "NEC 240.4(D) limits overcurrent protection for 12 AWG copper conductors to a maximum of:",
+      "question": "May cables and raceways above a suspended ceiling be supported by the ceiling grid?",
       "choices": [
-        "15 amperes",
-        "20 amperes",
-        "25 amperes",
-        "30 amperes"
+        "No, cables and raceways must not be supported by ceiling grids",
+        "Yes, in every installation",
+        "Yes, if the cable is under 50 volts",
+        "Yes, if plastic cable ties are used"
       ],
-      "answer": "20 amperes",
-      "explanation": "NEC 240.4(D) states that 12 AWG copper conductors shall not be protected by overcurrent devices rated more than 20 amperes — NEC Article 240."
+      "answer": "No, cables and raceways must not be supported by ceiling grids",
+      "explanation": "The general securing-and-supporting rule states that cables and raceways must not be supported by ceiling grids. Reference: 300.11(B), 2023 NEC."
     },
     {
       "id": 10,
-      "question": "Per NEC 240.6(A), which of the following is a standard ampere rating for overcurrent devices?",
+      "question": "How must openings around electrical penetrations through fire-resistance-rated walls, partitions, floors, or ceilings be treated?",
       "choices": [
-        "22 amperes",
-        "45 amperes",
-        "55 amperes",
-        "85 amperes"
+        "They must be firestopped using approved methods to maintain the fire-resistance rating",
+        "They may be left open for ventilation",
+        "They need only be covered with ordinary tape",
+        "They must be filled only with wood blocking"
       ],
-      "answer": "45 amperes",
-      "explanation": "NEC 240.6(A) lists standard ampere ratings including 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, and higher. 45 A is a listed standard rating — NEC Article 240."
+      "answer": "They must be firestopped using approved methods to maintain the fire-resistance rating",
+      "explanation": "The NEC requires approved firestopping methods that maintain the fire-resistance rating. Reference: 300.21, 2023 NEC."
     },
     {
       "id": 11,
-      "question": "NEC Article 240.87 requires arc energy reduction for circuit breakers rated 1,200 amperes or higher. Which of the following is an acceptable method to achieve this?",
+      "question": "When a raceway or cable contains four through six current-carrying conductors, what adjustment factor applies to the table ampacity before any necessary ambient-temperature correction?",
       "choices": [
-        "Installing a time-delay fuse in parallel with the breaker",
-        "Zone-selective interlocking, differential relaying, or an energy-reducing active arc flash mitigation system",
-        "Adding a manual disconnect within 10 feet of the breaker",
-        "Labeling the panel with the available fault current"
+        "80 percent",
+        "70 percent",
+        "50 percent",
+        "100 percent"
       ],
-      "answer": "Zone-selective interlocking, differential relaying, or an energy-reducing active arc flash mitigation system",
-      "explanation": "NEC 240.87 requires that where the highest continuous current trip setting of a breaker is 1,200 A or higher, a method to reduce clearing time or arc energy must be provided — acceptable methods include zone-selective interlocking and differential relaying — NEC Article 240."
+      "answer": "80 percent",
+      "explanation": "The adjustment-factor table assigns 80 percent to four through six current-carrying conductors. Reference: Table 310.15(C)(1), 2023 NEC."
     },
     {
       "id": 12,
-      "question": "NEC Article 240.24(B) prohibits overcurrent devices from being located in which of the following areas?",
+      "question": "What makes a location a Class II hazardous location?",
       "choices": [
-        "In commercial kitchens adjacent to cooking equipment",
-        "In bathrooms of dwelling units, dormitories, and guest rooms",
-        "In utility rooms of commercial buildings",
-        "In electrical rooms with a locking door"
+        "It is hazardous because of the presence of combustible dust",
+        "It contains only flammable gases or vapors",
+        "It is hazardous only because its equipment exceeds 1000 volts",
+        "It contains no combustible material"
       ],
-      "answer": "In bathrooms of dwelling units, dormitories, and guest rooms",
-      "explanation": "NEC 240.24(B) prohibits overcurrent devices from being installed in the bathrooms of dwelling units, dormitories, and hotel/motel guest rooms — NEC Article 240."
+      "answer": "It is hazardous because of the presence of combustible dust",
+      "explanation": "Class II locations are those hazardous because of the presence of combustible dust. Reference: 500.5(C), 2023 NEC."
     },
     {
       "id": 13,
-      "question": "NEC Article 300.15 generally requires that a box or fitting be installed at every point where wiring methods join or conductors are spliced. Which of the following is a listed exception?",
+      "question": "Critical operations power system wiring must be protected against physical damage. Which wiring method is specifically permitted?",
       "choices": [
-        "Conductors spliced within a junction box with a cover",
-        "Splices made in conduit bodies (condulets) that are accessible and of a sufficient size",
-        "Wire nuts used outside of boxes in finished walls",
-        "Splices made in rigid metallic conduit runs longer than 6 feet"
+        "Rigid metal conduit",
+        "Open knob-and-tube wiring",
+        "Unsupported nonmetallic cable",
+        "Flexible cord laid on the floor"
       ],
-      "answer": "Splices made in conduit bodies (condulets) that are accessible and of a sufficient size",
-      "explanation": "NEC 300.15 requires boxes or fittings at all conductor splices, but permits splices in conduit bodies that are accessible and have sufficient fill volume per NEC 314.16 — NEC Article 300."
+      "answer": "Rigid metal conduit",
+      "explanation": "Rigid metal conduit is one of the specifically permitted wiring methods for COPS wiring protected against physical damage. Reference: 708.10(C)(1), 2023 NEC."
     },
     {
       "id": 14,
-      "question": "NEC Article 310.15 governs conductor ampacity. Which of the following factors does NOT affect conductor ampacity?",
+      "question": "A cable is marked CL4P. What cable type does the marking identify?",
       "choices": [
-        "Ambient temperature",
-        "Number of current-carrying conductors in a raceway",
-        "Insulation temperature rating of the conductor",
-        "The color of the conductor insulation"
+        "Class 4 plenum cable",
+        "Class 4 riser cable",
+        "Class 3 plenum cable",
+        "Class 2 general-purpose cable"
       ],
-      "answer": "The color of the conductor insulation",
-      "explanation": "Conductor ampacity per NEC 310.15 is affected by ambient temperature, number of current-carrying conductors (bundling), and insulation temperature rating — insulation color does not affect ampacity — NEC Article 310."
+      "answer": "Class 4 plenum cable",
+      "explanation": "The cable-marking table identifies CL4P as Class 4 plenum cable. Reference: Table 722.179(B), 2023 NEC."
     },
     {
       "id": 15,
-      "question": "NEC Article 334 covers Nonmetallic-Sheathed Cable (NM/Romex). NM cable is generally permitted to be used in which type of structure?",
+      "question": "Class 2 circuit conductors are installed in the same cable with Class 3 circuit conductors. What insulation is required for the Class 2 conductors?",
       "choices": [
-        "Buildings exceeding three floors above grade in height",
-        "One- and two-family dwellings and other structures permitted by the Code",
-        "All commercial occupancies regardless of construction type",
-        "Wet and damp locations when protected by a conduit"
+        "Insulation at least that required for the Class 3 circuit",
+        "No insulation when the cable is listed",
+        "Insulation rated only for the Class 2 source",
+        "Exactly 300-volt insulation in every installation"
       ],
-      "answer": "One- and two-family dwellings and other structures permitted by the Code",
-      "explanation": "NEC 334.10 permits NM cable in one- and two-family dwellings and multifamily dwellings and other structures where specifically permitted — NEC Article 334."
+      "answer": "Insulation at least that required for the Class 3 circuit",
+      "explanation": "Class 2 conductors installed with Class 3 conductors must have insulation at least that required for the Class 3 circuit. Reference: 725.139(C), 2023 NEC."
     },
     {
       "id": 16,
-      "question": "NEC Article 344 covers Rigid Metal Conduit (RMC). In which of the following environments is RMC specifically well suited for use?",
+      "question": "What is the maximum output voltage permitted for a Class 4 power transmitter?",
       "choices": [
-        "Only in dry indoor environments",
-        "Exposed, concealed, and in concrete, in contact with earth, and in hazardous locations",
-        "Only where embedded in concrete slabs",
-        "Only in plenum air-handling spaces"
+        "450 volts peak or dc",
+        "30 volts peak or dc",
+        "600 volts rms",
+        "1000 volts with no peak limit"
       ],
-      "answer": "Exposed, concealed, and in concrete, in contact with earth, and in hazardous locations",
-      "explanation": "NEC 344.10 permits RMC in all atmospheric conditions and occupancies, including direct earth burial, concrete encasement, and hazardous locations — NEC Article 344."
+      "answer": "450 volts peak or dc",
+      "explanation": "A Class 4 circuit must be supplied by a transmitter having an output of not more than 450 volts peak or dc. Reference: 726.121, 2023 NEC."
     },
     {
       "id": 17,
-      "question": "NEC Article 352 covers Rigid Polyvinyl Chloride Conduit (PVC). What is a key restriction on the use of Schedule 40 PVC conduit exposed to physical damage?",
+      "question": "Exposed communications cables installed on ceiling or sidewall surfaces must be supported in what manner?",
       "choices": [
-        "It is permitted in all exposed locations without restriction",
-        "It shall not be used where exposed to physical damage unless identified for that use",
-        "It must be painted gray when installed exposed",
-        "It requires a metallic inner liner when installed exposed above grade"
+        "By the building structure so the cable will not be damaged by normal building use",
+        "By laying them directly on removable ceiling panels",
+        "Only by attachment to sprinkler piping",
+        "By taping them to any available raceway"
       ],
-      "answer": "It shall not be used where exposed to physical damage unless identified for that use",
-      "explanation": "NEC 352.12 restricts PVC conduit from areas subject to physical damage unless the conduit is specifically identified for such use — NEC Article 352."
+      "answer": "By the building structure so the cable will not be damaged by normal building use",
+      "explanation": "Exposed communications cables on ceilings and sidewalls must be supported by the building structure so normal building use will not damage them. Reference: 800.24(A), 2023 NEC."
     },
     {
       "id": 18,
-      "question": "NEC Article 690.31 governs the wiring methods for PV system DC circuits. Which of the following is required for PV source and output circuit conductors installed on or in buildings?",
+      "question": "What must be done around communications cable penetrations through fire-resistance-rated assemblies?",
       "choices": [
-        "All PV DC conductors must be installed in rigid metal conduit only",
-        "PV conductors shall be identified with a label or marking at all accessible points stating they are solar PV system conductors",
-        "PV DC conductors must use aluminum conductors exclusively",
-        "PV conductors must be shielded and grounded at both ends"
+        "Use approved firestopping methods to maintain the fire-resistance rating",
+        "Leave the openings unsealed",
+        "Use ordinary packing material without approval",
+        "Cover only the visible side with paint"
       ],
-      "answer": "PV conductors shall be identified with a label or marking at all accessible points stating they are solar PV system conductors",
-      "explanation": "NEC 690.31 requires PV source and output circuit conductors to be identified with markings or labels at accessible points to alert personnel — NEC Article 690."
+      "answer": "Use approved firestopping methods to maintain the fire-resistance rating",
+      "explanation": "Communications cable and raceway penetrations must be firestopped using approved methods that maintain the rating. Reference: 800.26, 2023 NEC."
     },
     {
       "id": 19,
-      "question": "NEC Article 706.10 covers the location of Energy Storage Systems (ESS). Which of the following is a location requirement for ESS equipment?",
+      "question": "Fill in the blank: Communications wires and cables passing above a roof generally require a vertical clearance of not less than ______ from all points of the roof over which they pass.",
       "choices": [
-        "ESS must always be installed outdoors",
-        "ESS must be installed in a dedicated room with a 2-hour fire-rated door",
-        "ESS shall be installed in accordance with the manufacturer's installation instructions and shall be accessible only to qualified persons where required",
-        "ESS must be located within 10 feet of the main service panel"
+        "2.5 m (8 ft)",
+        "900 mm (3 ft)",
+        "450 mm (18 in.)",
+        "3.7 m (12 ft)"
       ],
-      "answer": "ESS shall be installed in accordance with the manufacturer's installation instructions and shall be accessible only to qualified persons where required",
-      "explanation": "NEC 706.10 requires ESS to be installed per manufacturer instructions and accessible only to qualified persons where the system presents a shock or arc flash hazard — NEC Article 706."
+      "answer": "2.5 m (8 ft)",
+      "explanation": "The general above-roof clearance is not less than 2.5 m (8 ft), subject to the listed exceptions. Reference: 800.44(B), 2023 NEC."
     },
     {
       "id": 20,
-      "question": "NEC Article 750 covers Energy Management Systems (EMS). What is the primary purpose of an EMS as defined by Article 750?",
+      "question": "Where practicable, what separation must be maintained between lightning-protection conductors and communications wires, communications cables, and CATV-type coaxial cables on buildings?",
       "choices": [
-        "To limit the voltage on distribution circuits to prevent overvoltage",
-        "To monitor and manage electrical loads to prevent exceeding a set demand or to optimize energy use",
-        "To automatically disconnect the utility service during peak rate periods",
-        "To provide backup power during utility outages"
+        "At least 1.8 m (6 ft)",
+        "At least 50 mm (2 in.)",
+        "At least 300 mm (12 in.)",
+        "No separation"
       ],
-      "answer": "To monitor and manage electrical loads to prevent exceeding a set demand or to optimize energy use",
-      "explanation": "NEC Article 750 covers Energy Management Systems, which monitor and control loads to manage energy demand and prevent exceeding load limits — NEC Article 750."
+      "answer": "At least 1.8 m (6 ft)",
+      "explanation": "Where practicable, the required separation from lightning-protection conductors is at least 1.8 m (6 ft). Reference: 800.53, 2023 NEC."
     },
     {
       "id": 21,
-      "question": "NEC Article 760 covers Fire Alarm Systems. Which cable type is required for fire alarm circuits installed in a plenum space?",
+      "question": "An interbuilding communications circuit on a premises has lightning exposure. Where must listed primary protectors be installed?",
       "choices": [
-        "FPLR (Fire Power Limited Riser)",
-        "FPL (Fire Power Limited General Purpose)",
-        "FPLP (Fire Power Limited Plenum)",
-        "FPLS (Fire Power Limited Special)"
+        "At each end of the interbuilding circuit",
+        "Only at the midpoint",
+        "Only at the building with the larger service",
+        "Nowhere if the cable is longer than 42 m (140 ft)"
       ],
-      "answer": "FPLP (Fire Power Limited Plenum)",
-      "explanation": "NEC 760.179 and Table 760.179 require FPLP-rated cable for fire alarm circuits installed in plenum air-handling spaces — NEC Article 760."
+      "answer": "At each end of the interbuilding circuit",
+      "explanation": "Where lightning exposure exists, each interbuilding communications circuit on a premises must be protected by a listed primary protector at each end. Reference: 805.90(A), 2023 NEC."
     },
     {
       "id": 22,
-      "question": "NEC Article 800.53 requires that unlisted communications cables and cables from outside a building be located at least how far from the point of entrance before connecting to listed cables or protected equipment?",
+      "question": "Where must a receiving-station antenna discharge unit be located?",
       "choices": [
-        "3 feet",
-        "50 feet",
-        "As close as practicable to the point of entrance",
-        "No distance requirement; any point in the building is acceptable"
+        "Outside the building or inside between the lead-in entrance and the radio set or transformers, as near as practicable to the entrance",
+        "Only at the antenna’s highest point",
+        "Inside a hazardous location beside combustible material",
+        "At the farthest receptacle from the antenna"
       ],
-      "answer": "50 feet",
-      "explanation": "NEC 800.53 generally limits unlisted outside-plant communications cables to no more than 50 feet inside a building before connecting to listed indoor cables or a primary protector — NEC Article 800."
+      "answer": "Outside the building or inside between the lead-in entrance and the radio set or transformers, as near as practicable to the entrance",
+      "explanation": "The antenna discharge unit location must follow this outside-or-inside arrangement and be as near as practicable to the entrance. Reference: 810.20(B), 2023 NEC."
     },
     {
       "id": 23,
-      "question": "NEC Article 800 classifies communications circuits. Which of the following correctly describes a 'Communications Circuit'?",
+      "question": "Coaxial cable supplies power to equipment directly associated with its radio-frequency distribution system. What maximum voltage is permitted?",
       "choices": [
-        "Any circuit operating above 600 V used for signal transmission",
-        "A circuit that transmits voice, data, or video signals and is powered at limited voltage and power levels",
-        "A circuit used exclusively for fire alarm signaling",
-        "A circuit that supplies power to network switches and routers"
+        "60 volts",
+        "30 volts",
+        "120 volts",
+        "600 volts"
       ],
-      "answer": "A circuit that transmits voice, data, or video signals and is powered at limited voltage and power levels",
-      "explanation": "NEC Article 800 covers communications circuits — those that transmit voice, audio, data, or video signals at limited energy levels — NEC Article 800."
+      "answer": "60 volts",
+      "explanation": "Coaxial cable may deliver power to directly associated equipment if voltage is not over 60 volts and the source has power-limiting characteristics. Reference: 820.15, 2023 NEC."
     },
     {
       "id": 24,
-      "question": "Per NEC Article 820.44, coaxial cable used in CATV systems that is run between floors in a building (in riser shafts) shall be rated at minimum:",
+      "question": "For a direct-buried network-powered broadband cable in a location not otherwise specified, what minimum cover is required?",
       "choices": [
-        "CATV (basic grade, general purpose)",
-        "CATVP (plenum rated)",
-        "CATVR (riser rated)",
-        "CATVX (limited use)"
+        "450 mm (18 in.)",
+        "150 mm (6 in.)",
+        "300 mm (12 in.)",
+        "600 mm (24 in.)"
       ],
-      "answer": "CATVR (riser rated)",
-      "explanation": "NEC 820.179 and Table 820.179 require CATVR-rated coaxial cable for installations in vertical riser shafts — NEC Article 820."
+      "answer": "450 mm (18 in.)",
+      "explanation": "The minimum-cover table specifies 450 mm (18 in.) for direct-buried cable in locations not otherwise specified. Reference: Table 830.47(A), 2023 NEC."
     },
     {
       "id": 25,
-      "question": "NEC Article 830.3 classifies network-powered broadband communications circuits. A 'low power' network-powered broadband circuit is characterized by:",
+      "question": "An ideal transformer has 800 primary turns and 200 secondary turns. If the secondary supplies 16 amperes, what current flows in the primary?",
       "choices": [
-        "Output power not exceeding 250 VA and 150 V",
-        "Output power not exceeding 100 VA and operating at or below 100 V",
-        "Output power not exceeding 15 W regardless of voltage",
-        "Any circuit delivering power over a coaxial cable"
+        "4 amperes",
+        "16 amperes",
+        "64 amperes",
+        "2 amperes"
       ],
-      "answer": "Output power not exceeding 15 W regardless of voltage",
-      "explanation": "NEC Article 830 classifies low-power network-powered broadband circuits as those where the power output does not exceed 15 W — NEC Article 830."
+      "answer": "4 amperes",
+      "explanation": "For an ideal transformer, Ip = Is × Ns ÷ Np = 16 × 200 ÷ 800 = 4 amperes. Reference: General trade theory — ideal transformer current ratio."
     },
     {
       "id": 26,
-      "question": "NEC Article 840 covers Premises-Powered Broadband Communications Systems. What distinguishes an Article 840 system from an Article 830 system?",
+      "question": "A conductor carrying 7.5 amperes passes through a current-transformer window four times. What total ampere-turns does the current transformer see?",
       "choices": [
-        "Article 840 covers fiber-to-the-home (FTTH) systems powered from premises equipment rather than from the network",
-        "Article 840 covers coaxial-based systems; Article 830 covers fiber-based systems",
-        "Article 840 applies only to commercial buildings; Article 830 applies to residences",
-        "Article 840 systems require no grounding or bonding"
+        "30 ampere-turns",
+        "1.875 ampere-turns",
+        "7.5 ampere-turns",
+        "120 ampere-turns"
       ],
-      "answer": "Article 840 covers fiber-to-the-home (FTTH) systems powered from premises equipment rather than from the network",
-      "explanation": "NEC Article 840 covers premises-powered broadband systems (e.g., FTTH/optical network terminals) where power is supplied by premises equipment rather than from the network provider — NEC Article 840."
+      "answer": "30 ampere-turns",
+      "explanation": "Ampere-turns equal current multiplied by turns: 7.5 A × 4 turns = 30 ampere-turns. Reference: General trade theory — ampere-turn relationship."
     },
     {
       "id": 27,
-      "question": "RCW 19.28.006 defines 'electrical work' for the purposes of the chapter. Which of the following activities is considered 'electrical work' under RCW 19.28?",
+      "question": "What effects can nonsinusoidal currents from nonlinear loads produce in a transformer?",
       "choices": [
-        "Replacing a light bulb in a residential fixture",
-        "Installing, maintaining, or repairing electrical wiring, devices, appliances, and equipment",
-        "Painting an electrical panel enclosure",
-        "Cleaning the exterior of an outdoor electrical disconnect"
+        "Additional losses and transformer heating",
+        "Elimination of all winding losses",
+        "A guaranteed reduction in conductor temperature",
+        "Perfectly sinusoidal neutral current"
       ],
-      "answer": "Installing, maintaining, or repairing electrical wiring, devices, appliances, and equipment",
-      "explanation": "RCW 19.28.006 defines 'electrical work' broadly to include installing, maintaining, or repairing electrical wiring, devices, appliances, and equipment — RCW 19.28.006."
+      "answer": "Additional losses and transformer heating",
+      "explanation": "The transformer ventilation information notes that nonlinear loads with nonsinusoidal currents can result in additional losses and transformer heating. Reference: 450.9, Informational Note No. 2, 2023 NEC."
     },
     {
       "id": 28,
-      "question": "Under RCW 19.28, a homeowner may perform electrical work on their own single-family residence under which condition?",
+      "question": "Why is the neutral of a four-wire, three-phase wye circuit counted as current carrying when the major portion of the load is nonlinear?",
       "choices": [
-        "The homeowner must first pass a written electrical exam administered by L&I",
-        "The homeowner must obtain the required permit and the work must be inspected by L&I",
-        "No permit or inspection is required for homeowner work",
-        "The homeowner must be supervised by a licensed journeyman electrician"
+        "Harmonic currents are present in the neutral conductor",
+        "The neutral always carries zero current",
+        "The phase conductors contain no current",
+        "The circuit becomes single phase"
       ],
-      "answer": "The homeowner must obtain the required permit and the work must be inspected by L&I",
-      "explanation": "RCW 19.28 allows a homeowner to perform electrical work on their own single-family dwelling, but a permit must be obtained and the work is subject to L&I inspection — RCW 19.28."
+      "answer": "Harmonic currents are present in the neutral conductor",
+      "explanation": "For this nonlinear-load arrangement, the NEC states that harmonic currents are present in the neutral, so it is current carrying. Reference: 310.15(E)(3), 2023 NEC."
     },
     {
       "id": 29,
-      "question": "RCW 19.28.191 requires that all electrical contractors in Washington State maintain which of the following before performing electrical work?",
+      "question": "A 24-volt source is connected to 4-ohm and 8-ohm resistors in series. What current flows in the circuit?",
       "choices": [
-        "A surety bond and certificate of insurance",
-        "Only a business license from the city",
-        "A letter of authorization from the local utility",
-        "A blanket permit from L&I covering all projects statewide"
+        "2 amperes",
+        "3 amperes",
+        "6 amperes",
+        "12 amperes"
       ],
-      "answer": "A surety bond and certificate of insurance",
-      "explanation": "RCW 19.28.191 requires electrical contractors to file a surety bond and maintain a certificate of insurance as a condition of licensure — RCW 19.28.191."
+      "answer": "2 amperes",
+      "explanation": "Series resistance is 4 + 8 = 12 ohms. Ohm’s law gives I = 24 ÷ 12 = 2 amperes. Reference: General trade theory — series resistance and Ohm’s law."
     },
     {
       "id": 30,
-      "question": "Under RCW 19.28, which of the following accurately describes the difference between a 'telecommunications contractor' license and a 'telecommunications administrator' certificate?",
+      "question": "Three parallel telecommunications devices each draw 0.8 ampere from the same source. What total current does the source supply?",
       "choices": [
-        "They are identical credentials used interchangeably",
-        "The contractor license is held by the business entity; the administrator certificate is held by the individual responsible for supervising the work",
-        "The administrator certificate allows the individual to own and operate a business; the contractor license allows field installation only",
-        "The contractor license is issued by the city; the administrator certificate is issued by the state"
+        "2.4 amperes",
+        "0.8 ampere",
+        "0.267 ampere",
+        "8 amperes"
       ],
-      "answer": "The contractor license is held by the business entity; the administrator certificate is held by the individual responsible for supervising the work",
-      "explanation": "Under RCW 19.28, the telecommunications contractor license is a business license; the telecommunications administrator certificate is held by the qualifying individual who supervises and is responsible for the contractor's work — RCW 19.28."
-    },
-    {
-      "id": 31,
-      "question": "RCW 19.28.401 establishes an electrical board. What is the primary function of this board?",
-      "choices": [
-        "To conduct final inspections in lieu of L&I",
-        "To advise the director of L&I on matters relating to electrical licensing, training, and safety",
-        "To set utility rates for electrical service",
-        "To approve all electrical permit applications in the state"
-      ],
-      "answer": "To advise the director of L&I on matters relating to electrical licensing, training, and safety",
-      "explanation": "RCW 19.28.401 establishes an electrical board that advises the director of L&I on licensing standards, training requirements, and electrical safety matters — RCW 19.28.401."
-    },
-    {
-      "id": 32,
-      "question": "Under RCW 19.28, a telecommunications contractor who allows their license to lapse and continues to perform work may be subject to:",
-      "choices": [
-        "Only a written reprimand",
-        "Civil fines, license revocation, and a stop-work order",
-        "Referral to the electrical board for mediation only",
-        "A requirement to retake the administrator exam"
-      ],
-      "answer": "Civil fines, license revocation, and a stop-work order",
-      "explanation": "RCW 19.28 authorizes L&I to impose civil fines, revoke licenses, and issue stop-work orders for contractors performing work without a current, valid license — RCW 19.28."
-    },
-    {
-      "id": 33,
-      "question": "WAC 296-46B establishes the process for third-party electrical inspections in Washington. Under what circumstances may a third-party inspection agency be used in lieu of L&I inspections?",
-      "choices": [
-        "Third-party inspections are never permitted in Washington State",
-        "When the project owner requests it and the third-party agency is certified by L&I",
-        "Only for projects exceeding $1 million in electrical work",
-        "Only for work performed by licensed master electricians"
-      ],
-      "answer": "When the project owner requests it and the third-party agency is certified by L&I",
-      "explanation": "WAC 296-46B allows certified third-party electrical inspection agencies to perform inspections in lieu of L&I, provided the agency is certified and the process is followed — WAC 296-46B."
-    },
-    {
-      "id": 34,
-      "question": "WAC 296-46B specifies how electrical permits are obtained in Washington. Which of the following is a required step before an electrical permit is issued?",
-      "choices": [
-        "Submission of stamped engineered drawings for all residential projects",
-        "Completion of the permit application with a description of the work and payment of the applicable fee",
-        "Approval from the local fire marshal before L&I issues the permit",
-        "A pre-construction meeting with the L&I inspector"
-      ],
-      "answer": "Completion of the permit application with a description of the work and payment of the applicable fee",
-      "explanation": "WAC 296-46B requires that an electrical permit application describing the scope of work be submitted and fees paid before the permit is issued — WAC 296-46B."
-    },
-    {
-      "id": 35,
-      "question": "WAC 296-46B addresses the qualifications for telecommunications administrator applicants. Which of the following is a general prerequisite for obtaining a telecommunications administrator certificate in Washington?",
-      "choices": [
-        "A minimum of 10 years of field experience as a licensed journeyman electrician",
-        "Passing the telecommunications administrator examination and meeting experience or education requirements",
-        "Holding a professional engineer (PE) license",
-        "Completion of a 4-year electrical engineering degree"
-      ],
-      "answer": "Passing the telecommunications administrator examination and meeting experience or education requirements",
-      "explanation": "WAC 296-46B requires applicants for a telecommunications administrator certificate to pass the required examination and meet applicable experience or education requirements — WAC 296-46B."
-    },
-    {
-      "id": 36,
-      "question": "WAC 296-46B specifies work that may be performed by a trainee telecommunications worker. Which of the following is accurate regarding trainee work?",
-      "choices": [
-        "Trainees may work independently without supervision on any telecommunications project",
-        "Trainees must work under the direct supervision of a certified telecommunications administrator or qualified supervisor",
-        "Trainees are prohibited from performing any work until they pass the administrator exam",
-        "Trainees may supervise other trainees if they have more than one year of experience"
-      ],
-      "answer": "Trainees must work under the direct supervision of a certified telecommunications administrator or qualified supervisor",
-      "explanation": "WAC 296-46B requires that telecommunications trainees work under the direct supervision of a qualified, certified administrator or supervisor — WAC 296-46B."
-    },
-    {
-      "id": 37,
-      "question": "WAC 296-46B addresses situations where an electrical installation fails inspection. What is the required process after a failed inspection?",
-      "choices": [
-        "The contractor may energize the installation and re-request inspection within 30 days",
-        "The deficiencies cited must be corrected and a re-inspection requested before the installation may be energized or covered",
-        "A written appeal must be filed within 5 days or the permit is revoked",
-        "The contractor may correct the deficiency and self-certify without a re-inspection"
-      ],
-      "answer": "The deficiencies cited must be corrected and a re-inspection requested before the installation may be energized or covered",
-      "explanation": "WAC 296-46B requires that deficiencies noted during an inspection be corrected and a re-inspection be scheduled; the installation shall not be energized or concealed until it passes — WAC 296-46B."
-    },
-    {
-      "id": 38,
-      "question": "Under WAC 296-46B, what is the consequence if an electrical permit expires before inspections are completed?",
-      "choices": [
-        "The work is automatically approved if no violations were noted at rough-in",
-        "A new permit must be obtained and associated fees paid before work may continue",
-        "The contractor receives a 12-month automatic extension at no charge",
-        "The permit expiration has no legal effect on the installation"
-      ],
-      "answer": "A new permit must be obtained and associated fees paid before work may continue",
-      "explanation": "WAC 296-46B requires that a new permit be obtained if the original permit expires before all required inspections are completed — WAC 296-46B."
-    },
-    {
-      "id": 39,
-      "question": "A capacitive load causes the current waveform to do which of the following relative to the voltage waveform?",
-      "choices": [
-        "Lag voltage by 90°",
-        "Remain in phase with voltage",
-        "Lead voltage",
-        "Lead voltage by exactly 180°"
-      ],
-      "answer": "Lead voltage",
-      "explanation": "In a capacitive load, current leads voltage because the capacitor charges before the voltage reaches its peak. This is opposite to the behavior of an inductive load — General Theory (AC Phase Relationships)."
-    },
-    {
-      "id": 40,
-      "question": "In a star (point-to-point) network topology used in structured cabling, all end devices connect to a central device such as a switch or hub. What is a primary advantage of this topology compared to a bus topology?",
-      "choices": [
-        "A single cable failure disables all devices on the network",
-        "It requires less cable than a bus topology for the same number of devices",
-        "A failure in one cable link affects only that individual device, not the rest of the network",
-        "All devices share a single transmission medium, reducing total cost"
-      ],
-      "answer": "A failure in one cable link affects only that individual device, not the rest of the network",
-      "explanation": "In a star topology, each device has a dedicated link to the central switch; a single link failure isolates only that device, leaving the rest of the network operational — General Theory (Network Topology)."
+      "answer": "2.4 amperes",
+      "explanation": "Parallel branch currents add: 0.8 + 0.8 + 0.8 = 2.4 amperes. Reference: General trade theory — Kirchhoff’s current law."
     }
   ]
 }
