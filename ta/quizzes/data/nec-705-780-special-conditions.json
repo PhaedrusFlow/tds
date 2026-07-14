@@ -202,49 +202,51 @@
 },
 {
   "id": 5,
-  "question": "Article 702.1 Informational Note describes optional standby systems as typically serving loads such as heating and refrigeration systems, data processing and communications systems, and industrial processes that, when stopped during a power outage, could cause discomfort, serious interruption of the process, damage to the product or process, or similar effects, but that are not legally required. A data center includes telecom racks that must remain operational for public safety dispatch during a utility outage. The system design uses an automatic transfer switch and generator dedicated to these loads. How are these telecom loads classified?",
+  "question": "A data center includes telecom racks that must remain operational for public safety dispatch during a utility outage. The system design uses an automatic transfer switch and generator dedicated to these loads. How are these telecom loads classified under the NEC standby system hierarchy?",
   "choices": [
-    "As legally required standby loads because they support public safety communication",
-    "As optional standby loads in accordance with Article 702.1 Informational Note since they are communications systems",
-    "As emergency system loads because they use the same generator as the fire pump",
-    "As normal system loads because telecom is always considered noncritical"
+    "They are legally required standby loads because they support public safety communications",
+    "They are optional standby loads because they are data processing and communications systems",
+    "They are emergency system loads because they share equipment with other life safety loads",
+    "They are normal system loads because telecom is always considered noncritical"
   ],
-  "answer": "As legally required standby loads because they support public safety communication",
+  "answer": "They are legally required standby loads because they support public safety communications",
   "explanation": {
     "correct": {
-      "text": "Article 702.1 states that Article 702 applies to the installation and operation of optional standby systems and notes that the systems \"are typically installed to provide an alternate source of electric power\" for loads such as heating and refrigeration systems, data processing and communications systems, and industrial processes that, when stopped during any power outage, could cause discomfort, serious interruption of the process, damage to the product or process, or the like. These optional standby systems serve loads that are not legally required. Public safety dispatch telecom racks provide legally required public safety communications, so they are classified as legally required standby loads under Article 701, not as optional standby loads under Article 702.",
+      "text": "Optional standby systems covered by NEC Article 702 serve loads that are not legally required, where continued operation during an outage is desirable but not essential to life safety. Telecom racks used for public safety dispatch provide legally required public safety communications and therefore are classified as legally required standby loads under Article 701, not as optional standby loads under Article 702.",
       "indexKeywords": [
-        "702.1 Informational Note -> optional standby typical loads",
-        "optional standby systems -> not legally required",
-        "public safety communications -> legally required standby"
+        "Optional standby systems -> not legally required -> 702.1 Informational Note",
+        "Legally required standby systems -> public safety communications -> 701.1"
       ],
       "sections": [
-        "702.1"
+        "702.1",
+        "701.1"
       ]
     },
     "choices": {
-      "As legally required standby loads because they support public safety communication": {
-        "text": "This option correctly distinguishes public safety dispatch telecom racks from the optional standby loads described in Article 702.1 Informational Note. Optional standby systems \"are typically installed\" for data processing and communications systems and industrial processes that are not legally required but where loss of power could cause discomfort, serious interruption, or damage. Public safety dispatch is a legally required function, so these telecom loads are classified as legally required standby rather than optional standby.",
-        "sections": [
-          "702.1"
-        ]
-      },
-      "As optional standby loads in accordance with Article 702.1 Informational Note since they are communications systems": {
-        "text": "Article 702.1 Informational Note does mention \"data processing and communications systems\" as typical optional standby loads, but the note describes loads that are installed to avoid discomfort, serious interruption of the process, damage to the product or process, or similar effects, and that are not legally required. Public safety dispatch communications are legally required for public safety, so they do not fall under Article 702 optional standby systems even though they are communications systems.",
-        "sections": [
-          "702.1"
-        ]
-      },
-      "As emergency system loads because they use the same generator as the fire pump": {
-        "text": "Sharing a generator with emergency loads does not automatically classify all connected loads as emergency system loads under Article 700. Article 702.1 and its Informational Note make clear that optional standby systems serve specific types of loads that are not legally required, while Article 700 addresses emergency systems for life safety. Public safety dispatch telecom racks are more appropriately treated as legally required standby loads rather than being automatically classified as emergency loads simply because they share equipment.",
+      "They are legally required standby loads because they support public safety communications": {
+        "text": "This answer correctly distinguishes public safety dispatch telecom racks from the optional standby loads described in Article 702. Optional standby systems serve loads that are not legally required, while telecom used for public safety dispatch is a legally required function and therefore a legally required standby load.",
         "sections": [
           "702.1",
-          "700.1"
+          "701.1"
         ]
       },
-      "As normal system loads because telecom is always considered noncritical": {
-        "text": "Article 702.1 Informational Note shows that the NEC recognizes data processing and communications systems as typical optional standby loads when their operation during an outage is important to avoid discomfort or serious interruption, even when they are not legally required. Public safety dispatch telecom racks go further: they provide legally required public safety communications. Treating them as normal, noncritical loads is inconsistent with the NEC hierarchy that distinguishes between emergency, legally required standby, and optional standby systems.",
+      "They are optional standby loads because they are data processing and communications systems": {
+        "text": "Article 702.1 Informational Note does mention \"data processing and communications systems\" as typical optional standby loads, but optional standby systems serve loads that are not legally required and where loss of power would cause discomfort or economic disruption. Public safety dispatch communications are legally required for public safety and so do not fall under optional standby classification.",
         "sections": [
+          "702.1"
+        ]
+      },
+      "They are emergency system loads because they share equipment with other life safety loads": {
+        "text": "Sharing a generator or transfer equipment with emergency loads does not automatically make all connected loads emergency system loads under Article 700. Emergency systems serve loads essential to safety to human life. Public safety dispatch telecom racks are more appropriately classified as legally required standby loads under Article 701.",
+        "sections": [
+          "700.1",
+          "701.1"
+        ]
+      },
+      "They are normal system loads because telecom is always considered noncritical": {
+        "text": "The NEC distinguishes between emergency, legally required standby, and optional standby systems for loads that must remain operational during outages. Telecom used for public safety dispatch is not treated as a normal noncritical load; it is generally considered a legally required standby load.",
+        "sections": [
+          "701.1",
           "702.1"
         ]
       }
