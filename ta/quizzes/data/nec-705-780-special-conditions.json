@@ -307,51 +307,28 @@
 },
 {
   "id": 7,
-  "question": "A critical operations power system (COPS) supports a 24/7 telecom operations center that must remain functional during natural disasters. What survivability requirement applies to supply conductors serving this COPS telecom equipment?",
+  "question": "A critical operations power system (COPS) supports a 24/7 telecom operations center that must remain functional during natural disasters. Feeder and branch-circuit wiring serving this COPS telecom equipment must be protected so that it maintains operation during a fire for the required time. What requirement applies to the supply conductors serving this COPS telecom equipment?",
   "choices": [
     "Supply conductors must be installed in metallic raceway only, with no additional requirements",
     "Supply conductors must be sized at 200% of the load current to ensure reliability",
-    "Supply conductors must have survivability features such as 2-hour fire-resistive cable systems or equivalent protection for the required duration",
+    "Supply conductors must be protected by a listed electrical circuit protective system or fire-resistive cable system with a minimum fire rating, or by a listed fire-rated assembly or equivalent means for the required duration",
     "Supply conductors may be run with normal building branch circuits if overcurrent devices are selectively coordinated"
   ],
-  "answer": "Supply conductors must have survivability features such as 2-hour fire-resistive cable systems or equivalent protection for the required duration",
+  "answer": "Supply conductors must be protected by a listed electrical circuit protective system or fire-resistive cable system with a minimum fire rating, or by a listed fire-rated assembly or equivalent means for the required duration",
   "explanation": {
     "correct": {
-      "text": "NEC 708.10 and related sections require survivability for COPS feeders and branch circuits supplying critical operations areas. This can be achieved through 2-hour fire-resistive cable systems, installation in spaces with 2-hour fire rating, or other methods providing equivalent protection for the specified duration. Telecom operations centers designated as COPS must be supplied by circuits that maintain functionality during fire or other adverse conditions, not by standard wiring without survivability measures.",
+      "text": "For critical operations power systems, feeder and branch-circuit wiring must have survivability so that circuits remain operational during a fire for the required time. This is achieved by methods such as a listed electrical circuit protective system with a minimum fire rating, a listed fire-resistive cable system, a listed fire-rated assembly with a minimum fire rating that contains only the protected circuits, or encasement in concrete or other equivalent protection, rather than simply oversizing conductors or running them with normal building wiring.",
       "indexKeywords": [
-        "Critical Operations Power Systems -> Survivability -> 708.10",
-        "Fire-resistive cable systems -> COPS -> 708.10"
+        "listed electrical circuit protective system",
+        "listed fire-resistive cable system",
+        "listed fire-rated assembly",
+        "minimum fire rating",
+        "feeder and branch-circuit wiring survivability"
       ],
       "sections": [
-        "708.10"
+        "708.10(C)",
+        "700.10(D)(1)"
       ]
-    },
-    "choices": {
-      "Supply conductors must be installed in metallic raceway only, with no additional requirements": {
-        "text": "Using metallic raceway alone does not meet the survivability requirements of NEC Article 708. Conductors must be protected for a specified duration, often via 2-hour fire-resistive systems or equivalent construction.",
-        "sections": [
-          "708.10"
-        ]
-      },
-      "Supply conductors must be sized at 200% of the load current to ensure reliability": {
-        "text": "Article 708 focuses on survivability, routing, and protection rather than arbitrarily doubling conductor ampacity. Conductors must be properly sized per load calculations, but survivability is achieved through fire-resistive systems and protected routing.",
-        "sections": [
-          "708.10",
-          "310.15"
-        ]
-      },
-      "Supply conductors must have survivability features such as 2-hour fire-resistive cable systems or equivalent protection for the required duration": {
-        "text": "This option correctly reflects NEC 708.10, which requires COPS feeders and circuits to be designed for survivability using methods such as 2-hour fire-resistive cable systems or equivalent protective construction.",
-        "sections": [
-          "708.10"
-        ]
-      },
-      "Supply conductors may be run with normal building branch circuits if overcurrent devices are selectively coordinated": {
-        "text": "Selective coordination of overcurrent devices is important, but NEC Article 708 still requires physical survivability measures for COPS circuits. Simply sharing raceways with normal building circuits does not meet the survivability requirements.",
-        "sections": [
-          "708.10"
-        ]
-      }
     }
   }
 },
