@@ -1,0 +1,367 @@
+{
+  "id": "nec-100-110-general",
+  "title": "NEC 2023 Articles 90–110 — Introduction, Definitions, and General Requirements",
+  "description": "A 30-question practice test drawn from NEC 70, 2023 edition. The quiz follows the official 2-to-3 weighting with 12 questions on the Introduction and 18 questions on definitions and general electrical-installation requirements.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of the Code?",
+      "choices": [
+        "To provide a complete design specification for every electrical installation",
+        "The practical safeguarding of persons and property from hazards arising from the use of electricity",
+        "To serve as an instruction manual for untrained persons",
+        "To ensure that every installation is efficient and adequate for future expansion"
+      ],
+      "answer": "The practical safeguarding of persons and property from hazards arising from the use of electricity",
+      "explanation": "Correct: The practical safeguarding of persons and property from hazards arising from the use of electricity. Section 90.2(A) states this purpose and also states that the Code is not intended as a design specification or an instruction manual for untrained persons."
+    },
+    {
+      "id": 2,
+      "question": "What does compliance with the Code and proper maintenance provide?",
+      "choices": [
+        "An installation that is essentially free from hazard but not necessarily efficient, convenient, or adequate for good service or future expansion",
+        "An installation guaranteed to remain adequate for all future electrical loads",
+        "An installation that requires no further inspection or maintenance",
+        "An installation optimized for the lowest construction cost"
+      ],
+      "answer": "An installation that is essentially free from hazard but not necessarily efficient, convenient, or adequate for good service or future expansion",
+      "explanation": "Correct: An installation that is essentially free from hazard but not necessarily efficient, convenient, or adequate for good service or future expansion. This is the adequacy statement in 90.2(B)."
+    },
+    {
+      "id": 3,
+      "question": "Which communications installation is outside the coverage of the Code?",
+      "choices": [
+        "Customer-owned communications equipment installed in ordinary office space",
+        "Communications equipment under the exclusive control of a communications utility and located outdoors or in building spaces used exclusively for that installation",
+        "Communications cabling installed in a dwelling by the property owner",
+        "A premises network powered from customer-owned electrical equipment"
+      ],
+      "answer": "Communications equipment under the exclusive control of a communications utility and located outdoors or in building spaces used exclusively for that installation",
+      "explanation": "Correct: Communications equipment under the exclusive control of a communications utility and located outdoors or in building spaces used exclusively for that installation. Section 90.2(D)(4) identifies this installation as not covered."
+    },
+    {
+      "id": 4,
+      "question": "Which statement correctly describes the general arrangement of the Code?",
+      "choices": [
+        "Chapters 1 through 4 apply generally, while Chapters 5 through 7 address special occupancies, equipment, or conditions and may supplement or modify earlier requirements",
+        "Each chapter applies independently and can never modify another chapter",
+        "Only Chapters 1 and 2 apply generally; every later chapter is informational",
+        "Chapters 5 through 7 replace all requirements in Chapters 1 through 4"
+      ],
+      "answer": "Chapters 1 through 4 apply generally, while Chapters 5 through 7 address special occupancies, equipment, or conditions and may supplement or modify earlier requirements",
+      "explanation": "Correct: Chapters 1 through 4 apply generally, while Chapters 5 through 7 address special occupancies, equipment, or conditions and may supplement or modify earlier requirements. Section 90.3 describes this arrangement."
+    },
+    {
+      "id": 5,
+      "question": "How do the requirements for communications systems relate to the requirements in Chapters 1 through 7?",
+      "choices": [
+        "All requirements in Chapters 1 through 7 apply automatically",
+        "They are not subject to Chapters 1 through 7 except where a requirement is specifically referenced",
+        "Only Chapters 1 and 3 apply",
+        "Requirements in Chapters 1 through 7 can never apply"
+      ],
+      "answer": "They are not subject to Chapters 1 through 7 except where a requirement is specifically referenced",
+      "explanation": "Correct: They are not subject to Chapters 1 through 7 except where a requirement is specifically referenced. Section 90.3 states this rule for Chapter 8 communications systems."
+    },
+    {
+      "id": 6,
+      "question": "Which statement correctly describes the status of the tables and informative annexes?",
+      "choices": [
+        "The tables apply as referenced; informative annexes are included for information and are not Code requirements",
+        "All tables and informative annexes are mandatory in every installation",
+        "Tables are informational only, but informative annexes are enforceable",
+        "Neither the tables nor the informative annexes may be used"
+      ],
+      "answer": "The tables apply as referenced; informative annexes are included for information and are not Code requirements",
+      "explanation": "Correct: The tables apply as referenced; informative annexes are included for information and are not Code requirements. Section 90.3 establishes the status of Chapter 9 tables and informative annexes."
+    },
+    {
+      "id": 7,
+      "question": "Who has responsibility for interpreting the rules, deciding whether equipment and materials are approved, and granting special permission where contemplated?",
+      "choices": [
+        "The equipment manufacturer",
+        "The serving electric utility in every case",
+        "The authority having jurisdiction",
+        "The installer who obtained the permit"
+      ],
+      "answer": "The authority having jurisdiction",
+      "explanation": "Correct: The authority having jurisdiction. Section 90.4(B) assigns the enforcing authority responsibility for interpretations, approval decisions, and special permission contemplated by the rules."
+    },
+    {
+      "id": 8,
+      "question": "When may a specific requirement be waived or an alternative method be permitted by special permission?",
+      "choices": [
+        "Whenever the alternative costs less",
+        "When equivalent objectives can be achieved by establishing and maintaining effective safety",
+        "Whenever the installer has used the method before",
+        "Only when the serving utility requests the change"
+      ],
+      "answer": "When equivalent objectives can be achieved by establishing and maintaining effective safety",
+      "explanation": "Correct: When equivalent objectives can be achieved by establishing and maintaining effective safety. Section 90.4(C) permits the authority having jurisdiction to waive specific requirements or permit alternative methods under that condition."
+    },
+    {
+      "id": 9,
+      "question": "Which words characterize a mandatory rule?",
+      "choices": [
+        "Should or should not",
+        "May or may not",
+        "Shall or shall not",
+        "Can or cannot"
+      ],
+      "answer": "Shall or shall not",
+      "explanation": "Correct: Shall or shall not. Section 90.5(A) states that mandatory rules identify actions specifically required or prohibited and are characterized by these terms."
+    },
+    {
+      "id": 10,
+      "question": "Which wording characterizes a permissive rule?",
+      "choices": [
+        "Shall be permitted or shall not be required",
+        "Shall or shall not",
+        "Should be considered",
+        "Is recommended or is discouraged"
+      ],
+      "answer": "Shall be permitted or shall not be required",
+      "explanation": "Correct: Shall be permitted or shall not be required. Section 90.5(B) uses these terms for actions that are allowed but not required, normally describing options or alternative methods."
+    },
+    {
+      "id": 11,
+      "question": "Are informational notes enforceable requirements?",
+      "choices": [
+        "Yes, whenever they reference another standard",
+        "Yes, but only in commercial installations",
+        "No; they are informational only and are not enforceable requirements",
+        "No, unless the installer chooses to follow them"
+      ],
+      "answer": "No; they are informational only and are not enforceable requirements",
+      "explanation": "Correct: No; they are informational only and are not enforceable requirements. Section 90.5(C) describes informational notes as explanatory material rather than enforceable Code requirements."
+    },
+    {
+      "id": 12,
+      "question": "How are SI and inch-pound measurements generally presented, and which value establishes compliance?",
+      "choices": [
+        "Inch-pound units appear first, and both values must be met simultaneously",
+        "SI units appear first with inch-pound units immediately afterward in parentheses; compliance with either displayed system constitutes compliance",
+        "Only SI units may be used for compliance",
+        "Only inch-pound units may be used for compliance"
+      ],
+      "answer": "SI units appear first with inch-pound units immediately afterward in parentheses; compliance with either displayed system constitutes compliance",
+      "explanation": "Correct: SI units appear first with inch-pound units immediately afterward in parentheses; compliance with either displayed system constitutes compliance. Sections 90.9(B) and 90.9(D) provide these rules."
+    },
+    {
+      "id": 13,
+      "question": "What does the term “approved” mean?",
+      "choices": [
+        "Acceptable to the authority having jurisdiction",
+        "Manufactured in accordance with an ANSI standard",
+        "Listed by any testing laboratory",
+        "Accepted by the electrical contractor"
+      ],
+      "answer": "Acceptable to the authority having jurisdiction",
+      "explanation": "Correct: Acceptable to the authority having jurisdiction. Article 100 defines Approved using this wording."
+    },
+    {
+      "id": 14,
+      "question": "What is ampacity?",
+      "choices": [
+        "The maximum current, in amperes, that a conductor can carry continuously under the conditions of use without exceeding its temperature rating",
+        "The maximum fault current that a conductor can withstand for one cycle",
+        "The rating of the overcurrent device protecting a conductor",
+        "The current a conductor can carry without any adjustment for its installation conditions"
+      ],
+      "answer": "The maximum current, in amperes, that a conductor can carry continuously under the conditions of use without exceeding its temperature rating",
+      "explanation": "Correct: The maximum current, in amperes, that a conductor can carry continuously under the conditions of use without exceeding its temperature rating. This is the Article 100 definition of Ampacity."
+    },
+    {
+      "id": 15,
+      "question": "Which conductors make up a branch circuit?",
+      "choices": [
+        "The conductors between the serving utility and the service point",
+        "The conductors between the final overcurrent device protecting the circuit and the outlets",
+        "All conductors between the service equipment and a panelboard",
+        "Only the ungrounded conductors supplying a single appliance"
+      ],
+      "answer": "The conductors between the final overcurrent device protecting the circuit and the outlets",
+      "explanation": "Correct: The conductors between the final overcurrent device protecting the circuit and the outlets. Article 100 defines Branch Circuit as the circuit conductors between those points."
+    },
+    {
+      "id": 16,
+      "question": "Which conductors make up a feeder?",
+      "choices": [
+        "All circuit conductors between the service equipment, a separately derived-system source, or another power-supply source and the final branch-circuit overcurrent device",
+        "Only the conductors between a meter and the service disconnect",
+        "The conductors between the final overcurrent device and the outlets",
+        "Only conductors supplying motors from a motor-control center"
+      ],
+      "answer": "All circuit conductors between the service equipment, a separately derived-system source, or another power-supply source and the final branch-circuit overcurrent device",
+      "explanation": "Correct: All circuit conductors between the service equipment, a separately derived-system source, or another power-supply source and the final branch-circuit overcurrent device. This is the Article 100 definition of Feeder."
+    },
+    {
+      "id": 17,
+      "question": "Fill in the blank: A continuous load is one for which the maximum current is expected to continue for ______ or more.",
+      "choices": [
+        "1 hour",
+        "2 hours",
+        "3 hours",
+        "8 hours"
+      ],
+      "answer": "3 hours",
+      "explanation": "Correct: 3 hours. Article 100 defines Continuous Load as a load where the maximum current is expected to continue for 3 hours or more."
+    },
+    {
+      "id": 18,
+      "question": "Which description meets the definition of a dwelling unit?",
+      "choices": [
+        "A single unit providing complete and independent living facilities for one or more persons, including permanent provisions for living, sleeping, cooking, and sanitation",
+        "Any sleeping room containing a bathroom",
+        "Any building occupied by one family, whether or not it has cooking facilities",
+        "A room providing temporary lodging and shared cooking facilities"
+      ],
+      "answer": "A single unit providing complete and independent living facilities for one or more persons, including permanent provisions for living, sleeping, cooking, and sanitation",
+      "explanation": "Correct: A single unit providing complete and independent living facilities for one or more persons, including permanent provisions for living, sleeping, cooking, and sanitation. This is the Article 100 definition of Dwelling Unit in the 2023 edition."
+    },
+    {
+      "id": 19,
+      "question": "What is an outlet?",
+      "choices": [
+        "Only a receptacle installed for cord-and-plug-connected equipment",
+        "A point on the wiring system at which current is taken to supply utilization equipment",
+        "Any box in which conductors are spliced",
+        "A device that automatically opens a circuit during overcurrent"
+      ],
+      "answer": "A point on the wiring system at which current is taken to supply utilization equipment",
+      "explanation": "Correct: A point on the wiring system at which current is taken to supply utilization equipment. This is the Article 100 definition of Outlet."
+    },
+    {
+      "id": 20,
+      "question": "When is one item of equipment considered to be within sight of another?",
+      "choices": [
+        "When it is visible and not more than 50 feet distant",
+        "When it is in the same room, regardless of distance or visibility",
+        "When it is not more than 100 feet away and can be locked open",
+        "When its location is shown on a directory"
+      ],
+      "answer": "When it is visible and not more than 50 feet distant",
+      "explanation": "Correct: When it is visible and not more than 50 feet distant. Article 100 defines In Sight From using a maximum distance of 15 m (50 ft) together with visibility."
+    },
+    {
+      "id": 21,
+      "question": "What is the service point?",
+      "choices": [
+        "The point of connection between the serving utility’s facilities and the premises wiring",
+        "The load-side terminals of the service disconnect",
+        "The first outlet supplied by the service equipment",
+        "The grounding-electrode connection at the service"
+      ],
+      "answer": "The point of connection between the serving utility’s facilities and the premises wiring",
+      "explanation": "Correct: The point of connection between the serving utility’s facilities and the premises wiring. This is the Article 100 definition of Service Point."
+    },
+    {
+      "id": 22,
+      "question": "How must equipment that is listed, labeled, or identified for a particular use be installed and used?",
+      "choices": [
+        "In accordance with instructions included in the listing, labeling, or identification",
+        "In any manner approved by the installer",
+        "Only in accordance with local utility preferences",
+        "Without regard to instructions if the equipment passes inspection"
+      ],
+      "answer": "In accordance with instructions included in the listing, labeling, or identification",
+      "explanation": "Correct: In accordance with instructions included in the listing, labeling, or identification. Section 110.3(B) establishes this installation-and-use requirement."
+    },
+    {
+      "id": 23,
+      "question": "In what manner must electrical equipment be installed?",
+      "choices": [
+        "In a professional and skillful manner",
+        "In the least expensive manner that passes inspection",
+        "Only by using factory-assembled raceways",
+        "In a manner selected solely by the equipment owner"
+      ],
+      "answer": "In a professional and skillful manner",
+      "explanation": "Correct: In a professional and skillful manner. Section 110.12 uses this wording for the mechanical execution of electrical work."
+    },
+    {
+      "id": 24,
+      "question": "Which statement correctly describes a required field-applied caution, warning, or danger marking?",
+      "choices": [
+        "It must withstand the environment, warn effectively through words, colors, symbols, or a combination, and be permanently affixed rather than handwritten except for permitted variable portions",
+        "It may always be handwritten in pencil if it is legible",
+        "It is required to use words only and cannot use symbols or colors",
+        "It need remain legible only until the initial inspection"
+      ],
+      "answer": "It must withstand the environment, warn effectively through words, colors, symbols, or a combination, and be permanently affixed rather than handwritten except for permitted variable portions",
+      "explanation": "Correct: It must withstand the environment, warn effectively through words, colors, symbols, or a combination, and be permanently affixed rather than handwritten except for permitted variable portions. Section 110.21(B) contains these field-applied hazard-marking requirements."
+    },
+    {
+      "id": 25,
+      "question": "What is required when a terminal is intended for more than one conductor or is used to connect aluminum?",
+      "choices": [
+        "The terminal must be identified for that use",
+        "The conductors must be soldered to the terminal",
+        "A steel antioxidant compound must always be applied",
+        "The terminal must be installed only in service equipment"
+      ],
+      "answer": "The terminal must be identified for that use",
+      "explanation": "Correct: The terminal must be identified for that use. Section 110.14(A) requires terminals for more than one conductor and terminals used to connect aluminum to be so identified."
+    },
+    {
+      "id": 26,
+      "question": "Which statement correctly describes a soldered conductor splice?",
+      "choices": [
+        "It must first be mechanically and electrically secure without solder and then be soldered, with insulation equivalent to the conductor insulation or an identified insulating device",
+        "Solder alone may provide the mechanical connection if the joint is taped",
+        "It may remain uninsulated when enclosed in a metal box",
+        "It is prohibited for all premises wiring"
+      ],
+      "answer": "It must first be mechanically and electrically secure without solder and then be soldered, with insulation equivalent to the conductor insulation or an identified insulating device",
+      "explanation": "Correct: It must first be mechanically and electrically secure without solder and then be soldered, with insulation equivalent to the conductor insulation or an identified insulating device. Section 110.14(B) states these splice requirements."
+    },
+    {
+      "id": 27,
+      "question": "Unless equipment is listed and marked otherwise, which conductor temperature basis applies to termination provisions for equipment rated 100 amperes or less or marked for conductors from 14 AWG through 1 AWG?",
+      "choices": [
+        "60°C",
+        "75°C",
+        "90°C",
+        "105°C"
+      ],
+      "answer": "60°C",
+      "explanation": "Correct: 60°C. Section 110.14(C)(1)(a) generally bases these termination provisions on 60°C (140°F) conductor ampacity, subject to its listed-equipment and other stated allowances."
+    },
+    {
+      "id": 28,
+      "question": "Fill in the blank: For equipment operating at 0 to 150 volts to ground under Condition 1, the minimum depth of working space is ______.",
+      "choices": [
+        "2 feet 6 inches",
+        "3 feet",
+        "3 feet 6 inches",
+        "4 feet"
+      ],
+      "answer": "3 feet",
+      "explanation": "Correct: 3 feet. Table 110.26(A)(1) specifies 900 mm (3 ft) for nominal voltage to ground of 0–150 volts under Condition 1."
+    },
+    {
+      "id": 29,
+      "question": "What minimum width is required for working space in front of electrical equipment?",
+      "choices": [
+        "The equipment width or 30 inches, whichever is greater, with space for at least a 90-degree opening of doors or hinged panels",
+        "Exactly 24 inches regardless of equipment width",
+        "The equipment width or 18 inches, whichever is less",
+        "36 inches measured from the center of the equipment"
+      ],
+      "answer": "The equipment width or 30 inches, whichever is greater, with space for at least a 90-degree opening of doors or hinged panels",
+      "explanation": "Correct: The equipment width or 30 inches, whichever is greater, with space for at least a 90-degree opening of doors or hinged panels. Section 110.26(A)(2) establishes this width requirement."
+    },
+    {
+      "id": 30,
+      "question": "What space must generally be dedicated to an indoor panelboard installation?",
+      "choices": [
+        "A space equal to the equipment width and depth, extending from the floor to 6 feet above the equipment or to the structural ceiling, whichever is lower, without foreign piping, ducts, or equipment in that zone",
+        "A 30-inch-wide space extending only to the top of the panelboard",
+        "A space extending 3 feet in every direction from the enclosure",
+        "Only the working space directly in front of the equipment"
+      ],
+      "answer": "A space equal to the equipment width and depth, extending from the floor to 6 feet above the equipment or to the structural ceiling, whichever is lower, without foreign piping, ducts, or equipment in that zone",
+      "explanation": "Correct: A space equal to the equipment width and depth, extending from the floor to 6 feet above the equipment or to the structural ceiling, whichever is lower, without foreign piping, ducts, or equipment in that zone. Section 110.26(E)(1)(a) gives this indoor dedicated-electrical-space requirement."
+    }
+  ]
+}

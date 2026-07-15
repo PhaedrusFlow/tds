@@ -730,3 +730,232 @@ f & \text{The component representing Dielectric losses (dominates at ultra-high 
 k_1, k_2 & \text{Constant coefficients based on the physical properties of the copper cable and insulation}
 \end{array}
 $$
+
+For an ideal transformer, current varies inversely with turns:
+
+\[
+I_s = I_p \times \frac{N_p}{N_s}
+     = 5 \times \frac{600}{150}
+     = 20\,\text{A}
+\]
+
+\[
+\begin{array}{ll}
+I_s & \text{Secondary current (amperes, A)} \\
+I_p & \text{Primary current (amperes, A)} \\
+N_s & \text{Secondary turns} \\
+N_p & \text{Primary turns}
+\end{array}
+\]
+
+## Ampere-Turn Practice Problems
+
+The formula for ampere-turns is:
+
+\[
+\text{Ampere-turns} = N \times I
+\]
+
+Where:
+
+\[
+\begin{array}{ll}
+N & \text{Number of turns} \\
+I & \text{Current in amperes (A)}
+\end{array}
+\]
+
+---
+
+### Question 1
+
+A coil has 3 turns and carries 12 A of current.  
+What is the magnetomotive force in ampere-turns?
+
+- A) 9 ampere-turns  
+- B) 15 ampere-turns  
+- C) 36 ampere-turns  
+- D) 48 ampere-turns  
+
+**Correct answer:** C) 36 ampere-turns
+
+\[
+\text{Ampere-turns} = N \times I
+\]
+
+\[
+\text{Ampere-turns} = 3 \times 12
+\]
+
+\[
+\text{Ampere-turns} = 36
+\]
+
+---
+
+### Question 2
+
+A coil has 5 turns and carries 4 A of current.  
+What is the total ampere-turn value?
+
+- A) 9 ampere-turns  
+- B) 20 ampere-turns  
+- C) 25 ampere-turns  
+- D) 40 ampere-turns  
+
+**Correct answer:** B) 20 ampere-turns
+
+\[
+\text{Ampere-turns} = N \times I
+\]
+
+\[
+\text{Ampere-turns} = 5 \times 4
+\]
+
+\[
+\text{Ampere-turns} = 20
+\]
+
+---
+
+### Question 3
+
+A magnetizing coil produces 18 ampere-turns with 6 turns.  
+What current is flowing in the coil?
+
+- A) 2 A  
+- B) 3 A  
+- C) 6 A  
+- D) 12 A  
+
+**Correct answer:** B) 3 A
+
+Start with:
+
+\[
+\text{Ampere-turns} = N \times I
+\]
+
+Substitute the known values:
+
+\[
+18 = 6 \times I
+\]
+
+Solve for current:
+
+\[
+I = \frac{18}{6}
+\]
+
+\[
+I = 3\ \text{A}
+\]
+
+---
+
+### Question 4
+
+A coil produces 32 ampere-turns while carrying 8 A of current.  
+How many turns does the coil have?
+
+- A) 2 turns  
+- B) 4 turns  
+- C) 6 turns  
+- D) 8 turns  
+
+**Correct answer:** B) 4 turns
+
+Start with:
+
+\[
+\text{Ampere-turns} = N \times I
+\]
+
+Substitute the known values:
+
+\[
+32 = N \times 8
+\]
+
+Solve for turns:
+
+\[
+N = \frac{32}{8}
+\]
+
+\[
+N = 4
+\]
+
+---
+
+### Question 5
+
+A coil has 7 turns and carries 9 A of current.  
+What is the magnetomotive force?
+
+- A) 16 ampere-turns  
+- B) 56 ampere-turns  
+- C) 63 ampere-turns  
+- D) 72 ampere-turns  
+
+**Correct answer:** C) 63 ampere-turns
+
+\[
+\text{Ampere-turns} = N \times I
+\]
+
+\[
+\text{Ampere-turns} = 7 \times 9
+\]
+
+\[
+\text{Ampere-turns} = 63
+\]
+
+---
+
+### Question 6
+
+A coil must produce 45 ampere-turns and has 9 turns.  
+What current is required?
+
+- A) 3 A  
+- B) 4 A  
+- C) 5 A  
+- D) 6 A  
+
+**Correct answer:** C) 5 A
+
+Start with:
+
+\[
+\text{Ampere-turns} = N \times I
+\]
+
+Substitute the known values:
+
+\[
+45 = 9 \times I
+\]
+
+Solve for current:
+
+\[
+I = \frac{45}{9}
+\]
+
+\[
+I = 5\ \text{A}
+\]
+
+
+\[
+P = V \times I
+\]
+
+\[
+P = 48 \times 2.5 = 120\ \text{W}
+\]
