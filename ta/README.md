@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="./wall0.png" width="100%" alt="Dark navy Hyprland-style wallpaper with an electric cyan mark">
+  <img src="./ta.png" width="100%" alt="Dark navy Hyprland-style wallpaper with an electric cyan mark">
 
   <h1>WA 09 Telecommunications Administrator</h1>
 
@@ -13,7 +13,7 @@
     <img alt="Washington law" src="https://img.shields.io/badge/LAW-RCW%20%2B%20WAC-12304A?style=for-the-badge&labelColor=071426">
   </p>
 
-  <sub>Designed around the midnight navy and electric cyan palette of <code>wall0.png</code>.</sub>
+  <sub>Designed around the midnight navy and electric cyan palette of <code>ta.png</code>.</sub>
 
 </div>
 
