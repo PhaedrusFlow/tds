@@ -396,14 +396,11 @@ function renderQuestion() {
   els.submitBtn.classList.remove('hidden');
   els.nextBtn.classList.add('hidden');
 }
-
 function submitAnswer() {
   if (state.answered || !state.selected) return;
-
   const q = state.questions[state.currentIndex];
   const selected = state.selected;
   const isCorrect = selected === q.answer;
-
   state.answered = true;
   state.results.push({
     question: q,

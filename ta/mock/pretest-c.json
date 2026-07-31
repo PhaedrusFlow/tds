@@ -1,0 +1,367 @@
+{
+  "id": "pretest-c",
+  "title": "WA Telecom Admin — Pretest C",
+  "description": "30-question NEC 2023 book-reference pretest with a 2-hour time allowance. Distribution: Introduction 2; General Requirements 3; Grounding and Bonding 3; Wiring Methods 3; Hazardous Locations 1; Special Conditions 4; Communications Systems 8; General Trade Knowledge and Theory 6. Code-based answers are drawn directly from the 2023 NEC text. Questions differ from Pretest B.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "When is unpowered equipment or an enclosure supplied by a coaxial cable considered grounded?",
+      "choices": [
+        "When it is connected to the metallic cable shield",
+        "When it is mounted on a wooden surface",
+        "When the coaxial cable is longer than 15 m (50 ft)",
+        "When it is isolated from the cable shield"
+      ],
+      "answer": "When it is connected to the metallic cable shield",
+      "explanation": "Unpowered equipment and enclosures, or equipment powered by the coaxial cable, are considered grounded when connected to the metallic cable shield. Reference: 820.103, 2023 NEC."
+    },
+    {
+      "id": 2,
+      "question": "Two 100-ohm resistors are connected in parallel. What is their equivalent resistance?",
+      "choices": [
+        "50 ohms",
+        "100 ohms",
+        "200 ohms",
+        "10,000 ohms"
+      ],
+      "answer": "50 ohms",
+      "explanation": "For two equal resistors in parallel, the equivalent resistance is one-half of either resistance: 100 / 2 = 50 ohms. Reference: General trade theory - parallel circuits."
+    },
+    {
+      "id": 3,
+      "question": "Which description matches the term \"readily accessible\"?",
+      "choices": [
+        "Capable of being reached quickly without using tools other than keys, climbing over or under obstacles, removing obstacles, or using portable ladders",
+        "Capable of being reached only after removing part of the building finish",
+        "Visible from another piece of equipment and not more than 15 m (50 ft) away",
+        "Accessible only to qualified persons using special tools"
+      ],
+      "answer": "Capable of being reached quickly without using tools other than keys, climbing over or under obstacles, removing obstacles, or using portable ladders",
+      "explanation": "This choice follows the Article 100 definition of Accessible, Readily (Readily Accessible). Reference: Article 100, Accessible, Readily, 2023 NEC."
+    },
+    {
+      "id": 4,
+      "question": "What is the general rule for placing Class 2 or Class 3 conductors with electric light, power, Class 1, non-power-limited fire alarm, or medium-power network-powered broadband conductors?",
+      "choices": [
+        "They must not be placed together in the same cable, cable tray, compartment, enclosure, manhole, box, raceway, or similar fitting unless specifically permitted",
+        "They must always be placed together to reduce installation cost",
+        "They may be placed together only when every conductor is smaller than 14 AWG",
+        "They may be placed together without restriction if the enclosure is metallic"
+      ],
+      "answer": "They must not be placed together in the same cable, cable tray, compartment, enclosure, manhole, box, raceway, or similar fitting unless specifically permitted",
+      "explanation": "The general separation rule prohibits this mixing unless one of the specifically permitted conditions applies. Reference: 725.136(A), 2023 NEC."
+    },
+    {
+      "id": 5,
+      "question": "May a wiring system be installed in a duct used to transport dust, loose stock, or flammable vapors?",
+      "choices": [
+        "No wiring system of any type may be installed in such a duct",
+        "Yes, if the circuit operates at 50 volts or less",
+        "Yes, if the conductors are Type THHN",
+        "Yes, if the wiring is supported every 1.8 m (6 ft)"
+      ],
+      "answer": "No wiring system of any type may be installed in such a duct",
+      "explanation": "No wiring system of any type is permitted in ducts used to transport dust, loose stock, or flammable vapors. Reference: 300.22(A), 2023 NEC."
+    },
+    {
+      "id": 6,
+      "question": "Which condition defines a Class I hazardous location?",
+      "choices": [
+        "Flammable gases, flammable liquid-produced vapors, or combustible liquid-produced vapors are or may be present in the air in quantities sufficient to produce explosive or ignitible mixtures",
+        "Combustible dust is the only hazardous material present",
+        "Easily ignitible fibers or flyings are present but are not likely to be suspended in the air",
+        "Electrical equipment operates above 1000 volts in a dry room"
+      ],
+      "answer": "Flammable gases, flammable liquid-produced vapors, or combustible liquid-produced vapors are or may be present in the air in quantities sufficient to produce explosive or ignitible mixtures",
+      "explanation": "This is the Code description of a Class I location. Reference: 500.5(B), 2023 NEC."
+    },
+    {
+      "id": 7,
+      "question": "Which optical fiber cable types are permitted to be installed directly in a space used for environmental air?",
+      "choices": [
+        "Types OFNP and OFCP",
+        "Types OFNR and OFCR only",
+        "Types OFNG and OFCG only",
+        "Types OFN and OFC only"
+      ],
+      "answer": "Types OFNP and OFCP",
+      "explanation": "Types OFNP and OFCP are the optical fiber cable types permitted directly in other spaces used for environmental air. Reference: 770.113(C)(1), 2023 NEC."
+    },
+    {
+      "id": 8,
+      "question": "A 48-volt source is connected across a 12-ohm load. What current flows through the load?",
+      "choices": [
+        "4 amperes",
+        "0.25 ampere",
+        "36 amperes",
+        "576 amperes"
+      ],
+      "answer": "4 amperes",
+      "explanation": "Ohm's law gives I = V / R = 48 / 12 = 4 amperes. Reference: General trade theory - Ohm's law."
+    },
+    {
+      "id": 9,
+      "question": "A device operates at 24 volts and draws 2 amperes. How much power does it consume?",
+      "choices": [
+        "48 watts",
+        "12 watts",
+        "22 watts",
+        "96 watts"
+      ],
+      "answer": "48 watts",
+      "explanation": "Electrical power is P = V × I = 24 × 2 = 48 watts. Reference: General trade theory - electric power."
+    },
+    {
+      "id": 10,
+      "question": "What is the maximum permitted length of qualifying unlisted outside-plant communications or CATV-type coaxial cable inside a building, measured from its point of entrance?",
+      "choices": [
+        "15 m (50 ft)",
+        "1.8 m (6 ft)",
+        "30 m (100 ft)",
+        "46 m (150 ft)"
+      ],
+      "answer": "15 m (50 ft)",
+      "explanation": "Qualifying unlisted outside-plant cable may extend no more than 15 m (50 ft) inside the building from its point of entrance. Reference: 800.48(1), 2023 NEC."
+    },
+    {
+      "id": 11,
+      "question": "How must equipment that is listed, labeled, or identified for a use be installed and used?",
+      "choices": [
+        "In accordance with any instructions included in the listing, labeling, or identification",
+        "Only in accordance with the installer's customary practice",
+        "Without regard to instructions if the equipment operates normally",
+        "Only after its listing mark has been removed"
+      ],
+      "answer": "In accordance with any instructions included in the listing, labeling, or identification",
+      "explanation": "Listed, labeled, or identified equipment must be installed and used in accordance with instructions included in its listing, labeling, or identification. Reference: 110.3(B), 2023 NEC."
+    },
+    {
+      "id": 12,
+      "question": "Are informational notes enforceable as Code requirements?",
+      "choices": [
+        "No, informational notes are informational only and are not enforceable as Code requirements",
+        "Yes, every informational note is a mandatory rule",
+        "Yes, but only when an installer chooses to follow it",
+        "No, because informational notes are product warranties"
+      ],
+      "answer": "No, informational notes are informational only and are not enforceable as Code requirements",
+      "explanation": "The explanatory-material rule states that informational notes are informational only and are not enforceable as requirements of the Code. Reference: 90.5(C), 2023 NEC."
+    },
+    {
+      "id": 13,
+      "question": "How is the interior of an underground enclosure or raceway classified?",
+      "choices": [
+        "As a wet location",
+        "As a dry location",
+        "As a damp location only",
+        "As an unclassified location regardless of moisture"
+      ],
+      "answer": "As a wet location",
+      "explanation": "The interior of enclosures or raceways installed underground is considered a wet location. Reference: 300.5(B), 2023 NEC."
+    },
+    {
+      "id": 14,
+      "question": "Which method is permitted for splicing a wire-type grounding electrode conductor?",
+      "choices": [
+        "An irreversible compression-type connector listed as grounding and bonding equipment",
+        "A removable twist-on wire connector",
+        "An unlisted split-bolt wrapped only with tape",
+        "A soldered lap joint without mechanical connection"
+      ],
+      "answer": "An irreversible compression-type connector listed as grounding and bonding equipment",
+      "explanation": "A wire-type grounding electrode conductor may be spliced using an irreversible compression-type connector listed as grounding and bonding equipment; exothermic welding is also permitted. Reference: 250.64(C)(1), 2023 NEC."
+    },
+    {
+      "id": 15,
+      "question": "What is the minimum size of a communications bonding conductor or grounding electrode conductor?",
+      "choices": [
+        "14 AWG",
+        "18 AWG",
+        "10 AWG",
+        "6 AWG"
+      ],
+      "answer": "14 AWG",
+      "explanation": "The communications bonding conductor or grounding electrode conductor must not be smaller than 14 AWG and is not required to exceed 6 AWG. Reference: 800.100(A)(3), 2023 NEC."
+    },
+    {
+      "id": 16,
+      "question": "What other loads may the branch circuit supplying non-power-limited fire alarm equipment supply?",
+      "choices": [
+        "No other loads",
+        "Any lighting load on the same floor",
+        "Only receptacle loads rated 15 amperes or less",
+        "Only communications equipment loads"
+      ],
+      "answer": "No other loads",
+      "explanation": "The branch circuit supplying non-power-limited fire alarm equipment must supply no other loads. Reference: 760.41(B), 2023 NEC."
+    },
+    {
+      "id": 17,
+      "question": "How must an unused opening in electrical equipment generally be closed?",
+      "choices": [
+        "To afford protection substantially equivalent to the wall of the equipment",
+        "With any combustible material available at the job site",
+        "Only enough to prevent the entry of visible light",
+        "It may remain open if the equipment is indoors"
+      ],
+      "answer": "To afford protection substantially equivalent to the wall of the equipment",
+      "explanation": "Unused openings, other than the stated permitted openings, must be closed to afford protection substantially equivalent to the equipment wall. Reference: 110.12(A), 2023 NEC."
+    },
+    {
+      "id": 18,
+      "question": "What must be done with all grounding electrodes described by the Code that are present at a building or structure served?",
+      "choices": [
+        "They must be bonded together to form the grounding electrode system",
+        "Only the electrode closest to the service may be used",
+        "They must remain electrically isolated from one another",
+        "They may be omitted whenever a metal water pipe is present"
+      ],
+      "answer": "They must be bonded together to form the grounding electrode system",
+      "explanation": "All qualifying grounding electrodes present at the building or structure must be bonded together to form the grounding electrode system. Reference: 250.50, 2023 NEC."
+    },
+    {
+      "id": 19,
+      "question": "What separation is generally required between communications or CATV-type coaxial cables and conductors of electric light, power, Class 1, non-power-limited fire alarm, or medium-power network-powered broadband circuits in other applications?",
+      "choices": [
+        "At least 50 mm (2 in.)",
+        "At least 6 mm (1/4 in.)",
+        "At least 300 mm (12 in.)",
+        "At least 1.8 m (6 ft)"
+      ],
+      "answer": "At least 50 mm (2 in.)",
+      "explanation": "The general separation for these other applications is at least 50 mm (2 in.), subject to the stated exceptions. Reference: 800.133(B), 2023 NEC."
+    },
+    {
+      "id": 20,
+      "question": "May an outdoor antenna or its lead-in conductor be attached to an electric service mast?",
+      "choices": [
+        "No, neither may be attached to the electric service mast",
+        "Yes, if the antenna is receiving only",
+        "Yes, if the mast is bonded",
+        "Yes, if the attachment is at least 3 m (10 ft) above grade"
+      ],
+      "answer": "No, neither may be attached to the electric service mast",
+      "explanation": "Outdoor antennas and lead-in conductors must be securely supported and must not be attached to the electric service mast. Reference: 810.12, 2023 NEC."
+    },
+    {
+      "id": 21,
+      "question": "A signal amplifier provides a power gain of 10 dB. What is the output-to-input power ratio?",
+      "choices": [
+        "10 to 1",
+        "2 to 1",
+        "20 to 1",
+        "100 to 1"
+      ],
+      "answer": "10 to 1",
+      "explanation": "For power, dB = 10 log10(Pout / Pin). Therefore, a 10 dB gain corresponds to a power ratio of 10 to 1. Reference: General trade theory - decibels."
+    },
+    {
+      "id": 22,
+      "question": "Eight 75-watt devices operate continuously for 10 hours. How much electrical energy do they use?",
+      "choices": [
+        "6 kilowatt-hours",
+        "0.6 kilowatt-hour",
+        "60 kilowatt-hours",
+        "600 kilowatt-hours"
+      ],
+      "answer": "6 kilowatt-hours",
+      "explanation": "Total power is 8 × 75 = 600 watts, or 0.6 kilowatt. Energy is 0.6 kW × 10 h = 6 kWh. Reference: General trade theory - electrical energy."
+    },
+    {
+      "id": 23,
+      "question": "Which cable types are required for low-power network-powered broadband communications circuits located outside and entering buildings?",
+      "choices": [
+        "Type BLU or Type BLX",
+        "Type BMU or Type BMR only",
+        "Type OFNP or Type OFCP",
+        "Type CL2P or Type CL3P"
+      ],
+      "answer": "Type BLU or Type BLX",
+      "explanation": "Low-power network-powered broadband circuits located outside and entering buildings must use Type BLU or Type BLX cable, subject to permitted substitutions. Reference: 830.40(B), 2023 NEC."
+    },
+    {
+      "id": 24,
+      "question": "How must a ferrous metal raceway enclosing a grounding electrode conductor be bonded?",
+      "choices": [
+        "At each end of the raceway or enclosure",
+        "At the grounding electrode end only",
+        "At the equipment end only",
+        "Bonding is not required for ferrous metal raceways"
+      ],
+      "answer": "At each end of the raceway or enclosure",
+      "explanation": "Ferrous metal raceways, enclosures, and cable armor for grounding electrode conductors must be bonded at each end to create an electrically parallel path. Reference: 250.64(E)(1), 2023 NEC."
+    },
+    {
+      "id": 25,
+      "question": "When cable or a raceway-type wiring method passes through bored holes in wood framing, what minimum distance is generally required between the edge of the hole and the edge of the wood member?",
+      "choices": [
+        "32 mm (1 1/4 in.)",
+        "6 mm (1/4 in.)",
+        "13 mm (1/2 in.)",
+        "50 mm (2 in.)"
+      ],
+      "answer": "32 mm (1 1/4 in.)",
+      "explanation": "Bored holes must generally be located so their edge is not less than 32 mm (1 1/4 in.) from the edge of the wood member. Reference: 300.4(A)(1), 2023 NEC."
+    },
+    {
+      "id": 26,
+      "question": "What must be done with the accessible portion of abandoned Class 4 cable?",
+      "choices": [
+        "It must be removed",
+        "It must be energized and left in place",
+        "It must be painted orange",
+        "It must be connected to the nearest grounding electrode"
+      ],
+      "answer": "It must be removed",
+      "explanation": "The accessible portion of abandoned cables must be removed; a cable identified for future use is not abandoned. Reference: 722.25, 2023 NEC."
+    },
+    {
+      "id": 27,
+      "question": "What listing characteristic is required for cable ties intended for use in spaces used for environmental air?",
+      "choices": [
+        "Low smoke and heat release properties",
+        "Oil resistance only",
+        "Direct-burial suitability only",
+        "Sunlight resistance only"
+      ],
+      "answer": "Low smoke and heat release properties",
+      "explanation": "Cable ties intended for use in environmental-air spaces must be listed as having low smoke and heat release properties. Reference: 800.170, 2023 NEC."
+    },
+    {
+      "id": 28,
+      "question": "For new dwelling construction, what minimum communications outlet installation is required?",
+      "choices": [
+        "At least one communications outlet in a readily accessible area, cabled to the service provider demarcation point",
+        "One communications outlet in every room, with no demarcation-point cable",
+        "One outlet outdoors only",
+        "No communications outlet is required in new construction"
+      ],
+      "answer": "At least one communications outlet in a readily accessible area, cabled to the service provider demarcation point",
+      "explanation": "New construction requires a minimum of one communications outlet within the dwelling in a readily accessible area and cabled to the service provider demarcation point. Reference: 805.156, 2023 NEC."
+    },
+    {
+      "id": 29,
+      "question": "How do the requirements for communications systems relate to the requirements in Chapters 1 through 7?",
+      "choices": [
+        "They are not subject to Chapters 1 through 7 except where those requirements are specifically referenced in Chapter 8",
+        "They are subject to every requirement in Chapters 1 through 7 without exception",
+        "They replace Chapters 1 through 7 for all electrical installations",
+        "They are informational only and contain no enforceable requirements"
+      ],
+      "answer": "They are not subject to Chapters 1 through 7 except where those requirements are specifically referenced in Chapter 8",
+      "explanation": "Chapter 8 covers communications systems and is not subject to Chapters 1 through 7 except where their requirements are specifically referenced in Chapter 8. Reference: 90.3, 2023 NEC."
+    },
+    {
+      "id": 30,
+      "question": "Three resistors of 120 ohms, 330 ohms, and 550 ohms are connected in series. What is their total resistance?",
+      "choices": [
+        "1000 ohms",
+        "333.3 ohms",
+        "45.5 ohms",
+        "217,800 ohms"
+      ],
+      "answer": "1000 ohms",
+      "explanation": "Series resistances add: 120 + 330 + 550 = 1000 ohms. Reference: General trade theory - series circuits."
+    }
+  ]
+}
