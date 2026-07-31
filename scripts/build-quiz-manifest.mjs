@@ -1,16 +1,17 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const repoRoot = process.cwd();
-const dataDir = path.join(
-    repoRoot,
-    "ta",
-    "quizzes",
-    "data",
-);
-const manifestPath = path.join(dataDir, "manifest.json");
+const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
+const repoRoot = path.resolve(scriptDirectory, "..");
 
-const isQuizFile = (name) => name.endsWith(".json") && name !== "manifest.json";
+const quizzesDirectory = path.join(repoRoot, "ta", "quizzes");
+const dataDirectory = path.join(quizzesDirectory, "data");
+const manifestPath = path.join(dataDirectory, "manifest.json");
+const mockQuizPath = path.join(repoRoot, "ta", "mock", "pretest-c.json");
+
+const isQuizFile = (name) =>
+    name.toLowerCase().endsWith(".json") && name !== "manifest.json";
 
 const slugFromFilename = (name) => name.replace(/\.json$/i, "");
 
@@ -29,47 +30,99 @@ const parseJsonFile = (raw, fileName) => {
     try {
         return JSON.parse(raw);
     } catch (error) {
-        throw new Error(`Invalid JSON in ${fileName}: ${error.message}`);
+        const message =
+            error instanceof Error ? error.message : String(error);
+
+        throw new Error(`Invalid JSON in ${fileName}: ${message}`);
     }
 };
 
-const main = async () => {
-    const entries = await fs.readdir(dataDir, { withFileTypes: true });
+const readQuizFile = async (filePath) => {
+    const fileName = path.basename(filePath);
+    const raw = await fs.readFile(filePath, "utf8");
+    const parsed = parseJsonFile(raw, fileName);
 
-    const files = entries
+    if (
+        parsed === null ||
+        typeof parsed !== "object" ||
+        Array.isArray(parsed)
+    ) {
+        throw new Error(`${fileName} must contain a top-level JSON object.`);
+    }
+
+    if (!Array.isArray(parsed.questions)) {
+        throw new Error(`${fileName} must contain a questions array.`);
+    }
+
+    return parsed;
+};
+
+const quizIdentity = (quiz, fileName) => {
+    const filenameSlug = slugFromFilename(fileName);
+
+    return {
+        id:
+            typeof quiz.id === "string" && quiz.id.trim()
+                ? quiz.id.trim()
+                : filenameSlug,
+        title:
+            typeof quiz.title === "string" && quiz.title.trim()
+                ? quiz.title.trim()
+                : titleFromSlug(filenameSlug),
+    };
+};
+
+const addUniqueEntry = (manifest, knownIds, entry) => {
+    if (knownIds.has(entry.id)) {
+        throw new Error(`Duplicate quiz id in manifest: ${entry.id}`);
+    }
+
+    knownIds.add(entry.id);
+    manifest.push(entry);
+};
+
+const main = async () => {
+    const entries = await fs.readdir(dataDirectory, {
+        withFileTypes: true,
+    });
+
+    const quizFiles = entries
         .filter((entry) => entry.isFile() && isQuizFile(entry.name))
         .map((entry) => entry.name)
-        .sort((a, b) => a.localeCompare(b));
+        .sort((left, right) => left.localeCompare(right));
 
     const manifest = [];
+    const knownIds = new Set();
 
-    for (const fileName of files) {
-        const filePath = path.join(dataDir, fileName);
-        const raw = await fs.readFile(filePath, "utf8");
-        const parsed = parseJsonFile(raw, fileName);
+    for (const fileName of quizFiles) {
+        const filePath = path.join(dataDirectory, fileName);
+        const quiz = await readQuizFile(filePath);
+        const { id, title } = quizIdentity(quiz, fileName);
 
-        const slug =
-            typeof parsed.id === "string" && parsed.id.trim()
-                ? parsed.id.trim()
-                : slugFromFilename(fileName);
-
-        const title =
-            typeof parsed.title === "string" && parsed.title.trim()
-                ? parsed.title.trim()
-                : titleFromSlug(slugFromFilename(fileName));
-
-        const questions = Array.isArray(parsed.questions)
-            ? parsed.questions
-            : [];
-
-        manifest.push({
-            id: slug,
+        addUniqueEntry(manifest, knownIds, {
+            id,
             title,
-            description: descriptionFromData(parsed),
+            description: descriptionFromData(quiz),
             file: `data/${fileName}`,
-            questionCount: questions.length,
+            questionCount: quiz.questions.length,
+            mode: "practice",
+            requiresPassword: false,
         });
     }
+
+    const mockQuiz = await readQuizFile(mockQuizPath);
+    const mockFileName = path.basename(mockQuizPath);
+    const mockIdentity = quizIdentity(mockQuiz, mockFileName);
+
+    addUniqueEntry(manifest, knownIds, {
+        id: mockIdentity.id,
+        title: mockIdentity.title,
+        description: descriptionFromData(mockQuiz),
+        file: "data/pretest-c.json",
+        questionCount: mockQuiz.questions.length,
+        mode: "mock",
+        requiresPassword: true,
+    });
 
     await fs.writeFile(
         manifestPath,
@@ -77,10 +130,12 @@ const main = async () => {
         "utf8",
     );
 
-    console.log(`Wrote ${manifest.length} quiz entries to ${manifestPath}`);
+    console.log(
+        `Wrote ${manifest.length} quiz entries to ${manifestPath}`,
+    );
 };
 
 main().catch((error) => {
-    console.error(error.message || error);
-    process.exit(1);
+    console.error(error instanceof Error ? error.message : String(error));
+    process.exitCode = 1;
 });

@@ -7,6 +7,8 @@
  * @property {string} description
  * @property {string} file
  * @property {number|null} [questionCount]
+ * @property {'practice'|'mock'} mode
+ * @property {boolean} requiresPassword
  */
 
 /**
@@ -119,6 +121,8 @@ const els = {
 };
 
 const MANIFEST_PATH = './data/manifest.json';
+const MOCK_CONFIG_PATH = './mock-config.json';
+const MOCK_AUTH_SESSION_KEY = 'tds.pretest-c.authorized';
 
 (function initTheme() {
   /** @type {HTMLButtonElement|null} */
@@ -206,6 +210,8 @@ async function renderCatalog() {
           item.questionCount === null || item.questionCount === undefined
             ? null
             : Number(item.questionCount),
+        mode: item.mode === 'mock' ? 'mock' : 'practice',
+        requiresPassword: item.requiresPassword === true,
       }))
       .filter((item) => item.id && item.file);
 
@@ -266,7 +272,11 @@ function createCatalogCard(quiz) {
   card.innerHTML = `
     <h3>${escHtml(quiz.title)}</h3>
     <p>${escHtml(quiz.description || '')}</p>
-    <div class="catalog-meta">${escHtml(String(count))} questions</div>
+    <div class="catalog-meta">
+      ${escHtml(String(count))} questions
+      ${quiz.mode === 'mock' ? ' · Mock test' : ''}
+      ${quiz.requiresPassword ? ' · Access code required' : ''}
+    </div>
     <button class="catalog-start-btn" type="button" tabindex="-1">Start test</button>
   `;
 
@@ -288,6 +298,10 @@ function createCatalogCard(quiz) {
  */
 async function loadQuiz(quiz) {
   try {
+    if (quiz.requiresPassword && !(await authorizeMockQuiz())) {
+      return;
+    }
+
     const res = await fetch(normalizePath(quiz.file), { cache: 'no-store' });
     if (!res.ok) {
       throw new Error(`Quiz request failed (${res.status}) for ${quiz.file}`);
@@ -394,19 +408,39 @@ function renderQuestion() {
   els.feedbackArea.innerHTML = '';
   els.submitBtn.disabled = true;
   els.submitBtn.classList.remove('hidden');
+  els.submitBtn.textContent =
+    state.currentQuiz?.mode === 'mock'
+      ? state.currentIndex === state.questions.length - 1
+        ? 'Submit mock test'
+        : 'Save answer'
+      : 'Check answer';
   els.nextBtn.classList.add('hidden');
 }
+
 function submitAnswer() {
   if (state.answered || !state.selected) return;
+
   const q = state.questions[state.currentIndex];
   const selected = state.selected;
   const isCorrect = selected === q.answer;
+
   state.answered = true;
   state.results.push({
     question: q,
     selected,
     correct: isCorrect,
   });
+
+  if (state.currentQuiz?.mode === 'mock') {
+    if (state.currentIndex < state.questions.length - 1) {
+      state.currentIndex += 1;
+      renderQuestion();
+    } else {
+      renderResults();
+    }
+
+    return;
+  }
 
   /** @type {NodeListOf<HTMLLIElement>} */
   const allChoices = document.querySelectorAll('#choices-list .choice-item');
@@ -442,6 +476,67 @@ function submitAnswer() {
   els.nextBtn.classList.remove('hidden');
   els.nextBtn.textContent =
     state.currentIndex === state.questions.length - 1 ? 'See results' : 'Next question';
+}
+
+/**
+ * This is a client-side convenience gate for a static GitHub Pages site.
+ * It does not protect the deployed JSON from direct access.
+ *
+ * @returns {Promise<boolean>}
+ */
+async function authorizeMockQuiz() {
+  try {
+    if (sessionStorage.getItem(MOCK_AUTH_SESSION_KEY) === 'true') {
+      return true;
+    }
+
+    const response = await fetch(MOCK_CONFIG_PATH, { cache: 'no-store' });
+    if (!response.ok) {
+      throw new Error(`Access configuration request failed (${response.status}).`);
+    }
+
+    /** @type {unknown} */
+    const payload = await response.json();
+    const expectedHash =
+      payload && typeof payload === 'object' && 'pretestCPasswordHash' in payload
+        ? String(payload.pretestCPasswordHash).toLowerCase()
+        : '';
+
+    if (!/^[a-f0-9]{64}$/.test(expectedHash)) {
+      throw new Error('The Pretest C access-code hash is not configured.');
+    }
+
+    const password = window.prompt('Pretest C password:');
+    if (password === null) {
+      return false;
+    }
+
+    const actualHash = await sha256Hex(password);
+    if (actualHash !== expectedHash) {
+      window.alert('Incorrect Pretest C password.');
+      return false;
+    }
+
+    sessionStorage.setItem(MOCK_AUTH_SESSION_KEY, 'true');
+    return true;
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    window.alert(`Pretest C could not be unlocked: ${message}`);
+    return false;
+  }
+}
+
+/**
+ * @param {string} value
+ * @returns {Promise<string>}
+ */
+async function sha256Hex(value) {
+  const bytes = new TextEncoder().encode(value);
+  const digest = await crypto.subtle.digest('SHA-256', bytes);
+
+  return Array.from(new Uint8Array(digest), (byte) =>
+    byte.toString(16).padStart(2, '0')
+  ).join('');
 }
 
 /**

@@ -30,12 +30,26 @@ jobs:
       - name: Build quiz manifest
         run: node scripts/build-quiz-manifest.mjs
 
+      - name: Validate Pretest C password hash
+        env:
+          PRETEST_C_PASSWORD_SHA256: ${{ secrets.PRETEST_C_PASSWORD_SHA256 }}
+        run: |
+          if [[ ! "${PRETEST_C_PASSWORD_SHA256}" =~ ^[0-9a-fA-F]{64}$ ]]; then
+            echo "PRETEST_C_PASSWORD_SHA256 must be a 64-character SHA-256 hash."
+            exit 1
+          fi
+
       - name: Assemble Pages site
+        env:
+          PRETEST_C_PASSWORD_SHA256: ${{ secrets.PRETEST_C_PASSWORD_SHA256 }}
         run: |
           rm -rf _site
-          mkdir -p _site/msft
-          cp -R ta/quizzes/* _site/
+          mkdir -p _site/msft _site/data
+          cp -R ta/quizzes/. _site/
+          install -m 0644 ta/mock/pretest-c.json _site/data/pretest-c.json
           cp -R msft/sharepoint _site/msft/
+          printf '{"pretestCPasswordHash":"%s"}\n' \
+            "${PRETEST_C_PASSWORD_SHA256,,}" > _site/mock-config.json
           touch _site/.nojekyll
 
       - name: Setup Pages
