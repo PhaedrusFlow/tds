@@ -4,83 +4,116 @@
     "title": "General Trade Knowledge & Theory — Extended",
     "description": "Electrical theory, Ohm's Law, AC/DC fundamentals, transformers, test equipment, trade math, data cabling, fiber optics, and safety for the WA Telecom Administrator exam. 30 questions.",
     "file": "data/general-theory.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "nec-250-grounding-bonding",
     "title": "NEC Article 250 — Grounding & Bonding",
     "description": "System grounding, equipment grounding, grounding electrodes, bonding, and grounding electrode conductors per NEC 2023 Article 250. 30 questions.",
     "file": "data/nec-250-grounding-bonding.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "nec-300-398-wiring-methods",
     "title": "NEC Articles 300–398 — Wiring Methods",
     "description": "General wiring methods, conductor installation, boxes, raceways, cables, and related requirements per NEC 2023 Articles 300–398. 29 questions.",
     "file": "data/nec-300-398-wiring-methods.json",
-    "questionCount": 29
+    "questionCount": 29,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "nec-500-516-hazardous-locations",
     "title": "NEC 2023 Articles 500–516 — Hazardous Locations Practice Test",
     "description": "A 30-question practice test drawn from the text and tables of NEC 70, 2023 edition, covering hazardous-location documentation and classification, material groups, equipment marking, wiring methods, seals, bonding, intrinsically safe systems, gas and dust zones, commercial garages, motor-fuel dispensing facilities, and spray applications.",
     "file": "data/nec-500-516-hazardous-locations.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "nec-705-770-special-conditions",
     "title": "NEC 2023 Articles 705–770 — Special Conditions",
     "description": "Thirty book-reference questions drawn only from NEC 2023 Articles 705, 706, 708, 710, 722, 724, 725, 726, 728, 750, 760, and 770. Question stems omit section-number clues; answers are stated in the cited NEC text or tables.",
     "file": "data/nec-705-780-special-conditions.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "nec-800-830-communications",
     "title": "NEC 2023 Chapter 8 — Communications Systems Practice Test",
     "description": "A 30-question telecommunications administrator practice test drawn from the text and tables of NEC 70, 2023 edition, covering general communications requirements, communications circuits, antenna systems, CATV systems, and network-powered broadband systems.",
     "file": "data/nec-800-830-communications.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "nec-100-110-general",
     "title": "NEC 2023 Articles 90–110 — Introduction, Definitions, and General Requirements",
     "description": "A 30-question practice test drawn from NEC 70, 2023 edition. The quiz follows the official 2-to-3 weighting with 12 questions on the Introduction and 18 questions on definitions and general electrical-installation requirements.",
     "file": "data/nec-90-100-110-general.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "nec-mixed-02",
     "title": "NEC 2023 + General Theory — Mixed Set 02",
     "description": "Questions 29–60 from study session: NEC Articles 110, 230, 250, 310.15, 314, 334, 408, 500, 501, and general trade theory (Ohm's Law, AC/DC, fiber optic, data cabling, PoE).",
     "file": "data/nec-mixed-02.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "pretest-a",
     "title": "WA Telecom Admin — Pretest A",
     "description": "30-question NEC 2023 book-reference pretest. Distribution: Introduction 2; General Requirements 3; Grounding and Bonding 3; Wiring Methods 3; Hazardous Locations 1; Special Conditions 4; Communications Systems 8; General Trade Knowledge and Theory 6.",
     "file": "data/pretest-a.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "pretest-b",
     "title": "WA Telecom Admin — Pretest B",
     "description": "30-question NEC 2023 book-reference pretest. Distribution: Introduction 2; General Requirements 3; Grounding and Bonding 3; Wiring Methods 3; Hazardous Locations 1; Special Conditions 4; Communications Systems 8; General Trade Knowledge and Theory 6. Questions differ from Pretest A.",
     "file": "data/pretest-b.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "rcw-19-28",
     "title": "RCW 19.28 — Electricians & Electrical Installations",
     "description": "Washington State law governing electrical contractor licensing, electrician certification, inspections, and enforcement. 30 questions.",
     "file": "data/rcw-19-28.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
   },
   {
     "id": "wa-wac-296-46b",
     "title": "WAC 296-46B — WA Electrical Safety Standards",
     "description": "Washington State electrical construction rules, NEC amendments, permits, licensing, exams, and enforcement under WAC 296-46B. 30 questions.",
     "file": "data/wa-wac-296-46b.json",
-    "questionCount": 30
+    "questionCount": 30,
+    "mode": "practice",
+    "requiresPassword": false
+  },
+  {
+    "id": "pretest-c",
+    "title": "WA Telecom Admin — Pretest C",
+    "description": "30-question NEC 2023 book-reference pretest with a 2-hour time allowance. Distribution: Introduction 2; General Requirements 3; Grounding and Bonding 3; Wiring Methods 3; Hazardous Locations 1; Special Conditions 4; Communications Systems 8; General Trade Knowledge and Theory 6. Code-based answers are drawn directly from the 2023 NEC text. Questions differ from Pretest B.",
+    "file": "data/pretest-c.json",
+    "questionCount": 30,
+    "mode": "mock",
+    "requiresPassword": true
   }
 ]

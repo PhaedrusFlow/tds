@@ -2,15 +2,15 @@
   "id": "pretest-b",
   "title": "WA Telecom Admin — Pretest B",
   "description": "30-question NEC 2023 book-reference pretest. Distribution: Introduction 2; General Requirements 3; Grounding and Bonding 3; Wiring Methods 3; Hazardous Locations 1; Special Conditions 4; Communications Systems 8; General Trade Knowledge and Theory 6. Questions differ from Pretest A.",
-  "questions": [
+"questions": [
     {
       "id": 1,
       "question": "Which installation is not covered by the Code?",
       "choices": [
         "Installations in ships, watercraft other than floating buildings, railway rolling stock, aircraft, or automotive vehicles other than mobile homes and recreational vehicles",
         "Wiring in a commercial office building",
-        "Communications wiring in a residence",
-        "Electrical conductors connecting equipment to a premises supply"
+        "Electrical conductors connecting equipment to a premises supply",
+        "Communications wiring in a residence"
       ],
       "answer": "Installations in ships, watercraft other than floating buildings, railway rolling stock, aircraft, or automotive vehicles other than mobile homes and recreational vehicles",
       "explanation": "This group of installations is expressly identified as not covered. Reference: 90.2(D)(1), 2023 NEC."
@@ -19,9 +19,9 @@
       "id": 2,
       "question": "Who has responsibility for interpreting Code rules, deciding on approval of equipment and materials, and granting contemplated special permission?",
       "choices": [
+        "The material supplier",
         "The authority having jurisdiction",
         "The equipment owner",
-        "The material supplier",
         "Any apprentice on the project"
       ],
       "answer": "The authority having jurisdiction",
@@ -31,9 +31,9 @@
       "id": 3,
       "question": "Fill in the blank: A branch circuit consists of the circuit conductors between the final overcurrent device protecting the circuit and the ______.",
       "choices": [
-        "outlet(s)",
         "service point",
         "grounding electrode",
+        "outlet(s)",
         "utility transformer only"
       ],
       "answer": "outlet(s)",
@@ -43,10 +43,10 @@
       "id": 4,
       "question": "Which description is part of the Code definition of listed equipment, materials, or services?",
       "choices": [
-        "They are included in a list published by an organization acceptable to the authority having jurisdiction and concerned with evaluation of products or services",
         "They are selected only because they have the lowest purchase price",
-        "They are approved solely by the installer without evaluation",
-        "They are manufactured outside the jurisdiction and need no inspection"
+        "They are included in a list published by an organization acceptable to the authority having jurisdiction and concerned with evaluation of products or services",
+        "They are manufactured outside the jurisdiction and need no inspection",
+        "They are approved solely by the installer without evaluation"
       ],
       "answer": "They are included in a list published by an organization acceptable to the authority having jurisdiction and concerned with evaluation of products or services",
       "explanation": "This choice states the opening requirement of the Article 100 definition of Listed. Reference: Article 100, Listed, 2023 NEC."
@@ -55,10 +55,10 @@
       "id": 5,
       "question": "Conductors and equipment required or permitted by the Code are acceptable only when what condition is met?",
       "choices": [
-        "They are approved",
-        "They are less than one year old",
         "They are installed by the manufacturer",
-        "They are painted with an identifying color"
+        "They are less than one year old",
+        "They are painted with an identifying color",
+        "They are approved"
       ],
       "answer": "They are approved",
       "explanation": "The general approval rule states that required or permitted conductors and equipment are acceptable only if approved. Reference: 110.2, 2023 NEC."
@@ -67,10 +67,10 @@
       "id": 6,
       "question": "Which statement correctly describes earth in relation to an effective ground-fault current path?",
       "choices": [
-        "Earth must not be considered an effective ground-fault current path",
-        "Earth is always the only permitted ground-fault current path",
         "Earth replaces the equipment grounding conductor in every installation",
-        "Earth is the normal return path for all branch-circuit current"
+        "Earth is the normal return path for all branch-circuit current",
+        "Earth must not be considered an effective ground-fault current path",
+        "Earth is always the only permitted ground-fault current path"
       ],
       "answer": "Earth must not be considered an effective ground-fault current path",
       "explanation": "The grounding and bonding performance rule expressly states that earth is not an effective ground-fault current path. Reference: 250.4(A)(5), 2023 NEC."
@@ -79,10 +79,10 @@
       "id": 7,
       "question": "Fill in the blank: A single rod, pipe, or plate grounding electrode generally requires a supplemental electrode unless its resistance to earth is ______.",
       "choices": [
-        "25 ohms or less",
         "50 ohms or less",
-        "10 ohms or more",
-        "Exactly 1 ohm"
+        "25 ohms or less",
+        "Exactly 1 ohm",
+        "10 ohms or more"
       ],
       "answer": "25 ohms or less",
       "explanation": "The supplemental-electrode exception applies where a single rod, pipe, or plate electrode has a resistance to earth of 25 ohms or less. Reference: 250.53(A)(2), Exception, 2023 NEC."
@@ -91,10 +91,10 @@
       "id": 8,
       "question": "What conductor length and minimum size are required for a copper ground ring encircling a building or structure?",
       "choices": [
-        "At least 6.0 m (20 ft) of bare copper not smaller than 2 AWG",
-        "At least 3.0 m (10 ft) of insulated copper not smaller than 14 AWG",
         "At least 1.8 m (6 ft) of bare copper not smaller than 10 AWG",
-        "At least 15 m (50 ft) of aluminum not smaller than 6 AWG"
+        "At least 15 m (50 ft) of aluminum not smaller than 6 AWG",
+        "At least 6.0 m (20 ft) of bare copper not smaller than 2 AWG",
+        "At least 3.0 m (10 ft) of insulated copper not smaller than 14 AWG"
       ],
       "answer": "At least 6.0 m (20 ft) of bare copper not smaller than 2 AWG",
       "explanation": "A ground ring consists of at least 6.0 m (20 ft) of bare copper conductor not smaller than 2 AWG in direct contact with earth. Reference: 250.52(A)(4), 2023 NEC."
@@ -103,10 +103,10 @@
       "id": 9,
       "question": "May cables and raceways above a suspended ceiling be supported by the ceiling grid?",
       "choices": [
-        "No, cables and raceways must not be supported by ceiling grids",
-        "Yes, in every installation",
         "Yes, if the cable is under 50 volts",
-        "Yes, if plastic cable ties are used"
+        "No, cables and raceways must not be supported by ceiling grids",
+        "Yes, if plastic cable ties are used",
+        "Yes, in every installation"
       ],
       "answer": "No, cables and raceways must not be supported by ceiling grids",
       "explanation": "The general securing-and-supporting rule states that cables and raceways must not be supported by ceiling grids. Reference: 300.11(B), 2023 NEC."
@@ -115,10 +115,10 @@
       "id": 10,
       "question": "How must openings around electrical penetrations through fire-resistance-rated walls, partitions, floors, or ceilings be treated?",
       "choices": [
-        "They must be firestopped using approved methods to maintain the fire-resistance rating",
-        "They may be left open for ventilation",
         "They need only be covered with ordinary tape",
-        "They must be filled only with wood blocking"
+        "They may be left open for ventilation",
+        "They must be filled only with wood blocking",
+        "They must be firestopped using approved methods to maintain the fire-resistance rating"
       ],
       "answer": "They must be firestopped using approved methods to maintain the fire-resistance rating",
       "explanation": "The NEC requires approved firestopping methods that maintain the fire-resistance rating. Reference: 300.21, 2023 NEC."
@@ -127,10 +127,10 @@
       "id": 11,
       "question": "When a raceway or cable contains four through six current-carrying conductors, what adjustment factor applies to the table ampacity before any necessary ambient-temperature correction?",
       "choices": [
-        "80 percent",
-        "70 percent",
         "50 percent",
-        "100 percent"
+        "70 percent",
+        "100 percent",
+        "80 percent"
       ],
       "answer": "80 percent",
       "explanation": "The adjustment-factor table assigns 80 percent to four through six current-carrying conductors. Reference: Table 310.15(C)(1), 2023 NEC."
@@ -139,10 +139,10 @@
       "id": 12,
       "question": "What makes a location a Class II hazardous location?",
       "choices": [
+        "It contains no combustible material",
         "It is hazardous because of the presence of combustible dust",
         "It contains only flammable gases or vapors",
-        "It is hazardous only because its equipment exceeds 1000 volts",
-        "It contains no combustible material"
+        "It is hazardous only because its equipment exceeds 1000 volts"
       ],
       "answer": "It is hazardous because of the presence of combustible dust",
       "explanation": "Class II locations are those hazardous because of the presence of combustible dust. Reference: 500.5(C), 2023 NEC."
@@ -151,10 +151,10 @@
       "id": 13,
       "question": "Critical operations power system wiring must be protected against physical damage. Which wiring method is specifically permitted?",
       "choices": [
-        "Rigid metal conduit",
         "Open knob-and-tube wiring",
+        "Flexible cord laid on the floor",
         "Unsupported nonmetallic cable",
-        "Flexible cord laid on the floor"
+        "Rigid metal conduit"
       ],
       "answer": "Rigid metal conduit",
       "explanation": "Rigid metal conduit is one of the specifically permitted wiring methods for COPS wiring protected against physical damage. Reference: 708.10(C)(1), 2023 NEC."
@@ -163,10 +163,10 @@
       "id": 14,
       "question": "A cable is marked CL4P. What cable type does the marking identify?",
       "choices": [
-        "Class 4 plenum cable",
-        "Class 4 riser cable",
+        "Class 2 general-purpose cable",
         "Class 3 plenum cable",
-        "Class 2 general-purpose cable"
+        "Class 4 plenum cable",
+        "Class 4 riser cable"
       ],
       "answer": "Class 4 plenum cable",
       "explanation": "The cable-marking table identifies CL4P as Class 4 plenum cable. Reference: Table 722.179(B), 2023 NEC."
@@ -177,8 +177,8 @@
       "choices": [
         "Insulation at least that required for the Class 3 circuit",
         "No insulation when the cable is listed",
-        "Insulation rated only for the Class 2 source",
-        "Exactly 300-volt insulation in every installation"
+        "Exactly 300-volt insulation in every installation",
+        "Insulation rated only for the Class 2 source"
       ],
       "answer": "Insulation at least that required for the Class 3 circuit",
       "explanation": "Class 2 conductors installed with Class 3 conductors must have insulation at least that required for the Class 3 circuit. Reference: 725.139(C), 2023 NEC."
@@ -187,8 +187,8 @@
       "id": 16,
       "question": "What is the maximum output voltage permitted for a Class 4 power transmitter?",
       "choices": [
-        "450 volts peak or dc",
         "30 volts peak or dc",
+        "450 volts peak or dc",
         "600 volts rms",
         "1000 volts with no peak limit"
       ],
@@ -211,10 +211,10 @@
       "id": 18,
       "question": "What must be done around communications cable penetrations through fire-resistance-rated assemblies?",
       "choices": [
-        "Use approved firestopping methods to maintain the fire-resistance rating",
-        "Leave the openings unsealed",
+        "Cover only the visible side with paint",
         "Use ordinary packing material without approval",
-        "Cover only the visible side with paint"
+        "Use approved firestopping methods to maintain the fire-resistance rating",
+        "Leave the openings unsealed"
       ],
       "answer": "Use approved firestopping methods to maintain the fire-resistance rating",
       "explanation": "Communications cable and raceway penetrations must be firestopped using approved methods that maintain the rating. Reference: 800.26, 2023 NEC."
@@ -223,10 +223,10 @@
       "id": 19,
       "question": "Fill in the blank: Communications wires and cables passing above a roof generally require a vertical clearance of not less than ______ from all points of the roof over which they pass.",
       "choices": [
-        "2.5 m (8 ft)",
         "900 mm (3 ft)",
-        "450 mm (18 in.)",
-        "3.7 m (12 ft)"
+        "2.5 m (8 ft)",
+        "3.7 m (12 ft)",
+        "450 mm (18 in.)"
       ],
       "answer": "2.5 m (8 ft)",
       "explanation": "The general above-roof clearance is not less than 2.5 m (8 ft), subject to the listed exceptions. Reference: 800.44(B), 2023 NEC."
@@ -235,10 +235,10 @@
       "id": 20,
       "question": "Where practicable, what separation must be maintained between lightning-protection conductors and communications wires, communications cables, and CATV-type coaxial cables on buildings?",
       "choices": [
-        "At least 1.8 m (6 ft)",
+        "No separation",
         "At least 50 mm (2 in.)",
         "At least 300 mm (12 in.)",
-        "No separation"
+        "At least 1.8 m (6 ft)"
       ],
       "answer": "At least 1.8 m (6 ft)",
       "explanation": "Where practicable, the required separation from lightning-protection conductors is at least 1.8 m (6 ft). Reference: 800.53, 2023 NEC."
@@ -248,9 +248,9 @@
       "question": "An interbuilding communications circuit on a premises has lightning exposure. Where must listed primary protectors be installed?",
       "choices": [
         "At each end of the interbuilding circuit",
-        "Only at the midpoint",
+        "Nowhere if the cable is longer than 42 m (140 ft)",
         "Only at the building with the larger service",
-        "Nowhere if the cable is longer than 42 m (140 ft)"
+        "Only at the midpoint"
       ],
       "answer": "At each end of the interbuilding circuit",
       "explanation": "Where lightning exposure exists, each interbuilding communications circuit on a premises must be protected by a listed primary protector at each end. Reference: 805.90(A), 2023 NEC."
@@ -259,10 +259,10 @@
       "id": 22,
       "question": "Where must a receiving-station antenna discharge unit be located?",
       "choices": [
-        "Outside the building or inside between the lead-in entrance and the radio set or transformers, as near as practicable to the entrance",
-        "Only at the antenna’s highest point",
+        "At the farthest receptacle from the antenna",
         "Inside a hazardous location beside combustible material",
-        "At the farthest receptacle from the antenna"
+        "Only at the antenna’s highest point",
+        "Outside the building or inside between the lead-in entrance and the radio set or transformers, as near as practicable to the entrance"
       ],
       "answer": "Outside the building or inside between the lead-in entrance and the radio set or transformers, as near as practicable to the entrance",
       "explanation": "The antenna discharge unit location must follow this outside-or-inside arrangement and be as near as practicable to the entrance. Reference: 810.20(B), 2023 NEC."
@@ -272,9 +272,9 @@
       "question": "Coaxial cable supplies power to equipment directly associated with its radio-frequency distribution system. What maximum voltage is permitted?",
       "choices": [
         "60 volts",
+        "600 volts",
         "30 volts",
-        "120 volts",
-        "600 volts"
+        "120 volts"
       ],
       "answer": "60 volts",
       "explanation": "Coaxial cable may deliver power to directly associated equipment if voltage is not over 60 volts and the source has power-limiting characteristics. Reference: 820.15, 2023 NEC."
@@ -284,9 +284,9 @@
       "question": "For a direct-buried network-powered broadband cable in a location not otherwise specified, what minimum cover is required?",
       "choices": [
         "450 mm (18 in.)",
-        "150 mm (6 in.)",
         "300 mm (12 in.)",
-        "600 mm (24 in.)"
+        "600 mm (24 in.)",
+        "150 mm (6 in.)"
       ],
       "answer": "450 mm (18 in.)",
       "explanation": "The minimum-cover table specifies 450 mm (18 in.) for direct-buried cable in locations not otherwise specified. Reference: Table 830.47(A), 2023 NEC."
@@ -296,9 +296,9 @@
       "question": "An ideal transformer has 800 primary turns and 200 secondary turns. If the secondary supplies 16 amperes, what current flows in the primary?",
       "choices": [
         "4 amperes",
-        "16 amperes",
+        "2 amperes",
         "64 amperes",
-        "2 amperes"
+        "16 amperes"
       ],
       "answer": "4 amperes",
       "explanation": "For an ideal transformer, Ip = Is × Ns ÷ Np = 16 × 200 ÷ 800 = 4 amperes. Reference: General trade theory — ideal transformer current ratio."
@@ -307,10 +307,10 @@
       "id": 26,
       "question": "A conductor carrying 7.5 amperes passes through a current-transformer window four times. What total ampere-turns does the current transformer see?",
       "choices": [
-        "30 ampere-turns",
-        "1.875 ampere-turns",
         "7.5 ampere-turns",
-        "120 ampere-turns"
+        "1.875 ampere-turns",
+        "120 ampere-turns",
+        "30 ampere-turns"
       ],
       "answer": "30 ampere-turns",
       "explanation": "Ampere-turns equal current multiplied by turns: 7.5 A × 4 turns = 30 ampere-turns. Reference: General trade theory — ampere-turn relationship."
@@ -319,10 +319,10 @@
       "id": 27,
       "question": "What effects can nonsinusoidal currents from nonlinear loads produce in a transformer?",
       "choices": [
-        "Additional losses and transformer heating",
         "Elimination of all winding losses",
-        "A guaranteed reduction in conductor temperature",
-        "Perfectly sinusoidal neutral current"
+        "Additional losses and transformer heating",
+        "Perfectly sinusoidal neutral current",
+        "A guaranteed reduction in conductor temperature"
       ],
       "answer": "Additional losses and transformer heating",
       "explanation": "The transformer ventilation information notes that nonlinear loads with nonsinusoidal currents can result in additional losses and transformer heating. Reference: 450.9, Informational Note No. 2, 2023 NEC."
@@ -333,8 +333,8 @@
       "choices": [
         "Harmonic currents are present in the neutral conductor",
         "The neutral always carries zero current",
-        "The phase conductors contain no current",
-        "The circuit becomes single phase"
+        "The circuit becomes single phase",
+        "The phase conductors contain no current"
       ],
       "answer": "Harmonic currents are present in the neutral conductor",
       "explanation": "For this nonlinear-load arrangement, the NEC states that harmonic currents are present in the neutral, so it is current carrying. Reference: 310.15(E)(3), 2023 NEC."
@@ -343,10 +343,10 @@
       "id": 29,
       "question": "A 24-volt source is connected to 4-ohm and 8-ohm resistors in series. What current flows in the circuit?",
       "choices": [
-        "2 amperes",
         "3 amperes",
-        "6 amperes",
-        "12 amperes"
+        "12 amperes",
+        "2 amperes",
+        "6 amperes"
       ],
       "answer": "2 amperes",
       "explanation": "Series resistance is 4 + 8 = 12 ohms. Ohm’s law gives I = 24 ÷ 12 = 2 amperes. Reference: General trade theory — series resistance and Ohm’s law."
@@ -355,10 +355,10 @@
       "id": 30,
       "question": "Three parallel telecommunications devices each draw 0.8 ampere from the same source. What total current does the source supply?",
       "choices": [
-        "2.4 amperes",
-        "0.8 ampere",
+        "8 amperes",
         "0.267 ampere",
-        "8 amperes"
+        "2.4 amperes",
+        "0.8 ampere"
       ],
       "answer": "2.4 amperes",
       "explanation": "Parallel branch currents add: 0.8 + 0.8 + 0.8 = 2.4 amperes. Reference: General trade theory — Kirchhoff’s current law."

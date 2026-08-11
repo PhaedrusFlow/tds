@@ -1,0 +1,1582 @@
+P1:L1                             Journal of Graduate Medical Education
+P1:L2 Reliability of Large Language Models in Academic Research Evaluation: A Multi-Rater
+P1:L3                            Comparison with Human Experts
+P1:L4                                                 --Manuscript Draft--
+
+P1:L6  Manuscript Number:                    JGME-D-26-00586
+
+P1:L8  Full Title:                           Reliability of Large Language Models in Academic Research Evaluation: A Multi-Rater
+P1:L9                                        Comparison with Human Experts
+
+P1:L11  Short Title:                          Large Language Models in Academic Research Evaluation
+
+P1:L13  Article Type:                         Original Research
+
+P1:L15  Keywords:                             Artificial Intelligence; Education, Medical; Pathology; Reproducibility of Results
+
+P1:L17  Abstract:                             Background: Large language models (LLMs) are increasingly being explored in
+P1:L18                                        academic medicine, but their reliability for substantive research evaluation remains
+P1:L19                                        uncertain.
+P1:L20                                        Objective: This study assessed the performance of three LLMs in evaluating pathology
+P1:L21                                        research posters compared with a human faculty expert.
+P1:L22                                        Methods: In this 2026 study, one pathology faculty member and three LLMs (ChatGPT-
+P1:L23                                        5.2, Gemini-3, and Claude Sonnet-4.5) independently evaluated 90 de-identified
+P1:L24                                        posters using a standardized rubric. The rubric included a modified poster type
+P1:L25                                        classification and three ordinal domains: methods strength, conclusion validity, and
+P1:L26                                        writing quality, each scored on a 1–5 scale. Inter-rater reliability was assessed using
+P1:L27                                        Krippendorff’s α, Gwet’s AC2, and weighted kappa.
+P1:L28                                        Results: Poster type classification showed perfect agreement across raters. In contrast,
+P1:L29                                        agreement for ordinal domains was limited. Four-way exact agreement ranged from
+P1:L30                                        0% for total score to 24.4% for conclusion validity, while mean pairwise agreement
+P1:L31                                        ranged from 23.1% to 57.8%. Weighted kappa values were low across domains,
+P1:L32                                        ranging from 0.058 to 0.226, with relatively higher agreement for writing quality.
+P1:L33                                        Agreement among LLMs consistently exceeded agreement between LLMs and the
+P1:L34                                        human evaluator. Scoring patterns also differed: ChatGPT assigned perfect scores
+P1:L35                                        across all three ordinal domains to 12.22% of posters, compared with 5.56% for
+P1:L36                                        Claude, 4.44% for Gemini, and none by the human evaluator.
+P1:L37                                        Conclusion: LLMs showed strong reliability for categorical classification but limited
+P1:L38                                        consistency in ordinal research evaluation. These findings support their use as
+P1:L39                                        adjunctive tools rather than replacements for expert human reviewers.
+
+
+
+
+P1:L44                   Powered by Editorial Manager® and ProduXion Manager® from Aries Systems Corporation
+P1:L45 Cover Letter
+
+
+
+
+P1:L50            College of Medicine
+P1:L51            6850 Lake Nona Blvd.
+P1:L52            Orlando, FL 32827
+
+P1:L54                May 29, 2026
+
+
+
+P1:L58                Dear Editor-in-Chief,
+
+P1:L60                We are pleased to submit our manuscript entitled “Reliability of Large Language Models in
+P1:L61                Academic Research Evaluation: A Multi-Rater Comparison with Human Experts” for
+P1:L62                consideration for publication in the Journal of Graduate Medical Education. This work represents
+P1:L63                a prospective inter-rater reliability study conducted at the University of Central Florida College
+P1:L64                of Medicine and the UCF Institute for Artificial Intelligence, with direct relevance to scholarly
+P1:L65                activity assessment and research mentorship in graduate medical education (GME).
+
+P1:L67                Scholarly activity is a cornerstone of ACGME-accredited training programs, and program
+P1:L68                directors, faculty mentors, and assessment committees routinely evaluate resident and fellow
+P1:L69                research presentations (including poster projects) as part of milestone-based competency
+P1:L70                assessment. As artificial intelligence tools become increasingly accessible to educators, there is
+P1:L71                growing interest in whether large language models (LLMs) can assist with this evaluative
+P1:L72                workload. Yet rigorous evidence on their reliability as research evaluators remains scarce. Our
+P1:L73                study directly addresses this gap. We examined how three LLMs (ChatGPT, Gemini, and Claude
+P1:L74                Sonnet) performed in evaluating ninety de-identified pathology student/resident research posters
+P1:L75                against a standardized rubric, and we benchmarked their performance against an experienced
+P1:L76                faculty rater using multiple inter-rater reliability indices (Krippendorff’s α, Gwet’s AC2, and
+P1:L77                weighted κ).
+
+P1:L79                Our findings carry important implications for GME programs considering AI-assisted evaluation
+P1:L80                of trainee scholarly work: (1) All raters achieved perfect agreement on categorical poster-type
+P1:L81                classification, suggesting LLMs can reliably handle discrete categorization tasks; (2) Ordinal
+P1:L82                domain scoring agreement was uniformly low across all rater pairs, with pairwise weighted κ
+P1:L83                values ranging from 0.058 to 0.226; (3) AI–AI pairs consistently outperformed human–AI pairs,
+P1:L84                suggesting systematic divergence in evaluative standards between human and artificial raters;
+P1:L85                and (4) Scoring inflation varied meaningfully across models, with ChatGPT assigning perfect
+P1:L86                scores to 12.22% of projects versus 0% for faculty. Together, these findings caution against
+P1:L87                deploying LLMs as autonomous evaluators of trainee research and argue for their use as adjunct
+P1:L88                tools that augment—rather than replace—expert faculty review.
+
+P1:L90                We believe this manuscript makes a timely and substantive contribution to the literature on AI in
+P1:L91                medical education. It provides actionable guidance for program directors, faculty evaluators, and
+P1:L92                GME leaders considering LLM-assisted scholarly activity workflows, and it highlights the need
+P1:L93                for improved rubric design and standardized prompting protocols before such tools can be
+P1:L94                responsibly integrated into trainee assessment.
+P1:L95 College of Medicine
+P1:L96 6850 Lake Nona Blvd.
+P1:L97 Orlando, FL 32827
+
+
+
+
+P1:L102    This manuscript has not been published elsewhere and is not under consideration by any other
+P1:L103    journal. All authors have reviewed and approved the final version. There are no competing
+P1:L104    interests or external funding sources to declare. The authors disclose that large language model
+P1:L105    (LLM) assistance was used for text editing; all intellectual content, data, and conclusions are the
+P1:L106    sole responsibility of the authors. The authors’ contributions are as follows: Hatem Kaseb and
+P1:L107    Pegah Khosravi designed the study. Margaret-Anne Huntley and Hatem Kaseb collected the data
+P1:L108    and wrote the manuscript. Sai Karthik Nallamothu, Pegah Khosravi, and Hatem Kaseb
+P1:L109    performed and reviewed the statistical analyses. All authors reviewed and approved the final
+P1:L110    draft.
+
+P1:L112    We thank you for considering our work and look forward to your response. Please do not hesitate
+P1:L113    to contact us with any questions.
+
+
+
+P1:L117    Sincerely,
+
+
+
+P1:L121    Hatem Kaseb, MD, PhD, MPH
+P1:L122    Assistant Professor of Pathology
+P1:L123    Department of Clinical Sciences, College of Medicine
+P1:L124    University of Central Florida, Orlando, FL 32827, USA
+P1:L125    Phone: 407.266.1000, Email: hatem.kaseb@ucf.edu
+
+P1:L127    On behalf of all co-authors: Margaret-Anne Huntley, Sai Karthik Nallamothu, Ambreen Qamar, Jane
+P1:L128    Gibson, and Pegah Khosravi.
+P1:L129 Manuscript File                                                 Click here to access/download;Manuscript File;LLMs Poster
+P1:L130                                                                 Peer Review final 5 29 26 HK.docx
+
+P1:L132    1
+P1:L133    2
+P1:L134    3
+P1:L135    4          Reliability of Large Language Models in Academic Research Evaluation: A Multi-Rater
+P1:L136    5
+P1:L137    6          Comparison with Human Experts
+P1:L138    7
+P1:L139    8
+P1:L140    9
+P1:L141   10          Margaret-Anne Huntley1, Sai Karthik Nallamothu2,3, Pegah Khosravi2,3, Hatem Kaseb2
+P1:L142   11
+P1:L143   12
+P1:L144   13
+P1:L145   14
+P1:L146   15          Author Information
+P1:L147   16
+P1:L148               1Main Campus, University of Central Florida College of Medicine, Orlando, FL, USA.
+P1:L149   17
+P1:L150   18
+P1:L151   19          2Department of Clinical Sciences, College of Medicine, University of Central Florida, Orlando, FL,
+P1:L152   20
+P1:L153   21          USA.
+P1:L154   22          3Institute for Artificial Intelligence, Department of Computer Science, University of Central
+P1:L155   23
+P1:L156   24          Florida, Orlando, FL, USA.
+P1:L157   25
+P1:L158   26
+P1:L159               Correspondence: Hatem Kaseb, MD, Department of Clinical Sciences, Pathology, University of
+P1:L160   27
+P1:L161   28          Central Florida College of Medicine, Orlando, FL, 32827, USA.
+P1:L162   29
+P1:L163   30          Phone: 407.266.1000 Email: hatem.kaseb@ucf.edu
+P1:L164   31
+P1:L165   32          Funding: No external funding was received.
+P1:L166   33
+P1:L167   34
+P1:L168   35
+P1:L169               Disclaimers: None.
+P1:L170   36
+P1:L171   37          Previous Presentations: This work has not been previously presented.
+P1:L172   38
+P1:L173   39          Data Availability: Data are available upon reasonable request from the corresponding author.
+P1:L174   40
+P1:L175   41          Competing Interests and Funding: None.
+P1:L176   42
+P1:L177   43          Abstract word count: 232 words
+P1:L178   44
+P1:L179   45
+P1:L180   46
+P1:L181               Manuscript word count: 2508 words
+P1:L182   47
+P1:L183   48          Contributions: Hatem Kaseb and Pegah Khosravi designed the study. Margaret-Anne Huntley and
+P1:L184   49          Hatem Kaseb collected the data and wrote the manuscript. Sai Karthik Nallamothu, Pegah
+P1:L185   50
+P1:L186   51          Khosravi, and Hatem Kaseb performed/reviewed the statistics. All the authors reviewed and
+P1:L187   52          edited the final draft.
+P1:L188   53
+P1:L189   54
+P1:L190   55          Acknowledgment: The authors disclose the use of a Claude Sonnet 4.6 LLM to assist with
+P1:L191   56          language clarity, grammatical refinement and some figure design during manuscript preparation.
+P1:L192   57
+P1:L193   58          The authors retain full responsibility for the content and interpretation of the work. Biostatistical
+P1:L194   59          consultation for this study was provided by Xiang Zhu, PhD, at the UCF College of Medicine.
+P1:L195   60
+P1:L196   61
+P1:L197   62                                                                                                             1
+P1:L198   63
+P1:L199   64
+P1:L200   65
+P1:L201  1
+P1:L202  2
+P1:L203  3
+P1:L204  4
+P1:L205  5
+P1:L206  6
+P1:L207  7   Abstract
+P1:L208  8
+P1:L209  9   Background: Large language models (LLMs) are increasingly being explored in
+P1:L210 10
+P1:L211 11   academic medicine, but their reliability for substantive research evaluation remains
+P1:L212 12
+P1:L213 13
+P1:L214 14   uncertain.
+P1:L215 15
+P1:L216 16
+P1:L217 17   Objective: This study assessed the performance of three LLMs in evaluating pathology
+P1:L218 18
+P1:L219 19   research posters compared with a human faculty expert.
+P1:L220 20
+P1:L221 21
+P1:L222 22   Methods: In this 2026 study, one pathology faculty member and three LLMs (ChatGPT-
+P1:L223 23
+P1:L224 24
+P1:L225 25   5.2, Gemini-3, and Claude Sonnet-4.5) independently evaluated 90 de-identified posters
+P1:L226 26
+P1:L227 27   using a standardized rubric. The rubric included a modified poster type classification and
+P1:L228 28
+P1:L229 29
+P1:L230 30   three ordinal domains: methods strength, conclusion validity, and writing quality, each
+P1:L231 31
+P1:L232 32   scored on a 1–5 scale. Inter-rater reliability was assessed using Krippendorff’s α, Gwet’s
+P1:L233 33
+P1:L234 34
+P1:L235 35
+P1:L236      AC2, and weighted kappa.
+P1:L237 36
+P1:L238 37
+P1:L239 38   Results: Poster type classification showed perfect agreement across raters. In contrast,
+P1:L240 39
+P1:L241 40   agreement for ordinal domains was limited. Four-way exact agreement ranged from 0%
+P1:L242 41
+P1:L243 42
+P1:L244 43
+P1:L245      for total score to 24.4% for conclusion validity, while mean pairwise agreement ranged
+P1:L246 44
+P1:L247 45   from 23.1% to 57.8%. Weighted kappa values were low across domains, ranging from
+P1:L248 46
+P1:L249 47   0.058 to 0.226, with relatively higher agreement for writing quality. Agreement among
+P1:L250 48
+P1:L251 49
+P1:L252 50   LLMs consistently exceeded agreement between LLMs and the human evaluator. Scoring
+P1:L253 51
+P1:L254 52   patterns also differed: ChatGPT assigned perfect scores across all three ordinal domains
+P1:L255 53
+P1:L256 54
+P1:L257 55   to 12.22% of posters, compared with 5.56% for Claude, 4.44% for Gemini, and none by
+P1:L258 56
+P1:L259 57   the human evaluator.
+P1:L260 58
+P1:L261 59
+P1:L262 60
+P1:L263 61
+P1:L264 62                                                                                           2
+P1:L265 63
+P1:L266 64
+P1:L267 65
+P1:L268  1
+P1:L269  2
+P1:L270  3
+P1:L271  4   Conclusion: LLMs showed strong reliability for categorical classification but limited
+P1:L272  5
+P1:L273  6
+P1:L274  7   consistency in ordinal research evaluation. These findings support their use as adjunctive
+P1:L275  8
+P1:L276  9   tools rather than replacements for expert human reviewers.
+P1:L277 10
+P1:L278 11
+P1:L279 12   Keywords
+P1:L280 13
+P1:L281 14
+P1:L282 15
+P1:L283 16   Artificial Intelligence; Education, Medical; Pathology; Reproducibility of Results
+P1:L284 17
+P1:L285 18
+P1:L286 19
+P1:L287 20
+P1:L288 21
+P1:L289 22
+P1:L290 23
+P1:L291 24
+P1:L292 25
+P1:L293 26
+P1:L294 27
+P1:L295 28
+P1:L296 29
+P1:L297 30
+P1:L298 31
+P1:L299 32
+P1:L300 33
+P1:L301 34
+P1:L302 35
+P1:L303 36
+P1:L304 37
+P1:L305 38
+P1:L306 39
+P1:L307 40
+P1:L308 41
+P1:L309 42
+P1:L310 43
+P1:L311 44
+P1:L312 45
+P1:L313 46
+P1:L314 47
+P1:L315 48
+P1:L316 49
+P1:L317 50
+P1:L318 51
+P1:L319 52
+P1:L320 53
+P1:L321 54
+P1:L322 55
+P1:L323 56
+P1:L324 57
+P1:L325 58
+P1:L326 59
+P1:L327 60
+P1:L328 61
+P1:L329 62                                                                                           3
+P1:L330 63
+P1:L331 64
+P1:L332 65
+P1:L333  1
+P1:L334  2
+P1:L335  3
+P1:L336  4   Introduction
+P1:L337  5
+P1:L338  6
+P1:L339  7
+P1:L340  8
+P1:L341      Large language models (LLMs) have emerged as influential tools in healthcare and
+P1:L342  9
+P1:L343 10   academic medicine, with the ability to process large volumes of text, generate summaries,
+P1:L344 11
+P1:L345 12   and support a range of language-based tasks that may reduce administrative burden and
+P1:L346 13
+P1:L347 14
+P1:L348 15   assist scholarly work 1,2. Built on deep learning and natural language processing
+P1:L349 16
+P1:L350 17   architectures, LLMs have demonstrated strong performance in tasks such as
+P1:L351 18
+P1:L352 19
+P1:L353 20   summarization, content generation, and contextual reasoning 1,3. Consequently, they are
+P1:L354 21
+P1:L355 22   being increasingly investigated for use in medical education, research support, and
+P1:L356 23
+P1:L357 24
+P1:L358 25   academic writing processes, such as manuscript drafting, peer review facilitation, and
+P1:L359 26
+P1:L360 27   research assessment 3–5.
+P1:L361 28
+P1:L362 29
+P1:L363 30   Even with their growing capabilities, LLMs are being adopted in academic medicine at a
+P1:L364 31
+P1:L365 32
+P1:L366 33   measured pace, largely because of concerns about reliability, transparency, and
+P1:L367 34
+P1:L368 35   academic integrity. A key limitation is the tendency of LLMs to produce incorrect or
+P1:L369 36
+P1:L370 37
+P1:L371 38
+P1:L372      fabricated information, often referred to as “hallucinations” which can include inaccurate
+P1:L373 39
+P1:L374      references, misleading statements, or incorrect clinical reasoning         2,3,6.   Additional
+P1:L375 40
+P1:L376 41
+P1:L377 42   challenges include variability in output consistency, difficulty keeping up with the latest
+P1:L378 43
+P1:L379 44
+P1:L380 45   literature, lack of access to subscription-only content and reduced accuracy in highly
+P1:L381 46
+P1:L382 47   specialized domains 6–8. Consequently, current evidence suggests that LLMs are best
+P1:L383 48
+P1:L384 49
+P1:L385 50   positioned as assistive tools that augment human expertise rather than replace it 1,3,7.
+P1:L386 51
+P1:L387 52
+P1:L388 53   Prior studies have evaluated LLM performance in academic and clinical tasks, including
+P1:L389 54
+P1:L390 55   standardized examinations, manuscript review, and guideline-based assessments 3, 7, 9.
+P1:L391 56
+P1:L392 57
+P1:L393 58   While some studies report moderate agreement between LLMs and human evaluators in
+P1:L394 59
+P1:L395 60   structured settings, their reliability in more complex subspecialty areas and
+P1:L396 61
+P1:L397 62                                                                                               4
+P1:L398 63
+P1:L399 64
+P1:L400 65
+P1:L401  1
+P1:L402  2
+P1:L403  3
+P1:L404  4   multidimensional evaluations remains uncertain 9,10. Evaluating scientific work is usually
+P1:L405  5
+P1:L406  6
+P1:L407  7   complex and rarely straightforward; it draws not only on language comprehension, but
+P1:L408  8
+P1:L409  9   also on domain expertise, methodological understanding, and contextual judgment, areas
+P1:L410 10
+P1:L411 11
+P1:L412 12   where LLMs can fall short when used in isolation.
+P1:L413 13
+P1:L414 14
+P1:L415 15   Within medical education, the evaluation of posters is a complex process that integrates
+P1:L416 16
+P1:L417 17
+P1:L418 18   structured assessment criteria with elements of informed subjectivity. This process is
+P1:L419 19
+P1:L420 20   typically guided by rubrics that meticulously assess various domains, including study
+P1:L421 21
+P1:L422 22
+P1:L423 23
+P1:L424      design, methodological rigor, conclusion validity, and presentation quality. As the
+P1:L425 24
+P1:L426 25   landscape of biomedical research evolves, it increasingly incorporates sophisticated
+P1:L427 26
+P1:L428 27   experimental designs, molecular techniques, and intricate statistical analyses, which
+P1:L429 28
+P1:L430 29
+P1:L431 30   impose greater cognitive demands on reviewers. For example, in pathology, research
+P1:L432 31
+P1:L433 32   often brings together diverse elements such as histopathology, immunohistochemistry,
+P1:L434 33
+P1:L435 34
+P1:L436 35   genomics, and bioinformatics. Interpreting this integration requires specialized expertise
+P1:L437 36
+P1:L438 37   to ensure accurate evaluation, given the inherent complexity of the data. In this context,
+P1:L439 38
+P1:L440 39
+P1:L441 40   LLMs may serve as valuable adjuncts, offering support through structured, rubric-based
+P1:L442 41
+P1:L443 42   assessments. They are particularly well suited to evaluating clearly defined elements
+P1:L444 43
+P1:L445 44
+P1:L446      such as language quality, adherence to formatting guidelines, and basic structural
+P1:L447 45
+P1:L448 46
+P1:L449 47   components, thereby helping to streamline aspects of the review process.
+P1:L450 48
+P1:L451 49
+P1:L452 50   As we navigate this intricate landscape, it becomes clear that the role of LLMs is not to
+P1:L453 51
+P1:L454 52
+P1:L455 53   replace human evaluators but to enhance their capabilities. By providing consistent and
+P1:L456 54
+P1:L457 55   objective assessments for certain aspects of poster evaluations, LLMs can help alleviate
+P1:L458 56
+P1:L459 57
+P1:L460 58   some of the cognitive load on reviewers, allowing them to focus on the more complex
+P1:L461 59
+P1:L462 60   elements of research evaluation that require human insight and expertise. Thus, the
+P1:L463 61
+P1:L464 62                                                                                           5
+P1:L465 63
+P1:L466 64
+P1:L467 65
+P1:L468  1
+P1:L469  2
+P1:L470  3
+P1:L471  4   integration of LLMs into the evaluation process represents a promising avenue for
+P1:L472  5
+P1:L473  6
+P1:L474  7   improving the efficiency and effectiveness of research assessments in medical education
+P1:L475  8
+P1:L476  9   7,11.   In recent years, the excitement surrounding AI-assisted evaluation has surged, yet
+P1:L477 10
+P1:L478 11
+P1:L479 12   a significant gap persists in our understanding of how well LLMs can mimic human
+P1:L480 13
+P1:L481 14   judgment in academic assessments. While many studies have explored the capabilities
+P1:L482 15
+P1:L483 16
+P1:L484 17   of individual models or specific tasks, they often overlook the broader picture. There is a
+P1:L485 18
+P1:L486 19   lack of comprehensive research that systematically compares various LLMs against
+P1:L487 20
+P1:L488 21
+P1:L489      human expert evaluations, particularly using structured rubrics and diverse reliability
+P1:L490 22
+P1:L491 23
+P1:L492 24   metrics. This gap calls for a more profound investigation into the reliability of LLMs across
+P1:L493 25
+P1:L494 26   multiple evaluators and models in real-world academic settings, paving the way for future
+P1:L495 27
+P1:L496 28
+P1:L497 29   studies to explore their potential in enhancing educational assessments 12,13.
+P1:L498 30
+P1:L499 31
+P1:L500 32   Addressing a significant gap in the literature, this study utilizes a multi-modal, multi-rater
+P1:L501 33
+P1:L502 34
+P1:L503 35   framework to evaluate the performance of three LLMs (ChatGPT-5.2, Gemini-3, and
+P1:L504 36
+P1:L505 37   Claude Sonnet-4.5) in assessing pathology research posters. By benchmarking these
+P1:L506 38
+P1:L507 39
+P1:L508 40   models against a human faculty expert using a standardized rubric, the research
+P1:L509 41
+P1:L510 42   examines consistency across categorical and ordinal domains. A core contribution of this
+P1:L511 43
+P1:L512 44
+P1:L513      work is its methodological rigor, featuring a systematic inter-rater reliability analysis of
+P1:L514 45
+P1:L515 46
+P1:L516 47   human-AI and AI-AI pairs within an authentic academic environment. Ultimately, this
+P1:L517 48
+P1:L518 49   study aims to quantify the efficacy of LLMs in structured scholarly assessment, defining
+P1:L519 50
+P1:L520 51
+P1:L521 52   their current utility and potential to enhance the evaluation of academic research.
+P1:L522 53
+P1:L523 54
+P1:L524 55
+P1:L525 56
+P1:L526 57
+P1:L527 58
+P1:L528 59
+P1:L529 60
+P1:L530 61
+P1:L531 62                                                                                               6
+P1:L532 63
+P1:L533 64
+P1:L534 65
+P1:L535  1
+P1:L536  2
+P1:L537  3
+P1:L538  4   Methods
+P1:L539  5
+P1:L540  6
+P1:L541  7
+P1:L542  8   Study Design and Context
+P1:L543  9
+P1:L544 10
+P1:L545 11
+P1:L546 12
+P1:L547      This study employed a structured, multi-stage evaluation design conducted in 2026 to
+P1:L548 13
+P1:L549 14
+P1:L550 15   assess inter-rater reliability between a human faculty expert and three large language
+P1:L551 16
+P1:L552 17   models (LLMs) in scoring de-identified student research posters (Figure 1). The four-
+P1:L553 18
+P1:L554 19
+P1:L555 20   stage pipeline encompassed poster collection and de-identification, rubric development
+P1:L556 21
+P1:L557 22   and application, independent scoring by each rater, and statistical computation of
+P1:L558 23
+P1:L559 24
+P1:L560 25   agreement indices across categorical and ordinal domains.
+P1:L561 26
+P1:L562 27
+P1:L563 28
+P1:L564 29   Sample and Evaluation Process
+P1:L565 30
+P1:L566 31
+P1:L567 32
+P1:L568 33   A total of 90 de-identified research posters were independently evaluated by one human
+P1:L569 34
+P1:L570 35   faculty rater and three LLMs (ChatGPT-5.2, Gemini-3, and Claude Sonnet-4.5), all
+P1:L571 36
+P1:L572 37
+P1:L573 38   blinded to one another's assessments. Scoring utilized a standardized four-domain rubric:
+P1:L574 39
+P1:L575 40   poster type (categorical) and three ordinal quality domains (method strength, conclusion
+P1:L576 41
+P1:L577 42
+P1:L578      validity, and quality of writing), each rated on a 5-point scale with no half-point increments
+P1:L579 43
+P1:L580 44
+P1:L581 45   permitted (Supplemental Table 1-2). Poster type was assigned fixed values reflecting
+P1:L582 46
+P1:L583 47   study design complexity, with basic research receiving the highest score. Given the single
+P1:L584 48
+P1:L585 49
+P1:L586 50   human rater, analyses focused on concordance between each LLM and this human
+P1:L587 51
+P1:L588 52   reference standard rather than traditional multi-human inter-rater reliability.
+P1:L589 53
+P1:L590 54
+P1:L591 55
+P1:L592 56
+P1:L593 57
+P1:L594 58
+P1:L595 59
+P1:L596 60
+P1:L597 61
+P1:L598 62                                                                                               7
+P1:L599 63
+P1:L600 64
+P1:L601 65
+P1:L602  1
+P1:L603  2
+P1:L604  3
+P1:L605  4   LLM Configuration and Prompting Protocol
+P1:L606  5
+P1:L607  6
+P1:L608  7
+P1:L609  8   All three LLMs were accessed via their respective web-based interfaces during February–
+P1:L610  9
+P1:L611 10
+P1:L612 11
+P1:L613      March 2026 under default system configurations, without API access or parameter
+P1:L614 12
+P1:L615 13   modification. Each model evaluated all posters independently in a single pass
+P1:L616 14
+P1:L617 15   (Supplemental Table 1-2) using a uniform, standardized prompt instructing the model to
+P1:L618 16
+P1:L619 17
+P1:L620 18   adopt the role of an expert academic physician and score strictly according to the rubric,
+P1:L621 19
+P1:L622 20   without inferring beyond the provided content (Supplemental Table 1-2).
+P1:L623 21
+P1:L624 22
+P1:L625 23   Outcome Measures and Statistical Analysis
+P1:L626 24
+P1:L627 25
+P1:L628 26   Descriptive statistics were utilized to summarize scoring distributions and perfect score
+P1:L629 27
+P1:L630 28   rates by rater. Agreement was quantified using four-way exact agreement and mean
+P1:L631 29
+P1:L632 30
+P1:L633 31   pairwise exact agreement across all six rater dyads. Chance-corrected reliability was
+P1:L634 32
+P1:L635 33   assessed using Krippendorff’s α (nominal metric for poster type; ordinal distance
+P1:L636 34
+P1:L637 35
+P1:L638 36   weighting for quality domains) and Gwet’s AC1/AC2 coefficients. Quadratic-weighted
+P1:L639 37
+P1:L640 38   Cohen’s κ was calculated for each rater pair to examine dyadic agreement patterns, with
+P1:L641 39
+P1:L642 40
+P1:L643      benchmarks ranging from poor (< 0.00) to almost perfect (> 0.80) 14. A composite total
+P1:L644 41
+P1:L645 42
+P1:L646 43   score (range: 6–20) was computed by summing all four domain scores, with the same
+P1:L647 44
+P1:L648 45   indices applied to this aggregate measure. Scoring stringency was characterized by
+P1:L649 46
+P1:L650 47
+P1:L651 48   calculating perfect score frequency per evaluator, and convergent validity was assessed
+P1:L652 49
+P1:L653 50   by cross-tabulating each rater’s top three highest-scoring projects.
+P1:L654 51
+P1:L655 52
+P1:L656 53
+P1:L657 54   Ethical Considerations
+P1:L658 55
+P1:L659 56
+P1:L660 57
+P1:L661 58
+P1:L662 59
+P1:L663 60
+P1:L664 61
+P1:L665 62                                                                                           8
+P1:L666 63
+P1:L667 64
+P1:L668 65
+P1:L669  1
+P1:L670  2
+P1:L671  3
+P1:L672  4   The study was determined exempt from IRB human subjects requirements (exemption
+P1:L673  5
+P1:L674  6
+P1:L675  7   number: STUDY00009045), as all data were fully de-identified and derived from routine
+P1:L676  8
+P1:L677  9   educational evaluation activities.
+P1:L678 10
+P1:L679 11
+P1:L680 12
+P1:L681 13
+P1:L682 14
+P1:L683 15
+P1:L684 16
+P1:L685 17
+P1:L686 18
+P1:L687 19
+P1:L688 20
+P1:L689 21
+P1:L690 22
+P1:L691 23
+P1:L692 24
+P1:L693 25
+P1:L694 26
+P1:L695 27
+P1:L696 28
+P1:L697 29
+P1:L698 30
+P1:L699 31
+P1:L700 32
+P1:L701 33
+P1:L702 34
+P1:L703 35
+P1:L704 36
+P1:L705 37
+P1:L706 38
+P1:L707 39
+P1:L708 40
+P1:L709 41
+P1:L710 42
+P1:L711 43
+P1:L712 44
+P1:L713 45
+P1:L714 46
+P1:L715 47
+P1:L716 48
+P1:L717 49
+P1:L718 50
+P1:L719 51
+P1:L720 52
+P1:L721 53
+P1:L722 54
+P1:L723 55
+P1:L724 56
+P1:L725 57
+P1:L726 58
+P1:L727 59
+P1:L728 60
+P1:L729 61
+P1:L730 62                                                                                      9
+P1:L731 63
+P1:L732 64
+P1:L733 65
+P1:L734  1
+P1:L735  2
+P1:L736  3
+P1:L737  4   Results
+P1:L738  5
+P1:L739  6
+P1:L740  7   Descriptive Characteristics and Evaluation Efficiency
+P1:L741  8
+P1:L742  9   Ninety research posters were analyzed, with case reports comprising the majority
+P1:L743 10
+P1:L744 11
+P1:L745 12   (78.9%), followed by case series (14.4%) and original research studies (6.7%). The
+P1:L746 13
+P1:L747 14   distribution across submission types was statistically significant (p < 0.001)
+P1:L748 15
+P1:L749 16
+P1:L750 17   (Supplemental figure 1). Regarding evaluation efficiency, the faculty reviewer spent
+P1:L751 18
+P1:L752 19   approximately 5 minutes per poster (~7.5 hours total), whereas each LLM completed
+P1:L753 20
+P1:L754 21
+P1:L755      evaluations in under one minute per poster (~1.5 hours total).
+P1:L756 22
+P1:L757 23
+P1:L758 24
+P1:L759 25   Agreement trends across raters and Domains
+P1:L760 26
+P1:L761 27
+P1:L762 28
+P1:L763      Poster-type classification achieved perfect agreement across all four raters, with four-way
+P1:L764 29
+P1:L765 30
+P1:L766 31   exact agreement, mean pairwise exact agreement, Krippendorff's α, and Gwet's AC2 all
+P1:L767 32
+P1:L768 33   equal to 1.000. Agreement was considerably lower across the three ordinal quality
+P1:L769 34
+P1:L770 35
+P1:L771 36   domains (Figure 2 and Supplemental table 3). For Methods Strength, four-way exact
+P1:L772 37
+P1:L773 38   agreement was 14.4% and mean pairwise agreement was 52.2%; Krippendorff's α
+P1:L774 39
+P1:L775 40
+P1:L776 41   indicated slight reliability (0.037), while Gwet's AC2 suggested moderate-to-substantial
+P1:L777 42
+P1:L778 43   agreement (0.612). Conclusion Validity showed the highest pairwise consistency among
+P1:L779 44
+P1:L780 45
+P1:L781 46   ordinal domains (57.8%), with a Krippendorff's α of 0.013 and AC2 of 0.644. Quality of
+P1:L782 47
+P1:L783 48   Writing yielded the lowest AC2 (0.601), with four-way and pairwise exact agreement of
+P1:L784 49
+P1:L785 50
+P1:L786 51
+P1:L787      13.3% and 51.1%, respectively. The composite Total Score had 0% four-way exact
+P1:L788 52
+P1:L789 53   agreement and 23.1% mean pairwise agreement, yet achieved the highest AC2 (0.702)
+P1:L790 54
+P1:L791 55   and a Krippendorff's α of 0.125, attributable to ordinal-weighted partial credit across the
+P1:L792 56
+P1:L793 57
+P1:L794 58   broader scale.
+P1:L795 59
+P1:L796 60
+P1:L797 61
+P1:L798 62                                                                                           10
+P1:L799 63
+P1:L800 64
+P1:L801 65
+P1:L802  1
+P1:L803  2
+P1:L804  3
+P1:L805  4   Pairwise weighted κ values were in the slight-to-fair range across all ordinal domains
+P1:L806  5
+P1:L807  6
+P1:L808  7   (Figure 3; Supplemental Table 3). LLM–LLM pairs consistently outperformed faculty–LLM
+P1:L809  8
+P1:L810  9   pairs, most notably in Quality of Writing, where LLM–LLM κw reached 0.226 (ChatGPT–
+P1:L811 10
+P1:L812 11
+P1:L813 12   Gemini) versus 0.149–0.168 for faculty–LLM pairs.
+P1:L814 13
+P1:L815 14
+P1:L816 15   Scoring Distributions and Top-Ranked Project Concordance
+P1:L817 16
+P1:L818 17
+P1:L819 18
+P1:L820 19   Significant differences in scoring distributions were identified across raters (χ²(3) = 13.13,
+P1:L821 20
+P1:L822 21   p = 0.004; Cramér's V = 0.191). The pathology faculty assigned no maximum composite
+P1:L823 22
+P1:L824 23
+P1:L825 24   scores (5-5-5), while ChatGPT awarded ceiling scores 12.22% of the time, followed by
+P1:L826 25
+P1:L827 26   Claude (5.56%) and Gemini (4.44%), indicating a consistent tendency among LLMs
+P1:L828 27
+P1:L829 28
+P1:L830      toward score inflation relative to the human rater. Top-ranked project concordance was
+P1:L831 29
+P1:L832 30
+P1:L833 31   limited (Supplemental table 4). The only unanimously top-ranked project across faculty,
+P1:L834 32
+P1:L835 33   Claude, and ChatGPT was Project 11. Three additional pairwise agreements were
+P1:L836 34
+P1:L837 35
+P1:L838 36   observed: Project 65 (faculty and Claude), Project 14 (Claude and Gemini), and Project
+P1:L839 37
+P1:L840 38   1 (ChatGPT and Gemini).
+P1:L841 39
+P1:L842 40
+P1:L843 41
+P1:L844 42
+P1:L845 43
+P1:L846 44
+P1:L847 45
+P1:L848 46
+P1:L849 47
+P1:L850 48
+P1:L851 49
+P1:L852 50
+P1:L853 51
+P1:L854 52
+P1:L855 53
+P1:L856 54
+P1:L857 55
+P1:L858 56
+P1:L859 57
+P1:L860 58
+P1:L861 59
+P1:L862 60
+P1:L863 61
+P1:L864 62                                                                                              11
+P1:L865 63
+P1:L866 64
+P1:L867 65
+P1:L868  1
+P1:L869  2
+P1:L870  3
+P1:L871  4   Discussion
+P1:L872  5
+P1:L873  6
+P1:L874  7
+P1:L875  8   This study evaluated the reliability of three LLMs (ChatGPT-5.2, Gemini 3, and Claude
+P1:L876  9
+P1:L877 10   Sonnet 4.5) relative to a human faculty rater in scoring 90 pathology research posters
+P1:L878 11
+P1:L879 12
+P1:L880 13   across four domains: Poster Type, Methods Strength, Conclusion Validity, and Quality of
+P1:L881 14
+P1:L882 15   Writing. A striking divergence emerged between categorical and ordinal performance. All
+P1:L883 16
+P1:L884 17
+P1:L885 18   raters achieved perfect agreement on Poster Type classification, confirming that LLMs
+P1:L886 19
+P1:L887 20   can reliably replicate expert categorical judgment when criteria are well-defined and
+P1:L888 21
+P1:L889 22
+P1:L890 23
+P1:L891      mutually exclusive consistent with prior literature11,15–18 and suggesting a role for these
+P1:L892 24
+P1:L893 25   models in early-stage screening and administrative review7,19, 20. Ordinal scoring
+P1:L894 26
+P1:L895 27   presented a contrasting perspective. Four-way exact agreement ranged from only 13.3%
+P1:L896 28
+P1:L897 29
+P1:L898 30   to 24.4% across the quality domains, with weighted kappa values falling in the slight-to-
+P1:L899 31
+P1:L900 32   fair range for all rater pairs. The composite total score showed the highest chance-
+P1:L901 33
+P1:L902 34
+P1:L903 35   corrected agreement (Krippendorff's α = 0.125; Gwet's AC2 = 0.702), a pattern partly
+P1:L904 36
+P1:L905 37   attributable to the stabilizing effect of the perfectly agreed-upon Poster Type
+P1:L906 38
+P1:L907 39
+P1:L908 40   classification. A notable discrepancy between the two agreement indices was noted.
+P1:L909 41
+P1:L910 42   Krippendorff's α yielded very low values for ordinal domains (range: 0.013–0.062), while
+P1:L911 43
+P1:L912 44
+P1:L913      Gwet's AC2 produced substantially higher estimates (0.601–0.644), reaching the
+P1:L914 45
+P1:L915 46
+P1:L916 47   substantial range for Methods Strength (AC2 = 0.612). When scores cluster within a
+P1:L917 48
+P1:L918 49   narrow range, Krippendorff's α is susceptible to artificial deflation through its chance-
+P1:L919 50
+P1:L920 51
+P1:L921 52   correction mechanism, a well-documented phenomenon known as the "prevalence
+P1:L922 53
+P1:L923 54   paradox" 21–23. Gwet's AC2 distributes its chance baseline more uniformly across
+P1:L924 55
+P1:L925 56
+P1:L926 57   categories and is less prone to this distortion. Even so, AC2 values in this study generally
+P1:L927 58
+P1:L928 59
+P1:L929 60
+P1:L930 61
+P1:L931 62                                                                                            12
+P1:L932 63
+P1:L933 64
+P1:L934 65
+P1:L935  1
+P1:L936  2
+P1:L937  3
+P1:L938  4   remained below the thresholds considered adequate for high-stakes autonomous
+P1:L939  5
+P1:L940  6
+P1:L941  7   evaluation, reinforcing the need for interpretive caution.
+P1:L942  8
+P1:L943  9
+P1:L944 10   LLMs and the faculty reviewer differed not only in agreement levels but also in scoring
+P1:L945 11
+P1:L946 12
+P1:L947 13   behavior. Pairwise weighted κ analysis revealed that AI–AI dyads consistently
+P1:L948 14
+P1:L949 15   demonstrated modestly higher concordance than human–AI dyads across all ordinal
+P1:L950 16
+P1:L951 17
+P1:L952 18   domains. For example, ChatGPT and Gemini achieved a κw of 0.226, while the faculty
+P1:L953 19
+P1:L954 20   rater and Claude Sonnet achieved only 0.149 for Quality of Writing. This pattern suggests
+P1:L955 21
+P1:L956 22
+P1:L957 23
+P1:L958      that LLMs share latent scoring tendencies, likely arising from similar training paradigms,
+P1:L959 24
+P1:L960 25   that diverge from the implicit standards applied by experienced human reviewers. The
+P1:L961 26
+P1:L962 27   raters also differed meaningfully in scoring behavior. The human faculty applied the most
+P1:L963 28
+P1:L964 29
+P1:L965 30   conservative ratings, awarding zero perfect composite scores, while ChatGPT assigned
+P1:L966 31
+P1:L967 32   perfect scores (5–5–5) in 12.22% of cases, Claude in 5.56%, and Gemini in 4.44%. The
+P1:L968 33
+P1:L969 34
+P1:L970 35   faculty's conservatism likely reflects domain-specific expertise and implicit consideration
+P1:L971 36
+P1:L972 37   of factors beyond the rubric, including study feasibility, clinical relevance, and risk of bias.
+P1:L973 38
+P1:L974 39
+P1:L975 40   This is illustrated by the Conclusion Validity domain: with 78.9% of posters being case
+P1:L976 41
+P1:L977 42   reports, a design inherently limited in capacity to change clinical practice, awarding a top
+P1:L978 43
+P1:L979 44
+P1:L980      score is difficult to justify regardless of writing quality. LLMs, by contrast, appeared more
+P1:L981 45
+P1:L982 46
+P1:L983 47   responsive to narrative clarity and writing quality than to methodological rigor, a tendency
+P1:L984 48
+P1:L985 49   consistent with findings by Latona et al., who reported that LLM-reviewed research is
+P1:L986 50
+P1:L987 51
+P1:L988 52   more likely to be accepted than when evaluated by human experts 14. Collectively, these
+P1:L989 53
+P1:L990 54   findings reveal a significant "judgment gap" between LLMs and human expert reviewers.
+P1:L991 55
+P1:L992 56
+P1:L993 57   Despite widespread variability, certain posters notably Projects 11, 65, 14, and 1 were
+P1:L994 58
+P1:L995 59   consistently ranked among the top contenders across evaluators. Project 11 achieved the
+P1:L996 60
+P1:L997 61
+P1:L998 62                                                                                                13
+P1:L999 63
+P1:L1000 64
+P1:L1001 65
+P1:L1002  1
+P1:L1003  2
+P1:L1004  3
+P1:L1005  4   broadest consensus among the faculty, Claude Sonnet, and ChatGPT, suggesting that
+P1:L1006  5
+P1:L1007  6
+P1:L1008  7   clear markers of scientific quality are recognizable to both human and machine
+P1:L1009  8
+P1:L1010  9   evaluators. Notably, Projects 11 and 65 were also selected by the faculty among the best
+P1:L1011 10
+P1:L1012 11
+P1:L1013 12   three posters on the day of the event, corroborating the real-world validity of this
+P1:L1014 13
+P1:L1015 14   convergence.
+P1:L1016 15
+P1:L1017 16
+P1:L1018 17
+P1:L1019 18   Despite current limitations, LLMs offer meaningful support in targeted applications. They
+P1:L1020 19
+P1:L1021 20   show promise in classifying research designs during early-stage review, reducing burden
+P1:L1022 21
+P1:L1023 22
+P1:L1024 23
+P1:L1025      on expert reviewers and freeing faculty time for mentorship and case-based learning 20,24.
+P1:L1026 24
+P1:L1027 25   All three LLMs also generated detailed evaluative comments without explicit prompting,
+P1:L1028 26
+P1:L1029 27   which could support scientific communication training and poster preparation 3,25,26.
+P1:L1030 28
+P1:L1031 29
+P1:L1032 30   However, increased reliance on LLM feedback risks reducing direct faculty contact,
+P1:L1033 31
+P1:L1034 32   important for developing skills in visual design, figure labeling, and scientific
+P1:L1035 33
+P1:L1036 34
+P1:L1037 35   argumentation. For high-stakes decisions such as summative assessment or grant
+P1:L1038 36
+P1:L1039 37   review, LLMs are not yet appropriate as independent evaluators. A hybrid model in which
+P1:L1040 38
+P1:L1041 39
+P1:L1042 40   LLMs assist rather than replace human reviewers reflects both the current evidence and
+P1:L1043 41
+P1:L1044 42   emerging consensus in the field 11. One practical approach involves calibrating models
+P1:L1045 43
+P1:L1046 44
+P1:L1047      using expert-provided scores and rationales prior to deployment to reduce systematic
+P1:L1048 45
+P1:L1049 46
+P1:L1050 47   scoring bias. LLMs currently lack the reliability needed for independent ordinal
+P1:L1051 48
+P1:L1052 49   assessment of research quality. Until calibration improves, high-stakes academic
+P1:L1053 50
+P1:L1054 51
+P1:L1055 52   evaluations should remain human-led, with LLMs serving as supportive tools that
+P1:L1056 53
+P1:L1057 54   augment rather than replace expert judgment.
+P1:L1058 55
+P1:L1059 56
+P1:L1060 57
+P1:L1061 58
+P1:L1062 59
+P1:L1063 60
+P1:L1064 61
+P1:L1065 62                                                                                          14
+P1:L1066 63
+P1:L1067 64
+P1:L1068 65
+P1:L1069  1
+P1:L1070  2
+P1:L1071  3
+P1:L1072  4   This study has several limitations. Only one human rater was used, preventing a robust
+P1:L1073  5
+P1:L1074  6
+P1:L1075  7   human interrater reliability benchmark. The sample came from a single pathology
+P1:L1076  8
+P1:L1077  9   educational meeting and consisted mainly of case reports, limiting generalizability.
+P1:L1078 10
+P1:L1079 11
+P1:L1080 12   Because posters include visual elements such as figures, tables, and microscopic
+P1:L1081 13
+P1:L1082 14   images, some LLMs may have been disadvantaged, particularly in pathology, where
+P1:L1083 15
+P1:L1084 16
+P1:L1085 17   image-based interpretation is central and LLM performance on image-based
+P1:L1086 18
+P1:L1087 19   assessments remains limited and in development 27. Multi-point rubrics also show limited
+P1:L1088 20
+P1:L1089 21                                                                20,24,25.
+P1:L1090      reliability even among experienced human reviewers                       Finally, rapid LLM
+P1:L1091 22
+P1:L1092 23
+P1:L1093 24   development, opaque training processes, and rater agreement without proven validity
+P1:L1094 25
+P1:L1095 26   limit reproducibility and interpretation.
+P1:L1096 27
+P1:L1097 28
+P1:L1098 29
+P1:L1099 30   Future research should focus on improving rubric design, since rubric quality can
+P1:L1100 31
+P1:L1101 32   influence interrater reliability 20. Greater specificity or simplification may enhance LLM
+P1:L1102 33
+P1:L1103 34
+P1:L1104 35   scoring consistency; calibration exercises and hybrid human–LLM models could greatly
+P1:L1105 36
+P1:L1106 37   improve alignment with faculty judgment. Studies should also assess longitudinal score
+P1:L1107 38
+P1:L1108 39
+P1:L1109 40   stability, performance across disciplines, and the educational impact of AI-assisted
+P1:L1110 41
+P1:L1111 42   feedback. Methods such as chain-of-thought prompting may clarify why LLMs diverge
+P1:L1112 43
+P1:L1113 44
+P1:L1114      from experts, especially when judging conclusion validity. Overall, LLMs show promise
+P1:L1115 45
+P1:L1116 46
+P1:L1117 47   for classification and structured evaluation, but high-stakes academic assessment should
+P1:L1118 48
+P1:L1119 49   remain human-led, with LLMs serving as a complementary support tool.
+P1:L1120 50
+P1:L1121 51
+P1:L1122 52
+P1:L1123 53
+P1:L1124 54
+P1:L1125 55
+P1:L1126 56
+P1:L1127 57
+P1:L1128 58
+P1:L1129 59
+P1:L1130 60
+P1:L1131 61
+P1:L1132 62                                                                                           15
+P1:L1133 63
+P1:L1134 64
+P1:L1135 65
+P1:L1136  1
+P1:L1137  2
+P1:L1138  3
+P1:L1139  4   Figure 1: Framework of the study showing the different stages, including dataset
+P1:L1140  5
+P1:L1141  6   preparation and design (Stage 1); multi-rater assessment utilizing a standardized
+P1:L1142  7   scoring rubric (Stage 2); and, finally, the inter-rater reliability (IRR) analysis.
+P1:L1143  8
+P1:L1144  9   The figure shows the three stages of the study. The objective was to evaluate the
+P1:L1145 10   interrater reliability among one human expert and three large language model raters in
+P1:L1146 11
+P1:L1147 12   the assessment of 90 research posters. In Stage 1, a curated dataset of projects (1–90)
+P1:L1148 13   was collected and assembled. In Stage 2, all posters were independently scored using
+P1:L1149 14   a standardized rubric across four domains: poster type (categorical) and methods
+P1:L1150 15   strength, conclusion validity, and quality of writing (ordinal), with raters blinded to one
+P1:L1151 16   another's scoring. In Stage 3, agreement was analyzed using different approaches,
+P1:L1152 17
+P1:L1153 18   including raw agreement (four-way exact and mean pairwise), chance-corrected indices
+P1:L1154 19   (Krippendorff’s α and Gwet’s AC2), and pairwise quadratic-weighted Cohen’s κ, with
+P1:L1155 20   established thresholds used to interpret agreement strength from slight to almost
+P1:L1156 21   perfect.
+P1:L1157 22
+P1:L1158 23
+P1:L1159 24   Figure 2: Four-way versus mean pairwise exact agreement, ranges, stacked composition,
+P1:L1160 25   and gaps across all evaluation domains. (E–F) The same comparisons for methods
+P1:L1161 26   strength, conclusion validity, and quality of writing are shown as percentages for the
+P1:L1162 27   ordinal κ summary.
+P1:L1163 28
+P1:L1164 29
+P1:L1165 30   (A) Bar plots demonstrate that the four-way exact agreement is consistently lower than
+P1:L1166 31   mean pairwise agreement across all ordinal domains, with perfect agreement observed
+P1:L1167 32   only for poster type. (B) Domain-specific agreement ranges highlight the spread between
+P1:L1168 33
+P1:L1169 34
+P1:L1170      four-way and pairwise agreement, emphasizing greater divergence in subjective domains
+P1:L1171 35   such as methods strength and quality of writing. (C) Stacked bar plots illustrate the
+P1:L1172 36   contribution of four-way agreement and the additional agreement captured at the pairwise
+P1:L1173 37   level, showing that a substantial proportion of agreement in ordinal domains is not
+P1:L1174 38   reflected in full-consensus measures. (D) The agreement gap (pairwise minus four-way
+P1:L1175 39
+P1:L1176 40   agreement) quantifies the magnitude of discordance across domains, demonstrating
+P1:L1177 41   large gaps for methods strength and quality of writing, moderate gaps for conclusion
+P1:L1178 42   validity and total score, and no gap for poster type. (E) Bar plots compare four-way exact
+P1:L1179 43   agreement percentages against mean pairwise agreement, showing a consistent trend
+P1:L1180 44
+P1:L1181      where pairwise agreement significantly exceeds group consensus. (F) Stacked bar plots
+P1:L1182 45
+P1:L1183 46   visualize the additive nature of pairwise agreement over the foundational four-way exact
+P1:L1184 47   agreement.
+P1:L1185 48
+P1:L1186 49   Figure 3. Comparative Pairwise Weighted Kappa Analysis Reveals Enhanced Internal
+P1:L1187 50
+P1:L1188 51
+P1:L1189      Consensus Among Large Language Models Relative to Faculty Alignment
+P1:L1190 52
+P1:L1191 53   This figure illustrates the pairwise quadratic-weighted Cohen’s kappa across three
+P1:L1192 54   ordinal evaluation domains, comparing the performance of a faculty expert against three
+P1:L1193 55   large language models (LLMs) and the LLMs against each other. (A) Bar plots show
+P1:L1194 56
+P1:L1195 57   weighted kappa values for every possible rater pair, demonstrating that "Quality of
+P1:L1196 58   Writing" consistently yields higher reliability than "Methods Strength" or "Conclusion
+P1:L1197 59   Validity." (B) The weighted kappa heatmap provides a color-coded matrix of agreement,
+P1:L1198 60   visually separating faculty-LLM pairs from LLM-LLM pairs. (C) Kappa trends highlight a
+P1:L1199 61
+P1:L1200 62                                                                                           16
+P1:L1201 63
+P1:L1202 64
+P1:L1203 65
+P1:L1204  1
+P1:L1205  2
+P1:L1206  3
+P1:L1207  4   distinct "reliability step-up" when comparing LLMs to one another versus comparing
+P1:L1208  5
+P1:L1209  6   them to the human faculty expert. (D) Mean weighted kappa plots quantify this
+P1:L1210  7   difference, showing that LLM-LLM pairs (average weighted kappa: 0.105–0.219) exhibit
+P1:L1211  8   significantly higher internal consistency than faculty-LLM pairs (average weighted
+P1:L1212  9   kappa: 0.065–0.157).
+P1:L1213 10
+P1:L1214 11
+P1:L1215 12
+P1:L1216 13   Figure 4. Percentage of Perfect Scores (5-5-5) Across Raters.
+P1:L1217 14
+P1:L1218 15   This bar chart illustrates the frequency of perfect scores (5–5–5) awarded across ordinal
+P1:L1219 16
+P1:L1220 17   domains by different models and faculty (N=90). ChatGPT demonstrated the highest
+P1:L1221 18   propensity for assigning maximum ratings (n = 11, 12.22%), followed by Claude Sonnet
+P1:L1222 19   (n = 5, 5.56%) and Gemini (n = 4, 4.44%), whereas pathology faculty awarded zero
+P1:L1223 20   perfect scores (0%). This distribution highlights a relative inflation in LLM-assigned
+P1:L1224 21
+P1:L1225      ratings compared to the strict evaluative baseline maintained by expert human raters.
+P1:L1226 22
+P1:L1227 23
+P1:L1228 24   Supplemental Tables
+P1:L1229 25
+P1:L1230 26   Supplemental Table 1. System Prompt Used to Instruct Large Language Models for
+P1:L1231 27
+P1:L1232 28   Standardized Evaluation of Pathology Research Posters
+P1:L1233 29
+P1:L1234 30   Supplemental Table 2. Research Poster Scoring Rubric: Domains of assessment
+P1:L1235 31   included Poster type, Methods Strength, Conclusion Validity, and Quality of writing.
+P1:L1236 32
+P1:L1237 33
+P1:L1238 34   Supplemental Table 3: Comprehensive Analysis of Interrater Reliability Indices and
+P1:L1239 35   Estimates.
+P1:L1240 36
+P1:L1241 37   Supplemental Table 4. Overview of Top-Ranked Models Across Projects Cross-Model
+P1:L1242 38
+P1:L1243 39
+P1:L1244      Consensus on Best Papers Project Models Ranking in Top 3.
+P1:L1245 40
+P1:L1246 41   Supplemental Figures
+P1:L1247 42
+P1:L1248 43   Supplement Figure 1. Distribution of Research Poster Types Among Analyzed Projects
+P1:L1249 44
+P1:L1250 45
+P1:L1251      (N = 90)
+P1:L1252 46
+P1:L1253 47   Bar chart depicting the distribution of poster types among the 90 evaluated research
+P1:L1254 48   posters. Case reports comprised the majority of submissions (n = 71, 78.9%), followed
+P1:L1255 49   by case series (n = 13, 14.4%) and original basic research studies (n = 6, 6.7%), reflecting
+P1:L1256 50
+P1:L1257 51   a statistically significant predominance of case-based submissions within the cohort (χ²(2)
+P1:L1258 52   = 84.87, p < 0.05). Poster type was utilized in the scoring rubric: case reports were
+P1:L1259 53   assigned a baseline score of 3 points, case series and other observational studies
+P1:L1260 54   received 4 points, and original basic research was awarded the maximum of 5 points.
+P1:L1261 55
+P1:L1262      This tiered scoring system recognized the greater longitudinal time investment and
+P1:L1263 56
+P1:L1264 57   methodological rigor inherent in more complex study designs.
+P1:L1265 58
+P1:L1266 59
+P1:L1267 60
+P1:L1268 61
+P1:L1269 62                                                                                            17
+P1:L1270 63
+P1:L1271 64
+P1:L1272 65
+P1:L1273  1
+P1:L1274  2
+P1:L1275  3
+P1:L1276  4   References
+P1:L1277  5
+P1:L1278  6
+P1:L1279  7   1.   Iqbal U, Tanweer A, Rahmanti AR, Greenfield D, Lee LTJ, Li YCJ. Impact of large language model
+P1:L1280  8        (ChatGPT) in healthcare: an umbrella review and evidence synthesis. J Biomed Sci. 2025;32(1):45.
+P1:L1281  9        doi:10.1186/s12929-025-01131-z
+P1:L1282 10
+P1:L1283 11   2.   Kim JK, Chua M, Rickard M, Lorenzo A. ChatGPT and large language model (LLM) chatbots: The
+P1:L1284 12
+P1:L1285 13
+P1:L1286           current state of acceptability and a proposal for guidelines on utilization in academic medicine. J
+P1:L1287 14        Pediatr Urol. 2023;19(5):598-604. doi:10.1016/j.jpurol.2023.05.018
+P1:L1288 15
+P1:L1289 16   3.   Biswas S, Dobaria D, Cohen HL. ChatGPT and the future of journal reviews: A feasibility study. Yale J
+P1:L1290 17        Biol Med. 2023;96(3):415-420. doi:10.59249/SKDH9286
+P1:L1291 18
+P1:L1292 19   4.   Aczel B, Szaszi B, Holcombe AO. A billion-dollar donation: estimating the cost of researchers’ time
+P1:L1293 20        spent on peer review. Res Integr Peer Rev. 2021;6(1):14. doi:10.1186/s41073-021-00118-2
+P1:L1294 21
+P1:L1295 22
+P1:L1296 23
+P1:L1297      5.   Grünebaum A, Dudenhausen J, Chervenak FA. The FAIR framework: ethical hybrid peer review. J
+P1:L1298 24        Perinat Med. 2026;54(2):435-436. doi:10.1515/jpm-2025-0658
+P1:L1299 25
+P1:L1300 26   6.   Cascella M, Montomoli J, Bellini V, Bignami E. Evaluating the feasibility of ChatGPT in healthcare: An
+P1:L1301 27        analysis of multiple clinical and research scenarios. J Med Syst. 2023;47(1):33. doi:10.1007/s10916-
+P1:L1302 28        023-01925-4
+P1:L1303 29
+P1:L1304 30   7.   Shen SM, Wang Z, Paul K, Li MH, Huang X, Koizumi N. Evaluation of large language models for peer
+P1:L1305 31
+P1:L1306 32        review in transplantation research: Algorithm validation study. JMIR AI. 2026;5:e84322.
+P1:L1307 33        doi:10.2196/84322
+P1:L1308 34
+P1:L1309 35   8.   Kwong JCC, Khondker A, Lajkosz K, et al. APPRAISE-AI tool for quantitative evaluation of AI studies
+P1:L1310 36        for     clinical  decision     support.      JAMA      Netw       Open.       2023;6(9):e2335377.
+P1:L1311 37        doi:10.1001/jamanetworkopen.2023.35377
+P1:L1312 38
+P1:L1313 39
+P1:L1314      9.   Croxford E, Gao Y, First E, et al. Evaluating clinical AI summaries with large language models as judges.
+P1:L1315 40
+P1:L1316 41        NPJ Digit Med. 2025;8(1):640. doi:10.1038/s41746-025-02005-2
+P1:L1317 42
+P1:L1318 43   10. Shool S, Adimi S, Saboori Amleshi R, Bitaraf E, Golpira R, Tara M. A systematic review of large
+P1:L1319 44       language model (LLM) evaluations in clinical medicine. BMC Med Inform Decis Mak. 2025;25(1):117.
+P1:L1320 45       doi:10.1186/s12911-025-02954-4
+P1:L1321 46
+P1:L1322 47   11. Sanghera R, Thirunavukarasu AJ, El Khoury M, et al. High-performance automated abstract screening
+P1:L1323 48
+P1:L1324 49
+P1:L1325          with large language model ensembles. J Am Med Inform Assoc. 2025;32(5):893-904.
+P1:L1326 50       doi:10.1093/jamia/ocaf050
+P1:L1327 51
+P1:L1328 52   12. Polonioli A. Moving LLM evaluation forward: lessons from human judgment research. Front Artif
+P1:L1329 53       Intell. 2025;8:1592399. doi:10.3389/frai.2025.1592399
+P1:L1330 54
+P1:L1331 55   13. Hashemi H, Eisner J, Rosset C, Van Durme B, Kedzie C. LLM-rubric: A multidimensional, calibrated
+P1:L1332 56       approach to automated evaluation of natural language texts. arXiv [csCL]. Published online
+P1:L1333 57
+P1:L1334 58       December 30, 2024. doi:10.48550/arXiv.2501.00274
+P1:L1335 59
+P1:L1336 60   14. Landis JR, Koch GG. The measurement of observer agreement for categorical data. Biometrics.
+P1:L1337 61
+P1:L1338 62                                                                                                             18
+P1:L1339 63
+P1:L1340 64
+P1:L1341 65
+P1:L1342  1
+P1:L1343  2
+P1:L1344  3
+P1:L1345  4       1977;33(1):159-174. doi:10.2307/2529310
+P1:L1346  5
+P1:L1347  6
+P1:L1348      15. Thirunavukarasu AJ, Ting DSJ, Elangovan K, Gutierrez L, Tan TF, Ting DSW. Large language models in
+P1:L1349  7
+P1:L1350  8       medicine. Nat Med. 2023;29(8):1930-1940. doi:10.1038/s41591-023-02448-8
+P1:L1351  9
+P1:L1352 10   16. Zhang T, Ladhak F, Durmus E, Liang P, McKeown K, Hashimoto TB. Benchmarking Large language
+P1:L1353 11       models for news summarization. Trans Assoc Comput Linguist. 2024;12:39-57.
+P1:L1354 12       doi:10.1162/tacl_a_00632
+P1:L1355 13
+P1:L1356 14   17. Liu Y, Shi K, He K, et al. On learning to summarize with large language models as references. In:
+P1:L1357 15
+P1:L1358 16
+P1:L1359          Proceedings of the 2024 Conference of the North American Chapter of the Association for
+P1:L1360 17       Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). Association for
+P1:L1361 18       Computational Linguistics; 2024. doi:10.18653/v1/2024.naacl-long.478
+P1:L1362 19
+P1:L1363 20   18. Pu X, Gao M, Wan X. Summarization is (almost) dead. arXiv [csCL]. Published online September 18,
+P1:L1364 21       2023. doi:10.48550/arXiv.2309.09558
+P1:L1365 22
+P1:L1366 23   19. Alnaimat F, AlSamhori ARF, Hamdan O, Seiil B, Qumar AB. Perspectives of artificial intelligence use
+P1:L1367 24
+P1:L1368 25       for in-house ethics checks of journal submissions. J Korean Med Sci. 2025;40(21):e170.
+P1:L1369 26       doi:10.3346/jkms.2025.40.e170
+P1:L1370 27
+P1:L1371 28   20. Grévisse C. LLM-based automatic short answer grading in undergraduate medical education. BMC
+P1:L1372 29       Med Educ. 2024;24(1):1060. doi:10.1186/s12909-024-06026-5
+P1:L1373 30
+P1:L1374 31   21. Feinstein AR, Cicchetti DV. High agreement but low kappa: I. The problems of two paradoxes. J Clin
+P1:L1375 32
+P1:L1376          Epidemiol. 1990;43(6):543-549. doi:10.1016/0895-4356(90)90158-l
+P1:L1377 33
+P1:L1378 34
+P1:L1379 35   22. Cicchetti DV, Feinstein AR. High agreement but low kappa: II. Resolving the paradoxes. J Clin
+P1:L1380 36       Epidemiol. 1990;43(6):551-558. doi:10.1016/0895-4356(90)90159-m
+P1:L1381 37
+P1:L1382 38   23. Gwet KL. Computing Inter-Rater Reliability and Its Variance in the Presence of High Agreement.; 2008.
+P1:L1383 39
+P1:L1384 40   24. Quah B, Zheng L, Sng TJH, Yong CW, Islam I. Reliability of ChatGPT in automated essay scoring for
+P1:L1385 41       dental undergraduate examinations. BMC Med Educ. 2024;24(1):962. doi:10.1186/s12909-024-
+P1:L1386 42
+P1:L1387          05881-6
+P1:L1388 43
+P1:L1389 44
+P1:L1390 45   25. Olvet DM, Kruidering M, Fulton TB, et al. Can generative artificial intelligence reliably score open-
+P1:L1391 46       ended question assessments in undergraduate medical education? Med Sci Educ. Published online
+P1:L1392 47       March 3, 2026. doi:10.1007/s40670-026-02638-2
+P1:L1393 48
+P1:L1394 49   26. Kung TH, Cheatham M, Medenilla A, et al. Performance of ChatGPT on USMLE: Potential for AI-
+P1:L1395 50       assisted medical education using large language models. PLOS Digit Health. 2023;2(2):e0000198.
+P1:L1396 51
+P1:L1397 52       doi:10.1371/journal.pdig.0000198
+P1:L1398 53
+P1:L1399 54   27. Huh S. Are ChatGPT’s knowledge and interpretation ability comparable to those of medical students
+P1:L1400 55       in Korea for taking a parasitology examination?: a descriptive study. J Educ Eval Health Prof.
+P1:L1401 56       2023;20:1. doi:10.3352/jeehp.2023.20.1
+P1:L1402 57
+P1:L1403 58
+P1:L1404 59
+P1:L1405 60
+P1:L1406 61
+P1:L1407 62                                                                                                         19
+P1:L1408 63
+P1:L1409 64
+P1:L1410 65
+P1:L1411 Figure 1   Click here to access/download;Figure;Figure 1. main.drawio.png
+P1:L1412 Figure 2   Click here to access/download;Figure;Figure 2.png
+P1:L1413 Figure 3   Click here to access/download;Figure;Figure 3-.png
+P1:L1414 Figure 4   Click here to access/download;Figure;Figure 4.png
+P1:L1415 Supplemental fig 1   Click here to access/download;Supplemental Material;Suppl figure 1.png
+P1:L1416 Supplemental table 1                                          Click here to access/download;Supplemental Material;Suppl
+P1:L1417                                                               table 1.docx
+
+
+
+
+P1:L1422               Supplemental Table 1. System Prompt Used to Instruct Large Language Models for
+P1:L1423               Standardized Evaluation of Pathology Research Posters
+
+
+P1:L1426                You are an expert academic physician and medical educator with extensive experience
+P1:L1427                reviewing pathology research projects submitted by medical students and residents. Your task
+P1:L1428                is to objectively evaluate the research project using the standardized rubric below: You must
+P1:L1429                strictly follow the scoring criteria and provide numerical scores only within the allowed range.
+P1:L1430                No half points are allowed. Do not invent information that is not present in the text.
+P1:L1431 Supplemental table 2                                          Click here to access/download;Supplemental Material;Suppl
+P1:L1432                                                               table 2.docx
+
+
+
+
+P1:L1437               Supplemental Table 2. Research Poster Scoring Rubric: Domains of assessment included
+P1:L1438               Poster type, Methods Strength, Conclusion Validity, and Quality of writing.
+
+P1:L1440                Poster type                    Methods Strength          Conclusion           Quality of
+P1:L1441                                                                         Validity             Writing
+
+P1:L1443                • What type of research is     • Is the study design     • Are the            • Is the writing
+P1:L1444                this?                          clearly described,        conclusions          overall clear,
+P1:L1445                                               including selection       clearly stated and   organized, and
+P1:L1446                • Case reports are given a
+P1:L1447                                               criteria?                 justified by the     free of errors?
+P1:L1448                score of 3
+P1:L1449                                                                         data?                Are the visuals
+P1:L1450                                               • Are the measures
+P1:L1451                • Case series (3 or more                                                      high-quality? Is
+P1:L1452                                               used reliable?            • For case
+P1:L1453                cases),                                                                       the layout
+P1:L1454                                                                         reports, does this
+P1:L1455                prospective/retrospective      • Are the possible                             logical?
+P1:L1456                                                                         presentation
+P1:L1457                cohort and case/control        confounding factors
+P1:L1458                                                                         increase             Scoring
+P1:L1459                studies and other types of     addressed?
+P1:L1460                                                                         awareness or         guidance:
+P1:L1461                research is given a score of
+P1:L1462                                               • Are the statistical     improve the
+P1:L1463                4                                                                             1- No effort was
+P1:L1464                                               methods appropriate?      workup for an
+P1:L1465                                                                                              made in writing
+P1:L1466                • Original basic research is                             important but
+P1:L1467                                               Qualitative studies may                        and visual
+P1:L1468                given as a score of 5.                                   rare/unique
+P1:L1469                                               not have statistical                           composition.
+P1:L1470                                                                         entity?
+P1:L1471                                               analysis; however, they
+P1:L1472                                                                                               2 - Poor writing
+P1:L1473                                               should still be           Scoring guidance:
+P1:L1474                                                                                              & visuals with
+P1:L1475                                               evaluated based on
+P1:L1476                                                                         1 - No               frequent errors
+P1:L1477                                               quality of design
+P1:L1478                                                                         conclusions          in key areas.
+P1:L1479                                               description and
+P1:L1480                                                                         made.
+P1:L1481                                               appropriateness of                             3 - Average
+P1:L1482                                               methods.                  2 - Conclusions      writing and
+P1:L1483                                                                         present but not      visuals with only
+P1:L1484                                               Case reports should be
+P1:L1485                                                                         justified.           minor areas
+P1:L1486                                               judged based on the
+P1:L1487                                                                                              needing
+P1:L1488                                               clarity of the case       3 - Conclusions
+P1:L1489                                                                                              improvement.
+P1:L1490                                               description.              present but
+P1:L1491                                                                         weakly             4 - Writing and
+P1:L1492                                                                         supported.         visuals are
+P1:L1493                                               Scoring guidance:                            above average
+P1:L1494                                                                         4 - Conclusions
+P1:L1495                                                                                            and well
+P1:L1496                                               • 1- Study design not     clearly stated and
+P1:L1497                                                                                            organized.
+P1:L1498                                               described.                supported.
+P1:L1499                                                                         Knowledge
+P1:L1500 • 2- Statistical analysis     provided is          5 - Writing and
+P1:L1501 not done or                   important but        visuals are
+P1:L1502 appropriate to study.         NOT likely to        masterfully
+P1:L1503                               change practice.     composed.
+P1:L1504 • 3 - Study design and
+P1:L1505 sampling poorly               5 - Conclusions
+P1:L1506 described.                    clearly stated and
+P1:L1507                               supported.
+P1:L1508 • 4 - Possible
+P1:L1509                               knowledge likely
+P1:L1510 confounders NOT
+P1:L1511                               to change
+P1:L1512 discussed. Questions
+P1:L1513                               practice
+P1:L1514 regarding
+P1:L1515 methodology. Possible
+P1:L1516 confounders were
+P1:L1517 identified, but there
+P1:L1518 were inadequate
+P1:L1519 controls or statistics. 4 -
+P1:L1520 Fully describe methods.
+P1:L1521 Possible confounders
+P1:L1522 were generally
+P1:L1523 controlled; statistics
+P1:L1524 were appropriate.
+
+P1:L1526 5 - Exemplary method
+P1:L1527 description. No
+P1:L1528 selection bias. Reliable
+P1:L1529 measures, controls, and
+P1:L1530 statistics.
+P1:L1531 Supplemental table 3                                         Click here to access/download;Supplemental Material;Suppl
+P1:L1532                                                              table 3.docx
+
+
+
+
+P1:L1537               Supplemental Table 3: Comprehensive Analysis of Interrater Reliability Indices and Estimates.
+
+
+P1:L1540               Reliability Index    Poster Type       Methods        Conclusion      Quality of       Total Score:
+P1:L1541                                                      Strength       Validity        Writing
+
+
+
+
+P1:L1546               Four-way exact       1.000 (perfect    0.144 (low     0.244 (low      0.133 (low       0.000 (essentially
+P1:L1547               agreement            agreement)        agreement)     agreement)      agreement)       no exact 4-way
+P1:L1548                                                                                                      agreement)
+
+
+
+
+P1:L1553               Mean Pairwise      1.000               0.522          0.578           0.511            0.231
+P1:L1554               Exact Agreement
+P1:L1555               (6 dyads averaged)
+
+
+
+
+P1:L1560               Krippendorff's α     1.000             0.037          0.013           0.062            0.125
+P1:L1561               (ordinal)
+
+
+
+
+P1:L1566               Gwet's AC2           1.000             0.612          0.644           0.601            0.702
+P1:L1567               (quadratic)
+P1:L1568 Supplemental table 4                                     Click here to access/download;Supplemental Material;Suppl
+P1:L1569                                                          table 4.docx
+
+
+
+
+P1:L1574               Supplemental Table 4. Overview of Top-Ranked Models Across Projects Cross-Model
+P1:L1575               Consensus on Best Papers Project Models Ranking in Top 3.
+
+P1:L1577                Project                                    Models Ranking in Top 3
+P1:L1578                65                                         Faculty, Sonnet
+P1:L1579                11                                         Faculty, Sonnet, ChatGPT
+P1:L1580                14                                         Sonnet, Gemini
+P1:L1581                1                                          ChatGPT, Gemini
+P1:L1582 
