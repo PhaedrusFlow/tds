@@ -134,14 +134,13 @@ Select all that apply.
 - [ ] Cobra
 - [ ] Granite
 - [ ] Netcracker
-- [ ] ServiceNow
-- [ ] Salesforce
+- [X] ServiceNow
+- [X] Salesforce
 - [ ] None
-- [ ] Other
+- [X] Other: BMC Remedy ITSM / AESD
 
 **Other:**
 
-<!-- If selected, enter the other system or systems above this line. -->
 
 ---
 
@@ -153,9 +152,9 @@ that apply.
 - [ ] E911
 - [ ] CNAM
 - [ ] LIBD
-- [ ] Promotional Billing
-- [ ] Service Activation Billing
-- [ ] Voice Product Billing
+- [X] Promotional Billing
+- [X] Service Activation Billing
+- [X] Voice Product Billing
 - [ ] None of the above
 
 ---
@@ -165,9 +164,7 @@ that apply.
 Describe the most complex telecommunications product or service you have
 provisioned, supported, or processed.
 
-**Response:**
-
-<!-- Write your response above this line. -->
+**Response:** Implementing the National Institute of Standards and Technology (NIST) Post-Quantum Cryptographic standard algorithms into OpenSSH and OpenSSL in the aftermath of the Crowdstrike Kernel Level system failure. I compiled algorithms
 
 ---
 
@@ -178,7 +175,6 @@ issue before it impacted a customer. What actions did you take?
 
 **Response:**
 
-<!-- Write your response above this line. -->
 
 ---
 
@@ -190,7 +186,6 @@ work, adjust priorities, and ensure critical tasks are completed on time?
 
 **Response:**
 
-<!-- Write your response above this line. -->
 
 ---
 
@@ -200,9 +195,8 @@ Tell me about a time when you had to move a technical project or network issue
 forward despite having incomplete information. How did you determine your next
 steps, and what was the outcome?
 
-**Response:**
+**Response:** The Ruth Jackson Orthopaedic Society (RJOS)/Zimmer Biomet 
 
-<!-- Write your response above this line. -->
 
 ---
 
@@ -228,7 +222,6 @@ I planned and executed all intelligence collection operations for Zabul Province
 
 I ensured proper management of the tasks related to our mission through two primary mechanisms: longitudinal rapport building and optimized information flow. My team consisted of 11 intelligence soldiers co-located with me along with our Georgian, Ukrainian, and Afghan counterparts. All other partners were located in places ranging from Kandahar to Creech Airfield in Las Vegas. I prioritized
 
-<!-- Continue your response above this line. -->
 
 ---
 
@@ -239,9 +232,9 @@ Which statement best describes your experience?
 - [ ] Primarily customer service
 - [ ] Primarily sales
 - [ ] Basic order entry
-- [ ] Telecommunications provisioning/order management
-- [ ] Telecommunications engineering/network operations
-- [ ] Network design/implementation
+- [X] Telecommunications provisioning/order management
+- [X] Telecommunications engineering/network operations
+- [X] Network design/implementation
 
 ---
 
@@ -249,11 +242,11 @@ Which statement best describes your experience?
 
 Have you worked with any of the following? Select all that apply.
 
-- [ ] Complex Excel formulas and data analysis
-- [ ] PowerAutomate
-- [ ] AI
-- [ ] Technical Process Documentation
-- [ ] Jira Automation
+- [X] Complex Excel formulas and data analysis
+- [X] PowerAutomate
+- [X] AI
+- [X] Technical Process Documentation
+- [X] Jira Automation
 - [ ] None of the above
 
 ---
@@ -265,5 +258,5 @@ screen exercise are entirely my own work. I have not utilized any outside
 resources, including but not limited to: artificial intelligence tools or
 assistance from other individuals.
 
-- [ ] I agree
+- [X] I agree
 - [ ] I disagree
