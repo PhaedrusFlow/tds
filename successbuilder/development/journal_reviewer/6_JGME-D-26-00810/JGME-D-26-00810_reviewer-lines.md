@@ -1,0 +1,631 @@
+# JGME-D-26-00810 Reviewer Manuscript
+
+## Manuscript Page 1 (PDF Page 3)
+
+```text
+ 1
+ 2
+ 3
+ 4  Article type: Original Research Article
+ 5
+ 6
+ 7  Title: The Utility of a Gap Year: Differences in academic productivity post dermatology
+ 8  residency
+ 9
+10  Authors and Affiliations: Ellen G. Rieth, MD1, Steven Friedman, MS2, Soutrik Mandal, PhD2,
+11
+12  Amy Kalowitz Bieber, MD1*, Miriam Keltz Pomeranz, MD1*
+13  *Amy Kalowitz Bieber, MD and Miriam Keltz Pomeranz, MD are co-senior authors
+14
+15  Author Bios:
+16  Ellen Rieth, MD is a PGY-3 Resident, Ronald O. Perelman Department of Dermatology, NYU
+17
+18  Grossman School of Medicine, New York, NY; ORCID: https://orcid.org/0009-0008-1596-2751
+19
+20  Steven Friedman, MS is Associate Research Scientist, Department of Population Health,
+21  Division of Biostatistics, NYU Grossman School of Medicine, New York, NY.
+22
+23
+24  Soutrik Mandal, PhD is Assistant Professor, Department of Population Health, Division of
+25  Biostatistics, NYU Grossman School of Medicine, New York, NY; ORCID:
+26  https://orcid.org/0000-0002-0625-8999
+27
+28
+29  Amy K. Bieber, MD is Assistant Professor, Ronald O. Perelman Department of Dermatology,
+30  NYU Grossman School of Medicine, New York, NY; ORCID: https://orcid.org/0000-000
+31  -1640-6438
+32
+33  Miriam K. Pomeranz, MD is Chief of Dermatology Service at Bellevue Hospital and Associate
+34
+35  Professor, Ronald O. Perelman Department of Dermatology, NYU Grossman School of
+36  Medicine, New York, NY.
+37
+38  1 The Ronald O Perelman Department of Dermatology, NYU Grossman School of Medicine, 240
+39
+40  East 38th Street, 11th floor, New York, NY 10017
+41  2 Department of Population Health, Biostatistics Division, NYU Grossman School of Medicine,
+42  180 Madison Avenue, 2nd floor, New York, NY 10016
+43
+44  Corresponding Author:
+45
+46  Ellen G. Rieth, MD
+47  The Ronald O. Perelman Department of Dermatology
+48  240 E 38th Street, 11th floor
+49  New York, NY 10016
+50
+51  Email: ellen.rieth@nyulangone.org
+52
+53  Word Counts:
+54  Abstract: 240 words
+55  Manuscript: 1411 words
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+```
+
+## Manuscript Page 2 (PDF Page 4)
+
+```text
+ 1
+ 2
+ 3
+ 4  Abstract:
+ 5
+ 6
+ 7  Background: Many students pursue a gap year to strengthen their applications to dermatology
+ 8
+ 9  residency. While a dedicated research gap year has been reported to increase the chances of
+10
+11
+12  matching at top dermatology programs, it is unclear if this academic pursuit truly signals interest
+13
+14  in or commitment to a career in academic medicine.
+15
+16
+17
+18
+19  Objectives: This study investigated publication rates and academic appointments of NYU
+20
+21  dermatology residency alumni in the 10 years following training to determine whether a gap year
+22
+23
+24  predicted higher long-term academic involvement.
+25
+26
+27
+28
+29  Methods: Data was collected on NYU dermatology alumni with residency start dates from 1998
+30
+31  to 2014. Publicly available webpages were used to determine publication quantity, and
+32
+33  authorship role in the 0-5 and 5-10 year windows following the completion of training as well as
+34
+35
+36  academic appointments at 5 and 10 years post training. Data was stratified by amount of time
+37
+38  spent in medical school (4 years, 5-6 years, and 7+ years).
+39
+40
+41
+42
+43  Results: There were no significant differences in the number of papers published per year in the
+44
+45
+46  4 years vs 5-6 years groups 0-5, 5-10, or 0-10 years post-training. There were no significant
+47
+48  differences in academic appointments between these two groups at 5 or 10 years post training.
+49
+50
+51
+52
+53  Conclusions: This study suggests that completing a research year does not portend increased
+54
+55  academic productivity. Admissions committees may want to reconsider the value they assign to
+56
+57
+58  the research year given the lack of evidence for differences in career-scale academic outcomes.
+59
+60
+61
+62
+63
+64
+65
+```
+
+## Manuscript Page 3 (PDF Page 5)
+
+```text
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7  Introduction:
+ 8
+ 9  Applying to dermatology residency is a notoriously competitive and challenging undertaking.
+10
+11
+12  According to the NRMP, during the 2024 match cycle only 434 of the 740 senior applicants from
+13
+14  allopathic medical schools and 30 of 101 senior applications from osteopathic medical schools
+15
+16  successfully matched to dermatology, yielding a match rate of 58.6% and 29.7 for MD and DO
+17
+18
+19  seniors respectively [1]. Hopeful dermatology applicants feel immense pressure to participate in
+20
+21  activities that strengthen their applications and improve their likelihood to match at programs of
+22
+23
+24  their choice. Participation in a gap year, when medical students add a year to their standard
+25
+26  medical school curriculum to focus on research or other scholarly pursuit, is now frequently
+27
+28
+29  recommended by academic advisors and program directors to students planning to apply for
+30
+31  dermatology residency. This recommendation is based on the perception that completing a gap
+32
+33  year will improve an applicant’s chances of a successful match. Previous studies have failed to
+34
+35
+36  find a significant relationship between research gap year completion and overall match rates
+37
+38  within dermatology [2,3], but a research gap year may increase the likelihood of matching at top
+39
+40
+41  ranked institutions in dermatology [2].
+42
+43
+44
+45
+46  The role of a research gap year from the position of the medical student is threefold. It provides
+47
+48  students with focused time to generate additional research that can be listed on their applications,
+49
+50
+51  and more time for previous work to produce published manuscripts. Additionally, it allows
+52
+53  students to gain experience in academic medicine and signals an interest in academia to program
+54
+55  directors. Lastly, it provides a framework for applicants to develop relationships with members
+56
+57
+58  of the department they are working with, leading to mentorship opportunities and stronger letters
+59
+60
+61
+62
+63
+64
+65
+```
+
+## Manuscript Page 4 (PDF Page 6)
+
+```text
+ 1
+ 2
+ 3
+ 4  of recommendation. Despite these benefits, the financial ramifications of completing a research
+ 5
+ 6
+ 7  year should not be underestimated. Financial considerations for research year students include a
+ 8
+ 9  lost year of income, an additional year of living expenses, and for some, tuition fees.
+10
+11
+12
+13
+14  From the position of program directors and admission committees, it remains unclear how the
+15
+16  completion of a research gap year should be interpreted during the application review process,
+17
+18
+19  particularly for programs that desire to match applicants that will remain in academia after the
+20
+21  completion of their training. Although the value of this year has not been extensively studied in
+22
+23
+24  dermatology, a recent study indicated that the completion of a research year did not lead to
+25
+26  differences in post-training publications, practice setting, or rate of obtaining fellowships for
+27
+28
+29  dermatology residents that achieved board certification in 2010. Only the obtainment of
+30
+31  additional degrees was associated with increased publications, although research gap year and
+32
+33  additional degree completion were both associated with higher H-indices [4]. The aim of this
+34
+35
+36  study was to utilize publicly available information about NYU dermatology residency alumni to
+37
+38  determine if the completion of a research gap year in medical school correlates to increased
+39
+40
+41  academic productivity and involvement following the completion of residency or fellowship
+42
+43  training.
+44
+45
+46
+47
+48  Methods:
+49
+50
+51  The study population included NYU dermatology alumni with residency start dates from 1998 to
+52
+53  2014 from the NYU Department of Dermatology, excluding international medical school
+54
+55  graduates. Duration of medical school and degrees were collected from ERAS applications.
+56
+57
+58  Information regarding the alumni’s individual academic appointments and productivity
+59
+60
+61
+62
+63
+64
+65
+```
+
+## Manuscript Page 5 (PDF Page 7)
+
+```text
+ 1
+ 2
+ 3
+ 4  following the completion of residency were collected from PubMed, Doximity, LinkedIn, or
+ 5
+ 6
+ 7  professional webpages. IRB exemption for this study was granted by the NYU IRB.
+ 8
+ 9
+10
+11
+12  The data collected included the number of years to obtain medical degree, other degrees obtained
+13
+14  during that time, number of publications and year of publication, authorship type (first, middle,
+15
+16  or last), fellowships completed, and academic appointments. Data was subdivided into time
+17
+18
+19  windows of 0-5 years, 5-10 years, and 0-10 years following the completion of training, defined
+20
+21  as starting after June 30th of the final year of their residency or fellowship program. Academic
+22
+23
+24  appointments at fixed time points of 5 or 10 years after the completion of training were recorded.
+25
+26  For the alumni that have not yet reached 10 years after the completion of their training, academic
+27
+28
+29  appointment at the 10-year time point was considered ‘not applicable’. Since not all alumni have
+30
+31  reached 10 years post training, publications were analyzed as number of papers per year to
+32
+33  reduce bias.
+34
+35
+36
+37
+38  Data was stratified for the individual alumni by time spent in medical school (4 years, 5-6 years,
+39
+40
+41  and 7+ years). Four-year and 5-6-year subgroups were compared in terms of authorship rates and
+42
+43  academic appointments, as seen in Table 1. All analyses were performed using R, and P-values
+44
+45
+46  were calculated using the Kruskal-Wallis, Wilcoxon rank-sum or Fisher’s exact test. Paired
+47
+48  differences were also evaluated between yearly average number of papers, as seen in Table 2. P-
+49
+50
+51  values for the paired year analyses were computed using a multiple comparisons test with
+52
+53  Scheffe adjustment. Data collection and analysis were completed in 2024.
+54
+55
+56
+57
+58  Results:
+59
+60
+61
+62
+63
+64
+65
+```
+
+## Manuscript Page 6 (PDF Page 8)
+
+```text
+ 1
+ 2
+ 3
+ 4  In total, ninety-six residents were included. There was no statistically significant difference
+ 5
+ 6
+ 7  between the number of papers published per year in the 4 years (N=45) vs 5-6 years (N=31)
+ 8
+ 9  groups amongst all time windows (0-5 years, 5-10 years, or 0-10 years post-training). Similarly,
+10
+11
+12  the difference between the number of first or last author papers published per year in the 4 years
+13
+14  vs 5-6 years groups amongst all time windows (0-5 years, 5-10 years, or 0-10 years post-
+15
+16  training) did not achieve statistical significance. In terms of academic appointments, there was
+17
+18
+19  no statistically significant difference between the 4 years vs 5-6 years groups at the time points
+20
+21  of 5 years or 10 years post training. To detect a difference of 1 paper per year on average
+22
+23
+24  between the 4-years and 5-6 years groups (assuming a standard deviation of 2) with 80% power
+25
+26  and 5% level of significance, 64 participants in each group would be needed.
+27
+28
+29
+30
+31  In the paired analysis of yearly averages, there was no significant difference in papers published
+32
+33  per year in the 0-5 and 0-10 year windows amongst all pairings (4 years vs 5-6 years, 7+ years vs
+34
+35
+36  4 years, 7+years vs 5-6 years). A statistically significant difference was observed in the number
+37
+38  of papers produced per year in the 7+ years vs 5-6 years students in the 5-10 year window;
+39
+40
+41  however, the difference in papers per year between the 4 years and 5-6 years groups did not
+42
+43  achieve significance. There were no significant differences in first or last author paper
+44
+45
+46  publications per year amongst all pairings (4 years vs 5-6 years, 7+ years vs 4 years, 7+years vs
+47
+48  5-6 years), in all time windows (0-10 years, 0-5 years, 5-10 years).
+49
+50
+51
+52
+53  Discussion:
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+```
+
+## Manuscript Page 7 (PDF Page 9)
+
+```text
+ 1
+ 2
+ 3
+ 4  While a pilot study limited to one program, our study provides further information regarding the
+ 5
+ 6
+ 7  career-scale value of the gap year within the field of dermatology. These findings provide context
+ 8
+ 9  for residency application review committees, suggesting that completion of the gap year should
+10
+11
+12  be cautiously interpreted. Certainly, the clinical and research experiences students gain during
+13
+14  that time are of value, and personal impressions reflected in letters of recommendation from
+15
+16  mentors during that year should be considered, but we advise against assuming sincere interest in
+17
+18
+19  an academic career based on the completion of an academic gap year alone.
+20
+21
+22
+23
+24  Favoring a gap year also brings up questions of equity, as taking additional time in medical
+25
+26  training may be cost prohibitive. Beyond a lost year of income, debt may be accrued or
+27
+28
+29  prolonged with interest from an additional year of living expenses or, for some, added tuition
+30
+31  fees. Even when research positions are funded, the average funding is just 250% of the federal
+32
+33  poverty level, and 71.7% of gap year takers report financial burden [5]. Although it is impossible
+34
+35
+36  to discount the value of additional publications, personal connections, and research experience
+37
+38  gained during a research year, the financial and temporal burden must be weighed against these
+39
+40
+41  benefits when advising students and considered when ranking applicants.
+42
+43
+44
+45
+46  Creating a diverse and representative workforce of dermatologists rests on the foundation of a
+47
+48  fair residency application process [6]. This pursuit requires intense scrutiny of the most
+49
+50
+51  financially and temporally limiting factors, including the dedicated research year. The lack of
+52
+53  evidence found for differences in career-scale academic outcomes in all categories studied
+54
+55  (research productivity, academic appointment, and first/last authorship) implies that research
+56
+57
+58  year completion should not be over-interpreted during the residency application review process.
+59
+60
+61
+62
+63
+64
+65
+```
+
+## Manuscript Page 8 (PDF Page 10)
+
+```text
+ 1
+ 2
+ 3
+ 4  Larger and more broadly representative studies are needed to further elucidate the value of the
+ 5
+ 6
+ 7  dermatology research year.
+ 8
+ 9
+10
+11
+12  Conclusions:
+13
+14  Our study suggests that completing a research year does not portend increased academic
+15
+16  productivity. Admissions committees may want to reconsider the value they assign to the
+17
+18
+19  research year given the lack of evidence for differences in career-scale academic outcomes.
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+```
+
+## Manuscript Page 9 (PDF Page 11)
+
+```text
+ 1
+ 2
+ 3
+ 4  References:
+ 5
+ 6
+ 7  1. National Resident Matching Program. Advance data tables 2026 main residency match.
+ 8
+ 9  Published 2026. Accessed July 22, 2026. https://www.nrmp.org/match-
+10
+11
+12  data/2026/03/advance-data-tables-2026-main-residency-match/
+13
+14  2. Costello CM, Harvey JA, Besch-Stokes JG, Bhullar P, et al. The role research gap years
+15
+16  play in a successful dermatology match. Int J Dermatol. 2022;61:226-230.
+17
+18
+19  3. Stevens CR, Jacob L, Murina AT. Match outcomes of dermatology applicants who pursue
+20
+21  research gap year using the Texas STAR database. Journal of the American Academy of
+22
+23
+24  Dermatology. 2024;91(3):75–576.
+25
+26  4. Fritsche, M., King, T., Miller, J. J., Lam, C. Cohort study assessing the predictive value
+27
+28
+29  of a research year vs additional degree in dermatology. Archives of Dermatological
+30
+31  Research. 2023;315(5):1393–1395.
+32
+33  5. Jacobsen, A., Kabbur, G., Freese, R. L., Rypka, K. J., Goldfarb, N. Socioeconomic factors
+34
+35
+36  and financial burdens of research "gap years" for dermatology residency
+37
+38  applicants. International Journal of Women's Dermatology. 2023;9(3): e099.
+39
+40
+41  6. Chen, A., Shinkai, K. Rethinking How We Select Dermatology Applicants-Turning the
+42
+43  Tide. JAMA Dermatology. 2017;153(3):259–260.
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+```

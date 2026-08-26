@@ -164,7 +164,9 @@ that apply.
 Describe the most complex telecommunications product or service you have
 provisioned, supported, or processed.
 
-**Response:** Implementing the National Institute of Standards and Technology (NIST) Post-Quantum Cryptographic standard algorithms into OpenSSH and OpenSSL in the aftermath of the Crowdstrike Kernel Level system failure. I compiled algorithms
+**Response:** Implementing the National Institute of Standards and Technology (NIST) Post-Quantum Cryptographic standard algorithms into OpenSSH and OpenSSL in the aftermath of the critical impact of the Crowdstrike Patch failure on the international community[1]. My intent in conducting this proposal was to offer the broader medical community with an acutely available layer of security without any cost.
+
+[1] https://github.com/qompassai/ko
 
 ---
 
@@ -173,7 +175,9 @@ provisioned, supported, or processed.
 Tell us about a time you identified an order, configuration, or provisioning
 issue before it impacted a customer. What actions did you take?
 
-**Response:**
+**Response:** When the Cybersecurity and Infrastructure Security Agency (CISA) released a priority alert for patient monitors with remote code execution (RCE), I realized the limited weight that my communication would have on this matter regardless of the significance of the information given my role as a medical student[1]. Given this limitation, I leveraged professional partnerships I developed both as a medical trainee as well as an AI architect.I sent immediate notification to medical education leadership at both Johns Hopkins  University and the University of Oregon with explanations on CISA's roles and recommended steps to disseminate the information to both students and clinicians. By leveraging the placement and access of my professional medical relationships, I was able to reach far more people to take timely action given the CISA bulletin than I would have on my own.
+
+[1] https://github.com/qompassai/r4r/blob/main/Docs/CISA_patientmonitor_factsheet.pdf
 
 
 ---
@@ -184,7 +188,7 @@ This role often requires balancing multiple projects, network issues, and
 operational priorities with competing deadlines. How do you organize your
 work, adjust priorities, and ensure critical tasks are completed on time?
 
-**Response:**
+**Response:** When operating in an dynamically fluid professional space, I prioritize active and consistent communication within and across teams. When receiving tasks, I break apart the overall task into micro-tasks with associated decision points and timelines. Once the task is appropriately chunked, I communicate with stake holders to create shared understanding and adjust timelines based on dynamic requirements. In the event that I feel that I will not meet a deadline, I ensure I am informing my leadership well in advance so that I can either adjust my priorities or they can adjust the requirement.
 
 
 ---
@@ -195,9 +199,11 @@ Tell me about a time when you had to move a technical project or network issue
 forward despite having incomplete information. How did you determine your next
 steps, and what was the outcome?
 
-**Response:** The Ruth Jackson Orthopaedic Society (RJOS)/Zimmer Biomet 
+**Response:** The $30,000 Ruth Jackson Orthopaedic Society (RJOS)/Zimmer Biomet grant that I received for a pilot educational AI system proposed significant technical and legal challenges given the inherently sensitive nature of the medical field and education [1]. Given the stakes, I relied on my knowledge of federal regulation on significant technologies. This approach led me to find and use President Biden's Executive Order 14110 as our framework for AI development and deployment. I determined that on-premise AI and robust security of server end points to be the top priorities to meet the letter and intent of the AI EO. Additionally, I contributed to the discourse on AI by thought leaders within the medical community through academic peer-reviewed publication [2-3]. Lastly, I regularly communicated with my physician co-authors to ensure alignment of decisions informed macro level regulation with local realities.
 
-
+[1] https://github.com/qompassai/r4r
+[2] https://pmc.ncbi.nlm.nih.gov/articles/PMC11008637/
+[3] https://pmc.ncbi.nlm.nih.gov/articles/PMC11008666/
 ---
 
 ## 14. Assigning cross-departmental work
@@ -205,7 +211,7 @@ steps, and what was the outcome?
 Have you ever been responsible for assigning work, provisioning tasks, or
 workflow activities that impacted other departments?
 
-- [ ] Yes
+- [X] Yes
 - [ ] No
 
 ---
@@ -218,9 +224,9 @@ you ensure the right teams received the right tasks?
 
 **Draft response:**
 
-I planned and executed all intelligence collection operations for Zabul Province Afghanistan from January-September 2014 as the Intelligence Current Operations Officer Collection Manager & Dissemination Officer for Combined Joint Task Force (CJTF) Lethal. My daily responsibilities centered on coordinating tactical, operational, and strategic collection assets to support kinetic and non-kinetic operations with the end-goal of successful transfer of authority of Zabul Province to the Afghan National Forces.
+I planned and executed all intelligence collection operations for Zabul Province Afghanistan from January-September 2014 as the Intelligence Current Operations Officer Collection Manager & Dissemination Officer for Combined Joint Task Force (CJTF) Lethal. My team consisted of 11 intelligence soldiers co-located with Georgian, Romanian, and Afghan contingents. All other partners were located in places ranging from Kandahar to Creech Airfield in Las Vegas. 
 
-I ensured proper management of the tasks related to our mission through two primary mechanisms: longitudinal rapport building and optimized information flow. My team consisted of 11 intelligence soldiers co-located with me along with our Georgian, Ukrainian, and Afghan counterparts. All other partners were located in places ranging from Kandahar to Creech Airfield in Las Vegas. I prioritized
+My daily responsibilities centered on coordinating tactical, operational, and strategic collection assets to support kinetic and non-kinetic operations with the end-goal of successful transfer of authority of Zabul Province to the Afghan National Forces. I ensured proper management of mission tasks through longitudinal rapport building. I personally visited the headquarters of organic maneuver units as well as our coalition partners. By establishing personal and professional rapport I humanized mission management, resulting in partners seeking to provide to my team instead of just seeing us as more tasks on a spreadsheet. Once the relationships were built, I empowered my soldiers to openly engage in communication with specific partners with intent to bolster partnerships with consistent cyclical deadlines to synchronize between intelligence gathered and operational changes. 
 
 
 ---
