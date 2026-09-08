@@ -22,7 +22,7 @@ limitations under the License.
 
 ### Manuscript Number: JGME-D-26-00810
 
-### Title: *The Utility of a Gap Year: Differences in Academic Productivity Post Dermatology Residency*
+### Title: *Teaching AI One Minute at a Time: Aligning DEFT-AI With the One-Minute Preceptor*
 
 ---
 
@@ -31,7 +31,7 @@ limitations under the License.
 | Category | Score |
 |---|---|
 | Reviewer Recommendation | Major Revision |
-| **Overall Manuscript Rating** | **60/100** |
+| **Overall Manuscript Rating** | 202020/100** |
 | Topic of interest to program directors or GME educators, researchers, or deans | 4 = Moderately Agree |
 | Conclusions supported by data or evidence presented | 2 = Moderately Disagree |
 | Manuscript needs additional statistical review | 3 = Agree |
@@ -40,7 +40,7 @@ limitations under the License.
 
 ## Confidential Comments to the Editor
 
-N/A
+I am deeply concerned that the only legimately unique AI mentioned was OpenEvidence.
 
 ---
 
@@ -48,17 +48,12 @@ N/A
 
 General Comments for Authors
 
-This manuscript addresses an important question for dermatology applicants, advisors, and residency selection committees: whether taking additional time during medical school for research is associated with sustained academic productivity after residency training. The long follow-up horizon is a meaningful strength. The principal methodological concern is that the exposure described throughout as a “research gap year” does not appear to be directly measured as such. Participants are stratified by time spent in medical school (4 years, 5-6 years, and 7+ years), while the Methods separately state that additional degrees were collected. Additional time may represent a dedicated research year, dual-degree training, leave, remediation, personal circumstances, or another pathway. This distinction is not merely theoretical: the manuscript's own Reference 4 analyzed research-year status and additional degrees as separate exposures and reported different associations with subsequent outcomes. Unless the reason for each additional year can be verified, the title, objective, interpretation, and conclusions attribute findings to research-year participation when the reported analysis is actually based on medical-school duration.
 
-Several additional issues limit confidence in the current interpretation. The cohort comes from one dermatology residency program and consists only of people who had already matched there; international medical graduates were excluded. Publication and academic-appointment outcomes were reconstructed from public sources, but the manuscript does not provide enough detail about identity matching, historical ascertainment, incomplete profiles, missing data, or abstraction quality control. Follow-up begins after residency or fellowship depending on the participant, creating heterogeneous index dates, and the statistical description requires clarification because it uses “paired” for independent-group comparisons. The manuscript would be stronger if reframed as an exploratory single-program cohort study, with verified exposure definitions, reproducible outcome ascertainment, transparent statistical methods, emphasis on effect estimates and confidence intervals, and conclusions limited to what this sample can support. Please see below for specific comments.
+||Please see below for specific comments||
 
-## Comment 1 — p. 4 | lines 25–42; p. 5 | lines 39–43
+## Comment 1 — p. 4 | lines 51–56; p. 7 | lines 4–19; p. 8 | lines 1–19
 
-The authors repeatedly refer to a “research gap year,” but their reported analytic exposure is duration of medical school (4 years, 5–6 years, and 7 years); these are not equivalent because additional time may reflect a dedicated research year, an additional degree, leave, remediation, personal circumstances, or another pathway. Because the central question concerns the long-term value of a research year, please explain how the reason for each additional year was determined and report how many participants in each duration group completed a verified dedicated research year. Reference 4 provides a directly relevant precedent because its authors measured research-year status and additional degrees separately and reported different associations: additional degrees were associated with publication productivity, H-index, and teaching-hospital practice, whereas research years were associated with H-index only. If the authors can verify research-year status from ERAS applications, the primary analysis should use that verified exposure and separately account for additional degrees. If not, the authors should reframe the title, objective, abstract, results interpretation, discussion, and conclusions as evaluating medical-school duration rather than research-year participation.
 
-## Comment 2 — p. 4 | lines 51–56; p. 7 | lines 4–19; p. 8 | lines 1–19
-
-The authors studied only NYU dermatology residency alumni, excluded international medical graduates, and therefore evaluated people who had already matched into one residency program. This selected cohort cannot establish the value of a research year for obtaining a dermatology residency position or predict outcomes among dermatology applicants nationally. References 2 and 3 address applicant match outcomes in different populations and do not make this alumni cohort representative of applicants. The authors should describe their work as an exploratory examination of long-term academic outcomes among alumni of one dermatology residency program, and they should temper statements concerning the “career-scale value” of a research year and recommendations to residency selection committees. A defensible conclusion is that the authors did not detect statistically significant differences between medical-school-duration groups in this cohort, rather than that research years do not contribute to later academic productivity.
 
 ## Comment 3 — p. 5 | lines 4–24; p. 5 | lines 51–53
 
@@ -82,4 +77,3 @@ The authors include the 7-year group in Table 2 and report the only statisticall
 
 ## Comment 8 — p. 7 | lines 24–58
 
-The authors’ discussion of financial burden and equity is relevant, but should distinguish evidence from the cited literature from findings of the present cohort, which did not measure socioeconomic status, debt, financial burden, funding access, race/ethnicity, or related equity outcomes. Reference 5 supports the statement that 71.7% of research-gap-year participants reported financial burden; however, its reported average monthly funding of $2,470.40 applies to grant or stipend recipients and is described as under 250% of the federal poverty level. The authors should revise the statement that “the average funding is just 250% of the federal poverty level” to preserve the recipient denominator, monthly time unit, and “under 250%” comparison. Reference 6 supports the broader concern that research expectations and unequal access to opportunities may disadvantage applicants with fewer resources, but does not demonstrate that the present cohort experienced these inequities. The authors should frame this section as an implication supported by References 5 and 6 rather than as an outcome of their cohort, and should avoid equating longer medical-school duration with a voluntary research year.
