@@ -82,7 +82,6 @@ No Plant installed at this time. When plant installed, will need to install GFAS
 No Plant Installed. At this time this mdu is not ready for pon confirm, and will not be until plant is built primary is assigned to this MDU.
 
 ```
-
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
 MDU Team- Please see all attached photos to determine appropriate # of DPUs, whether 4/8/16 port DPU for each floor with baylin, how many drops and if fiber splitter is indicated.
