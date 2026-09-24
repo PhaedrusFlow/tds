@@ -6,60 +6,56 @@
 ```
 ## Number of Units in the building 
 ```text
-
+31
 ```
 ## Numbering Scheme of Units *
 ```text
-
+3 digit units (101, 201, etc), 6 floors
 ```
 ## Unit Number for customer ordering service 
 ```text
-
+820 N Post St
 ```
 ## Are the current facilities Aerial or Buried?
 ```text
-
+Buried
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Brick/Mortar brewhouse,  Masonry bits needed. Aerial G5 MST, NOT buried MST in vault.
+No Plant in this DFN at this time. Common closet on each floor with coax box secured with star key lock.
 ```
 ## Will the new drop/s require pre-installation?
 ```text
-
+Yes
 ```
 
 ## Who will be placing the drop? *
 ```text
-
+Drop Contractor
 ```
 ## Who will be placing the conduit?*
 ```text
-TDS,
 Drop Contractor
-Blank
 ```
 
 ## Drop Type*
 ```text
-TDS
-Drop Contractor
-Blank
+ROC
 ```
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Centurylink box on S side of business is NOT demarc/penetration point. See images 0-3- follow aerial century link coax to demarc on roof.
+No Plant in DFN at this time. Number of drops will depend on whether 1 drop per 1x DPU per coax box per floor (1x4 or 1x8 baylin) or 2 drops with 1x8 splitters to run to common dpu
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Please refer to image 2 and 3. Demarc is NOT century link box on S side of building. Run aerial following century link path to demarc on roof.
+Please refer to attached images. Conduit runs from garage level up through each floor to run drop/ethernet to.
 ```
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Install aerial drop (75-100ft) following legacy centurylink coax path- images 0-7 for path. Poss expand penetration point to run our line along centurylink's. 
+No Plant installed at this time. When plant installed, will need to install GFAST DPU, enclosure with 1x8 baylin or 1x16 depending on if fiber splitter on site.
 ```
 
 ## Ped or Hand Hole? *
@@ -83,11 +79,11 @@ Install aerial drop (75-100ft) following legacy centurylink coax path- images 0-
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Cx does NOT want our business router or wifi 7 routers, they are using 2x their own routers. Business install needs 1x unmanaged switch to connect ONT to these. Tech's discretion if new ethernet lines run.
+No Plant Installed. At this time this mdu is not ready for pon confirm, and will not be until plant is built primary is assigned to this MDU.
 
 ```
 
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-Cereno Schiller is the TDS business associate documented on TDS business agreemnt. Contact is 208-551.2354, cx given this contact info during pon check.
+MDU Team- Please see all attached photos to determine appropriate # of DPUs, whether 4/8/16 port DPU for each floor with baylin, how many drops and if fiber splitter is indicated.
 ```
