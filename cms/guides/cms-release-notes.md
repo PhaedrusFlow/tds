@@ -1,8 +1,8 @@
 # CMS Release Notes: 15.2 and 16.0 — Field Tech Brief
 
-**One-line ELI5:** CMS 15.2 is the full-featured release for mixed legacy networks (C7/E7/E3/E5/B6/AE); CMS 16.0 is a security-hardened release that *only* manages E7 GPON — upgrading to 16.0 on the wrong network strands your other platforms.
+**Overview:** CMS 15.2 is the full-featured release for mixed legacy networks (C7/E7/E3/E5/B6/AE); CMS 16.0 is a security-hardened release that *only* manages E7 GPON — upgrading to 16.0 on the wrong network strands your other platforms.
 
-## ELI5: what changed, why you care, when it matters
+## Overview: what changed, why it matters, when it applies
 
 **CMS R15.2.129** (Nov 2024) is the "works with everything" release: it manages B6, C7, E7, E3/E5, and AE ONTs, adds EXOS AE ONT alarm handling (suppress LAN-port alarms, see previously-missed alarm types, redefine severity), pre-enables the GP4200A AE ONT, improves inventory/Calix Cloud integration (upgrade-completion events, card arrival/departure triggers, new NBI calls for inventory-task status), and adds GUI toggles for HTTPS and certificate upload. Fixed issues are mostly AE-ONT and Cloud-sync correctness.
 

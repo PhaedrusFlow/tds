@@ -1,8 +1,8 @@
 # Slow-Portal Workarounds
 
-**One-line ELI5:** The portal is slow — here's the playbook for making it feel fast anyway: skip pages, hit APIs directly, run things in parallel, and cache everything.
+**Overview:** The portal is slow — here's the playbook for making it feel fast anyway: skip pages, hit APIs directly, run things in parallel, and cache everything.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** A set of CLI-first patterns that cut the wall-clock time of BxE work: deep links, direct API calls, parallel requests, response caching, and knowing what *not* to wait for.
 

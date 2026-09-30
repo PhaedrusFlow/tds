@@ -1,12 +1,12 @@
 # Operational Playbooks — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** Sixteen alphabetized, CLI-first playbooks for the real jobs you'll do on an AMS system — each one says when to use it, the exact commands, what success looks like, and how to back out.
+**Overview:** Sixteen alphabetized, CLI-first playbooks for the real jobs you'll do on an AMS system — each one says when to use it, the exact commands, what success looks like, and how to back out.
 
 > **Safety:** Replace every `<placeholder>` before running. Confirm the host, site, role, and account. Read the risk note, take a tested backup before changes, and use an approved maintenance window for service-affecting work. Nokia documentation and site procedures remain authoritative.
 
 ---
 
-## ELI5: what this is
+## Overview
 
 **What it is.** This is the field manual: sixteen operational playbooks in alphabetical order, each one a complete job you might be sent to do — activating a release, backing up, changing ports, collecting support evidence, converting simplex to cluster, defragmenting the database, evacuating a server, falling back to local auth, forcing a data-server switchover, migrating from backup, recovering an admin account, restoring on different hardware, rotating database credentials, taking a pre-change backup, validating installed software, and verifying the northbound interface.
 

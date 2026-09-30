@@ -1,8 +1,8 @@
 # Nokia 5520 AMS 9.8.3 — Network, Firewall, and NAT (Field Teaching Guide)
 
-**One-line ELI5:** The plumbing diagram and the locked doors — which network each kind of AMS traffic must use, how the firewall rules get applied, and how AMS behaves behind NAT.
+**Overview:** The plumbing diagram and the locked doors — which network each kind of AMS traffic must use, how the firewall rules get applied, and how AMS behaves behind NAT.
 
-## ELI5: what this is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** An AMS server has up to five network "lanes", each with a job: the **cluster** lane (server-to-server heartbeat inside one site), the **DCN/NE** lane (AMS talking to the OLTs/ONTs it manages), the **northbound/client** lane (your GUI and the OSS/NBI clients), **storage** (iSCSI), and **synchronization** (geo replication between sites). This guide covers the rules for each lane, the firewall tool (`ams_updatefirewall`) that opens exactly the ports AMS needs, NAT behavior for clients behind address translation, and the SFTP/SNMP/FTP knobs.
 

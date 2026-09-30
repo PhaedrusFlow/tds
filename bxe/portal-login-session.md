@@ -1,8 +1,8 @@
 # Portal Login & Session Handling
 
-**One-line ELI5:** How to log into the BxE portal from scripts without ever putting your password in a file, in shell history, or in chat — and how to keep the session alive.
+**Overview:** How to log into the BxE portal from scripts without ever putting your password in a file, in shell history, or in chat — and how to keep the session alive. Passwords in chat are how incident reports get written.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** Every script in this directory needs an authenticated session. This guide is the one security-critical pattern: credentials live in your password manager and environment, never in commands, files, or history — and sessions are cookie jars with locked-down permissions, not tokens pasted into chat.
 

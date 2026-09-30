@@ -1,8 +1,8 @@
 # Configuration Catalog — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** The map of where every AMS setting lives — the config files, the environment variables, and the `ams.conf` keys — plus which tool you're actually supposed to touch them with (hint: usually not a text editor).
+**Overview:** The map of where every AMS setting lives — the config files, the environment variables, and the `ams.conf` keys — plus which tool you're actually supposed to touch them with (hint: usually not a text editor).
 
-## ELI5 — What this is and why it matters
+## Overview — what it is and why it matters
 
 **Plain language first.** An AMS server is configured in layers, like an onion. The outermost layer is the operating system (`/etc/...` files: time sync, mounts, SSH, firewall, log rotation). Inside that is a set of **environment variables** (`$AMSSOFTWAREHOME`, `$AMSLOGDIR`, …) that tell every AMS script where the software, logs, and data actually live. At the core is **`ams.conf`**, the master settings file: which IP addresses AMS binds to, which networks are client/NE/cluster traffic, timeouts, trace levels.
 
@@ -29,7 +29,7 @@ flowchart TD
     C --> D[Locale + resource limits]
     D --> E[AMS services start]
 
-    subgraph OS [/etc files]
+    subgraph OS["/etc files"]
     A1[chrony.conf — time sync] 
     A2[sshd_config — SSH]
     A3[sysctl.conf — kernel/net]
@@ -39,7 +39,7 @@ flowchart TD
     A7[fstab / hosts.equiv / profile / vsftpd]
     end
 
-    subgraph ENV [$AMS*]
+    subgraph ENV["$AMS*"]
     B1[AMSSOFTWAREHOME — active release]
     B2[AMSSCRIPTSDIR — scripts]
     B3[AMSLOGDIR — logs]

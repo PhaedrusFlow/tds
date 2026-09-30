@@ -1,8 +1,8 @@
 # Address → Customer → Device → Diagnostics
 
-**One-line ELI5:** The fastest way to go from a street address to live diagnostics (signal levels, errors, speed) on a customer's gear — skipping as much of the slow portal clicking as possible.
+**Overview:** The fastest way to go from a street address to live diagnostics (signal levels, errors, speed) on a customer's gear — skipping as much of the slow portal clicking as possible.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** Your most common BxE job: a dispatcher gives you an address (or you're standing at one), and you need the customer's service record, their ONT/router, and live diagnostics — optical light levels, error counters, speed test results, device logs.
 

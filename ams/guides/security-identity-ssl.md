@@ -1,12 +1,12 @@
 # Security, Identity & TLS — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** This guide is the "locks and keys" chapter — who can log in, how passwords and secrets are protected, and how traffic between AMS components gets encrypted.
+**Overview:** This guide is the "locks and keys" chapter — who can log in, how passwords and secrets are protected, and how traffic between AMS components gets encrypted.
 
 > **Safety:** Replace every `<placeholder>`. Confirm the host, site, role, and account. Read the risk note, take a tested backup before changes, and use an approved maintenance window for service-affecting work. Nokia documentation and site procedures remain authoritative.
 
 ---
 
-## ELI5: what this is
+## Overview
 
 **What it is.** AMS holds the keys to your access network — every OLT and ONT is managed through it — so identity and encryption are job-critical, not paperwork. This guide covers the full security surface: AMS user accounts (local vs. LDAP/RADIUS), the first administrator account, encrypted credential files for the bulk manager tools, database password rotation, TLS/SSL for encrypted management traffic, AES keys that protect stored passwords, NBI encryption keys shared with OSS consumers, SSH session timeouts, and keeping the service accounts (`amssys`, `amssftp`, `amsftp`) from being locked out by password-aging policy.
 

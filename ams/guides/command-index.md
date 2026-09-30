@@ -1,8 +1,8 @@
 # Command Index — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** The A–Z phone book of every AMS command: what it does, which Linux account is allowed to run it, and how much damage it can do — so you find the right tool instead of guessing.
+**Overview:** The A–Z phone book of every AMS command: what it does, which Linux account is allowed to run it, and how much damage it can do — so you find the right tool instead of guessing.
 
-## ELI5 — What this is and why it matters
+## Overview — what it is and why it matters
 
 **Plain language first.** Nobody memorizes sixty commands. What a good field tech memorizes is *how to find* the right command in under a minute — and, more importantly, how to read the two columns that keep you out of trouble: **Account** (who you're allowed to be when you run it) and **Impact** (what happens if you're wrong). This guide is that lookup table, organized A–Z the way the manuals organize it.
 

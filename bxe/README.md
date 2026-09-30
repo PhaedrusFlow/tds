@@ -1,6 +1,6 @@
-# BxE ELI5 Field Guides
+# BxE Field Guides
 
-ELI5 teaching guides for the BxE portal (`https://bxe-portal-prime.content.prod.oscp.ent.tds.net/`) — TDS's internal field system for customer diagnostics and install/service certification. CLI-first, with copy-paste scripts for six platforms.
+Field guides for the BxE portal (`https://bxe-portal-prime.content.prod.oscp.ent.tds.net/`) — TDS's internal field system for customer diagnostics and install/service certification. CLI-first, with copy-paste scripts for six platforms.
 
 ## Important: what BxE is (and isn't)
 
@@ -13,7 +13,7 @@ ELI5 teaching guides for the BxE portal (`https://bxe-portal-prime.content.prod.
 
 - Start with `portal-login-session.md` (set up secure auth once per device).
 - Then `address-to-diagnostics.md` (the 10-minute DevTools discovery that unlocks everything).
-- Every guide: one-line ELI5 → mermaid diagram → CLI workflows (primary) → GUI section (secondary).
+- Every guide: one-line overview → mermaid diagram → CLI workflows (primary) → GUI section (secondary).
 - Script blocks for six platforms, alphabetical: **Linux bash, Nix-on-Droid, PowerShell, Termux, Windows cmd, WSL/Arch**.
 - `VERIFIED` = confirmed from Matt, this repo's templates, or direct observation. `INFERRED` = standard patterns you must adapt — marked `<...>` everywhere.
 

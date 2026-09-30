@@ -1,8 +1,8 @@
 # SMx API Interface
 
-**One-line ELI5:** SMx is Calix's modern, REST/JSON API for managing AXOS gear (like the E9-2 OLT) — think of it as the successor to the old CMS XML NBI, and the one you'll use for anything AXOS.
+**Overview:** SMx is Calix's modern, REST/JSON API for managing AXOS gear (like the E9-2 OLT) — the successor to the older CMS XML northbound interface, and the API to use for anything AXOS.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** SMx (Services Management Connector / AXOS SMx) is Calix's API-first management layer for AXOS systems. Where legacy CMS speaks XML/SOAP to manage C7/E7 boxes, SMx speaks REST + JSON over HTTPS to manage AXOS OLTs — subscribers, ONTs, VLANs, services (BNG/L2 data, video, voice), class-maps/policy-maps/service templates, ONT port status, users/roles, and a WebSocket stream of northbound alarms.
 

@@ -1,12 +1,12 @@
 # Server, Cluster & Geographic Redundancy — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** This guide is the "keeping AMS alive" chapter — starting and stopping servers, running them as a cluster so one failure doesn't kill management, and running two sites so a whole datacenter failure doesn't either.
+**Overview:** This guide is the "keeping AMS alive" chapter — starting and stopping servers, running them as a cluster so one failure doesn't kill management, and running two sites so a whole datacenter failure doesn't either.
 
 > **Safety:** Replace every `<placeholder>`. Confirm the host, site, role, and account. Read the risk note, take a tested backup before changes, and use an approved maintenance window for service-affecting work. Nokia documentation and site procedures remain authoritative.
 
 ---
 
-## ELI5: what this is
+## Overview
 
 **What it is.** AMS runs on one server (simplex), on several servers acting as one (cluster), or on two clusters in different locations (geographic redundancy, GR). The cluster keeps management alive when a single server dies; geo keeps it alive when an entire site dies. This guide covers the lifecycle commands: checking cluster health, starting/stopping/restarting servers and whole clusters, forcing or switching geo roles (which site is *active* serving traffic, which is *standby* waiting), evacuating an application server before maintenance (moving its NEs to the others), configuring geo redundancy, and the correct startup order.
 

@@ -1,8 +1,8 @@
 # Logs, Monitoring & Support — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** How to watch AMS health in real time, gather the evidence Nokia support will ask for, and manage log volume — without deleting the very evidence you need to diagnose the problem.
+**Overview:** How to watch AMS health in real time, gather the evidence Nokia support will ask for, and manage log volume — without deleting the very evidence you need to diagnose the problem.
 
-## ELI5 — What this is and why it matters
+## Overview — what it is and why it matters
 
 **Plain language first.** Every AMS server constantly writes down what it's doing — that's the **logs**. **Monitoring** is you reading those signs of life: is the server up, is the cluster in sync, is the database healthy? **Support** is what happens when you can't fix it alone: Nokia's engineers will ask for a bundle of logs and diagnostics, and this guide's tools (`ams_log_manager.sh`, `ams_support.sh`) build exactly that bundle.
 

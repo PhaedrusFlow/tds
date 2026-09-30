@@ -1,8 +1,8 @@
 # CMS Northbound Interface (NBI) API
 
-**One-line ELI5:** The CMS NBI is the "talk to the server with code instead of clicks" door into Calix Management System — you POST XML requests to it and it activates or queries subscriber services on Calix access gear (C7, E3/E5, E7 GPON/xDSL, AE ONTs) without touching the GUI.
+**Overview:** The CMS NBI is the "talk to the server with code instead of clicks" door into Calix Management System — you POST XML requests to it and it activates or queries subscriber services on Calix access gear (C7, E3/E5, E7 GPON/xDSL, AE ONTs) without touching the GUI.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** CMS (Calix Management System) manages legacy Calix access platforms — C7, E3/E5-100, E7-2/E7-20, and Active Ethernet (AE) ONTs. Its Northbound Interface is an XML-over-HTTP API (SOAP envelope wrapping NETCONF-style `get` / `edit-config` / `action` operations). "Northbound" just means "the direction up toward your back-office systems" — i.e., it's the integration API your OSS/BSS or scripts use to drive CMS the way a human drives the CMS desktop/web client.
 

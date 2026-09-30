@@ -1,10 +1,10 @@
-# AMS ELI5 Field Guides
+# AMS Field Guides
 
-ELI5 teaching guides for the Nokia 5520 AMS 9.8.3 operations topics in this repo's `ams/` docs. Written for field service technicians and network specialists — CLI-first, with copy-paste scripts for six platforms.
+Field guides for the Nokia 5520 AMS 9.8.3 operations topics in this repo's `ams/` docs. Written for field service technicians and network specialists — CLI-first, with copy-paste scripts for six platforms.
 
 ## How to use these guides
 
-- Every guide opens with a one-line ELI5, a mermaid diagram, then CLI workflows (primary), then a GUI section (secondary).
+- Every guide opens with a one-line overview, a mermaid diagram, then CLI workflows (primary), then a GUI section (secondary).
 - Every guide has script blocks for six platforms, alphabetical: **Linux bash, Nix-on-Droid, PowerShell, Termux, Windows cmd, WSL/Arch**.
 - `<placeholder>` values in `"<angle brackets>"` must be replaced with your site's values before running.
 - All 273 bash blocks pass `bash -n`; PowerShell/cmd blocks are marked where unverified.

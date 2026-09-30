@@ -1,8 +1,8 @@
 # API Access Request (what to ask for)
 
-**One-line ELI5:** BxE has no public API — this is the template for asking TDS internal teams for the access that makes everything else in this directory possible, and what to ask for exactly.
+**Overview:** BxE has no public API — this is the template for asking TDS internal teams for the access that makes everything else in this directory possible, and what to ask for exactly.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** A fill-in-the-blanks request for supported, sanctioned API/automation access to BxE: who to ask, what endpoints you need, what to promise about security, and what to do if they say no.
 

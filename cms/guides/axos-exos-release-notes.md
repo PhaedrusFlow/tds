@@ -1,8 +1,8 @@
 # AXOS R26.3.0 (E9-2 OLT) & EXOS R26.3.0 Release Notes — Field Tech Brief
 
-**One-line ELI5:** AXOS R26.3 makes the E9-2 OLT smarter about routing, subscriber security, and monitoring (and fixes a nasty silent alarm-stream bug) — while EXOS R26.3 adds new Wi-Fi 7 boxes, better cloud health reporting, and changes what the LEDs tell you; upgrade SMx *before* the OLT, and the ONT *before* the OLT.
+**Overview:** AXOS R26.3 makes the E9-2 OLT smarter about routing, subscriber security, and monitoring (and fixes a nasty silent alarm-stream bug) — while EXOS R26.3 adds new Wi-Fi 7 boxes, better cloud health reporting, and changes what the LEDs tell you; upgrade SMx *before* the OLT, and the ONT *before* the OLT.
 
-## ELI5: what changed, why you care, when it matters
+## Overview: what changed, why it matters, when it applies
 
 **AXOS R26.3.0.1 on the E9-2** (CLX3001 aggregation + XG3201/NG1601/GP1611/GP1612 line cards) is a robustness release: new XGS-PON ONT (GPR1011XH), third-party ONT interop work, BGP confederation/route dampening, RADIUS fallback when the server is down, static-IP support for MDU management, configurable BNG security and IPv6 ND RA options, lawful-intercept over IPv6, ICMPv6 passthrough control, per-protocol DoS actions. The headline fix: **R26.3.0 could silently lose the northbound NETCONF event subscription** (AXOS-98750) — SMx/Cloud stopped getting notifications with no alarm, breaking activations that depend on them. Fixed in 26.3.0.1.
 

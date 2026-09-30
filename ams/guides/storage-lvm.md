@@ -1,12 +1,12 @@
 # Storage & LVM — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** This guide is the "disk plumbing" chapter — how AMS's database gets its own dedicated disk space using Linux LVM, and the one rule (keep snapshot room free) that protects your backups.
+**Overview:** This guide is the "disk plumbing" chapter — how AMS's database gets its own dedicated disk space using Linux LVM, and the one rule (keep snapshot room free) that protects your backups.
 
 > **Safety:** Replace every `<placeholder>`. Confirm the host, site, role, and account. Read the risk note, take a tested backup before changes, and use an approved maintenance window for service-affecting work. Nokia documentation and site procedures remain authoritative.
 
 ---
 
-## ELI5: what this is
+## Overview
 
 **What it is.** AMS keeps its database on Linux disk volumes managed by LVM (Logical Volume Manager) — a layer that lets you carve flexible "logical volumes" out of physical disks. This guide covers the five storage rules, the full new-disk workflow (partition → physical volume → volume group → logical volume → filesystem → mount), making mounts persistent across reboots via `/etc/fstab`, and the capacity rule that matters most: **never fill the volume group completely — backup and replication need free space for a temporary snapshot that can grow to the size of the database volume.**
 
@@ -33,7 +33,7 @@ flowchart TB
     VG --> FREE[Free extents: 26 GB<br/>RESERVED for snapshots]
     LVDB --> FS[ext4 filesystem<br/>mke2fs -t ext4]
     FS --> MNT[Mount point<br/>identical on both data servers]
-    MNT --> FSTAB[/etc/fstab by UUID<br/>errors=remount-ro 0 1]
+    MNT --> FSTAB["/etc/fstab by UUID<br/>errors=remount-ro 0 1"]
     FREE -.->|backup/replication| SNAP[Temporary snapshot LV<br/>can grow to DB size]
     style FREE fill:#fdd
     style SNAP fill:#fdd

@@ -1,8 +1,8 @@
 # Backup, Restore & Migration — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** This is the safety net: how to snapshot the AMS server's data and software, put it back when something breaks, and carry it to a new release — including the one command that wipes everything and must never be typed casually.
+**Overview:** This is the safety net: how to snapshot the AMS server's data and software, put it back when something breaks, and carry it to a new release — including the one command that wipes everything and must never be typed casually.
 
-## ELI5 — What this is and why it matters
+## Overview — what it is and why it matters
 
 **Plain language first.** The AMS server is the brain that manages thousands of access-network boxes (OLTs, ONTs, ISAM gear). That brain has two things worth saving: its **memory** (the database: every subscriber, NE, alarm, and config) and its **body** (the installed software itself). Backup/restore is exactly what it sounds like — make a copy before you do anything risky, put it back if the risky thing goes wrong. Migration is the bigger cousin: moving that memory from an older AMS release into a newer one when you upgrade.
 

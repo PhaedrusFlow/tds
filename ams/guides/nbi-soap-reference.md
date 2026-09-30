@@ -1,8 +1,8 @@
 # Nokia 5520 AMS 9.8.3 — Northbound SOAP API (Field Teaching Guide)
 
-**One-line ELI5:** SOAP is the machine-to-machine remote control for AMS — your OSS or script talks XML over HTTPS and AMS creates NEs, users, and links without anyone clicking anything.
+**Overview:** SOAP is the machine-to-machine remote control for AMS — your OSS or script talks XML over HTTPS and AMS creates NEs, users, and links without anyone clicking anything.
 
-## ELI5: what this is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** The Northbound Interface (NBI) is how *other systems* talk to AMS: provisioning/OSS platforms, inventory tools, or your own scripts. It speaks SOAP — XML request envelopes posted over HTTPS (port 8443) to Axis web services like `UserManagementMgr` and `ManagedElementMgr`. Each service owns a family of objects (users, NEs, links, supervision), and each operation (`addUser`, `createManagedElement`, …) is one verb you can call.
 

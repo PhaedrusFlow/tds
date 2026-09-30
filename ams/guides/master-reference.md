@@ -1,8 +1,8 @@
 # Nokia 5520 AMS 9.8.3 — A–Z Master Reference (Field Teaching Guide)
 
-**One-line ELI5:** The whole AMS server in one alphabetized cheat sheet — if you can find your task's letter, you can find the command.
+**Overview:** The whole AMS server in one alphabetized cheat sheet — if you can find your task's letter, you can find the command.
 
-## ELI5: what this is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** Nokia 5520 AMS 9.8.3 is the *Access Management System*: the server platform a carrier uses to manage its access network — the OLTs and ONTs (ISAM family) that deliver fiber/copper broadband to subscribers. This guide is the A–Z index of everything an operator does on that server: activating software, backing up data, running the server cluster, managing network elements (NEs), calling the SOAP northbound interface, hardening the OS, and the guardrails that keep you from wiping the database by accident.
 

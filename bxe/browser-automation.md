@@ -1,8 +1,8 @@
 # Browser Automation Alternatives
 
-**One-line ELI5:** When the portal has no API and clicking is too slow, drive the browser itself with scripts — what works, what's fragile, and what will get you in trouble.
+**Overview:** When the portal has no API and clicking is too slow, drive the browser itself with scripts — what works, what's fragile, and what will get you in trouble.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** Browser automation = a script that opens the BxE portal, logs in, clicks search, and scrapes diagnostics — doing your clicks for you. Tools: Playwright, Selenium, or even a bookmarklet.
 

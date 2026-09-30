@@ -1,12 +1,12 @@
 # Release Scope & Glossary — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** This guide tells you which AMS setups these instructions cover, what they deliberately leave out, and what all the acronyms mean.
+**Overview:** This guide tells you which AMS setups these instructions cover, what they deliberately leave out, and what all the acronyms mean.
 
 > **Safety:** Replace every `<placeholder>` before running anything. Confirm the host, site, role, and account. Nokia documentation and site procedures remain authoritative.
 
 ---
 
-## ELI5: what this is
+## Overview
 
 **What it is.** Before you touch an AMS box, you need two facts nailed down: (1) this material targets **Nokia 5520 AMS Release 9.8.3** in **simplex, cluster, and geographically redundant** deployments, and (2) the supplied manuals stay the controlling authority for anything exact — prerequisites, supported plug-in combinations, sizing, port matrices, and known defects.
 

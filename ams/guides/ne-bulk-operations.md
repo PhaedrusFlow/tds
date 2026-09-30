@@ -1,8 +1,8 @@
 # Nokia 5520 AMS 9.8.3 — NE Bulk Operations (Field Teaching Guide)
 
-**One-line ELI5:** Doing the same thing to hundreds of network elements at once — create them, talk to them, back them up — from files instead of one-by-one clicking.
+**Overview:** Doing the same thing to hundreds of network elements at once — create them, talk to them, back them up — from files instead of one-by-one clicking.
 
-## ELI5: what this is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** An NE (network element) is one managed box in the access network — an OLT, an ONT, an ISAM shelf. A carrier has thousands. "Bulk operations" is AMS's file-driven machinery for acting on many NEs at once: `ams_ne_mgr` creates/modifies NE records from an input file, `ams_ne_cli` pushes NE-native CLI commands to a list of NEs and collects the output, `ams_nebackup.sh`/`ams_nerestore.sh` save and restore AMS-held NE backup data, and the `*_link_mgr`/`ams_mediagw_mgr`/`ams_splitter_mgr` tools bulk-manage topology objects (links, media gateways, splitters). Lookup tools (`ams_retrieve_ip_by_nename.sh`, `ams_show_ne_balancing.sh`, `retrieve_nes.sh`) tell you where NEs live and how load is spread.
 

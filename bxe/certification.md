@@ -1,8 +1,8 @@
 # Certification ("Certificy") Workflow
 
-**One-line ELI5:** The install/service certification flow — prove the job passes every test, record it the way BxE wants it, and never leave site without the evidence.
+**Overview:** The install/service certification flow — prove the job passes every test, record it the way BxE wants it, and never leave site without the evidence.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** After an install or repair, you "certify" the service: run the required tests (speed test, signal/light levels, error checks), confirm they all pass, and record the result — in BxE and in your ticket template. Your repo templates have a dedicated section for it:
 

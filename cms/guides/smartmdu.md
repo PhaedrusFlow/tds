@@ -1,8 +1,8 @@
 # SmartMDU Application Guide
 
-**One-line ELI5:** SmartMDU is Calix's managed-Wi-Fi-in-apartment-buildings system — one GigaSpire per unit plus property-wide networks, all run from Calix Cloud, with a portal (PropertyWorx) that lets the building manager move tenants in and out without calling you.
+**Overview:** SmartMDU is Calix's managed-Wi-Fi-in-apartment-buildings system — one GigaSpire per unit plus property-wide networks, all run from Calix Cloud, with a portal (PropertyWorx) that lets the building manager move tenants in and out without calling you.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** SmartMDU serves multi-dwelling units (apartment/condo complexes). Each living unit gets an EXOS GigaSpire (the same boxes you already deploy), common areas get APs, and Calix Cloud orchestrates the whole property: per-tenant private Wi-Fi, plus property-wide networks — **roaming** (Passpoint-secured, auto-join across the property), **public** (open guest), **IoT** (password-protected, for building devices like cameras), and a future connected-vehicle network. Property managers get **PropertyWorx**, a web portal for tenant moves, network tweaks, and rebooting APs.
 

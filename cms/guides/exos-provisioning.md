@@ -1,8 +1,8 @@
 # EXOS Provisioning (GigaSpire / GigaPro)
 
-**One-line ELI5:** EXOS is the software inside Calix's GigaSpire and GigaPro boxes — provisioning one means getting it a Registration ID, letting it phone home to Calix Cloud over TR-069, and having it pull its config automatically.
+**Overview:** EXOS is the software inside Calix's GigaSpire and GigaPro boxes — provisioning one means getting it a Registration ID, letting it phone home to Calix Cloud over TR-069, and having it pull its config automatically.
 
-## ELI5: what it is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** EXOS runs on Calix's subscriber-premises systems: GigaSpire gateways (GS series, Ethernet/PON/AE WAN), GigaSpire+ONT combos, GigaPro APs (GPR series), and mesh satellites (GM series). These are Layer-3 (IP-routed) Wi-Fi access points — the box in the customer's home. "Provisioning" an EXOS system is mostly *activation*, not hand-config: you give it a unique Registration ID, connect the WAN, and it discovers itself on the network, downloads pre-provisioned services, and registers with Calix Service Cloud via TR-069.
 

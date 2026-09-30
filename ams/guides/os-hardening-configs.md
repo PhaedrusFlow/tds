@@ -1,8 +1,8 @@
 # Nokia 5520 AMS 9.8.3 — RHEL OS Hardening (Field Teaching Guide)
 
-**One-line ELI5:** Locking down the Linux underneath AMS — idle logouts, kernel network defenses, no ancient trust files, correct time, capped memory, and only the services AMS needs.
+**Overview:** Locking down the Linux underneath AMS — idle logouts, kernel network defenses, no ancient trust files, correct time, capped memory, and only the services AMS needs. An open port is an invitation, and the internet RSVPs to everything.
 
-## ELI5: what this is, why you care, when to reach for it
+## Overview: what it is, why it matters, when to use it
 
 **What it is.** AMS runs on RHEL, and a carrier server must be hardened: shrink what an attacker can touch. That means six things in this guide: (1) shell timeouts and safe default file permissions, (2) kernel settings that turn off packet forwarding, redirects, and source routing while blunting SYN floods, (3) deleting legacy trust files (`.rhosts`, `.netrc`, `hosts.equiv`) that let hosts trust each other without passwords, (4) reliable time sync (chrony) because certificates, logs, and geo replication all break when clocks drift, (5) capping `/dev/shm` so shared memory can't eat all RAM, and (6) enabling only the required services (`chronyd`, `crond`, `sshd`) — FTP only if your NE families need it.
 

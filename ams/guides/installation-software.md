@@ -1,8 +1,8 @@
 # Installation & Software Management — Nokia 5520 AMS 9.8.3
 
-**One-line ELI5:** How AMS software gets installed, activated, patched, and licensed — and the stop-change-start rhythm that keeps every change safe, verifiable, and reversible.
+**Overview:** How AMS software gets installed, activated, patched, and licensed — and the stop-change-start rhythm that keeps every change safe, verifiable, and reversible.
 
-## ELI5 — What this is and why it matters
+## Overview — what it is and why it matters
 
 **Plain language first.** Think of AMS software like an engine with swappable parts. **Installation** puts a new release on the disk. **Activation** (`ams_activate.sh`, as `root`) flips the switch that makes that release the live one and prepares its plug-in environment. **Components** — NE plug-ins, patches, emergency fixes — are managed with `ams_install.sh`: install them, activate them, or deactivate them. And **licenses** are the host-locked permission slips; without the right one for the right host ID, features stay dark.
 
