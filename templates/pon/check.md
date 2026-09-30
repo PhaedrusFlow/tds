@@ -22,7 +22,7 @@ Buried
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-No Plant in this DFN at this time. Common closet on each floor with coax box secured with star key lock.
+Cx wants penetration point on rear/S side, refer to two attached images labeled penetration point.
 ```
 ## Will the new drop/s require pre-installation?
 ```text
@@ -45,17 +45,17 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-No Plant in DFN at this time. Number of drops will depend on whether 1 drop per 1x DPU per coax box per floor (1x4 or 1x8 baylin) or 2 drops with 1x8 splitters to run to common dpu
+Aerial MST ~50 ft from S wall. Cx wants penetration point in same vicinity as century link lines. Path and pen point in attached images.
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Please refer to attached images. Conduit runs from garage level up through each floor to run drop/ethernet to.
+Please refer to attached images. Follow path of centurylink, current cx provider. 
 ```
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-No Plant installed at this time. When plant installed, will need to install GFAST DPU, enclosure with 1x8 baylin or 1x16 depending on if fiber splitter on site.
+Run ROC drop from MST to penetration point on rear of building. Install SB. Run rugged from SB to mount point of restaurant next to point of sale. 
 ```
 
 ## Ped or Hand Hole? *
@@ -79,10 +79,10 @@ No Plant installed at this time. When plant installed, will need to install GFAS
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-No Plant Installed. At this time this mdu is not ready for pon confirm, and will not be until plant is built primary is assigned to this MDU.
+Restaurant relies on internet for point of sale, so need to be mindful to avoid accidentally disconnecting
 
 ```
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-MDU Team- Please see all attached photos to determine appropriate # of DPUs, whether 4/8/16 port DPU for each floor with baylin, how many drops and if fiber splitter is indicated.
+Cx confirmed they ordered voice and data. They currently get both from centurylink, business # is 509-482-5276 and will need to be ported
 ```
