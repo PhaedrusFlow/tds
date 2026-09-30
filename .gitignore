@@ -13,3 +13,7 @@ Thumbs.db
 /msft/sharepoint/.env
 /msft/sharepoint/.env.*
 /msft/sharepoint/.eslintcache
+
+# Dry-run reports are generated at runtime by */scripts/dry-run.* next to the
+# script (reports/dry-run-<product>-<UTC>.md). Never commit them.
+reports/
