@@ -168,6 +168,7 @@ ssh amssys@<ams-host> 'sudo ams_sw_backup.sh /backup/ams-software'
 
 Win32 OpenSSH; quote the remote command so PowerShell doesn't eat it:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # read-only daily driver, single shot, no interactive session needed
 ssh amssys@<ams-host> 'ams_server status'
@@ -192,6 +193,7 @@ termux-wake-unlock
 
 Win32 OpenSSH works in cmd.exe; use double quotes around the remote command (cmd has no single-quote grouping):
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_server status"
 ssh amssys@<ams-host> "sudo ams_sw_backup.sh /backup/ams-software"

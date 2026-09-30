@@ -173,9 +173,10 @@ nix-env -iA nixpkgs.openssh nixpkgs.curl
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Win32 OpenSSH is built in: ssh to the OLT and run show commands.
-ssh <olt-host> "show info"
+ssh "<olt-host>" "show info"
 # Stage firmware with scp (Win32 OpenSSH) if your process stages via a
 # Windows jump host; checksum-verify before staging.
 # NOTE: unverified on Windows — test before field use.
@@ -191,9 +192,10 @@ pkg install -y openssh curl
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: Win32 OpenSSH ships with Windows 10+:
-ssh <olt-host> "show info"
+ssh "<olt-host>" "show info"
 :: NOTE: unverified on Windows — test before field use.
 ```
 

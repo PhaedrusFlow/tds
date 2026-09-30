@@ -206,6 +206,7 @@ Android gotchas: no systemd on-device (all server commands run after `ssh`); gra
 
 Win32 OpenSSH: copy files up, run remotely, copy results back (the `scp`-back pattern comes from the Windows flavor of the source):
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 scp .\ne-list.txt .\commands.txt amssys@<ams-host>:/tmp/
 ssh amssys@<ams-host>
@@ -236,6 +237,7 @@ Android gotchas: `pkg install` needs network; no systemd; Android may suspend ba
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 scp .\ne-list.txt .\commands.txt amssys@<ams-host>:/tmp/
 ssh amssys@<ams-host> "ams_nebackup.sh /backup/ne-prechange.tar && ams_ne_cli /tmp/ne-list.txt /tmp/commands.txt /tmp/ne_cli_out.txt 120"

@@ -203,6 +203,7 @@ diff /tmp/a.conf /tmp/b.conf
 
 Remote inspection one-liners; pull files down with `scp` for local diffing:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> 'grep -E "^(AMSCLIENTBINDIP|AMSCLUSTERBINDIP|AMSNEBINDIP)=" "$AMSSOFTWAREHOME/conf/ams.conf"'
 scp amssys@<ams-host>:'$AMSSOFTWAREHOME/conf/ams.conf' .\ams.conf.remote
@@ -224,6 +225,7 @@ diff ~/ams.conf.golden ~/ams.conf.remote
 
 Quote remote commands with double quotes; fetch files with `scp` for inspection in a Windows editor:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "locale; cat /etc/sysconfig/i18n"
 scp amssys@<ams-host>:/etc/logrotate.d/ams C:\Temp\ams-logrotate.remote

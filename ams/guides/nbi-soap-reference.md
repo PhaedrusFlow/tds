@@ -206,6 +206,7 @@ Copy `request.xml` and the CA bundle to the phone first (`scp` them over, or via
 
 Native Windows HTTPS via `Invoke-WebRequest` (pattern from the Windows flavor of the source):
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # 1. endpoint check (read-only)
 curl.exe --cacert C:\path\ams-ca.pem https://<ams-host>:8443/ams/services/UserManagementMgr
@@ -245,6 +246,7 @@ Android gotchas: `pkg install` needs network + storage permission for the CA/env
 
 cmd.exe with Win32 OpenSSH's `curl.exe` — direct HTTPS, no SSH needed:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 curl.exe --fail --cacert C:\path\ams-ca.pem https://<ams-host>:8443/ams/services/UserManagementMgr
 curl.exe --fail-with-body --cacert C:\path\ams-ca.pem --user "<nbi-user>:<password>" --header "Content-Type: text/xml; charset=utf-8" --data-binary @request.xml https://<ams-host>:8443/ams/services/UserManagementMgr

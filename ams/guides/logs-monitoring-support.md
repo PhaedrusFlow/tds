@@ -254,6 +254,7 @@ scp amssys@<ams-host>:/tmp/ams-logs.tar ~/ams-logs.tar
 
 Single-shot status checks plus `scp` to pull bundles for upload to a support case:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> 'ams_server status; ams_cluster status --detailed'
 ssh amssys@<ams-host> 'ams_log_manager.sh --collect --category all --target all --destination file:///tmp/ams-logs.tar'
@@ -277,6 +278,7 @@ scp amssys@<ams-host>:/tmp/ams-logs.tar ~/storage/downloads/ams-logs.tar
 
 Win32 OpenSSH one-liners; double-quote the remote command:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_server status"
 ssh amssys@<ams-host> "ams_log_manager.sh --collect --category all --target all --destination file:///tmp/ams-logs.tar"

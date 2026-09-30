@@ -115,6 +115,7 @@ node --version  # need >= 18
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Playwright works on Windows via Node:
 node --version
@@ -134,6 +135,7 @@ pkg install -y nodejs  # only if you insist; expect pain
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: Use PowerShell or WSL instead — quoting env vars with secrets in cmd
 :: is error-prone. See the PowerShell block.

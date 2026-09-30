@@ -123,6 +123,7 @@ nix-env -iA nixpkgs.speedtest-cli  # if your org approves it
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Checklist is just a file; evidence bundle via normal file ops.
 # For a Windows speed test use your org's approved tool.
@@ -139,6 +140,7 @@ mkdir -p ~/bxe-cert
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: Keep the checklist in a plain text file; fill by hand.
 :: NOTE: unverified on Windows — test before field use.

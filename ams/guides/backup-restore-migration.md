@@ -281,6 +281,7 @@ scp amssys@<ams-host>:/backup/ams-data.tar.gz ~/ams-backups/
 
 Win32 OpenSSH is built into Windows 10/11. AMS commands run on the remote Linux host; PowerShell is used for the SSH session and file transfer:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host>
 # You are now at the remote Linux prompt.
@@ -312,6 +313,7 @@ termux-wake-unlock
 
 Win32 OpenSSH ships with Windows 10/11, so `ssh`/`scp` work directly in cmd.exe. For older hosts, PuTTY's `plink.exe`/`pscp.exe` are the fallback:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host>
 REM You are now at the remote Linux prompt — type the Linux commands, then exit

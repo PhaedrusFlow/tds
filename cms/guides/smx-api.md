@@ -235,6 +235,7 @@ nix-env -iA nixpkgs.curl nixpkgs.jq nixpkgs.openssh
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Skip cert check only on your own private network / self-signed SMx:
 add-type @"
@@ -266,6 +267,7 @@ pkg install -y curl jq openssh
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: curl.exe ships with Windows 10+. -k only for self-signed SMx on your LAN.
 set SMX=<smx-host>

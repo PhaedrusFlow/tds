@@ -197,6 +197,7 @@ nix-env -iA nixpkgs.curl nixpkgs.iputils nixpkgs.openssh
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 $BOX="192.168.1.1"
 Test-Connection -ComputerName $BOX -Count 4
@@ -219,6 +220,7 @@ curl -s -o /dev/null -w "EWI HTTP %{http_code}\n" "http://${BOX}/"
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 set BOX=192.168.1.1
 ping -n 4 %BOX%

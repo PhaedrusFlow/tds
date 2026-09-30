@@ -193,6 +193,7 @@ Android gotchas: no systemd on-device; `termux-wake-lock` to keep the audit sess
 
 Remote read-only audit over Win32 OpenSSH:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> "ams_cluster status --detailed | head -15; ams_set_sftp_port.sh --check; grep -E '^AMS(CLIENT|CLUSTER|GEOLOCAL|NE)(CONNECT|BIND)IP=' `$AMSSOFTWAREHOME/conf/ams.conf"
 ```
@@ -211,6 +212,7 @@ Audit-only from the phone. Android gotchas: grant storage permission before savi
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_cluster status --detailed | head -15; ams_set_sftp_port.sh --check"
 ```

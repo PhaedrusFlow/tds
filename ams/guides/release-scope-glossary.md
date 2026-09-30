@@ -140,6 +140,7 @@ Android gotchas: no systemd; storage permissions may block file transfers (grant
 
 Win32 OpenSSH reaches the server; the actual commands run on RHEL. Logic mirrors the verified Linux bash block above:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> 'ams_server version'
 ssh amssys@<ams-host> 'ams_cluster status --detailed'
@@ -147,6 +148,7 @@ ssh amssys@<ams-host> 'ams_cluster status --detailed'
 
 For scope-adjacent HTTPS checks from the workstation (proves the NBI schema docs exist, not the release):
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 curl.exe --cacert C:\path\ams-ca.pem https://<host>:8443/ams/schema/doc/html/index.html
 ```
@@ -166,6 +168,7 @@ Android gotchas: no systemd; grant storage permission before `scp` transfers; An
 
 Win32 OpenSSH reaches the server; the actual commands run on RHEL. Logic mirrors the verified Linux bash block above:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_server version"
 ssh amssys@<ams-host> "ams_cluster status --detailed"

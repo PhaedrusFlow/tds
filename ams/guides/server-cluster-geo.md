@@ -243,6 +243,7 @@ Never run cluster stop/restart, geo switches, or evacuation from a phone: they a
 
 Win32 OpenSSH reaches the server; cluster/geo commands run on RHEL as `amssys`. Logic mirrors the verified Linux bash block above:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> 'ams_cluster status --detailed'
 ssh amssys@<ams-host> 'ams_cluster status sw'
@@ -250,6 +251,7 @@ ssh amssys@<ams-host> 'ams_cluster status sw'
 
 For a change window, open an interactive session and run the Linux commands there (recorded):
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host>
 # You are now at the remote Linux prompt; run the change, then:
@@ -258,6 +260,7 @@ exit
 
 For geo work, verify roles from **both** sites before any switch — open two sessions, one per site:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<site-a-host> 'ams_cluster status --detailed'
 ssh amssys@<site-b-host> 'ams_cluster status --detailed'
@@ -279,6 +282,7 @@ Android gotchas: no systemd; grant storage permission before any `scp`; use `ter
 
 Win32 OpenSSH reaches the server; the actual commands run on RHEL. Logic mirrors the verified Linux bash block above:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_cluster status --detailed"
 ssh amssys@<ams-host> "ams_cluster status sw"

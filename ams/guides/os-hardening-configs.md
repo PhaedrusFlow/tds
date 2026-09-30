@@ -198,6 +198,7 @@ Android gotchas: no `yum`/`systemctl`/`sysctl` on-device — every such command 
 
 Remote audit over Win32 OpenSSH (root or a sudo-capable account):
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh root@<ams-host> "grep -E '^(TMOUT|UMASK)=' /etc/profile; sysctl -a 2>/dev/null | grep -E 'net.ipv4.ip_forward ='; systemctl is-enabled chronyd crond sshd; ls -la /etc/hosts.equiv"
 ```
@@ -216,6 +217,7 @@ Audit-only. Android gotchas: `pkg`-installed tools are phone-local only — `sys
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh root@<ams-host> "grep -E '^(TMOUT|UMASK)=' /etc/profile; sysctl -a 2>/dev/null | grep -E 'net.ipv4.ip_forward ='; systemctl is-enabled chronyd crond sshd"
 ```

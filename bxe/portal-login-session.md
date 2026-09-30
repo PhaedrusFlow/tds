@@ -107,6 +107,7 @@ echo "~/.cache/bxe-cookies.txt" >> ~/.gitignore  # if relevant
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Never use plain-text variables for the password:
 $cred = Get-Credential -Message "BxE login"  # secure prompt, nothing echoed
@@ -124,6 +125,7 @@ $cred = Get-Credential -Message "BxE login"  # secure prompt, nothing echoed
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: cmd has no silent prompt. Use PowerShell's Get-Credential (block above)
 :: and call your scripts from there. Do not use `set /p` for passwords.

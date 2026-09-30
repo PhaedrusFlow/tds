@@ -128,6 +128,7 @@ nix-env -iA nixpkgs.curl nixpkgs.jq
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Parallel lookups: use Start-Job or foreach -Parallel (PS7+):
 #   Get-Content addresses.txt | ForEach-Object -Parallel { <# lookup #> } -ThrottleLimit 4
@@ -144,6 +145,7 @@ pkg install -y curl jq
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: No good parallel story in cmd — use PowerShell (block above) or WSL.
 :: NOTE: unverified on Windows — test before field use.

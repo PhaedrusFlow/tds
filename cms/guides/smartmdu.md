@@ -176,6 +176,7 @@ nix-env -iA nixpkgs.gawk nixpkgs.curl
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # CSV sanity check, PowerShell-style:
 $rows = Import-Csv locations.csv
@@ -197,6 +198,7 @@ pkg install -y gawk curl
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: CSV row-count sanity check with built-ins:
 find /c /v "" locations.csv

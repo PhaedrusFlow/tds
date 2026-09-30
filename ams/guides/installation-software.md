@@ -218,6 +218,7 @@ exit
 
 One-liners for status checks; interactive session for the change window (don't script `stop`/`start` across flaky links — be present):
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> 'ams_server version; ams_server version verify /path/GoldenEMSSwConfig'
 # stage files first, then open an interactive session for the change:
@@ -242,6 +243,7 @@ termux-wake-unlock
 
 Win32 OpenSSH in cmd; double-quote remote commands:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_server version"
 scp patch-bundle.bin amssys@<ams-host>:/staging/

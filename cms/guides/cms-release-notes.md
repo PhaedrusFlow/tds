@@ -147,6 +147,7 @@ nix-env -iA nixpkgs.curl nixpkgs.jq
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Pre-upgrade checklist tracking + remote smoke tests from a Windows admin box:
 # 1. Record current CMS build + element mix (drives 15.2 vs 16.0 decision).
@@ -167,6 +168,7 @@ curl -sk -o /dev/null -w "cmsweb=%{http_code}\n" http://<cms-host>:8080/
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: N/A for the installer (Linux server). Smoke tests from an admin PC:
 curl.exe -s -o nul -w "cmsweb=%%{http_code}\n" http://<cms-host>:8080/

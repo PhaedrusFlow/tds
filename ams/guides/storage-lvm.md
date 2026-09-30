@@ -211,6 +211,7 @@ Android gotchas: no systemd; never run partitioning or LVM commands against phon
 
 Win32 OpenSSH reaches the server; storage commands run on RHEL (`sudo`). Logic mirrors the verified Linux bash block above:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> 'vgs; lvs; pvs'
 ssh amssys@<ams-host> 'df -hT <mountdir>; findmnt <mountdir>'
@@ -218,6 +219,7 @@ ssh amssys@<ams-host> 'df -hT <mountdir>; findmnt <mountdir>'
 
 Destructive work (partitioning, LV changes) belongs in an interactive, recorded session — never fire-and-forget over one-shot SSH:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host>
 # You are now at the remote Linux prompt (sudo for storage ops); run the change, then:
@@ -239,6 +241,7 @@ Android gotchas: no systemd; do not run `fdisk`/`pvcreate`/`lvcreate` on the pho
 
 Win32 OpenSSH reaches the server; the actual commands run on RHEL. Logic mirrors the verified Linux bash block above:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "vgs & lvs & pvs"
 ssh amssys@<ams-host> "df -hT <mountdir>"

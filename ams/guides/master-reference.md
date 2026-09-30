@@ -559,6 +559,7 @@ Android gotchas: no systemd (nothing to `systemctl` on the phone — those comma
 
 Win32 OpenSSH is built into Windows 10/11. Remote commands run on the AMS Linux host:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # interactive session
 ssh amssys@<ams-host>
@@ -591,6 +592,7 @@ Android gotchas: run `termux-setup-storage` once before writing to shared storag
 
 cmd.exe with Win32 OpenSSH:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_server status; ams_cluster status --detailed; getLicenseCounter"
 scp amssys@<ams-host>:/tmp/ams-health-<site-tag>-*.txt %USERPROFILE%\Downloads\

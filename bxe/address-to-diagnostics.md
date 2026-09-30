@@ -141,6 +141,7 @@ nix-env -iA nixpkgs.curl nixpkgs.jq
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Equivalent using Invoke-RestMethod with a session variable:
 $base = "https://bxe-portal-prime.content.prod.oscp.ent.tds.net"
@@ -160,6 +161,7 @@ pkg install -y curl jq
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: Prefer PowerShell for this workflow (Invoke-RestMethod handles sessions
 :: far better than curl.exe one-liners). See the PowerShell block.

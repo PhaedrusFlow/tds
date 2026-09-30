@@ -246,6 +246,7 @@ Never run key rotation, password rotation, or TLS changes from a phone: they are
 
 Win32 OpenSSH reaches the server; security commands run on RHEL as `amssys`. Logic mirrors the verified Linux bash block above:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> 'ams_check_ssl.sh'
 ssh amssys@<ams-host> 'ams_configure_ssh_timeouts.sh check'
@@ -253,6 +254,7 @@ ssh amssys@<ams-host> 'ams_configure_ssh_timeouts.sh check'
 
 For service-affecting changes (TLS enable, key/password rotation), wrap in a recorded session and keep the window open for the whole change:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host>
 # You are now at the remote Linux prompt; run the change, then:
@@ -275,6 +277,7 @@ Android gotchas: no systemd; grant storage permission before transferring certif
 
 Win32 OpenSSH reaches the server; the actual commands run on RHEL. Logic mirrors the verified Linux bash block above:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_check_ssl.sh"
 ssh amssys@<ams-host> "ams_configure_ssh_timeouts.sh check"

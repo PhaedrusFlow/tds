@@ -316,6 +316,7 @@ nix-env -iA nixpkgs.curl nixpkgs.jq nixpkgs.openssh
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Win32 OpenSSH ships with Windows; nothing to install for the API path.
 $CMS_HOST="<cms-host>"; $CMS_USER="<cms-user>"; $CMS_PASS="<cms-password>"
@@ -356,6 +357,7 @@ pkg install -y curl jq openssh
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: curl.exe ships with Windows 10+. Save the XML to files first, then:
 set CMS_HOST=<cms-host>

@@ -120,6 +120,7 @@ date +%s  # use for timing samples: start/end epoch, subtract
 
 ### PowerShell
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 # Timing helper for evidence:
 $start = Get-Date; <# do the GUI lookup #>; (Get-Date) - $start
@@ -135,6 +136,7 @@ date +%s
 
 ### Windows cmd
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 :: N/A beyond notes.
 ```

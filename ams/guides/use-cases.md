@@ -412,6 +412,7 @@ Android gotchas: no systemd; storage permissions gate `scp` of backup archives (
 
 Win32 OpenSSH reaches the server; playbook commands run on RHEL as `amssys`. Logic mirrors the verified Linux bash block above:
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host> 'ams_cluster status --detailed; ams_server version'
 ssh amssys@<ams-host> 'ams_backup.sh -z /backup/prechange-ams.tar.gz'
@@ -419,6 +420,7 @@ ssh amssys@<ams-host> 'ams_backup.sh -z /backup/prechange-ams.tar.gz'
 
 Native HTTPS check from the workstation (Verify NBI playbook):
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 curl.exe --cacert C:\path\ams-ca.pem https://<host>:8443/ams/services/UserManagementMgr
 curl.exe --cacert C:\path\ams-ca.pem https://<host>:8443/ams/schema/doc/html/index.html
@@ -426,6 +428,7 @@ curl.exe --cacert C:\path\ams-ca.pem https://<host>:8443/ams/schema/doc/html/ind
 
 For change playbooks, open an interactive session and run the Linux commands there (recorded):
 
+> **Status:** syntax-verified with PowerShell 7 on Arch (pwsh) — not executed against live systems.
 ```powershell
 ssh amssys@<ams-host>
 # You are now at the remote Linux prompt; run the playbook, then:
@@ -448,6 +451,7 @@ Android gotchas: no systemd; grant storage permission before `scp`; use `termux-
 
 Win32 OpenSSH reaches the server; the actual commands run on RHEL. Logic mirrors the verified Linux bash block above:
 
+> **Status:** UNVERIFIED — no Windows cmd available for testing.
 ```cmd
 ssh amssys@<ams-host> "ams_cluster status --detailed"
 curl.exe --cacert C:\path\ams-ca.pem https://<host>:8443/ams/services/UserManagementMgr
