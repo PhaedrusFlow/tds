@@ -45,7 +45,7 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Path attached in LCM form images.
+Path attached in LCM form images. 1727 & 1729 both populate to one form in ticket.
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
