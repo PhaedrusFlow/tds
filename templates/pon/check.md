@@ -10,7 +10,7 @@
 ```
 ## Numbering Scheme of Units *
 ```text
-3 digit units (101, 201, etc), 6 floors
+1729, 1727
 ```
 ## Unit Number for customer ordering service 
 ```text
@@ -22,7 +22,7 @@ Buried
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Cx wants penetration point on rear/S side, refer to two attached images labeled penetration point.
+Unit is duplex residence used as halfway home. Informed cx to contact sales for wifi7 routers.
 ```
 ## Will the new drop/s require pre-installation?
 ```text
@@ -45,7 +45,7 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Aerial MST ~50 ft from S wall. Cx wants penetration point in same vicinity as century link lines. Path and pen point in attached images.
+Path attached in LCM form images.
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
@@ -55,7 +55,7 @@ Please refer to attached images. Follow path of centurylink, current cx provider
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Run ROC drop from MST to penetration point on rear of building. Install SB. Run rugged from SB to mount point of restaurant next to point of sale. 
+Run 200ft aerial drop from MST, midspan to demarc. Install 4 port DPU, enclosure w/ 8 port baylin, confirm coax quality to residences.
 ```
 
 ## Ped or Hand Hole? *
@@ -66,23 +66,25 @@ Run ROC drop from MST to penetration point on rear of building. Install SB. Run 
 
 ## Distance from Access Point (estimated) *
 ```text
-
+~135ft from MST to demarc, path attached in LCM form.
 ```
 
 ## Access Point (if build not complete, enter Not Built)*
 ```text
-
+Coax lines run from demarc to penetration point to residence.
 ```
 ## Fiber Info (Fiber # if centralized, Fiber primary/secondary/etc. if DFN)*
 ```text
-
+24ct
+XD:1-20
+0869DI,P0078,S2:T1-2
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Restaurant relies on internet for point of sale, so need to be mindful to avoid accidentally disconnecting
+Comcast coax currently running to residences. Will need NTD WITH voice since cx wants landline voice line with their data plan. 
 
 ```
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-Cx confirmed they ordered voice and data. They currently get both from centurylink, business # is 509-482-5276 and will need to be ported
+Technically business install, but cx does NOT need VMG router. Informed cx they need to talk to sales to get wifi7 router.
 ```
