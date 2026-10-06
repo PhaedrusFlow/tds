@@ -3,21 +3,29 @@
 # dry-run.sh -- verbose dry-run of every documented Nokia 5520 AMS 9.8.3 task.
 #
 # WHAT IT DOES
-#   Walks the 16 operational playbooks from ams/guides/use-cases.md plus the
-#   documented flag variants from the other ams/guides/*.md files. For each
-#   task it prints the exact command(s) that WOULD run (fully quoted), checks
-#   that each required tool exists on PATH, checks that required environment
-#   variables are set, and reports a PASS/SKIP verdict.
+#   Walks the 24 documented tasks: the operational playbooks from
+#   ams/guides/use-cases.md plus the documented flag variants from the other
+#   ams/guides/*.md files (NE tooling, backup scheduling, software backup,
+#   geo redundancy). For each task it prints the exact command(s) that
+#   WOULD run (fully quoted), checks that each required tool exists on
+#   PATH, checks that required environment variables are set, and reports
+#   a PASS/SKIP verdict.
 #
 # WHAT IT DOES NOT DO
-#   Makes zero changes. No network calls (not even curl probes). Never prints
-#   or touches credentials. If anything is missing you get a SKIP with a fix
-#   hint, and the exit code is non-zero.
+#   Makes zero changes. No network calls (not even curl probes). Never
+#   prints or touches credentials. Missing prerequisites produce a SKIP
+#   with a fix hint, never a guess.
 #
 # WHERE IT RUNS
 #   On the AMS server itself, as the 'amssys' Linux account (sudo is used
 #   only where the guides require root). From a laptop instead, use the
 #   sibling dry-run.cmd / dry-run.ps1, which reach the server over SSH.
+#   Run on any other host, this script still walks every task (the command
+#   preview is the point), but a PREFLIGHT section in the output says
+#   plainly that the host shows no AMS footprint, so an all-SKIP result
+#   is expected rather than mysterious -- and the summary groups the
+#   missing prerequisites by root cause instead of repeating the same
+#   hint two dozen times.
 #
 # CONFIGURATION (all optional; unset values produce SKIP with a hint)
 #   AMS_RELEASE        release path for activation, e.g. /opt/ams/software/9.8.3
@@ -37,13 +45,28 @@
 #   SW_BACKUP_PATH     destination prefix for ams_sw_backup.sh (root)
 #
 # REPORT
-#   Writes reports/dry-run-ams-<UTC>.md next to this script, with a summary
-#   section up top, per-task verdicts, the exact commands, and fix hints.
-#   The report path is printed at the end of the run.
+#   Writes reports/dry-run-ams-<UTC>.md next to this script: a preflight
+#   verdict, a summary with the missing prerequisites grouped by cause,
+#   per-task verdicts, the exact commands, and fix hints. The report path
+#   is printed at the end of the run.
 #
 # EXIT CODE
-#   0 = every task PASS. 1 = at least one task SKIP (missing prerequisite).
+#   0 = every task PASS.
+#   1 = ran on an AMS server, but at least one task SKIPped.
+#   2 = this environment cannot produce a verdict: bash < 4.4, or the host
+#       shows no AMS footprint at all (the likely story: you are on a
+#       laptop, not the server). A full report is still written.
 
+# Bash >= 4.4 is required (associative arrays, ${var:-} discipline).
+if (( BASH_VERSINFO[0] < 4 || ( BASH_VERSINFO[0] == 4 && BASH_VERSINFO[1] < 4) )); then
+    printf 'dry-run.sh: requires bash >= 4.4 (found %s)\n' "${BASH_VERSION}" >&2
+    exit 2
+fi
+
+# Strict mode, with one deliberate omission: -e is OFF. This script's job
+# is to record every failure and keep walking; aborting at the first
+# missing tool would defeat it. Every command whose status matters has
+# that status checked in place instead.
 set -uo pipefail
 
 # ---------------------------------------------------------------- helpers ---
@@ -54,14 +77,30 @@ mkdir -p "${REPORT_DIR}"
 STAMP="$(date -u +%Y%m%d-%H%M%S)"
 REPORT="${REPORT_DIR}/dry-run-ams-${STAMP}.md"
 BODY="$(mktemp)"
+# The temp body is scratch only; the EXIT trap guarantees it never
+# outlives the run, even if the script is interrupted.
+trap 'rm -f "${BODY}"' EXIT
 
 PASS_COUNT=0
 SKIP_COUNT=0
 declare -a SKIP_DETAILS=()
+# Root-cause tallies, filled by task_end from each skipped task's reasons:
+# missing item -> space-separated list of task ids that need it.
+declare -A TOOL_TASKS=()
+declare -A VAR_TASKS=()
 
-# log: to console AND the report body. rlog: report body only.
+# Per-task state, owned by task_begin/task_end.
+CUR_ID=""
+CUR_NAME=""
+declare -a CUR_SKIP=()
+
+# Environment classification, set by preflight: "ams-server" when the host
+# shows any AMS footprint, "not-an-ams-server" otherwise.
+ENV_CLASS="unknown"
+ENV_USER=""
+
+# log: to console AND the report body.
 log()  { printf '%s\n' "$*" | tee -a "${BODY}"; }
-rlog() { printf '%s\n' "$*" >> "${BODY}"; }
 
 task_begin() { # $1 = id, $2 = name
     CUR_ID="$1"; CUR_NAME="$2"; CUR_SKIP=()
@@ -91,20 +130,11 @@ require_var() { # $1 = var name, $2 = description (value is echoed; never use fo
     fi
 }
 
-require_secret() { # $1 = var name, $2 = description (value NEVER echoed)
-    if [ -n "${!1:-}" ]; then
-        log "  [ok] $1 is set (value hidden)"
-    else
-        CUR_SKIP+=("secret '$1' is not set -- $2")
-        log "  [MISSING] secret: $1 (value never displayed)"
-        log "            fix: $2"
-    fi
-}
-
 would_run() { log "  would run: $*"; }
 note()      { log "  note: $*"; }
 
 task_end() {
+    local s key
     if [ "${#CUR_SKIP[@]}" -eq 0 ]; then
         log "  verdict: PASS"
         PASS_COUNT=$((PASS_COUNT + 1))
@@ -112,6 +142,15 @@ task_end() {
         log "  verdict: SKIP"
         for s in "${CUR_SKIP[@]}"; do
             log "           - ${s}"
+            # Tally the root cause so the summary can group by it. The
+            # reason strings are ours, so the leading phrase is stable.
+            if [[ "${s}" =~ ^missing\ tool\ \'([^\']+)\' ]]; then
+                key="${BASH_REMATCH[1]}"
+                TOOL_TASKS["${key}"]="${TOOL_TASKS["${key}"]:-} ${CUR_ID}"
+            elif [[ "${s}" =~ ^env\ var\ \'([^\']+)\' ]]; then
+                key="${BASH_REMATCH[1]}"
+                VAR_TASKS["${key}"]="${VAR_TASKS["${key}"]:-} ${CUR_ID}"
+            fi
         done
         SKIP_COUNT=$((SKIP_COUNT + 1))
         SKIP_DETAILS+=("TASK[${CUR_ID}] ${CUR_NAME} :: ${CUR_SKIP[*]}")
@@ -122,11 +161,47 @@ default_var() { # $1 = var, $2 = default -- assign default only for display of w
     if [ -z "${!1:-}" ]; then printf -v "$1" '%s' "$2"; fi
 }
 
+# preflight: classify the environment BEFORE the task walk, so a run on
+# the wrong host explains itself up front instead of producing two dozen
+# identical surprises. Detection is deliberately generous -- any one AMS
+# footprint counts: the install tree, the server binary on PATH, or the
+# amssys script directory in the environment.
+preflight() {
+    local markers=()
+    ENV_USER="$(id -un 2>/dev/null || echo unknown)"
+    if [ -d /opt/ams ]; then
+        markers+=("/opt/ams present")
+    fi
+    if command -v ams_server >/dev/null 2>&1; then
+        markers+=("ams_server on PATH")
+    fi
+    if [ -n "${AMSSCRIPTSDIR:-}" ]; then
+        markers+=("AMSSCRIPTSDIR set")
+    fi
+    log ""
+    log "## Preflight"
+    log ""
+    if [ "${#markers[@]}" -gt 0 ]; then
+        ENV_CLASS="ams-server"
+        log "- Environment: AMS server detected (${markers[*]})"
+    else
+        ENV_CLASS="not-an-ams-server"
+        log "- Environment: NOT an AMS server -- no /opt/ams, no ams_server on PATH, no AMSSCRIPTSDIR."
+        log "  Every task below will SKIP. That is the expected result on a laptop;"
+        log "  the per-task command previews and fix hints are still accurate."
+    fi
+    if [ "${ENV_USER}" = "amssys" ]; then
+        log "- Running as: ${ENV_USER} (the account these playbooks expect)"
+    else
+        log "- Running as: ${ENV_USER} (the playbooks expect 'amssys'; some checks resolve differently for other users)"
+    fi
+}
+
 # ------------------------------------------------------------------ tasks ---
 
 log "# AMS dry-run -- $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 log "# host: $(hostname 2>/dev/null || echo unknown)  user: $(id -un 2>/dev/null || echo unknown)"
-
+preflight
 # --- TASK[01]: Activate a release -------------------------------------------
 task_begin "01" "Activate a release"
 # FLAG: ams_activate.sh <release-path>
@@ -511,8 +586,34 @@ task_end
     echo "- Tasks total: $((PASS_COUNT + SKIP_COUNT))"
     echo "- PASS: ${PASS_COUNT}"
     echo "- SKIP: ${SKIP_COUNT}"
+    if [ "${ENV_CLASS}" = "not-an-ams-server" ]; then
+        echo "- Environment: NOT an AMS server (see Preflight) -- an all-SKIP result is expected here."
+    fi
     if [ "${SKIP_COUNT}" -gt 0 ]; then
-        echo ""
+        if [ "${#TOOL_TASKS[@]}" -gt 0 ] || [ "${#VAR_TASKS[@]}" -gt 0 ]; then
+            echo ""
+            echo "### Missing prerequisites, grouped by cause"
+            echo ""
+            echo "One root cause can skip many tasks. Fix these and the"
+            echo "affected tasks clear together:"
+            echo ""
+            if [ "${#TOOL_TASKS[@]}" -gt 0 ]; then
+                echo "Missing tools:"
+                echo ""
+                while IFS= read -r key; do
+                    echo "- '${key}' -- needed by task(s):${TOOL_TASKS["${key}"]}"
+                done < <(printf '%s\n' "${!TOOL_TASKS[@]}" | LC_ALL=C sort)
+                echo ""
+            fi
+            if [ "${#VAR_TASKS[@]}" -gt 0 ]; then
+                echo "Missing environment variables:"
+                echo ""
+                while IFS= read -r key; do
+                    echo "- '${key}' -- needed by task(s):${VAR_TASKS["${key}"]}"
+                done < <(printf '%s\n' "${!VAR_TASKS[@]}" | LC_ALL=C sort)
+                echo ""
+            fi
+        fi
         echo "### Skipped tasks and fix hints"
         echo ""
         for d in "${SKIP_DETAILS[@]}"; do
@@ -530,6 +631,16 @@ rm -f "${BODY}"
 echo ""
 echo "================================================================"
 echo "AMS dry-run complete: ${PASS_COUNT} PASS, ${SKIP_COUNT} SKIP"
+echo "Environment: ${ENV_CLASS} (user: ${ENV_USER})"
 echo "Report: ${REPORT}"
 echo "================================================================"
-[ "${SKIP_COUNT}" -eq 0 ]
+
+# Exit code: the header documents the contract -- 0 all PASS, 1 skips on
+# an AMS server, 2 when this environment cannot produce a verdict.
+if [ "${SKIP_COUNT}" -eq 0 ]; then
+    exit 0
+fi
+if [ "${ENV_CLASS}" = "not-an-ams-server" ]; then
+    exit 2
+fi
+exit 1
