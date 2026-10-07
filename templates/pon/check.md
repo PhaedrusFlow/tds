@@ -6,7 +6,7 @@
 ```
 ## Number of Units in the building 
 ```text
-31
+1
 ```
 ## Numbering Scheme of Units *
 ```text
@@ -22,7 +22,8 @@ Buried
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Unit is duplex residence used as halfway home. Informed cx to contact sales for wifi7 routers.
+Business with multiple offices with netgear switch on site -see lcm images
+
 ```
 ## Will the new drop/s require pre-installation?
 ```text
@@ -45,17 +46,17 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Path attached in LCM form images. 1727 & 1729 both populate to one form in ticket.
+MST aligned to business on field maps not found during pon check. vault 15 ft from business has no light.
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Please refer to attached images. Follow path of centurylink, current cx provider. 
+Please refer to attached images. demarc on outside into room with Comcast box and netgear switch.
 ```
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Run 200ft aerial drop from MST, midspan to demarc. Install 4 port DPU, enclosure w/ 8 port baylin, confirm coax quality to residences.
+pre bury required- install slackbox at demarc and into telco closet or office depending on cx wishes.
 ```
 
 ## Ped or Hand Hole? *
@@ -81,10 +82,10 @@ XD:1-20
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Comcast coax currently running to residences. Will need NTD WITH voice since cx wants landline voice line with their data plan. 
+Internal ethernet connected to interior of business. cx ordered 3 separate land line phone numbers.
 
 ```
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-Technically business install, but cx does NOT need VMG router. Informed cx they need to talk to sales to get wifi7 router.
+cx may decide to go with wifi 7 router(s) due to distance of telco closet and network devices/phones.
 ```
