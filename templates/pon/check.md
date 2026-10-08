@@ -22,8 +22,7 @@ Buried
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Business with multiple offices with netgear switch on site -see lcm images
-
+Comments said lockbox was on site to get access. No lock box observed on site during pon check.
 ```
 ## Will the new drop/s require pre-installation?
 ```text
@@ -51,12 +50,12 @@ MST aligned to business on field maps not found during pon check. vault 15 ft fr
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Please refer to attached images. demarc on outside into room with Comcast box and netgear switch.
+Demarc on outside, see attached images in LCM.
 ```
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-pre bury required- install slackbox at demarc and into telco closet or office depending on cx wishes.
+Install aerial drop, secure along strand to midspan. Run line from midspan to bldg, secure down to install point of DPU. Install DPU, enclosure.
 ```
 
 ## Ped or Hand Hole? *
@@ -82,10 +81,9 @@ XD:1-20
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Internal ethernet connected to interior of business. cx ordered 3 separate land line phone numbers.
-
+Indoor unable to be accessed during pon check, the comments about lock box being on site were incorrect.
 ```
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-cx may decide to go with wifi 7 router(s) due to distance of telco closet and network devices/phones.
+Not built out currently at time of pon check.
 ```
