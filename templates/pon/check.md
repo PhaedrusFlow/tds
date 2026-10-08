@@ -45,7 +45,7 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-MST aligned to business on field maps not found during pon check. vault 15 ft from business has no light.
+2x aerial MSTs in vicinity of install path, neither is currently allocated to bldg. 
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
