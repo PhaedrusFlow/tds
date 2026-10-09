@@ -1,9 +1,9 @@
 # Equipment:
     ## ONT
-        ### #x ... | S/N:
+        ### Nokia 220x1 | S/N: ALCLFFOD4B75
 
     ## Router
-        ### x ... | S/N:
+        ### Wifi7 x 1 | S/N: JPG526242752
 
     ## Drop
         ### #x ... ft
