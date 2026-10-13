@@ -23,9 +23,7 @@
     <img src="https://img.shields.io/badge/Broadband_Forum_Resources-green?style=flat-square" alt="Broadband Forum Resources">
   </a>
   <br>
-  <a href="https://www.gnu.org/licenses/agpl-3.0">
-    <img src="https://img.shields.io/badge/License-AGPL%20v3-blue.svg" alt="License: AGPL v3">
-  </a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0"></a>
   <a href="https://github.com/PhaedrusFlow">
     <img src="https://img.shields.io/badge/Views-My_Own%2C_Not_TDS-lightgrey?style=flat-square" alt="Views are my own, not TDS Telecom">
   </a>
@@ -436,3 +434,7 @@ Selected credentials:
 ---
 
 > *Views expressed here are my own and do not represent TDS Telecom.*
+
+## License
+
+This project is licensed under the [Apache License, Version 2.0](./LICENSE).
