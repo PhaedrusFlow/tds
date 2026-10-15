@@ -71,7 +71,7 @@ pre-bury required, if not done reject and place request bury. connect drop @ mst
 
 ## Access Point (if build not complete, enter Not Built)*
 ```text
-Grey conduit used by Comcast running into office from outside
+Grey conduit used by Comcast running into office from outside. Rodder stuck @150ft with no clear exit on site.
 ```
 ## Fiber Info (Fiber # if centralized, Fiber primary/secondary/etc. if DFN)*
 ```text
