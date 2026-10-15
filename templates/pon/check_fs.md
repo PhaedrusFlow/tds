@@ -1,25 +1,4 @@
-# PON Check
 
-## Name of Person Doing Site Survey
-```text
-Matt Porter
-```
-## Number of Units in the building 
-```text
-12310
-```
-## Numbering Scheme of Units *
-```text
-12310
-```
-## Unit Number for customer ordering service 
-```text
-12310 N Ruby Road
-```
-## Are the current facilities Aerial or Buried?
-```text
-Buried
-```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
 1x4 on site. -17.85 db/m @ check, turn into splice project if over 18.
