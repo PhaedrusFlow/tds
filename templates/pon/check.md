@@ -6,7 +6,7 @@
 ```
 ## Number of Units in the building 
 ```text
-1
+12310
 ```
 ## Numbering Scheme of Units *
 ```text
@@ -14,7 +14,7 @@ Ste 200
 ```
 ## Unit Number for customer ordering service 
 ```text
-6607 N Ash St
+12103 N Ruby Road
 ```
 ## Are the current facilities Aerial or Buried?
 ```text
@@ -22,7 +22,7 @@ Buried
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Comments said lockbox was on site to get access. No lock box observed on site during pon check.
+1x4 on site. -17.85 db/m @ check, turn into splice project if over 18.
 ```
 ## Will the new drop/s require pre-installation?
 ```text
@@ -45,17 +45,17 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-2x aerial MSTs in vicinity of install path, neither is currently allocated to bldg. 
+1x4 in vault. Called Mike E. about cable mess, he said to leave in. sidewalk angle bore required.
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Demarc on outside, see attached images in LCM.
+Demarc on outside, see attached images in LCM. Run fiber into conduit with coax leading into office.
 ```
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Install aerial drop, secure along strand to midspan. Run line from midspan to bldg, secure down to install point of DPU. Install DPU, enclosure.
+pre-bury required, if not done reject and place request bury. connect drop @ mst, install SB, run fiber into office.
 ```
 
 ## Ped or Hand Hole? *
@@ -66,24 +66,23 @@ Install aerial drop, secure along strand to midspan. Run line from midspan to bl
 
 ## Distance from Access Point (estimated) *
 ```text
-~135ft from MST to demarc, path attached in LCM form.
+~75 ft from MST to demarc, path attached in LCM form.
 ```
 
 ## Access Point (if build not complete, enter Not Built)*
 ```text
-Coax lines run from demarc to penetration point to residence.
+Grey conduit used by Comcast running into office from outside
 ```
 ## Fiber Info (Fiber # if centralized, Fiber primary/secondary/etc. if DFN)*
 ```text
-24ct
-XD:1-20
-0869DI,P0078,S2:T1-2
+36ct XD:1-12 0869BFPP0087:33-4 0869BF,P0087,S11:3-4 XD:17-22 0869BFPPO043:S7-8 XD:25-36
+
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Indoor unable to be accessed during pon check, the comments about lock box being on site were incorrect.
+cx wants business router for employees and 1x wifi 7 for their customers. Will need to run ethernet from managed switch.
 ```
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-Not built out currently at time of pon check.
+wifi7 placement on central pillar- see lcm photos. asked cx to confirm if static ip wanted & confirm current landline provider.
 ```
