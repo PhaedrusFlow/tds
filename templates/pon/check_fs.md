@@ -3,24 +3,6 @@
 ```text
 1x4 on site. -17.85 db/m @ check, turn into splice project if over 18.
 ```
-## Will the new drop/s require pre-installation?
-```text
-Yes
-```
-
-## Who will be placing the drop? *
-```text
-Drop Contractor
-```
-## Who will be placing the conduit?*
-```text
-Drop Contractor
-```
-
-## Drop Type*
-```text
-ROC
-```
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
@@ -37,21 +19,7 @@ Demarc on outside, see attached images in LCM. Run fiber into conduit with coax 
 pre-bury required, if not done reject and place request bury. connect drop @ mst, install SB, run fiber into office.
 ```
 
-## Ped or Hand Hole? *
-```text
 
-```
-## Do we have fiber count in the Ped?*
-
-## Distance from Access Point (estimated) *
-```text
-~75 ft from MST to demarc, path attached in LCM form.
-```
-
-## Access Point (if build not complete, enter Not Built)*
-```text
-Grey conduit used by Comcast running into office from outside. Rodder stuck @150ft with no clear exit on site.
-```
 ## Fiber Info (Fiber # if centralized, Fiber primary/secondary/etc. if DFN)*
 ```text
 36ct XD:1-12 0869BFPP0087:33-4 0869BF,P0087,S11:3-4 XD:17-22 0869BFPPO043:S7-8 XD:25-36
