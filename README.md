@@ -2,7 +2,7 @@
 <!-- ----------TDS Professional Portfolio ----------------->
 <!--------------------------------------------------------->
 
-<h2>Matt A. Porter</h2>
+<h2>Owner</h2>
 <h3>Field Services Technician</h3>
 
 ![Repository Views](https://komarev.com/ghpvc/?username=phaedrusflow-tds)
@@ -36,7 +36,7 @@
 <br>
 
 <div align="center">
-  <p>Matthew A. Porter<br>
+  <p>Owner<br>
   Former Intelligence Officer · Practical Technologist<br>
   TDS Field Services Technician · Founder, Amor Fati Labs</p>
 </div>
@@ -67,7 +67,7 @@
 
 <p>
   <a href="https://www.linkedin.com/in/matt-a-porter-103535224/">
-    <img src="https://img.shields.io/badge/LinkedIn-Matt--Porter-blue?style=flat-square&logo=linkedin" alt="Personal LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-Owner-blue?style=flat-square&logo=linkedin" alt="Personal LinkedIn">
   </a>
   <a href="https://www.linkedin.com/company/95058568/">
     <img src="https://img.shields.io/badge/LinkedIn-Qompass--AI-blue?style=flat-square&logo=linkedin" alt="Startup LinkedIn">

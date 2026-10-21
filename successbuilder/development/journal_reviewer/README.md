@@ -1,6 +1,6 @@
 # JGME Reviewer Summary
 
-This document summarizes two peer-review assignments completed for the *Journal of Graduate Medical Education* (JGME). In both cases, Matt Porter served as **Reviewer #1**, submitted structured review comments, and the manuscripts were ultimately **not accepted for publication** by the journal.
+This document summarizes two peer-review assignments completed for the *Journal of Graduate Medical Education* (JGME). In both cases, Owner served as **Reviewer #1**, submitted structured review comments, and the manuscripts were ultimately **not accepted for publication** by the journal.
 
 <details>
 <summary><strong>Purpose of this summary</strong></summary>
@@ -14,7 +14,7 @@ This summary is designed for professional review by a non-technical audience. It
 
 **Manuscript title:** *Generative Artificial Intelligence Use in Pediatric Residency Personal Statements*.
 
-**Reviewer role:** Matt Porter served as **Reviewer #1** for this manuscript and submitted both general comments and numbered, manuscript-specific critiques for the authors and editors.
+**Reviewer role:** Owner served as **Reviewer #1** for this manuscript and submitted both general comments and numbered, manuscript-specific critiques for the authors and editors.
 
 **What the manuscript examined:** The paper evaluated whether pediatric residency personal statements may have reflected use of generative AI, and whether commercial AI-detection tools could be used to measure that reliably.[1]
 
@@ -42,7 +42,7 @@ This summary is designed for professional review by a non-technical audience. It
 
 **Manuscript title:** *Algorithmic Scheduling to Improve Resident Well-Being and Equity in Call Distribution*.
 
-**Reviewer role:** Matt Porter served as **Reviewer #1** for this manuscript and submitted general comments followed by numbered, line-specific review points for the authors.
+**Reviewer role:** Owner served as **Reviewer #1** for this manuscript and submitted general comments followed by numbered, line-specific review points for the authors.
 
 **What the manuscript examined:** The paper described a residency scheduling approach that used open-source optimization software to improve fairness and reduce administrative burden in call scheduling.
 
