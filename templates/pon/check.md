@@ -6,23 +6,23 @@
 ```
 ## Number of Units in the building 
 ```text
-12310
+2
 ```
 ## Numbering Scheme of Units *
 ```text
-Ste 200
+2802, 2808
 ```
 ## Unit Number for customer ordering service 
 ```text
-12310 N Ruby Road
+2802
 ```
 ## Are the current facilities Aerial or Buried?
 ```text
-Buried
+Aerial
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-1x4 on site. -17.85 db/m @ check, turn into splice project if over 18.
+owner of Brickyard also owns 2808, splice project/splitter for mtu possibly 4 units. no conduit to mtu found on site.
 ```
 ## Will the new drop/s require pre-installation?
 ```text
@@ -31,11 +31,11 @@ Yes
 
 ## Who will be placing the drop? *
 ```text
-Drop Contractor
+FST
 ```
 ## Who will be placing the conduit?*
 ```text
-Drop Contractor
+FST
 ```
 
 ## Drop Type*
@@ -45,17 +45,17 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-1x4 in vault. Called Mike E. about cable mess, he said to leave in. sidewalk angle bore required.
+follow coax run in back of business from restroom through false ceiling to point of sale.
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Demarc on outside, see attached images in LCM. Run fiber into conduit with coax leading into office.
+Demarc on outside, see attached images in LCM. unable to see mechanical rm, cx says it is in 2808.
 ```
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-pre-bury required, if not done reject and place request bury. connect drop @ mst, install SB, run fiber into office.
+.
 ```
 
 ## Ped or Hand Hole? *
