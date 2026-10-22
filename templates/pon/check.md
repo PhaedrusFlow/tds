@@ -55,14 +55,15 @@ Demarc on outside, see attached images in LCM. unable to see mechanical rm, cx s
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-.
+Splice project with 1x2 for units 2802 & 2808 both owned by cx @ 2082. Run drop aerial, demarc rear 2082 w/ conduit leading into 2808.
 ```
 
 ## Ped or Hand Hole? *
 ```text
-
+Pole
 ```
 ## Do we have fiber count in the Ped?*
+yes
 
 ## Distance from Access Point (estimated) *
 ```text
@@ -75,7 +76,9 @@ Grey conduit used by Comcast running into office from outside. Rodder stuck @150
 ```
 ## Fiber Info (Fiber # if centralized, Fiber primary/secondary/etc. if DFN)*
 ```text
-36ct XD:1-12 0869BFPP0087:33-4 0869BF,P0087,S11:3-4 XD:17-22 0869BFPPO043:S7-8 XD:25-36
+Oct
+XD:1-3 0869C 0869CB,P0013:S4
+0869CB.P0013.S5.T1
 
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
@@ -84,5 +87,5 @@ cx wants business router for employees and 1x wifi 7 for their customers. Will n
 ```
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-wifi7 placement on central pillar- see lcm photos. asked cx to confirm if static ip wanted & confirm current landline provider.
+wifi7 placement on central pillar- e lcm photos. asked cx to confirm if static ip wanted & confirm current landline provider.
 ```
