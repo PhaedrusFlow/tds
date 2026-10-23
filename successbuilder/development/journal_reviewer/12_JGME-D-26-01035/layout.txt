@@ -1,0 +1,1851 @@
+                            Journal of Graduate Medical Education
+Milestones Supplement: Operationalizing Competency-Based Medical Education: How
+                   Programs Use the ACGME Milestones 2.0
+                                                 --Manuscript Draft--
+
+ Manuscript Number:                    JGME-D-26-01035
+
+ Full Title:                           Milestones Supplement: Operationalizing Competency-Based Medical Education: How
+                                       Programs Use the ACGME Milestones 2.0
+
+ Short Title:                          How Programs Use the ACGME Milestones 2.0
+
+ Article Type:                         Original Research
+
+ Keywords:                             Milestones; competency-based medical education; Assessement; Accreditation
+
+ Abstract:                             Background
+
+                                       The Milestones 2.0 assessment framework was implemented by the Accreditation
+                                       Council for Graduate Medical Education (ACGME) to support competency-based
+                                       assessment of trainees.
+
+                                       Objective
+
+                                       This study sought to understand how the Milestones are being used by Graduate
+                                       Medical Education (GME) programs nationally.
+
+                                       Methods
+
+                                       A validated survey instrument collecting respondent demographics, perceptions of the
+                                       Milestones, and information regarding their use and implementation was distributed to
+                                       Graduate Medical Education (GME) stakeholders nationally from January to March of
+                                       2025. Following a computer-assisted deductive analysis that used published, core
+                                       principles of Competency-Based Medical Education (CBME) as initial codes, the
+                                       authors completed an inductive thematic content analysis of responses.
+
+                                       Results
+
+                                       The survey received a total of 2,567 responses, including 1,306 complete responses.
+                                       Due to the national nature of the survey, an exact response rate cannot be calculated.
+                                       Most responses came from program directors (N=843) and non-physician
+                                       administrative stakeholders (N=403). Based on the qualitative analysis, 13 themes
+                                       were identified across the five core components of CBME: outcome competencies,
+                                       tailored learning experiences, sequenced progression, competency-focused coaching,
+                                       and programmatic assessment. While many themes emphasized use of the Milestones
+                                       to support CBME principles, several practical and conceptual concerns emerged
+                                       around the use of milestone data.
+
+                                       Conclusions
+
+                                       The themes that emerged through this analysis demonstrate that Milestones 2.0
+                                       provides an assessment framework for programs that aligns with the core CBME
+                                       principles. At the same time, further work is needed to ensure that faculty and trainees
+                                       can use the Milestones effectively and that determinations of competence correlate
+                                       with practical clinical outcomes.
+
+
+
+
+                  Powered by Editorial Manager® and ProduXion Manager® from Aries Systems Corporation
+Cover Letter
+
+
+
+
+               September 22, 2026
+
+               Dr. Gail Sullivan, Editor-in-chief
+               Journal of Graduate Medical Education
+               Via electronic submission
+
+               Re: Operationalizing Competency-Based Medical Education: How Programs Use the ACGME
+               Milestones 2.0
+
+
+               Dr. Sullivan,
+
+               Despite the requirement to report data using the Accreditation Council for Graduate Medical
+               Education (ACGME) Milestones 2.0 framework, little is understood about how programs use this
+               data internally to promote Competency-Based Medical Education (CBME). The attached manuscript,
+               Operationalizing Competency-Based Medical Education: How Programs Use the ACGME
+               Milestones 2.0, leverages qualitative data from a recent national survey to assess how programs use
+               this data for CBME.
+
+               This manuscript is submitted as a component of the upcoming supplement around the ACGME
+               Milestone 2.0 framework. We believe the Graduate Medical Education community, your primary
+               readership, will be personally and professionally interested in how their colleagues use these data.
+
+               We confirm that all authors have met all four criteria for authorship in the ICMJE Recommendations.
+               No medical writers or artificial intelligence systems were involved in the writing process. All authors
+               accept responsibility for this publication. We confirm that this manuscript is not being considered by
+               any other journal and has not been published elsewhere, including in abstract form.
+
+               We thank the editorial staff and potential reviewers in advance for any feedback. We look forward to
+               discussing this manuscript with you further in the coming days.
+
+
+
+               Seth Alexander, MD, EdM, submitting author on behalf of all authors
+               Adjunct Associate Professor, Department of Health Sciences
+               School of Medicine, University of North Carolina
+               seth_alexander@med.unc.edu
+Manuscript File                                              Click here to access/download;Manuscript
+                                                             File;MilestoneUseACGME_FINAL.docx
+
+   1
+   2
+   3
+   4          Milestones Supplement: Operationalizing Competency-Based Medical Education: How
+   5
+   6
+   7          Programs Use the ACGME Milestones 2.0
+   8
+   9
+  10
+  11
+  12          Seth McKenzie Alexander, MD, EdM, ORCID: 0000-0002-2706-2696, is a Resident Physician,
+  13
+  14          Departments of Medicine and Pediatrics, Vanderbilt University Medical Center, Nashville,
+  15
+  16
+  17          Tennessee, USA, and an Adjunct Associate Professor of Health Sciences, The University of North
+  18
+  19          Carolina School of Medicine, Chapel Hill, North Carolina, USA.
+  20
+  21
+              Mackenzie Regan Barker, MD, ORCID: 0000-0003-1808-7282, is a Resident Physician,
+  22
+  23
+  24          Departments of Medicine and Pediatrics, Vanderbilt University Medical Center, Nashville,
+  25
+  26          Tennessee, USA.
+  27
+  28
+  29          Sydney McLean, MHA, ORCID: 0009-0007-6195-5918, is the Director of Milestone
+  30
+  31          Development, Accreditation Council for Graduate Medical Education, Chicago, Illinois, USA.
+  32
+  33
+  34          Ida Haynes, MSHC, was a Milestones Project Manager, Accreditation Council for Graduate
+  35
+  36          Medical Education, Chicago, Illinois, USA.
+  37
+  38
+  39
+              Sandra A. Moutsios, MD, ORCID: 0009-0001-3293-4030, is an Associate Professor and Associate
+  40
+  41          Program Director for the Internal Medicine-Pediatrics residency, Departments of Medicine and
+  42
+  43          Pediatrics, Vanderbilt University Medical Center, Nashville, Tennessee, USA.
+  44
+  45
+  46          Rustin Meister, MD, MS, ORCID: 0009-0006-3942-5112, is an Assistant Professor and Program
+  47
+  48          Director for the Pediatric Critical Care Medicine fellowship, Department of Pediatrics, Medical
+  49
+  50
+  51          University of South Carolina, Charleston, South Carolina, USA.
+  52
+  53
+  54
+  55
+  56
+  57
+  58
+  59
+  60
+  61
+  62
+  63
+  64                                                                                                       1
+  65
+ 1
+ 2
+ 3
+ 4   Corresponding Author: Seth McKenzie Alexander, Division of Radiologic Science, School of
+ 5
+ 6
+ 7   Medicine, University of North Carolina, Suite 3050 Bondurant Hall, CB# 7130, 321 S Columbia
+ 8
+ 9   St, Chapel Hill, NC 27599-7130, Email: seth_alexander@med.unc.edu
+10
+11
+12
+13
+14   Abstract Word Count: 250
+15
+16
+17   Manuscript Word Count: 2,982
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                            2
+65
+ 1
+ 2
+ 3
+ 4   Abstract
+ 5
+ 6
+ 7   Background: The Milestones 2.0 assessment framework was implemented by the Accreditation
+ 8
+ 9   Council for Graduate Medical Education (ACGME) to support competency-based assessment of
+10
+11
+12   trainees.
+13
+14   Objective: This study sought to understand how the Milestones are being used by Graduate
+15
+16
+17   Medical Education (GME) programs nationally.
+18
+19   Methods: A validated survey instrument collecting respondent demographics, perceptions of the
+20
+21
+     Milestones, and information regarding their use and implementation was distributed to Graduate
+22
+23
+24   Medical Education (GME) stakeholders nationally from January to March of 2025. Following a
+25
+26   computer-assisted deductive analysis that used published, core principles of Competency-Based
+27
+28
+29   Medical Education (CBME) as initial codes, the authors completed an inductive thematic content
+30
+31   analysis of responses.
+32
+33
+34   Results: The survey received a total of 2,567 responses, including 1,306 complete responses. Due
+35
+36   to the national nature of the survey, an exact response rate cannot be calculated. Most responses
+37
+38
+39
+     came from program directors (N=843) and non-physician administrative stakeholders (N=403).
+40
+41   Based on the qualitative analysis, 13 themes were identified across the five core components of
+42
+43   CBME: outcome competencies, tailored learning experiences, sequenced progression,
+44
+45
+46   competency-focused coaching, and programmatic assessment. While many themes emphasized
+47
+48   use of the Milestones to support CBME principles, several practical and conceptual concerns
+49
+50
+51   emerged around the use of milestone data.
+52
+53   Conclusions: The themes that emerged through this analysis demonstrate that Milestones 2.0
+54
+55
+56   provides an assessment framework for programs that aligns with the core CBME principles. At the
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                  3
+65
+ 1
+ 2
+ 3
+ 4   same time, further work is needed to ensure that faculty and trainees can use the Milestones
+ 5
+ 6
+ 7   effectively and that determinations of competence correlate with practical clinical outcomes.
+ 8
+ 9
+10
+11
+12   Introduction
+13
+14   Educational Milestones were implemented for the assessment of graduate medical trainees by the
+15
+16
+17   Accreditation Council for Graduate Medical Education (ACGME) in 2013.1,2 One goal of these
+18
+19   milestones was to continue the shift in trainee assessment toward a competency-based medical
+20
+21
+     education (CBME) framework.3,4 The Milestones assess trainees along an expected developmental
+22
+23
+24   trajectory across the six core competencies: interpersonal and communication skills, medical
+25
+26   knowledge, patient care, practice-based learning and improvement, professionalism, and systems-
+27
+28
+29   based practice.
+30
+31
+32
+33
+34   After the initial Milestones were developed, the ACGME underwent an iterative review process,
+35
+36   creating a revised set of milestones termed “Milestones 2.0.”2 Milestone data are reported to the
+37
+38
+39
+     ACGME nationally for accreditation, but little is known about how programs use these data to
+40
+41   operationalize CBME in practice. The core components of CBME5 provide a framework for
+42
+43   examining how Milestones inform: outcome competencies, sequenced progression, tailored
+44
+45
+46   learning experiences, competency-focused coaching, and programmatic assessment. This study
+47
+48   analyzed the results from a national survey of stakeholders in Graduate Medical Education (GME)
+49
+50
+51   to understand how the Milestones 2.0 framework is being used to promote the core components of
+52
+53   CBME.
+54
+55
+56
+57
+58   Methods
+59
+60
+61
+62
+63
+64                                                                                                   4
+65
+ 1
+ 2
+ 3
+ 4   Survey Design and Distribution
+ 5
+ 6
+ 7   The survey on which this study is based was developed by Laura Hirshfield of the University of
+ 8
+ 9   Illinois Chicago and the ACGME Milestones development team. The initial phase of their
+10
+11
+12   development was based on interviews with graduate medical education leaders (program directors,
+13
+14   Clinical Competency Committee [CCC] chairs, etc.) across ACGME-accredited specialties. These
+15
+16
+17   interviews were conducted by trained interviewers, recorded, and transcribed; an inductive
+18
+19   analysis of the transcripts was then used to develop the final survey. The full methods used in the
+20
+21
+     development of this survey are concurrently reviewed and published alongside this article (L. E.
+22
+23
+24   Hirshfield, P. B. Barlow, I. Haynes, S. McLean, L. Edgar, unpublished manuscript, 2026) . The
+25
+26   final iteration of the survey contained 34 questions, including multiple-choice, Likert-scale, and
+27
+28
+29   open-ended, narrative items. The survey was distributed via Qualtrics XM (Qualtrics, Provo, UT)
+30
+31   to ACGME-affiliated stakeholders nationally from January 30 – March 30, 2025.
+32
+33
+34
+35
+36   Data Analysis
+37
+38
+39
+     Descriptive data regarding response rates and respondent demographics were summarized using
+40
+41   STATA Version 19.5 (StataCorp LLC, College Station, TX). The authors reviewed the survey and
+42
+43   coded each question according to the CBME component(s) it addressed to ensure there was
+44
+45
+46   comprehensive representation of all core components. The core components framework is from
+47
+48   published work by Van Melle et al and includes: outcome competencies, sequenced progression,
+49
+50
+51   tailored learning experiences, competency-focused coaching, and programmatic assessment.5
+52
+53   Given the volume of qualitative data, Computer-Assisted Qualitative Data Analysis (CAQDAS)
+54
+55
+56   using MAXQDA 24 (VERBI Software, Berlin, Germany) was used for initial data coding. Based
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                    5
+65
+ 1
+ 2
+ 3
+ 4   on author consensus after reviewing the survey, an initial deductive analysis coded the data using
+ 5
+ 6
+ 7   established core components of CBME from the literature as the initial codes.5
+ 8
+ 9
+10
+11
+12   The coded responses from the initial deductive analysis were then reviewed by the authors in pairs:
+13
+14   outcome competencies (SM, RM), tailored learning experiences and sequenced progression (IH,
+15
+16
+17   SA), and finally competency-focused coaching and programmatic assessment (SAM, MB). Each
+18
+19   author pairing independently reviewed the responses coded to their core components through
+20
+21
+     thematic content analysis, identified representative quotes (reported throughout by randomly
+22
+23
+24   assigned respondent numbers in parentheses), and then met to resolve discrepancies until each pair
+25
+26   reached thematic saturation. The author group then met to review all themes. When similar themes
+27
+28
+29   were identified across multiple core components, the authors debated until consensus was reached
+30
+31   on which core component most appropriately related to the theme. This process was repeated until
+32
+33
+34   the authors felt no further key themes or concepts could be drawn from the dataset.
+35
+36
+37
+38
+39
+     The Institutional Review Board of the University of Illinois Chicago reviewed the survey process
+40
+41   and determined that it did not constitute human subjects research as defined under United States
+42
+43   law in 45 C.F.R. § 46.
+44
+45
+46
+47
+48   Results
+49
+50
+51   There were a total of 2,567 responses to the survey including incomplete or partially answered
+52
+53   surveys (N=1306 complete surveys). The survey was distributed to individuals affiliated with the
+54
+55
+56   over 14,000 ACGME-accredited training programs and distribution to other stakeholders was
+57
+58   encouraged. Due to this referral-based, snowball sample of GME stakeholders, a conventional
+59
+60
+61
+62
+63
+64                                                                                                    6
+65
+ 1
+ 2
+ 3
+ 4   response rate cannot be calculated. The roles most commonly disclosed by respondents were that
+ 5
+ 6
+ 7   they were program directors (N=843/1600, 52.7%) or in non-physician administrative or
+ 8
+ 9   leadership roles (N=403/1600, 25.2%). The largest proportion of respondents had been in their
+10
+11
+12   current role for less than five years (N=812/1675, 48.5%). Respondent demographics are
+13
+14   summarized in Table 1.
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                               7
+65
+ 1
+ 2
+ 3
+ 4                                                                                 N (%)
+ 5
+ 6    What is your primary role in GME?
+ 7           Program Director                                                     843 (52.7)
+ 8           Associate/Assistant Program Director                                 165 (10.3)
+ 9
+10
+             Physician Faculty                                                      93 (5.8)
+11           Non-physician Faculty                                                   5 (0.3)
+12           Designated Institutional Official (DIO)                                41 (2.6)
+13           Resident/Fellow                                                        50 (3.1)
+14
+15
+             Non-physician Administration/Leadership                              403 (25.2)
+16    Which of the following best describes your program? *
+17           Academic                                                            1261 (65.5)
+18           Community                                                            460 (29.3)
+19
+20           Rural                                                                  85 (4.4)
+21           Federally Qualified Health Center (FQHC)                               68 (3.5)
+22           Veteran Affairs (VA)                                                   51 (2.6)
+23    If applicable, approximately how many of the following are in                  N (%)
+24
+25    your program?
+26           Residents 0                                                          167 (13.4)
+27                       <10                                                       119 (9.5)
+28                       10-19                                                    330 (26.5)
+29
+30                       20-29                                                    274 (22.0)
+31                       30-39                                                    143 (11.5)
+32                       40-49                                                      87 (7.0)
+33                       50-59                                                      28 (2.2)
+34
+35                       60+                                                        99 (7.9)
+36           Fellows     0                                                        453 (35.1)
+37                       1-2                                                      261 (20.2)
+38
+39
+                         3-4                                                      172 (13.3)
+40                       5-7                                                      151 (11.7)
+41                       8-10                                                      109 (8.4)
+42                       >10                                                      144 (11.2)
+43
+44
+      How many years have you been in your current role?
+45           <5 years                                                             812 (48.5)
+46           5-10 years                                                           520 (31.0)
+47           >10 years                                                            343 (20.5)
+48
+49   Table 1. Descriptive statistics of respondents’ self-reported demographics. Note that multiple
+50   program types (*) could be selected by respondents. Not all respondents answered all demographic
+51   questions. GME = Graduate Medical Education.
+52
+53
+54
+55   Respondents were explicitly asked whether different stakeholders use their milestone data. Of
+56
+57   respondents, most stated that learners (N = 179/283, 63.3%) and core faculty (N = 178/283,
+58
+59
+60
+61
+62
+63
+64                                                                                                   8
+65
+ 1
+ 2
+ 3
+ 4   62.9%) use their Milestones 2.0 data. The majority of frontline faculty, however, were thought to
+ 5
+ 6
+ 7   not use Milestones 2.0 data (N = 173/281, 61.6%).
+ 8
+ 9                                                           Yes               No             Unsure
+10
+11                                                          N (%)             N (%)           N (%)
+12    Do __________ use their Milestones data?
+13          Learners                                      179 (63.3)        52 (18.4)       52 (18.4)
+14          Core Faculty Members                          178 (62.9)        72 (25.4)       33 (11.7)
+15
+16          Frontline Faculty Members                      49 (17.4)       173 (61.6)       59 (21.0)
+17   Table 2. Descriptive quantitative statistics regarding use of the Milestones 2.0 data. Note that not
+18   all respondents answered all questions.
+19
+20
+21
+22   Across core components, respondents described the Milestones as providing a framework that
+23
+24   can be used for assessment, coaching, individualized learning, and curriculum review while also
+25
+26
+27   identifying challenges in translating that framework into consistent, meaningful practice. These
+28
+29   concerns reflected dissatisfaction with the design of the Milestones, rather than rejection of
+30
+31
+32
+     CBME as an educational philosophy. One respondent captured this sentiment, stating that “I do
+33
+34   think we need Milestones and competencies to guide our evaluations and believe that CBME is
+35
+36   the correct approach, I just don't think [the current framework] really gets at that intention in a
+37
+38
+39   clear, concise, user-friendly way” (Respondent 66). The results of the below thematic analysis
+40
+41   show how this tension shaped Milestone use across the five core components of CBME.
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                         9
+65
+ 1
+ 2
+ 3
+ 4   Outcome Competencies
+ 5
+ 6
+ 7   Shared Outcome Expectations
+ 8
+ 9   Respondents described the Milestones as providing a shared framework for defining the
+10
+11
+12   competencies expected of residents and fellows throughout their training. Standardized language
+13
+14   and developmental expectations helped faculty and learners establish a common understanding of
+15
+16
+17   physician competence and what successful performance should look like across stages of training.
+18
+19   One respondent described the Milestones as “a guide that we can share with fellows and faculty to
+20
+21
+     have common language and expectations” (12) by “help[ing] the faculty create a shared mental
+22
+23
+24   model” (183). Respondents also valued the breadth of the framework, describing it as
+25
+26   encompassing competencies extending beyond medical knowledge and patient care.
+27
+28
+29
+30
+31   However, respondents questioned whether these outcomes were consistently defined with
+32
+33
+34   sufficient specificity to meaningfully represent competence. Although Milestones “describe a
+35
+36   broad array of competencies” (10), another described them as “too nebulous and not tied to actual
+37
+38
+39
+     observable behaviors” (24). Respondents valued a common framework for defining outcomes
+40
+41   while expressing uncertainty about how individual Milestones match observable clinical
+42
+43   outcomes.
+44
+45
+46
+47
+48   Alignment with Independent Practice
+49
+50
+51   Responses emphasized using the Milestones to evaluate learners' progression toward autonomous,
+52
+53   unsupervised practice and to support graduation decisions. Some viewed the breadth of the
+54
+55
+56   Milestones as supporting this goal, noting that their “broad scopes allow programs [to] assess the
+57
+58   multitude of skills, qualities, and abilities needed to practice independently” (23). However,
+59
+60
+61
+62
+63
+64                                                                                                  10
+65
+ 1
+ 2
+ 3
+ 4   respondents questioned whether all Milestones “…translate well to the requirements of
+ 5
+ 6
+ 7   independent practice” (54). These responses highlighted a tension between the value of a
+ 8
+ 9   comprehensive framework for defining competency outcomes and concern about whether some
+10
+11
+12   Milestones appropriately reflect the capabilities required of practicing physicians.
+13
+14
+15
+16
+17   Sequenced Progression
+18
+19   Defining the Typical Developmental Trajectory
+20
+21
+     Respondents described the Milestones as defining an expected developmental trajectory for
+22
+23
+24   trainees. One respondent described the Milestones as providing "meaningful levels that clearly
+25
+26   differentiate between average, good and excellent trainees" (120). Others noted that they allow
+27
+28
+29   programs to clearly "understand where the learner is in the development to independence" (125).
+30
+31   These responses emphasized that the framework provides a shared reference for understanding
+32
+33
+34   learner progression, setting developmental goals, and identifying trainees who begin to “fall off
+35
+36   the [expected developmental] curve” (43).
+37
+38
+39
+40
+41   Challenges Distinguishing Between Performance Levels
+42
+43   Although many respondents viewed the Milestones as clearly defining developmental progression,
+44
+45
+46   others felt that there is “indistinct differentiation within and between levels” (98). Responses
+47
+48   described difficulty translating Milestone descriptors into observable behaviors, resulting in
+49
+50
+51   inconsistent interpretation and scoring. These challenges were reported to be particularly
+52
+53   pronounced in non-patient-facing specialties and specialties that perceived limited alignment with
+54
+55
+56   the harmonized Milestones. Across both of these groups of respondents, there were reports that it
+57
+58   was challenging for “faculty to use the milestones as a progression along a training pathway” (15).
+59
+60
+61
+62
+63
+64                                                                                                   11
+65
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7   Tailored Learning Experiences
+ 8
+ 9   Learner-Centered Experiences
+10
+11
+12   Programs used Milestone data to individualize learning experiences based on trainees' strengths,
+13
+14   areas for growth, and developmental goals. Respondents described using Milestones to develop
+15
+16
+17   individualized learning plans (ILPs), tailor remediation strategies for struggling learners, and
+18
+19   identify trainees ready for greater autonomy, leadership opportunities, or advanced educational
+20
+21
+     experiences. They allow CCCs to "focus on the outliers as well to provide more meaningful
+22
+23
+24   individualized plans," (41) ensuring high-performing trainees are "offered additional experiences
+25
+26   and more independence" (138). To complete the sufficiently detailed assessments needed to design
+27
+28
+29   these tailored experiences, programs have felt increased “administrative, clinical, and
+30
+31   documentation demands [that] contribute to burn out” (81). While programs are working to create
+32
+33
+34   learning experiences that are learner-centric, this administrative burden can stifle these efforts.
+35
+36
+37
+38
+39
+     Competency-Focused Coaching
+40
+41
+42   Individualized Learner Development
+43
+44
+45   Respondents described incorporating Milestones into advisory meetings, coaching sessions, and
+46
+47   semiannual reviews to promote learner reflection, compare self-assessments with faculty
+48
+49
+50
+     evaluations, and identify strengths and areas for growth. Some programs reported assigning
+51
+52   trainees a "faculty advisor” (85) or “clinical coach who reviews [learners’] assessments with them”
+53
+54   (87). Respondents used discrepancies to guide coaching conversations and establish individualized
+55
+56
+57   goals, for example, by “understand[ing] how (and why) discrepancies might arise between faculty
+58
+59   (CCC) evaluations and self-evaluations” (140).
+60
+61
+62
+63
+64                                                                                                         12
+65
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7   Coaching Across the Performance Spectrum
+ 8
+ 9   Programs use milestone data to tailor coaching for learners across the performance spectrum,
+10
+11
+12   although respondents described substantially greater emphasis on remediation than on
+13
+14   development for high-performing trainees. One respondent explained that the Milestones allowed
+15
+16
+17   faculty to "further drill down" (30) and identify specific developmental needs. In contrast, several
+18
+19   respondents found that the Milestones "generally don't provide useful feedback for high-
+20
+21
+     performing learners" (20) and were "less helpful for residents that are overall doing well" (44).
+22
+23
+24
+25
+26   Integration with Local Coaching Frameworks
+27
+28
+29   Respondents described adapting the Milestones to local educational models that better aligned with
+30
+31   specialty-specific curricula and coaching processes. Examples included “creat[ing their] own
+32
+33
+34   anchors for the milestones” (61) or mapping Milestones back onto more familiar EPAs to help
+35
+36   faculty with the transition to this assessment framework.
+37
+38
+39
+40
+41   Barriers to Competency-Focused Coaching
+42
+43   Respondents identified three primary barriers to using Milestones for competency-focused
+44
+45
+46   coaching: insufficient specificity, inconsistent faculty interpretation, and limited learner
+47
+48   engagement. Many described the Milestones as too broad to support actionable coaching because
+49
+50
+51   they "lack sufficient granularity for meaningful feedback" (20). Variability in faculty interpretation
+52
+53   reduced the consistency of Milestone ratings, with one respondent describing them as "too vague
+54
+55
+56   and subjective amongst individuals and programs" (29). Finally, respondents stated that learners
+57
+58   value narrative feedback and coaching conversations more than Milestone reports, with some
+59
+60
+61
+62
+63
+64                                                                                                       13
+65
+ 1
+ 2
+ 3
+ 4   reporting that residents "don't take the milestones as an important measure of their educational
+ 5
+ 6
+ 7   progress" (3).
+ 8
+ 9
+10
+11
+12
+13   Programmatic Assessment
+14
+15
+16
+17   Assessment of Trainee Competence
+18
+19   Programs use milestone data to assess trainee competence longitudinally and support decisions
+20
+21
+22
+     regarding learner progression and graduation. Respondents described using Milestones to monitor
+23
+24   individual developmental trajectories, compare performance within and across cohorts, and
+25
+26   determine readiness for unsupervised practice. Milestones were viewed as "an objective
+27
+28
+29   framework with which to assess learners" (92) in order "to ensure that graduates are at an
+30
+31   [appropriate level] prior to graduation" (1). Respondents also emphasized that Milestone ratings
+32
+33
+34   were intended to document attainment of competency rather than completion of educational
+35
+36   experiences through "consistent information that supports a level of competence" (59).
+37
+38
+39
+40
+41   Integration Within Broader Assessment Systems
+42
+43   Respondents described integrating Milestone data with workplace-based assessments, faculty
+44
+45
+46   evaluations, peer assessments, self-assessments, EPAs, portfolios, and other assessment data to
+47
+48   inform CCC decisions. This allows programs to complete "a global review of each trainee in
+49
+50
+51   assessing the trainee's progress" (126). Some respondents felt, however, that integration of these
+52
+53   assessments is too “laborious” (13) and imposes too heavy an administrative load.
+54
+55
+56
+57
+58   Curricular Development
+59
+60
+61
+62
+63
+64                                                                                                  14
+65
+ 1
+ 2
+ 3
+ 4   Programs also used aggregate Milestone data to evaluate curricula and identify opportunities for
+ 5
+ 6
+ 7   program improvement. Respondents described reviewing cohort-level trends to “identify... gaps
+ 8
+ 9   in the curriculum” (16), determine where additional educational experiences were needed, and
+10
+11
+12   evaluate the effectiveness of their training programs. In doing so, programs can identify “curricular
+13
+14   holes” (32) and determine competencies that trainees "may need more exposure [to] earlier or
+15
+16
+17   later" (52).
+18
+19
+20
+21
+22
+23   Challenges with Programmatic Assessment
+24
+25   Respondents identified several barriers to using the Milestones for programmatic assessment,
+26
+27
+28
+     including concerns regarding validity, reliability, specialty-specific applicability, and
+29
+30   administrative burden. Some questioned whether Milestone ratings reflected meaningful
+31
+32   educational or clinical outcomes, reporting that "the milestones themselves don't translate to better
+33
+34
+35   patient outcomes" (30). Others see substantial variability in faculty interpretation, noting that some
+36
+37   faculty used Milestones "as a Likert scale of bad to good, rather than progression along a training
+38
+39
+40   pathway" (32). Respondents also described difficulty assessing competencies such as systems-
+41
+42   based practice (SBP) and practice-based learning and improvement (PBLI), questioned the
+43
+44
+45   applicability of Harmonized Milestones across specialties, and reported that administrative burden
+46
+47   reduced faculty engagement and the perceived value of the assessment process. Respondents
+48
+49
+50
+     referred to the Milestones as "an added admin[istrative] burden on an already overwhelming job”
+51
+52   (50). One respondent summarized this challenge by stating that "it is very hard to gain and maintain
+53
+54   buy in and participation in this process" (88).
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                      15
+65
+ 1
+ 2
+ 3
+ 4   The themes derived from the inductive qualitative analysis are summarized in Table 3 below with
+ 5
+ 6
+ 7   representative quotes for each theme.
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                               16
+65
+13
+14
+15
+16
+17
+18
+19
+20   Core Component Themes                                       Representative Quotes (Respondent ID)
+21
+     Outcome             Shared Outcome Expectations             Milestones are "a clear way to understand what is expected of residents as they progress
+22
+     Competencies                                                through their program and they help the faculty create a shared mental model for evaluating
+23
+                                                                 residents." (Respondent 183)
+24
+25                       Readiness for Independent Practice      Milestones are useful for "preparing trainees to function on an independent level," (79)
+26                                                               "advancing residents toward autonomy and competence," (36) and "accurately document[ing] a
+27                                                               resident is ready for independent practice." (134)
+28   Sequenced           Defining the Typical Developmental      The "granularity and stepwise graduated fashion of Milestones 2.0" (116) "allow the CCC and
+29   Progression         Trajectory                              PD to really understand where the learner is in the development to independence." (170)
+30                       Challenges Distinguishing between       The developmental levels are "vague and not entirely distinguishable." (63)
+31                       Performance Levels
+32   Tailored Learning   Learner-Centered Experiences            Milestones allow the CCC to “provide more meaningful individualized plans.” (116)
+33   Experiences
+34   Competency-         Individualized Learner Development      A "faculty advisor reviews milestones with [the] resident and develops a learning plan." (182)
+35   Focused Coaching    Coaching Across the Performance         Milestones allow faculty to "further drill down" (50) to identify specific developmental needs in
+36                       Spectrum                                struggling trainees but are "less helpful for residents that are overall doing well." (123)
+37                       Integration with Local Coaching         "The milestones are mapped back onto the EPAs which make more sense to our faculty and
+38                       Frameworks                              residents." (50)
+39                       Barriers to Competency-Focused          Milestones are "too broad and not useful for residents to know how to improve” (110) and
+40                       Coaching                                “subjective amongst individuals and programs." (56) “Most residents don't care to even review
+41                                                               their milestones making them ineffective." (126)
+42   Programmatic        Assessment of Competence                Milestones are "an objective framework with which to assess learners" (119) that provides
+43
+     Assessment                                                  "consistent information that supports a level of competence." (87)
+44
+                         Integration Within Broader Assessment   "Milestones used in conjunction with other assessment tools i.e., operative evaluations, 360s,
+45
+                         Systems                                 etc., seem to help our faculty make informed decision about progressive autonomy." (89)
+46
+47                       Curricular Development                  Milestones "regularly illustrate curricular holes and that helps us move forward.” (87)
+48                       Challenges with Programmatic            There is "no correlation between the [Milestones] and how good of a doctor someone is." (60)
+49                       Assessment                              Ratings are often assigned "based on year instead of what the competencies actually direct.”
+50                                                               (23) Milestones are "more busy work than anything," (71) "way too cumbersome," (81)
+51                                                               “essentially a waste of everyone’s time,” (17) or "an added admin burden on an already
+52                                                               overwhelming job." (80) "It is very hard to gain and maintain buy in and participation in this
+53                                                               process.” (155)
+54   Table 3. Themes identified through inductive, thematic analysis of survey responses identified by MAXQDA as relevant to the core
+55   components of Competency-Based Medical Education.5 (Abbreviations: CCC = Clinical Competency Committee; PD = Program
+56
+57   Director)
+58
+59
+60
+61
+62
+63
+64                                                                                                                                                              17
+65
+ 1
+ 2
+ 3
+ 4   Discussion
+ 5
+ 6
+ 7   CBME is an outcomes-based approach to medical training, structured around an organizing
+ 8
+ 9   framework of competencies. For GME in the United States, the organizing framework for training
+10
+11
+12   programs is the ACGME Milestones 2.0.2,9 The expectation is that every trainee progresses through
+13
+14   the Milestones and ultimately achieves competence in the unsupervised care of patients and
+15
+16
+17   families within their specialty by the completion of their training program. 6–8 Our findings
+18
+19   demonstrate that programs use the Milestones in ways that align with all five core components of
+20
+21
+     CBME,5 providing faculty and residents with a shared mental model of expectations and a structure
+22
+23
+24   for translating competency-based principles into educational practice,10 albeit with several
+25
+26   identified limitations.
+27
+28
+29
+30
+31   The themes representing successful use of the Milestones described here align with existing
+32
+33
+34   literature describing CBME through lenses of: learner-centered coaching and growth,11–13
+35
+36   progression along a performance continuum,14–17 and the use of educational data to evaluate
+37
+38
+39
+     programs and learning experiences.18–22 Our findings further demonstrate how Milestones are used
+40
+41   across these interconnected functions: to define shared expectations for competence, establish
+42
+43   developmental trajectories, assess readiness for unsupervised practice, individualize learning and
+44
+45
+46   coaching, support progression and graduation decisions, and identify opportunities for curricular
+47
+48   and program improvement.
+49
+50
+51
+52
+53   Throughout the analytical process, the authors noted that the identified themes often reflected
+54
+55
+56   multiple core components of CBME. The theme of “readiness for independent practice,” as an
+57
+58   example, was often described in the context of the competency outcome but also informed
+59
+60
+61
+62
+63
+64                                                                                                  18
+65
+ 1
+ 2
+ 3
+ 4   longitudinal assessment of progression, identification of learners requiring additional support, and
+ 5
+ 6
+ 7   tailored coaching or experiences that move trainees toward competency. Similarly, aggregate
+ 8
+ 9   Milestone data were used not only to assess individual learners but also to identify curricular gaps
+10
+11
+12   and evaluate training programs. These findings illustrate that the core components of CBME
+13
+14   function as interconnected pieces rather than discrete processes. The Milestones may serve not
+15
+16
+17   only as a required measure of outcomes, but also as an organizing framework that links these
+18
+19   components in educational practice.
+20
+21
+22
+23
+24   While there are productive efforts to use the Milestones to support CBME, there were also multiple
+25
+26   reported limitations of the Milestones. Across themes, these limitations relate to uncertainty
+27
+28
+29   regarding how faculty or trainees should use milestone data, which may contribute to decreased
+30
+31   confidence in Milestones 2.0 as an assessment tool. Several of these limitations appeared across
+32
+33
+34   more than one component, suggesting that limitations in the assessment framework may constrain
+35
+36   the usefulness of Milestones for CBME in some circumstances. Multiple respondents did,
+37
+38
+39
+     however, distinguish support for CBME as an educational philosophy from their dissatisfaction
+40
+41   with their current use of the Milestones.
+42
+43
+44
+45
+46   While the authors believe this analysis supports the growing literature on the benefit of the
+47
+48   Milestones as an assessment strategy,14,15,23 we recognize that there remain questions regarding the
+49
+50
+51   long-term implications of Milestone-based assessment.24 Further faculty and programmatic
+52
+53   development at national and institutional levels is needed to guide the use and interpretation of
+54
+55
+56   Milestones in educational practice. These efforts should, in part, focus on the Milestones as an
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                    19
+65
+ 1
+ 2
+ 3
+ 4   initially formative and ultimately summative assessment of clinical competence and readiness to
+ 5
+ 6
+ 7   practice safely without supervision.
+ 8
+ 9
+10
+11
+12   Additionally, ongoing research efforts will be necessary to continually validate the Milestones as
+13
+14   markers of clinical competence. Such work should examine whether Milestone ratings are
+15
+16
+17   associated with meaningful educational and clinical outcomes and whether their use improves
+18
+19   learner development or performance to address some of the concerns raised by respondents in this
+20
+21
+     survey.25 This work should be careful not to conflate clinical competence with the notion of clinical
+22
+23
+24   excellence, which merits its own line of research and is a nuanced discussion beyond the scope of
+25
+26   this paper.26
+27
+28
+29
+30
+31   This work, in addition to the aforementioned, is primarily limited by the potential for interpretive
+32
+33
+34   bias on the part of the authors and the over-generalized nature of these findings across specialties
+35
+36   and programs. To limit interpretive bias, authors were intentionally divided into groups to limit
+37
+38
+39
+     institutional overlap, and all themes were discussed both in author pairs and with the entire author
+40
+41   group to ensure thematic saturation and consistency in interpretation. As pointed out by some
+42
+43   respondents, the Milestones may also be applied differently in different specialties even after
+44
+45
+46   attempts to make them widely applicable. However, this analysis lacked adequate data to fully
+47
+48   characterize these differences. The qualitative nature of the study also describes how stakeholders
+49
+50
+51   understand and report using Milestones but cannot establish the frequency of these practices or
+52
+53   their effects on learner or program outcomes. Further work should focus on quantitative, learner-
+54
+55
+56   and specialty-centered educational outcomes to aid in interpreting these qualitative findings and
+57
+58   address these limitations.
+59
+60
+61
+62
+63
+64                                                                                                     20
+65
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7   Conclusions
+ 8
+ 9   This study provides further support that GME stakeholders nationally are utilizing the Milestones
+10
+11
+12   2.0 assessment framework in alignment with the core components of CBME to establish shared
+13
+14   expectations for competence, characterize developmental progression, individualize learning and
+15
+16
+17   coaching, inform progression and graduation decisions, and guide programmatic improvement.
+18
+19   These overlapping uses suggest that the Milestones can function as more than an outcomes-based
+20
+21
+     assessment tool; they can provide an organizing framework through which programs
+22
+23
+24   operationalize interconnected components of CBME. However, limitations in interpretation,
+25
+26   variability in use, and administrative burden may constrain their effectiveness. Further research is
+27
+28
+29   needed to quantify these findings, and further educational development is needed to improve
+30
+31   stakeholder uptake of evidence-based principles of Milestone utilization.
+32
+33
+34
+35
+36   References
+37
+38
+39
+     1. Nasca TJ, Philibert I, Brigham T, Flynn TC. The next GME accreditation system--rationale
+40      and benefits. N Engl J Med. 2012;366(11):1051-1056. doi:10.1056/NEJMsr1200117
+41
+42   2. Edgar L, Roberts S, Holmboe E. Milestones 2.0: A Step Forward. J Grad Med Educ.
+43      2018;10(3):367-369. doi:10.4300/JGME-D-18-00372.1
+44
+45
+46
+     3. Misra S, Iobst WF, Hauer KE, Holmboe ES. The Importance of Competency-Based
+47      Programmatic Assessment in Graduate Medical Education. J Grad Med Educ. 2021;13(2
+48      Suppl):113-119. doi:10.4300/JGME-D-20-00856.1
+49
+50   4. Swing SR. The ACGME outcome project: retrospective and prospective. Med Teach.
+51      2007;29(7):648-654. doi:10.1080/01421590701392903
+52
+53
+54   5. Van Melle E, Frank JR, Holmboe ES, et al. A Core Components Framework for Evaluating
+55      Implementation of Competency-Based Medical Education Programs. Acad Med J Assoc Am
+56      Med Coll. 2019;94(7):1002-1009. doi:10.1097/ACM.0000000000002743
+57
+58   6. Carraccio C, Englander R, Holmboe ES, Kogan JR. Driving Care Quality: Aligning Trainee
+59
+60      Assessment and Supervision Through Practical Application of Entrustable Professional
+61
+62
+63
+64                                                                                                    21
+65
+ 1
+ 2
+ 3
+ 4     Activities, Competencies, and Milestones. Acad Med J Assoc Am Med Coll. 2016;91(2):199-
+ 5
+ 6     203. doi:10.1097/ACM.0000000000000985
+ 7
+ 8   7. Li STT, Schwartz A, Burke AE, et al. Pediatric Program Director Minimum Milestone
+ 9      Expectations Before Allowing Supervision of Others and Unsupervised Practice. Acad
+10      Pediatr. 2020;20(8):1063-1065. doi:10.1016/j.acap.2020.05.011
+11
+12
+13   8. Schumacher DJ, Lewis KO, Burke AE, et al. The pediatrics milestones: initial evidence for
+14      their use as learning road maps for residents. Acad Pediatr. 2013;13(1):40-47.
+15      doi:10.1016/j.acap.2012.09.003
+16
+17   9. Frank JR, Snell LS, Cate OT, et al. Competency-based medical education: theory to practice.
+18
+19
+        Med Teach. 2010;32(8):638-645. doi:10.3109/0142159X.2010.501190
+20
+21   10.   Edgar L, Jones MD, Harsy B, Passiment M, Hauer KE. Better Decision-Making: Shared
+22     Mental Models and the Clinical Competency Committee. J Grad Med Educ. 2021;13(2
+23     Suppl):51-58. doi:10.4300/JGME-D-20-00850.1
+24
+25
+26
+     11.     Nykiel-Bailey S. Coaching in residency training programs: moving toward learner-
+27      centered education in anesthesiology. Curr Opin Anaesthesiol. 2025;38(3):236-241.
+28      doi:10.1097/ACO.0000000000001483
+29
+30   12.    Li STT, Tancredi DJ, Schwartz A, et al. Competent for Unsupervised Practice: Use of
+31
+       Pediatric Residency Training Milestones to Assess Readiness. Acad Med J Assoc Am Med
+32
+33     Coll. 2017;92(3):385-393. doi:10.1097/ACM.0000000000001322
+34
+35   13.   Warburton KM, Goren E, Dine CJ. Comprehensive Assessment of Struggling Learners
+36     Referred to a Graduate Medical Education Remediation Program. J Grad Med Educ.
+37     2017;9(6):763-767. doi:10.4300/JGME-D-17-00175.1
+38
+39
+40   14.   Johnston TM, Hogan SO, Weaver ML, Sun T, Smith BK, Park YS. Transition between
+41     Residency and Fellowship: A National Study of the Longitudinal Alignment between ACGME
+42     Milestones for General Surgery Residency and Subsequent Vascular Surgery Fellowship. Ann
+43     Surg. Published online May 5, 2026. doi:10.1097/SLA.0000000000007081
+44
+45
+46   15.    Sun T, Park YS, Chen F, Hogan SO, Tanaka P. Longitudinal Reliability of Milestones
+47     Learning Trajectories during Anesthesiology Residency. Anesthesiology. 2025;142(5):918-
+48     928. doi:10.1097/ALN.0000000000005388
+49
+50   16.   Park YS, Hamstra SJ, Yamazaki K, Holmboe E. Longitudinal Reliability of Milestones-
+51
+52
+       Based Learning Trajectories in Family Medicine Residents. JAMA Netw Open.
+53     2021;4(12):e2137179. doi:10.1001/jamanetworkopen.2021.37179
+54
+55   17.    Tanaka P, Park YS, Roby J, et al. Milestone Learning Trajectories of Residents at Five
+56     Anesthesiology Residency Programs. Teach Learn Med. 2021;33(3):304-313.
+57
+       doi:10.1080/10401334.2020.1842210
+58
+59
+60
+61
+62
+63
+64                                                                                                   22
+65
+ 1
+ 2
+ 3
+ 4   18.    Samala RV, Hoeksema LJ, Colbert CY. A Qualitative Study of Independent Home Visits
+ 5
+ 6     by Hospice Fellows: Addressing Gaps in ACGME Milestones by Fostering Reflection and
+ 7     Self-Assessment. Am J Hosp Palliat Care. 2019;36(10):885-892.
+ 8     doi:10.1177/1049909119836218
+ 9
+10   19.    Moorman ML, Capizzani TR, Feliciano MA, French JC. A competency-based simulation
+11
+12
+       curriculum for surgical resident trauma resuscitation skills. Int J Crit Illn Inj Sci.
+13     2017;7(4):241-247. doi:10.4103/IJCIIS.IJCIIS_12_17
+14
+15   20.    Monestime GM, Baird I, Rebarber A, Shirazian T. ACGME Milestones in global health:
+16     Need for standardized assessment of global health training in obstetrics/gynecology residency.
+17
+18
+       Int J Gynaecol Obstet Off Organ Int Fed Gynaecol Obstet. 2022;157(3):522-526.
+19     doi:10.1002/ijgo.13914
+20
+21   21.    Hauer KE, O’Sullivan PS, Fitzhenry K, Boscardin C. Translating Theory Into Practice:
+22     Implementing a Program of Assessment. Acad Med. 2018;93(3):444-450.
+23     doi:10.1097/ACM.0000000000001995
+24
+25
+26   22.    Holmboe ES, Yamazaki K, Nasca TJ, Hamstra SJ. Using Longitudinal Milestones Data
+27     and Learning Analytics to Facilitate the Professional Development of Residents: Early
+28     Lessons From Three Specialties. Acad Med J Assoc Am Med Coll. 2020;95(1):97-103.
+29     doi:10.1097/ACM.0000000000002899
+30
+31
+32   23.    Chen KH, Pan SL, Lai JS, Hou WH, Taiwan Academy of Physical Medicine and
+33     Rehabilitation-milestones working group. Evaluating core competency development of
+34     Physical Medicine and Rehabilitation residents by Milestones 2.0: A nationwide observational
+35     pilot study. J Formos Med Assoc Taiwan Yi Zhi. Published online March 7, 2026:S0929-
+36
+37
+       6646(26)00152-X. doi:10.1016/j.jfma.2026.02.031
+38
+39   24.   Montgomery KB, Lindeman B. Using Graduating Surgical Resident Milestone Ratings to
+40     Predict Patient Outcomes: A Blunt Instrument for a Complex Problem. Acad Med J Assoc Am
+41     Med Coll. 2023;98(7):765-768. doi:10.1097/ACM.0000000000005165
+42
+43
+44
+     25.    Han M, Hamstra SJ, Hogan SO, et al. Trainee Physician Milestone Ratings and Patient
+45     Complaints in Early Posttraining Practice. JAMA Netw Open. 2023;6(4):e237588.
+46     doi:10.1001/jamanetworkopen.2023.7588
+47
+48   26.   Ding JYC, O’Neill BG. Article conflates competence and excellence. Can Fam
+49     Physician. 2026;72(7-8):443-444. doi:10.46747/cfp.720708443
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64                                                                                                 23
+65
+Supplemental Material_Survey                                         Click here to access/download;Supplemental Material;FINAL
+                                                                     Milestones Survey Jan 2025.docx
+
+
+
+
+                                                        Milestones 3.0 Survey
+             Introduction
+
+             Thank you for taking the time to provide your experience with Milestones 2.0. The Milestones 2.0
+             development process concluded in 2023. Efforts by the ACGME then moved to conducting a principles-
+             focused program evaluation in collaboration with Dr. Laura E. Hirshfield, PhD, at University of Illinois
+             Chicago (UIC). Dr. Hirshfield has developed a survey guided by the principles upon which the Milestones
+             were first developed and interviews conducted with 45 stakeholders. The survey is designed to elicit your
+             perspectives and experiences regarding the implementation and use of Milestones 2.0. Only aggregated
+             summary results will be shared with the ACGME.
+
+             As a user of the Milestones, we invite you to participate in helping the ACGME identify and understand how
+             the Milestones are, or are not, working within your context. By keeping the survey anonymous, we strongly
+             encourage you to provide your honest feedback to improve the Milestones framework to better serve the
+             GME community and its learners.
+
+             You may not be familiar with one phrase used within the survey – harmonized Milestones. Harmonized
+             Milestones include a set of 11 subcompetencies across Interpersonal and Communication Skills, Practice-
+             Based Learning and Improvement, Professionalism, and Systems-Based Practice that describe knowledge,
+             skills, and behaviors applicable across all surgical and medical specialties. Each specialty was offered the
+             opportunity to make specialty-specific edits. Few specialties made substantial changes to the harmonized
+             Milestones.
+
+             The UIC Institutional Review Board determined that this evaluation does not constitute research involving
+             human subjects as defined by federal guidelines.
+
+             The survey should take approximately 15 minutes to complete.
+
+             Section 1: Demographics
+             1. What is your primary role in GME? (check one)
+                    a. Program director
+                    b. Associate/assistant program director
+                    c. Physician faculty
+                    d. Non-physician faculty
+                    e. Designated institutional official (DIO) (If selected, skip Q3, 5,7, 8)
+                    f. Resident/fellow
+                    g. Non-physician administration/leadership (e.g., coordinator, nurse)
+                    h. Other (please specify):_____
+             2. How many years have you been in your current role?
+             3. For the purposes of this survey, please focus on one specific specialty/subspecialty for your
+                responses. What residency or fellowship program are you responding for? (check one/drop
+                down)
+             4. Which of the following professional degrees have you earned? (Check all that apply)
+             5. If applicable, approximately how many of each the following are in your program?
+                    a. Residents:
+       b. Fellows:
+       c. Preliminary residents:
+           Please check here if the above are estimates []
+6. Which of the following best describes your program? (check all that apply)
+       a. Academic (i.e. hospitals that are affiliated with medical schools and focus on education
+           and research)
+       b. Community (i.e., non-academic hospitals that provide a range of services to local
+           communities)
+       c. Rural
+       d. Federally Qualified Health Center (FQHC)
+       e. Veteran Affairs (VA)
+       f. Uncertain
+       g. Other (please specify): __________
+7. What is/was your role(s) with your program’s Clinical Competency Committee (CCC)? (select
+   any that apply, past or present)
+       a. Member
+       b. Chair
+       c. Non-voting member
+       d. Chief resident member
+       e. Not a member
+8. Please specify (EXCLUDE IF SELECT 7e)
+   a) What other specialty(ies) or subspecialty(ies) does your CCC review?
+   b) How many members serve on your program’s CCC
+   (including yourself)?
+   c) How many non-physician members serve on the CCC?
+   d) How many times per year does your CCC meet?
+   e) Does your CCC receive ongoing faculty development? y/n
+Section 2: Opinions
+For the following questions, please only answer based on the residency or fellowship you
+selected in the previous section. For DIOs, please answer based on your overall experience
+across specialties.
+1. How important is it that all learners of the same specialty are assessed against the same
+   benchmarks outlined in the Milestones?
+
+   Not at all important | Somewhat important | Important | Very important | Extremely
+   important
+
+   If you selected “not at all important” or “somewhat important,” please elaborate:
+2. How satisfied are you with Milestones 2.0 as a tool for supporting the adoption of competency-
+   based medical education (CBME) components (assessment, curriculum, feedback, programmatic
+   assessment, individualized learning plans, etc.) for each of the following?
+       a. All six Core Competencies
+       b. Patient Care (PC)
+       c. Medical Knowledge (MK)
+       d. Systems-Based Practice (SBP)
+       e. Practice-Based Learning and Improvement (PBLI)
+       f. Professionalism (PROF)
+       g. Interpersonal and Communication Skills (ICS)
+   Very unsatisfied | Unsatisfied | Satisfied | Very satisfied | Unsure
+     If you selected “very unsatisfied” or “unsatisfied,” please elaborate:____
+3.   How effectively do Milestones 2.0 support each of the following?
+       a. Program improvement goals (e.g., increased participation in quality improvement
+          activities)
+       b. Educational outcomes for learners (e.g., higher in-training exam scores)
+       c. Learner self-assessment (i.e., resident/fellow may perform informed self-assessment)
+       d. Patient outcomes
+       e. Individualized learning plans (e.g., customized set of activities to achieve personalized
+          educational goals)
+
+     Not at all effectively | Somewhat effectively | Effectively | Very effectively | Unsure
+     If you selected “not at all effectively” or “somewhat effectively,” please elaborate:____
+
+
+4. How satisfied are you with the following aspects of Milestones 2.0?
+         a. Simple language and design.
+        b. Distinction between meaningful levels of competency (e.g., between Milestone level 2
+           and 3)
+        c. Representation of realistic progression of knowledge, skills, and behaviors (i.e., across
+           the 5 levels)
+        d. Supplemental Guide (ACGME companion document to Milestones 2.0)
+        e. Harmonized Milestones that were developed for all specialties
+        f. Representative of national standards
+     Very unsatisfied | Unsatisfied | Satisfied | Very satisfied | Unsure
+Please elaborate, as desired:
+5. How effectively do harmonized Milestones foster consistent curriculum and assessment across
+   each of the following?
+         a. Institutions
+         b. Departments
+         c. Specialty societies/boards
+Not at all effectively | Somewhat effectively | Effectively | Very effectively | Unsure
+Please elaborate, as desired:
+6. How effectively do the content and competencies assessed by Milestones 2.0 measure the
+   knowledge, skills, and behaviors required by learners to serve the public without supervision?
+   Not at all effectively | Somewhat effectively | Effectively | Very effectively | Unsure
+         Please elaborate, as desired:
+7. How effectively did Milestones 2.0 promote program improvement of the following?
+         a. Assessment of learners
+         a. Feedback to learners
+         b. Individualized learning plans
+         c. Curriculum for harmonized Milestones (PROF, PBLI, ICS, and SBP)
+Not at all effectively | Somewhat effectively | Effectively | Very effectively | Unsure
+    Please elaborate, as desired:
+
+
+8. How satisfied are you with the following aspects of Milestones reporting:
+         a. Frequency (i.e., reporting Milestones twice per year)
+         b. Timing (i.e., reporting Milestones October-January and April-June)
+Very unsatisfied | Unsatisfied | Satisfied | Very Satisfied | Unsure
+    Please elaborate, as desired:
+Section 3: Open-Ended Feedback
+9. What aspects of Milestones 2.0 are most effective in supporting assessment and learner
+   development? (Open text response)
+
+10. What challenges have you encountered in implementing/ongoing use of Milestones 2.0? (Open
+    text response)
+11. What additional tools or resources would help you better use Milestones 2.0? (Open text
+    response)
+
+12. What, if any, faculty development is offered at your program regarding Milestones and/or
+    assessment?
+
+13. Do you have any additional feedback or suggestions for improving the Milestones? (Open text
+    response)
+
+14. Are you willing to take an additional 10-15 minutes to answer a few more in-depth questions
+    regarding the milestones? Y/N (yes go to section 4, no end survey)
+   If Y, select the type of questions you want to answer (check all that apply)
+       a. Data use (two questions)
+       b. Implementation and assessment (five questions)
+       c. Clinical Competency Committee (CCC) (five questions)
+Section 4: Additional questions for those who selected 14Y
+Data Use
+
+   1. Do ___ use their Milestones data? Y/N/unsure matrix
+      a. Learners
+      b. Faculty members (core)
+      c. Faculty members (frontline)
+         If yes, please elaborate as desired:
+   2. Does your Program Evaluation Committee use Milestones data? If so, how? (Y/N/Unsure)
+      Explain:
+
+Implementation and Assessment
+
+   3. How are Milestones 2.0 used to identify and support the learner who is struggling?
+   4. How are Milestones 2.0 used to identify and support the accelerated learner?
+   5. On average, how many assessments per resident per competency are performed every six
+      months?
+   6. Do the Milestones support equitable evaluation of all learners? If so, how or how not?
+      (Y/N) Explain:
+   7. What does effective implementation of Milestones look like?
+
+
+Clinical Competency Committee (CCC) Questions:
+    1. Describe the processes used by the CCC to assign milestones semi-annually, including data
+        sources.
+    2. What is the role of your program director on the CCC?
+           a. CCC chair
+      b. CCC member
+      c. CCC observer
+      d. Program director does not attend
+3. Do you have a patient/public representative on your CCC? y/n
+      a. If yes, describe their role and how they participate_
+4. What percentage of residents/fellows does your CCC review at each meeting?
+      a. Less than 25 percent
+      b. 26-50 percent
+      c. 51-75 percent
+      d. 76-100 percent
+      e. Unsure
+5. Who provides feedback from the CCC to the resident/fellow?
+      a. Program director
+      b. Assistant/associate program director
+      c. CCC member (not program director or assistant/associate program director)
+      d. Resident/fellow advisor
+
