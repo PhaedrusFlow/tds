@@ -22,7 +22,7 @@ Aerial
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-owner of Brickyard also owns 2808, splice project/splitter for mtu possibly 4 units. no conduit to mtu found on site.
+
 ```
 ## Will the new drop/s require pre-installation?
 ```text
@@ -45,7 +45,7 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-follow coax run in back of business from restroom through false ceiling to point of sale.
+follow coax run in back of business from restroom through false ceiling to point of sale. 250 to 300 ft drop recommended
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
@@ -55,7 +55,7 @@ Demarc on outside, see attached images in LCM. unable to see mechanical rm, cx s
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Splice project with 1x2 for units 2802 & 2808 both owned by cx @ 2082. Run drop aerial, demarc rear 2082 w/ conduit leading into 2808.
+Splice project with 1x2 for units 2802 & 2808 both owned by cx @ 2082. Run drop aerial, demarc rear 2082 w/ coax leading into 2808, or from mechanical room in 2808 through conduit @ demarc to 2802
 ```
 
 ## Ped or Hand Hole? *
@@ -67,25 +67,25 @@ yes
 
 ## Distance from Access Point (estimated) *
 ```text
-~75 ft from MST to demarc, path attached in LCM form.
+~200ft from aerial mst to demarc following approx coax path. Straight path over multiple roofs shorter but  not advised
 ```
 
 ## Access Point (if build not complete, enter Not Built)*
 ```text
-Grey conduit used by Comcast running into office from outside. Rodder stuck @150ft with no clear exit on site.
+cx requests fiber follow coax into rear of 2802. Need to access mechanical room in 2808 to determine if splitter goes in/outside there or 2802.
 ```
 ## Fiber Info (Fiber # if centralized, Fiber primary/secondary/etc. if DFN)*
 ```text
 Oct
 XD:1-3 0869C 0869CB,P0013:S4
 0869CB.P0013.S5.T1
-
+XD:10-12
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-cx wants business router for employees and 1x wifi 7 for their customers. Will need to run ethernet from managed switch.
+Cx owns 2802 AND 2808, but 2808 is tenant & NOT tds cx. Ask cx to access mech room in 2808.
 ```
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-wifi7 placement on central pillar- e lcm photos. asked cx to confirm if static ip wanted & confirm current landline provider.
+Point of sale is at front of business. Advised cx to change order from VMG router to WiFi7 router since back corner where they want router would obstruct wifi.
 ```
