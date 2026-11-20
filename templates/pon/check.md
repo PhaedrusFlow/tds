@@ -6,27 +6,27 @@
 ```
 ## Number of Units in the building 
 ```text
-2
+1
 ```
 ## Numbering Scheme of Units *
 ```text
-2802, 2808
+12611
 ```
 ## Unit Number for customer ordering service 
 ```text
-2802
+12611
 ```
 ## Are the current facilities Aerial or Buried?
 ```text
-Aerial
+Buried
 ```
 ## Additional facility notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-
+MST w/ Buried vault NP0886992 with handhole 0889224 across street, then run temp above ground per lcm photo. angle bore most direct but very costly, do NOT recommend.
 ```
 ## Will the new drop/s require pre-installation?
 ```text
-Yes
+No
 ```
 
 ## Who will be placing the drop? *
@@ -35,7 +35,7 @@ FST
 ```
 ## Who will be placing the conduit?*
 ```text
-FST
+drop
 ```
 
 ## Drop Type*
@@ -45,47 +45,45 @@ ROC
 
 ## Additional Drop Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-follow coax run in back of business from restroom through false ceiling to point of sale. 250 to 300 ft drop recommended
+Cx requests line go up side of church and run along inside rafters/wall into server room. Coax currently in place terminates outside in box requiring Jonard star key. 
 ```
 
 ## Additional Demarc Notes (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Demarc on outside, see attached images in LCM. unable to see mechanical rm, cx says it is in 2808.
+Demarc internal - server room. coax concerned with theft/vandalism, requesting line run on side of bldg, NOT following coax path.
 ```
 
 ## What specific work would be required during the Confirm PON Check visit? If additional time/techs are needed, note that here. (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Splice project with 1x2 for units 2802 & 2808 both owned by cx @ 2082. Run drop aerial, demarc rear 2082 w/ coax leading into 2808, or from mechanical room in 2808 through conduit @ demarc to 2802
+run 350-400ft roc drop from mst into handhole and run temp AROUND parking lot to desired termination point on side of building and then through ceiling along wall to server room. Masonry bits needed.
 ```
 
 ## Ped or Hand Hole? *
 ```text
-Pole
+Handhole.
 ```
 ## Do we have fiber count in the Ped?*
 yes
 
 ## Distance from Access Point (estimated) *
 ```text
-~200ft from aerial mst to demarc following approx coax path. Straight path over multiple roofs shorter but  not advised
+~324ft drom buried mst to slackbox point running temp drop AROUND parking lot. 
 ```
 
 ## Access Point (if build not complete, enter Not Built)*
 ```text
-cx requests fiber follow coax into rear of 2802. Need to access mechanical room in 2808 to determine if splitter goes in/outside there or 2802.
+Seam point under roof, cx said could run throufh hole with non functional calendar. 
 ```
 ## Fiber Info (Fiber # if centralized, Fiber primary/secondary/etc. if DFN)*
 ```text
-Oct
-XD:1-3 0869C 0869CB,P0013:S4
-0869CB.P0013.S5.T1
-XD:10-12
+12ct
+XD:1-11 0869BG. P0092,S3,T1
 ```
 ## Additional Notes for Inside Wiring (FST: Copy/paste these notes into your CLICK closing notes)*
 ```text
-Cx owns 2802 AND 2808, but 2808 is tenant & NOT tds cx. Ask cx to access mech room in 2808.
+Server room has unity managed switch with wireless nodes embedded into ceiling. also has switch with ethernet going to other building. 
 ```
 Additional Notes (FST: Copy/paste these notes into your CLICK closing notes)
 ```text
-Point of sale is at front of business. Advised cx to change order from VMG router to WiFi7 router since back corner where they want router would obstruct wifi.
+Cx warned that septic tank is on patn near basketball hoop/gravel parking lot extension for when bury crew buries.
 ```
