@@ -1,9 +1,9 @@
 # Equipment:
     ## ONT
-        ### Nokia 220x1 | S/N: ALCLFFOD4B75
+        ### Nokia 220x1 | S/N: ALCLFF40D48E
 
     ## Router
-        ### Wifi7 x 1 | S/N: JPG526242752
+        ### Wifi7 x 1 | S/N: PG5262423E6
 
     ## Drop
         150 ft x1 SC/APC-SC/APC
