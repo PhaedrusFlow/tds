@@ -6,26 +6,24 @@
         ### Wifi7 x 1 | S/N: PG5262423E6
 
     ## Drop
-        150 ft x1 SC/APC-SC/APC
+        250 ft x1 SC/APC-SC/APC
 
 # Customer:
 
-    ## Called Cx, they confirmed appt. Installed 150 ft roc aerial drop into mst, added service loop at mst and at attachment point on home. secured with screw clips to penetration point. used preexisting pen point per cx request and kept quantum fiber isp connected so they could compare per their request. made two port face plate for both lines into home, ran 5ft rugged for both and confirmed both came up.ect cx single port face plate for when they cut off quantum fiber.
+    ## Called Cx, they confirmed appt. Installed 250 ft roc aerial drop into mst, added service loop at attachment point on home. secured with screw clips to penetration point. used preexisting pen point per cx request, installed fiber face plate, ran 10ft rugged and provisioned twice 
 
 # Handoff:
 
-    ##ONT Light: -16.54dB/m
+    ##ONT Light: -18.11 dB/m
 
-    ## SB Light: -16.14 dB/m
+    ## SB Light: -17.59 dB/m
 
-    ## Splitter Light: -15.64dB/m
+    ## Splitter Light: -17.04dB/m
 
 # Observables:
 
     ## Plume
-        ### Speed Test: 334mbps up/ 335 mpbs down
+        ### Speed Test: 977mbps up/ 1017 mpbs down
 
     ## BXE
         ### Certified w/ all tests passed: Yes
-
-    ## Inventory form required: Y
